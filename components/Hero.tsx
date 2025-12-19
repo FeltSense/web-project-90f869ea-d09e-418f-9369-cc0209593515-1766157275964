@@ -44,7 +44,7 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex justify-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/30 backdrop-blur-sm hover:bg-indigo-500/20 transition-colors">
               <Sparkles className="w-4 h-4 text-indigo-400 animate-spin" style={{ animationDuration: '3s' }} />
-              <span className="text-sm font-semibold text-indigo-300">Transforming Ideas Into Reality</span>
+              <span className="text-sm font-semibold text-indigo-300">AI-Powered Culinary Intelligence</span>
             </div>
           </motion.div>
 
@@ -58,7 +58,7 @@ export default function Hero() {
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Get AI-generated recipes tailored to your dietary preferences, allergies, and health goals. Our intelligent system learns your tastes and creates personalized meal plans that are delicious, nutritious, and perfectly suited to your lifestyle. Transform your eating habits with smart, science-backed nutrition.
+              Unlock endless culinary possibilities with AI that understands your unique taste preferences, dietary restrictions, and nutritional goals. Every recipe is crafted just for you—delicious, healthy, and ready to inspire your next meal.
             </p>
           </motion.div>
 
@@ -66,16 +66,16 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
             <Link 
               href="#contact" 
-              className="group px-8 py-4 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white rounded-xl font-semibold hover:from-emerald-700 hover:to-emerald-800 transition-all transform hover:scale-105 shadow-lg hover:shadow-emerald-500/50 flex items-center justify-center gap-2"
+              className="group px-8 py-4 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 text-white rounded-xl font-semibold hover:from-emerald-600 hover:via-cyan-600 hover:to-indigo-600 transition-all transform hover:scale-105 shadow-lg hover:shadow-emerald-500/50 flex items-center justify-center gap-2"
             >
-              Start Your Wellness Journey
+              Get Started Now
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link 
               href="#features" 
-              className="px-8 py-4 border-2 border-emerald-500/50 text-white rounded-xl font-semibold hover:bg-emerald-500/10 hover:border-emerald-400 transition-all backdrop-blur-sm hover:scale-105 transition-transform"
+              className="px-8 py-4 border-2 border-cyan-500/50 text-white rounded-xl font-semibold hover:bg-cyan-500/10 hover:border-cyan-400 transition-all backdrop-blur-sm hover:scale-105 transition-transform"
             >
-              Explore Our Features
+              Learn More
             </Link>
           </motion.div>
 
