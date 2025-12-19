@@ -91,8 +91,8 @@ export default function Features(): JSX.Element {
           className="text-center mb-20"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
-            <Sparkles className="w-4 h-4 text-emerald-600 animate-pulse" />
-            <span className="text-sm font-semibold text-emerald-600">Powerful Features</span>
+            <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
+            <span className="text-sm font-semibold text-emerald-600">✨ Powerful Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             Everything You Need to Cook Like a Pro
@@ -120,7 +120,7 @@ export default function Features(): JSX.Element {
               <div className="absolute top-0 right-0 w-40 h-40 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-0 group-hover:opacity-15 transition-opacity duration-300" />
 
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-emerald-500 via-cyan-500 to-indigo-500 rounded-xl mb-6 text-white group-hover:shadow-xl group-hover:scale-125 transition-all duration-300">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-500 via-cyan-500 to-indigo-500 rounded-2xl mb-6 text-white group-hover:shadow-2xl group-hover:scale-125 transition-all duration-300 shadow-lg">
                   {feature.icon}
                 </div>
 

@@ -29,8 +29,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-16">
           {/* Brand Column */}
           <div className="flex flex-col gap-6">
-            <Link href="/" className="text-2xl font-bold text-white tracking-tight">
-              Hello My Love
+            <Link href="/" className="text-2xl font-bold text-white tracking-tight group">
+              <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent group-hover:from-cyan-400 group-hover:to-emerald-400 transition-all duration-300">🍳 Hello My Love</span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
               Nourish your body. Elevate your health. Love every bite.
@@ -42,7 +42,7 @@ export default function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-500 hover:text-violet-600 transition-colors duration-300"
+                  className="text-slate-500 hover:text-emerald-400 transition-colors duration-300 hover:scale-125 transform"
                   aria-label={social.name}
                 >
                   <social.icon className="w-5 h-5" />
@@ -64,9 +64,10 @@ export default function Footer() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="text-slate-400 hover:text-violet-600 text-sm transition-colors duration-300"
+                  className="text-slate-400 hover:text-emerald-400 text-sm transition-colors duration-300 relative group"
                 >
                   {link.name}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-400 to-cyan-400 group-hover:w-full transition-all duration-300" />
                 </Link>
               ))}
             </div>
@@ -82,9 +83,10 @@ export default function Footer() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="text-slate-400 hover:text-violet-600 text-sm transition-colors duration-300"
+                  className="text-slate-400 hover:text-emerald-400 text-sm transition-colors duration-300 relative group"
                 >
                   {link.name}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-400 to-cyan-400 group-hover:w-full transition-all duration-300" />
                 </Link>
               ))}
             </div>

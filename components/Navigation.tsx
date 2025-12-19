@@ -16,11 +16,11 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full top-0 z-50 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 border-b border-indigo-500/20 backdrop-blur-md">
+    <nav className="fixed w-full top-0 z-50 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 border-b border-indigo-500/30 backdrop-blur-md shadow-lg shadow-indigo-500/10">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="text-2xl font-bold tracking-tight text-white hover:text-indigo-400 transition-colors duration-300">
-            <span className="bg-gradient-to-r from-indigo-400 to-emerald-400 bg-clip-text text-transparent">Hello My Love</span>
+          <Link href="/" className="text-2xl font-bold tracking-tight text-white hover:text-indigo-400 transition-colors duration-300 group">
+            <span className="bg-gradient-to-r from-indigo-400 to-emerald-400 bg-clip-text text-transparent group-hover:from-emerald-400 group-hover:to-indigo-400 transition-all duration-300">🍳 Hello My Love</span>
           </Link>
           
           {/* Desktop Navigation */}
@@ -29,9 +29,10 @@ export default function Navigation() {
               <Link 
                 key={link.name} 
                 href={link.href} 
-                className="text-slate-400 hover:text-white font-medium transition-colors duration-300"
+                className="text-slate-400 hover:text-white font-medium transition-colors duration-300 relative group"
               >
                 {link.name}
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-400 to-cyan-400 group-hover:w-full transition-all duration-300" />
               </Link>
             ))}
             <Link 

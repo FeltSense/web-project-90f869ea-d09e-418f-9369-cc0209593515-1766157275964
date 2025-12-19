@@ -57,6 +57,9 @@ export default function ContactForm() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-500/30 mb-6">
+            <span className="text-sm font-semibold text-emerald-300">📧 Get In Touch</span>
+          </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-white mb-4">Start Your Wellness Journey</h2>
           <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">Join thousands of people discovering personalized nutrition and health insights. Fill out the form below and we'll get in touch within 24 hours.</p>
         </motion.div>
@@ -68,13 +71,13 @@ export default function ContactForm() {
           className="max-w-xl mx-auto"
         >
           {status === 'success' ? (
-            <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 text-center">
-              <CheckCircle className="w-12 h-12 mx-auto mb-4 text-emerald-400" />
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Welcome to Hello My Love!</h3>
-              <p className="text-slate-500">We'll be in touch soon with personalized recommendations for your health journey.</p>
+            <div className="bg-gradient-to-br from-white to-emerald-50 rounded-2xl shadow-lg border border-emerald-200 p-8 text-center">
+              <CheckCircle className="w-12 h-12 mx-auto mb-4 text-emerald-500 animate-bounce" />
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">🎉 Welcome to Hello My Love!</h3>
+              <p className="text-slate-600">We'll be in touch soon with personalized recommendations for your health journey.</p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 space-y-6">
+            <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 space-y-6">
               <div className="space-y-2">
                 <label htmlFor="name" className="block text-sm font-semibold text-slate-900">Full Name</label>
                 <input 
@@ -110,9 +113,9 @@ export default function ContactForm() {
               <button 
                 type="submit" 
                 disabled={status === 'loading'} 
-                className="w-full bg-violet-600 hover:bg-violet-700 text-white font-semibold rounded-xl px-8 py-4 transition-all duration-300 shadow-sm hover:shadow-md disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                className="w-full bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white font-semibold rounded-xl px-8 py-4 transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >
-                {status === 'loading' ? 'Submitting...' : 'Get Started'}
+                {status === 'loading' ? 'Submitting...' : '🚀 Get Started'}
                 {status !== 'loading' && <Send className="w-5 h-5" />}
               </button>
             </form>

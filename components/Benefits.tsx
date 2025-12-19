@@ -97,6 +97,10 @@ const Benefits: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
+            <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
+            <span className="text-sm font-semibold text-emerald-600">✨ Why Choose Us</span>
+          </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-cyan-600 to-indigo-600 bg-clip-text text-transparent mb-6">
             Powerful Features for Every Cook
           </h2>
@@ -121,16 +125,16 @@ const Benefits: React.FC = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl" />
 
-              <div className="relative h-full bg-white border border-slate-200 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300">
-                <div className={`inline-flex p-4 rounded-xl bg-gradient-to-r ${benefit.gradient} mb-6 text-white shadow-lg`}>
+              <div className="relative h-full bg-white border border-slate-200 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                <div className={`inline-flex p-4 rounded-xl bg-gradient-to-r ${benefit.gradient} mb-6 text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                   {benefit.icon}
                 </div>
 
-                <h3 className="text-xl font-bold text-slate-900 mb-3">
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-emerald-600 transition-colors duration-300">
                   {benefit.title}
                 </h3>
 
-                <p className="text-slate-600 leading-relaxed">
+                <p className="text-slate-600 leading-relaxed group-hover:text-slate-700 transition-colors duration-300">
                   {benefit.description}
                 </p>
 

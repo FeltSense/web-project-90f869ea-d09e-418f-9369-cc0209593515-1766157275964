@@ -35,6 +35,9 @@ export default function Testimonials() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
+            <span className="text-sm font-semibold text-emerald-600">⭐ Testimonials</span>
+          </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-4">
             Loved by health professionals
           </h2>
@@ -51,11 +54,12 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 relative hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+              className="bg-white rounded-2xl p-8 shadow-md border border-slate-100 relative hover:shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden group"
             >
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-transparent to-cyan-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               {/* Verified User Badge */}
-              <div className="absolute -top-3 left-8 bg-violet-600 text-white text-xs px-3 py-1 rounded-full font-medium">
-                Verified User
+              <div className="absolute -top-3 left-8 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white text-xs px-3 py-1 rounded-full font-medium shadow-md">
+                ✓ Verified User
               </div>
 
               {/* Star Rating */}

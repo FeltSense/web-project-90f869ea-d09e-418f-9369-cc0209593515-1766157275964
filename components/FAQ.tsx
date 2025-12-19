@@ -62,12 +62,12 @@ interface AccordionItemProps {
 function AccordionItem({ item, isOpen, onToggle }: AccordionItemProps): JSX.Element {
   return (
     <motion.div
-      className="border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500 transition-colors duration-300"
+      className="border border-gray-700 rounded-lg overflow-hidden hover:border-emerald-500 transition-colors duration-300 group"
       initial={false}
     >
       <button
         onClick={() => onToggle(item.id)}
-        className="w-full px-6 py-4 flex items-center justify-between bg-gray-900 hover:bg-gray-800 transition-colors duration-200"
+        className="w-full px-6 py-4 flex items-center justify-between bg-gray-900 hover:bg-gray-800 transition-colors duration-200 group-hover:bg-gray-800"
       >
         <h3 className="text-left text-lg font-semibold text-white">
           {item.question}
@@ -123,9 +123,9 @@ export default function FAQ(): JSX.Element {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <HelpCircle className="w-8 h-8 text-purple-400" />
-            <span className="text-sm font-semibold text-purple-300 uppercase tracking-wider">Help & Support</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-500/30 mb-6">
+            <HelpCircle className="w-4 h-4 text-emerald-300" />
+            <span className="text-sm font-semibold text-emerald-300">❓ Help & Support</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             Frequently Asked Questions
