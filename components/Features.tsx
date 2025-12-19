@@ -95,10 +95,10 @@ export default function Features(): JSX.Element {
             <span className="text-sm font-semibold text-emerald-600">✨ Powerful Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Everything You Need to Cook Like a Pro
+            Powerful Features Built for You
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Our AI-powered platform combines cutting-edge machine learning with nutritional science to deliver personalized recipes, intelligent meal planning, and comprehensive health insights. Cook smarter, eat healthier, and save time—all in one place.
+            Discover the cutting-edge capabilities that make our AI-powered platform the ultimate cooking companion. From instant recipe generation to intelligent meal planning, every feature is designed to transform how you cook and eat.
           </p>
         </motion.div>
 

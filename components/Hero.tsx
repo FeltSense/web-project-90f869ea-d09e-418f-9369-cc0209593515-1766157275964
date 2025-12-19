@@ -51,15 +51,15 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
-              Transform Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400 animate-pulse">Kitchen with AI</span>
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400 animate-pulse">AI Chef</span> Awaits
             </h1>
-            <p className="text-lg text-slate-400 mt-4">The future of cooking is here</p>
+            <p className="text-lg text-slate-400 mt-4">Personalized recipes, smart meal planning, and nutritional intelligence</p>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Discover personalized recipes tailored to your taste, dietary needs, and available ingredients. Our AI chef creates restaurant-quality meals in minutes, making cooking effortless and enjoyable for everyone.
+              Get unlimited personalized recipes in seconds. Our advanced AI analyzes your taste preferences, dietary restrictions, and available ingredients to create meals uniquely tailored to you. Cook smarter, eat healthier, save time—all in one place.
             </p>
           </motion.div>
 
