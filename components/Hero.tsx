@@ -58,7 +58,7 @@ export default function Hero() {
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Unlock endless culinary possibilities with AI that understands your unique taste preferences, dietary restrictions, and nutritional goals. Every recipe is crafted just for you—delicious, healthy, and ready to inspire your next meal.
+              Transform your kitchen with AI-powered recipes tailored to your taste, dietary needs, and health goals. From quick weeknight dinners to impressive entertaining menus—every dish is personalized, nutritious, and absolutely delicious.
             </p>
           </motion.div>
 
@@ -68,14 +68,14 @@ export default function Hero() {
               href="#contact" 
               className="group px-8 py-4 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 text-white rounded-xl font-semibold hover:from-emerald-600 hover:via-cyan-600 hover:to-indigo-600 transition-all transform hover:scale-105 shadow-lg hover:shadow-emerald-500/50 flex items-center justify-center gap-2"
             >
-              Get Started Now
+              Start Creating Recipes
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link 
               href="#features" 
               className="px-8 py-4 border-2 border-cyan-500/50 text-white rounded-xl font-semibold hover:bg-cyan-500/10 hover:border-cyan-400 transition-all backdrop-blur-sm hover:scale-105 transition-transform"
             >
-              Learn More
+              Explore Features
             </Link>
           </motion.div>
 
