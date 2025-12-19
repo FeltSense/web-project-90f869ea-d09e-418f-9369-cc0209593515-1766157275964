@@ -116,10 +116,10 @@ export default function ProductHighlights(): React.ReactElement {
           viewport={{ once: true, margin: '-100px' }}
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text text-transparent mb-6">
-            Everything You Need to Cook Smarter
+            The Future of Home Cooking is Here
           </h2>
           <p className="text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
-            Discover why thousands of home cooks trust our AI-powered platform to transform their kitchen and simplify meal planning.
+            Experience the power of AI-driven recipe generation, intelligent meal planning, and personalized nutrition guidance. Join thousands of home cooks who've transformed their kitchen experience.
           </p>
         </motion.div>
 
