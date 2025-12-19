@@ -51,47 +51,48 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
-              Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">AI-Powered Personal Chef</span> Awaits
+              Discover <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">Personalized Recipes</span> in Seconds
             </h1>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Stop scrolling through endless recipes. Get AI-generated meals customized to your preferences, dietary restrictions, and nutritional goals. Enjoy restaurant-quality dishes at home in minutes—no cooking experience required.
+              Transform your kitchen with AI-powered recipes tailored to your taste, dietary needs, and available ingredients. From quick weeknight dinners to impressive dinner party dishes—create restaurant-quality meals at home, effortlessly.
             </p>
           </motion.div>
 
           {/* CTA Buttons */}
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
             <Link 
               href="#contact" 
-              className="group px-8 py-4 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 text-white rounded-xl font-semibold hover:from-emerald-600 hover:via-cyan-600 hover:to-indigo-600 transition-all transform hover:scale-105 shadow-lg hover:shadow-emerald-500/50 flex items-center justify-center gap-2"
+              className="group px-10 py-5 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 text-white rounded-xl font-bold text-lg hover:from-emerald-600 hover:via-cyan-600 hover:to-indigo-600 transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/60 flex items-center justify-center gap-2 relative overflow-hidden"
             >
-              Get Your First Recipe Free
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <span className="relative z-10">Start Creating Recipes Now</span>
+              <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform relative z-10" />
+              <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity" />
             </Link>
             <Link 
               href="#features" 
-              className="px-8 py-4 border-2 border-cyan-500/50 text-white rounded-xl font-semibold hover:bg-cyan-500/10 hover:border-cyan-400 transition-all backdrop-blur-sm hover:scale-105 transition-transform"
+              className="px-10 py-5 border-2 border-cyan-500/50 text-white rounded-xl font-semibold text-lg hover:bg-cyan-500/15 hover:border-cyan-400 transition-all backdrop-blur-sm hover:scale-105 transform"
             >
-              See How It Works
+              Explore Features
             </Link>
           </motion.div>
 
           {/* Trust indicators */}
-          <motion.div variants={itemVariants} className="pt-12 flex flex-col sm:flex-row items-center justify-center gap-8 text-slate-400 text-sm">
-            <div className="flex items-center gap-2 hover:text-slate-200 transition-colors">
-              <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
-              <span>⭐ 4.9/5 from 50,000+ users</span>
+          <motion.div variants={itemVariants} className="pt-16 flex flex-col sm:flex-row items-center justify-center gap-8 text-slate-300 text-sm font-medium">
+            <div className="flex items-center gap-3 hover:text-emerald-300 transition-colors cursor-pointer">
+              <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse" />
+              <span>⭐ 4.9/5 from 50,000+ happy users</span>
             </div>
-            <div className="flex items-center gap-2 hover:text-slate-200 transition-colors">
-              <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
-              <span>🎯 Recipes ready in seconds</span>
+            <div className="flex items-center gap-3 hover:text-cyan-300 transition-colors cursor-pointer">
+              <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse" />
+              <span>⚡ Recipes generated in seconds</span>
             </div>
-            <div className="flex items-center gap-2 hover:text-slate-200 transition-colors">
-              <div className="w-2 h-2 bg-indigo-400 rounded-full animate-pulse" />
-              <span>✨ Nutritionist-approved</span>
+            <div className="flex items-center gap-3 hover:text-indigo-300 transition-colors cursor-pointer">
+              <div className="w-3 h-3 bg-indigo-400 rounded-full animate-pulse" />
+              <span>✅ Nutritionist-verified recipes</span>
             </div>
           </motion.div>
         </motion.div>
