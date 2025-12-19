@@ -81,24 +81,24 @@ const itemVariants = {
 
 export default function Features(): JSX.Element {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+    <section id="features" className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 via-white to-slate-50">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
-            <Sparkles className="w-4 h-4 text-emerald-600" />
-            <span className="text-sm font-semibold text-emerald-600">Why Choose Us</span>
+            <Sparkles className="w-4 h-4 text-emerald-600 animate-pulse" />
+            <span className="text-sm font-semibold text-emerald-600">Powerful Features</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Comprehensive Health & Wellness Features
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+            Everything You Need for Optimal Health
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to transform your health journey. Powered by science, designed for you.
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Discover our comprehensive suite of tools designed to help you achieve your wellness goals. From AI-powered insights to community support, we've got you covered.
           </p>
         </motion.div>
 
@@ -113,27 +113,27 @@ export default function Features(): JSX.Element {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="group relative bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-indigo-400 overflow-hidden"
+              className="group relative bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-emerald-400 overflow-hidden"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-transparent to-emerald-50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-transparent to-cyan-50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               
-              <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-100 rounded-full mix-blend-multiply filter blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
+              <div className="absolute top-0 right-0 w-40 h-40 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-0 group-hover:opacity-15 transition-opacity duration-300" />
 
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-500 to-cyan-500 rounded-xl mb-6 text-white group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-emerald-500 via-cyan-500 to-indigo-500 rounded-xl mb-6 text-white group-hover:shadow-xl group-hover:scale-125 transition-all duration-300">
                   {feature.icon}
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-emerald-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-emerald-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
 
-                <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
                   {feature.description}
                 </p>
               </div>
 
-              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-emerald-500 to-cyan-500 group-hover:w-full transition-all duration-300 rounded-b-xl" />
+              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 group-hover:w-full transition-all duration-300 rounded-b-2xl" />
             </motion.div>
           ))}
         </motion.div>

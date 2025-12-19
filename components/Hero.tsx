@@ -51,14 +51,14 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
-              Your Health, <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">Elevated</span>
+              Transform Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">Wellness Journey</span>
             </h1>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Discover the future of food and health technology. We combine cutting-edge innovation with personalized wellness solutions to help you achieve your health goals and live your best life.
+              Experience personalized health insights powered by AI. Track your nutrition, monitor your progress, and achieve your wellness goals with our comprehensive health platform designed for modern living.
             </p>
           </motion.div>
 
