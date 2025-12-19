@@ -51,9 +51,9 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
-              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400 animate-pulse">AI Chef</span> Awaits
+              Cook Smarter, Eat Better with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400 animate-pulse">AI-Powered Recipes</span>
             </h1>
-            <p className="text-lg text-slate-300 mt-4">Transform your kitchen with AI-powered meal planning, personalized recipes, and intelligent nutrition tracking</p>
+            <p className="text-lg text-slate-300 mt-4">Personalized meal planning, instant recipes, and nutrition tracking—all powered by advanced AI</p>
           </motion.div>
 
           {/* Subheading */}
@@ -69,7 +69,7 @@ export default function Hero() {
               href="#contact" 
               className="group px-10 py-5 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 text-white rounded-xl font-bold text-lg hover:from-emerald-600 hover:via-cyan-600 hover:to-indigo-600 transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/60 flex items-center justify-center gap-2 relative overflow-hidden"
             >
-              <span className="relative z-10">✨ Start Cooking Smarter</span>
+              <span className="relative z-10">🚀 Get Started Free</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform relative z-10" />
               <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity" />
             </Link>

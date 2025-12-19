@@ -92,13 +92,13 @@ export default function Features(): JSX.Element {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
             <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
-            <span className="text-sm font-semibold text-emerald-600">✨ Powerful Features</span>
+            <span className="text-sm font-semibold text-emerald-600">✨ Key Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Powerful Features Built for Every Cook
+            Everything You Need to Cook Like a Pro
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Discover the cutting-edge capabilities that make our AI-powered platform the ultimate cooking companion. From instant recipe generation to intelligent meal planning, every feature is designed to save you time, reduce stress, and help you cook delicious, healthy meals every day.
+            Our AI-powered platform combines intelligent recipe generation, smart meal planning, and nutrition tracking into one seamless experience. Save time, reduce food waste, and enjoy delicious, healthy meals every single day.
           </p>
         </motion.div>
 
