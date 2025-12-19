@@ -20,9 +20,9 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <Zap className="w-8 h-8" />,
-    title: 'AI-Powered Nutrition Analysis',
+    title: 'AI Recipe Generation',
     description:
-      'Advanced AI algorithms analyze your food intake and provide personalized nutrition insights. Get real-time recommendations tailored to your health goals and dietary preferences.',
+      'Our advanced AI generates unlimited personalized recipes based on your dietary preferences, allergies, and nutritional goals. Get creative meal ideas that match your taste and health objectives.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
@@ -32,27 +32,27 @@ const features: Feature[] = [
   },
   {
     icon: <Smartphone className="w-8 h-8" />,
-    title: 'Mobile-First Experience',
+    title: 'Smart Meal Planning',
     description:
-      'Seamlessly track your health on the go. Our intuitive mobile app makes logging meals, workouts, and health metrics effortless and enjoyable.',
+      'Automatically generate weekly meal plans that fit your schedule and preferences. Get shopping lists, prep instructions, and nutritional breakdowns for every recipe.',
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
-    title: 'Progress Tracking & Analytics',
+    title: 'Nutritional Intelligence',
     description:
-      'Visualize your health journey with comprehensive analytics. Track weight, energy levels, and wellness metrics with beautiful, actionable insights.',
+      'Track macros, micros, and calories with AI-powered insights. Understand how each recipe contributes to your health goals with detailed nutritional analysis.',
   },
   {
     icon: <Users className="w-8 h-8" />,
-    title: 'Community & Support',
+    title: 'Dietary Customization',
     description:
-      'Connect with thousands of health-conscious individuals. Share recipes, tips, and celebrate milestones with our supportive wellness community.',
+      'Support for keto, vegan, paleo, gluten-free, and 50+ other dietary preferences. The AI learns your restrictions and generates recipes that work for you.',
   },
   {
     icon: <Workflow className="w-8 h-8" />,
-    title: 'Personalized Meal Plans',
+    title: 'Ingredient Substitution',
     description:
-      'Get custom meal plans based on your preferences, allergies, and health goals. Discover delicious recipes that align with your wellness journey.',
+      'Can\'t find an ingredient? The AI suggests smart alternatives that maintain nutritional value and taste. Never let missing ingredients stop your cooking.',
   },
 ];
 
@@ -95,10 +95,10 @@ export default function Features(): JSX.Element {
             <span className="text-sm font-semibold text-emerald-600">Powerful Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Everything You Need for Optimal Health
+            Powerful AI Recipe Features
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Discover our comprehensive suite of tools designed to help you achieve your wellness goals. From AI-powered insights to community support, we've got you covered.
+            Our AI recipe generator comes packed with intelligent features designed to make meal planning effortless, personalized, and delicious. From smart meal planning to dietary customization, discover how AI transforms your cooking experience.
           </p>
         </motion.div>
 
