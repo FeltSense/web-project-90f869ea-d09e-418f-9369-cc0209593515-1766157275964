@@ -26,6 +26,12 @@ const services = [
 ];
 
 export default function Services() {
+  // Extract icon components to use in JSX
+  const Icon0 = services[0].icon;
+  const Icon1 = services[1].icon;
+  const Icon2 = services[2].icon;
+  const Icon3 = services[3].icon;
+
   return (
     <section id="services" className="bg-white py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -43,7 +49,7 @@ export default function Services() {
           <div className="md:col-span-2 bg-violet-50 rounded-3xl p-8 md:p-10 min-h-[320px] flex flex-col justify-between">
             <div>
               <div className="w-16 h-16 rounded-2xl bg-violet-100 flex items-center justify-center mb-6">
-                <services[0].icon className="w-8 h-8 text-violet-600" />
+                <Icon0 className="w-8 h-8 text-violet-600" />
               </div>
               <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-4">
                 {services[0].title}
@@ -58,7 +64,7 @@ export default function Services() {
           <div className="bg-white rounded-3xl p-8 min-h-[320px] border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
             <div>
               <div className="w-14 h-14 rounded-2xl bg-emerald-50 flex items-center justify-center mb-6">
-                <services[1].icon className="w-7 h-7 text-emerald-400" />
+                <Icon1 className="w-7 h-7 text-emerald-400" />
               </div>
               <h3 className="text-xl font-bold tracking-tight text-slate-900 mb-3">
                 {services[1].title}
@@ -73,7 +79,7 @@ export default function Services() {
           <div className="bg-white rounded-3xl p-8 min-h-[280px] border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
             <div>
               <div className="w-14 h-14 rounded-2xl bg-violet-100 flex items-center justify-center mb-6">
-                <services[2].icon className="w-7 h-7 text-violet-600" />
+                <Icon2 className="w-7 h-7 text-violet-600" />
               </div>
               <h3 className="text-xl font-bold tracking-tight text-slate-900 mb-3">
                 {services[2].title}
@@ -88,7 +94,7 @@ export default function Services() {
           <div className="md:col-span-2 bg-slate-900 rounded-3xl p-8 md:p-10 min-h-[280px] flex flex-col justify-between">
             <div>
               <div className="w-16 h-16 rounded-2xl bg-emerald-400/20 flex items-center justify-center mb-6">
-                <services[3].icon className="w-8 h-8 text-emerald-400" />
+                <Icon3 className="w-8 h-8 text-emerald-400" />
               </div>
               <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-white mb-4">
                 {services[3].title}
