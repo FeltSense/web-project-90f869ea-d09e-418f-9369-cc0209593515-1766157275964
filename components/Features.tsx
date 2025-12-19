@@ -20,39 +20,39 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <Zap className="w-8 h-8" />,
-    title: 'AI Recipe Generation',
+    title: 'Intelligent Recipe Generation',
     description:
-      'Our advanced AI generates unlimited personalized recipes based on your dietary preferences, allergies, and nutritional goals. Get creative meal ideas that match your taste and health objectives. Powered by machine learning trained on thousands of recipes.',
+      'Unlimited personalized recipes created by advanced AI. Our machine learning engine analyzes your preferences, dietary restrictions, and health goals to generate recipes that are uniquely tailored to you. Every recipe is optimized for taste, nutrition, and ease of preparation.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
-    title: 'Privacy & Data Security',
+    title: 'Privacy & Security First',
     description:
-      'Bank-level encryption and HIPAA compliance. Your health data is protected with industry-leading security protocols and never shared without your consent. Your privacy is our top priority.',
+      'Enterprise-grade encryption and HIPAA compliance protect your health data. We never share your information without explicit consent. Your privacy and security are fundamental to everything we do.',
   },
   {
     icon: <Smartphone className="w-8 h-8" />,
-    title: 'Smart Meal Planning',
+    title: 'Automated Meal Planning',
     description:
-      'Automatically generate weekly meal plans that fit your schedule and preferences. Get shopping lists, prep instructions, and nutritional breakdowns for every recipe. Save hours on meal planning.',
+      'Generate complete weekly meal plans in seconds. Get organized shopping lists, step-by-step prep instructions, and detailed nutritional breakdowns. Meal planning has never been easier or more efficient.',
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
-    title: 'Nutritional Intelligence',
+    title: 'Advanced Nutrition Tracking',
     description:
-      'Track macros, micros, and calories with AI-powered insights. Understand how each recipe contributes to your health goals with detailed nutritional analysis. Make informed dietary choices.',
+      'Monitor macronutrients, micronutrients, and calories with AI-powered analytics. Understand exactly how each recipe supports your health goals. Make data-driven decisions about your nutrition.',
   },
   {
     icon: <Users className="w-8 h-8" />,
-    title: 'Dietary Customization',
+    title: 'Flexible Dietary Support',
     description:
-      'Support for keto, vegan, paleo, gluten-free, and 50+ other dietary preferences. The AI learns your restrictions and generates recipes that work for you. Fully personalized to your needs.',
+      'Support for 50+ dietary preferences including keto, vegan, paleo, gluten-free, and more. The AI adapts to your restrictions and preferences. Enjoy delicious meals that fit your lifestyle perfectly.',
   },
   {
     icon: <Workflow className="w-8 h-8" />,
-    title: 'Ingredient Substitution',
+    title: 'Smart Ingredient Swaps',
     description:
-      'Can\'t find an ingredient? The AI suggests smart alternatives that maintain nutritional value and taste. Never let missing ingredients stop your cooking. Always have a solution ready.',
+      'Missing an ingredient? Get intelligent alternatives that preserve nutritional value and taste. Never let ingredient availability limit your cooking. Always have a perfect solution ready.',
   },
 ];
 
@@ -95,10 +95,10 @@ export default function Features(): JSX.Element {
             <span className="text-sm font-semibold text-emerald-600">Powerful Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Key Capabilities of Our AI Recipe Generator
+            Powerful Features Built for Your Success
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Discover the intelligent features that power our AI recipe generator. From personalized recipe creation to smart meal planning, our advanced AI technology delivers everything you need for effortless, healthy eating tailored to your unique preferences and goals.
+            Experience the full power of AI-driven recipe generation. Our intelligent platform combines advanced machine learning with nutritional science to deliver personalized recipes, automated meal planning, and comprehensive health insights—all designed to make healthy eating effortless and enjoyable.
           </p>
         </motion.div>
 

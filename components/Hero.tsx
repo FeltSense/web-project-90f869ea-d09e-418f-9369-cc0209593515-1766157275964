@@ -51,14 +51,14 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
-              AI-Powered <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">Recipe Generation</span> for Your Health
+              Discover <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">Personalized Recipes</span> Powered by AI
             </h1>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Discover personalized recipes tailored to your dietary preferences, health goals, and nutritional needs. Our advanced AI analyzes thousands of ingredients and recipes to create delicious, nutritious meal plans just for you. Say goodbye to meal planning stress and hello to effortless, healthy eating.
+              Get AI-generated recipes tailored to your dietary preferences, allergies, and health goals. Our intelligent system learns your tastes and creates personalized meal plans that are delicious, nutritious, and perfectly suited to your lifestyle. Transform your eating habits with smart, science-backed nutrition.
             </p>
           </motion.div>
 
