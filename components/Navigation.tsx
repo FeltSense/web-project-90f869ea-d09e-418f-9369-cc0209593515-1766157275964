@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
+  { name: 'Features', href: '#features' },
   { name: 'Services', href: '#services' },
   { name: 'Testimonials', href: '#testimonials' },
   { name: 'Pricing', href: '#pricing' },
@@ -15,11 +16,11 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full top-0 z-50 bg-slate-950 border-b border-slate-800">
+    <nav className="fixed w-full top-0 z-50 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 border-b border-indigo-500/20 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="text-2xl font-bold tracking-tight text-white">
-            Hello My Love
+          <Link href="/" className="text-2xl font-bold tracking-tight text-white hover:text-indigo-400 transition-colors duration-300">
+            <span className="bg-gradient-to-r from-indigo-400 to-emerald-400 bg-clip-text text-transparent">Hello My Love</span>
           </Link>
           
           {/* Desktop Navigation */}
@@ -35,7 +36,7 @@ export default function Navigation() {
             ))}
             <Link 
               href="#contact" 
-              className="bg-violet-600 hover:bg-violet-700 text-white font-semibold rounded-xl px-6 py-2.5 transition-all duration-300 shadow-sm hover:shadow-md"
+              className="bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 text-white font-semibold rounded-xl px-6 py-2.5 transition-all duration-300 shadow-sm hover:shadow-indigo-500/50 hover:shadow-md"
             >
               Get Started
             </Link>
@@ -66,7 +67,7 @@ export default function Navigation() {
             <Link 
               href="#contact" 
               onClick={() => setIsOpen(false)} 
-              className="block mt-6 bg-violet-600 hover:bg-violet-700 text-white font-semibold rounded-xl px-6 py-3 transition-all duration-300 shadow-sm hover:shadow-md text-center"
+              className="block mt-6 bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 text-white font-semibold rounded-xl px-6 py-3 transition-all duration-300 shadow-sm hover:shadow-indigo-500/50 hover:shadow-md text-center"
             >
               Get Started
             </Link>
