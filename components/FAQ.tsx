@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, HelpCircle } from 'lucide-react';
 
 interface FAQItem {
   id: number;
@@ -114,7 +114,7 @@ export default function FAQ(): JSX.Element {
   };
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
+    <section id="faq" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -123,11 +123,15 @@ export default function FAQ(): JSX.Element {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <HelpCircle className="w-8 h-8 text-purple-400" />
+            <span className="text-sm font-semibold text-purple-300 uppercase tracking-wider">Help & Support</span>
+          </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-400">
-            Find answers to common questions about our AI-powered recipe service
+            Everything you need to know about our AI-powered recipe service
           </p>
         </motion.div>
 
@@ -160,16 +164,16 @@ export default function FAQ(): JSX.Element {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
-          className="mt-16 p-8 bg-gradient-to-r from-purple-900/20 to-pink-900/20 border border-purple-500/30 rounded-lg text-center"
+          className="mt-16 p-8 bg-gradient-to-r from-purple-900/20 to-pink-900/20 border border-purple-500/30 rounded-xl text-center"
         >
           <h3 className="text-2xl font-bold text-white mb-2">
             Still have questions?
           </h3>
           <p className="text-gray-300 mb-6">
-            Can't find the answer you're looking for? Please contact our support team.
+            Can't find the answer you're looking for? Our support team is here to help.
           </p>
           <button className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105">
-            Contact Support
+            Get Support
           </button>
         </motion.div>
       </div>
