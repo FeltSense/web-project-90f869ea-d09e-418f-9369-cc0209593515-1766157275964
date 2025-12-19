@@ -8,6 +8,7 @@ import {
   TrendingUp,
   Users,
   Workflow,
+  Sparkles,
 } from 'lucide-react';
 
 interface Feature {
@@ -19,39 +20,39 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <Zap className="w-8 h-8" />,
-    title: 'Lightning Fast',
+    title: 'Lightning Fast Performance',
     description:
-      'Experience blazing-fast performance with optimized infrastructure and cutting-edge technology.',
+      'Sub-millisecond response times with globally distributed infrastructure. Experience blazing-fast performance that keeps your users engaged and coming back.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
-    title: 'Secure & Reliable',
+    title: 'Enterprise Security',
     description:
-      'Enterprise-grade security with 99.9% uptime guarantee and comprehensive data protection.',
+      'Bank-level encryption, compliance certifications, and 99.99% uptime SLA. Your data is protected by industry-leading security protocols.',
   },
   {
     icon: <Smartphone className="w-8 h-8" />,
-    title: 'Mobile Optimized',
+    title: 'Mobile-First Design',
     description:
-      'Seamless experience across all devices with responsive design and touch-friendly interface.',
+      'Perfectly optimized for every device. Responsive, fast, and intuitive experiences that delight users on phones, tablets, and desktops.',
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
-    title: 'Scalable Growth',
+    title: 'Unlimited Scalability',
     description:
-      'Grow without limits with our flexible infrastructure that scales with your business needs.',
+      'Grow from startup to enterprise without infrastructure headaches. Auto-scaling handles traffic spikes effortlessly.',
   },
   {
     icon: <Users className="w-8 h-8" />,
-    title: 'Team Collaboration',
+    title: 'Seamless Collaboration',
     description:
-      'Empower your team with real-time collaboration tools and seamless communication features.',
+      'Real-time collaboration tools that bring teams together. Share, comment, and iterate faster than ever before.',
   },
   {
     icon: <Workflow className="w-8 h-8" />,
-    title: 'Smart Automation',
+    title: 'Intelligent Automation',
     description:
-      'Streamline workflows with intelligent automation that saves time and reduces manual work.',
+      'AI-powered workflows that learn and adapt. Automate repetitive tasks and focus on what truly matters for your business.',
   },
 ];
 
@@ -89,12 +90,15 @@ export default function Features(): JSX.Element {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 border border-indigo-300 mb-6">
+            <Sparkles className="w-4 h-4 text-indigo-600" />
+            <span className="text-sm font-semibold text-indigo-600">Why Choose Us</span>
+          </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Powerful Features
+            Powerful Features Built for Success
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to succeed, built with excellence and designed
-            for performance.
+            Everything you need to build, scale, and succeed. Designed with your success in mind.
           </p>
         </motion.div>
 
@@ -109,25 +113,27 @@ export default function Features(): JSX.Element {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="group relative bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100 hover:border-indigo-300"
+              className="group relative bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-indigo-400 overflow-hidden"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 to-emerald-50 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-transparent to-emerald-50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              
+              <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-100 rounded-full mix-blend-multiply filter blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
 
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-500 to-emerald-500 rounded-lg mb-6 text-white group-hover:shadow-lg transition-shadow duration-300">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-500 to-emerald-500 rounded-xl mb-6 text-white group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
                   {feature.icon}
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
 
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
                   {feature.description}
                 </p>
               </div>
 
-              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-indigo-500 to-emerald-500 group-hover:w-full transition-all duration-300 rounded-b-lg" />
+              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-indigo-500 to-emerald-500 group-hover:w-full transition-all duration-300 rounded-b-xl" />
             </motion.div>
           ))}
         </motion.div>
