@@ -22,41 +22,41 @@ const highlights: Highlight[] = [
   {
     id: 1,
     icon: <Zap className="w-8 h-8" />,
-    title: 'Lightning Fast',
+    title: 'Instant Recipe Generation',
     description:
-      'Experience blazing-fast performance with our optimized infrastructure delivering results in milliseconds.',
+      'Get unlimited personalized recipes in seconds. Our AI analyzes your preferences and creates dishes uniquely tailored to you.',
     gradient: 'from-yellow-400 to-orange-500',
   },
   {
     id: 2,
     icon: <Shield className="w-8 h-8" />,
-    title: 'Enterprise Security',
+    title: 'Privacy Protected',
     description:
-      'Bank-level security with end-to-end encryption and compliance with international standards.',
+      'Your dietary data is encrypted and never shared. Enterprise-grade security with HIPAA compliance for peace of mind.',
     gradient: 'from-blue-400 to-cyan-500',
   },
   {
     id: 3,
     icon: <Rocket className="w-8 h-8" />,
-    title: 'Seamless Integration',
+    title: 'Smart Meal Planning',
     description:
-      'Integrate with your existing tools effortlessly. API-first architecture for maximum flexibility.',
+      'Create complete weekly meal plans with organized shopping lists and prep instructions in seconds.',
     gradient: 'from-purple-400 to-pink-500',
   },
   {
     id: 4,
     icon: <Users className="w-8 h-8" />,
-    title: '24/7 Support',
+    title: '50+ Dietary Preferences',
     description:
-      'Dedicated support team ready to help you succeed at any time, anywhere in the world.',
+      'Support for keto, vegan, paleo, gluten-free, low-carb, and more. The AI adapts to your lifestyle.',
     gradient: 'from-green-400 to-emerald-500',
   },
   {
     id: 5,
     icon: <TrendingUp className="w-8 h-8" />,
-    title: 'Scalable Growth',
+    title: 'Nutrition Intelligence',
     description:
-      'Scale from startup to enterprise without limits. Our infrastructure grows with your success.',
+      'Track macros and calories with AI-powered insights. Make informed decisions about your health and nutrition.',
     gradient: 'from-red-400 to-rose-500',
   },
 ];
@@ -116,11 +116,10 @@ export default function ProductHighlights(): React.ReactElement {
           viewport={{ once: true, margin: '-100px' }}
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text text-transparent mb-6">
-            Powerful Features Built for Success
+            Everything You Need to Cook Smarter
           </h2>
           <p className="text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
-            Discover why thousands of companies trust us to power their most
-            critical operations.
+            Discover why thousands of home cooks trust our AI-powered platform to transform their kitchen and simplify meal planning.
           </p>
         </motion.div>
 

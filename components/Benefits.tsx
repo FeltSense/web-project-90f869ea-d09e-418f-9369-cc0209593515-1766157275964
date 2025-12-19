@@ -18,14 +18,14 @@ const Benefits: React.FC = () => {
       id: 1,
       icon: <Brain className="w-8 h-8" />,
       title: 'AI-Powered Generation',
-      description: 'Advanced machine learning algorithms create unique, personalized recipes tailored to your taste preferences and cooking skill level.',
+      description: 'Advanced machine learning algorithms create unlimited unique recipes tailored to your taste preferences, cooking skill level, and dietary needs.',
       gradient: 'from-emerald-400 to-cyan-400'
     },
     {
       id: 2,
       icon: <Sparkles className="w-8 h-8" />,
       title: 'Personalized Recommendations',
-      description: 'Smart suggestions based on your dietary history, favorite ingredients, and nutritional goals for a truly customized experience.',
+      description: 'Smart suggestions based on your dietary history, favorite ingredients, and health goals. Every recommendation is tailored specifically to you.',
       gradient: 'from-cyan-400 to-indigo-400'
     },
     {
@@ -39,7 +39,7 @@ const Benefits: React.FC = () => {
       id: 4,
       icon: <Calendar className="w-8 h-8" />,
       title: 'Smart Meal Planning',
-      description: 'Automatically generate weekly meal plans with balanced nutrition, shopping lists, and prep-ahead guidance for stress-free cooking.',
+      description: 'Automatically generate complete weekly meal plans with balanced nutrition, organized shopping lists, and step-by-step prep guidance.',
       gradient: 'from-emerald-500 to-indigo-500'
     },
     {
@@ -102,10 +102,10 @@ const Benefits: React.FC = () => {
             <span className="text-sm font-semibold text-emerald-600">✨ Why Choose Us</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-cyan-600 to-indigo-600 bg-clip-text text-transparent mb-6">
-            Powerful Features for Every Cook
+            Why Choose Our AI Chef
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Experience the next generation of recipe discovery with AI-driven personalization and intelligent meal planning
+            Experience the next generation of recipe discovery with AI-driven personalization, intelligent meal planning, and nutrition tracking that actually works
           </p>
         </motion.div>
 
@@ -152,10 +152,10 @@ const Benefits: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-slate-600 mb-6">
-            Ready to revolutionize your cooking experience?
+            Join thousands of home cooks who've transformed their kitchen with AI
           </p>
           <button className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-emerald-600 to-cyan-600 text-white font-semibold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-            Start Generating Recipes Today
+            Start Your Free Trial Today
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
