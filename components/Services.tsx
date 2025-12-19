@@ -96,7 +96,10 @@ export default function Services() {
               <p className="text-lg text-slate-300 leading-relaxed">
                 {services[3].description}
               </p>
-            </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-  </div></div>);
+  );
 }
