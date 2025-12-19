@@ -20,39 +20,39 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <Zap className="w-8 h-8" />,
-    title: 'Lightning Fast Performance',
+    title: 'AI-Powered Nutrition Analysis',
     description:
-      'Sub-millisecond response times with globally distributed infrastructure. Experience blazing-fast performance that keeps your users engaged and coming back.',
+      'Advanced AI algorithms analyze your food intake and provide personalized nutrition insights. Get real-time recommendations tailored to your health goals and dietary preferences.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
-    title: 'Enterprise Security',
+    title: 'Privacy & Data Security',
     description:
-      'Bank-level encryption, compliance certifications, and 99.99% uptime SLA. Your data is protected by industry-leading security protocols.',
+      'Bank-level encryption and HIPAA compliance. Your health data is protected with industry-leading security protocols and never shared without your consent.',
   },
   {
     icon: <Smartphone className="w-8 h-8" />,
-    title: 'Mobile-First Design',
+    title: 'Mobile-First Experience',
     description:
-      'Perfectly optimized for every device. Responsive, fast, and intuitive experiences that delight users on phones, tablets, and desktops.',
+      'Seamlessly track your health on the go. Our intuitive mobile app makes logging meals, workouts, and health metrics effortless and enjoyable.',
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
-    title: 'Unlimited Scalability',
+    title: 'Progress Tracking & Analytics',
     description:
-      'Grow from startup to enterprise without infrastructure headaches. Auto-scaling handles traffic spikes effortlessly.',
+      'Visualize your health journey with comprehensive analytics. Track weight, energy levels, and wellness metrics with beautiful, actionable insights.',
   },
   {
     icon: <Users className="w-8 h-8" />,
-    title: 'Seamless Collaboration',
+    title: 'Community & Support',
     description:
-      'Real-time collaboration tools that bring teams together. Share, comment, and iterate faster than ever before.',
+      'Connect with thousands of health-conscious individuals. Share recipes, tips, and celebrate milestones with our supportive wellness community.',
   },
   {
     icon: <Workflow className="w-8 h-8" />,
-    title: 'Intelligent Automation',
+    title: 'Personalized Meal Plans',
     description:
-      'AI-powered workflows that learn and adapt. Automate repetitive tasks and focus on what truly matters for your business.',
+      'Get custom meal plans based on your preferences, allergies, and health goals. Discover delicious recipes that align with your wellness journey.',
   },
 ];
 
@@ -90,15 +90,15 @@ export default function Features(): JSX.Element {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 border border-indigo-300 mb-6">
-            <Sparkles className="w-4 h-4 text-indigo-600" />
-            <span className="text-sm font-semibold text-indigo-600">Why Choose Us</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
+            <Sparkles className="w-4 h-4 text-emerald-600" />
+            <span className="text-sm font-semibold text-emerald-600">Why Choose Us</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Powerful Features Built for Success
+            Comprehensive Health & Wellness Features
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to build, scale, and succeed. Designed with your success in mind.
+            Everything you need to transform your health journey. Powered by science, designed for you.
           </p>
         </motion.div>
 
@@ -120,11 +120,11 @@ export default function Features(): JSX.Element {
               <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-100 rounded-full mix-blend-multiply filter blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
 
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-500 to-emerald-500 rounded-xl mb-6 text-white group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-500 to-cyan-500 rounded-xl mb-6 text-white group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
                   {feature.icon}
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors duration-300">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-emerald-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
 
@@ -133,7 +133,7 @@ export default function Features(): JSX.Element {
                 </p>
               </div>
 
-              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-indigo-500 to-emerald-500 group-hover:w-full transition-all duration-300 rounded-b-xl" />
+              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-emerald-500 to-cyan-500 group-hover:w-full transition-all duration-300 rounded-b-xl" />
             </motion.div>
           ))}
         </motion.div>

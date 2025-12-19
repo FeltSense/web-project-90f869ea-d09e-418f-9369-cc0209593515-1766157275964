@@ -51,14 +51,14 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
-              Build the Future <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-emerald-400 to-cyan-400">Today</span>
+              Your Health, <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">Elevated</span>
             </h1>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Harness the power of next-generation technology to transform your vision into reality. From concept to scale, we provide the tools, expertise, and support you need to dominate your market.
+              Discover the future of food and health technology. We combine cutting-edge innovation with personalized wellness solutions to help you achieve your health goals and live your best life.
             </p>
           </motion.div>
 
@@ -66,16 +66,16 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
             <Link 
               href="#contact" 
-              className="group px-8 py-4 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white rounded-xl font-semibold hover:from-indigo-700 hover:to-indigo-800 transition-all transform hover:scale-105 shadow-lg hover:shadow-indigo-500/50 flex items-center justify-center gap-2"
+              className="group px-8 py-4 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white rounded-xl font-semibold hover:from-emerald-700 hover:to-emerald-800 transition-all transform hover:scale-105 shadow-lg hover:shadow-emerald-500/50 flex items-center justify-center gap-2"
             >
-              Start Your Journey
+              Start Your Wellness Journey
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link 
               href="#features" 
-              className="px-8 py-4 border-2 border-indigo-500/50 text-white rounded-xl font-semibold hover:bg-indigo-500/10 hover:border-indigo-400 transition-all backdrop-blur-sm hover:scale-105 transition-transform"
+              className="px-8 py-4 border-2 border-emerald-500/50 text-white rounded-xl font-semibold hover:bg-emerald-500/10 hover:border-emerald-400 transition-all backdrop-blur-sm hover:scale-105 transition-transform"
             >
-              Discover What's Possible
+              Explore Our Features
             </Link>
           </motion.div>
 
@@ -83,15 +83,15 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="pt-12 flex flex-col sm:flex-row items-center justify-center gap-8 text-slate-400 text-sm">
             <div className="flex items-center gap-2 hover:text-slate-200 transition-colors">
               <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
-              <span>Trusted by 1000+ global companies</span>
-            </div>
-            <div className="flex items-center gap-2 hover:text-slate-200 transition-colors">
-              <div className="w-2 h-2 bg-indigo-400 rounded-full animate-pulse" />
-              <span>99.99% uptime SLA</span>
+              <span>Trusted by 50,000+ health enthusiasts</span>
             </div>
             <div className="flex items-center gap-2 hover:text-slate-200 transition-colors">
               <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
-              <span>Award-winning support team</span>
+              <span>Personalized health insights</span>
+            </div>
+            <div className="flex items-center gap-2 hover:text-slate-200 transition-colors">
+              <div className="w-2 h-2 bg-indigo-400 rounded-full animate-pulse" />
+              <span>Science-backed recommendations</span>
             </div>
           </motion.div>
         </motion.div>
