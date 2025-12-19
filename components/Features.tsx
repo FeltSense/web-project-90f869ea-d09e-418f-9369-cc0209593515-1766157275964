@@ -34,7 +34,7 @@ const features: Feature[] = [
     icon: <Smartphone className="w-8 h-8" />,
     title: 'Smart Meal Planning',
     description:
-      'Create complete weekly meal plans in seconds with organized shopping lists and prep instructions. Get nutritional breakdowns for every meal. Say goodbye to the stress of "what's for dinner?"—let AI handle the planning.',
+      'Create complete weekly meal plans in seconds with organized shopping lists and prep instructions. Get nutritional breakdowns for every meal. Say goodbye to the stress of what\'s for dinner - let AI handle the planning.',
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
