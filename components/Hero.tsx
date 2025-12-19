@@ -51,14 +51,14 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
-              Discover <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">Personalized Recipes</span> in Seconds
+              Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400">AI-Powered Personal Chef</span> Awaits
             </h1>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Transform your kitchen with AI-powered recipes tailored to your taste, dietary needs, and available ingredients. From quick weeknight dinners to impressive dinner party dishes—create restaurant-quality meals at home, effortlessly.
+              Say goodbye to meal planning stress. Get unlimited AI-generated recipes personalized to your taste, dietary preferences, and ingredients on hand. From quick weeknight dinners to impressive dinner party dishes—create restaurant-quality meals at home in minutes, not hours.
             </p>
           </motion.div>
 
