@@ -176,7 +176,7 @@ export default function ProductHighlights(): React.ReactElement {
           transition={{ duration: 0.6, delay: 0.8 }}
           viewport={{ once: true, margin: '-100px' }}
         >
-          <button className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105">
+          <button className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/50 hover:scale-105">
             Get Started Today
             <span>→</span>
           </button>
