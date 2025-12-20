@@ -90,8 +90,8 @@ export default function Features(): JSX.Element {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
-            <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 border border-amber-300 mb-6">
+            <Sparkles className="w-4 h-4 text-amber-600 animate-spin" style={{ animationDuration: '3s' }} />
             <span className="text-sm font-semibold text-emerald-600">✨ Key Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
@@ -113,18 +113,18 @@ export default function Features(): JSX.Element {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="group relative bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-emerald-400 overflow-hidden"
+              className="group relative bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-amber-400 overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-transparent to-cyan-50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               
               <div className="absolute top-0 right-0 w-40 h-40 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-0 group-hover:opacity-15 transition-opacity duration-300" />
 
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-500 via-cyan-500 to-indigo-500 rounded-2xl mb-6 text-white group-hover:shadow-2xl group-hover:scale-125 transition-all duration-300 shadow-lg">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-amber-500 via-orange-500 to-rose-500 rounded-2xl mb-6 text-white group-hover:shadow-2xl group-hover:scale-125 transition-all duration-300 shadow-lg">
                   {feature.icon}
                 </div>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-emerald-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-amber-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
 
@@ -133,7 +133,7 @@ export default function Features(): JSX.Element {
                 </p>
               </div>
 
-              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 group-hover:w-full transition-all duration-300 rounded-b-2xl" />
+              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 group-hover:w-full transition-all duration-300 rounded-b-2xl" />
             </motion.div>
           ))}
         </motion.div>
