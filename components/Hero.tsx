@@ -51,15 +51,15 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Cook Smarter, <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Eat Better</span>
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">AI Chef</span> Awaits
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Transform your kitchen with AI-powered recipes designed just for you. From meal planning to nutrition tracking—everything you need to eat well, every single day.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Stop wasting time on meal planning. Get AI-powered recipes tailored to your taste, dietary needs, and pantry. Delicious meals in minutes, not hours.</p>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-sm sm:text-base md:text-lg text-slate-200 max-w-3xl mx-auto leading-relaxed px-2 font-medium">
-              Say goodbye to boring meals and endless recipe scrolling. Get personalized meal plans, instant recipes, and smart grocery lists—all powered by AI that learns your taste.
+              Join 100,000+ home cooks who've ditched recipe books forever. Get instant meal ideas, smart grocery lists, and nutrition tracking—all in one place.
             </p>
           </motion.div>
 
@@ -71,7 +71,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2">
-                🚀 Get Your Free Meal Plan Today
+                🚀 Start Cooking Smarter Now
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -87,7 +87,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
             <p className="text-xs sm:text-sm text-amber-200 font-semibold tracking-wide">
-              ⏰ Limited time: Get 7 days free + personalized recipes tailored to your preferences
+              ⏰ Limited time: 7 days free + $50 in premium recipes. No credit card required.
             </p>
           </motion.div>
 
@@ -95,18 +95,18 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="pt-12 sm:pt-16 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 text-slate-200 px-2">
             <div className="flex flex-col items-center gap-3 p-4 sm:p-5 rounded-xl bg-gradient-to-br from-amber-500/10 to-amber-500/5 border border-amber-500/20 hover:border-amber-400/40 hover:bg-amber-500/15 transition-all">
               <Users className="w-6 sm:w-7 h-6 sm:h-7 text-amber-400" />
-              <span className="font-bold text-sm sm:text-base text-white">100,000+ Meals</span>
-              <span className="text-xs sm:text-sm text-slate-400">Created daily</span>
+              <span className="font-bold text-sm sm:text-base text-white">100,000+ Users</span>
+              <span className="text-xs sm:text-sm text-slate-400">Cooking smarter daily</span>
             </div>
             <div className="flex flex-col items-center gap-3 p-4 sm:p-5 rounded-xl bg-gradient-to-br from-orange-500/10 to-orange-500/5 border border-orange-500/20 hover:border-orange-400/40 hover:bg-orange-500/15 transition-all">
               <Clock className="w-6 sm:w-7 h-6 sm:h-7 text-orange-400" />
-              <span className="font-bold text-sm sm:text-base text-white">30 Seconds</span>
-              <span className="text-xs sm:text-sm text-slate-400">Average recipe time</span>
+              <span className="font-bold text-sm sm:text-base text-white">5 Minutes</span>
+              <span className="text-xs sm:text-sm text-slate-400">From idea to dinner</span>
             </div>
             <div className="flex flex-col items-center gap-3 p-4 sm:p-5 rounded-xl bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/20 hover:border-rose-400/40 hover:bg-rose-500/15 transition-all">
               <Zap className="w-6 sm:w-7 h-6 sm:h-7 text-rose-400" />
-              <span className="font-bold text-sm sm:text-base text-white">98% Satisfaction</span>
-              <span className="text-xs sm:text-sm text-slate-400">User approved</span>
+              <span className="font-bold text-sm sm:text-base text-white">4.9★ Rating</span>
+              <span className="text-xs sm:text-sm text-slate-400">From 50,000+ reviews</span>
             </div>
           </motion.div>
 
