@@ -6,21 +6,21 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Maria Chen',
-    role: 'Nutritionist & Health Coach',
-    quote: 'Hello My Love transformed how I track my clients\' nutrition. The meal planning features are intuitive, and my clients love the personalized recommendations.',
+    name: 'Sarah Mitchell',
+    role: 'Busy Mom of 3',
+    quote: 'I used to spend hours planning meals and searching for recipes. Now I generate personalized dinner ideas in seconds. My family actually enjoys the meals, and I have my evenings back!',
     avatar: 'https://i.pravatar.cc/150?img=1',
   },
   {
-    name: 'James Rodriguez',
-    role: 'Fitness Trainer',
-    quote: 'I recommend Hello My Love to all my clients. The food database is comprehensive, and the integration with fitness tracking is seamless. Results speak for themselves.',
+    name: 'David Chen',
+    role: 'Home Cook & Food Enthusiast',
+    quote: 'The AI understands my taste perfectly. It suggests recipes I would never have thought of, but always want to cook. The nutrition tracking is the cherry on top.',
     avatar: 'https://i.pravatar.cc/150?img=2',
   },
   {
-    name: 'Sophie Williams',
-    role: 'Wellness Enthusiast',
-    quote: 'Finally, an app that understands health holistically. The meal suggestions actually taste good, and I\'ve never felt more in control of my nutrition journey.',
+    name: 'Emma Rodriguez',
+    role: 'Fitness Enthusiast',
+    quote: 'Finally, an app that makes healthy eating exciting! The personalized meal plans fit my dietary goals, and the recipes are actually delicious. Highly recommend!',
     avatar: 'https://i.pravatar.cc/150?img=3',
   },
 ];
@@ -39,10 +39,10 @@ export default function Testimonials() {
             <span className="text-sm font-semibold text-emerald-600">⭐ Testimonials</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-4">
-            Loved by health professionals
+            Trusted by Home Cooks Everywhere
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            Join thousands of nutritionists, trainers, and wellness enthusiasts transforming their health with Hello My Love.
+            See what thousands of home cooks are saying about how our AI recipe generator has transformed their kitchen and saved them hours every week.
           </p>
         </motion.div>
 

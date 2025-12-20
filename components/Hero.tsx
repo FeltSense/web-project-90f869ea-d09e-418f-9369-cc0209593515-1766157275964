@@ -52,9 +52,9 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              AI-Powered <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Recipe Generator That Knows Your Taste</span>
+              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Delicious Recipe Ideas</span>
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Generate unlimited personalized recipes in seconds. Our AI learns your preferences, dietary restrictions, and available ingredients to create meals you'll actually want to cook. From quick weeknight dinners to impressive dinner party dishes—all tailored just for you.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Your personal AI chef generates unlimited personalized recipes in seconds. Tailored to your taste, dietary needs, and what's in your kitchen. Say goodbye to meal planning stress and hello to exciting, delicious dinners every night.</p>
           </motion.div>
 
           {/* Subheading */}
@@ -88,7 +88,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
             <p className="text-xs sm:text-sm text-amber-200 font-semibold tracking-wide">
-              ⚡ Join 100,000+ home cooks: Unlimited AI recipe generation + 7 days free + personalized meal plans + nutrition tracking. No credit card. Cancel anytime.
+              ⚡ Join 100,000+ home cooks: Unlimited recipes + 7 days free + meal plans + nutrition tracking + smart shopping lists. No credit card required.
             </p>
           </motion.div>
 

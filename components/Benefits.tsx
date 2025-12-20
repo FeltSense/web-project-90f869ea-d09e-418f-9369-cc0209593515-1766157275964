@@ -102,10 +102,10 @@ const Benefits: React.FC = () => {
             <span className="text-sm font-semibold text-emerald-600">✨ Why Choose Us</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-rose-500 bg-clip-text text-transparent mb-6">
-            Why Home Cooks Love Our AI Chef
+            Why Thousands of Home Cooks Trust Us
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Experience the next generation of recipe discovery with advanced AI-driven personalization, intelligent meal planning, and comprehensive nutrition tracking that actually works. Save time, reduce food waste, and enjoy healthier, more delicious meals every day.
+            Our AI learns what you love, adapts to your lifestyle, and delivers recipes you'll actually want to cook. Save hours on meal planning, reduce food waste, and discover new favorite dishes every week. It's like having a personal chef in your pocket.
           </p>
         </motion.div>
 

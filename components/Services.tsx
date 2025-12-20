@@ -40,10 +40,10 @@ export default function Services() {
             <span className="text-sm font-semibold text-emerald-600">💚 Our Services</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-6">
-            Everything You Need to Love Your Body
+            Complete Kitchen Intelligence at Your Fingertips
           </h2>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto">
-            Food and health in perfect harmony. Track, learn, and transform with intelligent technology that adapts to your unique needs.
+            Beyond recipes. Our comprehensive platform handles meal planning, nutrition tracking, grocery shopping, and health insights—all powered by AI that learns your preferences.
           </p>
         </div>
 
