@@ -72,15 +72,15 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2">
-                ✨ Start Cooking Smarter Today
+                🚀 Get Started Free - No Credit Card
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
             <Link 
-              href="#features" 
+              href="/about" 
               className="group px-8 sm:px-12 py-4 sm:py-6 border-2 border-amber-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-amber-500/20 hover:border-amber-300 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-2"
             >
-              <span>🎯 Explore Key Features</span>
+              <span>📖 Learn Our Story</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
