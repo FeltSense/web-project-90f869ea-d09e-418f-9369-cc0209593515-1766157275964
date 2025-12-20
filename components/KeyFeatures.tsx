@@ -109,11 +109,10 @@ const KeyFeatures = (): React.ReactElement => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 mb-4">
-            Powerful Features
+            Everything You Need to Cook Smarter
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Everything you need to transform your cooking and meal planning with
-            intelligent AI assistance
+            Our AI-powered platform handles recipe generation, meal planning, nutrition tracking, and shopping—so you can focus on what matters: creating delicious meals your family will love.
           </p>
         </motion.div>
 
@@ -164,14 +163,14 @@ const KeyFeatures = (): React.ReactElement => {
           className="mt-16 text-center"
         >
           <p className="text-gray-600 text-lg mb-6">
-            Ready to revolutionize your cooking experience?
+            Start creating personalized recipes in seconds—no cooking experience required.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           >
-            Get Started Free
+            🚀 Try Free for 7 Days
           </motion.button>
         </motion.div>
       </div>
