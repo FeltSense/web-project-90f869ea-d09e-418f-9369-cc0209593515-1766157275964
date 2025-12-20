@@ -52,9 +52,9 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Delicious Recipe Ideas</span>
+              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">AI-Powered Culinary Magic</span>
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Your personal AI chef generates unlimited personalized recipes in seconds. Tailored to your taste, dietary needs, and what's in your kitchen. Say goodbye to meal planning stress and hello to exciting, delicious dinners every night.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Discover endless recipe possibilities tailored to your taste, dietary needs, and available ingredients. Get personalized meal plans, nutrition insights, and smart shopping lists—all powered by cutting-edge AI. Cook with confidence, eat with joy.</p>
           </motion.div>
 
           {/* Subheading */}
@@ -72,7 +72,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2">
-                🚀 Generate Your First Recipe
+                ✨ Start Cooking Smarter Today
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -80,7 +80,7 @@ export default function Hero() {
               href="#features" 
               className="group px-8 sm:px-12 py-4 sm:py-6 border-2 border-amber-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-amber-500/20 hover:border-amber-300 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-2"
             >
-              <span>✨ See How It Works</span>
+              <span>🎯 Explore Key Features</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -88,7 +88,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
             <p className="text-xs sm:text-sm text-amber-200 font-semibold tracking-wide">
-              ⚡ Join 100,000+ home cooks: Unlimited recipes + 7 days free + meal plans + nutrition tracking + smart shopping lists. No credit card required.
+              🎁 Join 100,000+ home cooks: Unlimited AI recipes + 7 days free trial + personalized meal plans + nutrition tracking + smart shopping lists. No credit card required.
             </p>
           </motion.div>
 
