@@ -22,7 +22,7 @@ const features: Feature[] = [
     icon: <Zap className="w-8 h-8" />,
     title: 'Instant Recipe Generation',
     description:
-      'Get unlimited personalized recipes in seconds. Our advanced AI analyzes your taste preferences, dietary restrictions, and available ingredients to create recipes uniquely tailored to you. Every recipe is optimized for flavor, nutrition, and simplicity—no more scrolling through endless options.',
+      'Get unlimited personalized recipes in seconds. Our advanced AI analyzes your taste preferences, dietary restrictions, and available ingredients to create recipes uniquely tailored to you. Every recipe is optimized for flavor, nutrition, and simplicity.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
@@ -34,19 +34,19 @@ const features: Feature[] = [
     icon: <Smartphone className="w-8 h-8" />,
     title: 'Smart Meal Planning',
     description:
-      'Create complete weekly meal plans in seconds with organized shopping lists and prep instructions. Get nutritional breakdowns for every meal. Say goodbye to the stress of what\'s for dinner - let AI handle the planning.',
+      'Create complete weekly meal plans in seconds with organized shopping lists and prep instructions. Get nutritional breakdowns for every meal. Say goodbye to meal planning stress forever.',
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
     title: 'Nutrition Intelligence',
     description:
-      'Track macros, micros, and calories with AI-powered insights. Understand exactly how each recipe supports your health goals. Make informed decisions about your nutrition with detailed analytics and recommendations.',
+      'Track macros, micros, and calories with AI-powered insights. Understand exactly how each recipe supports your health goals. Make informed decisions with detailed analytics and personalized recommendations.',
   },
   {
     icon: <Users className="w-8 h-8" />,
     title: 'Dietary Flexibility',
     description:
-      'Support for 50+ dietary preferences: keto, vegan, paleo, gluten-free, low-carb, and more. The AI adapts to your lifestyle. Enjoy delicious, satisfying meals that align perfectly with your dietary choices.',
+      'Support for 50+ dietary preferences: keto, vegan, paleo, gluten-free, low-carb, and more. The AI adapts to your lifestyle. Enjoy delicious, satisfying meals that align with your choices.',
   },
   {
     icon: <Workflow className="w-8 h-8" />,
@@ -92,13 +92,13 @@ export default function Features(): JSX.Element {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 border border-amber-300 mb-6">
             <Sparkles className="w-4 h-4 text-amber-600 animate-spin" style={{ animationDuration: '3s' }} />
-            <span className="text-sm font-semibold text-emerald-600">✨ Key Features</span>
+            <span className="text-sm font-semibold text-amber-700">✨ Product Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Powerful Features That Transform Your Kitchen
+            Everything You Need to Cook Like a Pro
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Our AI-powered platform combines intelligent recipe generation, smart meal planning, and nutrition tracking into one seamless experience. Discover the key features that make cooking easier, healthier, and more enjoyable than ever before.
+            Our AI-powered platform combines intelligent recipe generation, smart meal planning, and nutrition tracking into one seamless experience. Discover the features that make cooking easier, healthier, and more enjoyable than ever before.
           </p>
         </motion.div>
 
