@@ -51,9 +51,9 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">AI-Powered Cooking</span>
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">AI Chef</span> Awaits
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Discover personalized recipes in seconds. Get meal plans, nutrition insights, and grocery lists tailored to your lifestyle—all powered by intelligent AI.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Stop wasting time on meal planning. Get personalized recipes, smart meal plans, and nutrition insights in seconds—all tailored to your taste and dietary goals.</p>
           </motion.div>
 
           {/* Subheading */}
