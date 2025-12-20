@@ -24,42 +24,42 @@ const KeyFeatures = (): React.ReactElement => {
       icon: <Sparkles className="w-8 h-8" />,
       title: 'AI Recipe Generation',
       description:
-        'Instantly generate creative, personalized recipes tailored to your preferences and available ingredients using advanced AI technology.',
+        'Instantly generate unlimited creative recipes tailored to your taste preferences, dietary needs, and available ingredients. Our AI learns your cooking style and suggests dishes you\'ll actually love.',
     },
     {
       id: 'meal-planning',
       icon: <Calendar className="w-8 h-8" />,
       title: 'Smart Meal Planning',
       description:
-        'Create weekly meal plans automatically organized by your schedule, dietary goals, and shopping convenience.',
+        'Create perfectly balanced weekly meal plans automatically organized by your schedule, budget, and dietary goals. Save hours of planning and decision fatigue.',
     },
     {
       id: 'nutrition-tracking',
       icon: <Apple className="w-8 h-8" />,
       title: 'Nutrition Tracking',
       description:
-        'Monitor calories, macros, and micronutrients with detailed nutritional breakdowns for every meal you plan.',
+        'Monitor calories, macros, vitamins, and minerals with detailed nutritional breakdowns for every meal. Hit your health goals with precision and confidence.',
     },
     {
       id: 'dietary-flexibility',
       icon: <Leaf className="w-8 h-8" />,
       title: 'Dietary Flexibility',
       description:
-        'Support for vegan, keto, gluten-free, paleo, and countless other dietary preferences and restrictions.',
+        'Support for vegan, keto, gluten-free, paleo, low-carb, Mediterranean, and 50+ other dietary preferences and restrictions. Customize everything to your needs.',
     },
     {
       id: 'ingredient-intelligence',
       icon: <Lightbulb className="w-8 h-8" />,
       title: 'Ingredient Intelligence',
       description:
-        'Smart ingredient substitutions and alternatives based on availability, allergies, and taste preferences.',
+        'Smart ingredient substitutions and alternatives based on availability, allergies, and taste preferences. Never waste food again with our smart inventory system.',
     },
     {
       id: 'shopping-lists',
       icon: <ShoppingCart className="w-8 h-8" />,
       title: 'Smart Shopping Lists',
       description:
-        'Auto-generated organized shopping lists with quantities, organized by store sections for efficient shopping.',
+        'Auto-generated organized shopping lists with exact quantities, organized by store sections. Save money with smart price comparisons and bulk buying suggestions.',
     },
   ];
 
@@ -109,10 +109,10 @@ const KeyFeatures = (): React.ReactElement => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 mb-4">
-            Everything You Need to Cook Smarter
+            Powerful Features That Transform Your Kitchen
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Our AI-powered platform handles recipe generation, meal planning, nutrition tracking, and shopping—so you can focus on what matters: creating delicious meals your family will love.
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Our intelligent AI-powered platform handles everything from recipe generation and meal planning to nutrition tracking and smart shopping. Spend less time planning and more time enjoying delicious, healthy meals with your family.
           </p>
         </motion.div>
 
@@ -163,14 +163,14 @@ const KeyFeatures = (): React.ReactElement => {
           className="mt-16 text-center"
         >
           <p className="text-gray-600 text-lg mb-6">
-            Start creating personalized recipes in seconds—no cooking experience required.
+            Start creating personalized recipes in seconds—no cooking experience required. Join thousands of home cooks who've transformed their meal planning.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           >
-            🚀 Try Free for 7 Days
+            🚀 Start Your Free Trial
           </motion.button>
         </motion.div>
       </div>

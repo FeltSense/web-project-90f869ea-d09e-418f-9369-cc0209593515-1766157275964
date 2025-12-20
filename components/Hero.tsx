@@ -52,9 +52,9 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Delicious Ideas</span>
+              Your Personal AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Chef & Meal Planner</span>
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Stop scrolling through endless recipes. Get AI-generated meals tailored to your ingredients, dietary preferences, and time constraints. From quick weeknight dinners to impressive dinner party dishes—all personalized just for you.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Transform your kitchen with AI-powered recipes tailored to your ingredients, dietary goals, and lifestyle. Get personalized meal plans, nutrition insights, and smart shopping lists—all in one intelligent platform. Cook smarter, eat healthier, save time.</p>
           </motion.div>
 
           {/* Subheading */}
@@ -88,7 +88,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
             <p className="text-xs sm:text-sm text-amber-200 font-semibold tracking-wide">
-              ⭐ Trusted by 100,000+ home cooks worldwide. Get unlimited AI recipes, personalized meal plans, nutrition tracking, and smart shopping lists—completely free for 7 days. No credit card needed.
+              ⭐ Join 100,000+ home cooks who've transformed their kitchens. Get unlimited AI recipes, personalized meal plans, nutrition tracking, smart shopping lists, and dietary customization—completely free for 7 days. No credit card required. Cancel anytime.
             </p>
           </motion.div>
 
