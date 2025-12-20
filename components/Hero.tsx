@@ -41,63 +41,63 @@ export default function Hero() {
           className="space-y-8"
         >
           {/* Badge */}
-          <motion.div variants={itemVariants} className="flex justify-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/30 backdrop-blur-sm hover:bg-indigo-500/20 transition-colors">
+          <motion.div variants={itemVariants} className="flex justify-center px-2">
+            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/30 backdrop-blur-sm hover:bg-indigo-500/20 transition-colors">
               <Sparkles className="w-4 h-4 text-indigo-400 animate-spin" style={{ animationDuration: '3s' }} />
-              <span className="text-sm font-semibold text-indigo-300">🚀 Next-Generation AI Cooking</span>
+              <span className="text-xs sm:text-sm font-semibold text-indigo-300">🚀 AI-Powered Cooking</span>
             </div>
           </motion.div>
 
           {/* Main heading */}
           <motion.div variants={itemVariants}>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
-              Cook Smarter with Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400 animate-pulse">AI Chef</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
+              Never Struggle with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-indigo-400 animate-pulse">What's for Dinner</span> Again
             </h1>
-            <p className="text-lg text-slate-300 mt-4">Personalized recipes, intelligent meal planning, and nutrition tracking—all powered by advanced AI. Say goodbye to meal planning stress.</p>
+            <p className="text-base sm:text-lg text-slate-300 mt-3 sm:mt-4 px-2">Your personal AI chef creates custom recipes, plans your meals, and tracks nutrition—all in seconds. Eat healthier, save time, and enjoy cooking again.</p>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
-            <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Get unlimited personalized recipes tailored to your taste and dietary needs. Create complete weekly meal plans with organized shopping lists. Track nutrition with AI-powered insights. Enjoy delicious, healthy meals every single day—without the stress.
+            <p className="text-sm sm:text-base md:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed px-2">
+              Get unlimited personalized recipes, AI-powered meal plans, and nutrition tracking. Everything you need to eat healthier and save time in the kitchen.
             </p>
           </motion.div>
 
           {/* CTA Buttons */}
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-6 sm:pt-8 px-2">
             <Link 
               href="#contact" 
-              className="group px-12 py-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 text-white rounded-xl font-bold text-lg hover:from-emerald-600 hover:via-cyan-600 hover:to-indigo-600 transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/60 flex items-center justify-center gap-2 relative overflow-hidden"
+              className="group px-8 sm:px-12 py-4 sm:py-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 text-white rounded-xl font-bold text-base sm:text-lg hover:from-emerald-600 hover:via-cyan-600 hover:to-indigo-600 transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-emerald-500/60 flex items-center justify-center gap-2 relative overflow-hidden"
             >
-              <span className="relative z-10">🚀 Get Started Free</span>
-              <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform relative z-10" />
+              <span className="relative z-10">🚀 Start Cooking Free</span>
+              <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform relative z-10" />
               <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity" />
             </Link>
             <Link 
               href="#features" 
-              className="group px-12 py-6 border-2 border-cyan-500/50 text-white rounded-xl font-semibold text-lg hover:bg-cyan-500/15 hover:border-cyan-400 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-2"
+              className="group px-8 sm:px-12 py-4 sm:py-6 border-2 border-cyan-500/50 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-cyan-500/15 hover:border-cyan-400 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-2"
             >
-              <span>Discover Key Features</span>
+              <span>See How It Works</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
 
           {/* Trust indicators with icons */}
-          <motion.div variants={itemVariants} className="pt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 text-slate-300">
-            <div className="flex flex-col items-center gap-2 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
-              <Users className="w-6 h-6 text-emerald-400" />
-              <span className="font-semibold">50,000+ Users</span>
-              <span className="text-sm text-slate-400">Trusted worldwide</span>
+          <motion.div variants={itemVariants} className="pt-12 sm:pt-16 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 text-slate-300 px-2">
+            <div className="flex flex-col items-center gap-2 p-3 sm:p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
+              <Users className="w-5 sm:w-6 h-5 sm:h-6 text-emerald-400" />
+              <span className="font-semibold text-sm sm:text-base">50,000+ Users</span>
+              <span className="text-xs sm:text-sm text-slate-400">Trusted worldwide</span>
             </div>
-            <div className="flex flex-col items-center gap-2 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
-              <Clock className="w-6 h-6 text-cyan-400" />
-              <span className="font-semibold">Instant Recipes</span>
-              <span className="text-sm text-slate-400">Generated in seconds</span>
+            <div className="flex flex-col items-center gap-2 p-3 sm:p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
+              <Clock className="w-5 sm:w-6 h-5 sm:h-6 text-cyan-400" />
+              <span className="font-semibold text-sm sm:text-base">Instant Recipes</span>
+              <span className="text-xs sm:text-sm text-slate-400">Generated in seconds</span>
             </div>
-            <div className="flex flex-col items-center gap-2 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
-              <Zap className="w-6 h-6 text-indigo-400" />
-              <span className="font-semibold">4.9/5 Rating</span>
-              <span className="text-sm text-slate-400">Highly rated</span>
+            <div className="flex flex-col items-center gap-2 p-3 sm:p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors">
+              <Zap className="w-5 sm:w-6 h-5 sm:h-6 text-indigo-400" />
+              <span className="font-semibold text-sm sm:text-base">4.9/5 Rating</span>
+              <span className="text-xs sm:text-sm text-slate-400">Highly rated</span>
             </div>
           </motion.div>
         </motion.div>
