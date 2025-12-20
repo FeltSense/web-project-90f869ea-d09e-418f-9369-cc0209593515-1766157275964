@@ -6,22 +6,22 @@ const services = [
   {
     icon: Heart,
     title: 'Personalized Nutrition Plans',
-    description: 'AI-powered meal recommendations tailored to your health goals, dietary preferences, and lifestyle. Get recipes that actually taste good.',
+    description: 'AI-powered meal recommendations tailored to your health goals, dietary preferences, and lifestyle. Get delicious recipes that actually taste good and support your wellness journey.',
   },
   {
     icon: Leaf,
     title: 'Real-Time Health Tracking',
-    description: 'Monitor calories, macros, and micronutrients with precision. Sync with wearables to see how food affects your body.',
+    description: 'Monitor calories, macros, and micronutrients with precision. Sync with wearables to see how food affects your body and optimize your nutrition.',
   },
   {
     icon: Apple,
     title: 'Smart Grocery Integration',
-    description: 'Shop smarter. Get personalized grocery lists, find nutrition-optimized alternatives, and track costs.',
+    description: 'Shop smarter with personalized grocery lists, nutrition-optimized alternatives, cost tracking, and local store integration.',
   },
   {
     icon: TrendingUp,
     title: 'Progress Analytics',
-    description: 'Beautiful dashboards showing your transformation. See what works. Celebrate wins. Stay motivated.',
+    description: 'Beautiful dashboards showing your transformation. See what works. Celebrate wins. Stay motivated with detailed insights and progress tracking.',
   },
 ];
 
@@ -40,10 +40,10 @@ export default function Services() {
             <span className="text-sm font-semibold text-emerald-600">💚 Our Services</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-6">
-            Everything you need to love your body
+            Everything You Need to Love Your Body
           </h2>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto">
-            Food and health in perfect harmony. Track, learn, and transform with intelligent technology.
+            Food and health in perfect harmony. Track, learn, and transform with intelligent technology that adapts to your unique needs.
           </p>
         </div>
 

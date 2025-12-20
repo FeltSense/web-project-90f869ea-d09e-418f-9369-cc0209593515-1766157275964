@@ -22,7 +22,7 @@ const features: Feature[] = [
     icon: <Zap className="w-8 h-8" />,
     title: 'Instant Recipe Generation',
     description:
-      'Get unlimited personalized recipes in seconds. Our advanced AI analyzes your taste preferences, dietary restrictions, and available ingredients to create recipes uniquely tailored to you. Every recipe is optimized for flavor, nutrition, and simplicity.',
+      'Generate unlimited personalized recipes in seconds using advanced AI. Our system analyzes your taste preferences, dietary restrictions, available ingredients, and cooking skill level to create recipes uniquely tailored to you. Every recipe is optimized for flavor, nutrition, and ease of preparation.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
@@ -34,25 +34,25 @@ const features: Feature[] = [
     icon: <Smartphone className="w-8 h-8" />,
     title: 'Smart Meal Planning',
     description:
-      'Create complete weekly meal plans in seconds with organized shopping lists and prep instructions. Get nutritional breakdowns for every meal. Say goodbye to meal planning stress forever.',
+      'Create complete weekly meal plans in seconds with organized shopping lists, prep instructions, and time-saving tips. Get detailed nutritional breakdowns for every meal. Eliminate meal planning stress and save hours each week.',
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
     title: 'Nutrition Intelligence',
     description:
-      'Track macros, micros, and calories with AI-powered insights. Understand exactly how each recipe supports your health goals. Make informed decisions with detailed analytics and personalized recommendations.',
+      'Track macros, micros, and calories with AI-powered insights and real-time analytics. Understand exactly how each recipe supports your health goals. Make informed decisions with detailed breakdowns and personalized recommendations based on your objectives.',
   },
   {
     icon: <Users className="w-8 h-8" />,
     title: 'Dietary Flexibility',
     description:
-      'Support for 50+ dietary preferences: keto, vegan, paleo, gluten-free, low-carb, and more. The AI adapts to your lifestyle. Enjoy delicious, satisfying meals that align with your choices.',
+      'Support for 50+ dietary preferences including keto, vegan, paleo, gluten-free, low-carb, and more. The AI intelligently adapts to your lifestyle and preferences. Enjoy delicious, satisfying meals that perfectly align with your dietary choices.',
   },
   {
     icon: <Workflow className="w-8 h-8" />,
     title: 'Ingredient Intelligence',
     description:
-      'Missing an ingredient? Get smart alternatives that maintain nutritional value and taste. Never let ingredient availability stop you from cooking. Always have the perfect solution at your fingertips.',
+      'Missing an ingredient? Get smart alternatives that maintain nutritional value and authentic taste. Never let ingredient availability stop you from cooking. Our AI always has the perfect solution at your fingertips.',
   },
 ];
 
@@ -95,10 +95,10 @@ export default function Features(): JSX.Element {
             <span className="text-sm font-semibold text-amber-700">✨ Product Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Everything You Need to Cook Like a Pro
+            Powerful Features Built for Modern Home Cooks
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Our AI-powered platform combines intelligent recipe generation, smart meal planning, and nutrition tracking into one seamless experience. Discover the features that make cooking easier, healthier, and more enjoyable than ever before.
+            Our advanced AI platform seamlessly integrates intelligent recipe generation, smart meal planning, comprehensive nutrition tracking, and personalized recommendations. Experience the features that transform cooking from a chore into a joy.
           </p>
         </motion.div>
 

@@ -24,7 +24,7 @@ const highlights: Highlight[] = [
     icon: <Zap className="w-8 h-8" />,
     title: 'Instant Recipe Generation',
     description:
-      'Get unlimited personalized recipes in seconds. Our AI analyzes your preferences and creates dishes uniquely tailored to you.',
+      'Get unlimited personalized recipes in seconds. Our advanced AI analyzes your preferences, cooking skill, and available ingredients to create dishes uniquely tailored to you.',
     gradient: 'from-yellow-400 to-orange-500',
   },
   {
@@ -32,7 +32,7 @@ const highlights: Highlight[] = [
     icon: <Shield className="w-8 h-8" />,
     title: 'Privacy Protected',
     description:
-      'Your dietary data is encrypted and never shared. Enterprise-grade security with HIPAA compliance for peace of mind.',
+      'Your dietary data is encrypted with enterprise-grade security and never shared. HIPAA-compliant infrastructure ensures complete peace of mind.',
     gradient: 'from-blue-400 to-cyan-500',
   },
   {
@@ -40,7 +40,7 @@ const highlights: Highlight[] = [
     icon: <Rocket className="w-8 h-8" />,
     title: 'Smart Meal Planning',
     description:
-      'Create complete weekly meal plans with organized shopping lists and prep instructions in seconds.',
+      'Create complete weekly meal plans with organized shopping lists, prep instructions, and time-saving strategies in seconds.',
     gradient: 'from-purple-400 to-pink-500',
   },
   {
@@ -48,7 +48,7 @@ const highlights: Highlight[] = [
     icon: <Users className="w-8 h-8" />,
     title: '50+ Dietary Preferences',
     description:
-      'Support for keto, vegan, paleo, gluten-free, low-carb, and more. The AI adapts to your lifestyle.',
+      'Support for keto, vegan, paleo, gluten-free, low-carb, and more. The AI intelligently adapts to your unique lifestyle and preferences.',
     gradient: 'from-green-400 to-emerald-500',
   },
   {
@@ -56,7 +56,7 @@ const highlights: Highlight[] = [
     icon: <TrendingUp className="w-8 h-8" />,
     title: 'Nutrition Intelligence',
     description:
-      'Track macros and calories with AI-powered insights. Make informed decisions about your health and nutrition.',
+      'Track macros, micros, and calories with AI-powered insights. Make informed decisions about your health and nutrition with detailed analytics.',
     gradient: 'from-red-400 to-rose-500',
   },
 ];
@@ -116,10 +116,10 @@ export default function ProductHighlights(): React.ReactElement {
           viewport={{ once: true, margin: '-100px' }}
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text text-transparent mb-6">
-            The Future of Home Cooking is Here
+            The Future of Home Cooking Starts Today
           </h2>
           <p className="text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
-            Experience the power of AI-driven recipe generation, intelligent meal planning, and personalized nutrition guidance. Join thousands of home cooks who've transformed their kitchen experience.
+            Experience the transformative power of AI-driven recipe generation, intelligent meal planning, and personalized nutrition guidance. Join thousands of home cooks who've revolutionized their kitchen experience and reclaimed their time.
           </p>
         </motion.div>
 

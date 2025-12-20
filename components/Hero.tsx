@@ -52,15 +52,15 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Your AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Personal Chef</span> Awaits
+              Your AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Culinary Genius</span> Awaits
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Generate restaurant-quality recipes in seconds. Personalized to your taste, dietary needs, and pantry. Say goodbye to meal planning stress—forever.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Transform your kitchen with AI-powered recipe generation. Get personalized, restaurant-quality meals in seconds based on your taste, dietary needs, and available ingredients. Never struggle with meal planning again.</p>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-sm sm:text-base md:text-lg text-slate-200 max-w-3xl mx-auto leading-relaxed px-2 font-medium">
-              Join 100,000+ home cooks who've transformed their kitchens. Get instant meal ideas, smart grocery lists, nutrition tracking, and dietary flexibility—all powered by cutting-edge AI.
+              Join 100,000+ home cooks who've revolutionized their kitchen experience. Enjoy instant meal ideas, intelligent grocery lists, comprehensive nutrition tracking, and complete dietary flexibility—all powered by advanced AI technology.
             </p>
           </motion.div>
 
@@ -88,7 +88,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
             <p className="text-xs sm:text-sm text-amber-200 font-semibold tracking-wide">
-              🎁 Limited Time: 7 days free + $50 in premium recipes + AI meal planning. No credit card. Cancel anytime.
+              🎁 Special Launch Offer: 7 days free + $75 in premium recipes + personalized meal planning + nutrition coaching. No credit card required. Cancel anytime.
             </p>
           </motion.div>
 

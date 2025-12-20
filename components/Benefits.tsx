@@ -18,42 +18,42 @@ const Benefits: React.FC = () => {
       id: 1,
       icon: <Brain className="w-8 h-8" />,
       title: 'AI-Powered Generation',
-      description: 'Advanced machine learning algorithms create unlimited unique recipes tailored to your taste preferences, cooking skill level, and dietary needs.',
+      description: 'Advanced machine learning algorithms create unlimited unique recipes tailored to your taste preferences, cooking skill level, dietary needs, and available ingredients.',
       gradient: 'from-emerald-400 to-cyan-400'
     },
     {
       id: 2,
       icon: <Sparkles className="w-8 h-8" />,
       title: 'Personalized Recommendations',
-      description: 'Smart suggestions based on your dietary history, favorite ingredients, and health goals. Every recommendation is tailored specifically to you.',
+      description: 'Smart suggestions based on your dietary history, favorite ingredients, cooking preferences, and health goals. Every recommendation is uniquely tailored to you.',
       gradient: 'from-cyan-400 to-indigo-400'
     },
     {
       id: 3,
       icon: <Leaf className="w-8 h-8" />,
       title: 'Dietary Customization',
-      description: 'Easily filter recipes by dietary requirements including vegan, gluten-free, keto, paleo, and countless other preferences.',
+      description: 'Easily filter recipes by dietary requirements including vegan, gluten-free, keto, paleo, and 45+ other dietary preferences and restrictions.',
       gradient: 'from-indigo-400 to-emerald-400'
     },
     {
       id: 4,
       icon: <Calendar className="w-8 h-8" />,
       title: 'Smart Meal Planning',
-      description: 'Automatically generate complete weekly meal plans with balanced nutrition, organized shopping lists, and step-by-step prep guidance.',
+      description: 'Automatically generate complete weekly meal plans with balanced nutrition, organized shopping lists, time-saving prep guidance, and cost optimization.',
       gradient: 'from-emerald-500 to-indigo-500'
     },
     {
       id: 5,
       icon: <Utensils className="w-8 h-8" />,
       title: 'Ingredient Matching',
-      description: 'Use what you have in your pantry and fridge. The AI finds delicious recipes using your available ingredients intelligently.',
+      description: 'Use what you have in your pantry and fridge. The AI intelligently finds delicious recipes using your available ingredients and suggests smart substitutions.',
       gradient: 'from-cyan-500 to-emerald-500'
     },
     {
       id: 6,
       icon: <Zap className="w-8 h-8" />,
       title: 'Instant Optimization',
-      description: 'Real-time recipe adjustments for serving sizes, cooking times, and nutritional content with a single click.',
+      description: 'Real-time recipe adjustments for serving sizes, cooking times, nutritional content, and dietary restrictions with a single click.',
       gradient: 'from-indigo-500 to-cyan-500'
     }
   ];
@@ -105,7 +105,7 @@ const Benefits: React.FC = () => {
             Why Home Cooks Love Our AI Chef
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Experience the next generation of recipe discovery with AI-driven personalization, intelligent meal planning, and nutrition tracking that actually works. Save time, reduce food waste, and enjoy healthier meals.
+            Experience the next generation of recipe discovery with advanced AI-driven personalization, intelligent meal planning, and comprehensive nutrition tracking that actually works. Save time, reduce food waste, and enjoy healthier, more delicious meals every day.
           </p>
         </motion.div>
 
