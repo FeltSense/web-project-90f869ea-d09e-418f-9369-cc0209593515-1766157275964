@@ -51,9 +51,9 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">AI Chef</span> Awaits
+              Never Struggle With <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Meal Planning</span> Again
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Stop wasting time on meal planning. Get AI-powered recipes tailored to your taste, dietary needs, and pantry. Delicious meals in minutes, not hours.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Your AI-powered personal chef generates restaurant-quality recipes in seconds. Tailored to your taste, dietary needs, and what's in your pantry. Transform your kitchen today.</p>
           </motion.div>
 
           {/* Subheading */}
@@ -71,7 +71,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2">
-                🚀 Start Cooking Smarter Now
+                🎯 Get Your Free Meal Plan
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -79,7 +79,7 @@ export default function Hero() {
               href="#features" 
               className="group px-8 sm:px-12 py-4 sm:py-6 border-2 border-amber-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-amber-500/20 hover:border-amber-300 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-2"
             >
-              <span>See How It Works</span>
+              <span>✨ Watch Demo</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -87,7 +87,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
             <p className="text-xs sm:text-sm text-amber-200 font-semibold tracking-wide">
-              ⏰ Limited time: 7 days free + $50 in premium recipes. No credit card required.
+              🎁 Exclusive offer: 7 days free + $50 in premium recipes + personalized meal plans. No credit card needed.
             </p>
           </motion.div>
 
