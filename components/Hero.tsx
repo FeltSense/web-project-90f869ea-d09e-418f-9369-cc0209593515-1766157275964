@@ -71,7 +71,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2">
-                🚀 Start Cooking Now
+                🚀 Get Your Free Meal Plan Today
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -79,9 +79,16 @@ export default function Hero() {
               href="#features" 
               className="group px-8 sm:px-12 py-4 sm:py-6 border-2 border-amber-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-amber-500/20 hover:border-amber-300 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-2"
             >
-              <span>Explore Features</span>
+              <span>See How It Works</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
+          </motion.div>
+
+          {/* Urgency & Value Statement */}
+          <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
+            <p className="text-xs sm:text-sm text-amber-200 font-semibold tracking-wide">
+              ⏰ Limited time: Get 7 days free + personalized recipes tailored to your preferences
+            </p>
           </motion.div>
 
           {/* Trust indicators with icons */}
