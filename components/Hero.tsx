@@ -51,15 +51,15 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">AI Chef</span> Awaits
+              Cook Smarter, <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Eat Better</span>
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Stop wasting time on meal planning. Get personalized recipes, smart meal plans, and nutrition insights in seconds—all tailored to your taste and dietary goals.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Transform your kitchen with AI-powered recipes designed just for you. From meal planning to nutrition tracking—everything you need to eat well, every single day.</p>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-sm sm:text-base md:text-lg text-slate-200 max-w-3xl mx-auto leading-relaxed px-2 font-medium">
-              Eliminate meal planning stress with AI-generated recipes, smart meal plans, real-time nutrition tracking, and intelligent grocery lists—all personalized to your preferences and dietary goals.
+              Say goodbye to boring meals and endless recipe scrolling. Get personalized meal plans, instant recipes, and smart grocery lists—all powered by AI that learns your taste.
             </p>
           </motion.div>
 
@@ -71,7 +71,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2">
-                ✨ Get Started Free
+                🚀 Start Cooking Now
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
