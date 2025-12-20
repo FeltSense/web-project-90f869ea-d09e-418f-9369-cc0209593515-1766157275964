@@ -52,9 +52,9 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Transform Your Business with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500">Intelligent AI Solutions</span>
+              Unlock Your Business Potential with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500">Next-Gen AI Intelligence</span>
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Harness the power of cutting-edge artificial intelligence to automate workflows, enhance decision-making, and unlock new growth opportunities. Our platform delivers enterprise-grade AI capabilities with intuitive interfaces, seamless integration, and measurable ROI. Scale your operations smarter, faster, and more efficiently.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Empower your team with AI that learns, adapts, and delivers results. Automate complex workflows, gain actionable insights in real-time, and make smarter decisions faster. Our enterprise-grade platform integrates seamlessly with your existing tools, delivering measurable ROI within weeks. Join 50,000+ companies transforming their operations.</p>
           </motion.div>
 
           {/* Subheading - Key Benefits */}
@@ -67,20 +67,20 @@ export default function Hero() {
           {/* CTA Buttons */}
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center pt-8 sm:pt-10 px-2">
             <Link 
-              href="#contact" 
+              href="/pricing" 
               className="group relative px-8 sm:px-14 py-4 sm:py-6 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white rounded-xl font-bold text-base sm:text-lg transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-purple-500/80 flex items-center justify-center gap-2 overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2">
-                🚀 Start Your Free Trial Today
+                🚀 Get Started Free - No Credit Card
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
             <Link 
-              href="/about" 
+              href="#contact" 
               className="group px-8 sm:px-12 py-4 sm:py-6 border-2 border-blue-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-blue-500/20 hover:border-blue-300 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-2"
             >
-              <span>✨ See How It Works</span>
+              <span>📅 Schedule a Demo</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -88,7 +88,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
             <p className="text-xs sm:text-sm text-blue-200 font-semibold tracking-wide">
-              ⭐ Trusted by 50,000+ enterprises worldwide. Increase productivity by 40%, reduce operational costs by 30%, and accelerate time-to-value. Start with a free 14-day trial—no credit card required. Full access to all features. Cancel anytime.
+              ⭐ Trusted by 50,000+ enterprises. Average ROI: 340% in year one. Increase productivity by 40%, reduce costs by 30%. Start free for 14 days—full access, no credit card, cancel anytime. Join companies like Stripe, Figma, and Notion.
             </p>
           </motion.div>
 
