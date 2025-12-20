@@ -52,15 +52,15 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 tracking-tight leading-tight">
-              Your AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Culinary Genius</span> Awaits
+              Cook Like a <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Professional Chef</span> Every Night
             </h1>
-            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Transform your kitchen with AI-powered recipe generation. Get personalized, restaurant-quality meals in seconds based on your taste, dietary needs, and available ingredients. Never struggle with meal planning again.</p>
+            <p className="text-base sm:text-lg text-slate-100 mt-3 sm:mt-4 px-2 font-medium">Discover restaurant-quality recipes tailored to your taste, dietary needs, and pantry. Our AI chef generates personalized meal ideas in seconds, complete with step-by-step guidance, nutrition tracking, and smart shopping lists. Say goodbye to meal planning stress forever.</p>
           </motion.div>
 
           {/* Subheading */}
           <motion.div variants={itemVariants}>
             <p className="text-sm sm:text-base md:text-lg text-slate-200 max-w-3xl mx-auto leading-relaxed px-2 font-medium">
-              Join 100,000+ home cooks who've revolutionized their kitchen experience. Enjoy instant meal ideas, intelligent grocery lists, comprehensive nutrition tracking, and complete dietary flexibility—all powered by advanced AI technology.
+              Stop wasting time deciding what to cook. Our AI analyzes your preferences, dietary needs, and available ingredients to create personalized recipes in seconds. From weeknight dinners to impressive entertaining—we've got you covered.
             </p>
           </motion.div>
 
@@ -72,7 +72,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2">
-                🚀 Start Cooking Smarter
+                🍳 Get Your Free Meal Plan
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -80,7 +80,7 @@ export default function Hero() {
               href="#features" 
               className="group px-8 sm:px-12 py-4 sm:py-6 border-2 border-amber-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-amber-500/20 hover:border-amber-300 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-2"
             >
-              <span>🎬 See How It Works</span>
+              <span>✨ Explore Key Features</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -88,7 +88,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-4 sm:pt-6 px-2">
             <p className="text-xs sm:text-sm text-amber-200 font-semibold tracking-wide">
-              🎁 Special Launch Offer: 7 days free + $75 in premium recipes + personalized meal planning + nutrition coaching. No credit card required. Cancel anytime.
+              🎁 Limited Time: Get 7 days free + $100 in premium recipes + AI meal planning + nutrition coaching. No credit card needed. Cancel anytime.
             </p>
           </motion.div>
 
