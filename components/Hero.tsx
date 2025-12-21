@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Business with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 animate-pulse">AI Intelligence</span>
+              Revolutionize Your Business with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 animate-pulse">AI Intelligence</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-100 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Unlock unprecedented growth with cutting-edge AI that works as hard as your team. Streamline operations, eliminate bottlenecks, and scale effortlessly. Join thousands of industry leaders who've transformed their business with our intelligent platform—delivering results that matter.
+              Unlock unprecedented growth with cutting-edge AI that works as hard as your team. Streamline operations, eliminate bottlenecks, and scale effortlessly. Join thousands of industry leaders who've transformed their business with our intelligent platform—delivering measurable results that drive real impact on your bottom line.
             </p>
           </motion.div>
 
@@ -79,7 +79,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                ✨ Get Started Free
+                ✨ Start Your Free Trial
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -87,7 +87,7 @@ export default function Hero() {
               href="#contact" 
               className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-blue-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-blue-500/20 hover:border-blue-300 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-3"
             >
-              <span>📅 Schedule Demo</span>
+              <span>📅 Book a Demo</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
