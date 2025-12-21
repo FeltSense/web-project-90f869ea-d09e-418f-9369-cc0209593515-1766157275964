@@ -81,7 +81,7 @@ const itemVariants = {
 
 export default function Features(): JSX.Element {
   return (
-    <section id="features" className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <section id="features" className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-slate-50 to-white">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -90,15 +90,15 @@ export default function Features(): JSX.Element {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 border border-blue-300 mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-cyan-100 border border-blue-300 mb-6">
             <Sparkles className="w-4 h-4 text-blue-600 animate-spin" style={{ animationDuration: '3s' }} />
-            <span className="text-sm font-semibold text-blue-700">⭐ Key Differentiators</span>
+            <span className="text-sm font-semibold text-blue-700">✨ Core Capabilities</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Powerful Features Built for Enterprise Scale
+            Enterprise-Grade Features
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Our platform combines cutting-edge AI with enterprise reliability. From lightning-fast automation to real-time intelligence, every feature is engineered to deliver measurable ROI and accelerate your competitive advantage in the market.
+            Powerful automation, real-time intelligence, and enterprise security—all designed to maximize your ROI and accelerate business growth.
           </p>
         </motion.div>
 
@@ -113,18 +113,18 @@ export default function Features(): JSX.Element {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="group relative bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-amber-400 overflow-hidden"
+              className="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-blue-400 overflow-hidden"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-transparent to-cyan-50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-transparent to-cyan-50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               
-              <div className="absolute top-0 right-0 w-40 h-40 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-0 group-hover:opacity-15 transition-opacity duration-300" />
+              <div className="absolute top-0 right-0 w-40 h-40 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
 
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-amber-500 via-orange-500 to-rose-500 rounded-2xl mb-6 text-white group-hover:shadow-2xl group-hover:scale-125 transition-all duration-300 shadow-lg">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-600 rounded-2xl mb-6 text-white group-hover:shadow-2xl group-hover:scale-125 transition-all duration-300 shadow-lg">
                   {feature.icon}
                 </div>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-amber-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
 
@@ -133,7 +133,7 @@ export default function Features(): JSX.Element {
                 </p>
               </div>
 
-              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 group-hover:w-full transition-all duration-300 rounded-b-2xl" />
+              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 group-hover:w-full transition-all duration-300 rounded-b-2xl" />
             </motion.div>
           ))}
         </motion.div>
