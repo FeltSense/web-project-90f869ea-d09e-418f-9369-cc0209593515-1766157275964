@@ -26,7 +26,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 pt-20 pb-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 pt-24 pb-24 overflow-hidden">
       {/* Premium animated background elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.4),transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(168,85,247,0.3),transparent_50%)]" />
@@ -39,23 +39,23 @@ export default function Hero() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="space-y-8"
+          className="space-y-10"
         >
           {/* Badge */}
           <motion.div variants={itemVariants} className="flex justify-center px-2">
             <div className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-400/50 backdrop-blur-md hover:from-blue-500/30 hover:to-purple-500/30 transition-all shadow-lg shadow-purple-500/10">
               <Sparkles className="w-4 h-4 text-blue-300 animate-spin" style={{ animationDuration: '3s' }} />
-              <span className="text-xs sm:text-sm font-bold text-blue-100">✨ Trusted by 50,000+ Enterprises Worldwide</span>
+              <span className="text-xs sm:text-sm font-bold text-blue-100">⭐ Trusted by 50,000+ Enterprises • 4.8★ Rating</span>
             </div>
           </motion.div>
 
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Workflow, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Unlock Your Potential</span>
+              Automate Everything, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Achieve More</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Eliminate bottlenecks and accelerate growth with intelligent automation. Our platform empowers teams to work smarter, not harder—delivering measurable results in days. Join thousands of industry leaders already transforming their operations.
+              Cut operational costs by 70% while boosting productivity. Our AI-powered platform automates repetitive tasks, eliminates bottlenecks, and delivers measurable ROI in days—not months. Join 50,000+ enterprises already saving thousands of hours annually.
             </p>
           </motion.div>
 
@@ -72,22 +72,22 @@ export default function Hero() {
           </motion.div>
 
           {/* CTA Buttons */}
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-6 justify-center pt-10 sm:pt-12 px-2">
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-6 justify-center pt-12 sm:pt-16 px-2">
             <Link 
               href="/pricing" 
-              className="group relative px-10 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 text-white rounded-2xl font-bold text-lg sm:text-xl transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-blue-500/80 flex items-center justify-center gap-3 overflow-hidden"
+              className="group relative px-10 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 text-white rounded-2xl font-bold text-lg sm:text-xl transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-blue-500/80 active:scale-95 flex items-center justify-center gap-3 overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-cyan-600 to-blue-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                ✨ Start Your Free Trial
+                🚀 Start Free Trial Today
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
             <Link 
               href="/blog" 
-              className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-purple-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-purple-500/20 hover:border-purple-300 transition-all backdrop-blur-sm hover:scale-105 transform flex items-center justify-center gap-3"
+              className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-purple-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-purple-500/20 hover:border-purple-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-3"
             >
-              <span>🎯 See It In Action</span>
+              <span>📹 Watch Demo</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -95,12 +95,12 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-6 sm:pt-8 px-2">
             <p className="text-sm sm:text-base text-blue-100 font-semibold tracking-wide max-w-3xl mx-auto">
-              🚀 Live in minutes • 🔐 Bank-level security • 💰 Save 70% on operations • 🌐 Global support • 🤖 AI-driven • 🎁 No credit card required
+              ⚡ Deploy in minutes • 🔐 Enterprise security • 💰 70% cost reduction • 🌍 24/7 global support • 🤖 AI-powered automation • ✅ Free forever tier
             </p>
           </motion.div>
 
           {/* Trust indicators with icons */}
-          <motion.div variants={itemVariants} className="pt-16 sm:pt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-slate-200 px-2">
+          <motion.div variants={itemVariants} className="pt-20 sm:pt-24 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-slate-200 px-2">
             <div className="flex flex-col items-center gap-4 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-blue-500/15 to-blue-500/5 border border-blue-500/30 hover:border-blue-400/60 hover:bg-blue-500/20 transition-all transform hover:scale-105">
               <Users className="w-8 sm:w-9 h-8 sm:h-9 text-blue-400" />
               <span className="font-bold text-base sm:text-lg text-white">50,000+ Enterprises</span>
