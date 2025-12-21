@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Business with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Intelligent Automation</span>
+              Automate Everything, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Achieve More</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Unlock unprecedented efficiency and growth. Our AI-powered platform automates complex workflows, reduces operational costs by up to 70%, and empowers your team to focus on what matters most. Join thousands of industry leaders already transforming their operations.
+              The intelligent automation platform trusted by 50,000+ enterprises. Reduce operational costs by 70%, deploy in minutes, and unlock your team's full potential with AI-powered workflows that work 24/7.
             </p>
           </motion.div>
 
