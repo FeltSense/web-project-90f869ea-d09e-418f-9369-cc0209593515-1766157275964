@@ -100,6 +100,9 @@ export default function Hero() {
             <p className="text-sm sm:text-base text-blue-100 font-semibold tracking-wide max-w-3xl mx-auto">
               🍽️ Personalized recipes • 📱 Mobile-friendly • 🎯 Dietary preferences • 🏪 Shopping lists • 💡 Smart substitutions • 🌟 Community recipes
             </p>
+            <p className="text-xs sm:text-sm text-slate-300 mt-4 font-medium">
+              💰 Save $1,200+ annually on meal planning • ⏱️ 10+ hours saved per week • 🎯 100% personalized to your taste
+            </p>
           </motion.div>
 
           {/* Trust indicators with icons */}
