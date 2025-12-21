@@ -45,17 +45,17 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex justify-center px-2">
             <div className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-400/50 backdrop-blur-md hover:from-blue-500/30 hover:to-purple-500/30 transition-all shadow-lg shadow-purple-500/10">
               <Sparkles className="w-4 h-4 text-blue-300 animate-spin" style={{ animationDuration: '3s' }} />
-              <span className="text-xs sm:text-sm font-bold text-blue-100">✨ AI-Powered Recipes • 100,000+ Home Cooks • 4.9★ Rating</span>
+              <span className="text-xs sm:text-sm font-bold text-blue-100">🚀 New: AI Recipe Generator • Trusted by 100,000+ Cooks • 4.9★ Rating</span>
             </div>
           </motion.div>
 
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Meal Ideas Again</span>
+              Your Personal AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Chef & Meal Planner</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Get unlimited personalized recipes in seconds. Our AI learns your taste, dietary needs, and available ingredients to create dishes you'll actually love. Save hours on meal planning, reduce food waste, and discover new favorite recipes every week.
+              Transform your kitchen with AI-powered recipes tailored to your taste, dietary preferences, and available ingredients. Get unlimited meal ideas in seconds, save hours on planning, and discover dishes you'll absolutely love. Join 100,000+ home cooks already using our platform.
             </p>
           </motion.div>
 
@@ -79,7 +79,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-cyan-600 to-blue-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                🍳 Generate Your First Recipe Free
+                🚀 Start Generating Recipes Free
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -87,7 +87,7 @@ export default function Hero() {
               href="/blog" 
               className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-purple-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-purple-500/20 hover:border-purple-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-3"
             >
-              <span>📖 See How It Works</span>
+              <span>✨ Explore Features</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -95,7 +95,7 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-6 sm:pt-8 px-2">
             <div className="inline-block bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/50 rounded-full px-6 py-3 mb-4">
-              <p className="text-sm sm:text-base text-green-100 font-semibold">✅ 7-day free trial • No credit card required • Full feature access</p>
+              <p className="text-sm sm:text-base text-green-100 font-semibold">✅ 7-Day Free Trial • No Credit Card • Full Access to All Features</p>
             </div>
             <p className="text-sm sm:text-base text-blue-100 font-semibold tracking-wide max-w-3xl mx-auto">
               🍽️ Personalized recipes • 📱 Mobile-friendly • 🎯 Dietary preferences • 🏪 Shopping lists • 💡 Smart substitutions • 🌟 Community recipes
