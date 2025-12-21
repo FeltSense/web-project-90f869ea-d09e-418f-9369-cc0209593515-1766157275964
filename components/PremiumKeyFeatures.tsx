@@ -126,11 +126,9 @@ const PremiumKeyFeatures: React.FC = () => {
           {features.map((feature) => (
             <motion.div
               key={feature.id}
-              variants={itemVariants}
-              whileHover="hover"
-              initial="initial"
-              animate="initial"
               variants={cardHoverVariants}
+              initial="initial"
+              whileHover="hover"
               className="group relative"
             >
               <div className="relative h-full rounded-2xl backdrop-blur-xl border border-white/10 hover:border-white/20 transition-colors duration-300 overflow-hidden bg-white/5 p-8 flex flex-col">
