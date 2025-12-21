@@ -21,22 +21,13 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      <Features />
       <ProductFeaturesSection />
       <FeaturesShowcase />
-      <PremiumKeyFeatures />
-      <KeyProductFeatures />
-      <BetaSignup />
-      <FeaturesHighlight />
-      <NewFeaturesHighlight />
-      <ProductFeatures />
-      <KeyFeatures />
-      <ProductHighlights />
-      <Features />
       <Benefits />
-      <Services />
       <Testimonials />
       <Pricing />
       <FAQ />

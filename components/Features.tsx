@@ -81,24 +81,24 @@ const itemVariants = {
 
 export default function Features(): JSX.Element {
   return (
-    <section id="features" className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-slate-50 to-white">
+    <section id="features" className="py-20 sm:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-slate-50 to-white">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mb-20"
+          className="text-center mb-16 sm:mb-20"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-100 to-cyan-100 border border-emerald-300 mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-100 to-cyan-100 border border-emerald-300 mb-5">
             <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
-            <span className="text-sm font-semibold text-emerald-700">✨ Powerful Features</span>
+            <span className="text-sm font-semibold text-emerald-700">✨ Core Features</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Everything You Need to Cook Better
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-5 sm:mb-6">
+            Everything You Need
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            AI-powered recipe generation, smart meal planning, nutrition tracking, and community recipes—all designed to save you time and help you cook delicious meals every single day.
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            AI-powered recipes, smart meal planning, nutrition tracking, and community recipes—all designed to save you time and help you cook delicious meals every day.
           </p>
         </motion.div>
 
@@ -107,24 +107,24 @@ export default function Features(): JSX.Element {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
         >
           {features.map((feature, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
-              className="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-blue-400 overflow-hidden"
+              className="group relative bg-white rounded-xl p-7 sm:p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-blue-400 overflow-hidden"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-transparent to-cyan-50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-transparent to-cyan-50 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               
-              <div className="absolute top-0 right-0 w-40 h-40 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-0 group-hover:opacity-15 transition-opacity duration-300" />
 
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-600 rounded-2xl mb-6 text-white group-hover:shadow-2xl group-hover:scale-125 transition-all duration-300 shadow-lg">
+                <div className="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-600 rounded-xl mb-5 text-white group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 shadow-md">
                   {feature.icon}
                 </div>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                <h3 className="text-lg font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
 
@@ -133,7 +133,7 @@ export default function Features(): JSX.Element {
                 </p>
               </div>
 
-              <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 group-hover:w-full transition-all duration-300 rounded-b-2xl" />
+              <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 group-hover:w-full transition-all duration-300 rounded-b-xl" />
             </motion.div>
           ))}
         </motion.div>
