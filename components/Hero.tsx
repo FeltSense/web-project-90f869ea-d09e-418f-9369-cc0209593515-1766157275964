@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">AI-Powered Cooking</span>
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">AI Chef</span> Awaits
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Discover endless meal possibilities powered by artificial intelligence. Get personalized recipes tailored to your ingredients, dietary preferences, and cooking skill level. Say goodbye to meal planning stress and hello to delicious, effortless dinners every night.
+              Stop wasting time on meal planning. Get instant, personalized recipes based on what you have in your kitchen. Our AI learns your taste preferences and dietary needs to create the perfect meal every single time.
             </p>
           </motion.div>
 
@@ -79,15 +79,15 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                🚀 Start Cooking Free Today
+                🎯 Get Your First Recipe Free
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
             <Link 
-              href="/about" 
+              href="#features" 
               className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-cyan-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-cyan-500/20 hover:border-cyan-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-3"
             >
-              <span>✨ Explore Features</span>
+              <span>🔥 See What's Possible</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>

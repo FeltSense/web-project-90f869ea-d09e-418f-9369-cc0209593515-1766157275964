@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react'
+import React from 'react';
 import { 
   Zap, 
   BarChart3, 
@@ -8,7 +8,7 @@ import {
   Plug, 
   Rocket, 
   Headphones 
-} from 'lucide-react'
+} from 'lucide-react';
 
 interface Feature {
   id: string
@@ -20,40 +20,40 @@ interface Feature {
 const ProductFeatures: React.FC = () => {
   const features: Feature[] = [
     {
-      id: 'ai-automation',
+      id: 'ai-recipes',
       icon: <Zap className="w-8 h-8" />,
-      title: 'AI Automation',
-      description: 'Automate repetitive tasks with intelligent workflows powered by advanced machine learning algorithms.'
+      title: 'AI-Powered Recipes',
+      description: 'Get instant recipe suggestions powered by advanced AI that learns your taste preferences and cooking style.'
     },
     {
-      id: 'real-time-analytics',
+      id: 'meal-planning',
       icon: <BarChart3 className="w-8 h-8" />,
-      title: 'Real-time Analytics',
-      description: 'Get instant insights with live dashboards and comprehensive data visualization tools.'
+      title: 'Smart Meal Planning',
+      description: 'Automated weekly meal plans tailored to your dietary needs, budget, and available ingredients.'
     },
     {
-      id: 'security',
+      id: 'nutrition',
       icon: <Shield className="w-8 h-8" />,
-      title: 'Enterprise Security',
-      description: 'Bank-level encryption and compliance with industry standards to protect your data.'
+      title: 'Nutrition Tracking',
+      description: 'Complete nutritional information for every recipe with macro tracking and dietary goal alignment.'
     },
     {
-      id: 'integration',
+      id: 'shopping',
       icon: <Plug className="w-8 h-8" />,
-      title: 'Seamless Integration',
-      description: 'Connect with 500+ popular applications and services through our robust API.'
+      title: 'Smart Shopping Lists',
+      description: 'Auto-generated shopping lists organized by store section with price comparisons and deals.'
     },
     {
-      id: 'scalability',
+      id: 'substitutions',
       icon: <Rocket className="w-8 h-8" />,
-      title: 'Unlimited Scalability',
-      description: 'Grow without limits with our cloud-native infrastructure supporting millions of users.'
+      title: 'Ingredient Substitutions',
+      description: 'Intelligent suggestions for ingredient swaps based on allergies, preferences, and what you have on hand.'
     },
     {
-      id: 'support',
+      id: 'community',
       icon: <Headphones className="w-8 h-8" />,
-      title: '24/7 Support',
-      description: 'Round-the-clock expert support team ready to help you succeed.'
+      title: 'Community Recipes',
+      description: 'Access thousands of user-created recipes, tips, and cooking techniques from home chefs worldwide.'
     }
   ]
 
@@ -70,16 +70,16 @@ const ProductFeatures: React.FC = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-500/30 hover:border-blue-500/50 transition-colors">
             <span className="text-sm font-semibold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Core Capabilities
+              ✨ Premium Features
             </span>
           </div>
           
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Powerful Features Built for <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Modern Teams</span>
+            Everything You Need to <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Cook Like a Pro</span>
           </h2>
           
           <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-            Everything you need to streamline operations, boost productivity, and drive growth with our comprehensive platform.
+            From recipe discovery to meal planning and nutrition tracking, our AI-powered platform handles every aspect of your cooking journey.
           </p>
         </div>
 
@@ -119,7 +119,7 @@ const ProductFeatures: React.FC = () => {
 
         <div className="mt-16 text-center">
           <button className="px-8 py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 transition-all duration-300 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 hover:scale-105 transform">
-            Explore All Features
+            🍳 Start Your Culinary Journey
           </button>
         </div>
       </div>
