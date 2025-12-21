@@ -208,7 +208,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             variants={containerVariants}
@@ -217,22 +217,22 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-gray-900">
+            <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-white">
               Ready to Transform Your Kitchen?
             </motion.h2>
-            <motion.p variants={itemVariants} className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Join thousands of home cooks using AI-powered recipes to create delicious meals with confidence.
+            <motion.p variants={itemVariants} className="text-xl text-blue-50 max-w-2xl mx-auto">
+              Join 100,000+ home cooks using AI-powered recipes to create delicious meals with confidence. Start your free 7-day trial today—no credit card required.
             </motion.p>
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <a
-                href="#contact"
-                className="px-8 py-4 bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-white rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-orange-500/50 transition-all transform hover:scale-105"
+                href="/pricing"
+                className="px-8 py-4 bg-white text-blue-600 rounded-xl font-bold text-lg hover:shadow-lg hover:shadow-white/50 transition-all transform hover:scale-105"
               >
-                Get Started Free
+                Start Free Trial
               </a>
               <a
                 href="/"
-                className="px-8 py-4 border-2 border-amber-400 text-amber-600 rounded-xl font-semibold text-lg hover:bg-amber-50 transition-all"
+                className="px-8 py-4 border-2 border-white text-white rounded-xl font-semibold text-lg hover:bg-white/10 transition-all"
               >
                 Back to Home
               </a>
