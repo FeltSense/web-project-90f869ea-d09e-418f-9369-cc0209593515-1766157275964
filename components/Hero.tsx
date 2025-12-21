@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Cook Like a Pro with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI-Powered Intelligence</span>
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI Chef</span> Awaits
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time on meal planning. Our AI instantly generates personalized recipes based on your preferences, dietary needs, and available ingredients. Cook restaurant-quality meals at home in minutes, not hours.
+              Transform your kitchen with AI-powered recipe generation. Get personalized meal plans, smart shopping lists, and restaurant-quality recipes in seconds. Say goodbye to meal planning stress and hello to delicious, effortless cooking.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -103,7 +103,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* CTA Buttons - Premium Enhanced */}
+          {/* CTA Buttons - Premium Enhanced with Beta Signup */}
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-6 justify-center pt-8 sm:pt-12 px-2">
             <Link 
               href="/pricing" 
@@ -113,6 +113,17 @@ export default function Hero() {
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
                 🎯 Get Your First Recipe Free
+                <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
+              </span>
+            </Link>
+            <Link 
+              href="#beta-signup" 
+              className="group relative px-10 sm:px-16 py-6 sm:py-8 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-2xl font-bold text-lg sm:text-xl transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-blue-500/80 active:scale-95 flex items-center justify-center gap-3 overflow-hidden border-2 border-blue-400/50 relative"
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
+              <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
+                🚀 Sign Up for Beta
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -149,12 +160,13 @@ export default function Hero() {
 
           {/* Urgency & Value Statement - Premium Enhanced */}
           <motion.div variants={itemVariants} className="pt-8 sm:pt-12 px-2 space-y-6">
-            <div className="inline-block bg-gradient-to-r from-green-500/30 to-emerald-500/30 border border-green-400/60 rounded-full px-6 sm:px-8 py-3 sm:py-4 mb-2 hover:from-green-500/40 hover:to-emerald-500/40 transition-all shadow-lg shadow-green-500/10 animate-pulse">
-              <p className="text-sm sm:text-base text-green-100 font-bold">✅ No Credit Card Required • Cancel Anytime • 🎁 7 Days Free</p>
+            <div className="inline-block bg-gradient-to-r from-red-500/30 to-pink-500/30 border border-red-400/60 rounded-full px-6 sm:px-8 py-3 sm:py-4 mb-2 hover:from-red-500/40 hover:to-pink-500/40 transition-all shadow-lg shadow-red-500/10 animate-pulse">
+              <p className="text-sm sm:text-base text-red-100 font-bold">⏰ Limited Beta Access • 🎁 First 500 Users Get Lifetime 50% Off</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/60 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-xl shadow-slate-900/50">
               <p className="text-sm sm:text-base text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
-                <span className="block mb-3 text-base sm:text-lg">🤖 AI-Powered Recipes • 📱 Mobile App • 🎯 Dietary Preferences</span>
+                <span className="block mb-3 text-base sm:text-lg font-bold text-emerald-300">✨ Key Features Included:</span>
+                <span className="block mb-2 text-base sm:text-lg">🤖 AI-Powered Recipes • 📱 Mobile App • 🎯 Dietary Preferences</span>
                 <span className="block text-base sm:text-lg">🛒 Smart Shopping Lists • 💡 Smart Substitutions • 👥 Community Recipes</span>
               </p>
             </div>
