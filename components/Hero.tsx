@@ -45,17 +45,17 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex justify-center px-2">
             <div className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/50 backdrop-blur-md hover:from-emerald-500/30 hover:to-cyan-500/30 transition-all shadow-lg shadow-emerald-500/10">
               <Sparkles className="w-4 h-4 text-emerald-300 animate-spin" style={{ animationDuration: '3s' }} />
-              <span className="text-xs sm:text-sm font-bold text-emerald-100">🔥 Join 100,000+ Home Cooks • 4.9★ Rating • 7-Day Free Trial</span>
+              <span className="text-xs sm:text-sm font-bold text-emerald-100">✨ AI Recipe Generator • 100,000+ Users • 4.9★ Rating • 7-Day Free</span>
             </div>
           </motion.div>
 
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI Chef</span> Awaits
+              Generate Perfect Recipes with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI in 30 Seconds</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time deciding what to cook. Get personalized recipes in 30 seconds based on your taste, dietary needs, and pantry. Save 10+ hours weekly, cut grocery bills by $1,200/year, and finally enjoy cooking again.
+              Our advanced AI recipe generator creates personalized recipes based on your taste, dietary needs, and available ingredients. Save 10+ hours weekly, cut grocery bills by $1,200/year, and discover meals you'll actually love.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -112,7 +112,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                🚀 Start Your Free Trial
+                🤖 Generate Recipes Now
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
