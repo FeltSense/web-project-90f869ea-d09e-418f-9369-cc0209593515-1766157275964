@@ -55,7 +55,7 @@ export default function Hero() {
               Transform Your Business with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 animate-pulse">AI Intelligence</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-100 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Empower your team with AI that learns, adapts, and delivers measurable results. Automate complex workflows, gain real-time insights, and make smarter decisions faster. Our enterprise-grade platform integrates seamlessly with your existing tools, delivering 340% average ROI within the first year.
+              Unlock unprecedented growth with cutting-edge AI that works as hard as your team. Streamline operations, eliminate bottlenecks, and scale effortlessly. Join thousands of industry leaders who've transformed their business with our intelligent platform—delivering results that matter.
             </p>
           </motion.div>
 
@@ -79,7 +79,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                🚀 Start Free Today
+                ✨ Get Started Free
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
