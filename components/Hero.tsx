@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Meal Ideas Again</span>
+              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">AI-Powered Cooking</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Let AI create personalized recipes based on your ingredients, dietary needs, and taste preferences. Get fresh meal ideas instantly, build smart shopping lists, and cook with confidence. Start your free trial today—no credit card required.
+              Discover endless meal possibilities powered by artificial intelligence. Get personalized recipes tailored to your ingredients, dietary preferences, and cooking skill level. Say goodbye to meal planning stress and hello to delicious, effortless dinners every night.
             </p>
           </motion.div>
 
@@ -75,19 +75,19 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-6 justify-center pt-12 sm:pt-16 px-2">
             <Link 
               href="/pricing" 
-              className="group relative px-10 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 text-white rounded-2xl font-bold text-lg sm:text-xl transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-blue-500/80 active:scale-95 flex items-center justify-center gap-3 overflow-hidden"
+              className="group relative px-10 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-bold text-lg sm:text-xl transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-3 overflow-hidden"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-cyan-600 to-blue-700 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                🎯 Get Started Free
+                🚀 Start Cooking Free Today
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
             <Link 
               href="/about" 
-              className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-purple-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-purple-500/20 hover:border-purple-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-3"
+              className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-cyan-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-cyan-500/20 hover:border-cyan-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-3"
             >
-              <span>🎬 See How It Works</span>
+              <span>✨ Explore Features</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -109,7 +109,7 @@ export default function Hero() {
               <span className="font-bold text-base sm:text-lg text-white">100,000+ Home Cooks</span>
               <span className="text-sm sm:text-base text-slate-300">Creating delicious meals daily</span>
             </div>
-            <div className="flex flex-col items-center gap-4 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-purple-500/15 to-purple-500/5 border border-purple-500/30 hover:border-purple-400/60 hover:bg-purple-500/20 transition-all transform hover:scale-105">
+            <div className="flex flex-col items-center gap-4 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-purple-500/15 to-purple-500/5 border border-purple-500/30 hover:border-cyan-400/60 hover:bg-purple-500/20 transition-all transform hover:scale-105">
               <Clock className="w-8 sm:w-9 h-8 sm:h-9 text-purple-400" />
               <span className="font-bold text-base sm:text-lg text-white">5 Min Setup</span>
               <span className="text-sm sm:text-base text-slate-300">Start generating recipes instantly</span>
