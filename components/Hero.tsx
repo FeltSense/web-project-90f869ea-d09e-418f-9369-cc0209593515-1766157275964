@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Business with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Next-Gen AI Automation</span>
+              Automate Everything, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Scale Infinitely</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Reduce operational costs by 70%, eliminate manual bottlenecks, and unlock exponential growth. Our AI-powered platform delivers measurable ROI in days. Join 50,000+ enterprises transforming their operations.
+              Cut operational costs by 70% in weeks. Eliminate manual work. Unlock exponential growth with AI that learns your business. Trusted by 50,000+ enterprises worldwide.
             </p>
           </motion.div>
 
@@ -79,7 +79,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-cyan-600 to-blue-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                🚀 Start Free Trial - New Features Included
+                🚀 Get Started Free - No Credit Card
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -87,15 +87,18 @@ export default function Hero() {
               href="/blog" 
               className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-purple-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-purple-500/20 hover:border-purple-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-3"
             >
-              <span>📹 Watch Demo - See New Features</span>
+              <span>📊 See How It Works</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
 
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-6 sm:pt-8 px-2">
+            <div className="inline-block bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/50 rounded-full px-6 py-3 mb-4">
+              <p className="text-sm sm:text-base text-green-100 font-semibold">✅ 14-day free trial • No credit card • Full access to all features</p>
+            </div>
             <p className="text-sm sm:text-base text-blue-100 font-semibold tracking-wide max-w-3xl mx-auto">
-              ⚡ Deploy in minutes • 🔐 Enterprise-grade security • 💰 70% cost savings • 🌍 24/7 support • 🤖 AI-powered • ✅ No credit card required
+              ⚡ Deploy in minutes • 🔐 Enterprise security • 💰 70% cost savings • 🌍 24/7 support • 🤖 AI-powered • 📈 Instant ROI
             </p>
           </motion.div>
 
