@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI-Powered Recipes</span>
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI Chef</span> Awaits
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time on meal planning. Get instant, personalized recipes tailored to your taste, dietary preferences, and pantry. Create restaurant-quality meals at home in minutes—powered by cutting-edge AI technology.
+              Discover endless recipe possibilities in seconds. Our AI learns your preferences and creates personalized meals from ingredients you already have. Say goodbye to boring dinners and hello to culinary inspiration.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -112,7 +112,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                🚀 Get Started Free
+                🚀 Start Free Trial
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -123,7 +123,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                ⭐ Unlock Premium Features
+                ✨ Join Beta Program
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -133,7 +133,7 @@ export default function Hero() {
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-10 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                📖 Learn More
+                📖 See How It Works
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -161,7 +161,7 @@ export default function Hero() {
           {/* Urgency & Value Statement - Premium Enhanced */}
           <motion.div variants={itemVariants} className="pt-8 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-red-500/30 to-pink-500/30 border border-red-400/60 rounded-full px-6 sm:px-8 py-3 sm:py-4 mb-2 hover:from-red-500/40 hover:to-pink-500/40 transition-all shadow-lg shadow-red-500/10 animate-pulse">
-              <p className="text-sm sm:text-base text-red-100 font-bold">⏰ Limited Beta Access • 🎁 First 500 Users Get Lifetime 50% Off</p>
+              <p className="text-sm sm:text-base text-red-100 font-bold">🔥 Limited Time Offer • 🎁 First 500 Users Get Lifetime 50% Off + Premium Features Free</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/60 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-xl shadow-slate-900/50">
               <p className="text-sm sm:text-base text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
