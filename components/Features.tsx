@@ -20,7 +20,7 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <Zap className="w-8 h-8" />,
-    title: 'Lightning-Fast Automation',
+    title: '⭐ Lightning-Fast Automation (NEW)',
     description:
       'Automate complex workflows in minutes, not months. Our AI-powered platform learns your processes and executes them flawlessly at scale. Reduce manual work by up to 80% and free your team to focus on strategic initiatives that drive real business value.',
   },
@@ -38,7 +38,7 @@ const features: Feature[] = [
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
-    title: 'Real-Time Intelligence',
+    title: '✨ Real-Time Intelligence (NEW)',
     description:
       'Get actionable insights instantly with advanced analytics and predictive modeling. Make data-driven decisions with confidence. Our AI continuously learns and adapts to deliver increasingly accurate recommendations and forecasts.',
   },
