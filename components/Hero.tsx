@@ -59,40 +59,47 @@ export default function Hero() {
             </p>
           </motion.div>
 
-          {/* Subheading - Key Benefits */}
+          {/* Subheading - Key Features Showcase */}
           <motion.div variants={itemVariants}>
-            <div className="flex flex-wrap justify-center gap-3 sm:gap-4 max-w-4xl mx-auto px-2">
-              <span className="px-4 py-2 rounded-full bg-blue-500/20 border border-blue-400/40 text-blue-100 text-sm sm:text-base font-medium">🍳 Instant Recipes</span>
-              <span className="px-4 py-2 rounded-full bg-purple-500/20 border border-purple-400/40 text-purple-100 text-sm sm:text-base font-medium">📋 Smart Meal Plans</span>
-              <span className="px-4 py-2 rounded-full bg-pink-500/20 border border-pink-400/40 text-pink-100 text-sm sm:text-base font-medium">🥗 Nutrition Tracking</span>
-              <span className="px-4 py-2 rounded-full bg-blue-500/20 border border-blue-400/40 text-blue-100 text-sm sm:text-base font-medium">🛒 Smart Shopping</span>
-              <span className="px-4 py-2 rounded-full bg-purple-500/20 border border-purple-400/40 text-purple-100 text-sm sm:text-base font-medium">⚡ Instant Optimization</span>
-              <span className="px-4 py-2 rounded-full bg-pink-500/20 border border-pink-400/40 text-pink-100 text-sm sm:text-base font-medium">🌱 50+ Diets</span>
+            <div className="space-y-6 max-w-5xl mx-auto px-2">
+              <p className="text-base sm:text-lg text-slate-300 font-semibold tracking-wide">✨ Powered by Advanced AI Technology</p>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+                <div className="group relative px-3 sm:px-4 py-3 sm:py-3 rounded-xl bg-gradient-to-br from-blue-500/30 to-blue-500/10 border border-blue-400/50 hover:border-blue-300/80 hover:from-blue-500/40 hover:to-blue-500/20 transition-all cursor-pointer transform hover:scale-105">
+                  <span className="text-xl sm:text-2xl block mb-1">🍳</span>
+                  <p className="text-xs sm:text-sm font-bold text-blue-100">Instant Recipes</p>
+                  <p className="text-xs text-blue-200/70 mt-1 hidden sm:block">AI-Generated</p>
+                </div>
+                <div className="group relative px-3 sm:px-4 py-3 sm:py-3 rounded-xl bg-gradient-to-br from-purple-500/30 to-purple-500/10 border border-purple-400/50 hover:border-purple-300/80 hover:from-purple-500/40 hover:to-purple-500/20 transition-all cursor-pointer transform hover:scale-105">
+                  <span className="text-xl sm:text-2xl block mb-1">📋</span>
+                  <p className="text-xs sm:text-sm font-bold text-purple-100">Meal Plans</p>
+                  <p className="text-xs text-purple-200/70 mt-1 hidden sm:block">Auto-Optimized</p>
+                </div>
+                <div className="group relative px-3 sm:px-4 py-3 sm:py-3 rounded-xl bg-gradient-to-br from-pink-500/30 to-pink-500/10 border border-pink-400/50 hover:border-pink-300/80 hover:from-pink-500/40 hover:to-pink-500/20 transition-all cursor-pointer transform hover:scale-105">
+                  <span className="text-xl sm:text-2xl block mb-1">🥗</span>
+                  <p className="text-xs sm:text-sm font-bold text-pink-100">Nutrition</p>
+                  <p className="text-xs text-pink-200/70 mt-1 hidden sm:block">Tracked</p>
+                </div>
+                <div className="group relative px-3 sm:px-4 py-3 sm:py-3 rounded-xl bg-gradient-to-br from-emerald-500/30 to-emerald-500/10 border border-emerald-400/50 hover:border-emerald-300/80 hover:from-emerald-500/40 hover:to-emerald-500/20 transition-all cursor-pointer transform hover:scale-105">
+                  <span className="text-xl sm:text-2xl block mb-1">🛒</span>
+                  <p className="text-xs sm:text-sm font-bold text-emerald-100">Shopping</p>
+                  <p className="text-xs text-emerald-200/70 mt-1 hidden sm:block">Lists</p>
+                </div>
+                <div className="group relative px-3 sm:px-4 py-3 sm:py-3 rounded-xl bg-gradient-to-br from-cyan-500/30 to-cyan-500/10 border border-cyan-400/50 hover:border-cyan-300/80 hover:from-cyan-500/40 hover:to-cyan-500/20 transition-all cursor-pointer transform hover:scale-105">
+                  <span className="text-xl sm:text-2xl block mb-1">⚡</span>
+                  <p className="text-xs sm:text-sm font-bold text-cyan-100">Smart</p>
+                  <p className="text-xs text-cyan-200/70 mt-1 hidden sm:block">Substitutions</p>
+                </div>
+                <div className="group relative px-3 sm:px-4 py-3 sm:py-3 rounded-xl bg-gradient-to-br from-orange-500/30 to-orange-500/10 border border-orange-400/50 hover:border-orange-300/80 hover:from-orange-500/40 hover:to-orange-500/20 transition-all cursor-pointer transform hover:scale-105">
+                  <span className="text-xl sm:text-2xl block mb-1">🌱</span>
+                  <p className="text-xs sm:text-sm font-bold text-orange-100">50+ Diets</p>
+                  <p className="text-xs text-orange-200/70 mt-1 hidden sm:block">Supported</p>
+                </div>
+              </div>
             </div>
           </motion.div>
 
-          {/* CTA Buttons */}
-
-
-          {/* Key Benefits Highlight */}
-          <motion.div variants={itemVariants} className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-4xl mx-auto px-2 py-8 sm:py-12">
-            <div className="flex flex-col items-center gap-3 p-4 sm:p-6 rounded-xl bg-gradient-to-br from-emerald-500/20 to-emerald-500/5 border border-emerald-400/40 hover:border-emerald-300/60 transition-all">
-              <span className="text-2xl sm:text-3xl">⏱️</span>
-              <h3 className="font-bold text-white text-sm sm:text-base">Save 10+ Hours Weekly</h3>
-              <p className="text-xs sm:text-sm text-slate-300">No more meal planning stress</p>
-            </div>
-            <div className="flex flex-col items-center gap-3 p-4 sm:p-6 rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-500/5 border border-blue-400/40 hover:border-blue-300/60 transition-all">
-              <span className="text-2xl sm:text-3xl">🤖</span>
-              <h3 className="font-bold text-white text-sm sm:text-base">AI-Personalized Recipes</h3>
-              <p className="text-xs sm:text-sm text-slate-300">Tailored to your preferences</p>
-            </div>
-            <div className="flex flex-col items-center gap-3 p-4 sm:p-6 rounded-xl bg-gradient-to-br from-purple-500/20 to-purple-500/5 border border-purple-400/40 hover:border-purple-300/60 transition-all">
-              <span className="text-2xl sm:text-3xl">💰</span>
-              <h3 className="font-bold text-white text-sm sm:text-base">Save $1,200+ Yearly</h3>
-              <p className="text-xs sm:text-sm text-slate-300">Reduce food waste & costs</p>
-            </div>
-          </motion.div>
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-6 justify-center pt-12 sm:pt-16 px-2">
+          {/* CTA Buttons - Enhanced */}
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-6 justify-center pt-8 sm:pt-12 px-2">
             <Link 
               href="/pricing" 
               className="group relative px-10 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-bold text-lg sm:text-xl transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-3 overflow-hidden border-2 border-emerald-400/50"
@@ -112,35 +119,57 @@ export default function Hero() {
             </Link>
           </motion.div>
 
-          {/* Urgency & Value Statement */}
-          <motion.div variants={itemVariants} className="pt-6 sm:pt-8 px-2">
-            <div className="inline-block bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/50 rounded-full px-6 py-3 mb-4">
-              <p className="text-sm sm:text-base text-green-100 font-semibold">✅ 7-Day Free Trial • No Credit Card Required • Cancel Anytime</p>
+          {/* Key Benefits Highlight - Enhanced */}
+          <motion.div variants={itemVariants} className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-4xl mx-auto px-2 py-8 sm:py-12">
+            <div className="group flex flex-col items-center gap-3 p-5 sm:p-7 rounded-2xl bg-gradient-to-br from-emerald-500/25 to-emerald-500/5 border border-emerald-400/50 hover:border-emerald-300/80 hover:from-emerald-500/35 hover:to-emerald-500/10 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/20">
+              <span className="text-3xl sm:text-4xl group-hover:scale-110 transition-transform">⏱️</span>
+              <h3 className="font-bold text-white text-sm sm:text-base text-center">Save 10+ Hours Weekly</h3>
+              <p className="text-xs sm:text-sm text-slate-300 text-center">Eliminate meal planning stress forever</p>
             </div>
-            <p className="text-sm sm:text-base text-blue-100 font-semibold tracking-wide max-w-3xl mx-auto">
-              🍽️ AI-powered recipes • 📱 Mobile app included • 🎯 Dietary preferences • 🏪 Auto shopping lists • 💡 Smart substitutions • 🌟 Community recipes
-            </p>
-            <p className="text-xs sm:text-sm text-slate-300 mt-4 font-medium">
+            <div className="group flex flex-col items-center gap-3 p-5 sm:p-7 rounded-2xl bg-gradient-to-br from-blue-500/25 to-blue-500/5 border border-blue-400/50 hover:border-blue-300/80 hover:from-blue-500/35 hover:to-blue-500/10 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20">
+              <span className="text-3xl sm:text-4xl group-hover:scale-110 transition-transform">🤖</span>
+              <h3 className="font-bold text-white text-sm sm:text-base text-center">AI-Personalized Recipes</h3>
+              <p className="text-xs sm:text-sm text-slate-300 text-center">Perfectly matched to your taste</p>
+            </div>
+            <div className="group flex flex-col items-center gap-3 p-5 sm:p-7 rounded-2xl bg-gradient-to-br from-purple-500/25 to-purple-500/5 border border-purple-400/50 hover:border-purple-300/80 hover:from-purple-500/35 hover:to-purple-500/10 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20">
+              <span className="text-3xl sm:text-4xl group-hover:scale-110 transition-transform">💰</span>
+              <h3 className="font-bold text-white text-sm sm:text-base text-center">Save $1,200+ Yearly</h3>
+              <p className="text-xs sm:text-sm text-slate-300 text-center">Cut food waste and grocery costs</p>
+            </div>
+          </motion.div>
+
+          {/* Urgency & Value Statement - Enhanced */}
+          <motion.div variants={itemVariants} className="pt-8 sm:pt-12 px-2 space-y-6">
+            <div className="inline-block bg-gradient-to-r from-green-500/30 to-emerald-500/30 border border-green-400/60 rounded-full px-6 sm:px-8 py-3 sm:py-4 mb-2 hover:from-green-500/40 hover:to-emerald-500/40 transition-all">
+              <p className="text-sm sm:text-base text-green-100 font-bold">✅ 7-Day Free Trial • No Credit Card • Cancel Anytime</p>
+            </div>
+            <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 border border-slate-600/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm">
+              <p className="text-sm sm:text-base text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
+                <span className="block mb-3">🍽️ AI-powered recipes • 📱 Mobile app included • 🎯 Dietary preferences</span>
+                <span className="block">🏪 Auto shopping lists • 💡 Smart substitutions • 🌟 Community recipes</span>
+              </p>
+            </div>
+            <p className="text-xs sm:text-sm text-slate-300 font-medium text-center">
               💰 Save $1,200+ annually • ⏱️ 10+ hours saved weekly • 🎯 100% personalized • 🔥 Join 100,000+ happy cooks
             </p>
           </motion.div>
 
-          {/* Trust indicators with icons */}
+          {/* Trust indicators with icons - Enhanced */}
           <motion.div variants={itemVariants} className="pt-20 sm:pt-24 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-slate-200 px-2">
-            <div className="flex flex-col items-center gap-4 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-blue-500/15 to-blue-500/5 border border-blue-500/30 hover:border-blue-400/60 hover:bg-blue-500/20 transition-all transform hover:scale-105">
-              <Users className="w-8 sm:w-9 h-8 sm:h-9 text-blue-400" />
-              <span className="font-bold text-base sm:text-lg text-white">100,000+ Home Cooks</span>
-              <span className="text-sm sm:text-base text-slate-300">Creating delicious meals daily</span>
+            <div className="group flex flex-col items-center gap-4 p-7 sm:p-9 rounded-2xl bg-gradient-to-br from-blue-500/25 to-blue-500/5 border border-blue-500/40 hover:border-blue-400/80 hover:from-blue-500/35 hover:to-blue-500/15 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20">
+              <Users className="w-9 sm:w-10 h-9 sm:h-10 text-blue-400 group-hover:scale-110 transition-transform" />
+              <span className="font-bold text-base sm:text-lg text-white text-center">100,000+ Home Cooks</span>
+              <span className="text-sm sm:text-base text-slate-300 text-center">Creating delicious meals daily</span>
             </div>
-            <div className="flex flex-col items-center gap-4 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-purple-500/15 to-purple-500/5 border border-purple-500/30 hover:border-cyan-400/60 hover:bg-purple-500/20 transition-all transform hover:scale-105">
-              <Clock className="w-8 sm:w-9 h-8 sm:h-9 text-purple-400" />
-              <span className="font-bold text-base sm:text-lg text-white">5 Min Setup</span>
-              <span className="text-sm sm:text-base text-slate-300">Start generating recipes instantly</span>
+            <div className="group flex flex-col items-center gap-4 p-7 sm:p-9 rounded-2xl bg-gradient-to-br from-purple-500/25 to-purple-500/5 border border-purple-500/40 hover:border-purple-400/80 hover:from-purple-500/35 hover:to-purple-500/15 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20">
+              <Clock className="w-9 sm:w-10 h-9 sm:h-10 text-purple-400 group-hover:scale-110 transition-transform" />
+              <span className="font-bold text-base sm:text-lg text-white text-center">5 Min Setup</span>
+              <span className="text-sm sm:text-base text-slate-300 text-center">Start generating recipes instantly</span>
             </div>
-            <div className="flex flex-col items-center gap-4 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-pink-500/15 to-pink-500/5 border border-pink-500/30 hover:border-pink-400/60 hover:bg-pink-500/20 transition-all transform hover:scale-105">
-              <Zap className="w-8 sm:w-9 h-8 sm:h-9 text-pink-400" />
-              <span className="font-bold text-base sm:text-lg text-white">4.9★ Rating</span>
-              <span className="text-sm sm:text-base text-slate-300">From 25,000+ reviews</span>
+            <div className="group flex flex-col items-center gap-4 p-7 sm:p-9 rounded-2xl bg-gradient-to-br from-pink-500/25 to-pink-500/5 border border-pink-500/40 hover:border-pink-400/80 hover:from-pink-500/35 hover:to-pink-500/15 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-pink-500/20">
+              <Zap className="w-9 sm:w-10 h-9 sm:h-10 text-pink-400 group-hover:scale-110 transition-transform" />
+              <span className="font-bold text-base sm:text-lg text-white text-center">4.9★ Rating</span>
+              <span className="text-sm sm:text-base text-slate-300 text-center">From 25,000+ reviews</span>
             </div>
           </motion.div>
 
