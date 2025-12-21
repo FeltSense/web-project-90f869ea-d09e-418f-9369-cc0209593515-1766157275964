@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Your AI Chef, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Always Ready to Cook</span>
+              Cook Smarter, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Eat Better, Save Time</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Get personalized recipes, smart meal plans, and optimized shopping lists in seconds. Our AI adapts to your taste, dietary needs, and budget—so you spend less time planning and more time enjoying delicious home-cooked meals.
+              Transform your kitchen with AI-powered recipes tailored to your preferences. Get instant meal plans, smart shopping lists, and nutritional insights—all personalized to your lifestyle and budget.
             </p>
           </motion.div>
 
@@ -107,7 +107,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                🚀 Get Started Free - No Credit Card
+                🎯 Start Your Free Trial Today
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
