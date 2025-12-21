@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import FeaturesShowcase from '@/components/FeaturesShowcase'
 import PremiumKeyFeatures from '@/components/PremiumKeyFeatures'
 import KeyProductFeatures from '@/components/KeyProductFeatures'
+import BetaSignup from '@/components/BetaSignup'
 import FeaturesHighlight from '@/components/FeaturesHighlight'
 import NewFeaturesHighlight from '@/components/NewFeaturesHighlight'
 import ProductFeatures from '@/components/ProductFeatures'
@@ -25,6 +26,7 @@ export default function Home() {
       <FeaturesShowcase />
       <PremiumKeyFeatures />
       <KeyProductFeatures />
+      <BetaSignup />
       <FeaturesHighlight />
       <NewFeaturesHighlight />
       <ProductFeatures />

@@ -93,10 +93,10 @@ const KeyProductFeatures = (): JSX.Element => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Powerful Features Built for Food Lovers
+            AI Recipe Generator Features
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Experience the future of cooking with our AI-powered recipe generator. From personalized meal planning to nutritional tracking, we've got everything you need to transform your kitchen.
+            Discover the power of AI-driven cooking. Our intelligent recipe generator learns your preferences and creates personalized meal plans, shopping lists, and nutritional guidance—all tailored to your unique taste and dietary needs.
           </p>
         </motion.div>
 
@@ -116,6 +116,14 @@ const KeyProductFeatures = (): JSX.Element => {
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
             All features are powered by state-of-the-art artificial intelligence to provide you with the most relevant, delicious, and personalized recipes tailored to your unique taste and dietary needs.
           </p>
+          <div className="mt-12 inline-block">
+            <a href="#beta-signup" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-emerald-500/50 transition-all transform hover:scale-105">
+              🎁 Join the Beta & Get 7 Days Free
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+          </div>
         </motion.div>
       </div>
 
