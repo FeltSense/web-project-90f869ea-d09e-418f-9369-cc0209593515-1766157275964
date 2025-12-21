@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">AI Chef</span> Awaits
+              Never Struggle With <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">Meal Planning</span> Again
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time on meal planning. Get instant, personalized recipes based on what you have in your kitchen. Our AI learns your taste preferences and dietary needs to create the perfect meal every single time.
+              Get AI-powered recipes tailored to your taste, dietary needs, and pantry. Save 10+ hours weekly on meal planning while eating better than ever. Join 100,000+ home cooks who've transformed their kitchen.
             </p>
           </motion.div>
 
@@ -79,7 +79,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                🎯 Get Your First Recipe Free
+                🚀 Start Your Free 7-Day Trial
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -87,7 +87,7 @@ export default function Hero() {
               href="#features" 
               className="group px-10 sm:px-14 py-5 sm:py-7 border-2 border-cyan-400/60 text-white rounded-2xl font-semibold text-lg sm:text-xl hover:bg-cyan-500/20 hover:border-cyan-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-3"
             >
-              <span>🔥 See What's Possible</span>
+              <span>✨ See How It Works</span>
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
@@ -95,13 +95,13 @@ export default function Hero() {
           {/* Urgency & Value Statement */}
           <motion.div variants={itemVariants} className="pt-6 sm:pt-8 px-2">
             <div className="inline-block bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/50 rounded-full px-6 py-3 mb-4">
-              <p className="text-sm sm:text-base text-green-100 font-semibold">✅ 7-Day Free Trial • No Credit Card • Full Access to All Features</p>
+              <p className="text-sm sm:text-base text-green-100 font-semibold">✅ 7-Day Free Trial • No Credit Card Required • Cancel Anytime</p>
             </div>
             <p className="text-sm sm:text-base text-blue-100 font-semibold tracking-wide max-w-3xl mx-auto">
-              🍽️ Personalized recipes • 📱 Mobile-friendly • 🎯 Dietary preferences • 🏪 Shopping lists • 💡 Smart substitutions • 🌟 Community recipes
+              🍽️ AI-powered recipes • 📱 Mobile app included • 🎯 Dietary preferences • 🏪 Auto shopping lists • 💡 Smart substitutions • 🌟 Community recipes
             </p>
             <p className="text-xs sm:text-sm text-slate-300 mt-4 font-medium">
-              💰 Save $1,200+ annually on meal planning • ⏱️ 10+ hours saved per week • 🎯 100% personalized to your taste
+              💰 Save $1,200+ annually • ⏱️ 10+ hours saved weekly • 🎯 100% personalized • 🔥 Join 100,000+ happy cooks
             </p>
           </motion.div>
 

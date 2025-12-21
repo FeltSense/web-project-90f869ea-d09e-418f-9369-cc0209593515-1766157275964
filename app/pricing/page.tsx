@@ -29,89 +29,91 @@ interface FAQItem {
 const pricingTiers: PricingTier[] = [
   {
     name: 'Starter',
-    price: 29,
-    description: 'Perfect for getting started',
+    price: 0,
+    description: 'Perfect for exploring',
     features: [
-      'Up to 5 projects',
-      '2GB storage',
-      'Basic analytics',
-      'Email support',
-      'Community access'
+      'Unlimited AI recipes',
+      'Basic meal planning',
+      'Dietary preferences',
+      'Shopping lists',
+      'Mobile app access',
+      'Community recipes'
     ],
     cta: 'Start Free',
     highlighted: false
   },
   {
     name: 'Pro',
-    price: 79,
-    description: 'For growing teams',
+    price: 9.99,
+    description: 'Most popular choice',
     features: [
-      'Unlimited projects',
-      '100GB storage',
-      'Advanced analytics',
+      'Everything in Starter',
+      'Advanced meal planning',
+      'Nutrition tracking',
+      'Smart substitutions',
+      'Recipe customization',
       'Priority support',
-      'Team collaboration',
-      'Custom branding',
-      'API access'
+      'Ad-free experience',
+      'Offline access'
     ],
-    cta: 'Get Started',
+    cta: 'Start Free Trial',
     highlighted: true
   },
   {
     name: 'Premium',
-    price: 199,
-    description: 'For enterprises',
+    price: 19.99,
+    description: 'For serious home chefs',
     features: [
       'Everything in Pro',
-      'Unlimited storage',
-      'Real-time analytics',
-      '24/7 phone support',
-      'Dedicated account manager',
-      'Custom integrations',
-      'SLA guarantee',
-      'Advanced security'
+      'Personal nutrition coach',
+      'Meal prep guides',
+      'Restaurant recommendations',
+      'Family meal planning',
+      '24/7 priority support',
+      'Custom recipe creation',
+      'Exclusive chef recipes'
     ],
-    cta: 'Contact Sales',
+    cta: 'Start Free Trial',
     highlighted: false
   }
 ];
 
 const comparisonFeatures: ComparisonFeature[] = [
-  { name: 'Projects', starter: true, pro: true, premium: true },
-  { name: 'Storage', starter: true, pro: true, premium: true },
-  { name: 'Team Members', starter: false, pro: true, premium: true },
-  { name: 'API Access', starter: false, pro: true, premium: true },
-  { name: 'Custom Domain', starter: false, pro: true, premium: true },
+  { name: 'AI Recipe Generation', starter: true, pro: true, premium: true },
+  { name: 'Meal Planning', starter: true, pro: true, premium: true },
+  { name: 'Nutrition Tracking', starter: false, pro: true, premium: true },
+  { name: 'Smart Shopping Lists', starter: false, pro: true, premium: true },
+  { name: 'Recipe Customization', starter: false, pro: true, premium: true },
   { name: 'Priority Support', starter: false, pro: true, premium: true },
-  { name: 'Webhooks', starter: false, pro: false, premium: true },
-  { name: 'White Label', starter: false, pro: false, premium: true },
-  { name: 'Dedicated Support', starter: false, pro: false, premium: true }
+  { name: 'Personal Nutrition Coach', starter: false, pro: false, premium: true },
+  { name: 'Meal Prep Guides', starter: false, pro: false, premium: true },
+  { name: 'Exclusive Chef Recipes', starter: false, pro: false, premium: true }
 ];
 
 const faqItems: FAQItem[] = [
   {
-    question: 'Can I change my plan anytime?',
-    answer: 'Yes, you can upgrade or downgrade your plan at any time. Changes take effect at the next billing cycle.'
+    question: 'Can I cancel my subscription anytime?',
+    answer: 'Yes! You can cancel your subscription at any time with no penalties. Your access continues until the end of your billing period.'
   },
   {
     question: 'What payment methods do you accept?',
     answer: 'We accept all major credit cards, PayPal, and bank transfers for annual plans.'
   },
   {
-    question: 'Is there a free trial?',
-    answer: 'Yes, all plans come with a 14-day free trial. No credit card required to get started.'
+    question: 'How long is the free trial?',
+    answer: 'All plans come with a 7-day free trial with full access to premium features. No credit card required to start.'
   },
   {
     question: 'Do you offer refunds?',
     answer: 'We offer a 30-day money-back guarantee if you\'re not satisfied with our service.'
   },
   {
-    question: 'What about data security?',
-    answer: 'We use enterprise-grade encryption and comply with GDPR, SOC 2, and other security standards.'
+    question: 'How does the AI personalization work?',
+    answer: 'Our AI learns your taste preferences, dietary restrictions, and available ingredients to create recipes tailored just for you. The more you use it, the better it gets!'
   },
   {
     question: 'Can I get a discount for annual billing?',
-    answer: 'Yes! Annual plans include a 20% discount compared to monthly billing.'
+    answer: 'Yes! Annual plans include a 20% discount compared to monthly billing, saving you money while you enjoy unlimited recipes.'
   }
 ];
 
@@ -145,9 +147,9 @@ function PricingCard({ tier, index }: { tier: PricingTier; index: number }): JSX
         </p>
         <div className="flex items-baseline gap-1">
           <span className={`text-5xl font-bold ${tier.highlighted ? 'text-white' : 'text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-rose-300'}`}>
-            ${tier.price}
+            {tier.price === 0 ? 'Free' : `${tier.price}`}
           </span>
-          <span className={`${tier.highlighted ? 'text-white/80' : 'text-gray-400'}`}>/month</span>
+          <span className={`${tier.highlighted ? 'text-white/80' : 'text-gray-400'}`}>{tier.price > 0 ? '/month' : ''}</span>
         </div>
       </div>
 
@@ -297,7 +299,7 @@ export default function PricingPage(): JSX.Element {
 
       <div className="relative z-10">
         {/* Hero Section */}
-        <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+        <section className="pt-24 pb-20 px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -305,15 +307,16 @@ export default function PricingPage(): JSX.Element {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-              Simple,{' '}
+              Affordable Plans for{' '}
               <span className="bg-gradient-to-r from-amber-300 via-orange-400 to-rose-500 bg-clip-text text-transparent">
-                Transparent
+                Every Cook
               </span>
-              <br />
-              Pricing
             </h1>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Choose the perfect plan for your needs. Always flexible to scale as you grow.
+            <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
+              Get unlimited AI-powered recipes and meal planning. Start free, upgrade when you're ready.
+            </p>
+            <p className="text-lg text-amber-300 font-semibold">
+              💰 Save 20% with annual billing • 🎯 Cancel anytime • 🚀 Full features in free trial
             </p>
 
             {/* Toggle for billing period */}
@@ -333,13 +336,23 @@ export default function PricingPage(): JSX.Element {
         </section>
 
         {/* Pricing Cards */}
-        <section className="px-4 sm:px-6 lg:px-8 py-16">
+        <section className="px-4 sm:px-6 lg:px-8 py-20">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-6">
               {pricingTiers.map((tier: PricingTier, index: number) => (
                 <PricingCard key={index} tier={tier} index={index} />
               ))}
             </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="mt-16 text-center"
+            >
+              <p className="text-gray-300 text-lg mb-4">💡 All plans include a 7-day free trial with full access to premium features</p>
+              <p className="text-amber-300 font-semibold text-base">Save 20% when you switch to annual billing</p>
+            </motion.div>
           </div>
         </section>
 
@@ -378,35 +391,35 @@ export default function PricingPage(): JSX.Element {
         </section>
 
         {/* CTA Section */}
-        <section className="px-4 sm:px-6 lg:px-8 py-16">
+        <section className="px-4 sm:px-6 lg:px-8 py-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="max-w-2xl mx-auto text-center bg-gradient-to-r from-orange-500/10 via-rose-500/10 to-amber-500/10 border border-white/10 rounded-2xl p-12 backdrop-blur-sm"
+            className="max-w-3xl mx-auto text-center bg-gradient-to-br from-emerald-500/20 via-teal-500/15 to-cyan-500/20 border border-emerald-400/50 rounded-3xl p-12 sm:p-16 backdrop-blur-sm shadow-2xl shadow-emerald-500/20"
           >
-            <h2 className="text-3xl font-bold text-white mb-4">Ready to get started?</h2>
-            <p className="text-gray-300 mb-8">
-              Join thousands of teams already using our platform to streamline their workflow.
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">Ready to Transform Your Kitchen?</h2>
+            <p className="text-lg text-gray-200 mb-10">
+              Start your free trial today. No credit card required. Get instant access to all features and start creating personalized meals in minutes.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-3 rounded-lg font-semibold bg-gradient-to-r from-orange-500 to-rose-500 text-white hover:shadow-lg transition-shadow"
+                className="px-10 py-4 rounded-xl font-bold text-lg bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white hover:shadow-2xl hover:shadow-emerald-500/50 transition-all transform"
               >
-                Start Free Trial
+                🚀 Start Free Trial
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-3 rounded-lg font-semibold bg-white/10 border border-white/20 text-white hover:border-white/40 transition-colors"
+                className="px-10 py-4 rounded-xl font-bold text-lg bg-white/15 border-2 border-white/40 text-white hover:bg-white/25 hover:border-white/60 transition-all"
               >
-                Schedule Demo
+                📧 Contact Sales
               </motion.button>
             </div>
-            <p className="text-sm text-gray-400 mt-6">No credit card required. 14-day free trial.</p>
+            <p className="text-base text-emerald-200 font-semibold">✅ 7-day free trial • 💳 No credit card • 🔄 Cancel anytime • 🎯 Full feature access</p>
           </motion.div>
         </section>
 
