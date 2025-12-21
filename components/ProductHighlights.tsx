@@ -116,10 +116,10 @@ export default function ProductHighlights(): React.ReactElement {
           viewport={{ once: true, margin: '-100px' }}
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-white via-slate-100 to-slate-300 bg-clip-text text-transparent mb-6">
-            Everything You Need to Cook with Confidence
+            Powerful Features Built for Home Cooks
           </h2>
           <p className="text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
-            From instant recipe generation to smart meal planning and nutrition tracking—our AI-powered platform handles all the thinking so you can focus on the joy of cooking. Transform your kitchen experience in minutes.
+            Our AI-powered recipe generator learns your preferences and creates personalized meal plans. From dietary restrictions to ingredient substitutions, we handle all the details so you can focus on enjoying delicious, healthy meals with your family.
           </p>
         </motion.div>
 

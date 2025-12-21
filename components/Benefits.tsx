@@ -102,10 +102,10 @@ const Benefits: React.FC = () => {
             <span className="text-sm font-semibold text-emerald-600">✨ Why Choose Us</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-rose-500 bg-clip-text text-transparent mb-6">
-            Why Thousands of Home Cooks Trust Us
+            Why 100,000+ Home Cooks Love Our AI Recipe Generator
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Our AI learns what you love, adapts to your lifestyle, and delivers recipes you'll actually want to cook. Save hours on meal planning, reduce food waste, and discover new favorite dishes every week. It's like having a personal chef in your pocket.
+            Our intelligent AI learns your taste preferences, dietary needs, and cooking style to deliver personalized recipes you'll actually want to make. Save hours on meal planning, eliminate food waste, and discover exciting new dishes every single week. It's like having a personal chef and nutritionist in your pocket.
           </p>
         </motion.div>
 
@@ -152,7 +152,7 @@ const Benefits: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-slate-600 mb-6">
-            Join thousands of home cooks who've transformed their kitchen with AI
+            Join 100,000+ home cooks who've transformed their kitchen with AI-powered recipe generation
           </p>
           <button className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
             Start Your Free Trial Today
