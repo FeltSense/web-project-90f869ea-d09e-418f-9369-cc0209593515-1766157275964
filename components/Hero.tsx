@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Never Stress About <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">What's for Dinner Again</span>
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI Chef</span> Awaits
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Get personalized recipes in 30 seconds. AI learns your taste, dietary needs, and what's in your pantry. Meal planning that actually works—save 10+ hours weekly, cut grocery bills by $1,200/year, and enjoy meals you'll actually want to cook.
+              Stop wasting time deciding what to cook. Get personalized recipes in 30 seconds based on your taste, dietary needs, and pantry. Save 10+ hours weekly, cut grocery bills by $1,200/year, and finally enjoy cooking again.
             </p>
           </motion.div>
 
@@ -107,7 +107,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                🚀 Start Free Trial (7 Days)
+                🚀 Get Started Free (7 Days)
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -117,7 +117,7 @@ export default function Hero() {
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-10 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                ❓ Learn More
+                📖 See How It Works
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -145,16 +145,16 @@ export default function Hero() {
           {/* Urgency & Value Statement - Premium Enhanced */}
           <motion.div variants={itemVariants} className="pt-8 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-green-500/30 to-emerald-500/30 border border-green-400/60 rounded-full px-6 sm:px-8 py-3 sm:py-4 mb-2 hover:from-green-500/40 hover:to-emerald-500/40 transition-all shadow-lg shadow-green-500/10 animate-pulse">
-              <p className="text-sm sm:text-base text-green-100 font-bold">✅ 7-Day Free Trial • No Credit Card • Cancel Anytime • 🎁 50% Off First Month</p>
+              <p className="text-sm sm:text-base text-green-100 font-bold">✅ No Credit Card Required • Cancel Anytime • 🎁 50% Off First Month</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/60 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-xl shadow-slate-900/50">
               <p className="text-sm sm:text-base text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
-                <span className="block mb-3 text-base sm:text-lg">🍽️ AI-Powered Recipes • 📱 Mobile App • 🎯 Dietary Preferences</span>
-                <span className="block text-base sm:text-lg">🏪 Smart Shopping Lists • 💡 Ingredient Substitutions • 🌟 Community Recipes</span>
+                <span className="block mb-3 text-base sm:text-lg">🤖 AI-Powered Recipes • 📱 Mobile App • 🎯 Dietary Preferences</span>
+                <span className="block text-base sm:text-lg">🛒 Smart Shopping Lists • 💡 Smart Substitutions • 👥 Community Recipes</span>
               </p>
             </div>
             <p className="text-xs sm:text-sm text-slate-300 font-medium text-center">
-              💰 Save $1,200+ Annually • ⏱️ 10+ Hours Saved Weekly • 🎯 100% Personalized • 🔥 Trusted by 100,000+ Home Cooks
+              💰 Save $1,200+ Yearly • ⏱️ 10+ Hours Weekly • 🎯 100% Personalized • 🔥 Join 100,000+ Happy Cooks
             </p>
           </motion.div>
 
