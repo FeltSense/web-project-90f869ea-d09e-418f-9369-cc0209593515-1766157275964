@@ -307,16 +307,16 @@ export default function PricingPage(): JSX.Element {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-              Affordable Plans for{' '}
+              Simple, Transparent{' '}
               <span className="bg-gradient-to-r from-amber-300 via-orange-400 to-rose-500 bg-clip-text text-transparent">
-                Every Cook
+                Pricing Plans
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
-              Get unlimited AI-powered recipes and meal planning. Start free, upgrade when you're ready.
+              Choose the perfect plan for your cooking journey. All plans include a 7-day free trial with full access to premium features.
             </p>
             <p className="text-lg text-amber-300 font-semibold">
-              💰 Save 20% with annual billing • 🎯 Cancel anytime • 🚀 Full features in free trial
+              🎁 7-Day Free Trial • 💰 Save 20% with Annual Billing • 🔄 Cancel Anytime • ✅ No Credit Card Required
             </p>
 
             {/* Toggle for billing period */}
