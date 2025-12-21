@@ -107,7 +107,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                🚀 Start Your Free Trial
+                🚀 Unlock Your AI Chef Now
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -117,7 +117,7 @@ export default function Hero() {
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-10 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                ✨ Explore Features
+                ✨ See What's Possible
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
