@@ -101,11 +101,11 @@ const Benefits: React.FC = () => {
             <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
             <span className="text-sm font-semibold text-emerald-600">✨ Why Choose Us</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-rose-500 bg-clip-text text-transparent mb-6">
-            Why 100,000+ Home Cooks Love Our AI Recipe Generator
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-cyan-500 to-blue-500 bg-clip-text text-transparent mb-6">
+            Why 100,000+ Home Cooks Trust Us
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Our intelligent AI learns your taste preferences, dietary needs, and cooking style to deliver personalized recipes you'll actually want to make. Save hours on meal planning, eliminate food waste, and discover exciting new dishes every single week. It's like having a personal chef and nutritionist in your pocket.
+            Stop wasting time on meal planning. Our AI learns what you love, what you can eat, and what's in your kitchen—then generates recipes you'll actually want to cook. Save 10+ hours weekly, cut grocery waste by 40%, and enjoy delicious meals every single night.
           </p>
         </motion.div>
 
@@ -151,11 +151,11 @@ const Benefits: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <p className="text-slate-600 mb-6">
-            Join 100,000+ home cooks who've transformed their kitchen with AI-powered recipe generation
+          <p className="text-slate-600 mb-6 text-lg font-semibold">
+            Join thousands of home cooks saving 10+ hours weekly
           </p>
-          <button className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-            Start Your Free Trial Today
+          <button className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-semibold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-lg">
+            🚀 Start Your Free Trial
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>

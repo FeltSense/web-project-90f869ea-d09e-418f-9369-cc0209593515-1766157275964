@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
 
 const features = [
-  'Personalized meal plans tailored to your health goals',
-  'Real-time nutrition tracking and food logging',
-  'AI-powered recipe recommendations',
-  'Weekly progress analytics and insights',
-  'Priority customer support 24/7',
-  'Community access with 50,000+ members',
+  'Unlimited AI-generated personalized recipes',
+  'Smart weekly meal planning & shopping lists',
+  'Nutrition tracking & dietary customization',
+  'Access to 50+ dietary preferences',
+  'Mobile app with offline access',
+  'Priority 24/7 customer support',
 ];
 
 export default function Pricing() {
@@ -23,13 +23,13 @@ export default function Pricing() {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
-            <span className="text-sm font-semibold text-emerald-600">💰 Simple Pricing</span>
+            <span className="text-sm font-semibold text-emerald-600">💰 Simple, Transparent Pricing</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-4">
-            Start Your Health Journey Today
+            Start Cooking Better Today
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            Join thousands transforming their nutrition with Hello My Love. Everything you need to eat smarter, feel better, and love your health.
+            Join 100,000+ home cooks saving 10+ hours weekly. 7-day free trial, no credit card required. Cancel anytime.
           </p>
         </motion.div>
 
@@ -41,12 +41,13 @@ export default function Pricing() {
         >
           <div className="absolute top-0 right-0 w-40 h-40 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20" />
           <div className="relative z-10">
-            <div className="inline-block bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-xs px-3 py-1 rounded-full font-semibold mb-4">
-              🎉 Limited Time Offer
+            <div className="inline-block bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-xs px-3 py-1 rounded-full font-semibold mb-4 animate-pulse">
+              🔥 Limited Time: 50% Off First Month
             </div>
             <div className="flex items-baseline justify-center gap-2 mb-8">
-              <span className="text-5xl font-bold text-slate-900">$29</span>
-              <span className="text-lg text-emerald-600 font-semibold">Early Access</span>
+              <span className="text-5xl font-bold text-slate-900">$9.99</span>
+              <span className="text-lg text-slate-600 font-semibold">/month</span>
+              <span className="text-sm text-slate-500 line-through">$19.99</span>
             </div>
           
           <ul className="space-y-4 mb-8">
@@ -60,13 +61,13 @@ export default function Pricing() {
 
             <button
               onClick={() => window.location.href = 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00'}
-              className="w-full bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white font-semibold rounded-xl px-8 py-4 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="w-full bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white font-semibold rounded-xl px-8 py-4 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 transform"
             >
-              🚀 Pre-Order Now - $29
+              🚀 Start Free Trial (7 Days)
             </button>
 
             <p className="text-center text-sm text-slate-500 mt-6">
-              Limited-time pre-order pricing. Regular price $49/month after launch.
+              No credit card required • Cancel anytime • Then $9.99/month
             </p>
           </div>
         </motion.div>

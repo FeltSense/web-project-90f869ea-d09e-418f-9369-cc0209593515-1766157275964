@@ -60,8 +60,8 @@ export default function ContactForm() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-500/30 mb-6">
             <span className="text-sm font-semibold text-emerald-300">📧 Get In Touch</span>
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-white mb-4">Start Your Wellness Journey</h2>
-          <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">Join thousands of people discovering personalized nutrition and health insights. Fill out the form below and we'll get in touch within 24 hours.</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-white mb-4">Ready to Cook Better?</h2>
+          <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">Join 100,000+ home cooks. Get personalized recipes, meal plans, and save 10+ hours weekly. Start your free trial today!</p>
         </motion.div>
 
         <motion.div
@@ -73,8 +73,8 @@ export default function ContactForm() {
           {status === 'success' ? (
             <div className="bg-gradient-to-br from-white to-emerald-50 rounded-2xl shadow-lg border border-emerald-200 p-8 text-center">
               <CheckCircle className="w-12 h-12 mx-auto mb-4 text-emerald-500 animate-bounce" />
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">🎉 Welcome to Hello My Love!</h3>
-              <p className="text-slate-600">We'll be in touch soon with personalized recommendations for your health journey.</p>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">🎉 Welcome Aboard!</h3>
+              <p className="text-slate-600">Check your email for your free trial link. Start generating personalized recipes in minutes!</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 space-y-6">

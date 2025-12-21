@@ -21,8 +21,8 @@ export default function Navigation() {
     <nav className="fixed w-full top-0 z-50 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 border-b border-blue-500/20 backdrop-blur-md shadow-lg shadow-blue-500/5">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="text-2xl font-bold tracking-tight text-white hover:text-indigo-400 transition-colors duration-300 group">
-            <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent group-hover:from-purple-500 group-hover:to-blue-400 transition-all duration-300">✨ NextGen AI</span>
+          <Link href="/" className="text-2xl font-bold tracking-tight text-white hover:text-emerald-400 transition-colors duration-300 group">
+            <span className="bg-gradient-to-r from-emerald-400 to-cyan-500 bg-clip-text text-transparent group-hover:from-cyan-500 group-hover:to-emerald-400 transition-all duration-300">🍳 RecipeAI</span>
           </Link>
           
           {/* Desktop Navigation */}
@@ -38,10 +38,10 @@ export default function Navigation() {
               </Link>
             ))}
             <Link 
-              href="#contact" 
-              className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold rounded-xl px-6 py-2.5 transition-all duration-300 shadow-sm hover:shadow-purple-500/50 hover:shadow-md"
+              href="/pricing" 
+              className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white font-semibold rounded-xl px-6 py-2.5 transition-all duration-300 shadow-sm hover:shadow-emerald-500/50 hover:shadow-md"
             >
-              Get Started
+              🚀 Free Trial
             </Link>
           </div>
 
@@ -68,11 +68,11 @@ export default function Navigation() {
               </Link>
             ))}
             <Link 
-              href="#contact" 
+              href="/pricing" 
               onClick={() => setIsOpen(false)} 
-              className="block mt-6 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold rounded-xl px-6 py-3 transition-all duration-300 shadow-sm hover:shadow-purple-500/50 hover:shadow-md text-center"
+              className="block mt-6 bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white font-semibold rounded-xl px-6 py-3 transition-all duration-300 shadow-sm hover:shadow-emerald-500/50 hover:shadow-md text-center"
             >
-              Get Started
+              🚀 Free Trial
             </Link>
           </div>
         )}

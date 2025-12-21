@@ -131,7 +131,7 @@ export default function FAQ(): JSX.Element {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-400">
-            Get answers to common questions about our AI-powered recipe generation, meal planning, and personalization features
+            Everything you need to know about getting started with AI-powered meal planning and recipe generation
           </p>
         </motion.div>
 
@@ -167,13 +167,13 @@ export default function FAQ(): JSX.Element {
           className="mt-16 p-8 bg-gradient-to-br from-emerald-500/20 via-teal-500/15 to-cyan-500/20 border border-emerald-400/50 rounded-2xl text-center shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/20 transition-all"
         >
           <h3 className="text-2xl font-bold text-white mb-2">
-            ✨ Still have questions?
+            🚀 Ready to Transform Your Kitchen?
           </h3>
           <p className="text-gray-300 mb-6">
-            Can't find the answer you're looking for? Our dedicated support team is available 24/7 to help you get the most out of your AI-powered cooking experience.
+            Join 100,000+ home cooks saving 10+ hours weekly. Start your 7-day free trial today—no credit card required.
           </p>
           <button className="px-8 py-3 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-emerald-500/50 transition-all duration-300 transform hover:scale-105 active:scale-95">
-            📧 Contact Support
+            🚀 Start Free Trial
           </button>
         </motion.div>
       </div>

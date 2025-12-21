@@ -20,39 +20,39 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <Zap className="w-8 h-8" />,
-    title: '⭐ Lightning-Fast Automation (NEW)',
+    title: '⚡ Instant Recipe Generation',
     description:
-      'Automate complex workflows in minutes, not months. Our AI-powered platform learns your processes and executes them flawlessly at scale. Reduce manual work by up to 80% and free your team to focus on strategic initiatives that drive real business value.',
+      'Get personalized recipes in 30 seconds. Our AI analyzes your taste preferences, dietary needs, cooking skill level, and available ingredients to create recipes you\'ll love. No more scrolling through endless options.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
-    title: 'Enterprise-Grade Security',
+    title: '🛡️ Smart Meal Planning',
     description:
-      'Bank-level encryption, SOC 2 compliance, and zero-trust architecture protect your most sensitive data. Your security is our top priority—we never compromise on protection, privacy, or compliance standards.',
+      'Automatically generate balanced weekly meal plans optimized for nutrition, cost, and variety. Our AI ensures you never eat the same meal twice and always have something delicious to cook.',
   },
   {
     icon: <Smartphone className="w-8 h-8" />,
-    title: 'Seamless Integration',
+    title: '📱 Mobile-First Experience',
     description:
-      'Connect with 500+ tools and platforms in minutes. Our API-first architecture integrates with your existing tech stack without disruption. Deploy faster, scale easier, and maintain complete control over your data flow.',
+      'Access your recipes, meal plans, and shopping lists on any device. Seamless sync across phone, tablet, and desktop. Cook with confidence with step-by-step instructions and ingredient substitutions.',
   },
   {
     icon: <TrendingUp className="w-8 h-8" />,
-    title: '✨ Real-Time Intelligence (NEW)',
+    title: '📊 Nutrition Tracking',
     description:
-      'Get actionable insights instantly with advanced analytics and predictive modeling. Make data-driven decisions with confidence. Our AI continuously learns and adapts to deliver increasingly accurate recommendations and forecasts.',
+      'Track calories, macros, and micronutrients automatically. Get insights into your eating patterns and receive personalized recommendations to meet your health goals.',
   },
   {
     icon: <Users className="w-8 h-8" />,
-    title: 'Dedicated Support',
+    title: '👥 Community Recipes',
     description:
-      'Expert support available 24/7 with dedicated account managers for enterprise clients. We don\'t just provide software—we partner with you for success. Your growth is our mission, and we\'re invested in your outcomes.',
+      'Discover recipes from 100,000+ home cooks. Share your creations, get feedback, and find inspiration from a thriving community of food lovers.',
   },
   {
     icon: <Workflow className="w-8 h-8" />,
-    title: 'Customizable Intelligence',
+    title: '🎯 Dietary Flexibility',
     description:
-      'Tailor the AI to your unique business needs with no-code customization and advanced configuration options. Build workflows that match your exact requirements. Scale from startup to enterprise without changing platforms.',
+      'Support for 50+ dietary preferences including vegan, keto, paleo, gluten-free, and more. Easily customize recipes with smart ingredient substitutions.',
   },
 ];
 
@@ -90,15 +90,15 @@ export default function Features(): JSX.Element {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-cyan-100 border border-blue-300 mb-6">
-            <Sparkles className="w-4 h-4 text-blue-600 animate-spin" style={{ animationDuration: '3s' }} />
-            <span className="text-sm font-semibold text-blue-700">✨ Core Capabilities</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-100 to-cyan-100 border border-emerald-300 mb-6">
+            <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
+            <span className="text-sm font-semibold text-emerald-700">✨ Powerful Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Enterprise-Grade Features
+            Everything You Need to Cook Better
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Powerful automation, real-time intelligence, and enterprise security—all designed to maximize your ROI and accelerate business growth.
+            AI-powered recipe generation, smart meal planning, nutrition tracking, and community recipes—all designed to save you time and help you cook delicious meals every single day.
           </p>
         </motion.div>
 

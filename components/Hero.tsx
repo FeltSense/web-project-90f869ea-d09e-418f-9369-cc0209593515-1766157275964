@@ -43,26 +43,26 @@ export default function Hero() {
         >
           {/* Badge */}
           <motion.div variants={itemVariants} className="flex justify-center px-2">
-            <div className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-400/50 backdrop-blur-md hover:from-blue-500/30 hover:to-purple-500/30 transition-all shadow-lg shadow-purple-500/10">
-              <Sparkles className="w-4 h-4 text-blue-300 animate-spin" style={{ animationDuration: '3s' }} />
-              <span className="text-xs sm:text-sm font-bold text-blue-100">✨ AI-Powered Meal Planning • Save 10+ Hours Weekly • Join 100,000+ Users</span>
+            <div className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/50 backdrop-blur-md hover:from-emerald-500/30 hover:to-cyan-500/30 transition-all shadow-lg shadow-emerald-500/10">
+              <Sparkles className="w-4 h-4 text-emerald-300 animate-spin" style={{ animationDuration: '3s' }} />
+              <span className="text-xs sm:text-sm font-bold text-emerald-100">🔥 Join 100,000+ Home Cooks • 4.9★ Rating • 7-Day Free Trial</span>
             </div>
           </motion.div>
 
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">AI-Powered Cooking</span>
+              Never Stress About <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">What's for Dinner Again</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Discover personalized recipes, intelligent meal planning, and smart shopping lists powered by advanced AI. Save 10+ hours weekly, reduce grocery waste, and enjoy delicious meals tailored to your lifestyle—all in one powerful platform.
+              Get personalized recipes in 30 seconds. AI learns your taste, dietary needs, and what's in your pantry. Meal planning that actually works—save 10+ hours weekly, cut grocery bills by $1,200/year, and enjoy meals you'll actually want to cook.
             </p>
           </motion.div>
 
           {/* Subheading - Key Features Showcase */}
           <motion.div variants={itemVariants}>
             <div className="space-y-6 max-w-5xl mx-auto px-2">
-              <p className="text-base sm:text-lg text-slate-300 font-semibold tracking-wide">✨ Powered by Advanced AI Technology</p>
+              <p className="text-base sm:text-lg text-slate-300 font-semibold tracking-wide">⚡ Everything You Need to Cook Better</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
                 <div className="group relative px-3 sm:px-4 py-3 sm:py-3 rounded-xl bg-gradient-to-br from-blue-500/30 to-blue-500/10 border border-blue-400/50 hover:border-blue-300/80 hover:from-blue-500/40 hover:to-blue-500/20 transition-all cursor-pointer transform hover:scale-105">
                   <span className="text-xl sm:text-2xl block mb-1">🍳</span>
@@ -107,7 +107,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                ✨ Start Your Free Trial
+                🚀 Start Free Trial (7 Days)
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -144,8 +144,8 @@ export default function Hero() {
 
           {/* Urgency & Value Statement - Premium Enhanced */}
           <motion.div variants={itemVariants} className="pt-8 sm:pt-12 px-2 space-y-6">
-            <div className="inline-block bg-gradient-to-r from-green-500/30 to-emerald-500/30 border border-green-400/60 rounded-full px-6 sm:px-8 py-3 sm:py-4 mb-2 hover:from-green-500/40 hover:to-emerald-500/40 transition-all shadow-lg shadow-green-500/10">
-              <p className="text-sm sm:text-base text-green-100 font-bold">✅ 7-Day Free Trial • No Credit Card Required • Cancel Anytime • 🎁 Limited: 50% Off First Month</p>
+            <div className="inline-block bg-gradient-to-r from-green-500/30 to-emerald-500/30 border border-green-400/60 rounded-full px-6 sm:px-8 py-3 sm:py-4 mb-2 hover:from-green-500/40 hover:to-emerald-500/40 transition-all shadow-lg shadow-green-500/10 animate-pulse">
+              <p className="text-sm sm:text-base text-green-100 font-bold">✅ 7-Day Free Trial • No Credit Card • Cancel Anytime • 🎁 50% Off First Month</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/60 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-xl shadow-slate-900/50">
               <p className="text-sm sm:text-base text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
