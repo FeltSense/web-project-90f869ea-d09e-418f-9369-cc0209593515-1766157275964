@@ -72,14 +72,34 @@ export default function Hero() {
           </motion.div>
 
           {/* CTA Buttons */}
+
+
+          {/* Key Benefits Highlight */}
+          <motion.div variants={itemVariants} className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-4xl mx-auto px-2 py-8 sm:py-12">
+            <div className="flex flex-col items-center gap-3 p-4 sm:p-6 rounded-xl bg-gradient-to-br from-emerald-500/20 to-emerald-500/5 border border-emerald-400/40 hover:border-emerald-300/60 transition-all">
+              <span className="text-2xl sm:text-3xl">⏱️</span>
+              <h3 className="font-bold text-white text-sm sm:text-base">Save 10+ Hours Weekly</h3>
+              <p className="text-xs sm:text-sm text-slate-300">No more meal planning stress</p>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-4 sm:p-6 rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-500/5 border border-blue-400/40 hover:border-blue-300/60 transition-all">
+              <span className="text-2xl sm:text-3xl">🤖</span>
+              <h3 className="font-bold text-white text-sm sm:text-base">AI-Personalized Recipes</h3>
+              <p className="text-xs sm:text-sm text-slate-300">Tailored to your preferences</p>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-4 sm:p-6 rounded-xl bg-gradient-to-br from-purple-500/20 to-purple-500/5 border border-purple-400/40 hover:border-purple-300/60 transition-all">
+              <span className="text-2xl sm:text-3xl">💰</span>
+              <h3 className="font-bold text-white text-sm sm:text-base">Save $1,200+ Yearly</h3>
+              <p className="text-xs sm:text-sm text-slate-300">Reduce food waste & costs</p>
+            </div>
+          </motion.div>
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-6 justify-center pt-12 sm:pt-16 px-2">
             <Link 
               href="/pricing" 
-              className="group relative px-10 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-bold text-lg sm:text-xl transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-3 overflow-hidden"
+              className="group relative px-10 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-bold text-lg sm:text-xl transition-all transform hover:scale-105 sm:hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-3 overflow-hidden border-2 border-emerald-400/50"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-3">
-                🚀 Start Your Free 7-Day Trial
+                🚀 Start Free Trial Now
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
