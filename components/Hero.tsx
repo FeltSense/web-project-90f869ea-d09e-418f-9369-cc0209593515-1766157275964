@@ -57,6 +57,11 @@ export default function Hero() {
             <p className="text-lg sm:text-xl text-slate-200 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
               Stop wasting time deciding what to cook. Get personalized recipes in 30 seconds based on your taste, dietary needs, and pantry. Save 10+ hours weekly, cut grocery bills by $1,200/year, and finally enjoy cooking again.
             </p>
+            <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
+              <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
+              <span className="inline-block px-3 py-1 bg-cyan-500/20 border border-cyan-400/50 rounded-full text-xs sm:text-sm text-cyan-200 font-semibold">🎯 Personalized</span>
+              <span className="inline-block px-3 py-1 bg-blue-500/20 border border-blue-400/50 rounded-full text-xs sm:text-sm text-blue-200 font-semibold">⚡ Instant</span>
+            </div>
           </motion.div>
 
           {/* Subheading - Key Features Showcase */}
@@ -107,7 +112,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl opacity-0 group-hover:opacity-20 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                🚀 Get Started Free (7 Days)
+                🚀 Start Your Free Trial
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-2 transition-transform" />
               </span>
             </Link>
@@ -117,7 +122,7 @@ export default function Hero() {
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-10 blur transition-opacity" />
               <span className="relative z-10 flex items-center gap-3 whitespace-nowrap">
-                📖 See How It Works
+                📖 Learn More
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -145,7 +150,7 @@ export default function Hero() {
           {/* Urgency & Value Statement - Premium Enhanced */}
           <motion.div variants={itemVariants} className="pt-8 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-green-500/30 to-emerald-500/30 border border-green-400/60 rounded-full px-6 sm:px-8 py-3 sm:py-4 mb-2 hover:from-green-500/40 hover:to-emerald-500/40 transition-all shadow-lg shadow-green-500/10 animate-pulse">
-              <p className="text-sm sm:text-base text-green-100 font-bold">✅ No Credit Card Required • Cancel Anytime • 🎁 50% Off First Month</p>
+              <p className="text-sm sm:text-base text-green-100 font-bold">✅ No Credit Card Required • Cancel Anytime • 🎁 7 Days Free</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/60 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-xl shadow-slate-900/50">
               <p className="text-sm sm:text-base text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
@@ -153,9 +158,24 @@ export default function Hero() {
                 <span className="block text-base sm:text-lg">🛒 Smart Shopping Lists • 💡 Smart Substitutions • 👥 Community Recipes</span>
               </p>
             </div>
-            <p className="text-xs sm:text-sm text-slate-300 font-medium text-center">
-              💰 Save $1,200+ Yearly • ⏱️ 10+ Hours Weekly • 🎯 100% Personalized • 🔥 Join 100,000+ Happy Cooks
-            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-3xl mx-auto px-2">
+              <div className="text-center p-3 sm:p-4 rounded-lg bg-emerald-500/10 border border-emerald-400/30">
+                <p className="text-lg sm:text-xl font-bold text-emerald-300">10+</p>
+                <p className="text-xs sm:text-sm text-slate-300">Hours Saved Weekly</p>
+              </div>
+              <div className="text-center p-3 sm:p-4 rounded-lg bg-cyan-500/10 border border-cyan-400/30">
+                <p className="text-lg sm:text-xl font-bold text-cyan-300">$1,200+</p>
+                <p className="text-xs sm:text-sm text-slate-300">Saved Yearly</p>
+              </div>
+              <div className="text-center p-3 sm:p-4 rounded-lg bg-purple-500/10 border border-purple-400/30">
+                <p className="text-lg sm:text-xl font-bold text-purple-300">100K+</p>
+                <p className="text-xs sm:text-sm text-slate-300">Happy Users</p>
+              </div>
+              <div className="text-center p-3 sm:p-4 rounded-lg bg-pink-500/10 border border-pink-400/30">
+                <p className="text-lg sm:text-xl font-bold text-pink-300">4.9★</p>
+                <p className="text-xs sm:text-sm text-slate-300">Rating</p>
+              </div>
+            </div>
           </motion.div>
 
           {/* Trust indicators with icons - Enhanced */}
