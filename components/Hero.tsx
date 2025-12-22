@@ -52,7 +52,7 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI-Powered Cooking</span>
+              Save 10+ Hours Weekly & <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Cut Grocery Bills by 40%</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
               Discover endless recipe possibilities powered by AI. Create personalized meal plans, generate smart shopping lists, track nutrition, and customize for any diet—all in seconds. Join 100,000+ home cooks who've revolutionized their cooking and saved thousands on groceries.
@@ -111,7 +111,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-lg">🚀 Start Cooking Smarter Now</span>
+                <span className="text-base sm:text-lg">🎯 Sign Up Free Today</span>
                 <span className="text-xs sm:text-sm font-semibold opacity-90">7 days free • No credit card • Cancel anytime</span>
               </span>
             </Link>
