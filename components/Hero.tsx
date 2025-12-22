@@ -107,7 +107,7 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center pt-8 sm:pt-12 px-2">
             <Link 
               href="/pricing" 
-              className="group relative px-8 sm:px-32 py-7 sm:py-12 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-xl font-bold text-lg sm:text-2xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-300/70 animate-pulse"
+              className="group relative px-8 sm:px-32 py-7 sm:py-12 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-xl font-bold text-lg sm:text-2xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-300/70 animate-pulse hover:animate-none"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
@@ -157,7 +157,7 @@ export default function Hero() {
 
           {/* Urgency & Value Statement - Enhanced */}
           <motion.div variants={itemVariants} className="pt-8 sm:pt-10 px-2 space-y-5">
-            <div className="inline-block bg-gradient-to-r from-red-500/35 to-pink-500/35 border border-red-400/70 rounded-full px-6 sm:px-8 py-3 sm:py-4 hover:from-red-500/45 hover:to-pink-500/45 transition-all shadow-lg shadow-red-500/20 animate-pulse">
+            <div className="inline-block bg-gradient-to-r from-red-500/35 to-pink-500/35 border border-red-400/70 rounded-full px-6 sm:px-8 py-3 sm:py-4 hover:from-red-500/45 hover:to-pink-500/45 transition-all shadow-lg shadow-red-500/20 animate-pulse hover:animate-none">
               <p className="text-xs sm:text-sm text-red-50 font-black">🎁 LIMITED TIME: 7 Days Free + $99 in Premium Features • No Credit Card • Cancel Anytime</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/50 to-slate-700/50 border border-slate-600/40 rounded-xl p-5 sm:p-6 backdrop-blur-sm shadow-lg shadow-slate-900/30">
