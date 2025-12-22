@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Never Wonder <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">"What's for Dinner?"</span> Again
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI Chef</span> Awaits
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Get personalized, restaurant-quality recipes in seconds. Our AI learns your taste, dietary needs, and available ingredients to create meals you'll actually want to cook. Save 10+ hours weekly, cut grocery bills by 40%, and enjoy stress-free dinners every night—with smart shopping lists, nutrition tracking, and 50+ diet options built in.
+              Transform your kitchen with AI-powered recipes tailored to your taste, budget, and lifestyle. Get restaurant-quality meals in minutes, not hours. Our intelligent system learns what you love, suggests smart substitutions, and builds shopping lists that save you money—all while keeping nutrition on track.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -111,8 +111,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-xl font-black">🚀 Get Started Free Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 days free • No credit card • Cancel anytime</span>
+                <span className="text-base sm:text-xl font-black">🍳 Start Cooking Smarter Today</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 days free • No credit card needed • Full access</span>
               </span>
             </Link>
             <Link 
