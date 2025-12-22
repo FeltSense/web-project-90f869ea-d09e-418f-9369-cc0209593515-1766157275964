@@ -111,8 +111,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-xl font-black">🎯 Start Your Free Trial Now</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 days free • No credit card needed • Full access</span>
+                <span className="text-base sm:text-xl font-black">🚀 Get Started Free Today</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 days free • No credit card • Cancel anytime</span>
               </span>
             </Link>
             <Link 
