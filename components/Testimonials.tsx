@@ -26,6 +26,27 @@ const testimonials = [
     avatar: 'https://i.pravatar.cc/150?img=3',
     benefit: '$1,200+ saved on groceries',
   },
+  {
+    name: 'Marcus Johnson',
+    role: 'Professional Chef',
+    quote: 'As a chef, I was skeptical about AI-generated recipes. But this platform impressed me! The recipes are creative, well-balanced, and the AI learns my style. I use it to inspire new menu items. Game-changer for my restaurant!',
+    avatar: 'https://i.pravatar.cc/150?img=4',
+    benefit: 'Inspired 20+ new menu items',
+  },
+  {
+    name: 'Lisa Park',
+    role: 'Nutritionist & Wellness Coach',
+    quote: 'My clients love this app! The nutrition tracking is accurate, the meal plans are balanced, and the AI respects dietary restrictions perfectly. I recommend it to everyone looking to improve their eating habits.',
+    avatar: 'https://i.pravatar.cc/150?img=5',
+    benefit: 'Recommended to 100+ clients',
+  },
+  {
+    name: 'James Wilson',
+    role: 'Budget-Conscious Dad',
+    quote: 'Feeding a family of 5 on a budget is tough. This app helped me cut grocery costs by 35% while eating better. The smart substitutions feature is genius—same meals, less money. Best investment ever!',
+    avatar: 'https://i.pravatar.cc/150?img=6',
+    benefit: '35% reduction in grocery costs',
+  },
 ];
 
 export default function Testimonials() {
@@ -67,7 +88,7 @@ export default function Testimonials() {
           </div>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.name}

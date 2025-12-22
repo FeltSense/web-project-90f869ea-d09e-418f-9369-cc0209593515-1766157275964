@@ -55,7 +55,7 @@ export default function Hero() {
               Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI Chef & Meal Planner</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Transform your kitchen with AI-powered meal planning. Get personalized recipes, smart meal plans, and instant shopping lists in seconds. Save 10+ hours weekly, cut grocery costs by 30%, and enjoy healthier, delicious meals tailored to your taste and lifestyle.
+              Stop wasting time on meal planning. Get AI-powered personalized recipes in 30 seconds, auto-generated meal plans that fit your lifestyle, and smart shopping lists that save you money. Join 100,000+ users saving 10+ hours weekly and cutting grocery costs by $1,200+ annually.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>

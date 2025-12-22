@@ -26,153 +26,153 @@ interface Capability {
 
 const capabilities: Capability[] = [
   {
-    id: 'performance',
+    id: 'ai-recipes',
     icon: <Zap className="w-8 h-8" />,
-    title: 'Lightning-Fast Performance',
+    title: 'AI-Powered Recipe Generation',
     description:
-      'Optimized for speed with sub-second response times and minimal latency across all operations.',
+      'Get personalized recipes in 30 seconds based on your preferences, dietary needs, and available ingredients.',
     benefits: [
-      'Saves 40% time on data processing',
-      'Reduces infrastructure costs',
-      'Improves user satisfaction',
+      'Instant recipe creation',
+      'Tailored to your taste',
+      'Dietary restrictions respected',
     ],
     useCases: [
-      'Real-time analytics dashboards',
-      'High-frequency transactions',
-      'Streaming data processing',
+      'Quick weeknight dinners',
+      'Special dietary needs',
+      'Ingredient-based cooking',
     ],
     gradient: 'from-emerald-500/20 to-cyan-500/20',
     gradient2: 'from-emerald-500 to-cyan-500',
   },
   {
-    id: 'security',
+    id: 'meal-planning',
     icon: <Shield className="w-8 h-8" />,
-    title: 'Enterprise-Grade Security',
+    title: 'Smart Meal Planning',
     description:
-      'Military-grade encryption and compliance with GDPR, HIPAA, and SOC 2 standards.',
+      'Auto-generate weekly meal plans optimized for nutrition, budget, and your schedule.',
     benefits: [
-      'Eliminates security breaches',
-      'Ensures regulatory compliance',
-      'Builds customer trust',
+      'Saves 5+ hours weekly',
+      'Balanced nutrition',
+      'Budget-friendly options',
     ],
     useCases: [
-      'Healthcare data management',
-      'Financial transactions',
-      'Personal information handling',
+      'Weekly meal prep',
+      'Family planning',
+      'Dietary goals',
     ],
     gradient: 'from-blue-500/20 to-purple-500/20',
     gradient2: 'from-blue-500 to-purple-500',
   },
   {
-    id: 'analytics',
+    id: 'shopping-lists',
     icon: <TrendingUp className="w-8 h-8" />,
-    title: 'Advanced Analytics',
+    title: 'Intelligent Shopping Lists',
     description:
-      'Comprehensive insights with AI-powered predictions and real-time reporting capabilities.',
+      'Get organized, categorized shopping lists with price comparisons and smart substitutions.',
     benefits: [
-      'Increases revenue by 30%',
-      'Enables data-driven decisions',
-      'Reduces guesswork',
+      'Saves $1,200+ yearly',
+      'Organized by store layout',
+      'Smart substitutions',
     ],
     useCases: [
-      'Business intelligence',
-      'Market trend analysis',
-      'Performance tracking',
+      'Budget optimization',
+      'Grocery shopping',
+      'Pantry management',
     ],
     gradient: 'from-cyan-500/20 to-blue-500/20',
     gradient2: 'from-cyan-500 to-blue-500',
   },
   {
-    id: 'collaboration',
+    id: 'nutrition-tracking',
     icon: <Users className="w-8 h-8" />,
-    title: 'Seamless Collaboration',
+    title: 'Nutrition Tracking & Analytics',
     description:
-      'Connect teams instantly with real-time collaboration tools and unified communication.',
+      'Monitor calories, macros, and micronutrients with detailed health insights and recommendations.',
     benefits: [
-      'Boosts team productivity by 35%',
-      'Reduces communication friction',
-      'Improves project outcomes',
+      'Accurate macro tracking',
+      'Health goal alignment',
+      'Personalized insights',
     ],
     useCases: [
-      'Remote team management',
-      'Project coordination',
-      'Cross-department workflows',
+      'Fitness goals',
+      'Health management',
+      'Dietary compliance',
     ],
     gradient: 'from-purple-500/20 to-pink-500/20',
     gradient2: 'from-purple-500 to-pink-500',
   },
   {
-    id: 'automation',
+    id: 'personalization',
     icon: <Clock className="w-8 h-8" />,
-    title: 'Intelligent Automation',
+    title: 'Deep Personalization',
     description:
-      'Automate repetitive tasks and workflows to free up your team for strategic work.',
+      'AI learns your preferences, cooking style, and dietary needs to improve recommendations over time.',
     benefits: [
-      'Saves 20 hours per week',
-      'Eliminates human error',
-      'Accelerates time-to-market',
+      'Gets smarter daily',
+      'Learns your taste',
+      'Adapts to lifestyle',
     ],
     useCases: [
-      'Workflow automation',
-      'Task scheduling',
-      'Routine process handling',
+      'Preference learning',
+      'Taste customization',
+      'Lifestyle adaptation',
     ],
     gradient: 'from-emerald-500/20 to-teal-500/20',
     gradient2: 'from-emerald-500 to-teal-500',
   },
   {
-    id: 'scalability',
+    id: 'dietary-support',
     icon: <BarChart3 className="w-8 h-8" />,
-    title: 'Unlimited Scalability',
+    title: '50+ Dietary Preferences',
     description:
-      'Grow without limits with infrastructure that scales automatically with your needs.',
+      'Support for keto, vegan, gluten-free, paleo, Mediterranean, and 45+ other dietary approaches.',
     benefits: [
-      'Handles 10x growth seamlessly',
-      'No downtime during scaling',
-      'Cost-efficient expansion',
+      'All diets supported',
+      'Flexible options',
+      'Easy customization',
     ],
     useCases: [
-      'Seasonal traffic spikes',
-      'Business expansion',
-      'Global market reach',
+      'Special diets',
+      'Allergies',
+      'Lifestyle choices',
     ],
     gradient: 'from-blue-500/20 to-cyan-500/20',
     gradient2: 'from-blue-500 to-cyan-500',
   },
   {
-    id: 'integration',
+    id: 'mobile-app',
     icon: <Workflow className="w-8 h-8" />,
-    title: 'Universal Integration',
+    title: 'Mobile App & Sync',
     description:
-      'Connect with 500+ tools and services through powerful APIs and pre-built integrations.',
+      'Access recipes, meal plans, and shopping lists on the go with seamless cross-device sync.',
     benefits: [
-      'Reduces integration time by 60%',
-      'Eliminates data silos',
-      'Simplifies tech stack',
+      'Works offline',
+      'Cloud sync',
+      'Mobile optimized',
     ],
     useCases: [
-      'CRM integration',
-      'Payment processing',
-      'Third-party APIs',
+      'Shopping on the go',
+      'Recipe browsing',
+      'Meal prep planning',
     ],
     gradient: 'from-pink-500/20 to-purple-500/20',
     gradient2: 'from-pink-500 to-purple-500',
   },
   {
-    id: 'compliance',
+    id: 'community',
     icon: <Lock className="w-8 h-8" />,
-    title: 'Compliance & Governance',
+    title: 'Community & Support',
     description:
-      'Stay compliant with automated audit trails, role-based access, and policy enforcement.',
+      'Connect with 100,000+ users, share recipes, get cooking tips, and access expert support.',
     benefits: [
-      'Reduces compliance risk',
-      'Simplifies audits',
-      'Prevents violations',
+      'Active community',
+      'Expert guidance',
+      '24/7 support',
     ],
     useCases: [
-      'Regulatory reporting',
-      'Access control',
-      'Audit documentation',
+      'Recipe sharing',
+      'Cooking tips',
+      'Community support',
     ],
     gradient: 'from-teal-500/20 to-emerald-500/20',
     gradient2: 'from-teal-500 to-emerald-500',
@@ -220,10 +220,10 @@ export default function KeyCapabilitiesSection(): JSX.Element {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-emerald-600 via-cyan-600 to-blue-600 bg-clip-text text-transparent">
-            Key Capabilities
+            Powerful Features Built for You
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Powerful features designed to transform your business and drive measurable results
+            Everything you need to transform your kitchen, save time, and eat healthier with AI-powered meal planning and personalized recipes.
           </p>
         </motion.div>
 
@@ -331,24 +331,23 @@ export default function KeyCapabilitiesSection(): JSX.Element {
         >
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-              Ready to Transform Your Business?
+              Ready to Transform Your Kitchen?
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-              Join thousands of companies already using our platform to save time, reduce costs,
-              and accelerate growth.
+              Join 100,000+ home cooks already saving 10+ hours weekly and cutting grocery costs by $1,200+ annually with our AI-powered meal planning.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                href="/demo"
+                href="/pricing"
                 className="px-6 py-3 bg-white dark:bg-gray-900 text-emerald-600 dark:text-emerald-400 font-semibold rounded-lg hover:shadow-lg transition-all duration-300 border border-emerald-600/20 hover:border-emerald-600/50"
               >
-                Schedule a Demo
+                Start Your Free Trial
               </Link>
               <Link
-                href="/pricing"
+                href="#testimonials"
                 className="px-6 py-3 text-gray-600 dark:text-gray-300 font-semibold hover:text-gray-900 dark:hover:text-white transition-colors duration-300"
               >
-                View Pricing
+                See What Users Say
               </Link>
             </div>
           </div>
