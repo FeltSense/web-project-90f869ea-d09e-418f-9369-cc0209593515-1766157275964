@@ -25,52 +25,52 @@ const features: Feature[] = [
   {
     id: 1,
     title: 'AI Recipe Generation',
-    description: 'Get personalized recipes tailored to your taste preferences and dietary needs',
-    benefits: ['Instant suggestions', 'Unique combinations', 'Chef-approved recipes'],
+    description: 'Unlimited AI-powered recipes tailored to your taste, dietary needs, and available ingredients. Get chef-approved suggestions in seconds.',
+    benefits: ['Instant personalized recipes', 'Unique flavor combinations', 'Dietary-specific options'],
     icon: <Sparkles className="w-8 h-8" />,
     gradient: 'from-purple-400 to-pink-400',
     delay: 0,
   },
   {
     id: 2,
-    title: 'Meal Planning',
-    description: 'Organize your weekly meals with intelligent planning and scheduling',
-    benefits: ['Weekly templates', 'Auto-sync shopping', 'Time management'],
+    title: 'Smart Meal Planning',
+    description: 'Create balanced weekly meal plans automatically. Our AI optimizes nutrition, variety, and cooking time for your lifestyle.',
+    benefits: ['Auto-balanced nutrition', 'Variety guaranteed', 'Time-optimized'],
     icon: <Calendar className="w-8 h-8" />,
     gradient: 'from-blue-400 to-cyan-400',
     delay: 0.1,
   },
   {
     id: 3,
-    title: 'Nutrition Tracking',
-    description: 'Monitor calories, macros, and micronutrients in real-time',
-    benefits: ['Daily summaries', 'Goal tracking', 'Health insights'],
+    title: 'Complete Nutrition Tracking',
+    description: 'Monitor every meal with detailed nutrition data. Track calories, macros, vitamins, and minerals to meet your health goals.',
+    benefits: ['Real-time tracking', 'Goal alignment', 'Health insights'],
     icon: <Heart className="w-8 h-8" />,
     gradient: 'from-red-400 to-orange-400',
     delay: 0.2,
   },
   {
     id: 4,
-    title: 'Shopping Lists',
-    description: 'Smart shopping lists that sync across your devices',
-    benefits: ['Auto-generated lists', 'Price comparison', 'Store navigation'],
+    title: 'Intelligent Shopping Lists',
+    description: 'Auto-generated shopping lists that sync across devices. Compare prices, find deals, and navigate stores efficiently.',
+    benefits: ['Auto-generated lists', 'Price optimization', 'Smart organization'],
     icon: <ShoppingCart className="w-8 h-8" />,
     gradient: 'from-green-400 to-emerald-400',
     delay: 0.3,
   },
   {
     id: 5,
-    title: 'Dietary Customization',
-    description: 'Adapt recipes to any diet or restriction instantly',
-    benefits: ['Multiple diets', 'Allergy filters', 'Custom preferences'],
+    title: '50+ Dietary Options',
+    description: 'Support for every diet imaginable. Keto, vegan, gluten-free, paleo, Mediterranean, and 45+ more. Instant allergy filtering.',
+    benefits: ['50+ diet types', 'Allergy-safe', 'Custom restrictions'],
     icon: <Settings className="w-8 h-8" />,
     gradient: 'from-yellow-400 to-amber-400',
     delay: 0.4,
   },
   {
     id: 6,
-    title: 'Smart Substitutions',
-    description: 'Find perfect ingredient swaps for healthier alternatives',
+    title: 'Smart Ingredient Swaps',
+    description: 'Find perfect substitutions instantly. Swap ingredients for healthier, cheaper, or allergy-friendly alternatives without losing flavor.',
     benefits: ['Instant replacements', 'Nutrition-matched', 'Cost-effective'],
     icon: <Zap className="w-8 h-8" />,
     gradient: 'from-indigo-400 to-purple-400',
@@ -194,15 +194,14 @@ export default function KeyProductFeaturesShowcase(): React.ReactElement {
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-            Everything You Need for{' '}
+            Powerful AI Features That{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Smart Eating
+              Transform Your Kitchen
             </span>
           </h2>
 
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Discover our comprehensive suite of AI-powered features designed to transform
-            your cooking and eating experience
+            Everything you need to cook like a pro. From AI-generated recipes to smart meal planning, nutrition tracking, and intelligent shopping lists—all designed to save you time, money, and stress.
           </p>
         </motion.div>
 

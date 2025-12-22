@@ -52,11 +52,11 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">Never Struggle With Meal Planning Again</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">AI-Powered Recipes, Personalized Meal Plans & Smart Shopping Lists—Instantly</span>
+              <span className="block mb-3">Your Personal AI Chef & Meal Planner</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Generate Unlimited Recipes, Plan Meals, & Save $1,200+ Yearly—All in Seconds</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Stop wasting hours on meal planning. Get AI-generated recipes tailored to your taste, dietary needs, and available ingredients. Create personalized meal plans, auto-generated shopping lists, and smart substitutions—all powered by advanced AI. Join 100,000+ users who've transformed their cooking and saved thousands on groceries.
+              Tired of asking "What's for dinner?" Our AI recipe generator creates personalized recipes based on your taste, dietary restrictions, and pantry. Get instant meal plans, smart shopping lists, nutrition tracking, and ingredient substitutions—all powered by cutting-edge AI. Transform your kitchen in minutes, not hours. Join 100,000+ users saving time and money every single day.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
