@@ -27,6 +27,7 @@ import Pricing from '@/components/Pricing'
 import FAQ from '@/components/FAQ'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
+import SampleRecipes from '@/components/SampleRecipes'
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <KeyProductFeaturesShowcase />
+      <SampleRecipes />
       <EnhancedProductFeatures />
       <KeyFeaturesSection />
       <KeyFeaturesShowcase />
