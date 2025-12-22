@@ -55,7 +55,7 @@ export default function Hero() {
               Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI Chef & Meal Planner</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time on meal planning. Get personalized recipes, smart meal plans, and instant shopping lists powered by advanced AI. Enjoy healthier meals, save money, and reclaim 10+ hours every week—all tailored to your dietary preferences and lifestyle.
+              Transform your kitchen with AI-powered meal planning. Get personalized recipes, smart meal plans, and instant shopping lists in seconds. Save 10+ hours weekly, cut grocery costs by 30%, and enjoy healthier, delicious meals tailored to your taste and lifestyle.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -107,30 +107,30 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center pt-8 sm:pt-12 px-2">
             <Link 
               href="/pricing" 
-              className="group relative px-8 sm:px-24 py-6 sm:py-9 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-xl font-bold text-lg sm:text-xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-400/50 animate-pulse"
+              className="group relative px-8 sm:px-28 py-6 sm:py-10 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-xl font-bold text-lg sm:text-xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-400/50 animate-pulse"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                🎯 Get Started Free Today
+                🎯 Start Your Free Trial
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
             <Link 
               href="#features" 
-              className="group relative px-8 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-xl font-bold text-base sm:text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-blue-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-blue-400/50"
+              className="group relative px-8 sm:px-20 py-5 sm:py-8 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-xl font-bold text-base sm:text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-blue-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-blue-400/50"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ Explore Features
+                ✨ See How It Works
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
             <Link 
               href="#faq" 
-              className="group px-8 sm:px-16 py-5 sm:py-7 border-2 border-cyan-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-cyan-500/20 hover:border-cyan-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-2"
+              className="group px-8 sm:px-16 py-5 sm:py-8 border-2 border-cyan-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-cyan-500/20 hover:border-cyan-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-2"
             >
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ❓ Have Questions?
+                ❓ Questions?
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -158,12 +158,12 @@ export default function Hero() {
           {/* Urgency & Value Statement - Optimized */}
           <motion.div variants={itemVariants} className="pt-8 sm:pt-10 px-2 space-y-5">
             <div className="inline-block bg-gradient-to-r from-red-500/25 to-pink-500/25 border border-red-400/50 rounded-full px-5 sm:px-7 py-2 sm:py-3 hover:from-red-500/35 hover:to-pink-500/35 transition-all shadow-lg shadow-red-500/5 animate-pulse">
-              <p className="text-xs sm:text-sm text-red-100 font-bold">🎁 Special Launch Offer • 7 Days Free + Exclusive Bonuses</p>
+              <p className="text-xs sm:text-sm text-red-100 font-bold">🎁 Limited Time: 7 Days Free + Premium Bonuses Worth $99</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/50 to-slate-700/50 border border-slate-600/40 rounded-xl p-5 sm:p-6 backdrop-blur-sm shadow-lg shadow-slate-900/30">
               <p className="text-xs sm:text-sm text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
                 <span className="block mb-2 text-sm sm:text-base font-bold text-emerald-300">✨ Everything Included:</span>
-                <span className="block text-xs sm:text-sm">🤖 AI Recipes • 📱 Mobile App • 🎯 Dietary Preferences • 🛒 Shopping Lists • 💡 Substitutions • 👥 Community</span>
+                <span className="block text-xs sm:text-sm">🤖 AI Recipes • 📱 Mobile App • 🎯 Dietary Preferences • 🛒 Smart Shopping Lists • 💡 Smart Substitutions • 👥 Community Support</span>
               </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto px-2">
