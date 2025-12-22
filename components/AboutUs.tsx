@@ -37,35 +37,35 @@ interface TeamMember {
 const values: ValueItem[] = [
   {
     icon: <Target className="w-8 h-8" />,
-    title: 'Innovation',
+    title: 'Passion for Food',
     description:
-      'We constantly push boundaries and embrace new ideas to deliver cutting-edge solutions.',
+      'We believe cooking should be joyful, creative, and accessible to everyone regardless of skill level.',
   },
   {
     icon: <Heart className="w-8 h-8" />,
-    title: 'Integrity',
+    title: 'Empowerment',
     description:
-      'We believe in transparency, honesty, and doing the right thing in all our dealings.',
+      'We empower home cooks with tools and knowledge to create delicious, healthy meals with confidence.',
   },
   {
     icon: <Zap className="w-8 h-8" />,
-    title: 'Excellence',
+    title: 'Innovation',
     description:
-      'We strive for the highest standards in everything we do, from products to service.',
+      'We constantly push the boundaries of AI and technology to create better culinary experiences.',
   },
   {
     icon: <Users className="w-8 h-8" />,
-    title: 'Collaboration',
+    title: 'Community First',
     description:
-      'We work together as a unified team to achieve common goals and celebrate victories.',
+      'Our platform thrives on shared knowledge, user feedback, and collaborative recipe development.',
   },
 ];
 
 const stats: StatItem[] = [
-  { number: '10+', label: 'Years of Experience' },
-  { number: '500+', label: 'Happy Clients' },
-  { number: '50+', label: 'Team Members' },
-  { number: '100%', label: 'Customer Satisfaction' },
+  { number: '100K+', label: 'Active Users' },
+  { number: '500K+', label: 'Recipes Generated' },
+  { number: '50+', label: 'Dietary Preferences' },
+  { number: '4.9★', label: 'Average Rating' },
 ];
 
 const teamMembers: TeamMember[] = [
@@ -156,11 +156,7 @@ export default function AboutUs(): React.ReactElement {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  To revolutionize how people cook and eat by combining AI-powered personalization with culinary expertise. We empower home cooks with intelligent meal planning, recipe generation, and nutrition tracking that
-                  drive growth, foster creativity, and create meaningful connections in an
-                  increasingly digital world. We believe in the power of technology to transform
-                  lives and are committed to making our solutions accessible, reliable, and
-                  impactful for everyone.
+                  To empower every home cook with AI-powered meal planning and personalized recipes that save time, reduce costs, and inspire culinary creativity. We believe cooking should be joyful, not stressful. By combining cutting-edge artificial intelligence with culinary expertise, we transform how people approach food—making it easier to eat healthier, save money, and discover delicious meals tailored to their unique tastes and dietary needs.
                 </p>
               </div>
             </div>
@@ -224,22 +220,13 @@ export default function AboutUs(): React.ReactElement {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Founded in 2014, our company started with a simple vision: to make technology
-                  accessible and affordable for everyone. What began as a small team of three
-                  passionate individuals has grown into a thriving company with a diverse team
-                  of talented professionals.
+                  Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible and enjoyable for everyone.
                 </p>
                 <p>
-                  Over the past decade, we have witnessed the transformative power of innovation
-                  and have dedicated ourselves to creating products and services that make a real
-                  difference in people's lives. Our journey has been marked by challenges, growth,
-                  and countless success stories from our clients.
+                  We assembled a world-class team combining machine learning expertise, culinary mastery, and design innovation. Together, we developed proprietary AI models trained on thousands of recipes and refined through feedback from users around the world. What started as a small project has grown into a global platform used by 100,000+ home cooks.
                 </p>
                 <p>
-                  Today, we continue to evolve, adapt, and innovate. We remain committed to our
-                  core values while embracing new technologies and methodologies. Our success is
-                  not just measured by our achievements, but by the positive impact we create for
-                  our clients, employees, and communities.
+                  Today, we continue to expand our AI capabilities, add support for diverse dietary needs, and build a thriving community of food enthusiasts. Our success is measured not just by our growth, but by the real impact we create—helping families save 10+ hours weekly on meal planning and cutting grocery costs by $1,200+ annually.
                 </p>
               </div>
               <motion.div

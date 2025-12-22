@@ -69,7 +69,7 @@ export default function AboutPage() {
             <motion.div variants={itemVariants} className="text-center">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Our Mission</h2>
               <p className="text-xl text-gray-700 leading-relaxed">
-                We believe everyone deserves access to personalized, delicious recipes tailored to their tastes, dietary needs, and available ingredients. By combining cutting-edge artificial intelligence with culinary expertise, we empower home cooks to create restaurant-quality meals with confidence and joy.
+                We believe everyone deserves access to personalized, delicious recipes tailored to their tastes, dietary needs, and available ingredients. By combining cutting-edge artificial intelligence with culinary expertise, we empower home cooks to create restaurant-quality meals with confidence and joy. Our mission is to transform cooking from a chore into a joy—saving time, reducing costs, and inspiring creativity in every kitchen.
               </p>
             </motion.div>
           </motion.div>
@@ -129,9 +129,9 @@ export default function AboutPage() {
                 className="bg-white rounded-2xl p-8 border border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all"
               >
                 <Target className="w-12 h-12 text-rose-500 mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Sustainability</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Empowerment</h3>
                 <p className="text-gray-700">
-                  We promote conscious cooking practices that minimize waste and support local ingredients.
+                  We empower home cooks with tools and knowledge to create delicious, healthy meals with confidence and joy.
                 </p>
               </motion.div>
             </div>
@@ -156,7 +156,7 @@ export default function AboutPage() {
             <motion.div variants={itemVariants} className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-8 border-l-4 border-amber-500">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">The Vision</h3>
               <p className="text-gray-700 leading-relaxed">
-                Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible and enjoyable for everyone.
+                Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible and enjoyable for everyone. We saw an opportunity to use AI to solve a universal problem—the daily question of "What's for dinner?"
               </p>
             </motion.div>
 
@@ -197,7 +197,7 @@ export default function AboutPage() {
             </motion.div>
             <motion.div variants={itemVariants}>
               <div className="text-5xl font-bold mb-2">50+</div>
-              <p className="text-orange-100 text-lg">Languages Supported</p>
+              <p className="text-orange-100 text-lg">Dietary Preferences</p>
             </motion.div>
             <motion.div variants={itemVariants}>
               <div className="text-5xl font-bold mb-2">4.9★</div>
