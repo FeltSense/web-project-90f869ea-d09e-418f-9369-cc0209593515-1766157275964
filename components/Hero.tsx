@@ -56,7 +56,7 @@ export default function Hero() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">With AI-Powered Recipes</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time planning meals and money on groceries. Get unlimited AI-generated recipes tailored to your ingredients, dietary preferences, and taste—instantly. Join 100K+ users saving 10+ hours weekly and $1,200+ yearly.
+              Stop wasting time planning meals and money on groceries. Get unlimited AI-generated recipes tailored to your ingredients, dietary preferences, and taste—instantly. Join 100K+ users saving 10+ hours weekly and $1,200+ yearly on groceries.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
