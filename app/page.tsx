@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
+import NewProductFeaturesSection from '@/components/NewProductFeaturesSection'
 import KeyProductFeaturesShowcase from '@/components/KeyProductFeaturesShowcase'
 import EnhancedProductFeatures from '@/components/EnhancedProductFeatures'
 import KeyFeaturesSection from '@/components/KeyFeaturesSection'
@@ -35,6 +36,9 @@ export default function Home() {
       <Navigation />
       <Hero />
       <KeyProductFeaturesShowcase />
+
+      <NewProductFeaturesSection />
+      
       <SampleRecipes />
       <EnhancedProductFeatures />
       <KeyFeaturesSection />
