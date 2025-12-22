@@ -92,11 +92,14 @@ const KeyProductFeatures = (): JSX.Element => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
+          <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-emerald-100 to-cyan-100 border border-emerald-300 mb-6 shadow-lg shadow-emerald-500/10">
+            <span className="text-sm font-bold text-emerald-700">🎯 Core Features</span>
+          </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            AI Recipe Generator Features
+            Powerful AI Features That Transform Your Cooking
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Discover the power of AI-driven cooking. Our intelligent recipe generator learns your preferences and creates personalized meal plans, shopping lists, and nutritional guidance—all tailored to your unique taste and dietary needs.
+            Our AI-powered recipe generator learns your taste preferences, dietary restrictions, and cooking style to deliver personalized recipes, intelligent meal plans, automated shopping lists, and complete nutritional guidance—everything you need to cook with confidence.
           </p>
         </motion.div>
 
@@ -116,7 +119,21 @@ const KeyProductFeatures = (): JSX.Element => {
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
             All features are powered by state-of-the-art artificial intelligence to provide you with the most relevant, delicious, and personalized recipes tailored to your unique taste and dietary needs.
           </p>
-          <div className="mt-12 inline-block">
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto mb-12">
+            <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-200">
+              <p className="text-lg font-bold text-emerald-700">🤖 AI-Powered</p>
+              <p className="text-sm text-emerald-600 mt-2">Advanced machine learning learns your preferences</p>
+            </div>
+            <div className="p-4 rounded-lg bg-cyan-50 border border-cyan-200">
+              <p className="text-lg font-bold text-cyan-700">⚡ Instant Results</p>
+              <p className="text-sm text-cyan-600 mt-2">Get personalized recipes in seconds</p>
+            </div>
+            <div className="p-4 rounded-lg bg-blue-50 border border-blue-200">
+              <p className="text-lg font-bold text-blue-700">🎯 Personalized</p>
+              <p className="text-sm text-blue-600 mt-2">Tailored to your dietary goals and restrictions</p>
+            </div>
+          </div>
+          <div className="inline-block">
             <a href="#beta-signup" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-emerald-500/50 transition-all transform hover:scale-105">
               🎁 Join the Beta & Get 7 Days Free
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

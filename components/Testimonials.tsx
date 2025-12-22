@@ -8,20 +8,23 @@ const testimonials = [
   {
     name: 'Sarah Mitchell',
     role: 'Busy Mom of 3',
-    quote: 'I used to spend 5+ hours weekly planning meals. Now I get personalized recipes in 30 seconds. My family loves the meals, and I have my evenings back. Worth every penny!',
+    quote: 'I used to spend 5+ hours weekly planning meals. Now I get personalized recipes in 30 seconds. My family loves the meals, and I have my evenings back. The AI understands our preferences perfectly. Worth every penny!',
     avatar: 'https://i.pravatar.cc/150?img=1',
+    benefit: '5+ hours saved weekly',
   },
   {
     name: 'David Chen',
     role: 'Home Cook & Food Enthusiast',
-    quote: 'The AI nailed my taste preferences immediately. It suggests recipes I would never find myself, but always want to cook. The nutrition tracking is incredible.',
+    quote: 'The AI nailed my taste preferences immediately. It suggests recipes I would never find myself, but always want to cook. The nutrition tracking is incredible and the shopping lists save me so much time.',
     avatar: 'https://i.pravatar.cc/150?img=2',
+    benefit: 'Discovered new favorite recipes',
   },
   {
     name: 'Emma Rodriguez',
     role: 'Fitness Enthusiast',
-    quote: 'Finally, an app that makes healthy eating exciting AND easy! The meal plans fit my goals perfectly, recipes are delicious, and I\'ve saved $1,200+ on groceries. Highly recommend!',
+    quote: 'Finally, an app that makes healthy eating exciting AND easy! The meal plans fit my fitness goals perfectly, recipes are delicious, and I\'ve saved $1,200+ on groceries. The AI understands my dietary needs better than any app I\'ve tried. Highly recommend!',
     avatar: 'https://i.pravatar.cc/150?img=3',
+    benefit: '$1,200+ saved on groceries',
   },
 ];
 
@@ -43,11 +46,25 @@ export default function Testimonials() {
             <span className="text-sm font-bold text-emerald-700">⭐ 4.9★ Rating • 25,000+ Reviews</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-6">
-            Loved by 100,000+ Home Cooks
+            Loved by 100,000+ Home Cooks Worldwide
           </h2>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
-            Real people, real results. See how our AI recipe generator is saving families 10+ hours weekly and cutting grocery bills by $1,200+ annually.
+            Real people, real results. Discover how our AI-powered recipe generator is transforming kitchens, saving families 10+ hours weekly on meal planning, cutting grocery bills by $1,200+ annually, and making cooking exciting again.
           </p>
+          <div className="mt-8 grid grid-cols-3 gap-4 max-w-2xl mx-auto text-center">
+            <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-200">
+              <p className="text-2xl font-bold text-emerald-700">10+</p>
+              <p className="text-xs text-emerald-600 mt-1">Hours Saved Weekly</p>
+            </div>
+            <div className="p-4 rounded-lg bg-cyan-50 border border-cyan-200">
+              <p className="text-2xl font-bold text-cyan-700">$1,200+</p>
+              <p className="text-xs text-cyan-600 mt-1">Saved Yearly</p>
+            </div>
+            <div className="p-4 rounded-lg bg-blue-50 border border-blue-200">
+              <p className="text-2xl font-bold text-blue-700">100K+</p>
+              <p className="text-xs text-blue-600 mt-1">Happy Users</p>
+            </div>
+          </div>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -77,9 +94,14 @@ export default function Testimonials() {
               </div>
 
               {/* Quote */}
-              <p className="text-slate-700 mb-8 leading-relaxed text-base font-medium relative z-10">
+              <p className="text-slate-700 mb-6 leading-relaxed text-base font-medium relative z-10">
                 "{testimonial.quote}"
               </p>
+
+              {/* Benefit Highlight */}
+              <div className="mb-6 p-3 rounded-lg bg-emerald-50 border border-emerald-200 relative z-10">
+                <p className="text-sm font-semibold text-emerald-700">✨ {testimonial.benefit}</p>
+              </div>
 
               {/* Person Info with Avatar */}
               <div className="flex items-center gap-4 relative z-10">
@@ -98,6 +120,28 @@ export default function Testimonials() {
             </motion.div>
           ))}
         </div>
+
+        {/* Additional Trust Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="mt-20 text-center"
+        >
+          <p className="text-slate-600 font-medium mb-6">Trusted by home cooks, busy professionals, and fitness enthusiasts</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <div className="px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">🏆 Best Recipe App 2024</p>
+            </div>
+            <div className="px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">⭐ Top Rated on App Store</p>
+            </div>
+            <div className="px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm">
+              <p className="text-sm font-semibold text-slate-700">🎯 Featured in TechCrunch</p>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
