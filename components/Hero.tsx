@@ -52,11 +52,11 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">Your Personal AI Chef is Here</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Unlimited Recipes, Meal Plans & Shopping Lists—Personalized in Seconds</span>
+              <span className="block mb-3">Never Ask "What's for Dinner?" Again</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Your AI Chef Creates Personalized Recipes in Seconds</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Tired of asking "What's for dinner?" Our AI recipe generator creates personalized recipes based on your taste, dietary restrictions, and pantry. Get instant meal plans, smart shopping lists, nutrition tracking, and ingredient substitutions—all powered by cutting-edge AI. Transform your kitchen in minutes, not hours. Join 100,000+ users saving time and money every single day.
+              Stop wasting time on meal planning. Our AI recipe generator learns your taste, dietary needs, and pantry—then creates unlimited personalized recipes instantly. Get smart meal plans, auto-generated shopping lists, nutrition tracking, and ingredient substitutions. Save 10+ hours weekly and $1,200+ yearly. Join 100,000+ users who've transformed their kitchens.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -112,8 +112,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-2xl font-black">🚀 Get Your AI Chef Now</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • No Credit Card Required • Cancel Anytime</span>
+                <span className="text-base sm:text-2xl font-black">🚀 Start Your Free Trial</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • No Credit Card • Cancel Anytime</span>
               </span>
             </Link>
             <Link 
@@ -122,7 +122,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ See How It Works
+                ✨ Watch Demo
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -133,24 +133,24 @@ export default function Hero() {
             <div className="group flex flex-col items-center gap-4 p-7 sm:p-8 rounded-2xl bg-gradient-to-br from-emerald-500/40 to-emerald-500/15 border border-emerald-400/80 hover:border-emerald-300/90 hover:from-emerald-500/50 hover:to-emerald-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-emerald-500/40 shadow-lg shadow-emerald-500/15">
               <span className="text-5xl sm:text-6xl group-hover:scale-125 transition-transform">⏱️</span>
               <h3 className="font-black text-white text-base sm:text-lg text-center">Save 10+ Hours Weekly</h3>
-              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Meal planning done in seconds, not hours</p>
+              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">No more meal planning stress—done in seconds</p>
             </div>
             <div className="group flex flex-col items-center gap-4 p-7 sm:p-8 rounded-2xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/80 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/40 shadow-lg shadow-blue-500/15">
               <span className="text-5xl sm:text-6xl group-hover:scale-125 transition-transform">🤖</span>
-              <h3 className="font-black text-white text-base sm:text-lg text-center">AI-Powered Personalization</h3>
-              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Learns your taste & dietary needs instantly</p>
+              <h3 className="font-black text-white text-base sm:text-lg text-center">Truly Personalized</h3>
+              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Learns your taste, allergies & dietary needs</p>
             </div>
             <div className="group flex flex-col items-center gap-4 p-7 sm:p-8 rounded-2xl bg-gradient-to-br from-purple-500/40 to-purple-500/15 border border-purple-400/80 hover:border-purple-300/90 hover:from-purple-500/50 hover:to-purple-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/40 shadow-lg shadow-purple-500/15">
               <span className="text-5xl sm:text-6xl group-hover:scale-125 transition-transform">💰</span>
               <h3 className="font-black text-white text-base sm:text-lg text-center">Save $1,200+ Yearly</h3>
-              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Reduce waste & optimize grocery spending</p>
+              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Cut food waste & optimize every grocery trip</p>
             </div>
           </motion.div>
 
           {/* Urgency & Value Statement - Enhanced */}
           <motion.div variants={itemVariants} className="pt-10 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-red-500/40 to-pink-500/40 border border-red-400/80 rounded-full px-6 sm:px-10 py-4 sm:py-5 hover:from-red-500/50 hover:to-pink-500/50 transition-all shadow-lg shadow-red-500/30 animate-pulse hover:animate-none">
-              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">🎁 LIMITED TIME: 7 Days Free + $99 Premium Features • No Credit Card • Cancel Anytime • Join 100K+ Happy Users</p>
+              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">🎁 SPECIAL OFFER: 7 Days Free + Full Access to All Premium Features • No Credit Card Required • Cancel Anytime</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-lg shadow-slate-900/40">
               <p className="text-xs sm:text-sm text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
