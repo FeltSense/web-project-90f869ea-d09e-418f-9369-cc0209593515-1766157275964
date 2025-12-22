@@ -12,6 +12,7 @@ import ProductFeatures from '@/components/ProductFeatures'
 import KeyFeatures from '@/components/KeyFeatures'
 import Features from '@/components/Features'
 import ProductHighlights from '@/components/ProductHighlights'
+import KeyHighlights from '@/components/KeyHighlights'
 import Benefits from '@/components/Benefits'
 import Services from '@/components/Services'
 import Testimonials from '@/components/Testimonials'
@@ -27,6 +28,7 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <Features />
+      <KeyHighlights />
       <ProductFeaturesSection />
       <FeaturesShowcase />
       <Benefits />

@@ -52,7 +52,7 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Meal Ideas Again</span>
+              Transform Your Kitchen Into a <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Meal Ideas Again</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
               Get unlimited AI-generated recipes in seconds, customized to your dietary preferences, allergies, and pantry. Transform your kitchen into a culinary powerhouse with intelligent meal planning that saves you hours every week.
@@ -67,7 +67,7 @@ export default function Hero() {
           {/* Subheading - Key Features Showcase */}
           <motion.div variants={itemVariants}>
             <div className="space-y-6 max-w-5xl mx-auto px-2">
-              <p className="text-base sm:text-lg text-slate-300 font-semibold tracking-wide">✨ Core Features</p>
+              <p className="text-base sm:text-lg text-slate-300 font-semibold tracking-wide">⭐ What Makes Us Different</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
                 <div className="group relative px-3 sm:px-4 py-3 sm:py-3 rounded-xl bg-gradient-to-br from-blue-500/30 to-blue-500/10 border border-blue-400/50 hover:border-blue-300/80 hover:from-blue-500/40 hover:to-blue-500/20 transition-all cursor-pointer transform hover:scale-105">
                   <span className="text-xl sm:text-2xl block mb-1">🍳</span>

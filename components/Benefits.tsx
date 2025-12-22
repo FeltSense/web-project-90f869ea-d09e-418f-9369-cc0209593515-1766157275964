@@ -102,10 +102,10 @@ const Benefits: React.FC = () => {
             <span className="text-sm font-semibold text-emerald-600">✨ Why Choose Us</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-cyan-500 to-blue-500 bg-clip-text text-transparent mb-6">
-            Why 100,000+ Home Cooks Trust Us
+            Why 100,000+ Home Cooks Choose Us
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Stop wasting time on meal planning. Our AI learns what you love, what you can eat, and what's in your kitchen—then generates recipes you'll actually want to cook. Save 10+ hours weekly, cut grocery waste by 40%, and enjoy delicious meals every single night.
+            Stop wasting time on meal planning and grocery shopping. Our AI learns your preferences, dietary needs, and pantry—then generates recipes you'll love. Join thousands saving 10+ hours weekly, cutting grocery waste by 40%, and enjoying delicious, personalized meals every single night.
           </p>
         </motion.div>
 

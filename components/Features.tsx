@@ -95,10 +95,10 @@ export default function Features(): JSX.Element {
             <span className="text-sm font-semibold text-emerald-700">✨ Core Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 sm:mb-8">
-            Powerful Features Built for You
+            Powerful Features That Transform Your Cooking
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed font-medium">
-            From AI-powered recipe generation to smart meal planning, nutrition tracking, and a thriving community—everything you need to cook smarter and eat better.
+            Discover the complete toolkit for smarter meal planning. From AI-powered recipe generation to nutrition tracking, shopping lists, and community inspiration—everything you need to cook with confidence and save hours every week.
           </p>
         </motion.div>
 

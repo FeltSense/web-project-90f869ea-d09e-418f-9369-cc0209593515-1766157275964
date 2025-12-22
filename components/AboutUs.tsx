@@ -133,11 +133,11 @@ export default function AboutUs(): React.ReactElement {
             className="text-center mb-16"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-6">
-              About Our Company
+              About Our Mission
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               We are a team of innovators, creators, and problem-solvers dedicated to
-              transforming ideas into reality and making a positive impact on the world.
+              making meal planning effortless and cooking enjoyable for everyone. Our AI-powered platform combines cutting-edge technology with culinary expertise to transform how people approach food.
             </p>
           </motion.div>
 
@@ -156,7 +156,7 @@ export default function AboutUs(): React.ReactElement {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  To empower businesses and individuals by providing innovative solutions that
+                  To revolutionize how people cook and eat by combining AI-powered personalization with culinary expertise. We empower home cooks with intelligent meal planning, recipe generation, and nutrition tracking that
                   drive growth, foster creativity, and create meaningful connections in an
                   increasingly digital world. We believe in the power of technology to transform
                   lives and are committed to making our solutions accessible, reliable, and
