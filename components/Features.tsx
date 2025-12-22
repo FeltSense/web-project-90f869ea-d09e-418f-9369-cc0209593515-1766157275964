@@ -22,13 +22,13 @@ const features: Feature[] = [
     icon: <Zap className="w-8 h-8" />,
     title: '⚡ Instant Recipe Generation',
     description:
-      'Get personalized recipes in 30 seconds. Our AI analyzes your taste preferences, dietary needs, cooking skill level, and available ingredients to create recipes you\'ll love. No more scrolling through endless options.',
+      'Get personalized recipes in 30 seconds. Our AI analyzes your taste preferences, dietary needs, cooking skill level, and available ingredients to create recipes you\'ll love. Save 5+ hours weekly on meal planning.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
     title: '🛡️ Smart Meal Planning',
     description:
-      'Automatically generate balanced weekly meal plans optimized for nutrition, cost, and variety. Our AI ensures you never eat the same meal twice and always have something delicious to cook.',
+      'Automatically generate balanced weekly meal plans optimized for nutrition, cost, and variety. Our AI ensures you never eat the same meal twice and always have something delicious to cook. Cut grocery costs by 30%+.',
   },
   {
     icon: <Smartphone className="w-8 h-8" />,
@@ -40,19 +40,19 @@ const features: Feature[] = [
     icon: <TrendingUp className="w-8 h-8" />,
     title: '📊 Nutrition Tracking',
     description:
-      'Track calories, macros, and micronutrients automatically. Get insights into your eating patterns and receive personalized recommendations to meet your health goals.',
+      'Track calories, macros, and micronutrients automatically. Get insights into your eating patterns and receive personalized recommendations to meet your health goals. Achieve your fitness targets faster.',
   },
   {
     icon: <Users className="w-8 h-8" />,
     title: '👥 Community Recipes',
     description:
-      'Discover recipes from 100,000+ home cooks. Share your creations, get feedback, and find inspiration from a thriving community of food lovers.',
+      'Discover recipes from 100,000+ home cooks. Share your creations, get feedback, and find inspiration from a thriving community of food lovers. Join the fastest-growing cooking community.',
   },
   {
     icon: <Workflow className="w-8 h-8" />,
     title: '🎯 Dietary Flexibility',
     description:
-      'Support for 50+ dietary preferences including vegan, keto, paleo, gluten-free, and more. Easily customize recipes with smart ingredient substitutions.',
+      'Support for 50+ dietary preferences including vegan, keto, paleo, gluten-free, and more. Easily customize recipes with smart ingredient substitutions. Works for every lifestyle.',
   },
 ];
 
@@ -95,10 +95,10 @@ export default function Features(): JSX.Element {
             <span className="text-sm font-semibold text-emerald-700">✨ Core Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 sm:mb-8">
-            Latest Features Designed for You
+            🚀 Powerful Features That Transform Your Kitchen
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed font-medium">
-            Experience the next generation of AI-powered meal planning. Our latest features include instant recipe generation, smart meal planning, nutrition tracking, and community-driven recommendations—all designed to save you time, money, and effort in the kitchen.
+            Experience the next generation of AI-powered meal planning. Our intelligent features save you 10+ hours weekly, cut grocery costs by 30%+, and make cooking exciting again. From instant recipe generation to smart meal planning, nutrition tracking, and community-driven recommendations—all designed to save you time, money, and effort in the kitchen.
           </p>
         </motion.div>
 

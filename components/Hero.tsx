@@ -67,7 +67,7 @@ export default function Hero() {
           {/* Subheading - Key Features Showcase */}
           <motion.div variants={itemVariants}>
             <div className="space-y-6 max-w-5xl mx-auto px-2">
-              <p className="text-base sm:text-lg text-emerald-300 font-bold tracking-wide">✨ GAME-CHANGING FEATURES THAT TRANSFORM YOUR KITCHEN</p>
+              <p className="text-base sm:text-lg text-emerald-300 font-bold tracking-wide">🚀 POWERFUL FEATURES THAT SAVE TIME & MONEY</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
                 <div className="group relative px-3 sm:px-4 py-4 sm:py-4 rounded-xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/70 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🍳</span>

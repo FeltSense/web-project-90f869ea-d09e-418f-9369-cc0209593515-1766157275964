@@ -67,7 +67,7 @@ export default function Testimonials() {
             <span className="text-sm font-bold text-emerald-700">⭐ 4.9★ Rating • 25,000+ Reviews</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-6">
-            Loved by 100,000+ Home Cooks Worldwide
+            ⭐ Loved by 100,000+ Home Cooks Worldwide
           </h2>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
             Real people, real results. Discover how our AI-powered recipe generator is transforming kitchens, saving families 10+ hours weekly on meal planning, cutting grocery bills by $1,200+ annually, and making cooking exciting again.
@@ -150,16 +150,34 @@ export default function Testimonials() {
           transition={{ delay: 0.3 }}
           className="mt-20 text-center"
         >
-          <p className="text-slate-600 font-medium mb-6">Trusted by home cooks, busy professionals, and fitness enthusiasts</p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <div className="px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm">
-              <p className="text-sm font-semibold text-slate-700">🏆 Best Recipe App 2024</p>
+          <p className="text-slate-600 font-medium mb-8 text-lg">Trusted by home cooks, busy professionals, and fitness enthusiasts worldwide</p>
+          <div className="flex flex-wrap justify-center gap-4 mb-10">
+            <div className="px-6 py-3 rounded-full bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 shadow-sm hover:shadow-md transition-shadow">
+              <p className="text-sm font-semibold text-amber-700">🏆 Best Recipe App 2024</p>
             </div>
-            <div className="px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm">
-              <p className="text-sm font-semibold text-slate-700">⭐ Top Rated on App Store</p>
+            <div className="px-6 py-3 rounded-full bg-gradient-to-r from-yellow-50 to-amber-50 border border-yellow-200 shadow-sm hover:shadow-md transition-shadow">
+              <p className="text-sm font-semibold text-yellow-700">⭐ Top Rated on App Store</p>
             </div>
-            <div className="px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm">
-              <p className="text-sm font-semibold text-slate-700">🎯 Featured in TechCrunch</p>
+            <div className="px-6 py-3 rounded-full bg-gradient-to-r from-blue-50 to-cyan-50 border border-blue-200 shadow-sm hover:shadow-md transition-shadow">
+              <p className="text-sm font-semibold text-blue-700">🎯 Featured in TechCrunch</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
+            <div className="p-4 rounded-lg bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200">
+              <p className="text-2xl font-bold text-emerald-700">25K+</p>
+              <p className="text-xs text-emerald-600 mt-1 font-semibold">Verified Reviews</p>
+            </div>
+            <div className="p-4 rounded-lg bg-gradient-to-br from-blue-50 to-cyan-50 border border-blue-200">
+              <p className="text-2xl font-bold text-blue-700">4.9★</p>
+              <p className="text-xs text-blue-600 mt-1 font-semibold">Average Rating</p>
+            </div>
+            <div className="p-4 rounded-lg bg-gradient-to-br from-purple-50 to-pink-50 border border-purple-200">
+              <p className="text-2xl font-bold text-purple-700">100K+</p>
+              <p className="text-xs text-purple-600 mt-1 font-semibold">Active Users</p>
+            </div>
+            <div className="p-4 rounded-lg bg-gradient-to-br from-orange-50 to-red-50 border border-orange-200">
+              <p className="text-2xl font-bold text-orange-700">50+</p>
+              <p className="text-xs text-orange-600 mt-1 font-semibold">Diets Supported</p>
             </div>
           </div>
         </motion.div>
