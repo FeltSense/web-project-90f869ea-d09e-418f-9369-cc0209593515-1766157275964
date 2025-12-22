@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI Chef & Meal Planner</span>
+              Stop Wasting Time & Money on <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Meal Planning</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Discover the future of cooking with AI-powered recipes tailored to your taste, dietary needs, and budget. Get personalized meal plans in seconds, smart shopping lists that save you money, and never wonder "what's for dinner?" again. Join 100,000+ users saving 10+ hours weekly and cutting grocery costs by $1,200+ annually.
+              Get AI-powered recipes, personalized meal plans, and smart shopping lists in seconds. No more decision fatigue, no more food waste, no more overspending. Our AI learns your preferences and creates meals you'll actually love—saving you 10+ hours weekly and $1,200+ annually. Join 100,000+ users who've transformed their kitchen.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -110,9 +110,9 @@ export default function Hero() {
               className="group relative px-8 sm:px-28 py-6 sm:py-10 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-xl font-bold text-lg sm:text-xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-400/50 animate-pulse"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                🚀 Start Your Free Trial Now
-                <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-1 transition-transform" />
+              <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
+                <span className="text-base sm:text-lg">🚀 Get 7 Days Free</span>
+                <span className="text-xs sm:text-sm font-semibold opacity-90">No credit card required</span>
               </span>
             </Link>
             <Link 
@@ -158,12 +158,12 @@ export default function Hero() {
           {/* Urgency & Value Statement - Optimized */}
           <motion.div variants={itemVariants} className="pt-8 sm:pt-10 px-2 space-y-5">
             <div className="inline-block bg-gradient-to-r from-red-500/25 to-pink-500/25 border border-red-400/50 rounded-full px-5 sm:px-7 py-2 sm:py-3 hover:from-red-500/35 hover:to-pink-500/35 transition-all shadow-lg shadow-red-500/5 animate-pulse">
-              <p className="text-xs sm:text-sm text-red-100 font-bold">🎁 Limited Time: 7 Days Free + Premium Bonuses Worth $99</p>
+              <p className="text-xs sm:text-sm text-red-100 font-bold">🎁 Limited Time: 7 Days Free + $99 Worth of Premium Features</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/50 to-slate-700/50 border border-slate-600/40 rounded-xl p-5 sm:p-6 backdrop-blur-sm shadow-lg shadow-slate-900/30">
               <p className="text-xs sm:text-sm text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
-                <span className="block mb-2 text-sm sm:text-base font-bold text-emerald-300">✨ Everything Included:</span>
-                <span className="block text-xs sm:text-sm">🤖 AI Recipes • 📱 Mobile App • 🎯 Dietary Preferences • 🛒 Smart Shopping Lists • 💡 Smart Substitutions • 👥 Community Support</span>
+                <span className="block mb-3 text-sm sm:text-base font-bold text-emerald-300">✨ What You Get Instantly:</span>
+                <span className="block text-xs sm:text-sm leading-relaxed">🤖 Unlimited AI Recipes • 📱 Mobile App Access • 🎯 Dietary Customization • 🛒 Smart Shopping Lists • 💡 Ingredient Substitutions • 👥 Community Support • 📊 Nutrition Tracking</span>
               </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto px-2">
