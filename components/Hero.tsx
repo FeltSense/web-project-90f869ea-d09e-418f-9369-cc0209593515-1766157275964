@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI-Powered Cooking</span>
+              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Meal Ideas Again</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Discover endless recipe possibilities tailored to your taste, dietary preferences, and pantry. Get instant meal plans, smart shopping lists, nutrition insights, and creative ingredient swaps—all powered by advanced AI. Join 100,000+ home cooks who've reclaimed 10+ hours weekly and slashed grocery bills by $1,200+ annually.
+              Your personal AI chef generates unlimited recipes based on what you have, your dietary needs, and your taste preferences. Get meal plans, shopping lists, nutrition tracking, and smart ingredient swaps—all in seconds. Join 100,000+ home cooks saving 10+ hours weekly and $1,200+ annually on groceries.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -111,7 +111,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-lg">🚀 Start Cooking with AI Free</span>
+                <span className="text-base sm:text-lg">🚀 Get Your AI Chef Now</span>
                 <span className="text-xs sm:text-sm font-semibold opacity-90">7 days free • No credit card needed • Cancel anytime</span>
               </span>
             </Link>
