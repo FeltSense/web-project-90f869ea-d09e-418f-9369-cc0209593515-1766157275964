@@ -26,6 +26,7 @@ export default function Home() {
     <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      <KeyFeatures />
       <AboutUs />
       <Features />
       <KeyHighlights />

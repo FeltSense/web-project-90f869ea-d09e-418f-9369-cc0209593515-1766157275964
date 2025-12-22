@@ -107,12 +107,12 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center pt-8 sm:pt-12 px-2">
             <Link 
               href="/pricing" 
-              className="group relative px-8 sm:px-20 py-5 sm:py-8 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-xl font-bold text-base sm:text-lg transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-400/50"
+              className="group relative px-8 sm:px-24 py-6 sm:py-9 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-xl font-bold text-lg sm:text-xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/80 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-400/50 animate-pulse"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                🚀 Start Your Free Trial
-                <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
+                🚀 Start Your Free Trial Today
+                <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
             <Link 
