@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Meal Ideas Again</span>
+              Your Personal AI <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Chef & Meal Planner</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Get unlimited AI-generated recipes personalized to your taste, dietary needs, and available ingredients. Save 10+ hours weekly on meal planning, cut grocery bills by $1,200+ annually, and enjoy smarter nutrition tracking. Our intelligent AI learns your preferences, suggests perfect substitutions, and builds optimized shopping lists—all designed to make cooking effortless and enjoyable.
+              Transform your kitchen with AI-powered recipes tailored to your taste, dietary preferences, and pantry. Spend less time planning, more time enjoying delicious meals. Get personalized meal plans, smart shopping lists, nutrition tracking, and ingredient substitutions—all powered by advanced AI that learns what you love.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -111,8 +111,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-xl font-black">🚀 Start Your Free Trial Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 days free • No credit card required • Full premium access</span>
+                <span className="text-base sm:text-xl font-black">🎯 Get Started Free Today</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 days free • No credit card • Cancel anytime</span>
               </span>
             </Link>
             <Link 
@@ -121,7 +121,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-pink-700 to-rose-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ See What's Possible
+                💡 Explore Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -130,7 +130,7 @@ export default function Hero() {
               className="group px-8 sm:px-16 py-5 sm:py-8 border-2 border-cyan-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-cyan-500/20 hover:border-cyan-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-2"
             >
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ❓ Learn More
+                📖 How It Works
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
