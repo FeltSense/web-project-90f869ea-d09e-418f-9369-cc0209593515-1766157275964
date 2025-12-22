@@ -111,17 +111,17 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                🚀 Get Started Free Today
+                🚀 Start Your Free Trial Now
                 <ArrowRight className="w-6 sm:w-7 h-6 sm:h-7 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
             <Link 
-              href="#pricing" 
+              href="#features" 
               className="group relative px-8 sm:px-16 py-5 sm:py-7 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-xl font-bold text-base sm:text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-blue-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-blue-400/50"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                💎 View Premium Plans
+                ✨ Explore Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -130,7 +130,7 @@ export default function Hero() {
               className="group px-8 sm:px-16 py-5 sm:py-7 border-2 border-cyan-400/60 text-white rounded-xl font-semibold text-base sm:text-lg hover:bg-cyan-500/20 hover:border-cyan-300 transition-all backdrop-blur-sm hover:scale-105 transform active:scale-95 flex items-center justify-center gap-2"
             >
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                📚 Learn More
+                ❓ Have Questions?
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
