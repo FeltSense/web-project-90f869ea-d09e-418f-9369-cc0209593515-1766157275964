@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
+import AboutUs from '@/components/AboutUs'
 import ProductFeaturesSection from '@/components/ProductFeaturesSection'
 import FeaturesShowcase from '@/components/FeaturesShowcase'
 import PremiumKeyFeatures from '@/components/PremiumKeyFeatures'
@@ -24,6 +25,7 @@ export default function Home() {
     <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      <AboutUs />
       <Features />
       <ProductFeaturesSection />
       <FeaturesShowcase />
