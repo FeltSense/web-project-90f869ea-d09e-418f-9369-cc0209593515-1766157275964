@@ -52,11 +52,11 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">Transform Your Kitchen with AI</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Personalized Recipes in Seconds, Not Hours</span>
+              <span className="block mb-3">Cook Smarter, Eat Better, Live Healthier</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">AI-Powered Recipes That Adapt to Your Life</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time on meal planning. Our AI chef learns your preferences and creates custom recipes tailored to your taste, dietary needs, and what you have on hand. Cook smarter, eat healthier, save money—every single day.
+              Discover recipes that match your taste, dietary preferences, and available ingredients. Our intelligent AI chef creates personalized meal plans, generates shopping lists, and adapts to your lifestyle—all in seconds.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -112,17 +112,17 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-2xl font-black">🚀 Start Your Free Trial Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • No Credit Card Required • Cancel Anytime</span>
+                <span className="text-base sm:text-2xl font-black">🎯 Get Started Free Today</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • No Credit Card • Full Access</span>
               </span>
             </Link>
             <Link 
               href="#beta-signup" 
-              className="group relative px-8 sm:px-24 py-6 sm:py-10 bg-gradient-to-r from-pink-600 to-rose-600 text-white rounded-2xl font-bold text-base sm:text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-pink-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-pink-400/50"
+              className="group relative px-8 sm:px-24 py-6 sm:py-10 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-2xl font-bold text-base sm:text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-blue-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-blue-400/50"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-pink-700 to-rose-700 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ Watch Demo
+                📺 See It In Action
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
