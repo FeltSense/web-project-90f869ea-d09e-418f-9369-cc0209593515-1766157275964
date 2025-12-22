@@ -52,7 +52,7 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI-Powered Cooking</span>
+              Your Personal AI Chef is Ready to <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Transform Your Kitchen</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
               Discover personalized recipes tailored to your taste in seconds. Save 10+ hours weekly on meal planning, cut grocery bills by $1,200+ annually, and enjoy smarter nutrition tracking. Our intelligent AI learns your preferences, suggests perfect substitutions, and builds optimized shopping lists—all designed to make cooking effortless and enjoyable.

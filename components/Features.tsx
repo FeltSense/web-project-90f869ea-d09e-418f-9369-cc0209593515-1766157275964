@@ -22,13 +22,13 @@ const features: Feature[] = [
     icon: <Zap className="w-8 h-8" />,
     title: '⚡ Instant Recipe Generation',
     description:
-      'Get personalized recipes in 30 seconds. Our AI analyzes your taste preferences, dietary needs, cooking skill level, and available ingredients to create recipes you\'ll love. Save 5+ hours weekly on meal planning.',
+      'Get personalized recipes in 30 seconds. Our AI analyzes your taste preferences, dietary needs, cooking skill level, and available ingredients to create recipes you\'ll love. Save 10+ hours weekly on meal planning and never run out of ideas.',
   },
   {
     icon: <Shield className="w-8 h-8" />,
     title: '🛡️ Smart Meal Planning',
     description:
-      'Automatically generate balanced weekly meal plans optimized for nutrition, cost, and variety. Our AI ensures you never eat the same meal twice and always have something delicious to cook. Cut grocery costs by 30%+.',
+      'Automatically generate balanced weekly meal plans optimized for nutrition, cost, and variety. Our AI ensures you never eat the same meal twice and always have something delicious to cook. Cut grocery costs by $1,200+ annually with intelligent shopping optimization.',
   },
   {
     icon: <Smartphone className="w-8 h-8" />,
@@ -40,7 +40,7 @@ const features: Feature[] = [
     icon: <TrendingUp className="w-8 h-8" />,
     title: '📊 Nutrition Tracking',
     description:
-      'Track calories, macros, and micronutrients automatically. Get insights into your eating patterns and receive personalized recommendations to meet your health goals. Achieve your fitness targets faster.',
+      'Track calories, macros, and micronutrients automatically with AI-powered insights. Get detailed analysis of your eating patterns and receive personalized recommendations to meet your health goals. Achieve your fitness targets 3x faster with data-driven guidance.',
   },
   {
     icon: <Users className="w-8 h-8" />,
@@ -98,7 +98,7 @@ export default function Features(): JSX.Element {
             🚀 Powerful Features That Transform Your Kitchen
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed font-medium">
-            Experience the next generation of AI-powered meal planning. Our intelligent features save you 10+ hours weekly, cut grocery costs by 30%+, and make cooking exciting again. From instant recipe generation to smart meal planning, nutrition tracking, and community-driven recommendations—all designed to save you time, money, and effort in the kitchen.
+            Experience the next generation of AI-powered meal planning. Our intelligent features save you 10+ hours weekly, cut grocery costs by $1,200+ annually, and make cooking exciting again. From instant recipe generation to smart meal planning, nutrition tracking, and community-driven recommendations—all designed to save you time, money, and effort in the kitchen.
           </p>
         </motion.div>
 
