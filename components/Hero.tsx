@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Your AI-Powered <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Kitchen Companion</span> Awaits
+              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI-Powered Cooking</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Meet your AI-powered kitchen companion. Get personalized recipes in seconds, save 10+ hours weekly on meal planning, and cut your grocery bills by $1,200+ per year. Our intelligent system learns your taste, suggests smart substitutions, and builds optimized shopping lists—all while keeping nutrition on track.
+              Discover personalized recipes tailored to your taste in seconds. Save 10+ hours weekly on meal planning, cut grocery bills by $1,200+ annually, and enjoy smarter nutrition tracking. Our intelligent AI learns your preferences, suggests perfect substitutions, and builds optimized shopping lists—all designed to make cooking effortless and enjoyable.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -111,8 +111,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-xl font-black">🚀 Start Your Free Trial Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 days free • No credit card • Full access</span>
+                <span className="text-base sm:text-xl font-black">🚀 Unlock Your AI Kitchen Now</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 days free • No credit card required • Full premium access</span>
               </span>
             </Link>
             <Link 
@@ -121,7 +121,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-pink-700 to-rose-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ Unlock Premium Features
+                ✨ Join 100K+ Happy Cooks
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
