@@ -102,10 +102,10 @@ const Benefits: React.FC = () => {
             <span className="text-sm font-semibold text-emerald-600">✨ Why Choose Us</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-cyan-500 to-blue-500 bg-clip-text text-transparent mb-6">
-            Why 100,000+ Home Cooks Choose Us
+            Why 100,000+ Home Cooks Trust Our AI Chef
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Stop wasting time on meal planning and grocery shopping. Our AI learns your preferences, dietary needs, and pantry—then generates recipes you'll love. Join thousands saving 10+ hours weekly, cutting grocery waste by 40%, and enjoying delicious, personalized meals every single night.
+            Transform your kitchen with AI that learns your taste. Our intelligent system generates unlimited personalized recipes, creates optimized meal plans, and automates shopping lists—saving you 10+ hours weekly and $1,200+ yearly. Join thousands of home cooks who've reclaimed their time and discovered their love for cooking.
           </p>
         </motion.div>
 
@@ -152,10 +152,10 @@ const Benefits: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-slate-600 mb-6 text-lg font-semibold">
-            Join thousands of home cooks saving 10+ hours weekly
+            Join 100,000+ home cooks who've transformed their kitchen experience
           </p>
           <button className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-semibold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-lg">
-            🚀 Start Your Free Trial
+            🚀 Get Started Free Today
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>

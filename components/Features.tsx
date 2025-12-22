@@ -95,10 +95,10 @@ export default function Features(): JSX.Element {
             <span className="text-sm font-semibold text-emerald-700">✨ Core Features</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 sm:mb-8">
-            Powerful Features That Transform Your Cooking
+            Latest Features Designed for You
           </h2>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed font-medium">
-            Discover the complete toolkit for smarter meal planning. From AI-powered recipe generation to nutrition tracking, shopping lists, and community inspiration—everything you need to cook with confidence and save hours every week.
+            Experience the next generation of AI-powered meal planning. Our latest features include instant recipe generation, smart meal planning, nutrition tracking, and community-driven recommendations—all designed to save you time, money, and effort in the kitchen.
           </p>
         </motion.div>
 

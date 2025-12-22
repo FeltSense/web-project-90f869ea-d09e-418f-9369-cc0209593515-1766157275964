@@ -220,10 +220,10 @@ export default function KeyCapabilitiesSection(): JSX.Element {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-emerald-600 via-cyan-600 to-blue-600 bg-clip-text text-transparent">
-            Powerful Features Built for You
+            Powerful Features Built for Modern Cooks
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Everything you need to transform your kitchen, save time, and eat healthier with AI-powered meal planning and personalized recipes.
+            Discover our latest AI-powered features designed to streamline your meal planning, save you time and money, and help you cook with confidence every single day.
           </p>
         </motion.div>
 
@@ -331,10 +331,10 @@ export default function KeyCapabilitiesSection(): JSX.Element {
         >
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-              Ready to Transform Your Kitchen?
+              Ready to Get Started?
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-              Join 100,000+ home cooks already saving 10+ hours weekly and cutting grocery costs by $1,200+ annually with our AI-powered meal planning.
+              Join 100,000+ home cooks who've transformed their kitchen experience with our AI-powered meal planning. Save 10+ hours weekly and cut grocery costs by $1,200+ annually.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
