@@ -52,10 +52,10 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              Cook Smarter, Eat Better with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">AI-Powered Recipes</span>
+              Never Run Out of <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500">Meal Ideas Again</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 mt-6 sm:mt-8 px-2 font-medium max-w-4xl mx-auto leading-relaxed">
-              Discover personalized recipes tailored to your taste, dietary needs, and available ingredients. Join 100,000+ home cooks saving time, money, and enjoying delicious meals every single day.
+              Get unlimited AI-generated recipes in seconds, customized to your dietary preferences, allergies, and pantry. Transform your kitchen into a culinary powerhouse with intelligent meal planning that saves you hours every week.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -111,7 +111,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                🚀 Start Your Free Trial
+                🚀 Get Started Free Today
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -121,7 +121,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                💡 Discover Our Story
+                ✨ See How It Works
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
