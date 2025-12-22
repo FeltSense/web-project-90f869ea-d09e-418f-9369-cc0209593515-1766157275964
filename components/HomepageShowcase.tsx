@@ -18,11 +18,11 @@ const featureCards: FeatureCard[] = [
   {
     id: 1,
     title: 'AI Recipe Generation',
-    description: 'Discover personalized recipes tailored to your dietary preferences and available ingredients.',
+    description: 'Our advanced AI recipe generator creates unlimited personalized recipes in seconds. Get instant meal ideas tailored to your dietary preferences, available ingredients, and taste preferences. Never run out of meal ideas again.',
     icon: '🍳',
     image: '/images/recipe-generation.jpg',
     gradient: 'from-orange-400 to-red-500',
-    benefits: ['Instant Recipe Creation', 'Ingredient Matching', 'Dietary Customization'],
+    benefits: ['Instant AI-Generated Recipes', 'Smart Ingredient Matching', 'Dietary Customization'],
   },
   {
     id: 2,
@@ -56,10 +56,10 @@ const HomepageShowcase: React.FC = () => {
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 mb-4">
-            Discover Your Culinary Intelligence
+            Powered by Our AI Recipe Generator
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Harness the power of AI to transform your cooking experience with intelligent recipe generation, smart meal planning, and comprehensive nutrition tracking.
+            Experience the future of cooking with our advanced AI recipe generator. Create personalized recipes instantly, plan meals effortlessly, and track nutrition automatically—all powered by cutting-edge artificial intelligence.
           </p>
         </div>
 
@@ -124,13 +124,13 @@ const HomepageShowcase: React.FC = () => {
 
         <div className="mt-16 text-center">
           <p className="text-gray-600 mb-6">
-            Ready to revolutionize your kitchen?
+            Ready to try our AI recipe generator?
           </p>
           <Link
-            href="/get-started"
+            href="/pricing"
             className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105"
           >
-            Get Started Free
+            🤖 Try AI Recipe Generator Free
           </Link>
         </div>
       </div>
