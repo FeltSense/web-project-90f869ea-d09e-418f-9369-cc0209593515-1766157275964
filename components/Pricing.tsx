@@ -10,6 +10,12 @@ const features = [
   'Access to 50+ dietary preferences',
   'Mobile app with offline access',
   'Priority 24/7 customer support',
+  'Smart ingredient substitutions',
+  'Family meal planning for up to 6 people',
+  'Allergy & intolerance management',
+  'Budget-friendly meal suggestions',
+  'Recipe scaling for any serving size',
+  'Export to PDF & print recipes',
 ];
 
 export default function Pricing() {
@@ -26,10 +32,10 @@ export default function Pricing() {
             <span className="text-sm font-semibold text-emerald-600">💰 Simple, Transparent Pricing</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-4">
-            Start Cooking Better Today
+            Affordable Plans for Every Home Cook
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            Join 100,000+ home cooks saving 10+ hours weekly. 7-day free trial, no credit card required. Cancel anytime.
+            Join 100,000+ home cooks saving 10+ hours weekly and $1,200+ annually. 7-day free trial, no credit card required. Cancel anytime, no questions asked.
           </p>
         </motion.div>
 
@@ -61,13 +67,13 @@ export default function Pricing() {
 
             <button
               onClick={() => window.location.href = 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00'}
-              className="w-full bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white font-semibold rounded-xl px-8 py-4 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 transform"
+              className="w-full bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white font-semibold rounded-xl px-8 py-4 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 transform active:scale-95"
             >
-              🚀 Start Free Trial (7 Days)
+              🚀 Start Your Free Trial Now
             </button>
 
             <p className="text-center text-sm text-slate-500 mt-6">
-              No credit card required • Cancel anytime • Then $9.99/month
+              ✓ No credit card required • ✓ Cancel anytime • ✓ Then $9.99/month
             </p>
           </div>
         </motion.div>
