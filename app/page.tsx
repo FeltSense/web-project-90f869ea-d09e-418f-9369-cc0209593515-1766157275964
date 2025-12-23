@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
+import HeroKeyFeaturesSection from '@/components/HeroKeyFeaturesSection'
 import FeaturesSection from '@/components/FeaturesSection'
 import NewProductFeaturesSection from '@/components/NewProductFeaturesSection'
 import AdvancedFeaturesSection from '@/components/AdvancedFeaturesSection'
@@ -42,6 +43,9 @@ export default function Home() {
     <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      
+      {/* Key Features Highlight - Main Product Features */}
+      <HeroKeyFeaturesSection />
       
       {/* Latest Features Section - New AI Capabilities */}
       <LatestFeaturesSection />

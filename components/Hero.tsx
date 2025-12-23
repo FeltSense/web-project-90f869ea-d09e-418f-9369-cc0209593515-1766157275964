@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Cooking Smarter Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Access • No Credit Card</span>
+                <span className="text-base sm:text-3xl font-black">🚀 Get Your Free 7-Day Trial Now</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">⚡ Limited Time • Full Premium Access • No Credit Card Required</span>
               </span>
             </Link>
             <Link 
@@ -126,7 +126,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ Explore Features
+                ✨ See All Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
