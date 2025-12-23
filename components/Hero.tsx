@@ -53,10 +53,10 @@ export default function Hero() {
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
               <span className="block mb-3">Transform Your Kitchen with AI-Powered Cooking</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Smart Recipes • Personalized Meal Plans • Instant Inspiration</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">AI-Powered Recipes • Smart Meal Planning • Personalized Nutrition</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Stop scrolling through endless recipes. Get AI-generated meal ideas tailored to your taste, budget, and dietary needs in seconds. Our intelligent chef learns what you love and creates personalized meal plans, shopping lists, and nutrition insights—all in one place. Join 100,000+ home cooks who've transformed their kitchens.
+              Discover the future of home cooking. Get AI-generated recipes tailored to your taste, budget, and dietary preferences in seconds. Our intelligent system learns your preferences and creates personalized meal plans, smart shopping lists, and detailed nutrition insights—all in one powerful platform. Join 100,000+ home cooks who've revolutionized their kitchens.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -112,7 +112,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🎯 Get Started Free Today</span>
+                <span className="text-base sm:text-3xl font-black">🚀 Start Your Free Trial Now</span>
                 <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Full Access • No Credit Card Required • Cancel Anytime</span>
               </span>
             </Link>
@@ -122,7 +122,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ Explore Features
+                💡 Learn More
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
