@@ -51,16 +51,26 @@ const schemaData = {
   'description': 'AI-powered personalized recipes, meal plans, and nutrition tracking',
   'url': 'https://hellomylove.com',
   'applicationCategory': 'UtilitiesApplication',
-  'offers': {
-    '@type': 'Offer',
-    'price': '0',
-    'priceCurrency': 'USD',
-    'description': '7-day free trial'
-  },
+  'operatingSystem': 'Web',
+  'offers': [
+    {
+      '@type': 'Offer',
+      'price': '0',
+      'priceCurrency': 'USD',
+      'description': '7-day free trial',
+      'availability': 'https://schema.org/InStock'
+    }
+  ],
   'aggregateRating': {
     '@type': 'AggregateRating',
     'ratingValue': '4.8',
-    'ratingCount': '2500'
+    'ratingCount': '2500',
+    'bestRating': '5',
+    'worstRating': '1'
+  },
+  'author': {
+    '@type': 'Organization',
+    'name': 'Hello My Love'
   }
 }
 
