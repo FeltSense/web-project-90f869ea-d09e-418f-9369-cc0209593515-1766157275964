@@ -17,56 +17,56 @@ const CoreProductFeatures: React.FC = () => {
       id: 1,
       icon: <ChefHat className="w-8 h-8" />,
       title: 'AI-Powered Recipe Generation',
-      description: 'Leverage advanced machine learning to generate unique, personalized recipes tailored to your taste preferences and dietary needs.',
+      description: 'Our AI learns your taste, dietary needs, and kitchen inventory to generate unlimited unique recipes in seconds. Say goodbye to boring meals forever.',
       benefits: ['Custom recipe creation', 'Flavor profile matching', 'Ingredient optimization']
     },
     {
       id: 2,
       icon: <Sparkles className="w-8 h-8" />,
       title: 'Smart Ingredient Suggestions',
-      description: 'Get intelligent recommendations for substitutions and alternatives based on what you have available in your kitchen.',
+      description: 'Never waste ingredients again. Get smart substitutions that work with what you have, reducing waste and saving money.',
       benefits: ['Reduce food waste', 'Budget-friendly options', 'Dietary accommodations']
     },
     {
       id: 3,
       icon: <Clock className="w-8 h-8" />,
       title: 'Quick Meal Planning',
-      description: 'Create complete meal plans in minutes with recipes organized by prep time, cooking difficulty, and nutritional balance.',
+      description: 'Plan your entire week in minutes. Get balanced, delicious meals organized by prep time and difficulty level.',
       benefits: ['Save planning time', 'Balanced nutrition', 'Difficulty filters']
     },
     {
       id: 4,
       icon: <Leaf className="w-8 h-8" />,
       title: 'Dietary Preference Support',
-      description: 'Support for vegan, keto, gluten-free, paleo, and countless other dietary preferences and restrictions.',
+      description: 'Support for 50+ diets including vegan, keto, paleo, gluten-free, and more. Your dietary needs, perfectly accommodated.',
       benefits: ['Multiple diet types', 'Allergy filtering', 'Macro tracking']
     },
     {
       id: 5,
       icon: <Users className="w-8 h-8" />,
       title: 'Community & Sharing',
-      description: 'Share your favorite generated recipes with friends, rate recipes, and discover trending creations from the community.',
+      description: 'Share your wins with 100K+ food lovers. Discover trending recipes, get inspired, and build your culinary network.',
       benefits: ['Social sharing', 'Recipe ratings', 'Trending discoveries']
     },
     {
       id: 6,
       icon: <Zap className="w-8 h-8" />,
       title: 'Instant Nutritional Analysis',
-      description: 'Get detailed nutritional information, calorie counts, and macro breakdowns for every generated recipe automatically.',
+      description: 'Every recipe comes with complete nutrition data. Track calories, macros, and nutrients automatically—no manual entry needed.',
       benefits: ['Complete nutrition data', 'Calorie tracking', 'Macro insights']
     },
     {
       id: 7,
       icon: <BookOpen className="w-8 h-8" />,
       title: 'Interactive Cooking Guides',
-      description: 'Step-by-step instructions with tips, timing guides, and techniques to help you cook like a professional chef.',
+      description: 'Follow easy step-by-step guides with pro tips and timing. Cook restaurant-quality meals at home, every time.',
       benefits: ['Visual guides', 'Expert tips', 'Timing assistance']
     },
     {
       id: 8,
       icon: <TrendingUp className="w-8 h-8" />,
       title: 'Personalized Learning',
-      description: 'Machine learning algorithms learn your preferences over time and improve recipe suggestions with every use.',
+      description: 'The more you use it, the smarter it gets. Our AI learns your taste and improves recommendations with every recipe.',
       benefits: ['Improved accuracy', 'Personal taste profile', 'Smart evolution']
     }
   ];
