@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Never Run Out of Meal Ideas Again</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">AI-Powered Recipes Tailored to You</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your Personal AI Chef</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Unlimited Recipes, Zero Meal Planning Stress</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              <strong>Transform your kitchen with intelligent meal planning.</strong> Our advanced AI learns your taste preferences, dietary restrictions, and available ingredients to generate personalized, restaurant-quality recipes in seconds. Save 10+ hours weekly on meal planning, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and enjoy meals your whole family loves. Join 100K+ users who've already transformed their cooking experience. 🚀
+              <strong>Stop wasting time on meal planning. Start cooking with confidence.</strong> Our advanced AI learns your taste preferences, dietary restrictions, and available ingredients to generate personalized, restaurant-quality recipes in seconds. Save 10+ hours weekly on meal planning, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and enjoy meals your whole family loves. Join 100K+ users who've already transformed their cooking experience. 🚀
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>

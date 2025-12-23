@@ -105,7 +105,7 @@ const Benefits: React.FC = () => {
             Why 100,000+ Home Cooks Trust Our AI Chef
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Transform your kitchen with AI that learns your taste. Our intelligent system generates unlimited personalized recipes, creates optimized meal plans, and automates shopping lists—saving you 10+ hours weekly and $1,200+ yearly. Join thousands of home cooks who've reclaimed their time and discovered their love for cooking.
+            Stop spending hours on meal planning. Our intelligent AI learns your taste preferences and generates unlimited personalized recipes in seconds. Save 10+ hours weekly, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and enjoy meals your whole family loves. Get personalized meal plans, smart shopping lists, nutrition tracking, and dietary customization—all powered by advanced AI. Join thousands of home cooks who've reclaimed their time and discovered their love for cooking.
           </p>
         </motion.div>
 

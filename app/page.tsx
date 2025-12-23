@@ -35,6 +35,7 @@ import ProductFeaturesHighlight from '@/components/ProductFeaturesHighlight'
 import PremiumFeaturesSection from '@/components/PremiumFeaturesSection'
 import LatestFeaturesSection from '@/components/LatestFeaturesSection'
 import OptimizedFeaturesSection from '@/components/OptimizedFeaturesSection'
+import CustomerSuccessStories from '@/components/CustomerSuccessStories'
 
 export default function Home() {
   return (
@@ -56,14 +57,17 @@ export default function Home() {
         <PremiumFeaturesSection />
       </div>
       
+      {/* Testimonials Section - Moved Higher for Social Proof */}
+      <Testimonials />
+      
+      {/* Customer Success Stories - Showcase Real Results */}
+      <CustomerSuccessStories />
+      
       {/* Key Features Section - Highlighted Early */}
       <ProductFeaturesHighlight />
       <KeyProductFeaturesShowcase />
       <NewProductFeaturesSection />
       <AdvancedFeaturesSection />
-      
-      {/* Testimonials Section - Moved Higher for Social Proof */}
-      <Testimonials />
       
       {/* Additional Features & Content */}
       <SampleRecipes />
