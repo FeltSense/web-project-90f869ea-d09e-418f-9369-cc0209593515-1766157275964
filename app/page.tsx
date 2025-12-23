@@ -2,6 +2,8 @@
 
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
+
+import HeroKeyFeaturesHighlight from '@/components/HeroKeyFeaturesHighlight'
 import CoreProductFeatures from '@/components/CoreProductFeatures'
 import Benefits from '@/components/Benefits'
 import PremiumFeaturesSection from '@/components/PremiumFeaturesSection'
@@ -19,6 +21,9 @@ export default function Home() {
       <Navigation />
       
       <Hero />
+
+      
+      <HeroKeyFeaturesHighlight />
       
       <CoreProductFeatures />
       
