@@ -31,12 +31,18 @@ import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import SampleRecipes from '@/components/SampleRecipes'
 import ProductFeaturesHighlight from '@/components/ProductFeaturesHighlight'
+import PremiumFeaturesSection from '@/components/PremiumFeaturesSection'
 
 export default function Home() {
   return (
     <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      
+      {/* Premium Key Features Section - Main Feature Highlight */}
+      <div id="premium-features">
+        <PremiumFeaturesSection />
+      </div>
       
       {/* Key Features Section - Highlighted Early */}
       <ProductFeaturesHighlight />
