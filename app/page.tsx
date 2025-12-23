@@ -30,12 +30,14 @@ import FAQ from '@/components/FAQ'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import SampleRecipes from '@/components/SampleRecipes'
+import ProductFeaturesHighlight from '@/components/ProductFeaturesHighlight'
 
 export default function Home() {
   return (
     <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      <ProductFeaturesHighlight />
       <KeyProductFeaturesShowcase />
 
       <NewProductFeaturesSection />

@@ -52,11 +52,11 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">Your Personal AI Chef, Ready Now</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Unlimited Recipes • Zero Meal Planning Stress • Eat Healthier & Save Money</span>
+              <span className="block mb-3">Transform Your Kitchen with AI</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Smart Recipes • Personalized Meal Plans • Instant Nutrition Insights</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Tired of asking "What's for dinner?" Let our AI do the thinking. Get personalized recipes tailored to your taste, dietary needs, and what's in your pantry. Enjoy smart meal plans, instant shopping lists, complete nutrition insights, and intelligent ingredient swaps—all powered by AI. Save 10+ hours weekly, cut food waste by 40%, and join 100,000+ home cooks who've reclaimed their kitchen joy.
+              Stop wasting time on meal planning. Our AI-powered platform generates personalized recipes based on your preferences, dietary restrictions, and available ingredients. Get instant shopping lists, complete nutrition tracking, and smart ingredient substitutions. Join thousands of home cooks who've transformed their kitchen experience and saved thousands of dollars annually.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
