@@ -30,10 +30,10 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="flex flex-col gap-6">
             <Link href="/" className="text-2xl font-bold text-white tracking-tight group">
-              <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent group-hover:from-cyan-400 group-hover:to-emerald-400 transition-all duration-300">🍳 Hello My Love</span>
+              <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent group-hover:from-cyan-400 group-hover:to-emerald-400 transition-all duration-300">🍳 RecipeAI</span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              Nourish your body. Elevate your health. Love every bite.
+              Transform your kitchen with AI-powered recipes. Personalized meal planning, smart nutrition tracking, and endless culinary inspiration.
             </p>
             <div className="flex gap-4 pt-2">
               {socialLinks.map((social) => (
@@ -96,7 +96,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-slate-800 pt-8">
           <p className="text-slate-500 text-sm text-center">
-            &copy; {new Date().getFullYear()} Hello My Love. All rights reserved.
+            &copy; {new Date().getFullYear()} RecipeAI. All rights reserved.
           </p>
         </div>
       </div>
