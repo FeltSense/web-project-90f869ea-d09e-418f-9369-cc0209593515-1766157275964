@@ -112,17 +112,17 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Cooking with AI Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Premium Access • No Credit Card • Cancel Anytime</span>
+                <span className="text-base sm:text-3xl font-black">🚀 Start Your Free Trial Now</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Premium Access • No Credit Card Required</span>
               </span>
             </Link>
             <Link 
-              href="#pricing" 
+              href="#features" 
               className="group relative px-8 sm:px-32 py-6 sm:py-14 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-2xl font-bold text-base sm:text-xl transition-all transform hover:scale-105 shadow-xl hover:shadow-blue-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-blue-400/50"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                💡 Learn More
+                ✨ Explore Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>

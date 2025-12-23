@@ -81,15 +81,19 @@ const NewProductFeaturesSection: React.FC = () => {
   ];
 
   return (
-    <section className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <section id="features" className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
+          <div className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-400/50 backdrop-blur-md mb-6">
+            <Sparkles className="w-4 h-4 text-purple-300" />
+            <span className="text-xs sm:text-sm font-bold text-purple-100">✨ NEW FEATURES • POWERFUL CAPABILITIES</span>
+          </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
             Powerful Features for
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent"> Modern Cooking</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">
-            Everything you need to revolutionize your meal preparation and nutrition journey
+            Everything you need to revolutionize your meal preparation and nutrition journey. Transform how you cook with AI-powered intelligence.
           </p>
         </div>
 
@@ -129,14 +133,20 @@ const NewProductFeaturesSection: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-gray-400 text-sm mb-6">
+        <div className="mt-16 text-center space-y-6">
+          <p className="text-gray-400 text-sm">
             All features available with free and premium plans
           </p>
-          <button className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105">
-            Start Your Free Trial
-            <span className="ml-2">→</span>
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/pricing" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105 border border-purple-400/50">
+              🚀 Start Your Free Trial
+              <span className="ml-2">→</span>
+            </a>
+            <a href="#pricing" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-slate-700 to-slate-600 text-white font-semibold rounded-lg hover:shadow-2xl hover:shadow-slate-500/50 transition-all duration-300 transform hover:scale-105 border border-slate-500/50">
+              💡 View Pricing Plans
+              <span className="ml-2">→</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
