@@ -18,31 +18,24 @@ export default function Home() {
     <main className="overflow-hidden bg-white">
       <Navigation />
       
-      {/* Hero Section - Compelling Introduction */}
       <Hero />
       
-      {/* Core Product Features - Key Capabilities */}
       <CoreProductFeatures />
       
-      {/* Benefits Section - Why Choose Us */}
       <Benefits />
       
-      {/* Premium Features - Main Feature Highlight */}
       <div id="premium-features">
         <PremiumFeaturesSection />
       </div>
       
-      {/* Social Proof - Testimonials & Success Stories */}
       <Testimonials />
       <CustomerSuccessStories />
       
-      {/* Pricing & Conversion */}
       <div id="beta-signup">
         <BetaSignup />
       </div>
       <Pricing />
       
-      {/* Additional Resources */}
       <FAQ />
       <ContactForm />
       <Footer />
