@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
+import FeaturesSection from '@/components/FeaturesSection'
 import NewProductFeaturesSection from '@/components/NewProductFeaturesSection'
 import AdvancedFeaturesSection from '@/components/AdvancedFeaturesSection'
 import KeyProductFeaturesShowcase from '@/components/KeyProductFeaturesShowcase'
@@ -38,6 +39,9 @@ export default function Home() {
     <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      
+      {/* Main Features Section - Comprehensive Feature Overview */}
+      <FeaturesSection />
       
       {/* Premium Key Features Section - Main Feature Highlight */}
       <div id="premium-features">

@@ -13,9 +13,9 @@ const headingFont = Plus_Jakarta_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Hello My Love - Food & Health Tech Innovation',
-  description: 'Transform your health and wellness journey with cutting-edge food and health technology solutions. Trusted by thousands globally.',
-  keywords: ['health tech', 'food technology', 'wellness', 'nutrition', 'health innovation'],
+  title: 'Hello My Love - AI Recipe Generator & Meal Planning App',
+  description: 'Transform your kitchen with AI-powered personalized recipes, meal plans, and nutrition tracking. Save 10+ hours weekly, cut food waste by 40%, and enjoy restaurant-quality meals at home. Join 100,000+ users with our 7-day free trial.',
+  keywords: ['AI recipe generator', 'meal planning app', 'personalized recipes', 'nutrition tracking', 'smart shopping lists', 'food technology', 'health tech', 'wellness', 'diet planning', 'cooking app'],
   authors: [{ name: 'Hello My Love' }],
   creator: 'Hello My Love',
   publisher: 'Hello My Love',
@@ -25,21 +25,21 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://hellomylove.com',
     siteName: 'Hello My Love',
-    title: 'Hello My Love - Food & Health Tech Innovation',
-    description: 'Transform your health and wellness journey with cutting-edge food and health technology solutions.',
+    title: 'Hello My Love - AI Recipe Generator & Meal Planning',
+    description: 'AI-powered personalized recipes, meal plans, and nutrition tracking. Save 10+ hours weekly and cut food waste by 40%. Join 100,000+ users. 7-day free trial.',
     images: [
       {
         url: 'https://hellomylove.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Hello My Love - Food & Health Tech',
+        alt: 'Hello My Love - AI Recipe Generator & Meal Planning App',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hello My Love - Food & Health Tech Innovation',
-    description: 'Transform your health and wellness journey with cutting-edge food and health technology solutions.',
+    title: 'Hello My Love - AI Recipe Generator & Meal Planning',
+    description: 'Transform your kitchen with AI-powered personalized recipes. Save time, money, and reduce food waste. 7-day free trial.',
     creator: '@hellomylove',
   },
 }
