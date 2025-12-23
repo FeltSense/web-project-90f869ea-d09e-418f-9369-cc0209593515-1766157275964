@@ -53,7 +53,7 @@ export default function Hero() {
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
               <span className="block mb-3">🍽️ Transform Your Kitchen with AI-Powered Cooking</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Never Waste Time on Meal Planning Again • Personalized Recipes in Seconds • Restaurant-Quality Meals at Home</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Personalized Recipes • Smart Meal Plans • Nutrition Tracking • Instant Shopping Lists</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
               🎯 <strong>Stop wasting time on meal planning. Start cooking with confidence.</strong> Our AI-powered recipe generator learns your taste preferences, dietary restrictions, and available ingredients to create personalized recipes in seconds. Get unlimited meal plans, smart shopping lists, nutrition tracking, and smart substitutions—all powered by cutting-edge AI. 🚀 Join 100,000+ home cooks who are saving 10+ hours weekly, cutting food waste by 40%, reducing grocery bills by $1,200+ annually, and enjoying restaurant-quality meals at home. ✨
@@ -65,40 +65,43 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Subheading - Key Features Showcase */}
+          {/* Subheading - Key Features Showcase - ENHANCED */}
           <motion.div variants={itemVariants}>
-            <div className="space-y-8 max-w-5xl mx-auto px-2">
-              <p className="text-base sm:text-lg text-emerald-300 font-black tracking-widest uppercase">✨ Powerful Features That Transform Your Cooking</p>
+            <div className="space-y-8 max-w-6xl mx-auto px-2">
+              <div className="text-center space-y-3">
+                <p className="text-base sm:text-lg text-emerald-300 font-black tracking-widest uppercase">✨ Powerful Features That Transform Your Cooking</p>
+                <p className="text-sm sm:text-base text-slate-300 font-semibold max-w-3xl mx-auto">Everything you need to cook smarter, faster, and healthier with AI-powered intelligence</p>
+              </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-4 rounded-xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/70 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/70 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🍳</span>
                   <p className="text-xs sm:text-sm font-bold text-blue-100">Instant Recipes</p>
-                  <p className="text-xs text-blue-200/80 mt-1 hidden sm:block font-medium">AI-Generated</p>
+                  <p className="text-xs text-blue-200/80 mt-1 hidden sm:block font-medium">AI-Generated in Seconds</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-4 rounded-xl bg-gradient-to-br from-purple-500/40 to-purple-500/15 border border-purple-400/70 hover:border-purple-300/90 hover:from-purple-500/50 hover:to-purple-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-purple-500/40 to-purple-500/15 border border-purple-400/70 hover:border-purple-300/90 hover:from-purple-500/50 hover:to-purple-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">📋</span>
                   <p className="text-xs sm:text-sm font-bold text-purple-100">Meal Plans</p>
-                  <p className="text-xs text-purple-200/80 mt-1 hidden sm:block font-medium">Auto-Optimized</p>
+                  <p className="text-xs text-purple-200/80 mt-1 hidden sm:block font-medium">Weekly Customized</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-4 rounded-xl bg-gradient-to-br from-pink-500/40 to-pink-500/15 border border-pink-400/70 hover:border-pink-300/90 hover:from-pink-500/50 hover:to-pink-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-pink-500/10 hover:shadow-pink-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-pink-500/40 to-pink-500/15 border border-pink-400/70 hover:border-pink-300/90 hover:from-pink-500/50 hover:to-pink-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-pink-500/10 hover:shadow-pink-500/20">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🥗</span>
                   <p className="text-xs sm:text-sm font-bold text-pink-100">Nutrition</p>
-                  <p className="text-xs text-pink-200/80 mt-1 hidden sm:block font-medium">Tracked</p>
+                  <p className="text-xs text-pink-200/80 mt-1 hidden sm:block font-medium">Full Tracking</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-4 rounded-xl bg-gradient-to-br from-emerald-500/40 to-emerald-500/15 border border-emerald-400/70 hover:border-emerald-300/90 hover:from-emerald-500/50 hover:to-emerald-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-emerald-500/40 to-emerald-500/15 border border-emerald-400/70 hover:border-emerald-300/90 hover:from-emerald-500/50 hover:to-emerald-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/20">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🛒</span>
                   <p className="text-xs sm:text-sm font-bold text-emerald-100">Shopping</p>
-                  <p className="text-xs text-emerald-200/80 mt-1 hidden sm:block font-medium">Lists</p>
+                  <p className="text-xs text-emerald-200/80 mt-1 hidden sm:block font-medium">Smart Lists</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-4 rounded-xl bg-gradient-to-br from-cyan-500/40 to-cyan-500/15 border border-cyan-400/70 hover:border-cyan-300/90 hover:from-cyan-500/50 hover:to-cyan-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-cyan-500/40 to-cyan-500/15 border border-cyan-400/70 hover:border-cyan-300/90 hover:from-cyan-500/50 hover:to-cyan-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/20">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">⚡</span>
                   <p className="text-xs sm:text-sm font-bold text-cyan-100">Smart</p>
                   <p className="text-xs text-cyan-200/80 mt-1 hidden sm:block font-medium">Substitutions</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-4 rounded-xl bg-gradient-to-br from-orange-500/40 to-orange-500/15 border border-orange-400/70 hover:border-orange-300/90 hover:from-orange-500/50 hover:to-orange-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-orange-500/10 hover:shadow-orange-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-orange-500/40 to-orange-500/15 border border-orange-400/70 hover:border-orange-300/90 hover:from-orange-500/50 hover:to-orange-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-orange-500/10 hover:shadow-orange-500/20">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🌱</span>
                   <p className="text-xs sm:text-sm font-bold text-orange-100">50+ Diets</p>
-                  <p className="text-xs text-orange-200/80 mt-1 hidden sm:block font-medium">Supported</p>
+                  <p className="text-xs text-orange-200/80 mt-1 hidden sm:block font-medium">All Supported</p>
                 </div>
               </div>
             </div>
@@ -112,8 +115,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">✨ Start Your Free Trial Now</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Full Access • No Credit Card Required • Cancel Anytime</span>
+                <span className="text-base sm:text-3xl font-black">✨ Sign Up for Beta</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Access • No Credit Card</span>
               </span>
             </Link>
             <Link 
