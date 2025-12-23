@@ -52,11 +52,11 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">Your Personal AI Chef Awaits</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Unlimited Recipes • Smart Meal Plans • Personalized Nutrition</span>
+              <span className="block mb-3">Never Struggle With Meal Planning Again</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">AI-Powered Recipes • Personalized Meal Plans • Save 10+ Hours Weekly</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Experience the revolution in home cooking. Get unlimited AI-generated recipes tailored to your taste, budget, and dietary preferences in seconds. Our intelligent system learns your preferences and creates personalized meal plans, smart shopping lists, and detailed nutrition insights—all in one powerful platform. Join 100,000+ home cooks who've transformed their kitchens and saved thousands on groceries.
+              Stop wasting time on meal planning and grocery shopping. Our AI chef generates unlimited personalized recipes in seconds, creates optimized meal plans, and builds smart shopping lists—all tailored to your taste, budget, and dietary needs. Save 10+ hours weekly, cut food waste by 40%, and enjoy delicious meals every single day. Join 100,000+ home cooks who've already transformed their kitchens.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -112,8 +112,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Your Free Trial Now</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Premium Access • No Credit Card Required</span>
+                <span className="text-base sm:text-3xl font-black">🎯 Get Your Free AI Chef Today</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • No Credit Card • Cancel Anytime • 100K+ Users Love It</span>
               </span>
             </Link>
             <Link 
@@ -150,7 +150,7 @@ export default function Hero() {
           {/* Urgency & Value Statement - Enhanced */}
           <motion.div variants={itemVariants} className="pt-10 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-red-500/40 to-pink-500/40 border border-red-400/80 rounded-full px-6 sm:px-10 py-4 sm:py-5 hover:from-red-500/50 hover:to-pink-500/50 transition-all shadow-lg shadow-red-500/30 animate-pulse hover:animate-none">
-              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">⚡ EXCLUSIVE OFFER: 7 Days Free • Full Premium Access • No Credit Card • Join 100K+ Happy Cooks Today</p>
+              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">⚡ LIMITED TIME: 7 Days Free • Full Premium Access • No Credit Card Required • Save 10+ Hours This Week</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-lg shadow-slate-900/40">
               <p className="text-xs sm:text-sm text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">

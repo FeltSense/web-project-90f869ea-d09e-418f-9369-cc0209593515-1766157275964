@@ -25,7 +25,7 @@ const features: Feature[] = [
   {
     id: 1,
     title: 'AI Recipe Generation',
-    description: 'Unlimited AI-powered recipes tailored to your taste, dietary needs, and available ingredients. Get chef-approved suggestions in seconds.',
+    description: 'Get unlimited AI-powered recipes in seconds, tailored to your taste, dietary needs, and available ingredients. Never run out of meal ideas again.',
     benefits: ['Instant personalized recipes', 'Unique flavor combinations', 'Dietary-specific options'],
     icon: <Sparkles className="w-8 h-8" />,
     gradient: 'from-purple-400 to-pink-400',
@@ -34,7 +34,7 @@ const features: Feature[] = [
   {
     id: 2,
     title: 'Smart Meal Planning',
-    description: 'Create balanced weekly meal plans automatically. Our AI optimizes nutrition, variety, and cooking time for your lifestyle.',
+    description: 'Create perfectly balanced weekly meal plans in seconds. Our AI optimizes nutrition, variety, and cooking time—saving you hours of planning.',
     benefits: ['Auto-balanced nutrition', 'Variety guaranteed', 'Time-optimized'],
     icon: <Calendar className="w-8 h-8" />,
     gradient: 'from-blue-400 to-cyan-400',
@@ -43,7 +43,7 @@ const features: Feature[] = [
   {
     id: 3,
     title: 'Complete Nutrition Tracking',
-    description: 'Monitor every meal with detailed nutrition data. Track calories, macros, vitamins, and minerals to meet your health goals.',
+    description: 'Monitor every meal with detailed nutrition data. Track calories, macros, vitamins, and minerals to achieve your health goals effortlessly.',
     benefits: ['Real-time tracking', 'Goal alignment', 'Health insights'],
     icon: <Heart className="w-8 h-8" />,
     gradient: 'from-red-400 to-orange-400',
@@ -52,7 +52,7 @@ const features: Feature[] = [
   {
     id: 4,
     title: 'Intelligent Shopping Lists',
-    description: 'Auto-generated shopping lists that sync across devices. Compare prices, find deals, and navigate stores efficiently.',
+    description: 'Auto-generated shopping lists that sync across devices. Compare prices, find deals, and cut your grocery bill by up to 40%.',
     benefits: ['Auto-generated lists', 'Price optimization', 'Smart organization'],
     icon: <ShoppingCart className="w-8 h-8" />,
     gradient: 'from-green-400 to-emerald-400',
@@ -61,7 +61,7 @@ const features: Feature[] = [
   {
     id: 5,
     title: '50+ Dietary Options',
-    description: 'Support for every diet imaginable. Keto, vegan, gluten-free, paleo, Mediterranean, and 45+ more. Instant allergy filtering.',
+    description: 'Support for every diet imaginable. Keto, vegan, gluten-free, paleo, Mediterranean, and 45+ more. Instant allergy filtering for safety.',
     benefits: ['50+ diet types', 'Allergy-safe', 'Custom restrictions'],
     icon: <Settings className="w-8 h-8" />,
     gradient: 'from-yellow-400 to-amber-400',
@@ -70,7 +70,7 @@ const features: Feature[] = [
   {
     id: 6,
     title: 'Smart Ingredient Swaps',
-    description: 'Find perfect substitutions instantly. Swap ingredients for healthier, cheaper, or allergy-friendly alternatives without losing flavor.',
+    description: 'Find perfect substitutions instantly. Swap ingredients for healthier, cheaper, or allergy-friendly alternatives without losing any flavor.',
     benefits: ['Instant replacements', 'Nutrition-matched', 'Cost-effective'],
     icon: <Zap className="w-8 h-8" />,
     gradient: 'from-indigo-400 to-purple-400',
@@ -194,14 +194,14 @@ export default function KeyProductFeaturesShowcase(): React.ReactElement {
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-            Powerful AI Features That{' '}
+            Key Product Features That{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Transform Your Kitchen
+              Save You 10+ Hours Weekly
             </span>
           </h2>
 
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Everything you need to cook like a pro. From AI-generated recipes to smart meal planning, nutrition tracking, and intelligent shopping lists—all designed to save you time, money, and stress.
+            Discover the powerful AI-driven features that make meal planning effortless. From unlimited recipe generation to smart meal planning, complete nutrition tracking, and intelligent shopping lists—everything is designed to save you time, cut food waste, and help you eat healthier while spending less.
           </p>
         </motion.div>
 
@@ -225,16 +225,30 @@ export default function KeyProductFeaturesShowcase(): React.ReactElement {
           transition={{ delay: 0.8, duration: 0.6 }}
           className="mt-16 md:mt-24 text-center"
         >
-          <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg">
-            Ready to revolutionize your kitchen?
+          <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg font-semibold">
+            Ready to transform your cooking and save 10+ hours every week?
           </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold shadow-lg hover:shadow-xl transition-shadow duration-300"
-          >
-            Get Started Free
-          </motion.button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <motion.a
+              href="/pricing"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="px-8 py-4 rounded-lg bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-bold shadow-lg hover:shadow-xl transition-shadow duration-300"
+            >
+              🎯 Start Your Free Trial
+            </motion.a>
+            <motion.a
+              href="#"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="px-8 py-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold shadow-lg hover:shadow-xl transition-shadow duration-300"
+            >
+              Learn More
+            </motion.a>
+          </div>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-6">
+            7 days free • No credit card required • Full premium access
+          </p>
         </motion.div>
       </div>
     </section>
