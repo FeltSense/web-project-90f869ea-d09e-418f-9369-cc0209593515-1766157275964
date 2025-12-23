@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Transform Your Kitchen with AI-Powered Cooking</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Recipes, Meal Plans & Shopping Lists in Seconds</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your Personal AI Chef, Always Ready</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Delicious Recipes Tailored to You in Seconds</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              <strong>Stop wasting time on meal planning and grocery shopping.</strong> Our AI-powered recipe generator creates personalized, restaurant-quality recipes tailored to your preferences, dietary needs, and available ingredients—instantly. Save 10+ hours weekly, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and finally enjoy meals your whole family loves. Join 100K+ users who've already transformed their kitchens. 🎯
+              <strong>Never struggle with "What's for dinner?" again.</strong> Our AI-powered recipe generator creates personalized, restaurant-quality recipes tailored to your preferences, dietary needs, and available ingredients—instantly. Save 10+ hours weekly, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and finally enjoy meals your whole family loves. Join 100K+ users who've already transformed their kitchens. 🎯
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -112,11 +112,11 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-8 justify-center pt-18 sm:pt-24 px-2">
             <Link 
               href="#beta-signup" 
-              className="group relative px-10 sm:px-64 py-10 sm:py-28 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-black text-lg sm:text-3xl transition-all transform hover:scale-105 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-300/70 animate-pulse hover:animate-none backdrop-blur-sm"
+              className="group relative px-10 sm:px-64 py-10 sm:py-28 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-black text-lg sm:text-3xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-300/70 animate-pulse hover:animate-none backdrop-blur-sm"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Your Free Trial Now</span>
+                <span className="text-base sm:text-3xl font-black">🎯 Get Your AI Chef Today</span>
                 <span className="text-xs sm:text-sm font-bold opacity-95">✨ 7 Days Free • No Credit Card • Full Premium Access • Cancel Anytime</span>
               </span>
             </Link>
