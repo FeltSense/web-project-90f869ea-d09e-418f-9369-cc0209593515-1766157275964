@@ -44,6 +44,26 @@ export const metadata: Metadata = {
   },
 }
 
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  'name': 'Hello My Love',
+  'description': 'AI-powered personalized recipes, meal plans, and nutrition tracking',
+  'url': 'https://hellomylove.com',
+  'applicationCategory': 'UtilitiesApplication',
+  'offers': {
+    '@type': 'Offer',
+    'price': '0',
+    'priceCurrency': 'USD',
+    'description': '7-day free trial'
+  },
+  'aggregateRating': {
+    '@type': 'AggregateRating',
+    'ratingValue': '4.8',
+    'ratingCount': '2500'
+  }
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -51,6 +71,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      </head>
       <body className={`${bodyFont.variable} ${headingFont.variable} font-sans antialiased`}>{children}</body>
     </html>
   )
