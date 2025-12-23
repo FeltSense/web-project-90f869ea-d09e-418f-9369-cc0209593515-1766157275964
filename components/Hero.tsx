@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Transform Your Kitchen with AI</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Recipes, Smarter Meal Planning, Maximum Savings</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your Personal AI Chef</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Delicious Meals, Smarter Shopping, More Time for Life</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              <strong>Tired of boring meals and endless meal planning?</strong> Our AI-powered recipe generator learns your preferences, dietary needs, and available ingredients to create personalized, restaurant-quality recipes in seconds. Save 10+ hours weekly, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and finally enjoy meals your whole family loves. Join 100K+ users transforming their kitchens today. 🎯
+              <strong>Stop wasting time on meal planning and grocery shopping.</strong> Our AI-powered recipe generator creates personalized, restaurant-quality recipes tailored to your preferences, dietary needs, and available ingredients—in seconds. Save 10+ hours weekly, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and finally enjoy meals your whole family loves. Join 100K+ users who've already transformed their kitchens. 🎯
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Your Free Trial Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">✨ 7 Days Free • Full Access • No Card Needed • Cancel Anytime</span>
+                <span className="text-base sm:text-3xl font-black">✨ Get Started Free Today</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">🎁 7 Days Free • No Credit Card • Full Premium Access • Cancel Anytime</span>
               </span>
             </Link>
             <Link 
@@ -126,7 +126,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                💡 Explore Features
+                🎯 See How It Works
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
