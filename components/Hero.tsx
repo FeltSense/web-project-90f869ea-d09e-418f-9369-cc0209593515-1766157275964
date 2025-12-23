@@ -52,11 +52,11 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">Your Personal AI Chef, Ready to Cook</span>
+              <span className="block mb-3">🍳 Your Personal AI Chef, Ready to Cook</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Unlimited Recipes • Smart Meal Plans • Save 10+ Hours Weekly</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Transform your kitchen with AI-powered recipes tailored to your taste, budget, and dietary needs. Generate unlimited personalized meal plans in seconds, create smart shopping lists, and save 10+ hours weekly. Cut food waste by 40%, enjoy delicious meals every day, and join 100,000+ home cooks who've already revolutionized their cooking.
+              ✨ <strong>Transform your kitchen</strong> with AI-powered recipes tailored to your taste, budget, and dietary needs. Generate unlimited personalized meal plans in seconds, create smart shopping lists, and save 10+ hours weekly. 🎯 Cut food waste by 40%, enjoy delicious meals every day, and join 100,000+ home cooks who've already revolutionized their cooking. 🚀
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>

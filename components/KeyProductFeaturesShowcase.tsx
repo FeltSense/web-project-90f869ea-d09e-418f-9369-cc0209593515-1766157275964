@@ -188,20 +188,20 @@ export default function KeyProductFeaturesShowcase(): React.ReactElement {
             className="inline-block mb-4"
             whileHover={{ scale: 1.05 }}
           >
-            <span className="px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 dark:from-blue-400/10 dark:to-purple-400/10 border border-blue-200/50 dark:border-blue-400/20 text-blue-700 dark:text-blue-300 text-sm font-semibold uppercase tracking-wider">
-              Powerful Features
+            <span className="px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 dark:from-emerald-400/10 dark:to-cyan-400/10 border border-emerald-200/50 dark:border-emerald-400/20 text-emerald-700 dark:text-emerald-300 text-sm font-bold uppercase tracking-wider">
+              ⭐ Core Features That Transform Your Cooking
             </span>
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-            Key Product Features That{' '}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            🎯 Powerful AI Features That{' '}
+            <span className="bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">
               Save You 10+ Hours Weekly
             </span>
           </h2>
 
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Discover the powerful AI-driven features that make meal planning effortless. From unlimited recipe generation to smart meal planning, complete nutrition tracking, and intelligent shopping lists—everything is designed to save you time, cut food waste, and help you eat healthier while spending less.
+            Discover the <strong>powerful AI-driven features</strong> that make meal planning effortless and enjoyable. From unlimited recipe generation to smart meal planning, complete nutrition tracking, and intelligent shopping lists—everything is designed to <strong>save you time, cut food waste by 40%, and help you eat healthier while spending less</strong>. Join 100,000+ users transforming their kitchens today.
           </p>
         </motion.div>
 
@@ -225,29 +225,29 @@ export default function KeyProductFeaturesShowcase(): React.ReactElement {
           transition={{ delay: 0.8, duration: 0.6 }}
           className="mt-16 md:mt-24 text-center"
         >
-          <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg font-semibold">
-            Ready to transform your cooking and save 10+ hours every week?
+          <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg font-bold">
+            🚀 Ready to transform your cooking and save 10+ hours every week? Join 100,000+ users eating better today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.a
               href="/pricing"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 rounded-lg bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-bold shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="px-8 py-4 rounded-lg bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-bold shadow-lg hover:shadow-xl transition-shadow duration-300 text-lg"
             >
-              🎯 Start Your Free Trial
+              ✨ Start Your Free Trial
             </motion.a>
             <motion.a
-              href="#"
+              href="#features"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="px-8 py-4 rounded-lg bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-bold shadow-lg hover:shadow-xl transition-shadow duration-300 text-lg"
             >
-              Learn More
+              📚 Explore All Features
             </motion.a>
           </div>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-6">
-            7 days free • No credit card required • Full premium access
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-6 font-semibold">
+            ✅ 7 days free • ✅ No credit card required • ✅ Full premium access • ✅ Cancel anytime
           </p>
         </motion.div>
       </div>

@@ -143,16 +143,16 @@ const ProductFeaturesHighlight = (): JSX.Element => {
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
-          <div className="mb-4 inline-flex rounded-full bg-blue-50 px-4 py-2">
-            <span className="text-sm font-semibold text-blue-600">Platform Features</span>
+          <div className="mb-4 inline-flex rounded-full bg-gradient-to-r from-blue-100 to-purple-100 px-4 py-2 border border-blue-200">
+            <span className="text-sm font-bold text-blue-700">⭐ POWERFUL FEATURES</span>
           </div>
           
           <h2 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
-            Everything You Need to Eat Better
+            🎯 Everything You Need to <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Eat Better & Save Time</span>
           </h2>
           
           <p className="mx-auto max-w-2xl text-lg leading-8 text-gray-600">
-            Our AI-powered platform transforms how you plan, shop, and cook meals. From personalized recipe generation to comprehensive nutrition tracking, we make healthy eating effortless and enjoyable.
+            Our <strong>AI-powered platform</strong> transforms how you plan, shop, and cook meals. From personalized recipe generation to comprehensive nutrition tracking, we make healthy eating effortless, enjoyable, and budget-friendly. <strong>Save 10+ hours weekly</strong> while eating better than ever.
           </p>
         </div>
 
@@ -162,15 +162,15 @@ const ProductFeaturesHighlight = (): JSX.Element => {
           ))}
         </div>
 
-        <div className="mt-16 rounded-2xl bg-gradient-to-r from-blue-600 to-blue-500 p-8 sm:p-12 text-center text-white">
+        <div className="mt-16 rounded-2xl bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 p-8 sm:p-12 text-center text-white shadow-2xl shadow-emerald-600/40">
           <h3 className="mb-4 text-2xl font-bold sm:text-3xl">
-            Ready to Transform Your Eating Habits?
+            🚀 Ready to Transform Your Eating Habits & Save 10+ Hours Weekly?
           </h3>
-          <p className="mb-8 text-lg text-blue-100">
-            Join thousands of users who are eating healthier, saving time, and enjoying delicious food every day.
+          <p className="mb-8 text-lg text-emerald-50">
+            Join <strong>100,000+ users</strong> who are eating healthier, saving time, cutting food waste by 40%, and enjoying delicious food every day. <strong>7 days free</strong> • No credit card • Full premium access.
           </p>
-          <button className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-4 font-semibold text-blue-600 transition-all duration-300 hover:bg-blue-50 hover:shadow-lg hover:scale-105">
-            Start Your Free Trial Today
+          <button className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-4 font-bold text-emerald-600 transition-all duration-300 hover:bg-emerald-50 hover:shadow-lg hover:scale-105 text-lg">
+            ✨ Start Your Free Trial Today
           </button>
         </div>
       </div>
