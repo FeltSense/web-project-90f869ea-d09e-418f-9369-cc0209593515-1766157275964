@@ -52,8 +52,8 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">Transform Your Kitchen with AI-Powered Cooking</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Personalized Recipes, Meal Plans & Shopping Lists in Seconds</span>
+              <span className="block mb-3">Never Stress About Meals Again</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">AI-Powered Recipes That Learn Your Taste, Save Your Time & Money</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
               Say goodbye to meal planning stress. Our intelligent AI learns your preferences, dietary restrictions, and available ingredients—then generates unlimited personalized recipes instantly. Enjoy smart meal planning, auto-generated shopping lists, complete nutrition tracking, and intelligent ingredient substitutions. Save 10+ hours every week and $1,200+ annually. Join 100,000+ satisfied users transforming their cooking experience.
@@ -112,8 +112,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-2xl font-black">🚀 Get Started Free Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • No Credit Card • Cancel Anytime</span>
+                <span className="text-base sm:text-2xl font-black">✨ Start Your Free Trial Now</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Access • No Credit Card</span>
               </span>
             </Link>
             <Link 
@@ -122,7 +122,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                📺 See It In Action
+                🎬 Watch Demo
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
