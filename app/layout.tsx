@@ -48,29 +48,34 @@ const schemaData = {
   '@context': 'https://schema.org',
   '@type': 'WebApplication',
   'name': 'Hello My Love',
-  'description': 'AI-powered personalized recipes, meal plans, and nutrition tracking',
+  'description': 'AI-powered personalized recipes, meal plans, and nutrition tracking. Save 10+ hours weekly on meal planning and cut grocery bills by $1,200+ annually.',
   'url': 'https://hellomylove.com',
+  'image': 'https://hellomylove.com/og-image.jpg',
   'applicationCategory': 'UtilitiesApplication',
   'operatingSystem': 'Web',
-  'offers': [
-    {
-      '@type': 'Offer',
-      'price': '0',
-      'priceCurrency': 'USD',
-      'description': '7-day free trial',
-      'availability': 'https://schema.org/InStock'
-    }
-  ],
+  'offers': {
+    '@type': 'Offer',
+    'price': '0',
+    'priceCurrency': 'USD',
+    'description': '7-day free trial with full premium access',
+    'availability': 'https://schema.org/InStock',
+    'url': 'https://hellomylove.com'
+  },
   'aggregateRating': {
     '@type': 'AggregateRating',
-    'ratingValue': '4.8',
+    'ratingValue': '4.9',
     'ratingCount': '2500',
     'bestRating': '5',
     'worstRating': '1'
   },
   'author': {
     '@type': 'Organization',
-    'name': 'Hello My Love'
+    'name': 'Hello My Love',
+    'url': 'https://hellomylove.com'
+  },
+  'potentialAction': {
+    '@type': 'UseAction',
+    'target': 'https://hellomylove.com'
   }
 }
 
