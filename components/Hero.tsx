@@ -53,8 +53,8 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">🍽️ AI-Powered Cooking Revolution</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Recipes, Smarter Meals, Healthier Living</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">🍽️ Your Personal AI Chef</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Discover Recipes You'll Love, Every Single Day</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
               🎯 <strong>Stop wasting time on meal planning. Start cooking with confidence.</strong> Our advanced AI-powered recipe generator learns your taste preferences, dietary restrictions, and available ingredients to create personalized recipes in seconds. Get unlimited meal plans, smart shopping lists, comprehensive nutrition tracking, and intelligent substitutions—all powered by cutting-edge artificial intelligence. 🚀 Join 100,000+ home cooks who are saving 10+ hours weekly, cutting food waste by 40%, reducing grocery bills by $1,200+ annually, and enjoying restaurant-quality meals at home. ✨
@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Your Free Trial Now</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Access • No Credit Card</span>
+                <span className="text-base sm:text-3xl font-black">🚀 Get Started Free Today</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • No Credit Card Required</span>
               </span>
             </Link>
             <Link 
