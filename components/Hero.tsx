@@ -70,36 +70,36 @@ export default function Hero() {
           <motion.div variants={itemVariants}>
             <div className="space-y-8 max-w-6xl mx-auto px-2">
               <div className="text-center space-y-3">
-                <p className="text-base sm:text-lg text-emerald-300 font-black tracking-widest uppercase">✨ Powerful Features That Transform Your Cooking</p>
-                <p className="text-sm sm:text-base text-slate-300 font-semibold max-w-3xl mx-auto">Everything you need to cook smarter, faster, and healthier with AI-powered intelligence</p>
+                <p className="text-base sm:text-lg text-emerald-300 font-black tracking-widest uppercase">✨ Latest Features That Transform Your Cooking</p>
+                <p className="text-sm sm:text-base text-slate-300 font-semibold max-w-3xl mx-auto">Discover our newest AI-powered capabilities designed to revolutionize how you cook</p>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/70 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/70 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/30">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🍳</span>
                   <p className="text-xs sm:text-sm font-bold text-blue-100">Instant Recipes</p>
                   <p className="text-xs text-blue-200/80 mt-1 hidden sm:block font-medium">AI-Generated in Seconds</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-purple-500/40 to-purple-500/15 border border-purple-400/70 hover:border-purple-300/90 hover:from-purple-500/50 hover:to-purple-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-purple-500/40 to-purple-500/15 border border-purple-400/70 hover:border-purple-300/90 hover:from-purple-500/50 hover:to-purple-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/30">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">📋</span>
                   <p className="text-xs sm:text-sm font-bold text-purple-100">Meal Plans</p>
                   <p className="text-xs text-purple-200/80 mt-1 hidden sm:block font-medium">Weekly Customized</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-pink-500/40 to-pink-500/15 border border-pink-400/70 hover:border-pink-300/90 hover:from-pink-500/50 hover:to-pink-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-pink-500/10 hover:shadow-pink-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-pink-500/40 to-pink-500/15 border border-pink-400/70 hover:border-pink-300/90 hover:from-pink-500/50 hover:to-pink-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-pink-500/10 hover:shadow-pink-500/30">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🥗</span>
                   <p className="text-xs sm:text-sm font-bold text-pink-100">Nutrition</p>
                   <p className="text-xs text-pink-200/80 mt-1 hidden sm:block font-medium">Full Tracking</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-emerald-500/40 to-emerald-500/15 border border-emerald-400/70 hover:border-emerald-300/90 hover:from-emerald-500/50 hover:to-emerald-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-emerald-500/40 to-emerald-500/15 border border-emerald-400/70 hover:border-emerald-300/90 hover:from-emerald-500/50 hover:to-emerald-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/30">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🛒</span>
                   <p className="text-xs sm:text-sm font-bold text-emerald-100">Shopping</p>
                   <p className="text-xs text-emerald-200/80 mt-1 hidden sm:block font-medium">Smart Lists</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-cyan-500/40 to-cyan-500/15 border border-cyan-400/70 hover:border-cyan-300/90 hover:from-cyan-500/50 hover:to-cyan-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-cyan-500/40 to-cyan-500/15 border border-cyan-400/70 hover:border-cyan-300/90 hover:from-cyan-500/50 hover:to-cyan-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/30">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">⚡</span>
                   <p className="text-xs sm:text-sm font-bold text-cyan-100">Smart</p>
                   <p className="text-xs text-cyan-200/80 mt-1 hidden sm:block font-medium">Substitutions</p>
                 </div>
-                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-orange-500/40 to-orange-500/15 border border-orange-400/70 hover:border-orange-300/90 hover:from-orange-500/50 hover:to-orange-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-orange-500/10 hover:shadow-orange-500/20">
+                <div className="group relative px-3 sm:px-4 py-4 sm:py-5 rounded-xl bg-gradient-to-br from-orange-500/40 to-orange-500/15 border border-orange-400/70 hover:border-orange-300/90 hover:from-orange-500/50 hover:to-orange-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-orange-500/10 hover:shadow-orange-500/30">
                   <span className="text-2xl sm:text-3xl block mb-2 group-hover:scale-125 transition-transform">🌱</span>
                   <p className="text-xs sm:text-sm font-bold text-orange-100">50+ Diets</p>
                   <p className="text-xs text-orange-200/80 mt-1 hidden sm:block font-medium">All Supported</p>
