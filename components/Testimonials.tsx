@@ -70,7 +70,7 @@ export default function Testimonials() {
             ⭐ Loved by 100,000+ Home Cooks Worldwide
           </h2>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
-            Real people, real results. Discover how our AI-powered recipe generator is transforming kitchens, saving families 10+ hours weekly on meal planning, cutting grocery bills by $1,200+ annually, and making cooking exciting again.
+            <strong>Real people, real results.</strong> Discover how our AI-powered recipe generator is transforming kitchens and changing lives. From busy parents saving 10+ hours weekly to fitness enthusiasts cutting $1,200+ off annual grocery bills, our users are experiencing remarkable transformations. See what they're saying about their journey with our AI chef.
           </p>
           <div className="mt-8 grid grid-cols-3 gap-4 max-w-2xl mx-auto text-center">
             <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-200">

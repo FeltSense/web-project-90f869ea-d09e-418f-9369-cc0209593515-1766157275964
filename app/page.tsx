@@ -37,12 +37,17 @@ export default function Home() {
     <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      
+      {/* Key Features Section - Highlighted Early */}
       <ProductFeaturesHighlight />
       <KeyProductFeaturesShowcase />
-
       <NewProductFeaturesSection />
       <AdvancedFeaturesSection />
       
+      {/* Testimonials Section - Moved Higher for Social Proof */}
+      <Testimonials />
+      
+      {/* Additional Features & Content */}
       <SampleRecipes />
       <EnhancedProductFeatures />
       <KeyFeaturesSection />
@@ -57,7 +62,8 @@ export default function Home() {
       <ProductFeaturesSection />
       <FeaturesShowcase />
       <Benefits />
-      <Testimonials />
+      
+      {/* Call to Action & Conversion */}
       <div id="beta-signup">
         <BetaSignup />
       </div>

@@ -56,7 +56,7 @@ export default function Hero() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Delicious Recipes • Effortless Meal Plans • Smarter Cooking</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              🎯 <strong>Transform your kitchen with AI-powered meal planning.</strong> Our intelligent recipe generator learns your preferences, dietary restrictions, and available ingredients to create personalized recipes in seconds. Generate unlimited meal plans, smart shopping lists, and nutritional guidance—all powered by advanced AI. 🚀 Join 100,000+ home cooks saving 10+ hours weekly, cutting food waste by 40%, and enjoying restaurant-quality meals at home. ✨
+              🎯 <strong>Stop wasting time on meal planning. Start cooking with confidence.</strong> Our AI-powered recipe generator learns your taste preferences, dietary restrictions, and available ingredients to create personalized recipes in seconds. Get unlimited meal plans, smart shopping lists, nutrition tracking, and smart substitutions—all powered by cutting-edge AI. 🚀 Join 100,000+ home cooks who are saving 10+ hours weekly, cutting food waste by 40%, reducing grocery bills by $1,200+ annually, and enjoying restaurant-quality meals at home. ✨
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>

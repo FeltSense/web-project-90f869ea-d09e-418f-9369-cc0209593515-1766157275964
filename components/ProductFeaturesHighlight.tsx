@@ -151,9 +151,25 @@ const ProductFeaturesHighlight = (): JSX.Element => {
             🎯 Everything You Need to <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Eat Better & Save Time</span>
           </h2>
           
-          <p className="mx-auto max-w-2xl text-lg leading-8 text-gray-600">
+          <p className="mx-auto max-w-2xl text-lg leading-8 text-gray-600 mb-8">
             Our <strong>AI-powered platform</strong> transforms how you plan, shop, and cook meals. From personalized recipe generation to comprehensive nutrition tracking, we make healthy eating effortless, enjoyable, and budget-friendly. <strong>Save 10+ hours weekly</strong> while eating better than ever.
           </p>
+          
+          {/* Key Benefits Highlight */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-8">
+            <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-200">
+              <p className="text-2xl font-bold text-emerald-700">10+</p>
+              <p className="text-sm text-emerald-600 mt-1 font-semibold">Hours Saved Weekly</p>
+            </div>
+            <div className="p-4 rounded-lg bg-blue-50 border border-blue-200">
+              <p className="text-2xl font-bold text-blue-700">$1,200+</p>
+              <p className="text-sm text-blue-600 mt-1 font-semibold">Saved Yearly</p>
+            </div>
+            <div className="p-4 rounded-lg bg-purple-50 border border-purple-200">
+              <p className="text-2xl font-bold text-purple-700">40%</p>
+              <p className="text-sm text-purple-600 mt-1 font-semibold">Less Food Waste</p>
+            </div>
+          </div>
         </div>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -167,11 +183,16 @@ const ProductFeaturesHighlight = (): JSX.Element => {
             🚀 Ready to Transform Your Eating Habits & Save 10+ Hours Weekly?
           </h3>
           <p className="mb-8 text-lg text-emerald-50">
-            Join <strong>100,000+ users</strong> who are eating healthier, saving time, cutting food waste by 40%, and enjoying delicious food every day. <strong>7 days free</strong> • No credit card • Full premium access.
+            Join <strong>100,000+ users</strong> who are eating healthier, saving time, cutting food waste by 40%, reducing grocery bills by $1,200+ annually, and enjoying delicious food every day. <strong>7 days free</strong> • No credit card • Full premium access • Cancel anytime.
           </p>
-          <button className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-4 font-bold text-emerald-600 transition-all duration-300 hover:bg-emerald-50 hover:shadow-lg hover:scale-105 text-lg">
-            ✨ Start Your Free Trial Today
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-4 font-bold text-emerald-600 transition-all duration-300 hover:bg-emerald-50 hover:shadow-lg hover:scale-105 text-lg">
+              ✨ Start Your Free Trial Today
+            </button>
+            <button className="inline-flex items-center justify-center rounded-xl bg-emerald-700 px-8 py-4 font-bold text-white transition-all duration-300 hover:bg-emerald-800 hover:shadow-lg hover:scale-105 text-lg border border-emerald-500">
+              📚 Learn More
+            </button>
+          </div>
         </div>
       </div>
     </section>
