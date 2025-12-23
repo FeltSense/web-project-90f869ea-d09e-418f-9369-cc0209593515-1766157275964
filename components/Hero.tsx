@@ -52,11 +52,11 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">🍳 Your Personal AI Chef, Ready to Cook</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Unlimited Recipes • Smart Meal Plans • Save 10+ Hours Weekly</span>
+              <span className="block mb-3">🤖 AI Recipe Generator That Actually Understands You</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Personalized Recipes • Smart Meal Plans • Save 10+ Hours Weekly</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              ✨ <strong>Transform your kitchen</strong> with AI-powered recipes tailored to your taste, budget, and dietary needs. Generate unlimited personalized meal plans in seconds, create smart shopping lists, and save 10+ hours weekly. 🎯 Cut food waste by 40%, enjoy delicious meals every day, and join 100,000+ home cooks who've already revolutionized their cooking. 🚀
+              🎯 <strong>Stop wasting time on meal planning.</strong> Our AI recipe generator learns your preferences, dietary restrictions, and available ingredients to create personalized recipes in seconds. Generate unlimited meal plans, smart shopping lists, and nutritional guidance—all powered by advanced AI. 🚀 Join 100,000+ home cooks saving 10+ hours weekly, cutting food waste by 40%, and enjoying restaurant-quality meals at home. ✨
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -107,13 +107,13 @@ export default function Hero() {
           {/* CTA Buttons - Enhanced & More Compelling */}
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center pt-12 sm:pt-16 px-2">
             <Link 
-              href="/pricing" 
+              href="#beta-signup" 
               className="group relative px-8 sm:px-48 py-8 sm:py-20 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-black text-lg sm:text-3xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-300/70 animate-pulse hover:animate-none"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Cooking Smarter Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • No Credit Card • Cancel Anytime • 100K+ Users Love It</span>
+                <span className="text-base sm:text-3xl font-black">🎁 Sign Up for Beta Access</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Premium Access • No Credit Card Required</span>
               </span>
             </Link>
             <Link 
@@ -122,7 +122,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ Explore Features
+                ✨ See Key Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>

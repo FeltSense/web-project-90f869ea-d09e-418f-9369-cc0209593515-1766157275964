@@ -58,6 +58,9 @@ export default function Home() {
       <FeaturesShowcase />
       <Benefits />
       <Testimonials />
+      <div id="beta-signup">
+        <BetaSignup />
+      </div>
       <Pricing />
       <FAQ />
       <ContactForm />
