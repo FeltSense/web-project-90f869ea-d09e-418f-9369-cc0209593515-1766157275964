@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">AI-Powered Recipes That Fit Your Life</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Meals in Seconds, Not Hours</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Never Run Out of Meal Ideas Again</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">AI-Powered Recipes Tailored to You</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              <strong>Stop wasting time on meal planning.</strong> Our advanced AI learns your preferences, respects dietary restrictions, and generates restaurant-quality recipes from ingredients you already have. Save 10+ hours weekly, reduce food waste by 40%, and enjoy meals your whole family loves. Join 100K+ users transforming their kitchens. 🚀
+              <strong>Transform your kitchen with intelligent meal planning.</strong> Our advanced AI learns your taste preferences, dietary restrictions, and available ingredients to generate personalized, restaurant-quality recipes in seconds. Save 10+ hours weekly on meal planning, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and enjoy meals your whole family loves. Join 100K+ users who've already transformed their cooking experience. 🚀
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -70,14 +70,14 @@ export default function Hero() {
           <motion.div variants={itemVariants}>
             <div className="space-y-8 max-w-6xl mx-auto px-2">
               <div className="text-center space-y-3">
-                <p className="text-base sm:text-lg text-emerald-300 font-black tracking-widest uppercase">✨ AI-Powered Features That Transform Your Cooking</p>
-                <p className="text-sm sm:text-base text-slate-300 font-semibold max-w-3xl mx-auto">Discover our intelligent AI capabilities designed to revolutionize how you cook and save time</p>
+                <p className="text-base sm:text-lg text-emerald-300 font-black tracking-widest uppercase">✨ Powerful AI Features Built for You</p>
+                <p className="text-sm sm:text-base text-slate-300 font-semibold max-w-3xl mx-auto">Everything you need to cook smarter, faster, and save money—all powered by advanced AI</p>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
                 <div className="group relative px-4 sm:px-5 py-5 sm:py-6 rounded-xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/70 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/30">
                   <span className="text-3xl sm:text-4xl block mb-3 group-hover:scale-125 transition-transform">🍳</span>
                   <p className="text-xs sm:text-sm font-bold text-blue-100">Instant Recipes</p>
-                  <p className="text-xs text-blue-200/80 mt-2 hidden sm:block font-medium">AI-Generated in Seconds</p>
+                  <p className="text-xs text-blue-200/80 mt-2 hidden sm:block font-medium">Generated in Seconds</p>
                 </div>
                 <div className="group relative px-4 sm:px-5 py-5 sm:py-6 rounded-xl bg-gradient-to-br from-purple-500/40 to-purple-500/15 border border-purple-400/70 hover:border-purple-300/90 hover:from-purple-500/50 hover:to-purple-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/30">
                   <span className="text-3xl sm:text-4xl block mb-3 group-hover:scale-125 transition-transform">📋</span>
@@ -116,7 +116,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Get Started Free Today</span>
+                <span className="text-base sm:text-3xl font-black">🚀 Start Cooking Smarter Today</span>
                 <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Access • No Credit Card</span>
               </span>
             </Link>
@@ -137,29 +137,29 @@ export default function Hero() {
             <div className="group flex flex-col items-center gap-4 p-8 sm:p-10 rounded-2xl bg-gradient-to-br from-emerald-500/40 to-emerald-500/15 border border-emerald-400/80 hover:border-emerald-300/90 hover:from-emerald-500/50 hover:to-emerald-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-emerald-500/40 shadow-lg shadow-emerald-500/15">
               <span className="text-6xl sm:text-7xl group-hover:scale-125 transition-transform">⏱️</span>
               <h3 className="font-black text-white text-base sm:text-lg text-center">Save 10+ Hours Weekly</h3>
-              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">No more meal planning stress—done in seconds</p>
+              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Meal planning done in seconds, not hours</p>
             </div>
             <div className="group flex flex-col items-center gap-4 p-8 sm:p-10 rounded-2xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/80 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/40 shadow-lg shadow-blue-500/15">
               <span className="text-6xl sm:text-7xl group-hover:scale-125 transition-transform">🤖</span>
               <h3 className="font-black text-white text-base sm:text-lg text-center">Truly Personalized</h3>
-              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Learns your taste, allergies & dietary needs</p>
+              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Learns your preferences, allergies & dietary needs</p>
             </div>
             <div className="group flex flex-col items-center gap-4 p-8 sm:p-10 rounded-2xl bg-gradient-to-br from-purple-500/40 to-purple-500/15 border border-purple-400/80 hover:border-purple-300/90 hover:from-purple-500/50 hover:to-purple-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/40 shadow-lg shadow-purple-500/15">
               <span className="text-6xl sm:text-7xl group-hover:scale-125 transition-transform">💰</span>
               <h3 className="font-black text-white text-base sm:text-lg text-center">Save $1,200+ Yearly</h3>
-              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Cut food waste & optimize every grocery trip</p>
+              <p className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Reduce waste & save on groceries every month</p>
             </div>
           </motion.div>
 
           {/* Urgency & Value Statement - Enhanced */}
           <motion.div variants={itemVariants} className="pt-10 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-red-500/40 to-pink-500/40 border border-red-400/80 rounded-full px-6 sm:px-10 py-4 sm:py-5 hover:from-red-500/50 hover:to-pink-500/50 transition-all shadow-lg shadow-red-500/30 animate-pulse hover:animate-none">
-              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">⚡ LIMITED TIME: 7 Days Free • Full Premium Access • No Credit Card Required</p>
+              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">⚡ 7 Days Free • Full Premium Access • No Credit Card Required • Cancel Anytime</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-lg shadow-slate-900/40">
               <p className="text-xs sm:text-sm text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
                 <span className="block mb-4 text-sm sm:text-base font-black text-emerald-300">✨ Everything You Need to Cook Like a Pro:</span>
-                <span className="block text-xs sm:text-sm leading-relaxed font-medium">🤖 Unlimited AI Recipes • 📱 Mobile App • 🎯 Dietary Customization • 🛒 Smart Shopping Lists • 💡 Smart Substitutions • 👥 Community • 📊 Nutrition Tracking • 🍳 Meal Plans</span>
+                <span className="block text-xs sm:text-sm leading-relaxed font-medium">🤖 Unlimited AI Recipes • 📱 Mobile App • 🎯 Dietary Customization • 🛒 Smart Shopping Lists • 💡 Smart Substitutions • 👥 Community Support • 📊 Nutrition Tracking • 🍳 Weekly Meal Plans</span>
               </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto px-2">
@@ -187,17 +187,17 @@ export default function Hero() {
             <div className="group flex flex-col items-center gap-4 p-9 sm:p-11 rounded-2xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-500/60 hover:border-blue-400/90 hover:from-blue-500/50 hover:to-blue-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/35 shadow-lg shadow-blue-500/20">
               <Users className="w-14 sm:w-16 h-14 sm:h-16 text-blue-300 group-hover:scale-125 transition-transform" />
               <span className="font-black text-base sm:text-lg text-white text-center">100K+ Happy Users</span>
-              <span className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Transforming their kitchens daily</span>
+              <span className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Already transforming their kitchens</span>
             </div>
             <div className="group flex flex-col items-center gap-4 p-9 sm:p-11 rounded-2xl bg-gradient-to-br from-purple-500/40 to-purple-500/15 border border-purple-500/60 hover:border-purple-400/90 hover:from-purple-500/50 hover:to-purple-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-purple-500/35 shadow-lg shadow-purple-500/20">
               <Clock className="w-14 sm:w-16 h-14 sm:h-16 text-purple-300 group-hover:scale-125 transition-transform" />
               <span className="font-black text-base sm:text-lg text-white text-center">5 Min Setup</span>
-              <span className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Start cooking in minutes, not hours</span>
+              <span className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Get started in just 5 minutes</span>
             </div>
             <div className="group flex flex-col items-center gap-4 p-9 sm:p-11 rounded-2xl bg-gradient-to-br from-pink-500/40 to-pink-500/15 border border-pink-500/60 hover:border-pink-400/90 hover:from-pink-500/50 hover:to-pink-500/20 transition-all transform hover:scale-110 hover:shadow-2xl hover:shadow-pink-500/35 shadow-lg shadow-pink-500/20">
               <Zap className="w-14 sm:w-16 h-14 sm:h-16 text-pink-300 group-hover:scale-125 transition-transform" />
               <span className="font-black text-base sm:text-lg text-white text-center">4.9★ Rating</span>
-              <span className="text-xs sm:text-sm text-slate-200 text-center font-semibold">25K+ verified reviews from real users</span>
+              <span className="text-xs sm:text-sm text-slate-200 text-center font-semibold">Trusted by thousands of real users</span>
             </div>
           </motion.div>
 
