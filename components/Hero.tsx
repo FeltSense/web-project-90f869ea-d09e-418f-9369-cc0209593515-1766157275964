@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Transform Your Kitchen with AI</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Recipes in Seconds, Not Hours</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your Personal AI Chef</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Perfect Recipes in Seconds, Every Time</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              <strong>Say goodbye to meal planning stress.</strong> Our advanced AI chef creates restaurant-quality recipes perfectly matched to your taste, dietary needs, and pantry. Spend less time cooking, save money on groceries, reduce food waste, and finally enjoy meals everyone loves. Join 100K+ happy users transforming their kitchens today. 🚀
+              <strong>Stop wasting time on meal planning.</strong> Our advanced AI chef generates restaurant-quality recipes tailored to your taste, dietary needs, allergies, and available ingredients. Save 10+ hours weekly, cut grocery bills by $1,200+ yearly, eliminate food waste, and finally enjoy meals your whole family loves. Join 100K+ happy users who've transformed their kitchens. 🚀
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -108,25 +108,25 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* CTA Buttons - Premium Enhanced Design */}
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-8 justify-center pt-18 sm:pt-24 px-2">
+          {/* CTA Buttons - Premium Enhanced Design with Improved Messaging */}
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-5 sm:gap-6 justify-center pt-18 sm:pt-24 px-2">
             <Link 
               href="#beta-signup" 
-              className="group relative px-10 sm:px-64 py-10 sm:py-28 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-black text-lg sm:text-3xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-300/70 animate-pulse hover:animate-none backdrop-blur-sm"
+              className="group relative px-8 sm:px-12 py-5 sm:py-6 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-black text-base sm:text-xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-3 overflow-hidden border border-emerald-300/70 animate-pulse hover:animate-none backdrop-blur-sm"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🎯 Get Your AI Chef Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">✨ 7 Days Free • No Credit Card • Full Premium Access • Cancel Anytime</span>
+              <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
+                <span className="text-base sm:text-lg font-black">🎯 Start Your Free Trial</span>
+                <span className="text-xs font-bold opacity-95">7 Days • No Card • Full Access</span>
               </span>
             </Link>
             <Link 
               href="#premium-features" 
-              className="group relative px-10 sm:px-40 py-8 sm:py-16 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-2xl font-bold text-base sm:text-xl transition-all transform hover:scale-105 shadow-xl hover:shadow-blue-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-blue-400/50 backdrop-blur-sm"
+              className="group relative px-8 sm:px-12 py-5 sm:py-6 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-2xl font-bold text-base sm:text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-blue-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-blue-400/50 backdrop-blur-sm"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ See What's Possible
+                ✨ Explore Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -154,12 +154,12 @@ export default function Hero() {
           {/* Urgency & Value Statement - Enhanced */}
           <motion.div variants={itemVariants} className="pt-10 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-red-500/40 to-pink-500/40 border border-red-400/80 rounded-full px-6 sm:px-10 py-4 sm:py-5 hover:from-red-500/50 hover:to-pink-500/50 transition-all shadow-lg shadow-red-500/30 animate-pulse hover:animate-none">
-              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">🎁 Special Offer: 7 Days Free • Full Premium Access • No Credit Card Required • Cancel Anytime</p>
+              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">🎁 Limited Time Offer: 7 Days Free Trial • Unlock All Premium Features • No Credit Card • Cancel Anytime</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-lg shadow-slate-900/40">
               <p className="text-xs sm:text-sm text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
-                <span className="block mb-4 text-sm sm:text-base font-black text-emerald-300">✨ Everything You Need to Cook Like a Pro:</span>
-                <span className="block text-xs sm:text-sm leading-relaxed font-medium">🤖 Unlimited AI Recipes • 📱 Mobile App • 🎯 Dietary Customization • 🛒 Smart Shopping Lists • 💡 Smart Substitutions • 👥 Community Support • 📊 Nutrition Tracking • 🍳 Weekly Meal Plans</span>
+                <span className="block mb-4 text-sm sm:text-base font-black text-emerald-300">✨ Premium Features Included in Your Free Trial:</span>
+                <span className="block text-xs sm:text-sm leading-relaxed font-medium">🤖 Unlimited AI Recipe Generation • 📱 iOS & Android Apps • 🎯 50+ Dietary Customizations • 🛒 Smart Shopping Lists with Price Optimization • 💡 Ingredient Substitutions • 👥 Community Recipes & Tips • 📊 Complete Nutrition Tracking • 🍳 Weekly Personalized Meal Plans • 🌍 Global Cuisine Support • ⏰ Prep Time Optimization</span>
               </p>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto px-2">
