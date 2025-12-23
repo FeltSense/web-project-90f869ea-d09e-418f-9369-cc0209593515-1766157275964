@@ -24,43 +24,32 @@ export default function Home() {
   return (
     <main className="overflow-hidden bg-white">
       <Navigation />
+      
+      {/* Hero Section - Compelling Introduction */}
       <Hero />
       
-      {/* Core Product Features - Comprehensive Feature Showcase */}
+      {/* Core Product Features - Key Capabilities */}
       <CoreProductFeatures />
       
-      {/* Primary Features Section - Main Product Showcase */}
-      <ProductFeaturesShowcase />
+      {/* Benefits Section - Why Choose Us */}
+      <Benefits />
       
-      {/* Key Features Highlight - Core Capabilities */}
-      <HeroKeyFeaturesSection />
-      
-      {/* Premium Key Features Section - Main Feature Highlight */}
+      {/* Premium Features - Main Feature Highlight */}
       <div id="premium-features">
         <PremiumFeaturesSection />
       </div>
       
-      {/* Testimonials Section - Moved Higher for Social Proof */}
+      {/* Social Proof - Testimonials & Success Stories */}
       <Testimonials />
-      
-      {/* Customer Success Stories - Showcase Real Results */}
       <CustomerSuccessStories />
       
-      {/* Additional Features & Benefits */}
-      <KeyProductFeaturesShowcase />
-      <NewProductFeaturesSection />
-      <AdvancedFeaturesSection />
-      <SampleRecipes />
-      <EnhancedProductFeatures />
-      <KeyCapabilitiesSection />
-      <AboutUs />
-      <Benefits />
-      
-      {/* Call to Action & Conversion */}
+      {/* Pricing & Conversion */}
       <div id="beta-signup">
         <BetaSignup />
       </div>
       <Pricing />
+      
+      {/* Additional Resources */}
       <FAQ />
       <ContactForm />
       <Footer />

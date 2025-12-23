@@ -72,40 +72,44 @@ const CoreProductFeatures: React.FC = () => {
   ];
 
   return (
-    <section className="relative w-full py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-slate-100 overflow-hidden">
+    <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-slate-50 to-white overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
-        <div className="absolute top-0 right-1/4 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
-        <div className="absolute -bottom-8 left-1/2 w-96 h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob" />
+        <div className="absolute top-0 right-1/4 w-96 h-96 bg-cyan-200 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob animation-delay-2000" />
+        <div className="absolute -bottom-8 left-1/2 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob animation-delay-4000" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
+            <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
+            <span className="text-sm font-semibold text-emerald-600">✨ Key Features</span>
+          </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Core Features That Transform Your Kitchen
+            Powerful Features Built for You
           </h2>
           <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Discover the powerful capabilities that make our AI recipe generator the ultimate kitchen companion for home cooks and culinary enthusiasts.
+            Everything you need to cook smarter, save time, and enjoy delicious meals every day.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {features.map((feature) => (
             <div
               key={feature.id}
               className="group relative h-full"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl opacity-0 group-hover:opacity-100 blur transition duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-2xl opacity-0 group-hover:opacity-100 blur transition duration-300" />
               
-              <div className="relative h-full bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform group-hover:-translate-y-2">
+              <div className="relative h-full bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 transform group-hover:-translate-y-2 border border-slate-100 group-hover:border-emerald-200">
                 <div className="flex flex-col h-full">
                   <div className="mb-6">
-                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br from-blue-100 to-purple-100 text-blue-600 group-hover:text-purple-600 transition-colors duration-300">
+                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br from-emerald-100 to-cyan-100 text-emerald-600 group-hover:text-cyan-600 transition-colors duration-300">
                       {feature.icon}
                     </div>
                   </div>
 
-                  <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-slate-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-emerald-600 group-hover:to-cyan-600 transition-all duration-300">
                     {feature.title}
                   </h3>
 
@@ -113,10 +117,10 @@ const CoreProductFeatures: React.FC = () => {
                     {feature.description}
                   </p>
 
-                  <div className="space-y-2 pt-4 border-t border-slate-200">
+                  <div className="space-y-2 pt-4 border-t border-slate-100">
                     {feature.benefits.map((benefit, index) => (
                       <div key={index} className="flex items-start gap-2">
-                        <div className="mt-1 w-1.5 h-1.5 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex-shrink-0" />
+                        <div className="mt-1 w-1.5 h-1.5 rounded-full bg-gradient-to-r from-emerald-500 to-cyan-500 flex-shrink-0" />
                         <p className="text-sm text-slate-700">{benefit}</p>
                       </div>
                     ))}
@@ -127,19 +131,19 @@ const CoreProductFeatures: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-16 p-8 sm:p-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl shadow-2xl text-white">
+        <div className="mt-20 p-8 sm:p-12 bg-gradient-to-r from-emerald-600 via-cyan-600 to-blue-600 rounded-3xl shadow-2xl text-white">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="space-y-2">
-              <p className="text-4xl font-bold">10M+</p>
-              <p className="text-blue-100">Recipes Generated</p>
+            <div className="space-y-3">
+              <p className="text-5xl font-bold">10M+</p>
+              <p className="text-emerald-100 font-semibold">Recipes Generated</p>
             </div>
-            <div className="space-y-2">
-              <p className="text-4xl font-bold">500K+</p>
-              <p className="text-blue-100">Active Users</p>
+            <div className="space-y-3">
+              <p className="text-5xl font-bold">100K+</p>
+              <p className="text-emerald-100 font-semibold">Happy Users</p>
             </div>
-            <div className="space-y-2">
-              <p className="text-4xl font-bold">98%</p>
-              <p className="text-blue-100">User Satisfaction</p>
+            <div className="space-y-3">
+              <p className="text-5xl font-bold">4.9★</p>
+              <p className="text-emerald-100 font-semibold">Average Rating</p>
             </div>
           </div>
         </div>

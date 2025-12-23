@@ -82,30 +82,30 @@ const Benefits: React.FC = () => {
   };
 
   return (
-    <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-50 to-white">
+    <section className="relative py-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-white to-slate-50">
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
-        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob" />
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-200 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob animation-delay-2000" />
+        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob animation-delay-4000" />
       </div>
 
       <div className="relative max-w-7xl mx-auto">
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-20"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 border border-amber-300 mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
             <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
             <span className="text-sm font-semibold text-emerald-600">✨ Why Choose Us</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-cyan-500 to-blue-500 bg-clip-text text-transparent mb-6">
             Why 100,000+ Home Cooks Trust Our AI Chef
           </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Stop spending hours on meal planning. Our intelligent AI learns your taste preferences and generates unlimited personalized recipes in seconds. Save 10+ hours weekly, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and enjoy meals your whole family loves. Get personalized meal plans, smart shopping lists, nutrition tracking, and dietary customization—all powered by advanced AI. Join thousands of home cooks who've reclaimed their time and discovered their love for cooking.
+          <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+            Stop spending hours on meal planning. Our intelligent AI learns your taste preferences and generates unlimited personalized recipes in seconds. Save 10+ hours weekly, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and enjoy meals your whole family loves.
           </p>
         </motion.div>
 
@@ -123,14 +123,14 @@ const Benefits: React.FC = () => {
               whileHover={{ y: -8, transition: { duration: 0.3 } }}
               className="group relative"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-orange-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl" />
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl" />
 
-              <div className="relative h-full bg-white border border-slate-200 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+              <div className="relative h-full bg-white border border-slate-100 rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group-hover:border-emerald-200">
                 <div className={`inline-flex p-4 rounded-xl bg-gradient-to-r ${benefit.gradient} mb-6 text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                   {benefit.icon}
                 </div>
 
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-amber-600 transition-colors duration-300">
+                <h3 className="text-lg font-bold text-slate-900 mb-3 group-hover:text-emerald-600 transition-colors duration-300">
                   {benefit.title}
                 </h3>
 
@@ -138,25 +138,25 @@ const Benefits: React.FC = () => {
                   {benefit.description}
                 </p>
 
-                <div className="absolute top-0 right-0 w-1 h-0 bg-gradient-to-b from-amber-500 to-orange-500 group-hover:h-full transition-all duration-500 rounded-r-2xl" />
+                <div className="absolute top-0 right-0 w-1 h-0 bg-gradient-to-b from-emerald-500 to-cyan-500 group-hover:h-full transition-all duration-500 rounded-r-2xl" />
               </div>
             </motion.div>
           ))}
         </motion.div>
 
         <motion.div
-          className="mt-16 text-center"
+          className="mt-20 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <p className="text-slate-600 mb-6 text-lg font-semibold">
+          <p className="text-slate-600 mb-8 text-lg font-semibold">
             Join 100,000+ home cooks who've transformed their kitchen experience
           </p>
-          <button className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-semibold rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-lg">
-            🚀 Get Started Free Today
-            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <button className="inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-2xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-lg text-lg">
+            🚀 Start Your Free Trial
+            <svg className="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </button>
