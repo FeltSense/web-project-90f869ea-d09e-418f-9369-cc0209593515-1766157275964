@@ -23,49 +23,49 @@ const features: Feature[] = [
   {
     id: 1,
     icon: <Zap className="w-8 h-8" />,
-    title: 'Lightning Fast',
-    description: 'Experience blazing-fast performance with optimized load times and seamless interactions across all devices.',
-    gradient: 'from-yellow-400 via-yellow-500 to-orange-500',
-    accentColor: 'hover:shadow-yellow-500/50',
+    title: 'Personalized Meal Planning',
+    description: 'Get AI-powered weekly meal plans tailored to your preferences, dietary needs, and budget. Never struggle with meal planning again.',
+    gradient: 'from-emerald-400 via-teal-500 to-cyan-500',
+    accentColor: 'hover:shadow-emerald-500/50',
   },
   {
     id: 2,
     icon: <Shield className="w-8 h-8" />,
-    title: 'Enterprise Security',
-    description: 'Bank-level encryption and advanced security protocols ensure your data remains protected at all times.',
-    gradient: 'from-blue-400 via-blue-500 to-cyan-500',
-    accentColor: 'hover:shadow-blue-500/50',
-  },
-  {
-    id: 3,
-    icon: <Smartphone className="w-8 h-8" />,
-    title: 'Fully Responsive',
-    description: 'Perfect experience on any device with adaptive layouts that automatically adjust to screen sizes.',
-    gradient: 'from-purple-400 via-purple-500 to-pink-500',
-    accentColor: 'hover:shadow-purple-500/50',
-  },
-  {
-    id: 4,
-    icon: <TrendingUp className="w-8 h-8" />,
-    title: 'Growth Analytics',
-    description: 'Comprehensive insights and real-time analytics to track performance and optimize your strategies.',
+    title: 'Smart Grocery Lists',
+    description: 'Automatically generate organized shopping lists from your meal plans. Save time, reduce waste, and cut costs by up to $1,200 annually.',
     gradient: 'from-green-400 via-emerald-500 to-teal-500',
     accentColor: 'hover:shadow-green-500/50',
   },
   {
+    id: 3,
+    icon: <Smartphone className="w-8 h-8" />,
+    title: 'Mobile-First Experience',
+    description: 'Access your recipes, meal plans, and shopping lists on any device. Seamless sync keeps everything up-to-date wherever you are.',
+    gradient: 'from-blue-400 via-cyan-500 to-teal-500',
+    accentColor: 'hover:shadow-blue-500/50',
+  },
+  {
+    id: 4,
+    icon: <TrendingUp className="w-8 h-8" />,
+    title: 'Cost Optimization',
+    description: 'Reduce your grocery bills significantly with AI-powered budget recommendations and seasonal ingredient suggestions.',
+    gradient: 'from-yellow-400 via-orange-500 to-red-500',
+    accentColor: 'hover:shadow-yellow-500/50',
+  },
+  {
     id: 5,
     icon: <Users className="w-8 h-8" />,
-    title: 'User Collaboration',
-    description: 'Seamless teamwork features that enable real-time collaboration and communication between team members.',
-    gradient: 'from-red-400 via-rose-500 to-pink-500',
-    accentColor: 'hover:shadow-rose-500/50',
+    title: 'Family-Friendly Features',
+    description: 'Create meal plans that work for the whole family. Support for multiple dietary preferences and picky eaters built-in.',
+    gradient: 'from-pink-400 via-rose-500 to-red-500',
+    accentColor: 'hover:shadow-pink-500/50',
   },
   {
     id: 6,
     icon: <Lock className="w-8 h-8" />,
-    title: 'Privacy First',
-    description: 'Your privacy is our priority with granular controls and transparent data handling practices.',
-    gradient: 'from-indigo-400 via-indigo-500 to-purple-500',
+    title: 'Privacy & Security',
+    description: 'Your dietary preferences and shopping habits are encrypted and private. We never share your personal data with third parties.',
+    gradient: 'from-indigo-400 via-purple-500 to-pink-500',
     accentColor: 'hover:shadow-indigo-500/50',
   },
 ];
@@ -124,13 +124,13 @@ const OptimizedFeaturesSection: React.FC = () => {
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
-            Powerful Features
-            <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Built for Success
+            Meal Planning & Grocery Shopping
+            <span className="block bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
+              Made Effortless
             </span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Everything you need to build, deploy, and scale your applications with confidence and ease.
+            Experience the power of AI-driven meal planning and smart grocery list generation. Save time, money, and stress while eating better.
           </p>
         </div>
 

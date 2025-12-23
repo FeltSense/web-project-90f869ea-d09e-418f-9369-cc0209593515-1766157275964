@@ -25,84 +25,15 @@ interface Feature {
 const features: Feature[] = [
   {
     id: 1,
-    title: 'Advanced AI Analysis',
+    title: 'AI Recipe Generation',
     description:
-      'Leverage cutting-edge machine learning models to analyze complex data patterns and extract actionable insights in seconds.',
-    icon: <Brain className="w-8 h-8" />,
-    gradient: 'from-purple-500 to-indigo-600',
-    benefits: ['Real-time analysis', 'Pattern recognition', 'Predictive insights'],
-    useCases: ['Market analysis', 'Risk assessment', 'Trend forecasting'],
-  },
-  {
-    id: 2,
-    title: 'Smart Automation',
-    description:
-      'Automate repetitive tasks with intelligent workflows that learn from your patterns and adapt to your needs.',
-    icon: <Zap className="w-8 h-8" />,
-    gradient: 'from-yellow-500 to-orange-600',
-    benefits: ['90% time savings', 'Error reduction', 'Scalable workflows'],
-    useCases: ['Task scheduling', 'Data processing', 'Report generation'],
-  },
-  {
-    id: 3,
-    title: 'Natural Language Processing',
-    description:
-      'Understand and generate human-like text with advanced NLP capabilities that support multiple languages.',
+      'Get unlimited personalized recipes in seconds. Our advanced AI learns your taste preferences, dietary restrictions, and available ingredients to create restaurant-quality recipes tailored just for you.',
     icon: <Sparkles className="w-8 h-8" />,
-    gradient: 'from-pink-500 to-rose-600',
-    benefits: ['Multi-language support', 'Context awareness', 'High accuracy'],
-    useCases: ['Content creation', 'Sentiment analysis', 'Customer support'],
-  },
-  {
-    id: 4,
-    title: 'Enterprise Security',
-    description:
-      'Protect your data with military-grade encryption and comprehensive security protocols built into every layer.',
-    icon: <Shield className="w-8 h-8" />,
-    gradient: 'from-blue-500 to-cyan-600',
-    benefits: ['256-bit encryption', 'Compliance ready', '99.99% uptime'],
-    useCases: ['Data protection', 'Compliance audits', 'Risk management'],
-  },
-  {
-    id: 5,
-    title: 'Performance Optimization',
-    description:
-      'Maximize efficiency with AI-driven optimization that continuously improves system performance and resource utilization.',
-    icon: <Rocket className="w-8 h-8" />,
-    gradient: 'from-green-500 to-emerald-600',
-    benefits: ['3x faster processing', 'Lower latency', 'Reduced costs'],
-    useCases: ['System tuning', 'Load balancing', 'Cost optimization'],
-  },
-  {
-    id: 6,
-    title: 'Advanced Analytics Dashboard',
-    description:
-      'Visualize complex data with interactive dashboards that provide deep insights into your business metrics.',
-    icon: <BarChart3 className="w-8 h-8" />,
-    gradient: 'from-teal-500 to-blue-600',
-    benefits: ['Real-time updates', 'Custom reports', 'Data visualization'],
-    useCases: ['Performance tracking', 'KPI monitoring', 'Decision making'],
-  },
-  {
-    id: 7,
-    title: 'API Integration Suite',
-    description:
-      'Seamlessly connect with your existing tools and platforms through comprehensive API endpoints and webhooks.',
-    icon: <Code2 className="w-8 h-8" />,
     gradient: 'from-orange-500 to-red-600',
-    benefits: ['100+ integrations', 'REST & GraphQL', 'Webhook support'],
-    useCases: ['System integration', 'Data sync', 'Workflow automation'],
+    benefits: ['Instant recipes', 'Taste-matched', 'Dietary-friendly'],
+    useCases: ['Weeknight dinners', 'Special diets', 'Ingredient-based cooking'],
   },
-  {
-    id: 8,
-    title: 'Customization Engine',
-    description:
-      'Tailor every aspect of the platform to match your brand and specific business requirements.',
-    icon: <Palette className="w-8 h-8" />,
-    gradient: 'from-indigo-500 to-purple-600',
-    benefits: ['White-label ready', 'Custom themes', 'Flexible configuration'],
-    useCases: ['Brand alignment', 'User experience', 'Custom workflows'],
-  },
+  {\n    id: 2,\n    title: 'Personalized Meal Planning',\n    description:\n      'Create customized weekly meal plans that adapt to your preferences, budget, and lifestyle. Never wonder what to cook again with AI-powered meal planning.',\n    icon: <Zap className="w-8 h-8" />,\n    gradient: 'from-emerald-500 to-teal-600',\n    benefits: ['Weekly plans', 'Budget-friendly', 'Preference-based'],\n    useCases: ['Family meals', 'Meal prep', 'Dietary goals'],\n  },\n  {\n    id: 3,\n    title: 'Smart Grocery Lists',\n    description:\n      'Automatically generate organized shopping lists from your meal plans. Save time at the store and reduce food waste with intelligent list generation.',\n    icon: <Brain className="w-8 h-8" />,\n    gradient: 'from-green-500 to-emerald-600',\n    benefits: ['Auto-organized', 'Waste reduction', 'Cost savings'],\n    useCases: ['Smart shopping', 'Budget tracking', 'Pantry management'],\n  },\n  {\n    id: 4,\n    title: 'Nutrition Tracking',\n    description:\n      'Monitor calories, macros, and micronutrients for every recipe and meal plan. Stay on top of your health goals with comprehensive nutrition insights.',\n    icon: <Shield className="w-8 h-8" />,\n    gradient: 'from-blue-500 to-cyan-600',\n    benefits: ['Full nutrition data', 'Macro tracking', 'Health insights'],\n    useCases: ['Fitness goals', 'Diet management', 'Health monitoring'],\n  },\n  {\n    id: 5,\n    title: 'Smart Substitutions',\n    description:\n      'Get intelligent ingredient substitutions based on allergies, preferences, and availability. Cook with confidence knowing you have perfect alternatives.',\n    icon: <Rocket className="w-8 h-8" />,\n    gradient: 'from-purple-500 to-pink-600',\n    benefits: ['Allergy-safe', 'Preference-aware', 'Always available'],\n    useCases: ['Dietary restrictions', 'Ingredient swaps', 'Creative cooking'],\n  },\n  {\n    id: 6,\n    title: 'Cost Optimization',\n    description:\n      'Reduce your grocery bills by up to $1,200 annually. Our AI finds the most budget-friendly recipes and ingredients without sacrificing taste or nutrition.',\n    icon: <BarChart3 className="w-8 h-8" />,\n    gradient: 'from-yellow-500 to-orange-600',\n    benefits: ['Save $1,200+', 'Budget tracking', 'Price optimization'],\n    useCases: ['Budget meals', 'Seasonal cooking', 'Waste reduction'],\n  },\n  {\n    id: 7,\n    title: 'Multi-Diet Support',\n    description:\n      'Support for 50+ dietary preferences including keto, vegan, gluten-free, paleo, and more. Find recipes that match your lifestyle perfectly.',\n    icon: <Code2 className="w-8 h-8" />,\n    gradient: 'from-pink-500 to-rose-600',\n    benefits: ['50+ diets', 'Flexible options', 'Lifestyle-aligned'],\n    useCases: ['Special diets', 'Family preferences', 'Health conditions'],\n  },\n  {\n    id: 8,\n    title: 'Mobile App Access',\n    description:\n      'Access your recipes, meal plans, and shopping lists on the go. Seamless sync across all your devices for cooking anywhere, anytime.',\n    icon: <Palette className="w-8 h-8" />,\n    gradient: 'from-indigo-500 to-purple-600',\n    benefits: ['Mobile-first', 'Cloud sync', 'Offline access'],\n    useCases: ['In-store shopping', 'Recipe browsing', 'Meal planning'],\n  },
 ];
 
 const FeatureCard = ({ feature, index }: { feature: Feature; index: number }) => {
@@ -203,14 +134,14 @@ export default function LatestFeaturesSection() {
           className="text-center mb-12 sm:mb-20"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-            Latest AI-Powered{' '}
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-              Features
+            AI Recipe Generator{' '}
+            <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
+              Key Features
             </span>
           </h2>
           <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-            Discover the newest capabilities powered by advanced artificial
-            intelligence to transform your workflow
+            Discover powerful AI capabilities designed to revolutionize your meal planning, 
+            recipe discovery, and grocery shopping experience
           </p>
         </motion.div>
 
