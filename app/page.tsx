@@ -33,12 +33,16 @@ import Footer from '@/components/Footer'
 import SampleRecipes from '@/components/SampleRecipes'
 import ProductFeaturesHighlight from '@/components/ProductFeaturesHighlight'
 import PremiumFeaturesSection from '@/components/PremiumFeaturesSection'
+import LatestFeaturesSection from '@/components/LatestFeaturesSection'
 
 export default function Home() {
   return (
     <main className="overflow-hidden bg-white">
       <Navigation />
       <Hero />
+      
+      {/* Latest Features Section - New AI Capabilities */}
+      <LatestFeaturesSection />
       
       {/* Main Features Section - Comprehensive Feature Overview */}
       <FeaturesSection />
