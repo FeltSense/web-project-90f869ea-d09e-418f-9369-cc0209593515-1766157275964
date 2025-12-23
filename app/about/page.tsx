@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
 import { Heart, Sparkles, Users, Target } from 'lucide-react';
 
-const AboutPage = () => {
+export default function AboutPage() {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -29,14 +29,14 @@ const AboutPage = () => {
   return (
     <main className="overflow-hidden">
       <Navigation />
-
+      
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-orange-950 to-rose-950 pt-20 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(251,146,60,0.25),transparent_50%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(244,63,94,0.2),transparent_50%)]" />
         <div className="absolute top-0 right-0 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-rose-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" />
-
+        
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             variants={containerVariants}
@@ -89,7 +89,7 @@ const AboutPage = () => {
             <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
               Our Core Values
             </motion.h2>
-
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <motion.div
                 variants={itemVariants}
@@ -156,7 +156,7 @@ const AboutPage = () => {
             <motion.div variants={itemVariants} className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-8 border-l-4 border-amber-500">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">The Vision</h3>
               <p className="text-gray-700 leading-relaxed">
-                Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible and enjoyable for everyone. We saw an opportunity to use AI to solve a universal problem—the daily question of &quot;What&apos;s for dinner?&quot;
+                Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible and enjoyable for everyone. We saw an opportunity to use AI to solve a universal problem—the daily question of "What's for dinner?"
               </p>
             </motion.div>
 
@@ -177,54 +177,56 @@ const AboutPage = () => {
         </div>
       </section>
 
+      {/* Stats Section */}
+
       {/* Team Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-6xl mx-auto">
+      <section className=\"py-20 px-4 sm:px-6 lg:px-8 bg-white\">
+        <div className=\"max-w-6xl mx-auto\">
           <motion.div
             variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
+            initial=\"hidden\"
+            whileInView=\"visible\"
             viewport={{ once: true }}
-            className="space-y-12"
+            className=\"space-y-12\"
           >
-            <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
+            <motion.h2 variants={itemVariants} className=\"text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12\">
               Meet Our Team
             </motion.h2>
-
-            <p className="text-center text-xl text-gray-700 max-w-3xl mx-auto mb-12">
-              Our diverse team brings together expertise in artificial intelligence, culinary arts, product design, and user experience. We&apos;re passionate about making cooking accessible, enjoyable, and personalized for everyone.
+            
+            <p className=\"text-center text-xl text-gray-700 max-w-3xl mx-auto mb-12\">
+              Our diverse team brings together expertise in artificial intelligence, culinary arts, product design, and user experience. We're passionate about making cooking accessible, enjoyable, and personalized for everyone.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className=\"grid grid-cols-1 md:grid-cols-3 gap-8\">
               <motion.div
                 variants={itemVariants}
-                className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all text-center"
+                className=\"bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200 hover:border-amber-400 hover:shadow-lg transition-all text-center\"
               >
-                <div className="w-24 h-24 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👨‍💼</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">AI &amp; Engineering</h3>
-                <p className="text-gray-700">
+                <div className=\"w-24 h-24 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl\">👨‍💼</div>
+                <h3 className=\"text-2xl font-bold text-gray-900 mb-2\">AI & Engineering</h3>
+                <p className=\"text-gray-700\">
                   Our machine learning engineers build the intelligent algorithms that power personalized recipe generation and continuous learning from user preferences.
                 </p>
               </motion.div>
 
               <motion.div
                 variants={itemVariants}
-                className="bg-gradient-to-br from-orange-50 to-rose-50 rounded-2xl p-8 border border-orange-200 hover:border-orange-400 hover:shadow-lg transition-all text-center"
+                className=\"bg-gradient-to-br from-orange-50 to-rose-50 rounded-2xl p-8 border border-orange-200 hover:border-orange-400 hover:shadow-lg transition-all text-center\"
               >
-                <div className="w-24 h-24 bg-gradient-to-br from-orange-400 to-rose-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👨‍🍳</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Culinary Experts</h3>
-                <p className="text-gray-700">
+                <div className=\"w-24 h-24 bg-gradient-to-br from-orange-400 to-rose-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl\">👨‍🍳</div>
+                <h3 className=\"text-2xl font-bold text-gray-900 mb-2\">Culinary Experts</h3>
+                <p className=\"text-gray-700\">
                   Professional chefs and nutritionists ensure every recipe is delicious, nutritionally balanced, and tested for quality and accuracy.
                 </p>
               </motion.div>
 
               <motion.div
                 variants={itemVariants}
-                className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-2xl p-8 border border-rose-200 hover:border-rose-400 hover:shadow-lg transition-all text-center"
+                className=\"bg-gradient-to-br from-rose-50 to-pink-50 rounded-2xl p-8 border border-rose-200 hover:border-rose-400 hover:shadow-lg transition-all text-center\"
               >
-                <div className="w-24 h-24 bg-gradient-to-br from-rose-400 to-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👩‍🎨</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Design &amp; Product</h3>
-                <p className="text-gray-700">
+                <div className=\"w-24 h-24 bg-gradient-to-br from-rose-400 to-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl\">👩‍🎨</div>
+                <h3 className=\"text-2xl font-bold text-gray-900 mb-2\">Design & Product</h3>
+                <p className=\"text-gray-700\">
                   Our designers and product managers create intuitive, beautiful experiences that make cooking with AI feel natural and delightful.
                 </p>
               </motion.div>
@@ -232,6 +234,7 @@ const AboutPage = () => {
           </motion.div>
         </div>
       </section>
+
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-orange-600 via-amber-600 to-rose-600">
         <div className="max-w-6xl mx-auto">
@@ -299,6 +302,4 @@ const AboutPage = () => {
       <Footer />
     </main>
   );
-};
-
-export default AboutPage;
+}
