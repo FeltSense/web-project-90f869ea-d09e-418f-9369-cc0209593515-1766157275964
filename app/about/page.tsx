@@ -49,7 +49,7 @@ export default function AboutPage() {
                 Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Story</span>
               </h1>
               <p className="text-lg sm:text-xl text-slate-100 max-w-2xl mx-auto font-medium">
-                Transforming the way people cook with AI-powered culinary innovation
+                Empowering home cooks with AI-powered recipes tailored to their unique tastes and needs
               </p>
             </motion.div>
           </motion.div>
