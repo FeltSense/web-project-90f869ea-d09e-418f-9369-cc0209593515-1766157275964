@@ -52,11 +52,11 @@ export default function Hero() {
           {/* Main heading */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block mb-3">Your Personal AI Chef, Always Ready to Inspire</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Never Run Out of Meal Ideas • Cook Smarter • Eat Healthier</span>
+              <span className="block mb-3">Transform Your Kitchen with AI-Powered Meal Magic</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400">Endless Recipes • Smart Planning • Healthier Eating</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Discover endless meal possibilities tailored to your taste, budget, and dietary needs. Our AI chef learns what you love and generates recipes you'll actually want to cook. Say goodbye to decision fatigue, food waste, and boring dinners. Get personalized meal plans, smart shopping lists, and complete nutrition tracking—all in one place.
+              Stop wasting time deciding what to cook. Our AI chef generates personalized recipes based on your taste, budget, and dietary needs. Get smart meal plans, automated shopping lists, nutrition tracking, and more—all powered by cutting-edge AI. Join 100,000+ home cooks who've transformed their kitchens.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -112,17 +112,17 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-2xl font-black">🍳 Start Cooking Smarter Now</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Access • Cancel Anytime</span>
+                <span className="text-base sm:text-2xl font-black">🚀 Get 7 Days Free Now</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">No Credit Card • Full Premium Access</span>
               </span>
             </Link>
             <Link 
-              href="#beta-signup" 
+              href="#pricing" 
               className="group relative px-8 sm:px-28 py-6 sm:py-12 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-2xl font-bold text-base sm:text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-blue-500/60 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-blue-400/50"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ Watch Demo
+                💰 See Pricing Plans
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>

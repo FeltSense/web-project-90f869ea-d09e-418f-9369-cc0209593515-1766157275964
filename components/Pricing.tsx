@@ -1,26 +1,72 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Check } from 'lucide-react';
+import { Check, X } from 'lucide-react';
 
-const features = [
-  'Unlimited AI-generated personalized recipes',
-  'Smart weekly meal planning & shopping lists',
-  'Nutrition tracking & dietary customization',
-  'Access to 50+ dietary preferences',
-  'Mobile app with offline access',
-  'Priority 24/7 customer support',
-  'Smart ingredient substitutions',
-  'Family meal planning for up to 6 people',
-  'Allergy & intolerance management',
-  'Budget-friendly meal suggestions',
-  'Recipe scaling for any serving size',
-  'Export to PDF & print recipes',
+const pricingPlans = [
+  {
+    name: 'Starter',
+    price: 'Free',
+    period: 'Forever',
+    description: 'Perfect for exploring AI-powered cooking',
+    features: [
+      { name: 'Up to 5 AI recipes/month', included: true },
+      { name: 'Basic meal planning', included: true },
+      { name: 'Limited dietary preferences', included: true },
+      { name: 'Mobile app access', included: false },
+      { name: 'Nutrition tracking', included: false },
+      { name: 'Shopping lists', included: false },
+      { name: 'Priority support', included: false },
+      { name: 'Family meal planning', included: false },
+    ],
+    cta: 'Get Started',
+    ctaLink: 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00',
+    highlighted: false,
+  },
+  {
+    name: 'Pro',
+    price: '$9.99',
+    period: '/month',
+    description: 'Most popular - Everything you need',
+    features: [
+      { name: 'Unlimited AI recipes', included: true },
+      { name: 'Smart weekly meal planning', included: true },
+      { name: '50+ dietary preferences', included: true },
+      { name: 'Mobile app with offline access', included: true },
+      { name: 'Complete nutrition tracking', included: true },
+      { name: 'Smart shopping lists', included: true },
+      { name: '24/7 customer support', included: true },
+      { name: 'Family meal planning (up to 6)', included: true },
+    ],
+    cta: '🚀 Start 7-Day Free Trial',
+    ctaLink: 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00',
+    highlighted: true,
+    badge: '🔥 50% Off First Month',
+  },
+  {
+    name: 'Premium',
+    price: '$19.99',
+    period: '/month',
+    description: 'For serious home chefs',
+    features: [
+      { name: 'Everything in Pro', included: true },
+      { name: 'Advanced recipe customization', included: true },
+      { name: 'Personal nutrition coaching', included: true },
+      { name: 'Priority recipe generation', included: true },
+      { name: 'Exclusive recipe collections', included: true },
+      { name: 'Advanced analytics & insights', included: true },
+      { name: 'VIP community access', included: true },
+      { name: 'Quarterly meal plan reviews', included: true },
+    ],
+    cta: 'Start Premium Trial',
+    ctaLink: 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00',
+    highlighted: false,
+  },
 ];
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="bg-white py-24 md:py-32">
+    <section id="pricing" className="bg-gradient-to-b from-white via-slate-50 to-white py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -32,50 +78,88 @@ export default function Pricing() {
             <span className="text-sm font-semibold text-emerald-600">💰 Simple, Transparent Pricing</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-4">
-            Affordable Plans for Every Home Cook
+            Plans for Every Home Cook
           </h2>
-          <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            Join 100,000+ home cooks saving 10+ hours weekly and $1,200+ annually. 7-day free trial, no credit card required. Cancel anytime, no questions asked.
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            Start free, upgrade anytime. No credit card required. Cancel anytime, no questions asked.
           </p>
         </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-6 max-w-6xl mx-auto">
+          {pricingPlans.map((plan, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className={`relative rounded-2xl transition-all duration-300 ${
+                plan.highlighted
+                  ? 'md:scale-105 bg-gradient-to-br from-emerald-50 to-cyan-50 border-2 border-emerald-400 shadow-2xl'
+                  : 'bg-gradient-to-br from-white to-slate-50 border border-slate-200 shadow-lg hover:shadow-xl'
+              }`}
+            >
+              {plan.badge && (
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                  <div className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-xs px-4 py-1 rounded-full font-semibold animate-pulse">
+                    {plan.badge}
+                  </div>
+                </div>
+              )}
+
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-slate-900 mb-2">{plan.name}</h3>
+                <p className="text-sm text-slate-600 mb-6">{plan.description}</p>
+
+                <div className="mb-8">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-4xl font-bold text-slate-900">{plan.price}</span>
+                    {plan.period && <span className="text-slate-600 font-semibold">{plan.period}</span>}
+                  </div>
+                </div>
+
+                <button
+                  onClick={() => window.location.href = plan.ctaLink}
+                  className={`w-full font-semibold rounded-xl px-6 py-3 transition-all duration-300 transform hover:scale-105 active:scale-95 mb-8 ${
+                    plan.highlighted
+                      ? 'bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white shadow-lg hover:shadow-xl'
+                      : 'bg-slate-100 hover:bg-slate-200 text-slate-900 border border-slate-300'
+                  }`}
+                >
+                  {plan.cta}
+                </button>
+
+                <div className="space-y-4">
+                  {plan.features.map((feature, featureIndex) => (
+                    <div key={featureIndex} className="flex items-start gap-3">
+                      {feature.included ? (
+                        <Check className="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5" />
+                      ) : (
+                        <X className="w-5 h-5 text-slate-300 flex-shrink-0 mt-0.5" />
+                      )}
+                      <span className={feature.included ? 'text-slate-700' : 'text-slate-400'}>
+                        {feature.name}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="max-w-lg mx-auto bg-gradient-to-br from-white to-slate-50 rounded-2xl shadow-lg border border-slate-200 p-8 hover:shadow-2xl transition-all duration-300 relative overflow-hidden"
+          className="mt-16 text-center"
         >
-          <div className="absolute top-0 right-0 w-40 h-40 bg-emerald-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20" />
-          <div className="relative z-10">
-            <div className="inline-block bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-xs px-3 py-1 rounded-full font-semibold mb-4 animate-pulse">
-              🔥 Limited Time: 50% Off First Month
-            </div>
-            <div className="flex items-baseline justify-center gap-2 mb-8">
-              <span className="text-5xl font-bold text-slate-900">$9.99</span>
-              <span className="text-lg text-slate-600 font-semibold">/month</span>
-              <span className="text-sm text-slate-500 line-through">$19.99</span>
-            </div>
-          
-          <ul className="space-y-4 mb-8">
-            {features.map((feature, index) => (
-              <li key={index} className="flex items-start gap-3">
-                <Check className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" />
-                <span className="text-slate-700">{feature}</span>
-              </li>
-            ))}
-          </ul>
-
-            <button
-              onClick={() => window.location.href = 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00'}
-              className="w-full bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white font-semibold rounded-xl px-8 py-4 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 transform active:scale-95"
-            >
-              🚀 Start Your Free Trial Now
-            </button>
-
-            <p className="text-center text-sm text-slate-500 mt-6">
-              ✓ No credit card required • ✓ Cancel anytime • ✓ Then $9.99/month
-            </p>
-          </div>
+          <p className="text-slate-600 mb-4">
+            ✓ 7-day free trial on Pro plan • ✓ No credit card required • ✓ Cancel anytime
+          </p>
+          <p className="text-sm text-slate-500">
+            All plans include access to our community, recipe database, and regular updates.
+          </p>
         </motion.div>
       </div>
     </section>
