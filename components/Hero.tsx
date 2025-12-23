@@ -53,8 +53,8 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Never Struggle With Meal Planning Again</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">AI Creates Perfect Recipes in Seconds</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Transform Your Kitchen with AI-Powered Cooking</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Recipes, Meal Plans & Shopping Lists in Seconds</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
               <strong>Stop wasting time on meal planning and grocery shopping.</strong> Our AI-powered recipe generator creates personalized, restaurant-quality recipes tailored to your preferences, dietary needs, and available ingredients—instantly. Save 10+ hours weekly, reduce food waste by 40%, cut grocery costs by $1,200+ annually, and finally enjoy meals your whole family loves. Join 100K+ users who've already transformed their kitchens. 🎯
