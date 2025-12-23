@@ -34,6 +34,7 @@ import SampleRecipes from '@/components/SampleRecipes'
 import ProductFeaturesHighlight from '@/components/ProductFeaturesHighlight'
 import PremiumFeaturesSection from '@/components/PremiumFeaturesSection'
 import LatestFeaturesSection from '@/components/LatestFeaturesSection'
+import OptimizedFeaturesSection from '@/components/OptimizedFeaturesSection'
 
 export default function Home() {
   return (
@@ -43,6 +44,9 @@ export default function Home() {
       
       {/* Latest Features Section - New AI Capabilities */}
       <LatestFeaturesSection />
+      
+      {/* Optimized Features Section - New Design */}
+      <OptimizedFeaturesSection />
       
       {/* Main Features Section - Comprehensive Feature Overview */}
       <FeaturesSection />

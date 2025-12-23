@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your Personal AI Chef Awaits</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Delicious, Personalized Recipes in Seconds</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">AI-Powered Recipes That Fit Your Life</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Meals in Seconds, Not Hours</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              <strong>Transform your kitchen in seconds.</strong> Our intelligent AI learns what you love, respects your dietary needs, and creates personalized recipes from ingredients you already have. No more decision fatigue, no more food waste, no more boring meals. Just delicious, restaurant-quality dinners that your family will actually want to eat. 🚀
+              <strong>Stop wasting time on meal planning.</strong> Our advanced AI learns your preferences, respects dietary restrictions, and generates restaurant-quality recipes from ingredients you already have. Save 10+ hours weekly, reduce food waste by 40%, and enjoy meals your whole family loves. Join 100K+ users transforming their kitchens. 🚀
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -116,7 +116,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Cooking Smarter Today</span>
+                <span className="text-base sm:text-3xl font-black">🚀 Get Started Free Today</span>
                 <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Access • No Credit Card</span>
               </span>
             </Link>
