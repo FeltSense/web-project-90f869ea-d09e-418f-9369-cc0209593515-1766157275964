@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">🍽️ Your Personal AI Chef</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Discover Recipes You'll Love, Every Single Day</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Never Stress About Dinner Again</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">AI-Powered Recipes Tailored to Your Taste</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              🎯 <strong>Stop wasting time on meal planning. Start cooking with confidence.</strong> Our advanced AI-powered recipe generator learns your taste preferences, dietary restrictions, and available ingredients to create personalized recipes in seconds. Get unlimited meal plans, smart shopping lists, comprehensive nutrition tracking, and intelligent substitutions—all powered by cutting-edge artificial intelligence. 🚀 Join 100,000+ home cooks who are saving 10+ hours weekly, cutting food waste by 40%, reducing grocery bills by $1,200+ annually, and enjoying restaurant-quality meals at home. ✨
+              <strong>Transform your kitchen in seconds.</strong> Our intelligent AI learns what you love, respects your dietary needs, and creates personalized recipes from ingredients you already have. No more decision fatigue, no more food waste, no more boring meals. Just delicious, restaurant-quality dinners that your family will actually want to eat. 🚀
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -109,15 +109,15 @@ export default function Hero() {
           </motion.div>
 
           {/* CTA Buttons - Premium Enhanced Design */}
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center pt-12 sm:pt-16 px-2">
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center pt-16 sm:pt-20 px-2">
             <Link 
               href="#beta-signup" 
-              className="group relative px-8 sm:px-48 py-8 sm:py-20 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-black text-lg sm:text-3xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-300/70 animate-pulse hover:animate-none backdrop-blur-sm"
+              className="group relative px-8 sm:px-56 py-8 sm:py-24 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-500 text-white rounded-2xl font-black text-lg sm:text-3xl transition-all transform hover:scale-105 shadow-2xl hover:shadow-emerald-500/90 active:scale-95 flex items-center justify-center gap-2 overflow-hidden border border-emerald-300/70 animate-pulse hover:animate-none backdrop-blur-sm"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-2 whitespace-nowrap">
-                <span className="text-base sm:text-3xl font-black">🚀 Start Cooking Smarter Today</span>
-                <span className="text-xs sm:text-sm font-bold opacity-95">7 Days Free • Full Access • Cancel Anytime</span>
+                <span className="text-base sm:text-3xl font-black">🚀 Get Your Free 7-Day Trial</span>
+                <span className="text-xs sm:text-sm font-bold opacity-95">Full Access • No Credit Card • Cancel Anytime</span>
               </span>
             </Link>
             <Link 
@@ -126,7 +126,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ See What's Possible
+                ✨ Explore Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -154,7 +154,7 @@ export default function Hero() {
           {/* Urgency & Value Statement - Enhanced */}
           <motion.div variants={itemVariants} className="pt-10 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-red-500/40 to-pink-500/40 border border-red-400/80 rounded-full px-6 sm:px-10 py-4 sm:py-5 hover:from-red-500/50 hover:to-pink-500/50 transition-all shadow-lg shadow-red-500/30 animate-pulse hover:animate-none">
-              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">⚡ SPECIAL OFFER: 7 Days Free • Full Premium Access • No Credit Card • Start Saving Time Today</p>
+              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">⚡ LIMITED TIME: 7 Days Free • Full Premium Access • No Credit Card Required</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-lg shadow-slate-900/40">
               <p className="text-xs sm:text-sm text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
