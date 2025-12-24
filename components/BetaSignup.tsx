@@ -109,10 +109,10 @@ export default function BetaSignup(): JSX.Element {
         {/* Main headline */}
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-100 bg-clip-text text-transparent leading-tight">
-            🤖 Join the AI Recipe Revolution
+            🤖 Start Your Free Trial Today
           </h1>
           <p className="text-lg sm:text-xl text-purple-200 max-w-2xl mx-auto">
-            Get exclusive early access to our AI recipe generator. Create unlimited personalized recipes, meal plans, and shopping lists in seconds. Join 100,000+ users transforming their kitchens.
+            Get 7 days of unlimited access to premium features completely free. Create personalized recipes, meal plans, and smart shopping lists powered by advanced AI. No credit card required—cancel anytime.
           </p>
         </div>
 
@@ -204,7 +204,7 @@ export default function BetaSignup(): JSX.Element {
               )}
 
               <p className="text-purple-300 text-sm mt-4">
-                🎁 Early beta users get: 7 days free premium access, lifetime 50% discount, priority support & exclusive features
+                ✨ Your free trial includes: Unlimited AI recipes • Personalized meal plans • Smart shopping lists • Full nutrition tracking • 50+ dietary options • Mobile apps • Priority support
               </p>
             </form>
           )}
