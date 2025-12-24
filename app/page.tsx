@@ -5,6 +5,7 @@ import Hero from '@/components/Hero'
 import HeroKeyFeaturesHighlight from '@/components/HeroKeyFeaturesHighlight'
 import CoreProductFeatures from '@/components/CoreProductFeatures'
 import Benefits from '@/components/Benefits'
+import SampleRecipes from '@/components/SampleRecipes'
 import PremiumFeaturesSection from '@/components/PremiumFeaturesSection'
 import Testimonials from '@/components/Testimonials'
 import CustomerSuccessStories from '@/components/CustomerSuccessStories'
@@ -22,6 +23,7 @@ export default function Home() {
       <HeroKeyFeaturesHighlight />
       <CoreProductFeatures />
       <Benefits />
+      <SampleRecipes />
       <div id="premium-features">
         <PremiumFeaturesSection />
       </div>
