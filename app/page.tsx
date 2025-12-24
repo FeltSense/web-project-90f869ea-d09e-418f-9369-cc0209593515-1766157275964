@@ -17,7 +17,7 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className="overflow-hidden bg-white">
+    <main className="overflow-hidden bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
       <Navigation />
       <Hero />
       <HeroKeyFeaturesHighlight />

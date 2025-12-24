@@ -126,7 +126,7 @@ function PricingCard({ tier, index }: { tier: PricingTier; index: number }): JSX
       viewport={{ once: true }}
       className={`relative rounded-2xl backdrop-blur-sm transition-all duration-300 ${
         tier.highlighted
-          ? 'bg-gradient-to-br from-orange-500 via-rose-500 to-amber-500 p-8 ring-2 ring-orange-400 shadow-2xl scale-105 lg:scale-110'
+          ? 'bg-gradient-to-br from-emerald-500 via-teal-500 to-emerald-500 p-8 ring-2 ring-emerald-400 shadow-2xl scale-105 lg:scale-110'
           : 'bg-white/10 border border-white/20 p-8 hover:border-white/40'
       }`}
     >
@@ -156,7 +156,7 @@ function PricingCard({ tier, index }: { tier: PricingTier; index: number }): JSX
       <button
         className={`w-full py-3 rounded-lg font-semibold mb-8 transition-all duration-300 ${
           tier.highlighted
-            ? 'bg-white text-orange-600 hover:bg-gray-100 shadow-lg'
+            ? 'bg-white text-emerald-600 hover:bg-gray-100 shadow-lg'
             : 'bg-white/20 text-white border border-white/30 hover:bg-white/30'
         }`}
       >
@@ -175,7 +175,7 @@ function PricingCard({ tier, index }: { tier: PricingTier; index: number }): JSX
           >
             <Check
               className={`w-5 h-5 flex-shrink-0 ${
-                tier.highlighted ? 'text-white' : 'text-amber-300'
+                tier.highlighted ? 'text-white' : 'text-emerald-300'
               }`}
             />
             <span className={tier.highlighted ? 'text-white' : 'text-gray-300'}>
@@ -203,7 +203,7 @@ function ComparisonTable(): JSX.Element {
             <tr className="border-b border-white/10">
               <th className="px-6 py-4 text-left text-gray-300 font-semibold">Feature</th>
               <th className="px-6 py-4 text-center text-gray-300 font-semibold">Starter</th>
-              <th className="px-6 py-4 text-center bg-gradient-to-b from-orange-500/10 to-transparent text-amber-300 font-semibold">
+              <th className="px-6 py-4 text-center bg-gradient-to-b from-emerald-500/10 to-transparent text-emerald-300 font-semibold">
                 Pro
               </th>
               <th className="px-6 py-4 text-center text-gray-300 font-semibold">Premium</th>
@@ -290,10 +290,10 @@ function FAQAccordion(): JSX.Element {
 
 export default function PricingPage(): JSX.Element {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 overflow-hidden">
       {/* Animated background elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-orange-500/20 to-rose-500/20 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-full blur-3xl animate-pulse" />
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-amber-500/20 to-orange-500/20 rounded-full blur-3xl animate-pulse delay-1000" />
       </div>
 
@@ -307,15 +307,15 @@ export default function PricingPage(): JSX.Element {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-              Simple, Transparent{' '}
-              <span className="bg-gradient-to-r from-amber-300 via-orange-400 to-rose-500 bg-clip-text text-transparent">
+              Affordable Plans for{' '}
+              <span className="bg-gradient-to-r from-emerald-300 via-teal-400 to-cyan-500 bg-clip-text text-transparent">
                 Pricing Plans
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
-              Choose the perfect plan for your cooking journey. All plans include a 7-day free trial with full access to premium features.
+              Start free and upgrade anytime. All plans include a 7-day free trial with full access to premium features. No credit card required.
             </p>
-            <p className="text-lg text-amber-300 font-semibold">
+            <p className="text-lg text-emerald-300 font-semibold">
               🎁 7-Day Free Trial • 💰 Save 20% with Annual Billing • 🔄 Cancel Anytime • ✅ No Credit Card Required
             </p>
 
@@ -323,14 +323,14 @@ export default function PricingPage(): JSX.Element {
             <div className="flex items-center justify-center gap-4 mb-12">
               <span className="text-gray-400">Monthly</span>
               <div className="bg-white/10 border border-white/20 rounded-full p-1 flex">
-                <button className="px-6 py-2 rounded-full bg-gradient-to-r from-orange-500 to-rose-500 text-white font-semibold">
+                <button className="px-6 py-2 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-semibold">
                   Monthly
                 </button>
                 <button className="px-6 py-2 rounded-full text-gray-400 hover:text-white transition-colors">
                   Annual
                 </button>
               </div>
-              <span className="text-amber-300 font-semibold">Save 20%</span>
+              <span className="text-emerald-300 font-semibold">Save 20%</span>
             </div>
           </motion.div>
         </section>
@@ -351,7 +351,7 @@ export default function PricingPage(): JSX.Element {
               className="mt-16 text-center"
             >
               <p className="text-gray-300 text-lg mb-4">💡 All plans include a 7-day free trial with full access to premium features</p>
-              <p className="text-amber-300 font-semibold text-base">Save 20% when you switch to annual billing</p>
+              <p className="text-emerald-300 font-semibold text-base">Save 20% when you switch to annual billing</p>
             </motion.div>
           </div>
         </section>
@@ -434,7 +434,7 @@ export default function PricingPage(): JSX.Element {
             <p className="text-gray-400 mb-4">Have questions? We're here to help.</p>
             <Link
               href="/contact"
-              className="inline-block text-amber-400 hover:text-amber-300 font-semibold transition-colors"
+              className="inline-block text-amber-400 hover:text-emerald-300 font-semibold transition-colors"
             >
               Contact our sales team →
             </Link>
