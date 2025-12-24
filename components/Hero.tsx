@@ -57,7 +57,7 @@ export default function Hero() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Delicious Recipes in Seconds</span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-100 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time on meal planning. Get AI-generated recipes tailored to your taste, dietary needs, and available ingredients. Cook restaurant-quality meals every night while saving time, money, and reducing food waste.
+              Transform your kitchen with AI-powered recipes tailored to your taste, dietary needs, and available ingredients. Cook restaurant-quality meals every night, save 10+ hours weekly, and cut grocery bills by $1,200+ annually—all while reducing food waste.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>

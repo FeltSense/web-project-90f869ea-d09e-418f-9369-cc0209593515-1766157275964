@@ -18,7 +18,7 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
       id: 1,
       icon: <ChefHat className="w-8 h-8" />,
       title: 'AI-Powered Recipes',
-      description: 'Get unlimited unique recipes in seconds, perfectly matched to your taste, dietary needs, and available ingredients. Never run out of meal ideas again.',
+      description: 'Get unlimited unique recipes in seconds, perfectly matched to your taste, dietary needs, and available ingredients. Our AI learns your preferences to deliver increasingly personalized suggestions.',
       gradient: 'from-orange-400 to-red-500',
       iconBg: 'bg-orange-100',
     },
@@ -26,7 +26,7 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
       id: 2,
       icon: <Calendar className="w-8 h-8" />,
       title: 'Personalized Meal Plans',
-      description: 'Enjoy personalized weekly meal plans that fit your lifestyle, budget, and health goals. Save hours of planning every week.',
+      description: 'Enjoy weekly meal plans that fit your lifestyle, budget, and health goals. Save 10+ hours of planning every week with intelligent meal sequencing.',
       gradient: 'from-blue-400 to-cyan-500',
       iconBg: 'bg-blue-100',
     },
@@ -34,7 +34,7 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
       id: 3,
       icon: <Leaf className="w-8 h-8" />,
       title: 'Nutrition Tracking',
-      description: 'Track every calorie, macro, and nutrient automatically. Stay on top of your health goals without the guesswork.',
+      description: 'Complete nutrition data for every recipe. Track calories, macros, and nutrients automatically—no manual entry needed. Stay on top of your health goals effortlessly.',
       gradient: 'from-green-400 to-emerald-500',
       iconBg: 'bg-green-100',
     },
@@ -42,7 +42,7 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
       id: 4,
       icon: <ShoppingCart className="w-8 h-8" />,
       title: 'Smart Shopping Lists',
-      description: 'Get organized shopping lists with exact quantities and prices. Shop smarter and save money on every trip.',
+      description: 'Get organized shopping lists with exact quantities and price optimization. Shop smarter, reduce waste, and save $1,200+ annually on groceries.',
       gradient: 'from-purple-400 to-pink-500',
       iconBg: 'bg-purple-100',
     },
@@ -50,7 +50,7 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
       id: 5,
       icon: <Settings className="w-8 h-8" />,
       title: 'Dietary Customization',
-      description: 'Support for 50+ diets and dietary restrictions. Allergies, vegan, keto, gluten-free, and more—all covered.',
+      description: 'Support for 50+ diets and dietary restrictions. Vegan, keto, paleo, gluten-free, low-carb, and more—all perfectly accommodated with smart substitutions.',
       gradient: 'from-yellow-400 to-orange-500',
       iconBg: 'bg-yellow-100',
     },
@@ -58,21 +58,24 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
       id: 6,
       icon: <Users className="w-8 h-8" />,
       title: 'Community Recipes',
-      description: 'Connect with 100K+ food lovers. Share your favorites, discover trending recipes, and get inspired daily.',
+      description: 'Connect with 100K+ food lovers worldwide. Share your wins, discover trending recipes, get inspired daily, and build your culinary network.',
       gradient: 'from-rose-400 to-pink-500',
       iconBg: 'bg-rose-100',
     },
   ];
 
   return (
-    <section className="w-full py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-white to-gray-50">
+    <section className="w-full py-24 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-white via-slate-50 to-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Powerful Features for Smart Cooking
+        <div className="text-center mb-20">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
+            <span className="text-sm font-semibold text-emerald-600">✨ Key Benefits</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Everything You Need to Cook Smarter
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to revolutionize your cooking experience with cutting-edge AI technology
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Powerful AI-driven features designed to save you time, money, and effort while delivering restaurant-quality meals every single day
           </p>
         </div>
 

@@ -17,56 +17,56 @@ const CoreProductFeatures: React.FC = () => {
       id: 1,
       icon: <ChefHat className="w-8 h-8" />,
       title: 'AI-Powered Recipe Generation',
-      description: 'Our AI learns your taste, dietary needs, and kitchen inventory to generate unlimited unique recipes in seconds. Say goodbye to boring meals forever.',
-      benefits: ['Custom recipe creation', 'Flavor profile matching', 'Ingredient optimization']
+      description: 'Our advanced AI learns your taste preferences, dietary needs, and kitchen inventory to generate unlimited unique recipes in seconds. Never run out of meal ideas again.',
+      benefits: ['Unlimited recipe creation', 'Flavor profile matching', 'Ingredient optimization']
     },
     {
       id: 2,
       icon: <Sparkles className="w-8 h-8" />,
-      title: 'Smart Ingredient Suggestions',
-      description: 'Never waste ingredients again. Get smart substitutions that work with what you have, reducing waste and saving money.',
-      benefits: ['Reduce food waste', 'Budget-friendly options', 'Dietary accommodations']
+      title: 'Smart Ingredient Substitutions',
+      description: 'Reduce food waste and save money with intelligent substitutions. Get creative alternatives that work perfectly with what you already have at home.',
+      benefits: ['Minimize food waste', 'Budget-friendly options', 'Dietary accommodations']
     },
     {
       id: 3,
       icon: <Clock className="w-8 h-8" />,
-      title: 'Quick Meal Planning',
-      description: 'Plan your entire week in minutes. Get balanced, delicious meals organized by prep time and difficulty level.',
-      benefits: ['Save planning time', 'Balanced nutrition', 'Difficulty filters']
+      title: 'Intelligent Meal Planning',
+      description: 'Plan your entire week in minutes with perfectly balanced meals. Organized by prep time, difficulty, and nutritional goals for maximum convenience.',
+      benefits: ['Save 10+ hours weekly', 'Balanced nutrition', 'Difficulty filters']
     },
     {
       id: 4,
       icon: <Leaf className="w-8 h-8" />,
-      title: 'Dietary Preference Support',
-      description: 'Support for 50+ diets including vegan, keto, paleo, gluten-free, and more. Your dietary needs, perfectly accommodated.',
-      benefits: ['Multiple diet types', 'Allergy filtering', 'Macro tracking']
+      title: 'Comprehensive Dietary Support',
+      description: 'Support for 50+ diets including vegan, keto, paleo, gluten-free, low-carb, and more. Every dietary need is perfectly accommodated with smart alternatives.',
+      benefits: ['50+ diet types', 'Allergy filtering', 'Macro tracking']
     },
     {
       id: 5,
       icon: <Users className="w-8 h-8" />,
-      title: 'Community & Sharing',
-      description: 'Share your wins with 100K+ food lovers. Discover trending recipes, get inspired, and build your culinary network.',
+      title: 'Vibrant Community & Sharing',
+      description: 'Connect with 100K+ food lovers worldwide. Share your culinary wins, discover trending recipes, get inspired, and build your food community.',
       benefits: ['Social sharing', 'Recipe ratings', 'Trending discoveries']
     },
     {
       id: 6,
       icon: <Zap className="w-8 h-8" />,
-      title: 'Instant Nutritional Analysis',
-      description: 'Every recipe comes with complete nutrition data. Track calories, macros, and nutrients automatically—no manual entry needed.',
+      title: 'Complete Nutritional Analysis',
+      description: 'Every recipe includes comprehensive nutrition data. Track calories, macros, and nutrients automatically—no manual entry needed. Stay on top of your health goals.',
       benefits: ['Complete nutrition data', 'Calorie tracking', 'Macro insights']
     },
     {
       id: 7,
       icon: <BookOpen className="w-8 h-8" />,
       title: 'Interactive Cooking Guides',
-      description: 'Follow easy step-by-step guides with pro tips and timing. Cook restaurant-quality meals at home, every time.',
+      description: 'Follow easy step-by-step guides with pro tips, timing assistance, and visual cues. Cook restaurant-quality meals at home with confidence, every time.',
       benefits: ['Visual guides', 'Expert tips', 'Timing assistance']
     },
     {
       id: 8,
       icon: <TrendingUp className="w-8 h-8" />,
-      title: 'Personalized Learning',
-      description: 'The more you use it, the smarter it gets. Our AI learns your taste and improves recommendations with every recipe.',
+      title: 'Adaptive AI Learning',
+      description: 'The more you use it, the smarter it gets. Our AI continuously learns your taste preferences and improves recommendations with every recipe you create.',
       benefits: ['Improved accuracy', 'Personal taste profile', 'Smart evolution']
     }
   ];
@@ -83,13 +83,13 @@ const CoreProductFeatures: React.FC = () => {
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
             <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
-            <span className="text-sm font-semibold text-emerald-600">✨ Key Features</span>
+            <span className="text-sm font-semibold text-emerald-600">✨ Advanced Capabilities</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Powerful Features Built for You
+            Advanced AI Features That Transform Your Cooking
           </h2>
           <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Everything you need to cook smarter, save time, and enjoy delicious meals every day.
+            Discover the complete suite of intelligent features designed to revolutionize how you plan, cook, and enjoy meals. From AI-powered recipe generation to smart nutrition tracking, we've got everything covered.
           </p>
         </div>
 
@@ -132,18 +132,26 @@ const CoreProductFeatures: React.FC = () => {
         </div>
 
         <div className="mt-20 p-8 sm:p-12 bg-gradient-to-r from-emerald-600 via-cyan-600 to-blue-600 rounded-3xl shadow-2xl text-white">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div className="space-y-3">
               <p className="text-5xl font-bold">10M+</p>
               <p className="text-emerald-100 font-semibold">Recipes Generated</p>
+              <p className="text-xs text-emerald-200">Every month</p>
             </div>
             <div className="space-y-3">
               <p className="text-5xl font-bold">100K+</p>
               <p className="text-emerald-100 font-semibold">Happy Users</p>
+              <p className="text-xs text-emerald-200">Worldwide</p>
             </div>
             <div className="space-y-3">
               <p className="text-5xl font-bold">4.9★</p>
               <p className="text-emerald-100 font-semibold">Average Rating</p>
+              <p className="text-xs text-emerald-200">Highly trusted</p>
+            </div>
+            <div className="space-y-3">
+              <p className="text-5xl font-bold">$1.2K+</p>
+              <p className="text-emerald-100 font-semibold">Saved Annually</p>
+              <p className="text-xs text-emerald-200">Per user</p>
             </div>
           </div>
         </div>
