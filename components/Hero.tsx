@@ -53,8 +53,8 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your Personal AI Chef, Always Ready</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Perfect Recipes in Seconds • Personalized to You • Zero Waste</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Transform Your Kitchen with AI Magic</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Gourmet Meals in Minutes • Tailored to Your Taste • Waste Nothing</span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-100 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
               Tired of boring meals and endless recipe scrolling? Meet your AI-powered kitchen companion that learns your taste, respects your dietary needs, and transforms whatever ingredients you have into restaurant-quality dishes. Get personalized meal plans, smart shopping lists, and nutrition tracking—all in one place.
@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-lg font-black">🚀 Start Your Free Trial Now</span>
-                <span className="text-xs font-bold opacity-95">7 Days Free • No Credit Card Required</span>
+                <span className="text-base sm:text-lg font-black">🚀 Get Started Free Today</span>
+                <span className="text-xs font-bold opacity-95">7 Days Full Access • No Card Needed • Cancel Anytime</span>
               </span>
             </Link>
             <Link 
