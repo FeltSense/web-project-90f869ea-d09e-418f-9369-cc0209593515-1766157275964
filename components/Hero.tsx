@@ -57,7 +57,7 @@ export default function Hero() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Meals in Seconds, Not Hours</span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-100 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time deciding what to cook. Our AI learns your taste, dietary needs, and available ingredients to create perfect recipes instantly. Save 10+ hours weekly, cut food waste by 60%, and rediscover the joy of cooking.
+              Stop wasting time deciding what to cook. Our AI learns your taste, dietary needs, and available ingredients to create perfect recipes instantly. <span className=\"text-emerald-300 font-black\">Save 10+ hours weekly</span>, <span className=\"text-cyan-300 font-black\">cut food waste by 60%</span>, and <span className=\"text-blue-300 font-black\">rediscover the joy of cooking</span>.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>

@@ -78,7 +78,7 @@ export default function Pricing() {
             <span className="text-sm font-semibold text-emerald-600">💰 Simple, Transparent Pricing</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-4">
-            Plans for Every Home Cook
+            💳 Plans for Every Home Cook
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             Start free, upgrade anytime. No credit card required. Cancel anytime, no questions asked.

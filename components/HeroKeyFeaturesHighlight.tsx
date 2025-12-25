@@ -72,7 +72,7 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
             <span className="text-sm font-semibold bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">✨ Key Benefits</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Powerful Features That Transform Your Cooking
+            ✨ Powerful Features That Transform Your Cooking
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Discover the AI-powered tools that make meal planning effortless, save you thousands yearly, and help you cook like a professional chef every single day

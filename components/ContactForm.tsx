@@ -60,7 +60,7 @@ export default function ContactForm() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-500/30 mb-6">
             <span className="text-sm font-semibold text-emerald-300">📧 Get In Touch</span>
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-white mb-4">Ready to Cook Better?</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-white mb-4">🍳 Ready to Cook Better?</h2>
           <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">Join 100,000+ home cooks. Get personalized recipes, meal plans, and save 10+ hours weekly. Start your free trial today!</p>
         </motion.div>
 

@@ -102,7 +102,7 @@ const Benefits: React.FC = () => {
             <span className="text-sm font-semibold bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">✨ Why Choose Us</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-600 via-cyan-500 to-blue-500 bg-clip-text text-transparent mb-6">
-            Powerful Features That Transform Your Cooking
+            ✨ Powerful Features That Transform Your Cooking
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
             Experience the power of AI-driven cooking. Our intelligent system learns your preferences and generates unlimited personalized recipes instantly. Save 10+ hours every week, reduce food waste by 40%, cut grocery costs by $1,200+ yearly, and enjoy restaurant-quality meals at home.

@@ -86,7 +86,7 @@ const CoreProductFeatures: React.FC = () => {
             <span className="text-sm font-semibold bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">✨ Advanced Capabilities</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Advanced AI Features That Transform Your Cooking
+            🚀 Advanced AI Features That Transform Your Cooking
           </h2>
           <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
             Discover the complete suite of intelligent features designed to revolutionize how you plan, cook, and enjoy meals. From AI-powered recipe generation to smart nutrition tracking, we've got everything covered.

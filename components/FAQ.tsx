@@ -128,7 +128,7 @@ export default function FAQ(): JSX.Element {
             <span className="text-sm font-semibold text-emerald-300">❓ Questions? We Have Answers</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            Frequently Asked Questions
+            ❓ Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-400">
             Everything you need to know about getting started with AI-powered meal planning and recipe generation
