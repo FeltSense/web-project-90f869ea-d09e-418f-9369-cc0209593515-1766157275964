@@ -46,18 +46,18 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex justify-center px-2">
             <div className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/50 backdrop-blur-md hover:from-emerald-500/30 hover:to-cyan-500/30 transition-all shadow-lg shadow-emerald-500/10">
               <Sparkles className="w-4 h-4 text-emerald-300 animate-spin" style={{ animationDuration: '3s' }} />
-              <span className="text-xs sm:text-sm font-bold text-emerald-100">✨ AI Recipe Generator • 100,000+ Users • 4.9★ Rating • 7-Day Free</span>
+              <span className="text-xs sm:text-sm font-bold text-emerald-100">⭐ Trusted by 100K+ Users • 4.9★ Rating • 7-Day Free Trial</span>
             </div>
           </motion.div>
 
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Transform Your Kitchen Into a 5-Star Restaurant</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">AI-Powered Recipes That Match Your Taste, Budget & Lifestyle</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your Personal AI Chef, Always Ready</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Perfect Recipes in Seconds • Tailored to You</span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-100 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time, money, and food. Get personalized recipes in seconds that match your dietary needs, available ingredients, and cooking skill level. Cook restaurant-quality meals in 30 minutes, save 10+ hours weekly, cut grocery bills by $1,200+ yearly, and eliminate food waste forever.
+              Tired of boring meals and wasted groceries? Our AI chef learns what you love and generates personalized recipes instantly. Cook like a pro, save time and money, and never waste food again.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-lg font-black">🚀 Get Your Free AI Chef Now</span>
-                <span className="text-xs font-bold opacity-95">7 Days Free • No Credit Card • Cancel Anytime</span>
+                <span className="text-base sm:text-lg font-black">🚀 Start Cooking Smarter Today ✨</span>
+                <span className="text-xs font-bold opacity-95">7 Days Free • No Credit Card Required</span>
               </span>
             </Link>
             <Link 
