@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-10xl font-black text-white mb-6 sm:mb-8 tracking-tighter leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-emerald-200 via-cyan-200 to-emerald-200 bg-clip-text text-transparent">Never Run Out of Meal Ideas</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">AI Creates Perfect Recipes in Seconds</span>
+              <span className="block mb-3 bg-gradient-to-r from-emerald-200 via-cyan-200 to-emerald-200 bg-clip-text text-transparent">Transform Your Kitchen with AI-Powered Recipes</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Meals in Seconds, Not Hours</span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-100 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Personalized recipes based on what you have, what you love, and what you need. Save time, save money, reduce waste—and actually enjoy cooking every day.
+              Stop wasting time deciding what to cook. Our AI learns your taste, dietary needs, and available ingredients to create perfect recipes instantly. Save 10+ hours weekly, cut food waste by 60%, and rediscover the joy of cooking.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -70,8 +70,8 @@ export default function Hero() {
           <motion.div variants={itemVariants}>
             <div className="space-y-8 max-w-6xl mx-auto px-2">
               <div className="text-center space-y-3">
-                <p className="text-lg sm:text-2xl text-emerald-300 font-black tracking-widest uppercase">⚡ Powerful Features Built for You</p>
-                <p className="text-base sm:text-lg text-slate-300 font-bold max-w-3xl mx-auto">Everything you need to revolutionize your cooking—powered by cutting-edge AI technology</p>
+                <p className="text-lg sm:text-2xl text-emerald-300 font-black tracking-widest uppercase">✨ Key Features That Transform Your Cooking</p>
+                <p className="text-base sm:text-lg text-slate-300 font-bold max-w-3xl mx-auto">Discover the powerful tools that make meal planning effortless, personalized, and incredibly fast</p>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
                 <div className="group relative px-4 sm:px-5 py-5 sm:py-6 rounded-xl bg-gradient-to-br from-blue-500/40 to-blue-500/15 border border-blue-400/70 hover:border-blue-300/90 hover:from-blue-500/50 hover:to-blue-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-blue-500/10 hover:shadow-blue-500/30">
@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-lg sm:text-xl font-black">🚀 Start Your Free Trial</span>
-                <span className="text-xs font-bold opacity-95">7 Days • Full Access • No Credit Card</span>
+                <span className="text-lg sm:text-xl font-black">🚀 Get Started Free Today</span>
+                <span className="text-xs font-bold opacity-95">7 Days Full Access • No Credit Card • Cancel Anytime</span>
               </span>
             </Link>
             <Link 
@@ -126,7 +126,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ See How It Works
+                ✨ Explore Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
