@@ -72,10 +72,10 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
             <span className="text-sm font-semibold text-emerald-600">✨ Key Benefits</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Everything You Need to Cook Smarter
+            Powerful Features That Transform Your Cooking
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Powerful AI-driven features designed to save you time, money, and effort while delivering restaurant-quality meals every single day
+            Discover the AI-powered tools that make meal planning effortless, save you thousands yearly, and help you cook like a professional chef every single day
           </p>
         </div>
 
