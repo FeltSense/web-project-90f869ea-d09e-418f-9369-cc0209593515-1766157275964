@@ -81,9 +81,9 @@ const CoreProductFeatures: React.FC = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-100 to-cyan-100 border border-emerald-300 shadow-lg shadow-emerald-200/50 mb-6">
             <Sparkles className="w-4 h-4 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
-            <span className="text-sm font-semibold text-emerald-600">✨ Advanced Capabilities</span>
+            <span className="text-sm font-semibold bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">✨ Advanced Capabilities</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6 leading-tight">
             Advanced AI Features That Transform Your Cooking

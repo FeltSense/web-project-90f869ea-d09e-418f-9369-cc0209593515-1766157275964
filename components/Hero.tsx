@@ -46,7 +46,7 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex justify-center px-2">
             <div className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/50 backdrop-blur-md hover:from-emerald-500/30 hover:to-cyan-500/30 transition-all shadow-lg shadow-emerald-500/10">
               <Sparkles className="w-4 h-4 text-emerald-300 animate-spin" style={{ animationDuration: '3s' }} />
-              <span className="text-xs sm:text-sm font-bold text-emerald-100">⭐ Trusted by 100K+ Users • 4.9★ Rating • 7-Day Free Trial</span>
+              <span className="text-xs sm:text-sm font-bold bg-gradient-to-r from-emerald-100 to-cyan-100 bg-clip-text text-transparent">⭐ Trusted by 100K+ Users • 4.9★ Rating • 7-Day Free Trial</span>
             </div>
           </motion.div>
 
@@ -91,7 +91,7 @@ export default function Hero() {
                 </div>
                 <div className="group relative px-4 sm:px-5 py-5 sm:py-6 rounded-xl bg-gradient-to-br from-emerald-500/40 to-emerald-500/15 border border-emerald-400/70 hover:border-emerald-300/90 hover:from-emerald-500/50 hover:to-emerald-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/30">
                   <span className="text-3xl sm:text-4xl block mb-3 group-hover:scale-125 transition-transform">🛒</span>
-                  <p className="text-xs sm:text-sm font-bold text-emerald-100">Shopping</p>
+                  <p className="text-xs sm:text-sm font-bold bg-gradient-to-r from-emerald-100 to-cyan-100 bg-clip-text text-transparent">Shopping</p>
                   <p className="text-xs text-emerald-200/80 mt-2 hidden sm:block font-medium">Smart Lists</p>
                 </div>
                 <div className="group relative px-4 sm:px-5 py-5 sm:py-6 rounded-xl bg-gradient-to-br from-cyan-500/40 to-cyan-500/15 border border-cyan-400/70 hover:border-cyan-300/90 hover:from-cyan-500/50 hover:to-cyan-500/25 transition-all cursor-pointer transform hover:scale-110 shadow-lg shadow-cyan-500/10 hover:shadow-cyan-500/30">

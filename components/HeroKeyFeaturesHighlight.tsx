@@ -68,8 +68,8 @@ const HeroKeyFeaturesHighlight: React.FC = () => {
     <section className="w-full py-24 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-white via-slate-50 to-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
-            <span className="text-sm font-semibold text-emerald-600">✨ Key Benefits</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-100 to-cyan-100 border border-emerald-300 shadow-lg shadow-emerald-200/50 mb-6">
+            <span className="text-sm font-semibold bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">✨ Key Benefits</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Powerful Features That Transform Your Cooking
