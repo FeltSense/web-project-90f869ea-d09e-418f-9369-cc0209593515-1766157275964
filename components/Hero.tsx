@@ -52,12 +52,12 @@ export default function Hero() {
 
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
-            <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-10xl font-black text-white mb-6 sm:mb-8 tracking-tighter leading-none drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Transform Your Kitchen with AI</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Recipes in Seconds</span>
+            <h1 className="text-8xl sm:text-9xl md:text-10xl lg:text-11xl font-black text-white mb-6 sm:mb-8 tracking-tighter leading-none drop-shadow-2xl">
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your Personal AI Chef</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Delicious Meals in Minutes</span>
             </h1>
             <p className="text-2xl sm:text-3xl text-slate-100 mt-8 sm:mt-10 px-2 font-bold max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time on meal planning. Our AI learns your taste, dietary needs, and available ingredients to generate perfect recipes instantly. Save 10+ hours weekly, reduce food waste by 40%, and cook restaurant-quality meals at home—effortlessly.
+              Never wonder "what's for dinner" again. Our AI-powered platform learns your preferences, dietary restrictions, and available ingredients to generate personalized recipes instantly. Save 10+ hours weekly, cut food waste by 40%, and cook restaurant-quality meals with confidence—all from your kitchen.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
