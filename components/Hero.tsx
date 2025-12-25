@@ -57,7 +57,7 @@ export default function Hero() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Delicious Recipes in Seconds</span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-100 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Discover the future of cooking with AI that understands your taste, dietary needs, and available ingredients. Create restaurant-quality meals in minutes, save 10+ hours every week, cut grocery bills by $1,200+ yearly, and eliminate food waste—all with one powerful app.
+              Stop wasting time planning meals and money on groceries. Our AI chef generates personalized recipes based on your taste, dietary needs, and what's in your kitchen. Create restaurant-quality meals in minutes, save 10+ hours weekly, cut grocery bills by $1,200+ yearly, and eliminate food waste forever.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -70,7 +70,7 @@ export default function Hero() {
           <motion.div variants={itemVariants}>
             <div className="space-y-8 max-w-6xl mx-auto px-2">
               <div className="text-center space-y-3">
-                <p className="text-base sm:text-lg text-emerald-300 font-black tracking-widest uppercase">✨ Powerful AI Features Built for You</p>
+                <p className="text-base sm:text-lg text-emerald-300 font-black tracking-widest uppercase">✨ Everything You Need to Cook Smarter</p>
                 <p className="text-sm sm:text-base text-slate-300 font-semibold max-w-3xl mx-auto">Everything you need to cook smarter, faster, and save money—all powered by advanced AI</p>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-lg font-black">🚀 Start Your Free Trial</span>
-                <span className="text-xs font-bold opacity-95">7 Days • No Credit Card • Cancel Anytime</span>
+                <span className="text-base sm:text-lg font-black">🚀 Get Started Free Today</span>
+                <span className="text-xs font-bold opacity-95">7 Days Full Access • No Credit Card Required</span>
               </span>
             </Link>
             <Link 
@@ -126,7 +126,7 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
-                ✨ Explore Features
+                ✨ See All Features
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -154,7 +154,7 @@ export default function Hero() {
           {/* Urgency & Value Statement - Enhanced */}
           <motion.div variants={itemVariants} className="pt-10 sm:pt-12 px-2 space-y-6">
             <div className="inline-block bg-gradient-to-r from-red-500/40 to-pink-500/40 border border-red-400/80 rounded-full px-6 sm:px-10 py-4 sm:py-5 hover:from-red-500/50 hover:to-pink-500/50 transition-all shadow-lg shadow-red-500/30 animate-pulse hover:animate-none">
-              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">⏰ Special Offer: 7 Days Free + Full Premium Access • No Credit Card • Cancel Anytime</p>
+              <p className="text-xs sm:text-sm text-red-50 font-black tracking-wide">⏰ Limited Time: 7 Days Free + Full Premium Access • No Credit Card Required • Cancel Anytime</p>
             </div>
             <div className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-lg shadow-slate-900/40">
               <p className="text-xs sm:text-sm text-slate-100 font-semibold tracking-wide max-w-3xl mx-auto leading-relaxed">
