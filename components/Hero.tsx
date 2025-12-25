@@ -53,11 +53,11 @@ export default function Hero() {
           {/* Main heading - Enhanced with better visual hierarchy */}
           <motion.div variants={itemVariants}>
             <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white mb-6 sm:mb-8 tracking-tight leading-tight drop-shadow-2xl">
-              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Your AI-Powered Kitchen Companion</span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Never Run Out of Meal Ideas Again</span>
+              <span className="block mb-3 bg-gradient-to-r from-white via-emerald-100 to-white bg-clip-text text-transparent">Transform Your Kitchen with AI</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-400 font-black">Personalized Recipes in Seconds</span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-100 mt-8 sm:mt-10 px-2 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Stop wasting time deciding what to cook. Our AI learns your preferences, dietary needs, and available ingredients to generate personalized recipes in seconds. Save hours on meal planning, reduce food waste, and enjoy restaurant-quality meals at home—all powered by cutting-edge artificial intelligence.
+              Say goodbye to meal planning stress. Our intelligent AI learns your taste, dietary needs, and available ingredients to create perfect recipes instantly. Save 10+ hours weekly, reduce food waste by 40%, and cook restaurant-quality meals at home—all with zero effort.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-3 px-2">
               <span className="inline-block px-3 py-1 bg-emerald-500/20 border border-emerald-400/50 rounded-full text-xs sm:text-sm text-emerald-200 font-semibold">✨ AI-Powered</span>
@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-lg font-black">🚀 Get Started Free Today</span>
-                <span className="text-xs font-bold opacity-95">7 Days Free • No Credit Card Required</span>
+                <span className="text-base sm:text-lg font-black">🚀 Start Your Free Trial</span>
+                <span className="text-xs font-bold opacity-95">7 Days Free • Full Access • No Card Needed</span>
               </span>
             </Link>
             <Link 
