@@ -199,6 +199,24 @@ export default function SampleRecipes(): React.ReactElement {
           ))}
         </div>
 
+        {/* CTA Section - Try the AI Recipe Generator */}
+        <div className="mt-16 mb-20 p-8 md:p-12 rounded-3xl bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white text-center shadow-2xl">
+          <h3 className="text-3xl md:text-4xl font-black mb-4">
+            Ready to Transform Your Cooking?
+          </h3>
+          <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-95 font-semibold">
+            Start using our AI recipe generator today and discover unlimited personalized recipes tailored to your taste, dietary needs, and available ingredients.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="px-8 sm:px-12 py-4 sm:py-5 bg-white text-emerald-600 font-black text-base sm:text-lg rounded-xl hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+              🤖 Try AI Recipe Generator Now
+            </button>
+            <button className="px-8 sm:px-12 py-4 sm:py-5 bg-white/20 border-2 border-white text-white font-bold text-base sm:text-lg rounded-xl hover:bg-white/30 transition-all transform hover:scale-105 backdrop-blur-sm">
+              Learn More
+            </button>
+          </div>
+        </div>
+
         {/* Key Features Highlight Section */}
         <div className="mt-20 pt-16 border-t border-gray-200">
           <div className="text-center mb-12">

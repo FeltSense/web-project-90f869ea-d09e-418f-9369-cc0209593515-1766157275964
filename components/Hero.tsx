@@ -116,8 +116,8 @@ export default function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="relative z-10 flex flex-col items-center gap-1 whitespace-nowrap">
-                <span className="text-base sm:text-lg font-black">✨ Start Cooking Smarter Now</span>
-                <span className="text-xs font-bold opacity-95">7 Days Free • Premium Features Unlocked • No Credit Card</span>
+                <span className="text-base sm:text-lg font-black">🤖 Try AI Recipe Generator Free</span>
+                <span className="text-xs font-bold opacity-95">7 Days Free • No Credit Card • Cancel Anytime</span>
               </span>
             </Link>
             <Link 
