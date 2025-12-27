@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-export default function Hero() {
+const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 pt-32 pb-32 overflow-hidden">
       {/* Enhanced animated background elements with improved visual depth */}
@@ -19,16 +19,16 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
         <div className="mb-8 animate-fade-in">
           <span className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500/15 to-purple-500/15 border border-blue-400/50 rounded-full text-blue-300 text-sm font-semibold mb-6 backdrop-blur-md shadow-lg shadow-blue-500/10">
-            ✨ AI-Powered Meal Planning
+            ✨ Intelligent Meal Planning Powered by AI
           </span>
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight animate-fade-in">
-          Transform Your <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Cooking Experience</span>
+          Your Personal <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">AI Chef</span>
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Discover recipes that match your style, dietary needs, and pantry. Let AI be your personal chef and unlock a world of delicious possibilities.
+          Get personalized recipes tailored to your taste, dietary preferences, and available ingredients. Cook smarter, eat better, and enjoy every meal.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in mb-8">
@@ -76,3 +76,5 @@ export default function Hero() {
     </section>
   )
 }
+
+export default Hero
