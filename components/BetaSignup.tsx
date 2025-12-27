@@ -109,31 +109,31 @@ export default function BetaSignup(): JSX.Element {
         {/* Main headline */}
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-purple-100 bg-clip-text text-transparent leading-tight">
-            🤖 Start Your Free Trial Today
+            🤖 Try Our AI Recipe Generator Free
           </h1>
           <p className="text-lg sm:text-xl text-purple-200 max-w-2xl mx-auto">
-            Get 7 days of unlimited access to premium features completely free. Create personalized recipes, meal plans, and smart shopping lists powered by advanced AI. No credit card required—cancel anytime.
+            Get 7 days of unlimited access to our AI-powered recipe generator. Create personalized recipes, meal plans, and smart shopping lists powered by advanced AI. No credit card required—cancel anytime.
           </p>
         </div>
 
-        {/* Benefits section */}
+        {/* Benefits section - Key Features of AI Recipe Generator */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
-          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors">
+          <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 backdrop-blur-md border border-blue-400/30 rounded-xl p-6 hover:border-blue-400/60 transition-all">
             <div className="text-3xl mb-3">⚡</div>
-            <h3 className="text-white font-semibold mb-2">Instant Recipes</h3>
-            <p className="text-purple-200 text-sm">AI-generated recipes in seconds based on your ingredients</p>
+            <h3 className="text-white font-semibold mb-2">Instant AI Recipes</h3>
+            <p className="text-purple-200 text-sm">Get personalized recipes in seconds based on your available ingredients and dietary needs</p>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors">
-            <div className="text-3xl mb-3">🎯</div>
-            <h3 className="text-white font-semibold mb-2">Fully Personalized</h3>
-            <p className="text-purple-200 text-sm">Learns your taste, allergies, budget & dietary preferences</p>
+          <div className="bg-gradient-to-br from-purple-500/20 to-purple-500/5 backdrop-blur-md border border-purple-400/30 rounded-xl p-6 hover:border-purple-400/60 transition-all">
+            <div className="text-3xl mb-3">📋</div>
+            <h3 className="text-white font-semibold mb-2">Smart Meal Plans</h3>
+            <p className="text-purple-200 text-sm">AI-generated weekly meal plans tailored to your preferences, budget, and allergies</p>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-colors">
-            <div className="text-3xl mb-3">💰</div>
-            <h3 className="text-white font-semibold mb-2">Save Time & Money</h3>
-            <p className="text-purple-200 text-sm">Save 10+ hours weekly, cut food waste by 40%</p>
+          <div className="bg-gradient-to-br from-pink-500/20 to-pink-500/5 backdrop-blur-md border border-pink-400/30 rounded-xl p-6 hover:border-pink-400/60 transition-all">
+            <div className="text-3xl mb-3">🛒</div>
+            <h3 className="text-white font-semibold mb-2">Shopping Lists</h3>
+            <p className="text-purple-200 text-sm">Auto-generated shopping lists organized by store section, with price estimates</p>
           </div>
         </div>
 
@@ -156,15 +156,15 @@ export default function BetaSignup(): JSX.Element {
                   />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Welcome to the Beta!</h3>
-              <p className="text-purple-200 mb-4">Check your email for next steps and exclusive beta access information.</p>
-              <p className="text-sm text-purple-300">We'll be in touch soon with your login credentials.</p>
+              <h3 className="text-2xl font-bold text-white mb-2">🎉 Welcome to the AI Recipe Generator Beta!</h3>
+              <p className="text-purple-200 mb-4">Check your email for next steps and exclusive beta access to our AI recipe generator.</p>
+              <p className="text-sm text-purple-300">You'll receive your login credentials shortly. Start creating personalized recipes in minutes!</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit}>
               <div className="mb-4">
                 <label htmlFor="email" className="block text-white font-semibold mb-3">
-                  Get Early Access
+                  Start Your Free Beta Trial
                 </label>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <input
@@ -181,7 +181,7 @@ export default function BetaSignup(): JSX.Element {
                     disabled={formState.isLoading}
                     className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
                   >
-                    {formState.isLoading ? 'Signing up...' : 'Join Beta'}
+                    {formState.isLoading ? 'Starting Trial...' : 'Try Free Now'}
                   </button>
                 </div>
               </div>

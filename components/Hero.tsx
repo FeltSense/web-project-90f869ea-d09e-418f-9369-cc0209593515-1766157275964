@@ -30,11 +30,32 @@ const Hero: React.FC = () => {
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
           Get personalized recipes tailored to your taste, dietary preferences, and available ingredients. Cook smarter, eat better, and enjoy every meal.
         </p>
+
+
+
+        {/* Key Features Highlight */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12 max-w-3xl mx-auto animate-fade-in">
+          <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border border-blue-400/30 rounded-lg p-4 backdrop-blur-sm hover:border-blue-400/60 transition-all">
+            <div className="text-2xl mb-2">🎯</div>
+            <h3 className="text-white font-semibold text-sm mb-1">AI-Powered Recipes</h3>
+            <p className="text-gray-400 text-xs">Instant personalized recipes based on your ingredients</p>
+          </div>
+          <div className="bg-gradient-to-br from-purple-500/20 to-purple-500/5 border border-purple-400/30 rounded-lg p-4 backdrop-blur-sm hover:border-purple-400/60 transition-all">
+            <div className="text-2xl mb-2">📋</div>
+            <h3 className="text-white font-semibold text-sm mb-1">Smart Meal Plans</h3>
+            <p className="text-gray-400 text-xs">Weekly meal plans tailored to your preferences</p>
+          </div>
+          <div className="bg-gradient-to-br from-pink-500/20 to-pink-500/5 border border-pink-400/30 rounded-lg p-4 backdrop-blur-sm hover:border-pink-400/60 transition-all">
+            <div className="text-2xl mb-2">🛒</div>
+            <h3 className="text-white font-semibold text-sm mb-1">Shopping Lists</h3>
+            <p className="text-gray-400 text-xs">Auto-generated lists organized by store section</p>
+          </div>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in mb-8">
           <button className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg">
             <span className="relative z-10 flex items-center justify-center gap-2">
-              Start Cooking Now
+              Try Beta Free
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
