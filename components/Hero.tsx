@@ -13,14 +13,14 @@ const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 pt-32 pb-32 overflow-hidden">
       {/* Enhanced animated background elements with improved visual depth */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.6),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(168,85,247,0.5),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.3),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.8),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(168,85,247,0.7),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.4),transparent_70%)]" />
       
       {/* Animated accent lines with enhanced visibility */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/8 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/8 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute top-1/2 right-0 w-80 h-80 bg-indigo-500/6 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute top-1/2 right-0 w-80 h-80 bg-indigo-500/8 rounded-full blur-3xl animate-pulse" />
       
       {/* Content container */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
@@ -31,11 +31,11 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight animate-fade-in">
-          Your Personal <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">AI Chef</span>
+          Your Personal <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">AI Chef</span> Awaits
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Get personalized recipes tailored to your taste, dietary preferences, and available ingredients. Cook smarter, eat better, and enjoy every meal.
+          Transform your kitchen with AI-powered recipes tailored to your taste, dietary preferences, and available ingredients. Cook smarter, eat better, and discover culinary inspiration every single day.
         </p>
 
 
@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
             className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer"
           >
             <span className="relative z-10 flex items-center justify-center gap-2">
-              🚀 Start Your Free Trial
+              🚀 Get Started Free Today
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
-              Watch Demo
+              See It In Action
             </span>
           </button>
         </div>
@@ -105,7 +105,7 @@ const Hero: React.FC = () => {
               <span className="text-gray-300 text-sm font-medium">Instant Meal Plans</span>
             </div>
           </div>
-          <p className="text-gray-400 text-xs text-center">Limited time: Get 30 days free access to all premium features</p>
+          <p className="text-gray-400 text-xs text-center">🎁 Limited time offer: Get 30 days free access to all premium features. No credit card required!</p>
         </div>
         
         {/* Enhanced Trust indicators with better styling */}
