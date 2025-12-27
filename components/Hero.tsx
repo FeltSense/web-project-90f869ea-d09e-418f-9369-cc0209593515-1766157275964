@@ -25,21 +25,21 @@ const Hero: React.FC = () => {
       {/* Content container */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
         <div className="mb-8 animate-fade-in">
-          <span className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500/15 to-purple-500/15 border border-blue-400/50 rounded-full text-blue-300 text-sm font-semibold mb-6 backdrop-blur-md shadow-lg shadow-blue-500/10">
-            ✨ Intelligent Meal Planning Powered by AI
+          <span className="inline-block px-6 py-3 bg-gradient-to-r from-emerald-500/15 to-cyan-500/15 border border-emerald-400/50 rounded-full text-emerald-300 text-sm font-semibold mb-6 backdrop-blur-md shadow-lg shadow-emerald-500/10">
+            ✨ AI-Powered Meal Planning & Recipe Generation
           </span>
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight animate-fade-in">
-          Your Personal AI <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Chef & Meal Planner</span>
+          Your AI-Powered <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">Culinary Companion</span>
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Tired of the daily "What's for dinner?" struggle? Our AI chef generates personalized recipes in seconds, creates weekly meal plans tailored to your preferences, and builds smart shopping lists that save you time and money. Cook restaurant-quality meals at home—effortlessly.
+          Transform your kitchen with AI-powered meal planning. Get personalized recipes tailored to your taste, create balanced weekly meal plans in seconds, and generate smart shopping lists that save you time and money. Experience the future of home cooking—where every meal is restaurant-quality and effortlessly prepared.
         </p>
         
         <div className="mb-12 animate-fade-in">
-          <p className="text-xl md:text-2xl font-semibold text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text mb-4">
+          <p className="text-xl md:text-2xl font-semibold text-transparent bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text mb-4">
             ✨ From "What's for dinner?" to "Wow, I made this?" in minutes.
           </p>
           <p className="text-sm md:text-base text-gray-400 mt-3">
@@ -86,22 +86,22 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in mb-8">
           <button 
             onClick={handleTryBeta}
-            className="group relative px-8 sm:px-12 py-5 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-lg shadow-blue-500/40"
+            className="group relative px-8 sm:px-12 py-5 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-emerald-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-lg shadow-emerald-500/40"
           >
             <span className="relative z-10 flex items-center justify-center gap-2">
-              🚀 Get Started Free (No Credit Card)
+              🚀 Start Your Free Trial
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
           <button className="group px-8 sm:px-12 py-5 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl border border-white/40 transition-all duration-300 backdrop-blur-sm hover:border-white/60 transform hover:scale-105 text-base sm:text-lg cursor-pointer shadow-lg shadow-white/20">
             <span className="flex items-center justify-center gap-2">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
-              See It In Action (2 min)
+              Watch Demo (2 min)
             </span>
           </button>
         </div>
