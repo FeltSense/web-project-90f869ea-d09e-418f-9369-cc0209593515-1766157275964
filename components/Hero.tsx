@@ -35,12 +35,12 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Stop scrolling through recipes. Get AI-powered meal plans, personalized recipes, and smart shopping lists—all tailored to your taste, dietary needs, and budget. Cook amazing meals in minutes, not hours.
+          Tired of the daily "What's for dinner?" struggle? Our AI chef generates personalized recipes in seconds, creates weekly meal plans tailored to your preferences, and builds smart shopping lists that save you time and money. Cook restaurant-quality meals at home—effortlessly.
         </p>
         
         <div className="mb-12 animate-fade-in">
           <p className="text-xl md:text-2xl font-semibold text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text mb-4">
-            ✨ Stop wasting time deciding what to cook. Start creating amazing meals in minutes.
+            ✨ From "What's for dinner?" to "Wow, I made this?" in minutes.
           </p>
           <p className="text-sm md:text-base text-gray-400 mt-3">
             Join thousands of home cooks who are already saving time and eating better with AI-powered meal planning.

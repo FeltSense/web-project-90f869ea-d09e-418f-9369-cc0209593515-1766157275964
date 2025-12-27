@@ -33,7 +33,7 @@ export default function Footer() {
               <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent group-hover:from-cyan-400 group-hover:to-emerald-400 transition-all duration-300">🍳 RecipeAI</span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              Transform your kitchen with AI-powered recipes. Personalized meal planning, smart nutrition tracking, and endless culinary inspiration.
+              Say goodbye to "What's for dinner?" Get AI-powered recipes, personalized meal plans, and smart shopping lists—all tailored to your taste and lifestyle.
             </p>
             <div className="flex gap-4 pt-2">
               {socialLinks.map((social) => (

@@ -49,7 +49,7 @@ const AboutPage = () => {
                 Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400">Story</span>
               </h1>
               <p className="text-lg sm:text-xl text-slate-100 max-w-2xl mx-auto font-medium">
-                Empowering home cooks with AI-powered recipes tailored to their unique tastes and needs
+                We're on a mission to transform cooking from a daily struggle into a joyful, effortless experience for everyone
               </p>
             </motion.div>
           </motion.div>
@@ -69,7 +69,7 @@ const AboutPage = () => {
             <motion.div variants={itemVariants} className="text-center">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Our Mission</h2>
               <p className="text-xl text-gray-700 leading-relaxed">
-                We believe everyone deserves access to personalized, delicious recipes tailored to their tastes, dietary needs, and available ingredients. By combining cutting-edge artificial intelligence with culinary expertise, we empower home cooks to create restaurant-quality meals with confidence and joy. Our mission is to transform cooking from a chore into a joy—saving time, reducing costs, and inspiring creativity in every kitchen.
+                We believe cooking should be effortless, joyful, and accessible to everyone. Our mission is to eliminate the daily struggle of meal planning by using AI to generate personalized recipes, meal plans, and shopping lists tailored to your unique tastes, dietary needs, and lifestyle. We're transforming cooking from a stressful chore into an exciting, creative experience—saving you time, reducing food waste, and inspiring confidence in the kitchen.
               </p>
             </motion.div>
           </motion.div>
@@ -273,10 +273,10 @@ const AboutPage = () => {
             className="space-y-8"
           >
             <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-white">
-              Ready to Transform Your Kitchen?
+              Ready to Say Goodbye to \"What's for Dinner?\"
             </motion.h2>
             <motion.p variants={itemVariants} className="text-xl text-blue-50 max-w-2xl mx-auto">
-              Join 100,000+ home cooks using AI-powered recipes to create delicious meals with confidence. Start your free 7-day trial today—no credit card required.
+              Join thousands of home cooks who've transformed their kitchens with AI-powered meal planning. Get personalized recipes, smart meal plans, and shopping lists—all in one place. Start your free trial today, no credit card required.
             </motion.p>
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <a
