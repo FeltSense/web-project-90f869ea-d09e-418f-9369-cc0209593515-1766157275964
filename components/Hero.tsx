@@ -3,6 +3,13 @@
 import React from 'react'
 
 const Hero: React.FC = () => {
+  const handleTryBeta = () => {
+    const betaSection = document.getElementById('beta-signup')
+    if (betaSection) {
+      betaSection.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 pt-32 pb-32 overflow-hidden">
       {/* Enhanced animated background elements with improved visual depth */}
@@ -53,16 +60,19 @@ const Hero: React.FC = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in mb-8">
-          <button className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg">
+          <button 
+            onClick={handleTryBeta}
+            className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer"
+          >
             <span className="relative z-10 flex items-center justify-center gap-2">
-              Try Beta Free
+              🚀 Start Your Free Trial
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
-          <button className="group px-8 sm:px-10 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl border border-white/40 transition-all duration-300 backdrop-blur-sm hover:border-white/60 transform hover:scale-105 text-base sm:text-lg">
+          <button className="group px-8 sm:px-10 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl border border-white/40 transition-all duration-300 backdrop-blur-sm hover:border-white/60 transform hover:scale-105 text-base sm:text-lg cursor-pointer">
             <span className="flex items-center justify-center gap-2">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
@@ -74,27 +84,28 @@ const Hero: React.FC = () => {
         
         {/* Enhanced Call-to-Action Section */}
         <div className="mt-16 pt-12 border-t border-white/10 animate-fade-in">
-          <p className="text-gray-400 text-sm mb-6">Join thousands of home cooks already using AI Chef</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+          <p className="text-gray-300 text-lg font-semibold mb-8">✨ Join thousands of home cooks transforming their kitchen</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-8">
+            <div className="flex items-center gap-3 px-4 py-3 rounded-lg bg-gradient-to-br from-green-500/20 to-green-500/5 backdrop-blur-sm border border-green-400/30 hover:border-green-400/60 transition-all">
+              <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span className="text-gray-300 text-sm">Personalized Recipes</span>
+              <span className="text-gray-300 text-sm font-medium">Personalized Recipes</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+            <div className="flex items-center gap-3 px-4 py-3 rounded-lg bg-gradient-to-br from-blue-500/20 to-blue-500/5 backdrop-blur-sm border border-blue-400/30 hover:border-blue-400/60 transition-all">
+              <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span className="text-gray-300 text-sm">AI-Powered Suggestions</span>
+              <span className="text-gray-300 text-sm font-medium">AI-Powered Suggestions</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+            <div className="flex items-center gap-3 px-4 py-3 rounded-lg bg-gradient-to-br from-purple-500/20 to-purple-500/5 backdrop-blur-sm border border-purple-400/30 hover:border-purple-400/60 transition-all">
+              <svg className="w-5 h-5 text-purple-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span className="text-gray-300 text-sm">Instant Meal Plans</span>
+              <span className="text-gray-300 text-sm font-medium">Instant Meal Plans</span>
             </div>
           </div>
+          <p className="text-gray-400 text-xs text-center">Limited time: Get 30 days free access to all premium features</p>
         </div>
         
         {/* Enhanced Trust indicators with better styling */}
