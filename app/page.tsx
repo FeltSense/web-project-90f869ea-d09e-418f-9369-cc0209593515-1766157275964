@@ -2,6 +2,7 @@
 
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
+import KeyFeaturesShowcaseSection from '@/components/KeyFeaturesShowcaseSection'
 import NewHeroFeaturesSection from '@/components/NewHeroFeaturesSection'
 import HeroKeyFeaturesHighlight from '@/components/HeroKeyFeaturesHighlight'
 import CoreProductFeatures from '@/components/CoreProductFeatures'
@@ -21,6 +22,7 @@ export default function Home() {
     <main className="overflow-hidden bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
       <Navigation />
       <Hero />
+      <KeyFeaturesShowcaseSection />
       <NewHeroFeaturesSection />
       <HeroKeyFeaturesHighlight />
       <CoreProductFeatures />
