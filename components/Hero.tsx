@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Transform your kitchen with AI-powered recipes tailored to your taste, dietary preferences, and available ingredients. Cook smarter, eat better, and discover culinary inspiration every single day.
+          Discover personalized recipes in seconds, plan your meals effortlessly, and cook with confidence. Your AI-powered culinary companion is ready to transform how you eat.
         </p>
         
         <div className="mb-12 animate-fade-in">
@@ -71,10 +71,10 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in mb-8">
           <button 
             onClick={handleTryBeta}
-            className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-lg shadow-blue-500/40 animate-pulse"
+            className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-lg shadow-blue-500/40"
           >
             <span className="relative z-10 flex items-center justify-center gap-2">
-              🚀 Start Your AI Cooking Journey Now
+              ✨ Get Started Free Today
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
