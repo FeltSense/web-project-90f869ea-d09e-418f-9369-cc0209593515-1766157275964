@@ -42,6 +42,9 @@ const Hero: React.FC = () => {
           <p className="text-xl md:text-2xl font-semibold text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text mb-4">
             ✨ Stop wasting time deciding what to cook. Start creating amazing meals in minutes.
           </p>
+          <p className="text-sm md:text-base text-gray-400 mt-3">
+            Join thousands of home cooks who are already saving time and eating better with AI-powered meal planning.
+          </p>
         </div>
 
 
@@ -68,17 +71,17 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in mb-8">
           <button 
             onClick={handleTryBeta}
-            className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer"
+            className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-lg shadow-blue-500/40 animate-pulse"
           >
             <span className="relative z-10 flex items-center justify-center gap-2">
-              🚀 Start Cooking Smarter Now
+              🚀 Start Your AI Cooking Journey Now
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
-          <button className="group px-8 sm:px-10 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl border border-white/40 transition-all duration-300 backdrop-blur-sm hover:border-white/60 transform hover:scale-105 text-base sm:text-lg cursor-pointer">
+          <button className="group px-8 sm:px-10 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl border border-white/40 transition-all duration-300 backdrop-blur-sm hover:border-white/60 transform hover:scale-105 text-base sm:text-lg cursor-pointer shadow-lg shadow-white/20">
             <span className="flex items-center justify-center gap-2">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
