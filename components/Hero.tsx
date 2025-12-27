@@ -28,13 +28,13 @@ export default function Hero() {
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Get personalized AI-generated recipes tailored to your taste, dietary preferences, and available ingredients. Cook smarter, eat better, and discover endless culinary possibilities.
+          Discover recipes that match your style, dietary needs, and pantry. Let AI be your personal chef and unlock a world of delicious possibilities.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in mb-8">
           <button className="group relative px-8 sm:px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg">
             <span className="relative z-10 flex items-center justify-center gap-2">
-              Get Started Free
+              Start Cooking Now
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
