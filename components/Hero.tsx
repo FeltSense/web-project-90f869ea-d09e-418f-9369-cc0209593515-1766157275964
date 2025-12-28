@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight animate-fade-in">
-          Meet Your <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI Culinary Partner</span>
+          Transform Your Kitchen with <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI-Powered Cooking</span>
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold animate-fade-in">
@@ -52,10 +52,14 @@ const Hero: React.FC = () => {
 
 
         {/* Key Features Highlight - Enhanced */}
+        <div className="mb-8 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 text-center">✨ Key Features That Transform Your Cooking</h2>
+          <p className="text-gray-400 text-center text-lg mb-12">Everything you need to cook smarter, eat better, and save time</p>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-16 max-w-5xl mx-auto animate-fade-in">
-          <div className="bg-gradient-to-br from-blue-500/25 to-blue-500/5 border border-blue-400/40 rounded-xl p-8 backdrop-blur-md hover:border-blue-400/70 transition-all duration-300 hover:bg-blue-500/20 hover:shadow-2xl hover:shadow-blue-500/30 group">
-            <div className="text-5xl mb-5 group-hover:scale-110 transition-transform duration-300">🎯</div>
-            <h3 className="text-white font-bold text-lg mb-3 group-hover:text-blue-300 transition-colors">AI-Powered Recipes</h3>
+          <div className="bg-gradient-to-br from-blue-500/25 to-blue-500/5 border border-blue-400/40 rounded-xl p-8 backdrop-blur-md hover:border-blue-400/70 transition-all duration-300 hover:bg-blue-500/20 hover:shadow-2xl hover:shadow-blue-500/30 group transform hover:-translate-y-2">
+            <div className="text-6xl mb-5 group-hover:scale-125 transition-transform duration-300">🎯</div>
+            <h3 className="text-white font-bold text-xl mb-3 group-hover:text-blue-300 transition-colors">AI-Powered Recipes</h3>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">Unlimited personalized recipes generated in seconds. Our AI learns your taste preferences, dietary needs, allergies, and pantry inventory to create meals you'll actually want to cook.</p>
             <ul className="text-gray-400 text-xs space-y-2">
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Dietary preferences</li>
@@ -63,9 +67,9 @@ const Hero: React.FC = () => {
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Cooking skill level</li>
             </ul>
           </div>
-          <div className="bg-gradient-to-br from-purple-500/25 to-purple-500/5 border border-purple-400/40 rounded-xl p-8 backdrop-blur-md hover:border-purple-400/70 transition-all duration-300 hover:bg-purple-500/20 hover:shadow-2xl hover:shadow-purple-500/30 group">
-            <div className="text-5xl mb-5 group-hover:scale-110 transition-transform duration-300">📋</div>
-            <h3 className="text-white font-bold text-lg mb-3 group-hover:text-purple-300 transition-colors">Smart Meal Plans</h3>
+          <div className="bg-gradient-to-br from-purple-500/25 to-purple-500/5 border border-purple-400/40 rounded-xl p-8 backdrop-blur-md hover:border-purple-400/70 transition-all duration-300 hover:bg-purple-500/20 hover:shadow-2xl hover:shadow-purple-500/30 group transform hover:-translate-y-2">
+            <div className="text-6xl mb-5 group-hover:scale-125 transition-transform duration-300">📋</div>
+            <h3 className="text-white font-bold text-xl mb-3 group-hover:text-purple-300 transition-colors">Smart Meal Plans</h3>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">Complete weekly meal plans generated in minutes. Perfectly balanced nutrition, organized by prep time, and customized to your budget, dietary preferences, and lifestyle—all the thinking done for you.</p>
             <ul className="text-gray-400 text-xs space-y-2">
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Weekly planning</li>
@@ -73,9 +77,9 @@ const Hero: React.FC = () => {
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Budget-friendly</li>
             </ul>
           </div>
-          <div className="bg-gradient-to-br from-pink-500/25 to-pink-500/5 border border-pink-400/40 rounded-xl p-8 backdrop-blur-md hover:border-pink-400/70 transition-all duration-300 hover:bg-pink-500/20 hover:shadow-2xl hover:shadow-pink-500/30 group">
-            <div className="text-5xl mb-5 group-hover:scale-110 transition-transform duration-300">🛒</div>
-            <h3 className="text-white font-bold text-lg mb-3 group-hover:text-pink-300 transition-colors">Smart Shopping</h3>
+          <div className="bg-gradient-to-br from-pink-500/25 to-pink-500/5 border border-pink-400/40 rounded-xl p-8 backdrop-blur-md hover:border-pink-400/70 transition-all duration-300 hover:bg-pink-500/20 hover:shadow-2xl hover:shadow-pink-500/30 group transform hover:-translate-y-2">
+            <div className="text-6xl mb-5 group-hover:scale-125 transition-transform duration-300">🛒</div>
+            <h3 className="text-white font-bold text-xl mb-3 group-hover:text-pink-300 transition-colors">Smart Shopping</h3>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">Intelligent shopping lists organized by store aisle, with price comparisons and pantry tracking. Save time at the store and reduce food waste with smart quantity suggestions.</p>
             <ul className="text-gray-400 text-xs space-y-2">
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Organized by aisle</li>
@@ -88,10 +92,10 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row gap-5 justify-center animate-fade-in mb-12">
           <button 
             onClick={handleTryBeta}
-            className="group relative px-12 sm:px-16 py-7 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl hover:shadow-3xl hover:shadow-emerald-500/70 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-xl shadow-emerald-500/50 border border-emerald-400/50"
+            className="group relative px-12 sm:px-16 py-7 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl hover:shadow-3xl hover:shadow-emerald-500/70 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-xl shadow-emerald-500/50 border border-emerald-400/50 animate-pulse"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
-              🚀 Start Your AI Chef Journey - Free for 30 Days
+              🚀 Sign Up Free - Get Started in 30 Seconds
               <svg className="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -103,14 +107,14 @@ const Hero: React.FC = () => {
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
-              Watch Demo
+              See How It Works
             </span>
           </button>
         </div>
         
         {/* Enhanced Call-to-Action Section */}
         <div className="mt-20 pt-16 border-t border-white/10 animate-fade-in">
-          <p className="text-white text-xl font-bold mb-10 text-center">🌟 Why 10,000+ home cooks trust our AI Chef</p>
+          <p className="text-white text-2xl md:text-3xl font-bold mb-10 text-center">🌟 Why 10,000+ Home Cooks Love Our AI Chef</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
             <div className="flex flex-col items-center gap-4 px-8 py-7 rounded-xl bg-gradient-to-br from-green-500/25 to-green-500/5 backdrop-blur-md border border-green-400/40 hover:border-green-400/70 transition-all duration-300 hover:shadow-xl hover:shadow-green-500/30 group">
               <svg className="w-8 h-8 text-green-400 flex-shrink-0 group-hover:scale-125 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
@@ -134,10 +138,15 @@ const Hero: React.FC = () => {
               <p className="text-gray-400 text-sm text-center">Personalized nutrition</p>
             </div>
           </div>
-          <div className="bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/40 rounded-xl p-8 backdrop-blur-md max-w-3xl mx-auto hover:border-emerald-400/70 transition-all duration-300 hover:shadow-xl hover:shadow-emerald-500/30">
-            <p className="text-white text-lg font-bold text-center mb-3">🎁 Limited Time Launch Offer</p>
-            <p className="text-gray-200 text-center font-semibold mb-2">Get 30 days of premium AI features completely free—no credit card required. Join 10,000+ happy home cooks today!</p>
-            <p className="text-gray-400 text-sm text-center">Full access to AI recipes • Smart meal plans • Intelligent shopping lists • Pantry tracking • Cancel anytime</p>
+          <div className="bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/60 rounded-xl p-10 backdrop-blur-md max-w-3xl mx-auto hover:border-emerald-400/90 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/40 transform hover:scale-105">
+            <p className="text-white text-2xl font-bold text-center mb-4">🎁 Limited Time Launch Offer</p>
+            <p className="text-gray-100 text-center font-semibold mb-3 text-lg">Get 30 days of premium AI features completely free—no credit card required. Join 10,000+ happy home cooks today!</p>
+            <p className="text-gray-300 text-base text-center mb-6">Full access to AI recipes • Smart meal plans • Intelligent shopping lists • Pantry tracking • Cancel anytime</p>
+            <div className="flex justify-center">
+              <button className="px-8 py-3 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-emerald-500/50 transition-all duration-300 transform hover:scale-105">
+                Claim Your Free Trial Now
+              </button>
+            </div>
           </div>
         </div>
         
