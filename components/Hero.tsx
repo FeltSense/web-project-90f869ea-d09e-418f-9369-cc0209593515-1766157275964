@@ -12,15 +12,15 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 pt-20 pb-20 overflow-hidden">
-      {/* Enhanced animated background elements with improved visual depth */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.9),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(168,85,247,0.8),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.5),transparent_70%)]" />
+      {/* Premium animated background with enhanced visual depth */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,1),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(168,85,247,0.9),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.6),transparent_70%)]" />
       
-      {/* Animated accent lines with enhanced visibility */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/15 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/15 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute top-1/2 right-0 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl animate-pulse" />
+      {/* Animated accent orbs with enhanced glow */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute top-1/2 right-0 w-80 h-80 bg-indigo-500/15 rounded-full blur-3xl animate-pulse" />
       
       {/* Content container */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
@@ -31,20 +31,20 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight animate-fade-in">
-          Transform Your Kitchen with <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI-Powered Cooking</span>
+          Your Personal <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI Chef</span> Awaits
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold animate-fade-in">
-          Your personal AI chef that understands your taste, respects your dietary needs, and makes cooking effortless. From inspiration to table in minutes.
+          Discover personalized recipes, smart meal plans, and intelligent shopping lists—all powered by AI that learns your taste and dietary preferences.
         </p>
         
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Join thousands of home cooks who are saving 10+ hours per week and eating healthier with AI-powered meal planning that learns your taste preferences and dietary needs.
+          Join thousands of home cooks saving 10+ hours weekly on meal planning, reducing food waste, and enjoying restaurant-quality meals at home.
         </p>
         
         <div className="mb-12 animate-fade-in">
           <p className="text-lg md:text-xl font-semibold text-transparent bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text mb-4">
-            ✨ From blank canvas to restaurant-quality meals in minutes
+            🎯 Personalized recipes • Smart meal plans • Intelligent shopping
           </p>
         </div>
 
@@ -90,7 +90,7 @@ const Hero: React.FC = () => {
             className="group relative px-12 sm:px-16 py-7 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl hover:shadow-3xl hover:shadow-emerald-500/70 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-xl shadow-emerald-500/50 border border-emerald-400/50"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
-              🚀 Start Your Free Trial Now
+              ✨ Get Started Free - No Credit Card
               <svg className="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
-              Watch Demo (2 min)
+              See It In Action
             </span>
           </button>
         </div>
@@ -134,9 +134,9 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/40 rounded-xl p-8 backdrop-blur-md max-w-3xl mx-auto">
-            <p className="text-white text-lg font-bold text-center mb-3">🎁 Limited Time Offer</p>
-            <p className="text-gray-200 text-center font-semibold mb-2">Get 30 days free access to all premium features</p>
-            <p className="text-gray-400 text-sm text-center">No credit card required. Cancel anytime. Start cooking smarter today.</p>
+            <p className="text-white text-lg font-bold text-center mb-3">🎁 Exclusive Launch Offer</p>
+            <p className="text-gray-200 text-center font-semibold mb-2">30 days free access to all premium features</p>
+            <p className="text-gray-400 text-sm text-center">No credit card required • Cancel anytime • Join 5,000+ happy cooks</p>
           </div>
         </div>
         
