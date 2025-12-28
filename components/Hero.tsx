@@ -31,19 +31,19 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight animate-fade-in">
-          Your AI-Powered <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">Culinary Companion</span>
+          Never Wonder <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">What's for Dinner</span> Again
         </h1>
         
         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Transform your kitchen with AI-powered meal planning. Get personalized recipes tailored to your taste, create balanced weekly meal plans in seconds, and generate smart shopping lists that save you time and money. Experience the future of home cooking—where every meal is restaurant-quality and effortlessly prepared.
+          Your AI-powered culinary companion that transforms meal planning from a chore into pure joy. Get personalized recipes, balanced meal plans, and smart shopping lists—all powered by cutting-edge AI that learns your taste preferences and dietary needs.
         </p>
         
         <div className="mb-12 animate-fade-in">
           <p className="text-xl md:text-2xl font-semibold text-transparent bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text mb-4">
-            ✨ From "What's for dinner?" to "Wow, I made this?" in minutes.
+            ✨ From blank canvas to restaurant-quality meals in minutes.
           </p>
           <p className="text-sm md:text-base text-gray-400 mt-3">
-            Join thousands of home cooks who are already saving time and eating better with AI-powered meal planning.
+            Join thousands of home cooks who are already saving 10+ hours per week and eating healthier with AI-powered meal planning.
           </p>
         </div>
 
