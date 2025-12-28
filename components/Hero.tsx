@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold animate-fade-in">
-          Transform your kitchen with AI-powered recipes, personalized meal plans, and intelligent shopping lists—all tailored to your taste, dietary needs, and lifestyle.
+          Never stress about meal planning again. Get AI-powered recipes, personalized meal plans, and intelligent shopping lists—all tailored to your taste, dietary needs, and lifestyle in seconds.
         </p>
         
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
@@ -91,7 +91,7 @@ const Hero: React.FC = () => {
             className="group relative px-12 sm:px-16 py-7 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl hover:shadow-3xl hover:shadow-emerald-500/70 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-xl shadow-emerald-500/50 border border-emerald-400/50"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
-              ✨ Start Your AI Chef Journey - Free for 30 Days
+              🚀 Start Your AI Chef Journey - Free for 30 Days
               <svg className="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -135,9 +135,9 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/40 rounded-xl p-8 backdrop-blur-md max-w-3xl mx-auto hover:border-emerald-400/70 transition-all duration-300 hover:shadow-xl hover:shadow-emerald-500/30">
-            <p className="text-white text-lg font-bold text-center mb-3">🎁 Special Launch Offer</p>
-            <p className="text-gray-200 text-center font-semibold mb-2">Get 30 days of premium AI features completely free—no credit card required</p>
-            <p className="text-gray-400 text-sm text-center">Full access to AI recipes • Smart meal plans • Intelligent shopping lists • Cancel anytime</p>
+            <p className="text-white text-lg font-bold text-center mb-3">🎁 Limited Time Launch Offer</p>
+            <p className="text-gray-200 text-center font-semibold mb-2">Get 30 days of premium AI features completely free—no credit card required. Join 10,000+ happy home cooks today!</p>
+            <p className="text-gray-400 text-sm text-center">Full access to AI recipes • Smart meal plans • Intelligent shopping lists • Pantry tracking • Cancel anytime</p>
           </div>
         </div>
         
@@ -147,19 +147,19 @@ const Hero: React.FC = () => {
             <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 group-hover:scale-125 transition-transform" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-gray-200 font-semibold">No credit card needed</span>
+            <span className="text-gray-200 font-semibold">✓ No credit card needed</span>
           </div>
           <div className="flex items-center gap-3 px-6 py-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 hover:border-white/40 transition-all hover:bg-white/15 group">
             <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 group-hover:scale-125 transition-transform" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-gray-200 font-semibold">Start in 30 seconds</span>
+            <span className="text-gray-200 font-semibold">✓ Start in 30 seconds</span>
           </div>
           <div className="flex items-center gap-3 px-6 py-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 hover:border-white/40 transition-all hover:bg-white/15 group">
             <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 group-hover:scale-125 transition-transform" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-gray-200 font-semibold">30 days free trial</span>
+            <span className="text-gray-200 font-semibold">✓ 30 days free trial</span>
           </div>
         </div>
       </div>
