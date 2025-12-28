@@ -40,7 +40,9 @@ export default function Home() {
       <div id="beta-signup">
         <BetaSignup />
       </div>
-      <Pricing />
+      <div data-section="pricing">
+        <Pricing />
+      </div>
       <FAQ />
       <ContactForm />
       <Footer />

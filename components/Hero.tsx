@@ -10,6 +10,13 @@ const Hero: React.FC = () => {
     }
   }
 
+  const handlePricingClick = () => {
+    const pricingSection = document.querySelector('[data-section="pricing"]')
+    if (pricingSection) {
+      pricingSection.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 pt-20 pb-20 overflow-hidden">
       {/* Premium animated background with enhanced visual depth */}
@@ -102,12 +109,12 @@ const Hero: React.FC = () => {
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
-          <button className="group px-10 sm:px-14 py-6 bg-white/15 hover:bg-white/25 text-white font-bold rounded-xl border border-white/50 transition-all duration-300 backdrop-blur-md hover:border-white/70 transform hover:scale-110 text-base sm:text-lg cursor-pointer shadow-xl shadow-white/30 hover:shadow-white/40">
+          <button 
+            onClick={handlePricingClick}
+            className="group px-10 sm:px-14 py-6 bg-white/15 hover:bg-white/25 text-white font-bold rounded-xl border border-white/50 transition-all duration-300 backdrop-blur-md hover:border-white/70 transform hover:scale-110 text-base sm:text-lg cursor-pointer shadow-xl shadow-white/30 hover:shadow-white/40"
+          >
             <span className="flex items-center justify-center gap-3">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-              Watch Demo
+              💰 View Pricing
             </span>
           </button>
         </div>

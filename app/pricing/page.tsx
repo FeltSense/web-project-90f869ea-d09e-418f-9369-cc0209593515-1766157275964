@@ -299,20 +299,25 @@ export default function PricingPage(): JSX.Element {
 
       <div className="relative z-10">
         {/* Hero Section */}
-        <section className="pt-24 pb-20 px-4 sm:px-6 lg:px-8">
+        <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
+            <div className="mb-8">
+              <span className="inline-block px-6 py-3 bg-gradient-to-r from-emerald-500/15 to-cyan-500/15 border border-emerald-400/50 rounded-full text-emerald-300 text-sm font-semibold mb-6 backdrop-blur-md shadow-lg shadow-emerald-500/10">
+                ✨ Simple, Transparent Pricing
+              </span>
+            </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-              Affordable Plans for{' '}
+              Plans for Every{' '}
               <span className="bg-gradient-to-r from-emerald-300 via-teal-400 to-cyan-500 bg-clip-text text-transparent">
-                Pricing Plans
+                Home Chef
               </span>
             </h1>
-            <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
               Start free and upgrade anytime. All plans include a 7-day free trial with full access to premium features. No credit card required.
             </p>
             <p className="text-lg text-emerald-300 font-semibold">
