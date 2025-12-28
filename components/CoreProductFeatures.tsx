@@ -17,7 +17,7 @@ const CoreProductFeatures: React.FC = () => {
       id: 1,
       icon: <ChefHat className="w-8 h-8" />,
       title: 'AI-Powered Recipe Generation',
-      description: 'Our advanced AI learns your taste preferences, dietary needs, and kitchen inventory to generate unlimited unique recipes in seconds. Never run out of meal ideas again.',
+      description: 'Our advanced AI learns your taste preferences, dietary needs, and kitchen inventory to generate unlimited unique recipes in seconds. Get personalized meal ideas that match your exact preferences and available ingredients.',
       benefits: ['Unlimited recipe creation', 'Flavor profile matching', 'Ingredient optimization']
     },
     {
@@ -31,42 +31,42 @@ const CoreProductFeatures: React.FC = () => {
       id: 3,
       icon: <Clock className="w-8 h-8" />,
       title: 'Intelligent Meal Planning',
-      description: 'Plan your entire week in minutes with perfectly balanced meals. Organized by prep time, difficulty, and nutritional goals for maximum convenience.',
+      description: 'Plan your entire week in minutes with perfectly balanced meals. Our AI creates meal plans organized by prep time, difficulty level, and nutritional goals—saving you 10+ hours weekly.',
       benefits: ['Save 10+ hours weekly', 'Balanced nutrition', 'Difficulty filters']
     },
     {
       id: 4,
       icon: <Leaf className="w-8 h-8" />,
       title: 'Comprehensive Dietary Support',
-      description: 'Support for 50+ diets including vegan, keto, paleo, gluten-free, low-carb, and more. Every dietary need is perfectly accommodated with smart alternatives.',
+      description: 'Support for 50+ diets including vegan, keto, paleo, gluten-free, low-carb, and more. Every dietary need is perfectly accommodated with smart alternatives and allergy filtering.',
       benefits: ['50+ diet types', 'Allergy filtering', 'Macro tracking']
     },
     {
       id: 5,
       icon: <Users className="w-8 h-8" />,
       title: 'Vibrant Community & Sharing',
-      description: 'Connect with 100K+ food lovers worldwide. Share your culinary wins, discover trending recipes, get inspired, and build your food community.',
+      description: 'Connect with 100K+ food lovers worldwide. Share your culinary creations, discover trending recipes, get inspired by others, and build your personal food community.',
       benefits: ['Social sharing', 'Recipe ratings', 'Trending discoveries']
     },
     {
       id: 6,
       icon: <Zap className="w-8 h-8" />,
       title: 'Complete Nutritional Analysis',
-      description: 'Every recipe includes comprehensive nutrition data. Track calories, macros, and nutrients automatically—no manual entry needed. Stay on top of your health goals.',
+      description: 'Every recipe includes comprehensive nutrition data with automatic calorie and macro tracking. Monitor your health goals effortlessly without manual entry or calculations.',
       benefits: ['Complete nutrition data', 'Calorie tracking', 'Macro insights']
     },
     {
       id: 7,
       icon: <BookOpen className="w-8 h-8" />,
       title: 'Interactive Cooking Guides',
-      description: 'Follow easy step-by-step guides with pro tips, timing assistance, and visual cues. Cook restaurant-quality meals at home with confidence, every time.',
+      description: 'Follow easy step-by-step guides with pro tips, timing assistance, and visual cues. Cook restaurant-quality meals at home with confidence and professional guidance every time.',
       benefits: ['Visual guides', 'Expert tips', 'Timing assistance']
     },
     {
       id: 8,
       icon: <TrendingUp className="w-8 h-8" />,
       title: 'Adaptive AI Learning',
-      description: 'The more you use it, the smarter it gets. Our AI continuously learns your taste preferences and improves recommendations with every recipe you create.',
+      description: 'The more you use it, the smarter it gets. Our AI continuously learns your taste preferences and improves recommendations with every recipe you create and rate.',
       benefits: ['Improved accuracy', 'Personal taste profile', 'Smart evolution']
     }
   ];

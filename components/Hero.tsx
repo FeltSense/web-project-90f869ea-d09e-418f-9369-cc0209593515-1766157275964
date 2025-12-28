@@ -35,11 +35,11 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold animate-fade-in">
-          Never stress about meal planning again. Get AI-powered recipes, personalized meal plans, and intelligent shopping lists—all tailored to your taste, dietary needs, and lifestyle in seconds.
+          Transform your kitchen with AI-powered recipes, personalized meal plans, and intelligent shopping lists. Save 10+ hours weekly, reduce food waste by 40%, and enjoy restaurant-quality meals at home—without the stress.
         </p>
         
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Join 10,000+ home cooks who are saving 10+ hours weekly on meal planning, reducing food waste by 40%, and enjoying restaurant-quality meals at home—without the stress.
+          Join 100,000+ home cooks who've discovered the easiest way to plan meals, save money, and eat healthier. Get started free—no credit card required.
         </p>
         
         <div className="mb-12 animate-fade-in">
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
           <div className="bg-gradient-to-br from-blue-500/25 to-blue-500/5 border border-blue-400/40 rounded-xl p-8 backdrop-blur-md hover:border-blue-400/70 transition-all duration-300 hover:bg-blue-500/20 hover:shadow-2xl hover:shadow-blue-500/30 group">
             <div className="text-5xl mb-5 group-hover:scale-110 transition-transform duration-300">🎯</div>
             <h3 className="text-white font-bold text-lg mb-3 group-hover:text-blue-300 transition-colors">AI-Powered Recipes</h3>
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">Get instant personalized recipes that match your taste, dietary needs, allergies, and what's already in your pantry—no more boring meals</p>
+            <p className="text-gray-300 text-sm leading-relaxed mb-4">Unlimited personalized recipes generated in seconds. Our AI learns your taste preferences, dietary needs, allergies, and pantry inventory to create meals you'll actually want to cook.</p>
             <ul className="text-gray-400 text-xs space-y-2">
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Dietary preferences</li>
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Ingredient matching</li>
@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
           <div className="bg-gradient-to-br from-purple-500/25 to-purple-500/5 border border-purple-400/40 rounded-xl p-8 backdrop-blur-md hover:border-purple-400/70 transition-all duration-300 hover:bg-purple-500/20 hover:shadow-2xl hover:shadow-purple-500/30 group">
             <div className="text-5xl mb-5 group-hover:scale-110 transition-transform duration-300">📋</div>
             <h3 className="text-white font-bold text-lg mb-3 group-hover:text-purple-300 transition-colors">Smart Meal Plans</h3>
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">Never wonder what to cook again with AI-generated weekly meal plans customized to your preferences, budget, and nutritional goals</p>
+            <p className="text-gray-300 text-sm leading-relaxed mb-4">Complete weekly meal plans generated in minutes. Perfectly balanced nutrition, organized by prep time, and customized to your budget, dietary preferences, and lifestyle—all the thinking done for you.</p>
             <ul className="text-gray-400 text-xs space-y-2">
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Weekly planning</li>
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Balanced nutrition</li>
@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
           <div className="bg-gradient-to-br from-pink-500/25 to-pink-500/5 border border-pink-400/40 rounded-xl p-8 backdrop-blur-md hover:border-pink-400/70 transition-all duration-300 hover:bg-pink-500/20 hover:shadow-2xl hover:shadow-pink-500/30 group">
             <div className="text-5xl mb-5 group-hover:scale-110 transition-transform duration-300">🛒</div>
             <h3 className="text-white font-bold text-lg mb-3 group-hover:text-pink-300 transition-colors">Smart Shopping</h3>
-            <p className="text-gray-300 text-sm leading-relaxed mb-4">Auto-generated shopping lists organized by store section with price comparisons, helping you save time and money on every trip</p>
+            <p className="text-gray-300 text-sm leading-relaxed mb-4">Intelligent shopping lists organized by store aisle, with price comparisons and pantry tracking. Save time at the store and reduce food waste with smart quantity suggestions.</p>
             <ul className="text-gray-400 text-xs space-y-2">
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Organized by aisle</li>
               <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Price comparison</li>
