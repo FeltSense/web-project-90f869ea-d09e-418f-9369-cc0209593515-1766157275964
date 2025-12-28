@@ -31,11 +31,11 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight animate-fade-in">
-          Your Personal <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI Chef</span> Awaits
+          Transform Your Kitchen with <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI-Powered Cooking</span>
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold animate-fade-in">
-          Stop wasting time on meal planning. Get personalized recipes, balanced meal plans, and smart shopping lists in seconds.
+          Never struggle with meal planning again. Get personalized recipes, perfectly balanced meal plans, and intelligent shopping lists—all powered by AI that learns your taste.
         </p>
         
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
@@ -87,10 +87,10 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row gap-5 justify-center animate-fade-in mb-12">
           <button 
             onClick={handleTryBeta}
-            className="group relative px-10 sm:px-14 py-6 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl hover:shadow-3xl hover:shadow-emerald-500/70 transition-all duration-300 transform hover:scale-110 overflow-hidden text-base sm:text-lg cursor-pointer shadow-xl shadow-emerald-500/50 border border-emerald-400/50"
+            className="group relative px-12 sm:px-16 py-7 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl hover:shadow-3xl hover:shadow-emerald-500/70 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-xl shadow-emerald-500/50 border border-emerald-400/50"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
-              🚀 Start Your Free Trial
+              ✨ Get Started Free Today
               <svg className="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
