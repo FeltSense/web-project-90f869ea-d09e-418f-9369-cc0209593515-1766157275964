@@ -31,15 +31,15 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight animate-fade-in">
-          Transform Your Kitchen with <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI-Powered Cooking</span>
+          Your Personal <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI Chef</span> Awaits
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold animate-fade-in">
-          Discover the future of home cooking. AI-powered recipes tailored to your taste, smart meal plans that save you hours, and intelligent shopping that cuts waste by 40%. Enjoy restaurant-quality meals at home—effortlessly.
+          Meet your new kitchen companion. Get unlimited AI-powered recipes, smart meal plans, and intelligent shopping lists—all personalized to your taste and lifestyle. Save 10+ hours per week and reduce food waste by 40%.
         </p>
         
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Join 100,000+ home cooks who've transformed their kitchens. Get started free—no credit card required. Start cooking smarter in 30 seconds.
+          Join thousands of home cooks who've already transformed their kitchens. Start your free trial today—no credit card required, cancel anytime.
         </p>
         
         <div className="mb-12 animate-fade-in">
@@ -95,7 +95,7 @@ const Hero: React.FC = () => {
             className="group relative px-12 sm:px-16 py-7 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-xl hover:shadow-3xl hover:shadow-emerald-500/70 transition-all duration-300 transform hover:scale-105 overflow-hidden text-base sm:text-lg cursor-pointer shadow-xl shadow-emerald-500/50 border border-emerald-400/50 animate-pulse"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
-              🚀 Sign Up Free - Get Started in 30 Seconds
+              🚀 Start Your Free Trial Now
               <svg className="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -107,14 +107,14 @@ const Hero: React.FC = () => {
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
-              See How It Works
+              Watch Demo
             </span>
           </button>
         </div>
         
         {/* Enhanced Call-to-Action Section */}
         <div className="mt-20 pt-16 border-t border-white/10 animate-fade-in">
-          <p className="text-white text-2xl md:text-3xl font-bold mb-10 text-center">🌟 Why 10,000+ Home Cooks Love Our AI Chef</p>
+          <p className="text-white text-2xl md:text-3xl font-bold mb-10 text-center">🌟 Why Home Cooks Love Our AI Chef</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
             <div className="flex flex-col items-center gap-4 px-8 py-7 rounded-xl bg-gradient-to-br from-green-500/25 to-green-500/5 backdrop-blur-md border border-green-400/40 hover:border-green-400/70 transition-all duration-300 hover:shadow-xl hover:shadow-green-500/30 group">
               <svg className="w-8 h-8 text-green-400 flex-shrink-0 group-hover:scale-125 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
@@ -139,8 +139,8 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/60 rounded-xl p-10 backdrop-blur-md max-w-3xl mx-auto hover:border-emerald-400/90 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/40 transform hover:scale-105">
-            <p className="text-white text-2xl font-bold text-center mb-4">🎁 Limited Time Launch Offer</p>
-            <p className="text-gray-100 text-center font-semibold mb-3 text-lg">Get 30 days of premium AI features completely free—no credit card required. Join 10,000+ happy home cooks today!</p>
+            <p className="text-white text-2xl font-bold text-center mb-4">🎁 Start Your Free Trial Today</p>
+            <p className="text-gray-100 text-center font-semibold mb-3 text-lg">Get 30 days of premium AI features completely free. No credit card required, cancel anytime.</p>
             <p className="text-gray-300 text-base text-center mb-6">Full access to AI recipes • Smart meal plans • Intelligent shopping lists • Pantry tracking • Cancel anytime</p>
             <div className="flex justify-center">
               <button className="px-8 py-3 bg-gradient-to-r from-emerald-500 to-cyan-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-emerald-500/50 transition-all duration-300 transform hover:scale-105">
