@@ -31,15 +31,15 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight animate-fade-in">
-          Your Personal <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI Chef</span> Awaits
+          Meet Your <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">AI Culinary Partner</span>
         </h1>
         
         <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold animate-fade-in">
-          Transform your kitchen with AI-powered recipes, personalized meal plans, and intelligent shopping lists. Save 10+ hours weekly, reduce food waste by 40%, and enjoy restaurant-quality meals at home—without the stress.
+          Discover the future of home cooking. AI-powered recipes tailored to your taste, smart meal plans that save you hours, and intelligent shopping that cuts waste by 40%. Enjoy restaurant-quality meals at home—effortlessly.
         </p>
         
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-          Join 100,000+ home cooks who've discovered the easiest way to plan meals, save money, and eat healthier. Get started free—no credit card required.
+          Join 100,000+ home cooks who've transformed their kitchens. Get started free—no credit card required. Start cooking smarter in 30 seconds.
         </p>
         
         <div className="mb-12 animate-fade-in">

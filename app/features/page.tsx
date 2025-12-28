@@ -394,16 +394,25 @@ export default function FeaturesPage(): React.ReactElement {
       
       <main>
         {/* Hero Section */}
-        <section className="relative py-20 border-b border-slate-800">
-          <div className="absolute inset-0 bg-gradient-to-b from-emerald-500/5 via-transparent to-transparent" />
+        <section className="relative py-24 border-b border-slate-800 bg-gradient-to-b from-slate-900 via-slate-950 to-slate-950">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.15),transparent_50%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(168,85,247,0.1),transparent_50%)]" />
           
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              Powerful Features for Every Cook
+            <div className="mb-6 inline-block px-4 py-2 bg-emerald-500/20 border border-emerald-400/50 rounded-full">
+              <span className="text-emerald-300 text-sm font-semibold">✨ Complete Feature Suite</span>
+            </div>
+            
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
+              Everything You Need to Cook Smarter
             </h1>
             
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
-              Discover the complete suite of AI-powered tools designed to revolutionize your cooking experience. From recipe generation to nutrition tracking, we have everything you need.
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-4">
+              Explore our comprehensive suite of AI-powered tools designed to revolutionize your cooking experience. From intelligent recipe generation to advanced nutrition tracking, we've got you covered.
+            </p>
+            
+            <p className="text-lg text-slate-400 max-w-3xl mx-auto mb-8">
+              Save time, reduce waste, eat healthier, and enjoy restaurant-quality meals at home—all powered by cutting-edge AI technology.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -431,14 +440,18 @@ export default function FeaturesPage(): React.ReactElement {
         ))}
 
         {/* CTA Section */}
-        <section className="py-20 border-b border-slate-800">
+        <section className="py-24 border-b border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-4xl font-bold mb-4 text-white">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
               Ready to Transform Your Cooking?
             </h2>
             
-            <p className="text-lg text-slate-400 mb-8">
-              Join thousands of home cooks who are already enjoying smarter meal planning and delicious AI-generated recipes.
+            <p className="text-lg text-slate-300 mb-4">
+              Join 100,000+ home cooks who are already enjoying smarter meal planning, AI-generated recipes, and stress-free cooking.
+            </p>
+            
+            <p className="text-slate-400 mb-8">
+              Get 30 days of premium features free—no credit card required. Start cooking smarter today.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -461,15 +474,17 @@ export default function FeaturesPage(): React.ReactElement {
         </section>
 
         {/* Comparison Section */}
-        <section className="py-20">
+        <section className="py-24 bg-gradient-to-b from-slate-900 to-slate-950">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-4xl font-bold text-center mb-4 text-white">
-              More Than Just Recipes
-            </h2>
-            
-            <p className="text-lg text-slate-400 text-center max-w-2xl mx-auto mb-12">
-              Our comprehensive platform combines AI technology with nutritional science to deliver the ultimate cooking companion.
-            </p>
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent">
+                Why Choose Our AI Chef?
+              </h2>
+              
+              <p className="text-lg text-slate-300 max-w-2xl mx-auto">
+                We combine cutting-edge AI technology with nutritional science to deliver the ultimate cooking companion. Here's what sets us apart:
+              </p>
+            </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="rounded-lg bg-gradient-to-br from-slate-800 to-slate-900 p-6 border border-slate-700">
