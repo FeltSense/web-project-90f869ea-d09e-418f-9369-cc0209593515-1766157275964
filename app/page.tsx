@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import FeaturesShowcaseSection from '@/components/FeaturesShowcaseSection'
