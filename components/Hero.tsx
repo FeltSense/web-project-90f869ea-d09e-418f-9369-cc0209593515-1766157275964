@@ -42,11 +42,11 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white mb-8 leading-tight animate-fade-in tracking-tight">
-          Your Personal <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg">AI Chef</span> Awaits
+          Cook Like a Pro, <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent drop-shadow-lg">Eat Like a Dream</span>
         </h1>
         
         <p className="text-2xl md:text-3xl lg:text-4xl text-gray-100 mb-10 max-w-5xl mx-auto leading-relaxed font-bold animate-fade-in">
-          Transform your kitchen with AI-powered recipes, smart meal plans, and intelligent shopping lists—all personalized to your taste and lifestyle.
+          Your AI-powered kitchen companion generates personalized recipes, plans your meals, and creates smart shopping lists—all in seconds. Say goodbye to meal planning stress and hello to delicious, healthy dinners every night.
         </p>
         
         <div className="flex flex-wrap justify-center gap-8 mb-12 max-w-4xl mx-auto animate-fade-in">
@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
             className="group relative px-14 sm:px-20 py-8 bg-gradient-to-r from-emerald-500 via-emerald-400 to-cyan-500 text-white font-black rounded-2xl hover:shadow-4xl hover:shadow-emerald-500/80 transition-all duration-300 transform hover:scale-110 overflow-hidden text-lg sm:text-xl cursor-pointer shadow-2xl shadow-emerald-500/60 border border-emerald-300/60 hover:border-emerald-200"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
-              🚀 Start Free Trial
+              🎉 Get Started Free Today
               <svg className="w-7 h-7 group-hover:translate-x-3 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
