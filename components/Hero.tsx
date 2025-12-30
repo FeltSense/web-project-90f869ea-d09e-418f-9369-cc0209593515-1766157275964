@@ -17,17 +17,17 @@ interface TrustIndicator {
 
 const features: Feature[] = [
   {
-    icon: <Zap className="w-6 h-6 text-amber-500" />,
+    icon: <Zap className="w-6 h-6 text-cyan-400" />,
     title: 'AI Recipes',
     description: 'Personalized recipe suggestions powered by advanced AI algorithms'
   },
   {
-    icon: <Calendar className="w-6 h-6 text-amber-500" />,
+    icon: <Calendar className="w-6 h-6 text-cyan-400" />,
     title: 'Smart Meal Plans',
     description: 'Intelligent meal planning that adapts to your preferences and dietary needs'
   },
   {
-    icon: <ShoppingCart className="w-6 h-6 text-amber-500" />,
+    icon: <ShoppingCart className="w-6 h-6 text-cyan-400" />,
     title: 'Smart Shopping',
     description: 'Automated shopping lists generated from your meal plans'
   }
@@ -41,11 +41,11 @@ const trustIndicators: TrustIndicator[] = [
 
 export default function Hero(): React.ReactElement {
   return (
-    <section className="relative w-full min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
+    <section className="relative w-full min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-teal-500 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob animation-delay-2000" />
       </div>
 
       <div className="relative z-10">
@@ -56,9 +56,9 @@ export default function Hero(): React.ReactElement {
             <div className="flex flex-col justify-center space-y-8">
               {/* Badge */}
               <div className="inline-flex items-center space-x-2 w-fit">
-                <div className="flex items-center space-x-2 px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-full">
-                  <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
-                  <span className="text-sm font-medium text-amber-200">AI-Powered Cooking Revolution</span>
+                <div className="flex items-center space-x-2 px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full">
+                  <Star className="w-4 h-4 text-cyan-400 fill-cyan-400" />
+                  <span className="text-sm font-medium text-cyan-200">AI-Powered Cooking Revolution</span>
                 </div>
               </div>
 
@@ -74,11 +74,11 @@ export default function Hero(): React.ReactElement {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-lg transition-colors duration-200">
+                <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-colors duration-200">
                   Get Started
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
-                <Link href="/pricing" className="inline-flex items-center justify-center px-8 py-4 border border-amber-500/50 hover:border-amber-500 text-amber-200 hover:text-white font-semibold rounded-lg transition-colors duration-200 bg-amber-500/5 hover:bg-amber-500/10">
+                <Link href="/pricing" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 hover:border-cyan-500 text-cyan-200 hover:text-white font-semibold rounded-lg transition-colors duration-200 bg-cyan-500/5 hover:bg-cyan-500/10">
                   View Pricing
                 </Link>
                 <Link href="/features" className="inline-flex items-center justify-center px-8 py-4 border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-white font-semibold rounded-lg transition-colors duration-200 bg-slate-800/50 hover:bg-slate-700/50">
@@ -90,7 +90,7 @@ export default function Hero(): React.ReactElement {
               <div className="grid grid-cols-3 gap-6 pt-8 border-t border-slate-700">
                 {trustIndicators.map((indicator: TrustIndicator) => (
                   <div key={indicator.label} className="flex flex-col">
-                    <p className="text-2xl sm:text-3xl font-bold text-amber-400">{indicator.value}</p>
+                    <p className="text-2xl sm:text-3xl font-bold text-cyan-400">{indicator.value}</p>
                     <p className="text-sm text-slate-400">{indicator.label}</p>
                   </div>
                 ))}
@@ -99,11 +99,11 @@ export default function Hero(): React.ReactElement {
 
             {/* Right Visual */}
             <div className="relative h-96 lg:h-full">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/20 rounded-2xl blur-2xl" />
+              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-teal-500/20 rounded-2xl blur-2xl" />
               <div className="relative bg-gradient-to-br from-slate-800 to-slate-700 rounded-2xl p-8 border border-slate-700 h-full flex items-center justify-center">
                 <div className="text-center space-y-4">
                   <div className="flex justify-center">
-                    <div className="relative w-32 h-32 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center">
+                    <div className="relative w-32 h-32 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-full flex items-center justify-center">
                       <Zap className="w-16 h-16 text-white" />
                     </div>
                   </div>
@@ -121,8 +121,8 @@ export default function Hero(): React.ReactElement {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature: Feature) => (
-              <div key={feature.title} className="group p-8 bg-slate-800/50 hover:bg-slate-800 border border-slate-700 hover:border-amber-500/50 rounded-xl transition-all duration-300">
-                <div className="flex items-center justify-center w-14 h-14 bg-amber-500/10 group-hover:bg-amber-500/20 rounded-lg mb-4 transition-colors duration-300">
+              <div key={feature.title} className="group p-8 bg-slate-800/50 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 rounded-xl transition-all duration-300">
+                <div className="flex items-center justify-center w-14 h-14 bg-cyan-500/10 group-hover:bg-cyan-500/20 rounded-lg mb-4 transition-colors duration-300">
                   {feature.icon}
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
@@ -134,17 +134,17 @@ export default function Hero(): React.ReactElement {
 
         {/* CTA Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="relative bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/30 rounded-2xl p-12 text-center space-y-6">
+          <div className="relative bg-gradient-to-r from-cyan-500/10 to-teal-500/10 border border-cyan-500/30 rounded-2xl p-12 text-center space-y-6">
             <h2 className="text-3xl sm:text-4xl font-bold text-white">Ready to Transform Your Kitchen?</h2>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
               Join thousands of home cooks using AI to revolutionize their culinary experience. Start your journey today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-lg transition-colors duration-200">
+              <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-colors duration-200">
                 <CheckCircle className="mr-2 w-5 h-5" />
                 Start Free Trial
               </Link>
-              <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 border border-amber-500/50 text-amber-200 hover:text-white font-semibold rounded-lg transition-colors duration-200 bg-transparent hover:bg-amber-500/10">
+              <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 text-cyan-200 hover:text-white font-semibold rounded-lg transition-colors duration-200 bg-transparent hover:bg-cyan-500/10">
                 Contact Us
               </Link>
             </div>
