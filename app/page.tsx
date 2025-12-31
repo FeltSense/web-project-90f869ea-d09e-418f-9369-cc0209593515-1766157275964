@@ -11,6 +11,7 @@ import KeyFeaturesShowcaseSection from '@/components/KeyFeaturesShowcaseSection'
 import NewHeroFeaturesSection from '@/components/NewHeroFeaturesSection'
 import HeroKeyFeaturesHighlight from '@/components/HeroKeyFeaturesHighlight'
 import CoreProductFeatures from '@/components/CoreProductFeatures'
+import OptimizedProductFeaturesSection from '@/components/OptimizedProductFeaturesSection'
 import Benefits from '@/components/Benefits'
 import SampleRecipes from '@/components/SampleRecipes'
 import PremiumFeaturesSection from '@/components/PremiumFeaturesSection'
@@ -24,7 +25,7 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className="overflow-hidden bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
+    <main className="overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       <Navigation />
       <Hero />
       <AboutUs />
@@ -34,6 +35,7 @@ export default function Home() {
       <KeyFeaturesShowcaseSection />
       <NewHeroFeaturesSection />
       <HeroKeyFeaturesHighlight />
+      <OptimizedProductFeaturesSection />
       <CoreProductFeatures />
       <Benefits />
       <SampleRecipes />

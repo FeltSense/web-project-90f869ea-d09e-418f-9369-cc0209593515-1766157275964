@@ -64,24 +64,21 @@ export default function Hero(): React.ReactElement {
 
               {/* Headline */}
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-                Your AI Chef Awaits, Transform Your Kitchen Today
+                Revolutionize Your Cooking with <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">AI Intelligence</span>
               </h1>
 
               {/* Subheading */}
               <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-xl">
-                Experience the future of cooking with AI-powered recipes, intelligent meal planning, and smart shopping lists tailored to your taste preferences and lifestyle.
+                Discover personalized recipes, create intelligent meal plans, and generate smart shopping lists—all powered by cutting-edge AI. Transform how you cook, eat, and live.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-colors duration-200">
-                  Get Started
+                <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75">
+                  Start Your Free Trial
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
-                <Link href="/pricing" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 hover:border-cyan-500 text-cyan-200 hover:text-white font-semibold rounded-lg transition-colors duration-200 bg-cyan-500/5 hover:bg-cyan-500/10">
-                  View Pricing
-                </Link>
-                <Link href="/features" className="inline-flex items-center justify-center px-8 py-4 border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-white font-semibold rounded-lg transition-colors duration-200 bg-slate-800/50 hover:bg-slate-700/50">
+                <Link href="/features" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 hover:border-cyan-500 text-cyan-200 hover:text-white font-semibold rounded-lg transition-all duration-200 bg-cyan-500/5 hover:bg-cyan-500/10">
                   Explore Features
                 </Link>
               </div>
@@ -140,11 +137,11 @@ export default function Hero(): React.ReactElement {
               Join thousands of home cooks using AI to revolutionize their culinary experience. Start your journey today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-colors duration-200">
+              <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75">
                 <CheckCircle className="mr-2 w-5 h-5" />
                 Start Free Trial
               </Link>
-              <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 text-cyan-200 hover:text-white font-semibold rounded-lg transition-colors duration-200 bg-transparent hover:bg-cyan-500/10">
+              <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 text-cyan-200 hover:text-white font-semibold rounded-lg transition-all duration-200 bg-transparent hover:bg-cyan-500/10">
                 Contact Us
               </Link>
             </div>
