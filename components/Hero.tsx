@@ -18,18 +18,18 @@ interface TrustIndicator {
 const features: Feature[] = [
   {
     icon: <Zap className="w-6 h-6 text-cyan-400" />,
-    title: 'AI Recipes',
-    description: 'Personalized recipe suggestions powered by advanced AI algorithms'
+    title: 'AI-Powered Recipes',
+    description: 'Get personalized recipe suggestions that match your taste, dietary preferences, and available ingredients in seconds'
   },
   {
     icon: <Calendar className="w-6 h-6 text-cyan-400" />,
-    title: 'Smart Meal Plans',
-    description: 'Intelligent meal planning that adapts to your preferences and dietary needs'
+    title: 'Intelligent Meal Planning',
+    description: 'Automatically generate weekly meal plans that balance nutrition, variety, and your lifestyle preferences'
   },
   {
     icon: <ShoppingCart className="w-6 h-6 text-cyan-400" />,
-    title: 'Smart Shopping',
-    description: 'Automated shopping lists generated from your meal plans'
+    title: 'Smart Shopping Lists',
+    description: 'Organized, optimized shopping lists that save you time and money at the grocery store'
   }
 ];
 
@@ -64,31 +64,31 @@ export default function Hero(): React.ReactElement {
 
               {/* Headline */}
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-                Revolutionize Your Cooking with <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">AI Intelligence</span>
+                Cook Smarter, Eat Better, <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Save Time</span>
               </h1>
 
               {/* Subheading */}
               <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-xl">
-                Discover personalized recipes, create intelligent meal plans, and generate smart shopping lists—all powered by cutting-edge AI. Transform how you cook, eat, and live.
+                Let AI handle the planning while you enjoy the cooking. Get personalized recipes tailored to your taste, automated meal plans that fit your lifestyle, and optimized shopping lists—all in one intelligent platform.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75">
-                  Start Your Free Trial
+                <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 transform hover:scale-105">
+                  Get Started Free
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
-                <Link href="/features" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 hover:border-cyan-500 text-cyan-200 hover:text-white font-semibold rounded-lg transition-all duration-200 bg-cyan-500/5 hover:bg-cyan-500/10">
-                  Explore Features
+                <Link href="/features" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 hover:border-cyan-500 text-cyan-200 hover:text-white font-semibold rounded-lg transition-all duration-200 bg-cyan-500/5 hover:bg-cyan-500/10 transform hover:scale-105">
+                  See How It Works
                 </Link>
               </div>
 
               {/* Trust Indicators */}
               <div className="grid grid-cols-3 gap-6 pt-8 border-t border-slate-700">
                 {trustIndicators.map((indicator: TrustIndicator) => (
-                  <div key={indicator.label} className="flex flex-col">
-                    <p className="text-2xl sm:text-3xl font-bold text-cyan-400">{indicator.value}</p>
-                    <p className="text-sm text-slate-400">{indicator.label}</p>
+                  <div key={indicator.label} className="flex flex-col group">
+                    <p className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:to-teal-300 transition-all duration-300">{indicator.value}</p>
+                    <p className="text-sm text-slate-400 group-hover:text-slate-300 transition-colors duration-300">{indicator.label}</p>
                   </div>
                 ))}
               </div>
@@ -114,12 +114,15 @@ export default function Hero(): React.ReactElement {
 
         {/* Features Showcase */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-700/50">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-12">Key Features</h2>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Powerful Features Built for You</h2>
+            <p className="text-lg text-slate-400 max-w-2xl mx-auto">Everything you need to transform your cooking experience with intelligent AI assistance</p>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature: Feature) => (
-              <div key={feature.title} className="group p-8 bg-slate-800/50 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 rounded-xl transition-all duration-300">
-                <div className="flex items-center justify-center w-14 h-14 bg-cyan-500/10 group-hover:bg-cyan-500/20 rounded-lg mb-4 transition-colors duration-300">
+              <div key={feature.title} className="group p-8 bg-gradient-to-br from-slate-800/50 to-slate-700/30 hover:from-slate-800 hover:to-slate-700/50 border border-slate-700 hover:border-cyan-500/50 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/20">
+                <div className="flex items-center justify-center w-14 h-14 bg-gradient-to-br from-cyan-500/20 to-teal-500/20 group-hover:from-cyan-500/30 group-hover:to-teal-500/30 rounded-lg mb-4 transition-all duration-300">
                   {feature.icon}
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
@@ -131,17 +134,17 @@ export default function Hero(): React.ReactElement {
 
         {/* CTA Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="relative bg-gradient-to-r from-cyan-500/10 to-teal-500/10 border border-cyan-500/30 rounded-2xl p-12 text-center space-y-6">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white">Ready to Transform Your Kitchen?</h2>
+          <div className="relative bg-gradient-to-r from-cyan-500/10 to-teal-500/10 border border-cyan-500/30 rounded-2xl p-12 text-center space-y-6 hover:border-cyan-500/50 transition-all duration-300">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white">Start Cooking Smarter Today</h2>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              Join thousands of home cooks using AI to revolutionize their culinary experience. Start your journey today.
+              Join thousands of home cooks who've discovered the power of AI-assisted cooking. No credit card required. Cancel anytime.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75">
+              <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 transform hover:scale-105">
                 <CheckCircle className="mr-2 w-5 h-5" />
                 Start Free Trial
               </Link>
-              <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 text-cyan-200 hover:text-white font-semibold rounded-lg transition-all duration-200 bg-transparent hover:bg-cyan-500/10">
+              <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 text-cyan-200 hover:text-white font-semibold rounded-lg transition-all duration-200 bg-transparent hover:bg-cyan-500/10 transform hover:scale-105">
                 Contact Us
               </Link>
             </div>
