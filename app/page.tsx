@@ -42,7 +42,10 @@ export default function Home() {
       <div id="premium-features">
         <PremiumFeaturesSection />
       </div>
-      <Testimonials />
+      {/* Testimonials Section - Showcase Customer Success */}
+      <div id="testimonials">
+        <Testimonials />
+      </div>
       <CustomerSuccessStories />
       <div id="beta-signup">
         <BetaSignup />

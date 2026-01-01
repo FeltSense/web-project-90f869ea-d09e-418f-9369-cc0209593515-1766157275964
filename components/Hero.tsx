@@ -19,17 +19,17 @@ const features: Feature[] = [
   {
     icon: <Zap className="w-6 h-6 text-cyan-400" />,
     title: 'AI-Powered Recipes',
-    description: 'Get personalized recipe suggestions that match your taste, dietary preferences, and available ingredients in seconds'
+    description: 'Get unlimited personalized recipe suggestions in seconds. Our AI learns your taste, dietary needs, and available ingredients to create recipes you\'ll actually want to cook.'
   },
   {
     icon: <Calendar className="w-6 h-6 text-cyan-400" />,
     title: 'Intelligent Meal Planning',
-    description: 'Automatically generate weekly meal plans that balance nutrition, variety, and your lifestyle preferences'
+    description: 'Plan your entire week in minutes with perfectly balanced meals. Save 10+ hours weekly with AI-generated meal plans tailored to your lifestyle and nutrition goals.'
   },
   {
     icon: <ShoppingCart className="w-6 h-6 text-cyan-400" />,
     title: 'Smart Shopping Lists',
-    description: 'Organized, optimized shopping lists that save you time and money at the grocery store'
+    description: 'Get organized, optimized shopping lists that reduce food waste and cut grocery costs by up to 35%. Shop smarter, save more.'
   }
 ];
 
@@ -64,12 +64,12 @@ export default function Hero(): React.ReactElement {
 
               {/* Headline */}
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-                Cook Smarter, Eat Better, <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Save Time</span>
+                Your Personal AI Chef, <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Always Ready</span>
               </h1>
 
               {/* Subheading */}
               <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-xl">
-                Let AI handle the planning while you enjoy the cooking. Get personalized recipes tailored to your taste, automated meal plans that fit your lifestyle, and optimized shopping lists—all in one intelligent platform.
+                Transform your kitchen with AI-powered recipe generation, intelligent meal planning, and smart shopping lists. Save 10+ hours weekly, cut grocery costs by 35%, and discover recipes you'll love—all personalized to your taste and dietary needs.
               </p>
 
               {/* CTA Buttons */}
@@ -115,8 +115,8 @@ export default function Hero(): React.ReactElement {
         {/* Features Showcase */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-700/50">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Powerful Features Built for You</h2>
-            <p className="text-lg text-slate-400 max-w-2xl mx-auto">Everything you need to transform your cooking experience with intelligent AI assistance</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">✨ Key Features That Make a Difference</h2>
+            <p className="text-lg text-slate-400 max-w-2xl mx-auto">Discover the powerful capabilities that help 100K+ users cook smarter, save time, and eat better every single day</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -135,9 +135,9 @@ export default function Hero(): React.ReactElement {
         {/* CTA Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="relative bg-gradient-to-r from-cyan-500/10 to-teal-500/10 border border-cyan-500/30 rounded-2xl p-12 text-center space-y-6 hover:border-cyan-500/50 transition-all duration-300">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white">Start Cooking Smarter Today</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white">🚀 Join 100K+ Home Cooks Transforming Their Kitchens</h2>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              Join thousands of home cooks who've discovered the power of AI-assisted cooking. No credit card required. Cancel anytime.
+              Start your free trial today and experience the power of AI-assisted cooking. Save 10+ hours weekly, cut grocery costs by 35%, and discover recipes you'll love. No credit card required. Cancel anytime.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 transform hover:scale-105">
