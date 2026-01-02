@@ -16,7 +16,7 @@ const HowItWorks: React.FC = () => {
     {
       number: 1,
       title: 'Set Preferences',
-      description: 'Tell us your dietary preferences, allergies, and favorite cuisines to personalize your experience.',
+      description: 'Tell us your dietary preferences, allergies, cooking skill level, and favorite cuisines to personalize your experience perfectly.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -28,7 +28,7 @@ const HowItWorks: React.FC = () => {
     {
       number: 2,
       title: 'Get Recipes',
-      description: 'Discover personalized recipes tailored to your preferences and nutritional goals.',
+      description: 'Discover unlimited personalized recipes tailored to your preferences, available ingredients, and nutritional goals.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17s4.5 10.747 10 10.747c5.5 0 10-4.998 10-10.747S17.5 6.253 12 6.253z" />
@@ -39,7 +39,7 @@ const HowItWorks: React.FC = () => {
     {
       number: 3,
       title: 'Plan Meals',
-      description: 'Organize your meals for the week with our intelligent meal planning calendar.',
+      description: 'Organize your entire week of meals with our intelligent meal planning calendar and balanced nutrition guidance.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -50,7 +50,7 @@ const HowItWorks: React.FC = () => {
     {
       number: 4,
       title: 'Shop Smart',
-      description: 'Generate optimized shopping lists and find the best deals on ingredients.',
+      description: 'Generate optimized shopping lists organized by store layout and find the best deals on ingredients to maximize savings.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
@@ -65,10 +65,10 @@ const HowItWorks: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
-            How It Works
+            How It Works - 4 Simple Steps to Transform Your Kitchen
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Follow four simple steps to transform your meal planning and shopping experience
+            Follow four simple steps to transform your meal planning, save time, and enjoy stress-free cooking every single day
           </p>
         </div>
 

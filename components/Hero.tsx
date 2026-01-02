@@ -19,17 +19,17 @@ const features: Feature[] = [
   {
     icon: <Zap className="w-6 h-6 text-cyan-400" />,
     title: 'AI-Powered Recipes',
-    description: 'Get unlimited personalized recipe suggestions in seconds. Our AI learns your taste, dietary needs, and available ingredients to create recipes you\'ll actually want to cook.'
+    description: 'Unlock endless culinary possibilities with AI that learns your preferences. Get personalized recipe suggestions in seconds, tailored to your dietary needs, available ingredients, and cooking skill level., dietary needs, and available ingredients to create recipes you\'ll actually want to cook.'
   },
   {
     icon: <Calendar className="w-6 h-6 text-cyan-400" />,
     title: 'Intelligent Meal Planning',
-    description: 'Plan your entire week in minutes with perfectly balanced meals. Save 10+ hours weekly with AI-generated meal plans tailored to your lifestyle and nutrition goals.'
+    description: 'Plan your entire week in minutes with perfectly balanced, nutritious meals. Our AI creates customized meal plans that fit your lifestyle, budget, and health goals—saving you 10+ hours weekly.'
   },
   {
     icon: <ShoppingCart className="w-6 h-6 text-cyan-400" />,
     title: 'Smart Shopping Lists',
-    description: 'Get organized, optimized shopping lists that reduce food waste and cut grocery costs by up to 35%. Shop smarter, save more.'
+    description: 'Get intelligent shopping lists that organize by store layout and reduce food waste. Cut grocery costs by up to 35% with smart price comparisons and seasonal ingredient suggestions.'
   }
 ];
 
@@ -64,12 +64,12 @@ export default function Hero(): React.ReactElement {
 
               {/* Headline */}
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-                Your Personal AI Chef, <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Always Ready</span>
+                Your Personal AI Chef, <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Always Ready to Inspire</span>
               </h1>
 
               {/* Subheading */}
               <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-xl">
-                Transform your kitchen with AI-powered recipe generation, intelligent meal planning, and smart shopping lists. Save 10+ hours weekly, cut grocery costs by 35%, and discover recipes you'll love—all personalized to your taste and dietary needs.
+                Discover personalized recipes, plan meals effortlessly, and shop smarter with AI that understands your taste. Save 10+ hours weekly, cut grocery costs by 35%, and never wonder "what's for dinner?" again.
               </p>
 
               {/* CTA Buttons */}
@@ -135,9 +135,9 @@ export default function Hero(): React.ReactElement {
         {/* CTA Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="relative bg-gradient-to-r from-cyan-500/10 to-teal-500/10 border border-cyan-500/30 rounded-2xl p-12 text-center space-y-6 hover:border-cyan-500/50 transition-all duration-300">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white">🚀 Join 100K+ Home Cooks Transforming Their Kitchens</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white">🚀 Join 100K+ Home Cooks Who've Transformed Their Kitchens</h2>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              Start your free trial today and experience the power of AI-assisted cooking. Save 10+ hours weekly, cut grocery costs by 35%, and discover recipes you'll love. No credit card required. Cancel anytime.
+              Start your free trial today and experience the power of AI-assisted cooking. Save 10+ hours weekly, cut grocery costs by 35%, discover recipes you'll love, and never stress about meal planning again. No credit card required. Cancel anytime.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 transform hover:scale-105">

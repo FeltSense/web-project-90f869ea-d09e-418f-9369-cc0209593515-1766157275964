@@ -16,42 +16,42 @@ const features: Feature[] = [
     id: 'ai-recipes',
     icon: <ChefHat className="w-8 h-8" />,
     title: 'AI Recipes',
-    description: 'Get personalized recipe recommendations powered by advanced AI algorithms.',
+    description: 'Unlock unlimited personalized recipe ideas powered by advanced AI that learns your taste preferences and dietary needs.',
     benefits: ['Endless recipe ideas', 'Tailored to your taste', 'New suggestions daily'],
   },
   {
     id: 'meal-planning',
     icon: <Calendar className="w-8 h-8" />,
     title: 'Meal Planning',
-    description: 'Create and organize weekly meal plans with automatic grocery lists.',
+    description: 'Plan your entire week in minutes with perfectly balanced meals and automatically generated shopping lists.',
     benefits: ['Weekly planning', 'Time-saving prep', 'Family-friendly options'],
   },
   {
     id: 'smart-shopping',
     icon: <ShoppingCart className="w-8 h-8" />,
     title: 'Smart Shopping',
-    description: 'Intelligent shopping lists that sync across all your devices seamlessly.',
+    description: 'Smart shopping lists that organize by store layout, compare prices, and sync seamlessly across all your devices.',
     benefits: ['Synchronized lists', 'Price comparisons', 'Store locator'],
   },
   {
     id: 'dietary-preferences',
     icon: <Leaf className="w-8 h-8" />,
     title: 'Dietary Preferences',
-    description: 'Support for multiple dietary preferences including vegan, keto, and gluten-free.',
+    description: 'Support for 50+ dietary preferences including vegan, keto, gluten-free, and more with automatic allergen alerts.',
     benefits: ['Multiple diets', 'Custom filters', 'Allergen alerts'],
   },
   {
     id: 'pantry-tracking',
     icon: <Package className="w-8 h-8" />,
     title: 'Pantry Tracking',
-    description: 'Keep track of your ingredients and expiration dates automatically.',
+    description: 'Automatically track your ingredients and expiration dates to minimize food waste and maximize savings.',
     benefits: ['Inventory management', 'Expiry notifications', 'Waste reduction'],
   },
   {
     id: 'nutrition-insights',
     icon: <BarChart3 className="w-8 h-8" />,
     title: 'Nutrition Insights',
-    description: 'Detailed nutritional analysis and health tracking for all your meals.',
+    description: 'Get detailed nutritional analysis, macro tracking, and personalized health insights for every meal you plan.',
     benefits: ['Calorie tracking', 'Macro analysis', 'Health reports'],
   },
 ];
@@ -103,7 +103,7 @@ const FeaturesShowcaseSection: React.FC = () => {
             </span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Everything you need to simplify meal planning, reduce food waste, and eat healthier with intelligent recommendations.
+            Discover the complete toolkit that helps you cook smarter, save time, reduce waste, and eat healthier every single day.
           </p>
         </div>
 

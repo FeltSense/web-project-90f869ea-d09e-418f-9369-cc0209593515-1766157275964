@@ -156,7 +156,7 @@ export default function AboutUs(): React.ReactElement {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  To empower every home cook with AI-powered meal planning and personalized recipes that save time, reduce costs, and inspire culinary creativity. We believe cooking should be joyful, not stressful. By combining cutting-edge artificial intelligence with culinary expertise, we transform how people approach food—making it easier to eat healthier, save money, and discover delicious meals tailored to their unique tastes and dietary needs.
+                  To empower every home cook with AI-powered meal planning and personalized recipes that save time, reduce costs, and inspire culinary creativity. We believe cooking should be joyful, not stressful. By combining cutting-edge artificial intelligence with culinary expertise, we transform how people approach food—making it easier to eat healthier, save money, discover delicious meals tailored to their unique tastes, and spend less time planning and more time enjoying meals with loved ones.
                 </p>
               </div>
             </div>
@@ -220,13 +220,13 @@ export default function AboutUs(): React.ReactElement {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible and enjoyable for everyone.
+                  Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible, enjoyable, and stress-free for everyone—regardless of skill level.
                 </p>
                 <p>
-                  We assembled a world-class team combining machine learning expertise, culinary mastery, and design innovation. Together, we developed proprietary AI models trained on thousands of recipes and refined through feedback from users around the world. What started as a small project has grown into a global platform used by 100,000+ home cooks.
+                  We assembled a world-class team combining machine learning expertise, culinary mastery, and design innovation. Together, we developed proprietary AI models trained on thousands of recipes and refined through feedback from users around the world. What started as a small project has grown into a global platform trusted by 100,000+ home cooks who save time, money, and discover joy in cooking.
                 </p>
                 <p>
-                  Today, we continue to expand our AI capabilities, add support for diverse dietary needs, and build a thriving community of food enthusiasts. Our success is measured not just by our growth, but by the real impact we create—helping families save 10+ hours weekly on meal planning and cutting grocery costs by $1,200+ annually.
+                  Today, we continue to expand our AI capabilities, add support for diverse dietary needs, and build a thriving community of food enthusiasts. Our success is measured not just by our growth, but by the real impact we create—helping families save 10+ hours weekly on meal planning, cut grocery costs by $1,200+ annually, and rediscover the joy of cooking.
                 </p>
               </div>
               <motion.div

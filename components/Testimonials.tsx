@@ -67,10 +67,10 @@ export default function Testimonials() {
             <span className="text-sm font-bold text-emerald-700">⭐ 4.9★ Rating • 25,000+ Reviews</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-6">
-            💬 Loved by 100,000+ Home Cooks • Real Results, Real Stories
+            💬 Loved by 100,000+ Home Cooks • Real Results, Real Stories, Real Transformations
           </h2>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
-            <strong>Real people, real transformations.</strong> Discover how our AI-powered recipe generator is transforming kitchens and changing lives. From busy parents saving 10+ hours weekly to fitness enthusiasts cutting $1,200+ off annual grocery bills, our users are experiencing remarkable transformations. Join thousands who've already discovered the power of AI-assisted cooking.
+            <strong>Real people, real transformations.</strong> Discover how our AI-powered recipe generator is transforming kitchens and changing lives. From busy parents saving 10+ hours weekly to fitness enthusiasts cutting $1,200+ off annual grocery bills, our users are experiencing remarkable transformations. Join thousands who've already discovered the joy and freedom of AI-assisted cooking.
           </p>
           <div className="mt-8 grid grid-cols-3 gap-4 max-w-2xl mx-auto text-center">
             <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-200">
@@ -150,7 +150,7 @@ export default function Testimonials() {
           transition={{ delay: 0.3 }}
           className="mt-20 text-center"
         >
-          <p className="text-slate-600 font-medium mb-8 text-lg">🏆 Trusted by home cooks, busy professionals, and fitness enthusiasts worldwide • Join 100K+ users today</p>
+          <p className="text-slate-600 font-medium mb-8 text-lg">🏆 Trusted by home cooks, busy professionals, and fitness enthusiasts worldwide • Join 100K+ users transforming their kitchens today</p>
           <div className="flex flex-wrap justify-center gap-4 mb-10">
             <div className="px-6 py-3 rounded-full bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 shadow-sm hover:shadow-md transition-shadow">
               <p className="text-sm font-semibold text-amber-700">🏆 Best Recipe App 2024</p>
