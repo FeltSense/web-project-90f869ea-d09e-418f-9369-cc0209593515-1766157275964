@@ -44,51 +44,52 @@ export default function Hero(): React.ReactElement {
     <section className="relative w-full min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-teal-500 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-blob animation-delay-2000" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-teal-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
+        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-cyan-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob" style={{animationDelay: '4s'}} />
       </div>
 
       <div className="relative z-10">
         {/* Main Hero Content */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="flex flex-col justify-center space-y-8">
               {/* Badge */}
               <div className="inline-flex items-center space-x-2 w-fit">
-                <div className="flex items-center space-x-2 px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full">
-                  <Star className="w-4 h-4 text-cyan-400 fill-cyan-400" />
-                  <span className="text-sm font-medium text-cyan-200">AI-Powered Cooking Revolution</span>
+                <div className="flex items-center space-x-3 px-6 py-3 bg-cyan-500/15 border border-cyan-400/40 rounded-full hover:border-cyan-400/70 transition-all duration-300 backdrop-blur-sm">
+                  <Star className="w-5 h-5 text-cyan-400 fill-cyan-400 animate-pulse" />
+                  <span className="text-sm font-semibold text-cyan-200">✨ AI-Powered Cooking Revolution</span>
                 </div>
               </div>
 
               {/* Headline */}
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-                Your Personal AI Chef, <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Always Ready to Inspire</span>
+              <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white leading-tight tracking-tight">
+                Transform Your <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">Kitchen with AI</span>
               </h1>
 
               {/* Subheading */}
-              <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-xl">
-                Discover personalized recipes, plan meals effortlessly, and shop smarter with AI that understands your taste. Save 10+ hours weekly, cut grocery costs by 35%, and never wonder "what's for dinner?" again.
+              <p className="text-xl sm:text-2xl text-slate-200 leading-relaxed max-w-2xl font-light">
+                Get personalized recipes, intelligent meal plans, and smart shopping lists powered by advanced AI. Cook smarter, save time, and eat better—every single day.
               </p>
 
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 transform hover:scale-105">
+              <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                <Link href="/get-started" className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/40 hover:shadow-cyan-500/60 transform hover:scale-110 text-lg">
                   Get Started Free
-                  <ArrowRight className="ml-2 w-5 h-5" />
+                  <ArrowRight className="ml-3 w-6 h-6" />
                 </Link>
-                <Link href="/features" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 hover:border-cyan-500 text-cyan-200 hover:text-white font-semibold rounded-lg transition-all duration-200 bg-cyan-500/5 hover:bg-cyan-500/10 transform hover:scale-105">
+                <Link href="/features" className="inline-flex items-center justify-center px-10 py-5 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-110 text-lg">
                   See How It Works
                 </Link>
               </div>
 
               {/* Trust Indicators */}
-              <div className="grid grid-cols-3 gap-6 pt-8 border-t border-slate-700">
+              <div className="grid grid-cols-3 gap-8 pt-12 border-t border-slate-700/50">
                 {trustIndicators.map((indicator: TrustIndicator) => (
-                  <div key={indicator.label} className="flex flex-col group">
-                    <p className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:to-teal-300 transition-all duration-300">{indicator.value}</p>
-                    <p className="text-sm text-slate-400 group-hover:text-slate-300 transition-colors duration-300">{indicator.label}</p>
+                  <div key={indicator.label} className="flex flex-col group text-center">
+                    <p className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:via-teal-300 group-hover:to-cyan-300 transition-all duration-300">{indicator.value}</p>
+                    <p className="text-base text-slate-300 group-hover:text-slate-200 transition-colors duration-300 font-medium mt-2">{indicator.label}</p>
                   </div>
                 ))}
               </div>
@@ -96,16 +97,16 @@ export default function Hero(): React.ReactElement {
 
             {/* Right Visual */}
             <div className="relative h-96 lg:h-full">
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-teal-500/20 rounded-2xl blur-2xl" />
-              <div className="relative bg-gradient-to-br from-slate-800 to-slate-700 rounded-2xl p-8 border border-slate-700 h-full flex items-center justify-center">
-                <div className="text-center space-y-4">
+              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/30 to-teal-500/30 rounded-3xl blur-3xl animate-pulse" />
+              <div className="relative bg-gradient-to-br from-slate-800/80 to-slate-700/60 backdrop-blur-xl rounded-3xl p-12 border border-cyan-500/30 h-full flex items-center justify-center hover:border-cyan-500/60 transition-all duration-300">
+                <div className="text-center space-y-6">
                   <div className="flex justify-center">
-                    <div className="relative w-32 h-32 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-full flex items-center justify-center">
-                      <Zap className="w-16 h-16 text-white" />
+                    <div className="relative w-40 h-40 bg-gradient-to-br from-cyan-500 via-teal-500 to-cyan-500 rounded-full flex items-center justify-center shadow-2xl shadow-cyan-500/50 animate-spin" style={{animationDuration: '20s'}}>
+                      <Zap className="w-20 h-20 text-white" />
                     </div>
                   </div>
-                  <h3 className="text-xl font-semibold text-white">AI Chef Ready</h3>
-                  <p className="text-slate-300">Start cooking smarter today</p>
+                  <h3 className="text-2xl font-bold text-white">AI Chef Ready</h3>
+                  <p className="text-slate-200 text-lg">Start cooking smarter today</p>
                 </div>
               </div>
             </div>
@@ -113,38 +114,38 @@ export default function Hero(): React.ReactElement {
         </div>
 
         {/* Features Showcase */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-700/50">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">✨ Key Features That Make a Difference</h2>
-            <p className="text-lg text-slate-400 max-w-2xl mx-auto">Discover the powerful capabilities that help 100K+ users cook smarter, save time, and eat better every single day</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 border-t border-slate-700/50">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">✨ Powerful Features Built for You</h2>
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto">Discover the intelligent capabilities that help thousands of users cook smarter, save time, and eat better every single day</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature: Feature) => (
-              <div key={feature.title} className="group p-8 bg-gradient-to-br from-slate-800/50 to-slate-700/30 hover:from-slate-800 hover:to-slate-700/50 border border-slate-700 hover:border-cyan-500/50 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/20">
-                <div className="flex items-center justify-center w-14 h-14 bg-gradient-to-br from-cyan-500/20 to-teal-500/20 group-hover:from-cyan-500/30 group-hover:to-teal-500/30 rounded-lg mb-4 transition-all duration-300">
+              <div key={feature.title} className="group p-10 bg-gradient-to-br from-slate-800/60 to-slate-700/40 hover:from-slate-800/80 hover:to-slate-700/60 border border-slate-700 hover:border-cyan-400/60 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-cyan-500/30 backdrop-blur-sm">
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-cyan-500/30 to-teal-500/30 group-hover:from-cyan-500/50 group-hover:to-teal-500/50 rounded-xl mb-6 transition-all duration-300 shadow-lg shadow-cyan-500/20">
                   {feature.icon}
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
-                <p className="text-slate-400 group-hover:text-slate-300 transition-colors duration-300">{feature.description}</p>
+                <h3 className="text-xl font-bold text-white mb-3">{feature.title}</h3>
+                <p className="text-slate-300 group-hover:text-slate-200 transition-colors duration-300 leading-relaxed">{feature.description}</p>
               </div>
             ))}
           </div>
         </div>
 
         {/* CTA Section */}
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="relative bg-gradient-to-r from-cyan-500/10 to-teal-500/10 border border-cyan-500/30 rounded-2xl p-12 text-center space-y-6 hover:border-cyan-500/50 transition-all duration-300">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white">🚀 Join 100K+ Home Cooks Who've Transformed Their Kitchens</h2>
-            <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              Start your free trial today and experience the power of AI-assisted cooking. Save 10+ hours weekly, cut grocery costs by 35%, discover recipes you'll love, and never stress about meal planning again. No credit card required. Cancel anytime.
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+          <div className="relative bg-gradient-to-r from-cyan-500/20 to-teal-500/20 border-2 border-cyan-400/40 rounded-3xl p-16 text-center space-y-8 hover:border-cyan-400/70 hover:from-cyan-500/30 hover:to-teal-500/30 transition-all duration-300 backdrop-blur-sm">
+            <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">🚀 Ready to Transform Your Kitchen?</h2>
+            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
+              Join thousands of home cooks who've revolutionized their cooking with AI. Save 10+ hours weekly, cut grocery costs by 35%, discover recipes you'll love, and never stress about meal planning again. No credit card required. Cancel anytime.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Link href="/get-started" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 transform hover:scale-105">
-                <CheckCircle className="mr-2 w-5 h-5" />
+            <div className="flex flex-col sm:flex-row gap-6 justify-center pt-6">
+              <Link href="/get-started" className="inline-flex items-center justify-center px-12 py-6 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transform hover:scale-110 text-lg">
+                <CheckCircle className="mr-3 w-6 h-6" />
                 Start Free Trial
               </Link>
-              <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 border border-cyan-500/50 text-cyan-200 hover:text-white font-semibold rounded-lg transition-all duration-200 bg-transparent hover:bg-cyan-500/10 transform hover:scale-105">
+              <Link href="/contact" className="inline-flex items-center justify-center px-12 py-6 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-110 text-lg">
                 Contact Us
               </Link>
             </div>
