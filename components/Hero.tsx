@@ -70,13 +70,13 @@ export default function Hero(): React.ReactElement {
 
               {/* Subheading */}
               <p className="text-xl sm:text-2xl text-slate-200 leading-relaxed max-w-2xl font-light">
-                Get personalized recipes, intelligent meal plans, and smart shopping lists powered by advanced AI. Cook smarter, save time, and eat better—every single day.
+                Discover recipes tailored to you, plan meals in minutes, and shop smarter. Your personal AI chef is ready to transform how you cook—saving you time, money, and stress every single day.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
                 <Link href="/get-started" className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/40 hover:shadow-cyan-500/60 transform hover:scale-110 text-lg">
-                  Get Started Free
+                  Start Your Free Trial
                   <ArrowRight className="ml-3 w-6 h-6" />
                 </Link>
                 <Link href="/features" className="inline-flex items-center justify-center px-10 py-5 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-110 text-lg">

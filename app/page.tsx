@@ -12,6 +12,7 @@ import NewHeroFeaturesSection from '@/components/NewHeroFeaturesSection'
 import HeroKeyFeaturesHighlight from '@/components/HeroKeyFeaturesHighlight'
 import CoreProductFeatures from '@/components/CoreProductFeatures'
 import OptimizedProductFeaturesSection from '@/components/OptimizedProductFeaturesSection'
+import KeyProductFeaturesSection from '@/components/KeyProductFeaturesSection'
 import Benefits from '@/components/Benefits'
 import SampleRecipes from '@/components/SampleRecipes'
 import PremiumFeaturesSection from '@/components/PremiumFeaturesSection'
@@ -28,6 +29,7 @@ export default function Home() {
     <main className="overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       <Navigation />
       <Hero />
+      <KeyProductFeaturesSection />
       <AboutUs />
       <FeaturesShowcaseSection />
       <HowItWorks />
