@@ -65,22 +65,24 @@ export default function Hero(): React.ReactElement {
 
               {/* Headline */}
               <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white leading-tight tracking-tight">
-                Transform Your <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">Kitchen with AI</span>
+                Your Personal <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">AI Chef Awaits</span>
               </h1>
 
               {/* Subheading */}
               <p className="text-xl sm:text-2xl text-slate-200 leading-relaxed max-w-2xl font-light">
-                Discover recipes tailored to you, plan meals in minutes, and shop smarter. Your personal AI chef is ready to transform how you cook—saving you time, money, and stress every single day.
+                Get personalized recipes, intelligent meal plans, and smart shopping lists powered by advanced AI. Save 10+ hours weekly, reduce food waste, and discover dishes you'll absolutely love.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                <Link href="/get-started" className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/40 hover:shadow-cyan-500/60 transform hover:scale-110 text-lg">
-                  Start Your Free Trial
-                  <ArrowRight className="ml-3 w-6 h-6" />
+                <Link href="/get-started" className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/40 hover:shadow-cyan-500/60 transform hover:scale-105 text-lg group">
+                  <CheckCircle className="mr-3 w-6 h-6 group-hover:animate-bounce" />
+                  Get Started Free
+                  <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <Link href="/features" className="inline-flex items-center justify-center px-10 py-5 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-110 text-lg">
-                  See How It Works
+                <Link href="/features" className="inline-flex items-center justify-center px-10 py-5 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-105 text-lg">
+                  Explore Features
+                  <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </div>
 
@@ -136,17 +138,19 @@ export default function Hero(): React.ReactElement {
         {/* CTA Section */}
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="relative bg-gradient-to-r from-cyan-500/20 to-teal-500/20 border-2 border-cyan-400/40 rounded-3xl p-16 text-center space-y-8 hover:border-cyan-400/70 hover:from-cyan-500/30 hover:to-teal-500/30 transition-all duration-300 backdrop-blur-sm">
-            <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">🚀 Ready to Transform Your Kitchen?</h2>
+            <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">🚀 Start Cooking Smarter Today</h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
-              Join thousands of home cooks who've revolutionized their cooking with AI. Save 10+ hours weekly, cut grocery costs by 35%, discover recipes you'll love, and never stress about meal planning again. No credit card required. Cancel anytime.
+              Join 50,000+ home cooks who've transformed their kitchens with AI. Save 10+ hours weekly, cut grocery costs by 35%, discover personalized recipes, and never stress about meal planning again. <span className="font-semibold text-cyan-300">No credit card required. Cancel anytime.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-6">
-              <Link href="/get-started" className="inline-flex items-center justify-center px-12 py-6 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transform hover:scale-110 text-lg">
-                <CheckCircle className="mr-3 w-6 h-6" />
-                Start Free Trial
+              <Link href="/get-started" className="inline-flex items-center justify-center px-12 py-6 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transform hover:scale-105 text-lg group">
+                <CheckCircle className="mr-3 w-6 h-6 group-hover:animate-bounce" />
+                Claim Your Free Trial
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link href="/contact" className="inline-flex items-center justify-center px-12 py-6 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-110 text-lg">
-                Contact Us
+              <Link href="/features" className="inline-flex items-center justify-center px-12 py-6 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-105 text-lg">
+                Learn More
+                <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </div>
           </div>
