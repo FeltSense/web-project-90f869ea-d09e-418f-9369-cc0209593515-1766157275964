@@ -71,10 +71,10 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Cook Smarter, Eat Better with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">AI-Powered Recipes</span>
+              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Intelligent Cooking</span>
             </h1>
             <p className="text-xl text-slate-400 mb-8 leading-relaxed">
-              Discover personalized recipes tailored to your taste, dietary needs, and available ingredients. Get meal plans, shopping lists, and nutrition tracking—all powered by advanced AI. Start your culinary journey today.
+              Experience the future of cooking with AI that understands your preferences, budget, and lifestyle. From recipe discovery to meal planning and nutrition insights—everything you need to cook with confidence and creativity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
@@ -82,7 +82,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Get Started Free Today
+                Start Cooking Smarter Now
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
@@ -90,7 +90,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Watch Demo
+                Explore Features
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
