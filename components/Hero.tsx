@@ -58,18 +58,18 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h1 className="text-5xl sm:text-6xl font-bold text-white mb-6 leading-tight">
-              Cook Smarter, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Not Harder</span>
+            <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
+              Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">AI Chef</span>
             </h1>
             <p className="text-xl text-slate-400 mb-8">
-              An intelligent AI-powered platform that learns your taste preferences and creates personalized recipes, meal plans, and shopping lists designed just for you.
+              Transform your kitchen with AI-powered recipes, intelligent meal planning, and personalized nutrition guidance. Cook meals you'll love in minutes, not hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-lg hover:from-cyan-600 hover:to-blue-600 transition">
-                Get Started Free
+              <button className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-lg hover:from-cyan-600 hover:to-blue-600 transition shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75">
+                Start Cooking Free
               </button>
-              <button className="px-8 py-3 border border-slate-600 text-white font-semibold rounded-lg hover:bg-slate-800/50 transition">
-                Watch Demo
+              <button className="px-8 py-4 border-2 border-cyan-500/50 text-white font-semibold rounded-lg hover:bg-cyan-500/10 hover:border-cyan-400 transition">
+                See How It Works
               </button>
             </div>
           </motion.div>

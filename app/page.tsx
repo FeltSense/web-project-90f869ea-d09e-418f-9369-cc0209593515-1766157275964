@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import EnhancedHeroFeaturesSection from '@/components/EnhancedHeroFeaturesSection'
+import EnhancedFeaturesShowcase from '@/components/EnhancedFeaturesShowcase'
 import AboutUs from '@/components/AboutUs'
 import FeaturesShowcaseSection from '@/components/FeaturesShowcaseSection'
 import HowItWorks from '@/components/HowItWorks'
@@ -27,9 +28,10 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className="overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+    <main className="overflow-hidden bg-gradient-to-b from-slate-950 via-blue-950 to-slate-950">
       <Navigation />
       <Hero />
+      <EnhancedFeaturesShowcase />
       <EnhancedHeroFeaturesSection />
       <KeyProductFeaturesSection />
       <AboutUs />
