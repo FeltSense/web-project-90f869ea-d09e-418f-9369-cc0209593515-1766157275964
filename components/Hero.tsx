@@ -1,6 +1,6 @@
 'use client'
 
-import { Zap, Calendar, ShoppingCart, TrendingUp } from 'lucide-react'
+import { Zap, Calendar, ShoppingCart, TrendingUp, ArrowRight, Sparkles } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 interface Feature {
@@ -58,19 +58,41 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
+            {/* Badge */}
+            <motion.div
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 mb-6"
+              initial={{ opacity: 0, y: -10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            >
+              <Sparkles className="w-4 h-4 text-cyan-400" />
+              <span className="text-sm font-semibold text-cyan-300">AI-Powered Cooking Revolution</span>
+            </motion.div>
+
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
               Your Personal <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">AI Chef</span>
             </h1>
-            <p className="text-xl text-slate-400 mb-8">
+            <p className="text-xl text-slate-400 mb-8 leading-relaxed">
               Transform your kitchen with AI-powered recipes, intelligent meal planning, and personalized nutrition guidance. Cook meals you'll love in minutes, not hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-lg hover:from-cyan-600 hover:to-blue-600 transition shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75">
+              <motion.button
+                className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-lg hover:from-cyan-600 hover:to-blue-600 transition shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 flex items-center justify-center gap-2 group"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
                 Start Cooking Free
-              </button>
-              <button className="px-8 py-4 border-2 border-cyan-500/50 text-white font-semibold rounded-lg hover:bg-cyan-500/10 hover:border-cyan-400 transition">
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
+              </motion.button>
+              <motion.button
+                className="px-8 py-4 border-2 border-cyan-500/50 text-white font-semibold rounded-lg hover:bg-cyan-500/10 hover:border-cyan-400 transition flex items-center justify-center gap-2"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
                 See How It Works
-              </button>
+                <ArrowRight className="w-5 h-5" />
+              </motion.button>
             </div>
           </motion.div>
 
