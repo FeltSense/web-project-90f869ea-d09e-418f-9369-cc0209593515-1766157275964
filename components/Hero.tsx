@@ -1,183 +1,103 @@
-'use client';
+'use client'
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { ArrowRight, Zap, Calendar, ShoppingCart, Star, CheckCircle } from 'lucide-react';
+import { Zap, Calendar, ShoppingCart, TrendingUp } from 'lucide-react'
+import { motion } from 'framer-motion'
 
 interface Feature {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}
-
-interface TrustIndicator {
-  label: string;
-  value: string;
+  icon: React.ReactNode
+  title: string
+  description: string
 }
 
 const features: Feature[] = [
   {
     icon: <Zap className="w-6 h-6 text-cyan-400" />,
     title: 'AI-Powered Recipes',
-    description: 'Unlock endless culinary possibilities with AI that learns your preferences. Get personalized recipe suggestions in seconds, tailored to your dietary needs, available ingredients, and cooking skill level. Discover dishes you'll absolutely love.\'ll actually want to cook.'
+    description: "Unlock endless culinary possibilities with AI that learns your preferences. Get personalized recipe suggestions in seconds, tailored to your dietary needs, available ingredients, and cooking skill level. Discover dishes you'll absolutely love and you'll actually want to cook.",
   },
   {
     icon: <Calendar className="w-6 h-6 text-cyan-400" />,
-    title: 'Intelligent Meal Planning',
-    description: 'Plan your entire week in minutes with perfectly balanced, nutritious meals. Our AI creates customized meal plans that fit your lifestyle, budget, and health goals—saving you 10+ hours weekly.'
+    title: 'Smart Meal Planning',
+    description: 'Plan your entire week effortlessly with AI-generated meal plans that balance nutrition, taste, and variety. Automatically generates shopping lists tailored to your budget and dietary preferences.',
   },
   {
     icon: <ShoppingCart className="w-6 h-6 text-cyan-400" />,
-    title: 'Smart Shopping Lists',
-    description: 'Get intelligent shopping lists that organize by store layout and reduce food waste. Cut grocery costs by up to 35% with smart price comparisons and seasonal ingredient suggestions.'
-  }
-];
+    title: 'Intelligent Grocery Lists',
+    description: 'Get organized shopping lists sorted by store layout and location. Save time and money with smart suggestions based on your pantry inventory and current recipes.',
+  },
+  {
+    icon: <TrendingUp className="w-6 h-6 text-cyan-400" />,
+    title: 'Nutrition Tracking',
+    description: 'Track macros and nutrients automatically. Get personalized recommendations to meet your health goals while enjoying delicious food.',
+  },
+]
 
-const trustIndicators: TrustIndicator[] = [
-  { label: 'Active Users', value: '50K+' },
-  { label: 'Recipes Generated', value: '1M+' },
-  { label: 'Meals Planned', value: '5M+' }
-];
-
-export default function Hero(): React.ReactElement {
+export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
-      {/* Decorative background elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-teal-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
-        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-cyan-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob" style={{animationDelay: '4s'}} />
+    <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 overflow-hidden pt-24 pb-12">
+      {/* Animated background elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <motion.div
+          className="absolute top-20 -left-40 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl"
+          animate={{ y: [0, 30, 0], opacity: [0.3, 0.5, 0.3] }}
+          transition={{ duration: 8, repeat: Infinity }}
+        />
+        <motion.div
+          className="absolute -bottom-40 -right-40 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl"
+          animate={{ y: [0, -30, 0], opacity: [0.3, 0.5, 0.3] }}
+          transition={{ duration: 10, repeat: Infinity, delay: 1 }}
+        />
       </div>
 
-      <div className="relative z-10">
-        {/* Main Hero Content */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Left Content */}
-            <div className="flex flex-col justify-center space-y-8">
-              {/* Badge */}
-              <div className="inline-flex items-center space-x-2 w-fit">
-                <div className="flex items-center space-x-3 px-6 py-3 bg-cyan-500/15 border border-cyan-400/40 rounded-full hover:border-cyan-400/70 transition-all duration-300 backdrop-blur-sm">
-                  <Star className="w-5 h-5 text-cyan-400 fill-cyan-400 animate-pulse" />
-                  <span className="text-sm font-semibold text-cyan-200">✨ AI-Powered Cooking Revolution</span>
-                </div>
-              </div>
-
-              {/* Headline */}
-              <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white leading-tight tracking-tight">
-                Your Personal <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">AI Chef Awaits</span>
-              </h1>
-
-              {/* Subheading */}
-              <p className="text-xl sm:text-2xl text-slate-200 leading-relaxed max-w-2xl font-light">
-                Get personalized recipes, intelligent meal plans, and smart shopping lists powered by advanced AI. Save 10+ hours weekly, reduce food waste, and discover dishes you'll absolutely love.
-              </p>
-
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                <Link href="#beta-signup" className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/40 hover:shadow-cyan-500/60 transform hover:scale-105 text-lg group">
-                  <CheckCircle className="mr-3 w-6 h-6 group-hover:animate-bounce" />
-                  Sign Up for Beta
-                  <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
-                </Link>
-                <Link href="/features" className="inline-flex items-center justify-center px-10 py-5 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-105 text-lg">
-                  Explore Features
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Link>
-              </div>
-
-              {/* Trust Indicators */}
-              <div className="grid grid-cols-3 gap-8 pt-12 border-t border-slate-700/50">
-                {trustIndicators.map((indicator: TrustIndicator) => (
-                  <div key={indicator.label} className="flex flex-col group text-center">
-                    <p className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:via-teal-300 group-hover:to-cyan-300 transition-all duration-300">{indicator.value}</p>
-                    <p className="text-base text-slate-300 group-hover:text-slate-200 transition-colors duration-300 font-medium mt-2">{indicator.label}</p>
-                  </div>
-                ))}
-              </div>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Left content */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <h1 className="text-5xl sm:text-6xl font-bold text-white mb-6 leading-tight">
+              Cook Smarter, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Not Harder</span>
+            </h1>
+            <p className="text-xl text-slate-400 mb-8">
+              An intelligent AI-powered platform that learns your taste preferences and creates personalized recipes, meal plans, and shopping lists designed just for you.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-lg hover:from-cyan-600 hover:to-blue-600 transition">
+                Get Started Free
+              </button>
+              <button className="px-8 py-3 border border-slate-600 text-white font-semibold rounded-lg hover:bg-slate-800/50 transition">
+                Watch Demo
+              </button>
             </div>
+          </motion.div>
 
-            {/* Right Visual */}
-            <div className="relative h-96 lg:h-full">
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/30 to-teal-500/30 rounded-3xl blur-3xl animate-pulse" />
-              <div className="relative bg-gradient-to-br from-slate-800/80 to-slate-700/60 backdrop-blur-xl rounded-3xl p-12 border border-cyan-500/30 h-full flex items-center justify-center hover:border-cyan-500/60 transition-all duration-300">
-                <div className="text-center space-y-6">
-                  <div className="flex justify-center">
-                    <div className="relative w-40 h-40 bg-gradient-to-br from-cyan-500 via-teal-500 to-cyan-500 rounded-full flex items-center justify-center shadow-2xl shadow-cyan-500/50 animate-spin" style={{animationDuration: '20s'}}>
-                      <Zap className="w-20 h-20 text-white" />
-                    </div>
-                  </div>
-                  <h3 className="text-2xl font-bold text-white">AI Chef Ready</h3>
-                  <p className="text-slate-200 text-lg">Start cooking smarter today</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Features Showcase */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 border-t border-slate-700/50">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">🎯 Key Features of Our AI Recipe Generator</h2>
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto">Discover the intelligent capabilities that help thousands of users cook smarter, save time, and eat better every single day. Experience the power of AI-driven cooking.</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {features.map((feature: Feature) => (
-              <div key={feature.title} className="group p-10 bg-gradient-to-br from-slate-800/60 to-slate-700/40 hover:from-slate-800/80 hover:to-slate-700/60 border border-slate-700 hover:border-cyan-400/60 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-cyan-500/30 backdrop-blur-sm">
-                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-cyan-500/30 to-teal-500/30 group-hover:from-cyan-500/50 group-hover:to-teal-500/50 rounded-xl mb-6 transition-all duration-300 shadow-lg shadow-cyan-500/20">
+          {/* Right features grid */}
+          <motion.div
+            className="grid grid-cols-2 gap-4"
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            {features.map((feature, index) => (
+              <motion.div
+                key={index}
+                className="p-4 rounded-lg bg-slate-900/50 border border-slate-800 hover:border-cyan-500/50 transition group cursor-pointer"
+                whileHover={{ y: -5 }}
+              >
+                <div className="mb-3 text-cyan-400 group-hover:scale-110 transition">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">{feature.title}</h3>
-                <p className="text-slate-300 group-hover:text-slate-200 transition-colors duration-300 leading-relaxed">{feature.description}</p>
-              </div>
+                <h3 className="text-sm font-semibold text-white mb-2">{feature.title}</h3>
+                <p className="text-xs text-slate-400">{feature.description}</p>
+              </motion.div>
             ))}
-          </div>
-        </div>
-
-        {/* CTA Section */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <div className="relative bg-gradient-to-r from-cyan-500/20 to-teal-500/20 border-2 border-cyan-400/40 rounded-3xl p-16 text-center space-y-8 hover:border-cyan-400/70 hover:from-cyan-500/30 hover:to-teal-500/30 transition-all duration-300 backdrop-blur-sm">
-            <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">🚀 Ready to Transform Your Cooking?</h2>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
-              Join 50,000+ home cooks who've transformed their kitchens with our AI recipe generator. Save 10+ hours weekly, cut grocery costs by 35%, discover personalized recipes, and never stress about meal planning again. <span className="font-semibold text-cyan-300">No credit card required. Cancel anytime.</span>
-            </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center pt-6">
-              <Link href="#beta-signup" className="inline-flex items-center justify-center px-12 py-6 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transform hover:scale-105 text-lg group">
-                <CheckCircle className="mr-3 w-6 h-6 group-hover:animate-bounce" />
-                Sign Up for Beta Access
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <Link href="/features" className="inline-flex items-center justify-center px-12 py-6 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-105 text-lg">
-                Learn More
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Link>
-            </div>
-          </div>
+          </motion.div>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes blob {
-          0%, 100% {
-            transform: translate(0, 0) scale(1);
-          }
-          33% {
-            transform: translate(30px, -50px) scale(1.1);
-          }
-          66% {
-            transform: translate(-20px, 20px) scale(0.9);
-          }
-        }
-        
-        .animate-blob {
-          animation: blob 7s infinite;
-        }
-        
-        .animation-delay-2000 {
-          animation-delay: 2s;
-        }
-      `}</style>
     </section>
-  );
+  )
 }
