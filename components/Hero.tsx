@@ -19,7 +19,7 @@ const features: Feature[] = [
   {
     icon: <Zap className="w-6 h-6 text-cyan-400" />,
     title: 'AI-Powered Recipes',
-    description: 'Unlock endless culinary possibilities with AI that learns your preferences. Get personalized recipe suggestions in seconds, tailored to your dietary needs, available ingredients, and cooking skill level., dietary needs, and available ingredients to create recipes you\'ll actually want to cook.'
+    description: 'Unlock endless culinary possibilities with AI that learns your preferences. Get personalized recipe suggestions in seconds, tailored to your dietary needs, available ingredients, and cooking skill level. Discover dishes you'll absolutely love.\'ll actually want to cook.'
   },
   {
     icon: <Calendar className="w-6 h-6 text-cyan-400" />,
@@ -75,9 +75,9 @@ export default function Hero(): React.ReactElement {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                <Link href="/get-started" className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/40 hover:shadow-cyan-500/60 transform hover:scale-105 text-lg group">
+                <Link href="#beta-signup" className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/40 hover:shadow-cyan-500/60 transform hover:scale-105 text-lg group">
                   <CheckCircle className="mr-3 w-6 h-6 group-hover:animate-bounce" />
-                  Get Started Free
+                  Sign Up for Beta
                   <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link href="/features" className="inline-flex items-center justify-center px-10 py-5 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-105 text-lg">
@@ -118,8 +118,8 @@ export default function Hero(): React.ReactElement {
         {/* Features Showcase */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 border-t border-slate-700/50">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">✨ Powerful Features Built for You</h2>
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto">Discover the intelligent capabilities that help thousands of users cook smarter, save time, and eat better every single day</p>
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">🎯 Key Features of Our AI Recipe Generator</h2>
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto">Discover the intelligent capabilities that help thousands of users cook smarter, save time, and eat better every single day. Experience the power of AI-driven cooking.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -138,14 +138,14 @@ export default function Hero(): React.ReactElement {
         {/* CTA Section */}
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="relative bg-gradient-to-r from-cyan-500/20 to-teal-500/20 border-2 border-cyan-400/40 rounded-3xl p-16 text-center space-y-8 hover:border-cyan-400/70 hover:from-cyan-500/30 hover:to-teal-500/30 transition-all duration-300 backdrop-blur-sm">
-            <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">🚀 Start Cooking Smarter Today</h2>
+            <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">🚀 Ready to Transform Your Cooking?</h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
-              Join 50,000+ home cooks who've transformed their kitchens with AI. Save 10+ hours weekly, cut grocery costs by 35%, discover personalized recipes, and never stress about meal planning again. <span className="font-semibold text-cyan-300">No credit card required. Cancel anytime.</span>
+              Join 50,000+ home cooks who've transformed their kitchens with our AI recipe generator. Save 10+ hours weekly, cut grocery costs by 35%, discover personalized recipes, and never stress about meal planning again. <span className="font-semibold text-cyan-300">No credit card required. Cancel anytime.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-6">
-              <Link href="/get-started" className="inline-flex items-center justify-center px-12 py-6 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transform hover:scale-105 text-lg group">
+              <Link href="#beta-signup" className="inline-flex items-center justify-center px-12 py-6 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white font-bold rounded-xl transition-all duration-300 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transform hover:scale-105 text-lg group">
                 <CheckCircle className="mr-3 w-6 h-6 group-hover:animate-bounce" />
-                Claim Your Free Trial
+                Sign Up for Beta Access
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link href="/features" className="inline-flex items-center justify-center px-12 py-6 border-2 border-cyan-400/60 hover:border-cyan-400 text-cyan-200 hover:text-cyan-100 font-bold rounded-xl transition-all duration-300 bg-cyan-500/10 hover:bg-cyan-500/20 transform hover:scale-105 text-lg">
