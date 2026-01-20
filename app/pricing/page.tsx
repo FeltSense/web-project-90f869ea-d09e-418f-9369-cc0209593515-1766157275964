@@ -312,13 +312,13 @@ export default function PricingPage(): JSX.Element {
               </span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-              Plans for Every{' '}
+              Transparent Pricing for{' '}
               <span className="bg-gradient-to-r from-emerald-300 via-teal-400 to-cyan-500 bg-clip-text text-transparent">
-                Home Chef
+                Every Kitchen
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
-              Start free and upgrade anytime. All plans include a 7-day free trial with full access to premium features. No credit card required.
+              Choose the perfect plan for your cooking journey. Start free with full access to core features, upgrade anytime. All plans include a 7-day free trial with premium features included.
             </p>
             <p className="text-lg text-emerald-300 font-semibold">
               🎁 7-Day Free Trial • 💰 Save 20% with Annual Billing • 🔄 Cancel Anytime • ✅ No Credit Card Required
