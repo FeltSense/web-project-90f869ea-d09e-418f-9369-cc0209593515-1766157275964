@@ -71,14 +71,18 @@ const EnhancedHero: React.FC = () => {
                 : 'opacity-0 translate-y-10'
             }`}
           >
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 mb-6">
+              <Zap className="w-4 h-4 text-cyan-400" />
+              <span className="text-sm font-semibold text-cyan-300">AI-Powered Culinary Intelligence</span>
+            </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
-              <span className="block text-white mb-2">Cook Smarter,</span>
+              <span className="block text-white mb-2">Your AI-Powered</span>
               <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Eat Better, Save Time
+                Personal Chef Awaits
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Your AI kitchen assistant that learns your preferences and creates personalized recipes, meal plans, and shopping lists. Save up to 30% on groceries, reduce food waste, and spend less time planning—more time enjoying delicious meals with family and friends.
+              Discover recipes tailored to your taste, budget, and dietary needs. Get personalized meal plans, smart shopping lists, and nutrition tracking—all powered by cutting-edge AI that learns what you love. Cook smarter, eat better, save time.
             </p>
           </div>
 
@@ -92,17 +96,17 @@ const EnhancedHero: React.FC = () => {
           >
             <Link
               href="/get-started"
-              className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+              className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-lg"
             >
-              <span className="relative z-10">🚀 Start Cooking Smarter Today</span>
+              <span className="relative z-10">✨ Get Started Free</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
             <Link
               href="/pricing"
-              className="px-8 py-4 bg-slate-800 text-white font-semibold rounded-lg border border-slate-700 hover:border-cyan-500 hover:bg-slate-700 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+              className="px-8 py-4 bg-transparent text-white font-semibold rounded-lg border-2 border-cyan-500/50 hover:border-cyan-400 hover:bg-cyan-500/10 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-lg"
             >
-              📋 Explore Plans & Pricing
+              💡 View Pricing
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

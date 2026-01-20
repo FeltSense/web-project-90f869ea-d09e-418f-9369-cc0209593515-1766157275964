@@ -29,6 +29,7 @@ import FAQ from '@/components/FAQ'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import ComprehensiveProductFeatures from '@/components/ComprehensiveProductFeatures'
+import Services from '@/components/Services'
 
 export default function Home() {
   return (
@@ -36,6 +37,9 @@ export default function Home() {
       <Navigation />
       {/* Hero Section - Main Call to Action */}
       <EnhancedHero />
+      
+      {/* Services Section */}
+      <Services />
       
       {/* Product Features Section */}
       <ProductFeaturesShowcaseNew />
