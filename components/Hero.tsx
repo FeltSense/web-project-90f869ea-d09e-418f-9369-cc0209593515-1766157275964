@@ -20,22 +20,22 @@ const features: Feature[] = [
   {
     icon: <Zap className="w-6 h-6 text-cyan-400" />,
     title: 'AI-Powered Recipes',
-    description: "Unlock endless culinary possibilities with AI that learns your preferences. Get personalized recipe suggestions in seconds, tailored to your dietary needs, available ingredients, and cooking skill level. Discover dishes you'll absolutely love and you'll actually want to cook.",
+    description: "Never ask 'what's for dinner?' again. Get personalized recipe suggestions in seconds that match your taste, dietary needs, and available ingredients. Our AI learns what you love and keeps surprising you with dishes you'll actually want to cook.",
   },
   {
     icon: <Calendar className="w-6 h-6 text-cyan-400" />,
     title: 'Smart Meal Planning',
-    description: 'Plan your entire week effortlessly with AI-generated meal plans that balance nutrition, taste, and variety. Automatically generates shopping lists tailored to your budget and dietary preferences.',
+    description: 'Plan your entire week in minutes, not hours. AI-generated meal plans that balance nutrition, taste, and variety—with automatic shopping lists tailored to your budget and preferences.',
   },
   {
     icon: <ShoppingCart className="w-6 h-6 text-cyan-400" />,
     title: 'Intelligent Grocery Lists',
-    description: 'Get organized shopping lists sorted by store layout and location. Save time and money with smart suggestions based on your pantry inventory and current recipes.',
+    description: 'Shop smarter and save money. Organized lists sorted by store layout, smart substitutions, and budget-friendly alternatives based on your pantry and current recipes.',
   },
   {
     icon: <TrendingUp className="w-6 h-6 text-cyan-400" />,
     title: 'Nutrition Tracking',
-    description: 'Track macros and nutrients automatically. Get personalized recommendations to meet your health goals while enjoying delicious food.',
+    description: 'Hit your health goals without sacrificing taste. Automatic macro tracking and personalized recommendations that keep you on track while enjoying delicious meals.',
   },
 ]
 
@@ -74,14 +74,14 @@ export default function Hero() {
               viewport={{ once: true }}
             >
               <Sparkles className="w-4 h-4 text-cyan-400" />
-              <span className="text-sm font-semibold text-cyan-300">The Future of Home Cooking</span>
+              <span className="text-sm font-semibold text-cyan-300">AI-Powered Culinary Intelligence</span>
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Your Personal AI Chef, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Always Ready to Inspire</span>
+              Transform Your Kitchen Into a <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Personalized Culinary Studio</span>
             </h1>
-            <p className="text-xl text-slate-400 mb-8 leading-relaxed">
-              Discover recipes tailored to you, plan meals effortlessly, and cook with confidence. Our AI-powered platform learns your taste, budget, and dietary needs to deliver personalized culinary experiences that make cooking enjoyable and stress-free every single day.
+            <p className="text-xl text-slate-300 mb-8 leading-relaxed">
+              Stop wasting time deciding what to cook. Get AI-generated recipes perfectly matched to your taste, budget, and dietary goals. Plan meals in minutes, shop smarter, and cook with confidence—all powered by an AI that learns what you love.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
@@ -89,7 +89,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                ✨ Get Started Free Today
+                🚀 Start Cooking Smarter Now
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
@@ -97,7 +97,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                📖 Explore Features
+                ⚡ See It In Action
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
