@@ -23,19 +23,19 @@ const EnhancedHero: React.FC = () => {
       id: 1,
       icon: <Zap className="w-6 h-6" />,
       title: 'Instant Recipe Suggestions',
-      description: "Get personalized recipes in seconds. Just tell us what you have, and our AI instantly suggests delicious meals tailored to your taste, dietary needs, and cooking skill level.",
+      description: "Never waste ingredients again. Our AI analyzes what you have and instantly generates personalized recipes that match your taste, dietary restrictions, and cooking skill level.",
     },
     {
       id: 2,
       icon: <Clock className="w-6 h-6" />,
       title: 'Smart Weekly Meal Plans',
-      description: 'Plan your entire week in minutes. Get balanced meal plans with auto-generated shopping lists, prep time estimates, and difficulty levels—all customized to your preferences.',
+      description: 'Save 10+ hours weekly with AI-generated meal plans. Get balanced nutrition, auto-generated shopping lists, prep time estimates, and difficulty levels—all customized to your lifestyle and budget.',
     },
     {
       id: 3,
       icon: <TrendingUp className="w-6 h-6" />,
       title: 'Save 30% on Groceries',
-      description: 'Smart substitutions and budget-friendly alternatives help you save 30% on groceries. Track spending, find deals, and reduce food waste—all automatically.',
+      description: 'Cut grocery costs by 30% with intelligent substitutions and budget optimization. Get smart recommendations, track spending, find deals, and reduce food waste—all powered by AI.',
     },
   ];
 
@@ -73,16 +73,16 @@ const EnhancedHero: React.FC = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-500/40 mb-8 backdrop-blur-sm">
               <Star className="w-4 h-4 text-emerald-300 animate-pulse" />
-              <span className="text-sm font-semibold text-emerald-200">Your AI Kitchen Assistant Awaits</span>
+              <span className="text-sm font-semibold text-emerald-200">✨ Powered by Advanced AI Technology</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Never Wonder \"What's for Dinner?\" Again</span>
+              <span className="block text-white mb-3">Transform Your Kitchen with</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Your AI Kitchen Assistant Awaits
+                ✨ Powered by Advanced AI Technology
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-2">
-              Get personalized recipes in seconds, smart meal plans that fit your budget, and intelligent grocery lists that save you money. Our AI learns what you love and adapts to your lifestyle—so you can spend less time planning and more time enjoying delicious meals with your family.
+              Experience the future of cooking. Get personalized recipes tailored to your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste, optimizes your grocery budget, and creates meal plans that save you 10+ hours weekly while cutting costs by 30%.
             </p>
             <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto">
               ✨ 50K+ users • 🎯 Save 10+ hours weekly • 💰 Cut grocery costs by 30% • 🌟 4.9★ rating
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-Get Started Free - No Credit Card
+Start Cooking Smarter Today
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
