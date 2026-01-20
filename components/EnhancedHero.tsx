@@ -22,20 +22,20 @@ const EnhancedHero: React.FC = () => {
     {
       id: 1,
       icon: <Zap className="w-6 h-6" />,
-      title: 'Lightning Fast',
-      description: 'Optimized performance for maximum speed',
+      title: 'AI-Powered Recipes',
+      description: 'Get personalized recipe suggestions in seconds that match your taste and dietary needs',
     },
     {
       id: 2,
       icon: <Shield className="w-6 h-6" />,
-      title: 'Secure & Reliable',
-      description: 'Enterprise-grade security for peace of mind',
+      title: 'Smart Meal Planning',
+      description: 'Plan your entire week in minutes with AI-generated meal plans and shopping lists',
     },
     {
       id: 3,
       icon: <Rocket className="w-6 h-6" />,
-      title: 'Scalable Solution',
-      description: 'Grows with your business needs',
+      title: 'Save Time & Money',
+      description: 'Save up to 30% on groceries with intelligent budget-friendly alternatives',
     },
   ];
 
@@ -72,15 +72,13 @@ const EnhancedHero: React.FC = () => {
             }`}
           >
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
-              <span className="block text-white mb-2">Build the Future</span>
+              <span className="block text-white mb-2">Your AI-Powered</span>
               <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
-                with Modern Technology
+                Personal Chef Awaits
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Experience the next generation of web solutions. Powerful, fast, and
-              designed for modern development with cutting-edge features and
-              seamless integration.
+              Discover recipes tailored to your taste, budget, and dietary needs. Get personalized meal plans, smart shopping lists, and nutrition tracking—all powered by cutting-edge AI that learns what you love. Cook smarter, eat better, save time.
             </p>
           </div>
 
@@ -96,15 +94,16 @@ const EnhancedHero: React.FC = () => {
               href="/get-started"
               className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
             >
-              <span className="relative z-10">Get Started</span>
+              <span className="relative z-10">✨ Get Started Free</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
             <Link
-              href="/learn-more"
-              className="px-8 py-4 bg-slate-800 text-white font-semibold rounded-lg border border-slate-700 hover:border-cyan-500 hover:bg-slate-700 transition-all duration-300 transform hover:scale-105"
+              href="/pricing"
+              className="px-8 py-4 bg-slate-800 text-white font-semibold rounded-lg border border-slate-700 hover:border-cyan-500 hover:bg-slate-700 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
             >
-              Learn More
+              💡 View Pricing
+              <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
 
@@ -140,7 +139,7 @@ const EnhancedHero: React.FC = () => {
           <div className="mt-20 flex justify-center items-center gap-8">
             <div className="h-px w-12 bg-gradient-to-r from-transparent to-cyan-500" />
             <span className="text-sm text-slate-400 font-medium">
-              Trusted by thousands of developers
+              Join thousands of home cooks transforming their kitchen
             </span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-cyan-500" />
           </div>
