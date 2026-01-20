@@ -29,6 +29,7 @@ import FAQ from '@/components/FAQ'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import ComprehensiveProductFeatures from '@/components/ComprehensiveProductFeatures'
+import KeyProductFeaturesHighlight from '@/components/KeyProductFeaturesHighlight'
 import Services from '@/components/Services'
 
 export default function Home() {
@@ -38,6 +39,8 @@ export default function Home() {
       {/* Hero Section - Main Call to Action */}
       <EnhancedHero />
 
+      {/* Key Product Features Section */}
+      <KeyProductFeaturesHighlight />
       
       {/* User Success Stories Section - Showcase Key Benefits */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900/50 to-slate-950">

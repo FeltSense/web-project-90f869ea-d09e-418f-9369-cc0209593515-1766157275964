@@ -76,13 +76,13 @@ const EnhancedHero: React.FC = () => {
               <span className="text-sm font-semibold text-emerald-200">AI-Powered Culinary Intelligence</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Your Personal AI Chef,</span>
+              <span className="block text-white mb-3">Transform Your Kitchen with</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Always Ready to Inspire
+                AI-Powered Culinary Intelligence
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-2">
-              Discover personalized recipes in seconds. Say goodbye to meal planning stress and hello to delicious, effortless cooking. Our AI learns your taste, respects your dietary needs, and saves you time, money, and food waste. Join 100K+ home cooks who've transformed their kitchens.
+              Stop wasting time on meal planning and grocery shopping. Get personalized recipes tailored to your ingredients, dietary needs, and taste preferences—all powered by cutting-edge AI. Cook smarter, eat better, save time and money.
             </p>
             <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto">
               ✨ Join 100K+ home cooks saving 10+ hours weekly • 🎯 Reduce food waste by 40% • 💰 Save $1,200+ yearly on groceries
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-                Get Started Free Today
+                Start Cooking Smarter Today
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
