@@ -89,7 +89,7 @@ const CoreProductFeatures: React.FC = () => {
             🎯 Powerful Features That Transform Your Cooking Experience
           </h2>
           <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Our complete suite of intelligent AI features is designed to revolutionize how you plan, cook, and enjoy meals. From unlimited recipe generation to smart nutrition tracking, discover everything you need to become a confident, creative cook.
+            Our complete suite of intelligent AI features is designed to revolutionize how you plan, cook, and enjoy meals. From unlimited recipe generation to smart nutrition tracking, adaptive learning, and community sharing, discover everything you need to become a confident, creative cook while achieving your health and wellness goals.
           </p>
         </div>
 

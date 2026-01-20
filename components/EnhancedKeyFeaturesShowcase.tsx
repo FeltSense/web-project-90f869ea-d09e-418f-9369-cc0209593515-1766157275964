@@ -150,7 +150,7 @@ const EnhancedKeyFeaturesShowcase: React.FC = () => {
             Powerful Features for Smart Eating
           </h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Experience the future of meal planning with AI-powered features designed to simplify your kitchen and optimize your nutrition.
+            Discover how our AI-powered platform revolutionizes meal planning with intelligent features that save you time, reduce food waste, and help you achieve your health goals—all while enjoying delicious, personalized meals.
           </p>
         </motion.div>
 

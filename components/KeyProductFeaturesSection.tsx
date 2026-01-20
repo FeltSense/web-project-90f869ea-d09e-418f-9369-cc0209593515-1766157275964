@@ -72,7 +72,7 @@ const KeyProductFeaturesSection: React.FC = () => {
             Key Product Features
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Everything you need to transform your meal planning and cooking experience
+            Discover our comprehensive suite of AI-powered features designed to save you time, reduce costs, improve nutrition, and make cooking enjoyable every single day
           </p>
         </div>
 
@@ -128,7 +128,7 @@ const KeyProductFeaturesSection: React.FC = () => {
 
         <div className="mt-16 text-center">
           <p className="text-slate-600 mb-6">
-            Ready to revolutionize your meal planning?
+            Ready to revolutionize your meal planning and achieve your health goals with AI-powered personalization?
           </p>
           <button className="px-8 py-4 bg-gradient-to-r from-slate-900 to-slate-800 text-white font-bold rounded-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
             Get Started Free

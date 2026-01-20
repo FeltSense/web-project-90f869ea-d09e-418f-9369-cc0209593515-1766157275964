@@ -105,7 +105,7 @@ const Benefits: React.FC = () => {
             ✨ Powerful Features That Transform Your Cooking & Save You Time
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Experience the power of AI-driven cooking. Our intelligent system learns your preferences and generates unlimited personalized recipes instantly. Save 10+ hours every week, reduce food waste by 40%, cut grocery costs by $1,200+ yearly, and enjoy restaurant-quality meals at home—all with zero stress.
+            Experience the power of AI-driven cooking. Our intelligent system learns your preferences and generates unlimited personalized recipes instantly. Save 10+ hours every week, reduce food waste by 40%, cut grocery costs by $1,200+ yearly, achieve your nutrition goals effortlessly, and enjoy restaurant-quality meals at home—all with zero stress and complete customization.
           </p>
         </motion.div>
 
@@ -152,7 +152,7 @@ const Benefits: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-slate-600 mb-8 text-lg font-semibold">
-            Join 100,000+ home cooks who've transformed their kitchen experience and reclaimed their time
+            Join 100,000+ home cooks who've transformed their kitchen experience, reclaimed their time, and achieved their health goals with personalized AI-powered meal planning
           </p>
           <button className="inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-2xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-lg text-lg">
             🚀 Start Your Free Trial
