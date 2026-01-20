@@ -74,14 +74,14 @@ export default function Hero() {
               viewport={{ once: true }}
             >
               <Sparkles className="w-4 h-4 text-cyan-400" />
-              <span className="text-sm font-semibold text-cyan-300">AI-Powered Cooking Revolution</span>
+              <span className="text-sm font-semibold text-cyan-300">The Future of Home Cooking</span>
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Cook Smarter, Eat Better with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">AI-Powered Recipes</span>
+              Your Personal AI Chef, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Always Ready to Inspire</span>
             </h1>
             <p className="text-xl text-slate-400 mb-8 leading-relaxed">
-              Discover personalized recipes, smart meal plans, and intelligent grocery lists powered by advanced AI. Transform your kitchen into a culinary powerhouse and create restaurant-quality meals at home in minutes.
+              Experience the future of cooking with AI that understands your taste, your schedule, and your goals. Get unlimited personalized recipes, intelligent meal planning, and smart grocery lists—all powered by cutting-edge artificial intelligence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
@@ -89,7 +89,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Get Started Free Today
+                🚀 Start Your Free Trial
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
@@ -97,7 +97,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                See How It Works
+                📖 Explore Features
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
