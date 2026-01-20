@@ -2,7 +2,8 @@
 
 import Link from 'next/link'
 import Navigation from '@/components/Navigation'
-import Hero from '@/components/Hero'
+import EnhancedHero from '@/components/EnhancedHero'
+import ProductFeaturesShowcaseNew from '@/components/ProductFeaturesShowcaseNew'
 import EnhancedKeyFeaturesShowcase from '@/components/EnhancedKeyFeaturesShowcase'
 import KeyFeaturesHighlightSection from '@/components/KeyFeaturesHighlightSection'
 import EnhancedHeroFeaturesSection from '@/components/EnhancedHeroFeaturesSection'
@@ -33,7 +34,10 @@ export default function Home() {
     <main className="overflow-hidden bg-gradient-to-b from-slate-950 via-blue-950 to-slate-950">
       <Navigation />
       {/* Hero Section - Main Call to Action */}
-      <Hero />
+      <EnhancedHero />
+      
+      {/* Product Features Section */}
+      <ProductFeaturesShowcaseNew />
       
       {/* Key Benefits Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 to-slate-950">

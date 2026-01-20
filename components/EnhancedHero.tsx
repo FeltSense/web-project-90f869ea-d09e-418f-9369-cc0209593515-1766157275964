@@ -1,0 +1,189 @@
+'use client';
+
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { ArrowRight, Zap, Shield, Rocket } from 'lucide-react';
+
+interface Highlight {
+  id: number;
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
+const EnhancedHero: React.FC = () => {
+  const [isAnimated, setIsAnimated] = useState<boolean>(false);
+
+  useEffect(() => {
+    setIsAnimated(true);
+  }, []);
+
+  const highlights: Highlight[] = [
+    {
+      id: 1,
+      icon: <Zap className="w-6 h-6" />,
+      title: 'Lightning Fast',
+      description: 'Optimized performance for maximum speed',
+    },
+    {
+      id: 2,
+      icon: <Shield className="w-6 h-6" />,
+      title: 'Secure & Reliable',
+      description: 'Enterprise-grade security for peace of mind',
+    },
+    {
+      id: 3,
+      icon: <Rocket className="w-6 h-6" />,
+      title: 'Scalable Solution',
+      description: 'Grows with your business needs',
+    },
+  ];
+
+  return (
+    <div className="relative min-h-screen overflow-hidden bg-slate-950">
+      {/* Animated gradient background */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div
+          className={`absolute top-0 left-1/4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob ${
+            isAnimated ? 'animate-pulse' : ''
+          }`}
+        />
+        <div
+          className={`absolute top-0 right-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000 ${
+            isAnimated ? 'animate-pulse' : ''
+          }`}
+        />
+        <div
+          className={`absolute -bottom-8 left-1/2 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000 ${
+            isAnimated ? 'animate-pulse' : ''
+          }`}
+        />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8 pt-20 pb-24 sm:pt-32 sm:pb-32">
+        <div className="max-w-7xl mx-auto">
+          {/* Main heading section */}
+          <div
+            className={`text-center mb-12 transition-all duration-1000 transform ${
+              isAnimated
+                ? 'opacity-100 translate-y-0'
+                : 'opacity-0 translate-y-10'
+            }`}
+          >
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
+              <span className="block text-white mb-2">Build the Future</span>
+              <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
+                with Modern Technology
+              </span>
+            </h1>
+            <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
+              Experience the next generation of web solutions. Powerful, fast, and
+              designed for modern development with cutting-edge features and
+              seamless integration.
+            </p>
+          </div>
+
+          {/* CTA Buttons */}
+          <div
+            className={`flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 transition-all duration-1000 transform ${
+              isAnimated
+                ? 'opacity-100 translate-y-0'
+                : 'opacity-0 translate-y-10'
+            }`}
+          >
+            <Link
+              href="/get-started"
+              className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+            >
+              <span className="relative z-10">Get Started</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
+            </Link>
+            <Link
+              href="/learn-more"
+              className="px-8 py-4 bg-slate-800 text-white font-semibold rounded-lg border border-slate-700 hover:border-cyan-500 hover:bg-slate-700 transition-all duration-300 transform hover:scale-105"
+            >
+              Learn More
+            </Link>
+          </div>
+
+          {/* Highlights Section */}
+          <div
+            className={`grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto transition-all duration-1000 transform ${
+              isAnimated
+                ? 'opacity-100 translate-y-0'
+                : 'opacity-0 translate-y-10'
+            }`}
+          >
+            {highlights.map((highlight: Highlight, index: number) => (
+              <div
+                key={highlight.id}
+                className={`group p-6 rounded-xl bg-slate-800/50 backdrop-blur border border-slate-700 hover:border-cyan-500 transition-all duration-300 hover:bg-slate-800/80 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/20 ${
+                  isAnimated ? `delay-${index * 200}` : ''
+                }`}
+              >
+                <div className="mb-4 inline-block p-3 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg text-white group-hover:scale-110 transition-transform">
+                  {highlight.icon}
+                </div>
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  {highlight.title}
+                </h3>
+                <p className="text-slate-400 text-sm leading-relaxed">
+                  {highlight.description}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Decorative elements */}
+          <div className="mt-20 flex justify-center items-center gap-8">
+            <div className="h-px w-12 bg-gradient-to-r from-transparent to-cyan-500" />
+            <span className="text-sm text-slate-400 font-medium">
+              Trusted by thousands of developers
+            </span>
+            <div className="h-px w-12 bg-gradient-to-l from-transparent to-cyan-500" />
+          </div>
+        </div>
+      </div>
+
+      {/* Animated blobs in CSS */}
+      <style jsx>{`
+        @keyframes blob {
+          0%,
+          100% {
+            transform: translate(0, 0) scale(1);
+          }
+          33% {
+            transform: translate(30px, -50px) scale(1.1);
+          }
+          66% {
+            transform: translate(-20px, 20px) scale(0.9);
+          }
+        }
+
+        .animate-blob {
+          animation: blob 7s infinite;
+        }
+
+        .animation-delay-2000 {
+          animation-delay: 2s;
+        }
+
+        .animation-delay-4000 {
+          animation-delay: 4s;
+        }
+
+        .delay-200 {
+          transition-delay: 200ms;
+        }
+
+        .delay-400 {
+          transition-delay: 400ms;
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export default EnhancedHero;
