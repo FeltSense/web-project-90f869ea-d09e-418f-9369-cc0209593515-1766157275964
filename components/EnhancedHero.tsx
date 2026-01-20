@@ -72,13 +72,13 @@ const EnhancedHero: React.FC = () => {
             }`}
           >
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
-              <span className="block text-white mb-2">Your AI-Powered</span>
+              <span className="block text-white mb-2">Cook Smarter,</span>
               <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Personal Chef Awaits
+                Eat Better, Save Time
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Discover recipes tailored to your taste, budget, and dietary needs. Get personalized meal plans, smart shopping lists, and nutrition tracking—all powered by cutting-edge AI that learns what you love. Cook smarter, eat better, save time.
+              Your AI kitchen assistant that learns your preferences and creates personalized recipes, meal plans, and shopping lists. Save up to 30% on groceries, reduce food waste, and spend less time planning—more time enjoying delicious meals with family and friends.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ const EnhancedHero: React.FC = () => {
               href="/get-started"
               className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
             >
-              <span className="relative z-10">✨ Get Started Free</span>
+              <span className="relative z-10">🚀 Start Cooking Smarter Today</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
@@ -102,7 +102,7 @@ const EnhancedHero: React.FC = () => {
               href="/pricing"
               className="px-8 py-4 bg-slate-800 text-white font-semibold rounded-lg border border-slate-700 hover:border-cyan-500 hover:bg-slate-700 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
             >
-              💡 View Pricing
+              📋 Explore Plans & Pricing
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
