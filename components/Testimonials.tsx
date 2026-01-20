@@ -67,10 +67,10 @@ export default function Testimonials() {
             <span className="text-sm font-bold text-emerald-700">⭐ 4.9★ Rating • 25,000+ Reviews</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-6">
-            💬 Loved by 100,000+ Home Cooks • Real Results, Real Stories, Real Transformations
+            💬 Loved by 100,000+ Home Cooks
           </h2>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
-            <strong>Real people, real transformations.</strong> Discover how our AI-powered recipe generator is transforming kitchens and changing lives. From busy parents saving 10+ hours weekly to fitness enthusiasts cutting $1,200+ off annual grocery bills, our users are experiencing remarkable transformations. Join thousands who've already discovered the joy and freedom of AI-assisted cooking.
+            <strong>Real people, real transformations.</strong> Discover how our AI-powered recipe generator is transforming kitchens and changing lives. From busy parents saving 10+ hours weekly to fitness enthusiasts cutting $1,200+ off annual grocery bills, our users are experiencing remarkable transformations. See how home cooks just like you are discovering the joy and freedom of AI-assisted cooking.
           </p>
           <div className="mt-8 grid grid-cols-3 gap-4 max-w-2xl mx-auto text-center">
             <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-200">

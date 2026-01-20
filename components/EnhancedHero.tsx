@@ -22,20 +22,20 @@ const EnhancedHero: React.FC = () => {
     {
       id: 1,
       icon: <Zap className="w-6 h-6" />,
-      title: 'Instant Recipe Suggestions',
-      description: 'Get personalized recipes in seconds based on your ingredients, taste preferences, and dietary restrictions. Never waste food again.',
+      title: 'AI-Powered Recipe Generation',
+      description: 'Get personalized recipes in seconds based on your ingredients, taste preferences, and dietary restrictions. Our AI learns what you love and keeps surprising you with dishes you\\'ll actually want to cook.',
     },
     {
       id: 2,
       icon: <Clock className="w-6 h-6" />,
-      title: 'Smart Meal Planning',
-      description: 'Plan your entire week in minutes with balanced, nutritious meal plans. Auto-generated shopping lists organized by store layout.',
+      title: 'Smart Meal Planning & Prep',
+      description: 'Plan your entire week in minutes with balanced, nutritious meal plans. Auto-generated shopping lists organized by store layout, with prep time estimates and difficulty levels.',
     },
     {
       id: 3,
       icon: <TrendingUp className="w-6 h-6" />,
       title: 'Save 30% on Groceries',
-      description: 'Intelligent budget optimization with smart substitutions and cost-effective alternatives. Track spending and find deals automatically.',
+      description: 'Intelligent budget optimization with smart substitutions and cost-effective alternatives. Track spending, find deals automatically, and reduce food waste by up to 40%.',
     },
   ];
 
@@ -82,10 +82,10 @@ const EnhancedHero: React.FC = () => {
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-2">
-              Never ask "what's for dinner?" again. Get personalized recipes in seconds, smart meal plans that balance nutrition and taste, and intelligent shopping lists that save you up to 30% on groceries.
+              Never ask "what's for dinner?" again. Get personalized recipes in seconds based on what you have, smart meal plans that balance nutrition and taste, and intelligent shopping lists that save you up to 30% on groceries. Our AI learns your preferences and cooking style to deliver recipes you'll love.
             </p>
             <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto">
-              Powered by AI that learns your preferences. Cook smarter, eat better, save time and money.
+              ✨ Join 100K+ home cooks saving 10+ hours weekly • 🎯 Reduce food waste by 40% • 💰 Save $1,200+ yearly on groceries
             </p>
           </div>
 
