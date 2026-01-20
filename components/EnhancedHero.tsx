@@ -22,20 +22,20 @@ const EnhancedHero: React.FC = () => {
     {
       id: 1,
       icon: <Zap className="w-6 h-6" />,
-      title: 'AI-Powered Recipe Generation',
-      description: "Get personalized recipes in seconds based on your ingredients, taste preferences, and dietary restrictions. Our AI learns what you love and keeps surprising you with dishes you'll actually want to cook.",
+      title: 'Instant Recipe Suggestions',
+      description: "Get personalized recipes in seconds. Just tell us what you have, and our AI instantly suggests delicious meals tailored to your taste, dietary needs, and cooking skill level.",
     },
     {
       id: 2,
       icon: <Clock className="w-6 h-6" />,
-      title: 'Smart Meal Planning & Prep',
-      description: 'Plan your entire week in minutes with balanced, nutritious meal plans. Auto-generated shopping lists organized by store layout, with prep time estimates and difficulty levels.',
+      title: 'Smart Weekly Meal Plans',
+      description: 'Plan your entire week in minutes. Get balanced meal plans with auto-generated shopping lists, prep time estimates, and difficulty levels—all customized to your preferences.',
     },
     {
       id: 3,
       icon: <TrendingUp className="w-6 h-6" />,
       title: 'Save 30% on Groceries',
-      description: 'Intelligent budget optimization with smart substitutions and cost-effective alternatives. Track spending, find deals automatically, and reduce food waste by up to 40%.',
+      description: 'Smart substitutions and budget-friendly alternatives help you save 30% on groceries. Track spending, find deals, and reduce food waste—all automatically.',
     },
   ];
 
@@ -73,19 +73,19 @@ const EnhancedHero: React.FC = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-500/40 mb-8 backdrop-blur-sm">
               <Star className="w-4 h-4 text-emerald-300 animate-pulse" />
-              <span className="text-sm font-semibold text-emerald-200">AI-Powered Culinary Intelligence</span>
+              <span className="text-sm font-semibold text-emerald-200">Your AI Kitchen Assistant Awaits</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Transform Your Kitchen with</span>
+              <span className="block text-white mb-3">Never Wonder \"What's for Dinner?\" Again</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                AI-Powered Culinary Intelligence
+                Your AI Kitchen Assistant Awaits
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-2">
-              Stop wasting time on meal planning and grocery shopping. Get personalized recipes tailored to your ingredients, dietary needs, and taste preferences—all powered by cutting-edge AI. Cook smarter, eat better, save time and money.
+              Get personalized recipes in seconds, smart meal plans that fit your budget, and intelligent grocery lists that save you money. Our AI learns what you love and adapts to your lifestyle—so you can spend less time planning and more time enjoying delicious meals with your family.
             </p>
             <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto">
-              ✨ Join 100K+ home cooks saving 10+ hours weekly • 🎯 Reduce food waste by 40% • 💰 Save $1,200+ yearly on groceries
+              ✨ 50K+ users • 🎯 Save 10+ hours weekly • 💰 Cut grocery costs by 30% • 🌟 4.9★ rating
             </p>
           </div>
 
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-                Start Cooking Smarter Today
+Get Started Free - No Credit Card
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -151,7 +151,7 @@ const EnhancedHero: React.FC = () => {
             <div className="h-px w-16 bg-gradient-to-r from-transparent to-emerald-500" />
             <span className="text-sm text-slate-400 font-medium flex items-center gap-2">
               <Star className="w-4 h-4 text-emerald-400" />
-              Join thousands of home cooks transforming their kitchen
+              Trusted by home cooks worldwide • Start free today
               <Star className="w-4 h-4 text-emerald-400" />
             </span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-emerald-500" />
