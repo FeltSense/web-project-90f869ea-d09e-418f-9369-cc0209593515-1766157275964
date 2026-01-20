@@ -3,6 +3,8 @@
 import Link from 'next/link'
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
+
+import KeyFeaturesHighlightSection from '@/components/KeyFeaturesHighlightSection'
 import EnhancedHeroFeaturesSection from '@/components/EnhancedHeroFeaturesSection'
 import EnhancedFeaturesShowcase from '@/components/EnhancedFeaturesShowcase'
 import AboutUs from '@/components/AboutUs'
@@ -31,6 +33,8 @@ export default function Home() {
     <main className="overflow-hidden bg-gradient-to-b from-slate-950 via-blue-950 to-slate-950">
       <Navigation />
       <Hero />
+
+      <KeyFeaturesHighlightSection />
       <EnhancedFeaturesShowcase />
       <EnhancedHeroFeaturesSection />
       <KeyProductFeaturesSection />

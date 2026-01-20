@@ -1,6 +1,13 @@
 'use client'
 
-import { Zap, Calendar, ShoppingCart, TrendingUp, ArrowRight, Sparkles } from 'lucide-react'
+import {
+  Zap,
+  Calendar,
+  ShoppingCart,
+  TrendingUp,
+  ArrowRight,
+  Sparkles,
+} from 'lucide-react'
 import { motion } from 'framer-motion'
 
 interface Feature {
@@ -71,10 +78,10 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Intelligent Cooking</span>
+              Cook Smarter, Eat Better, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Live Healthier</span>
             </h1>
             <p className="text-xl text-slate-400 mb-8 leading-relaxed">
-              Experience the future of cooking with AI that understands your preferences, budget, and lifestyle. From recipe discovery to meal planning and nutrition insights—everything you need to cook with confidence and creativity.
+              Your personal AI chef that learns your taste, respects your budget, and transforms your kitchen into a culinary powerhouse. Get personalized recipes, smart meal plans, and nutrition insights—all in one intelligent platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
@@ -82,7 +89,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Start Cooking Smarter Now
+                Get Started Free Today
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
