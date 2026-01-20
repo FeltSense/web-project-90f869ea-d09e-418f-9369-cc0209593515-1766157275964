@@ -22,20 +22,20 @@ const EnhancedHero: React.FC = () => {
     {
       id: 1,
       icon: <Zap className="w-6 h-6" />,
-      title: 'AI-Powered Recipes',
-      description: 'Get personalized recipe suggestions in seconds that match your taste and dietary needs',
+      title: 'Instant Recipe Suggestions',
+      description: 'Get personalized recipes in seconds based on your ingredients, taste preferences, and dietary restrictions. Never waste food again.',
     },
     {
       id: 2,
       icon: <Clock className="w-6 h-6" />,
       title: 'Smart Meal Planning',
-      description: 'Plan your entire week in minutes with AI-generated meal plans and shopping lists',
+      description: 'Plan your entire week in minutes with balanced, nutritious meal plans. Auto-generated shopping lists organized by store layout.',
     },
     {
       id: 3,
       icon: <TrendingUp className="w-6 h-6" />,
-      title: 'Save Time & Money',
-      description: 'Save up to 30% on groceries with intelligent budget-friendly alternatives',
+      title: 'Save 30% on Groceries',
+      description: 'Intelligent budget optimization with smart substitutions and cost-effective alternatives. Track spending and find deals automatically.',
     },
   ];
 
@@ -76,16 +76,16 @@ const EnhancedHero: React.FC = () => {
               <span className="text-sm font-semibold text-cyan-200">AI-Powered Culinary Intelligence</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Transform Your</span>
+              <span className="block text-white mb-3">Your AI-Powered</span>
               <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Kitchen with AI
+                Personal Chef Awaits
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-2">
-              Discover recipes tailored to your taste, budget, and dietary needs. Get personalized meal plans, smart shopping lists, and nutrition tracking—all powered by cutting-edge AI that learns what you love.
+              Never ask "what's for dinner?" again. Get personalized recipes in seconds, smart meal plans that balance nutrition and taste, and intelligent shopping lists that save you up to 30% on groceries.
             </p>
             <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto">
-              Cook smarter, eat better, save time and money.
+              Powered by AI that learns your preferences. Cook smarter, eat better, save time and money.
             </p>
           </div>
 
@@ -99,11 +99,11 @@ const EnhancedHero: React.FC = () => {
           >
             <Link
               href="/get-started"
-              className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-lg shadow-cyan-500/50 hover:shadow-2xl hover:shadow-cyan-500/75 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-lg"
+              className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-lg shadow-cyan-500/50 hover:shadow-2xl hover:shadow-cyan-500/75 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-lg"
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-                Get Started Free
+                Start Creating Recipes Free
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
