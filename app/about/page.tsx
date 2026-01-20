@@ -46,10 +46,10 @@ const AboutPage = () => {
           >
             <motion.div variants={itemVariants}>
               <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-                Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-400 to-blue-400">Story</span>
+                About <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-cyan-400 to-blue-400">Us</span>
               </h1>
               <p className="text-lg sm:text-xl text-slate-100 max-w-2xl mx-auto font-medium">
-                We're on a mission to transform cooking from a daily struggle into a joyful, effortless experience for everyone
+                Transforming cooking from a daily struggle into a joyful, effortless experience powered by AI
               </p>
             </motion.div>
           </motion.div>
@@ -87,7 +87,7 @@ const AboutPage = () => {
             className="space-y-12"
           >
             <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
-              Our Core Values
+              What Drives Us
             </motion.h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
