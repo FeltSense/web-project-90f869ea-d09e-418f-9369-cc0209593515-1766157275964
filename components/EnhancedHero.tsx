@@ -23,7 +23,7 @@ const EnhancedHero: React.FC = () => {
       id: 1,
       icon: <Zap className="w-6 h-6" />,
       title: 'AI-Powered Recipe Generation',
-      description: 'Get personalized recipes in seconds based on your ingredients, taste preferences, and dietary restrictions. Our AI learns what you love and keeps surprising you with dishes you\\'ll actually want to cook.',
+      description: "Get personalized recipes in seconds based on your ingredients, taste preferences, and dietary restrictions. Our AI learns what you love and keeps surprising you with dishes you'll actually want to cook.",
     },
     {
       id: 2,
