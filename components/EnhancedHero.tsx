@@ -23,19 +23,19 @@ const EnhancedHero: React.FC = () => {
       id: 1,
       icon: <Zap className="w-6 h-6" />,
       title: 'Instant Recipe Suggestions',
-      description: "Never waste ingredients again. Our AI analyzes what you have and instantly generates personalized recipes that match your taste, dietary restrictions, and cooking skill level.",
+      description: "Stop scrolling endlessly. Our AI instantly generates personalized recipes from your ingredients, learning your taste preferences to suggest dishes you'll actually want to cook.",
     },
     {
       id: 2,
       icon: <Clock className="w-6 h-6" />,
       title: 'Smart Weekly Meal Plans',
-      description: 'Save 10+ hours weekly with AI-generated meal plans. Get balanced nutrition, auto-generated shopping lists, prep time estimates, and difficulty levels—all customized to your lifestyle and budget.',
+      description: 'Meal planning, shopping lists, and prep work—done in minutes. Get AI-generated meal plans with balanced nutrition, auto-organized shopping lists, and difficulty levels tailored to you.',
     },
     {
       id: 3,
       icon: <TrendingUp className="w-6 h-6" />,
       title: 'Save 30% on Groceries',
-      description: 'Cut grocery costs by 30% with intelligent substitutions and budget optimization. Get smart recommendations, track spending, find deals, and reduce food waste—all powered by AI.',
+      description: 'Smart substitutions, budget optimization, and waste reduction. Our AI finds the best deals and suggests affordable alternatives without sacrificing taste or nutrition.',
     },
   ];
 
@@ -73,16 +73,16 @@ const EnhancedHero: React.FC = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/60 mb-8 backdrop-blur-sm">
               <Star className="w-4 h-4 text-emerald-300 animate-pulse" />
-              <span className="text-sm font-semibold text-emerald-100">✨ AI-Powered Recipes in Seconds</span>
+              <span className="text-sm font-semibold text-emerald-100">⚡ Join 50K+ Home Cooks Saving Time & Money</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Transform Your Kitchen with AI</span>
+              <span className="block text-white mb-3">Your AI Kitchen Assistant</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Never Wonder What's for Dinner Again
+                Personalized Recipes, Smarter Meals, Bigger Savings
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed mb-4 font-medium">
-              Discover personalized recipes in seconds, plan your entire week in minutes, and save 30% on groceries. Our AI learns what you love and creates meal plans tailored to your ingredients, dietary needs, and lifestyle. Cook smarter, eat better, save time and money.
+              Get personalized recipes in seconds, plan your entire week in minutes, and cut grocery costs by 30%. Our AI learns your taste, dietary needs, and lifestyle to create meal plans you'll actually love. Stop wasting time on meal planning and start enjoying delicious, budget-friendly meals.
             </p>
             <p className="text-base sm:text-lg text-emerald-300 max-w-2xl mx-auto font-bold">
               ✨ 50K+ users • ⏱️ Save 10+ hours weekly • 💰 Cut costs by 30% • ⭐ 4.9★ rating
@@ -99,18 +99,18 @@ const EnhancedHero: React.FC = () => {
           >
             <Link
               href="/get-started"
-              className="group relative px-10 py-5 bg-gradient-to-r from-emerald-600 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-lg shadow-emerald-500/60 hover:shadow-2xl hover:shadow-cyan-500/80 transition-all duration-300 transform hover:scale-110 flex items-center gap-2 text-lg"
+              className="group relative px-12 py-6 bg-gradient-to-r from-emerald-600 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/70 hover:shadow-3xl hover:shadow-cyan-500/90 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-lg"
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-🚀 Start Cooking Smarter Today
+🚀 Get Started Free - No Credit Card
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
             <Link
               href="/pricing"
-              className="px-8 py-4 bg-slate-800/50 backdrop-blur text-white font-semibold rounded-xl border-2 border-emerald-500/60 hover:border-emerald-400 hover:bg-emerald-500/20 transition-all duration-300 transform hover:scale-110 flex items-center gap-2 text-lg"
+              className="px-10 py-5 bg-slate-800/50 backdrop-blur text-white font-semibold rounded-xl border-2 border-emerald-500/60 hover:border-emerald-400 hover:bg-emerald-500/20 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-lg"
             >
               <CheckCircle className="w-5 h-5" />
               💎 View Pricing
@@ -129,7 +129,7 @@ const EnhancedHero: React.FC = () => {
             {highlights.map((highlight: Highlight, index: number) => (
               <div
                 key={highlight.id}
-                className={`group p-8 rounded-xl bg-gradient-to-br from-slate-800/60 to-slate-900/40 backdrop-blur-sm border border-slate-700/50 hover:border-emerald-500/80 transition-all duration-300 hover:bg-slate-800/80 transform hover:scale-110 hover:shadow-2xl hover:shadow-emerald-500/40 ${
+                className={`group p-8 rounded-xl bg-gradient-to-br from-slate-800/70 to-slate-900/50 backdrop-blur-sm border border-slate-700/60 hover:border-emerald-400/80 transition-all duration-300 hover:bg-slate-800/90 transform hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/50 ${
                   isAnimated ? `delay-${index * 200}` : ''
                 }`}
               >
