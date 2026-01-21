@@ -76,13 +76,13 @@ const EnhancedHero: React.FC = () => {
               <span className="text-sm font-semibold text-violet-100">✨ AI-Powered Recipes in Seconds</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Transform Your Kitchen with AI</span>
+              <span className="block text-white mb-3">Cook Smarter, Eat Better</span>
               <span className="block bg-gradient-to-r from-violet-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">
-                Personalized Recipes in Seconds
+                AI-Powered Recipes Tailored Just for You
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-3 font-medium">
-              Stop scrolling through endless recipes. Our AI instantly generates personalized meal ideas based on what you have in your kitchen. Save 10+ hours weekly on meal planning, cut grocery costs by 30%, and discover recipes you'll actually love to cook.
+              Say goodbye to meal planning stress. Our intelligent AI learns your taste, budget, and dietary needs to deliver personalized recipes in seconds. Join 50K+ home cooks saving time, money, and discovering dishes they genuinely love.
             </p>
             <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto font-semibold">
               🚀 50K+ users • ⏱️ Save 10+ hours weekly • 💰 Cut costs by 30% • ⭐ 4.9★ rating
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-🎉 Get Your First Recipe Free
+✨ Start Creating Recipes Now
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-fuchsia-600 to-violet-600 opacity-0 group-hover:opacity-100 transition-opacity" />
