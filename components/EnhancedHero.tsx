@@ -73,16 +73,16 @@ const EnhancedHero: React.FC = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-500/40 mb-8 backdrop-blur-sm">
               <Star className="w-4 h-4 text-emerald-300 animate-pulse" />
-              <span className="text-sm font-semibold text-emerald-200">✨ Powered by Advanced AI Technology</span>
+              <span className="text-sm font-semibold text-emerald-200">AI-Powered Recipes in Seconds</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Transform Your Kitchen with</span>
+              <span className="block text-white mb-3">Never Run Out of Meal Ideas</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                ✨ Powered by Advanced AI Technology
+                AI-Powered Recipes in Seconds
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-2">
-              Experience the future of cooking. Get personalized recipes tailored to your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste, optimizes your grocery budget, and creates meal plans that save you 10+ hours weekly while cutting costs by 30%.
+              Stop scrolling through endless recipes. Our AI instantly generates personalized meal ideas based on what you have in your kitchen. Save 10+ hours weekly on meal planning, cut grocery costs by 30%, and discover recipes you'll actually love to cook.
             </p>
             <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto">
               ✨ 50K+ users • 🎯 Save 10+ hours weekly • 💰 Cut grocery costs by 30% • 🌟 4.9★ rating
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-Start Cooking Smarter Today
+Get Your First Recipe Free
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
