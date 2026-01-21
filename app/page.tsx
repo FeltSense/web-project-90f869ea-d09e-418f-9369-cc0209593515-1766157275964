@@ -6,6 +6,7 @@ import EnhancedHero from '@/components/EnhancedHero'
 import ProductFeaturesShowcaseNew from '@/components/ProductFeaturesShowcaseNew'
 import EnhancedKeyFeaturesShowcase from '@/components/EnhancedKeyFeaturesShowcase'
 import KeyFeaturesHighlightSection from '@/components/KeyFeaturesHighlightSection'
+import KeyFeaturesHighlight from '@/components/KeyFeaturesHighlight'
 import EnhancedHeroFeaturesSection from '@/components/EnhancedHeroFeaturesSection'
 import EnhancedFeaturesShowcase from '@/components/EnhancedFeaturesShowcase'
 import AboutUs from '@/components/AboutUs'
@@ -38,6 +39,9 @@ export default function Home() {
       <Navigation />
       {/* Hero Section - Main Call to Action */}
       <EnhancedHero />
+
+      {/* Key Features Highlight Section */}
+      <KeyFeaturesHighlight />
 
       {/* Key Product Features Section */}
       <KeyProductFeaturesHighlight />
