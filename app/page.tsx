@@ -51,21 +51,21 @@ export default function Home() {
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-400/60 mb-8 backdrop-blur-sm">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-400/60 mb-8 backdrop-blur-sm animate-pulse">
               <span className="text-sm font-bold text-emerald-200">✨ TRUSTED BY 50K+ HOME COOKS</span>
             </div>
 
-            {/* Main Headline */}
+            {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Personalized Recipes Made
+              Never Wonder "What's for Dinner?" Again
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Effortlessly Easy
+                AI-Powered Recipes in Seconds
               </span>
             </h1>
 
-            {/* Subheading */}
-            <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed">
-              Our AI instantly learns your taste preferences and creates personalized recipe recommendations tailored just for you. No complicated steps—just delicious, customized meals in seconds. Save time, money, and enjoy cooking again.
+            {/* Subheading - Stronger Value Proposition */}
+            <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
+              Get personalized recipe suggestions that match your ingredients, dietary preferences, and cooking time. Our AI learns what you love and delivers delicious meal ideas instantly—completely free, no credit card required.
             </p>
 
             {/* Key Stats */}
@@ -77,14 +77,14 @@ export default function Home() {
               <span className="flex items-center gap-2">✓ No credit card needed</span>
             </div>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons - Enhanced with Better Visual Hierarchy */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <Link
                 href="/get-started"
                 className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🎯 Get Your Personalized Recipes
+                  🚀 Start Getting Recipes Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -94,30 +94,30 @@ export default function Home() {
                 className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  💎 View Pricing
+                  📺 Watch Demo
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
 
-            {/* Feature Highlights */}
+            {/* Feature Highlights - More Compelling */}
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/10 to-cyan-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300">
-                <div className="text-3xl mb-3">✨</div>
-                <h3 className="text-white font-semibold mb-2">Instant Personalization</h3>
-                <p className="text-slate-300 text-sm">AI learns your taste in seconds, not days</p>
-              </div>
-
-              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300">
-                <div className="text-3xl mb-3">🎯</div>
-                <h3 className="text-white font-semibold mb-2">Perfectly Tailored</h3>
-                <p className="text-slate-300 text-sm">Every recipe matches your unique preferences</p>
-              </div>
-
-              <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300">
+              <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/10 to-cyan-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300 hover:scale-105">
                 <div className="text-3xl mb-3">⚡</div>
-                <h3 className="text-white font-semibold mb-2">Effortlessly Easy</h3>
-                <p className="text-slate-300 text-sm">No complexity, just delicious results</p>
+                <h3 className="text-white font-semibold mb-2">Instant Results</h3>
+                <p className="text-slate-300 text-sm">Get personalized recipes in seconds, not hours</p>
+              </div>
+
+              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105">
+                <div className="text-3xl mb-3">🎯</div>
+                <h3 className="text-white font-semibold mb-2">100% Personalized</h3>
+                <p className="text-slate-300 text-sm">AI learns your taste and gets smarter over time</p>
+              </div>
+
+              <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300 hover:scale-105">
+                <div className="text-3xl mb-3">💰</div>
+                <h3 className="text-white font-semibold mb-2">Always Free</h3>
+                <p className="text-slate-300 text-sm">No signup, no credit card, no hidden fees</p>
               </div>
             </div>
           </div>
