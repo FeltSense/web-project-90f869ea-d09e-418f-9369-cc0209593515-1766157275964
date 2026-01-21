@@ -22,7 +22,7 @@ const EnhancedHero: React.FC = () => {
     {
       id: 1,
       icon: <Zap className="w-6 h-6" />,
-      title: 'Transform Your Kitchen with AI',
+      title: 'AI-Powered Recipe Suggestions',
       description: "Get personalized recipes in seconds. Our AI analyzes your ingredients, dietary preferences, and cooking skill to suggest dishes you'll love. Never run out of meal ideas again.",
     },
     {
@@ -76,13 +76,13 @@ const EnhancedHero: React.FC = () => {
               <span className="text-sm font-semibold text-emerald-100">⚡ Join 50K+ Home Cooks Saving Time & Money</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Transform Your Kitchen with AI</span>
+              <span className="block text-white mb-3">AI-Powered Recipe Suggestions</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Never Struggle with Meal Planning Again
+                Personalized Recipes, Smart Meal Plans & Budget Savings
               </span>
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed mb-4 font-medium">
-              Imagine having a personal chef who knows exactly what you love, what ingredients you have, and how to save you money. Our AI-powered platform generates personalized recipes in seconds, creates smart meal plans that fit your lifestyle, and helps you cut grocery costs by up to 30%. Join thousands of home cooks who've reclaimed their time and transformed their kitchens.
+              Stop wasting time on meal planning and grocery shopping. Our AI-powered kitchen assistant generates personalized recipes tailored to your ingredients, dietary preferences, and cooking skill level. Get smart meal plans, organized shopping lists, and save up to 30% on groceries—all completely free. Join 50K+ home cooks who've transformed their kitchens and reclaimed their time.
             </p>
             <p className="text-sm sm:text-base lg:text-lg text-emerald-300 max-w-2xl mx-auto font-bold">
               ✨ 50K+ users • ⏱️ Save 10+ hours weekly • 💰 Cut costs by 30% • ⭐ 4.9★ rating
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-🚀 Start Transforming Your Kitchen Now - Free Forever
+🚀 Try AI Recipe Generator - Free Forever
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
