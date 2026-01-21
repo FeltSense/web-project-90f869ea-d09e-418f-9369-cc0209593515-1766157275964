@@ -71,21 +71,21 @@ const EnhancedHero: React.FC = () => {
                 : 'opacity-0 translate-y-10'
             }`}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-500/40 mb-8 backdrop-blur-sm">
-              <Star className="w-4 h-4 text-emerald-300 animate-pulse" />
-              <span className="text-sm font-semibold text-emerald-200">AI-Powered Recipes in Seconds</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-violet-500/30 to-fuchsia-500/30 border border-violet-400/60 mb-8 backdrop-blur-sm">
+              <Star className="w-4 h-4 text-violet-300 animate-pulse" />
+              <span className="text-sm font-semibold text-violet-100">✨ AI-Powered Recipes in Seconds</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Never Run Out of Meal Ideas</span>
-              <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                AI-Powered Recipes in Seconds
+              <span className="block text-white mb-3">Transform Your Kitchen with AI</span>
+              <span className="block bg-gradient-to-r from-violet-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">
+                Personalized Recipes in Seconds
               </span>
             </h1>
-            <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-2">
+            <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-3 font-medium">
               Stop scrolling through endless recipes. Our AI instantly generates personalized meal ideas based on what you have in your kitchen. Save 10+ hours weekly on meal planning, cut grocery costs by 30%, and discover recipes you'll actually love to cook.
             </p>
-            <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto">
-              ✨ 50K+ users • 🎯 Save 10+ hours weekly • 💰 Cut grocery costs by 30% • 🌟 4.9★ rating
+            <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto font-semibold">
+              🚀 50K+ users • ⏱️ Save 10+ hours weekly • 💰 Cut costs by 30% • ⭐ 4.9★ rating
             </p>
           </div>
 
@@ -99,21 +99,21 @@ const EnhancedHero: React.FC = () => {
           >
             <Link
               href="/get-started"
-              className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-bold rounded-xl overflow-hidden shadow-lg shadow-emerald-500/50 hover:shadow-2xl hover:shadow-emerald-500/75 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-lg"
+              className="group relative px-10 py-5 bg-gradient-to-r from-violet-600 via-fuchsia-500 to-cyan-500 text-white font-bold rounded-xl overflow-hidden shadow-lg shadow-violet-500/60 hover:shadow-2xl hover:shadow-fuchsia-500/80 transition-all duration-300 transform hover:scale-110 flex items-center gap-2 text-lg"
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-Get Your First Recipe Free
+🎉 Get Your First Recipe Free
               </span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
+              <div className="absolute inset-0 bg-gradient-to-r from-fuchsia-600 to-violet-600 opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
             <Link
               href="/pricing"
-              className="px-8 py-4 bg-slate-800/50 backdrop-blur text-white font-semibold rounded-xl border-2 border-emerald-500/50 hover:border-emerald-400 hover:bg-emerald-500/20 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 text-lg"
+              className="px-8 py-4 bg-slate-800/50 backdrop-blur text-white font-semibold rounded-xl border-2 border-violet-500/60 hover:border-violet-400 hover:bg-violet-500/20 transition-all duration-300 transform hover:scale-110 flex items-center gap-2 text-lg"
             >
               <CheckCircle className="w-5 h-5" />
-              View Pricing
+              💎 View Pricing
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
@@ -129,11 +129,11 @@ Get Your First Recipe Free
             {highlights.map((highlight: Highlight, index: number) => (
               <div
                 key={highlight.id}
-                className={`group p-8 rounded-xl bg-gradient-to-br from-slate-800/60 to-slate-900/40 backdrop-blur-sm border border-slate-700/50 hover:border-emerald-500/80 transition-all duration-300 hover:bg-slate-800/80 transform hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/30 ${
+                className={`group p-8 rounded-xl bg-gradient-to-br from-slate-800/60 to-slate-900/40 backdrop-blur-sm border border-slate-700/50 hover:border-violet-500/80 transition-all duration-300 hover:bg-slate-800/80 transform hover:scale-110 hover:shadow-2xl hover:shadow-violet-500/40 ${
                   isAnimated ? `delay-${index * 200}` : ''
                 }`}
               >
-                <div className="mb-4 inline-block p-3 bg-gradient-to-br from-emerald-500 to-cyan-500 rounded-lg text-white group-hover:scale-125 transition-transform duration-300 shadow-lg shadow-emerald-500/50">
+                <div className="mb-4 inline-block p-3 bg-gradient-to-br from-violet-600 via-fuchsia-500 to-cyan-500 rounded-lg text-white group-hover:scale-125 transition-transform duration-300 shadow-lg shadow-violet-500/60">
                   {highlight.icon}
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-3">
@@ -148,13 +148,13 @@ Get Your First Recipe Free
 
           {/* Decorative elements */}
           <div className="mt-24 flex justify-center items-center gap-8">
-            <div className="h-px w-16 bg-gradient-to-r from-transparent to-emerald-500" />
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-violet-500" />
             <span className="text-sm text-slate-400 font-medium flex items-center gap-2">
-              <Star className="w-4 h-4 text-emerald-400" />
+              <Star className="w-4 h-4 text-violet-400" />
               Trusted by home cooks worldwide • Start free today
-              <Star className="w-4 h-4 text-emerald-400" />
+              <Star className="w-4 h-4 text-violet-400" />
             </span>
-            <div className="h-px w-16 bg-gradient-to-l from-transparent to-emerald-500" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-violet-500" />
           </div>
         </div>
       </div>
