@@ -76,13 +76,13 @@ const EnhancedHero: React.FC = () => {
               <span className="text-sm font-semibold text-emerald-100">⚡ Join 50K+ Home Cooks Saving Time & Money</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Your Personal AI Chef, Always Ready</span>
+              <span className="block text-white mb-3">Transform Your Kitchen with AI Intelligence</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Delicious Recipes in Seconds, Meal Plans in Minutes
+                Personalized Recipes, Smart Meal Plans & Budget Optimization
               </span>
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed mb-4 font-medium">
-              Experience the future of home cooking. Our AI understands your taste, dietary needs, and budget to create personalized recipes you'll love. From ingredient analysis to smart meal planning and grocery optimization—everything you need to cook smarter, eat better, and save money. Join thousands of home cooks who've transformed their kitchen experience.
+              Stop wasting time deciding what to cook. Our advanced AI learns your preferences, analyzes your ingredients, and generates personalized recipes tailored to your dietary needs and budget. Get smart meal plans, organized shopping lists, and nutrition tracking—all in one intelligent platform. Cook with confidence, save time and money, and discover dishes you'll love.
             </p>
             <p className="text-sm sm:text-base lg:text-lg text-emerald-300 max-w-2xl mx-auto font-bold">
               ✨ 50K+ users • ⏱️ Save 10+ hours weekly • 💰 Cut costs by 30% • ⭐ 4.9★ rating
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-✨ Get Started Free - No Credit Card Required
+🚀 Start Creating Recipes Now - Free Forever
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
