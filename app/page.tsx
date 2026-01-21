@@ -33,6 +33,7 @@ import Footer from '@/components/Footer'
 import ComprehensiveProductFeatures from '@/components/ComprehensiveProductFeatures'
 import KeyProductFeaturesHighlight from '@/components/KeyProductFeaturesHighlight'
 import Services from '@/components/Services'
+import CompellingKeyFeaturesSection from '@/components/CompellingKeyFeaturesSection'
 
 export default function Home() {
   return (
@@ -40,6 +41,9 @@ export default function Home() {
       <Navigation />
       {/* Hero Section - Main Call to Action */}
       <EnhancedHero />
+
+      {/* Key Features Section - Highlight Core Product Benefits */}
+      <CompellingKeyFeaturesSection />
 
       {/* AI Recipe Generator CTA Section - Premium Highlight */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-emerald-950 via-cyan-950 to-blue-950 border-y-2 border-emerald-400/50 relative overflow-hidden">
