@@ -81,7 +81,7 @@ export default function Hero() {
               Your AI-Powered <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Personal Chef</span> Awaits
             </h1>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              Transform your kitchen with AI that understands your cravings. From meal planning to grocery shopping, let intelligent automation handle the thinking while you enjoy the cooking. Personalized recipes, smart budgeting, and nutrition tracking—all in one place.
+              Discover the future of cooking. AI-powered meal planning that adapts to your taste, budget, and lifestyle. Say goodbye to meal prep stress and hello to delicious, personalized dinners every night.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
@@ -89,7 +89,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                ✨ Get Started Free
+                Start Cooking Smarter Today
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
@@ -97,7 +97,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                🚀 Start Your Free Trial
+                Watch Demo
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
