@@ -57,15 +57,15 @@ export default function Home() {
 
             {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Never Wonder "What's for Dinner?" Again
+              Your Personal AI Chef Awaits
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                AI That Knows Your Taste
+                Delicious Meals in Seconds
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Stop wasting time on meal planning and grocery shopping. Our AI instantly generates personalized recipes based on what you have, what you love, and how much time you have. Save 10+ hours weekly, cut grocery costs by 30%, and discover meals you'll actually want to cook.
+              Transform your kitchen with AI-powered recipe generation. Get personalized meal suggestions based on your ingredients, dietary preferences, and cooking time. Save hours on meal planning, cut grocery costs by 30%, and never run out of dinner ideas again.
             </p>
 
             {/* Key Stats */}
@@ -84,7 +84,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Creating Recipes Now
+                  ✨ Get Your AI Chef Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
