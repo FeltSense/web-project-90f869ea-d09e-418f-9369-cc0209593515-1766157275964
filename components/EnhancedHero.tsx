@@ -76,7 +76,7 @@ const EnhancedHero: React.FC = () => {
               <span className="text-sm font-semibold text-emerald-100">⚡ Join 50K+ Home Cooks Saving Time & Money</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 sm:mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Transform Your Kitchen with AI Intelligence</span>
+              <span className="block text-white mb-3">AI-Powered Recipe Generation</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
                 Personalized Recipes, Smart Meal Plans & Budget Optimization
               </span>
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-🚀 Start Creating Recipes Now - Free Forever
+🚀 Try AI Recipe Generator - Free Forever
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
