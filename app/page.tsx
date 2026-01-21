@@ -41,31 +41,70 @@ export default function Home() {
       {/* Hero Section - Main Call to Action */}
       <EnhancedHero />
 
-      {/* AI Recipe Generator CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-emerald-950/50 via-cyan-950/50 to-blue-950/50 border-y border-emerald-500/30">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-400/60 mb-6">
-            <span className="text-sm font-semibold text-emerald-300">✨ Featured Feature</span>
+      {/* AI Recipe Generator CTA Section - Premium Highlight */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-emerald-950 via-cyan-950 to-blue-950 border-y-2 border-emerald-400/50 relative overflow-hidden">
+        {/* Animated background elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-500/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        </div>
+        
+        <div className="max-w-5xl mx-auto text-center relative z-10">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/30 border border-emerald-400/80 mb-6 backdrop-blur-sm">
+            <span className="text-sm font-bold text-emerald-200">✨ FEATURED FEATURE</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Experience Our AI Recipe Generator
+          
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            Meet Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">AI Recipe Generator</span>
           </h2>
-          <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-            Simply tell our AI what ingredients you have, your dietary preferences, and cooking time available. Get personalized recipe suggestions in seconds—completely free, no credit card required.
+          
+          <p className="text-lg sm:text-xl text-slate-200 mb-4 max-w-3xl mx-auto leading-relaxed">
+            Transform your kitchen with AI-powered recipe suggestions tailored to your ingredients, dietary preferences, and cooking time. Get personalized meal ideas in seconds—completely free, no credit card required.
           </p>
+          
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-8 text-sm text-emerald-300">
+            <span className="flex items-center gap-2">✓ No signup required</span>
+            <span className="hidden sm:inline text-slate-500">•</span>
+            <span className="flex items-center gap-2">✓ Instant results</span>
+            <span className="hidden sm:inline text-slate-500">•</span>
+            <span className="flex items-center gap-2">✓ Save favorites</span>
+          </div>
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/get-started"
-              className="group relative px-8 py-4 bg-gradient-to-r from-emerald-600 to-cyan-500 text-white font-bold rounded-lg overflow-hidden shadow-lg shadow-emerald-500/50 hover:shadow-emerald-500/75 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 text-lg"
+              className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
             >
               <span className="relative z-10 flex items-center gap-2">
-                🎯 Try It Now - Free
+                🚀 Try AI Recipe Generator Now
+              </span>
+              <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
+            </Link>
+            
+            <button className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm">
+              <span className="relative z-10 flex items-center gap-2">
+                📺 Watch Demo
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
-            <p className="text-sm text-slate-400">
-              No signup required • Instant results • Save your favorites
-            </p>
+            </button>
+          </div>
+          
+          <div className="mt-12 pt-8 border-t border-emerald-500/30">
+            <p className="text-sm text-slate-400 mb-4">Trusted by thousands of home cooks</p>
+            <div className="flex justify-center items-center gap-8 flex-wrap">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-emerald-400">50K+</div>
+                <p className="text-xs text-slate-400">Active Users</p>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-cyan-400">2.5M+</div>
+                <p className="text-xs text-slate-400">Recipes Generated</p>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-emerald-400">4.9★</div>
+                <p className="text-xs text-slate-400">User Rating</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
