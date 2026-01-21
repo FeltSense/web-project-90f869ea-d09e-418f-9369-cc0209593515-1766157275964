@@ -209,12 +209,13 @@ export default function Home() {
         </div>
       </section>
       
+      <AboutUs />
+      
       <EnhancedKeyFeaturesShowcase />
       <KeyFeaturesHighlightSection />
       <EnhancedFeaturesShowcase />
       <EnhancedHeroFeaturesSection />
       <KeyProductFeaturesSection />
-      <AboutUs />
       <FeaturesShowcaseSection />
       <HowItWorks />
       <ModernFeaturesSection />

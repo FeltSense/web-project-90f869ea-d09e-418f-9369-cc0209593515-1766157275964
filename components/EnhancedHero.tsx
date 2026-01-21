@@ -76,13 +76,13 @@ const EnhancedHero: React.FC = () => {
               <span className="text-sm font-semibold text-emerald-100">✨ AI-Powered Recipes in Seconds</span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 tracking-tight leading-tight">
-              <span className="block text-white mb-3">Your AI Kitchen Assistant</span>
+              <span className="block text-white mb-3">Transform Your Kitchen with AI</span>
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Personalized Recipes, Smarter Cooking, Better Meals
+                Never Wonder What's for Dinner Again
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed mb-4 font-medium">
-              Get AI-powered recipe suggestions tailored to your ingredients, dietary needs, and taste preferences. Create smart meal plans, optimize your grocery budget, and discover dishes you'll love—all in seconds.
+              Discover personalized recipes in seconds, plan your entire week in minutes, and save 30% on groceries. Our AI learns what you love and creates meal plans tailored to your ingredients, dietary needs, and lifestyle. Cook smarter, eat better, save time and money.
             </p>
             <p className="text-base sm:text-lg text-emerald-300 max-w-2xl mx-auto font-bold">
               ✨ 50K+ users • ⏱️ Save 10+ hours weekly • 💰 Cut costs by 30% • ⭐ 4.9★ rating
@@ -103,7 +103,7 @@ const EnhancedHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center gap-2">
                 <Rocket className="w-5 h-5" />
-🚀 Start Your AI Kitchen Assistant
+🚀 Start Cooking Smarter Today
               </span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
