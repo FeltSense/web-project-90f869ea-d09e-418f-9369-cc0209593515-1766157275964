@@ -57,15 +57,15 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Transform Your Kitchen with
+              Personalized Recipes Made
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                AI-Powered Recipe Magic
+                Effortlessly Easy
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed">
-              Get personalized recipe suggestions, smart meal plans, and save up to 30% on groceries. Our AI learns your taste, dietary preferences, and cooking style to create the perfect meals—completely free.
+              Our AI instantly learns your taste preferences and creates personalized recipe recommendations tailored just for you. No complicated steps—just delicious, customized meals in seconds. Save time, money, and enjoy cooking again.
             </p>
 
             {/* Key Stats */}
@@ -84,7 +84,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Try AI Recipe Generator
+                  🎯 Get Your Personalized Recipes
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -103,21 +103,21 @@ export default function Home() {
             {/* Feature Highlights */}
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/10 to-cyan-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300">
-                <div className="text-3xl mb-3">⚡</div>
-                <h3 className="text-white font-semibold mb-2">Lightning Fast</h3>
-                <p className="text-slate-300 text-sm">Get personalized recipes in seconds</p>
+                <div className="text-3xl mb-3">✨</div>
+                <h3 className="text-white font-semibold mb-2">Instant Personalization</h3>
+                <p className="text-slate-300 text-sm">AI learns your taste in seconds, not days</p>
               </div>
 
               <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300">
                 <div className="text-3xl mb-3">🎯</div>
-                <h3 className="text-white font-semibold mb-2">Personalized</h3>
-                <p className="text-slate-300 text-sm">Tailored to your taste & preferences</p>
+                <h3 className="text-white font-semibold mb-2">Perfectly Tailored</h3>
+                <p className="text-slate-300 text-sm">Every recipe matches your unique preferences</p>
               </div>
 
               <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300">
-                <div className="text-3xl mb-3">💰</div>
-                <h3 className="text-white font-semibold mb-2">Save Money</h3>
-                <p className="text-slate-300 text-sm">Cut grocery costs by up to 30%</p>
+                <div className="text-3xl mb-3">⚡</div>
+                <h3 className="text-white font-semibold mb-2">Effortlessly Easy</h3>
+                <p className="text-slate-300 text-sm">No complexity, just delicious results</p>
               </div>
             </div>
           </div>
