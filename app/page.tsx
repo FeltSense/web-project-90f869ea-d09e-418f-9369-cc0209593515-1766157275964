@@ -58,44 +58,44 @@ export default function Home() {
 
             {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Unlock Your Culinary Potential with AI
+              Stop Wasting Time on Meal Planning
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Personalized Recipes, Smarter Cooking, Better Meals
+                Get Personalized Recipes in 10 Seconds
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Transform your kitchen with AI-powered recipe generation that adapts to your ingredients, dietary preferences, and cooking skill. Get restaurant-quality meals at home in minutes—no experience needed. Join 50K+ home cooks who've already revolutionized their cooking.
+              Our AI chef analyzes your ingredients, dietary needs, and cooking skill to generate personalized recipes instantly. Save 10+ hours weekly on meal planning, cut grocery bills by 30%, and cook restaurant-quality meals at home—no experience needed.
             </p>
 
             {/* Key Stats */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 text-sm text-emerald-300 font-semibold">
-              <span className="flex items-center gap-2">⚡ 2.5M+ recipes generated this month</span>
+              <span className="flex items-center gap-2">✓ 2.5M+ recipes generated this month</span>
               <span className="hidden sm:inline text-slate-500">•</span>
-              <span className="flex items-center gap-2">⭐ 4.9★ from 10K+ users</span>
+              <span className="flex items-center gap-2">✓ 4.9★ rating from 10K+ users</span>
               <span className="hidden sm:inline text-slate-500">•</span>
-              <span className="flex items-center gap-2">🎁 Forever free, no credit card</span>
+              <span className="flex items-center gap-2">✓ Forever free, no credit card</span>
             </div>
 
             {/* CTA Buttons - Enhanced with Better Visual Hierarchy */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <Link
                 href="/get-started"
-                className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
+                className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter Today
+                  🚀 Get Started Free Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
 
               <Link
-                href="/pricing"
-                className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm"
+                href="/features"
+                className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore Features
+                  ✨ Discover All Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -103,22 +103,22 @@ export default function Home() {
 
             {/* Feature Highlights - More Compelling */}
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/10 to-cyan-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300 hover:scale-105">
+              <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/10 to-cyan-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">⚡</div>
                 <h3 className="text-white font-semibold mb-2">10+ Hours Saved Weekly</h3>
-                <p className="text-slate-300 text-sm">No more meal planning stress. Get dinner ideas in 10 seconds, not 2 hours</p>
+                <p className="text-slate-300 text-sm">Get dinner ideas in 10 seconds instead of 2 hours of planning stress</p>
               </div>
 
-              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105">
+              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">💰</div>
                 <h3 className="text-white font-semibold mb-2">$1,200+ Saved Yearly</h3>
-                <p className="text-slate-300 text-sm">Cut grocery bills by 30% with smart substitutions and budget optimization</p>
+                <p className="text-slate-300 text-sm">Smart substitutions and budget optimization cut grocery bills by 30%</p>
               </div>
 
-              <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300 hover:scale-105">
+              <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">🎯</div>
-                <h3 className="text-white font-semibold mb-2">AI That Knows You</h3>
-                <p className="text-slate-300 text-sm">Gets smarter every day. Learns your taste, allergies, and cooking style</p>
+                <h3 className="text-white font-semibold mb-2">Personalized Just For You</h3>
+                <p className="text-slate-300 text-sm">AI learns your taste, allergies, and cooking style to improve daily</p>
               </div>
             </div>
           </div>

@@ -78,26 +78,26 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">AI-Powered Cooking</span>
+              Never Ask "What's for Dinner?" Again with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">AI-Powered Recipes</span>
             </h1>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              Stop wasting time deciding what to cook. Our AI chef generates personalized recipes, plans your meals, and creates shopping lists—all in seconds. Cook smarter, eat better, save money.
+              Get personalized recipe suggestions in seconds based on your ingredients, dietary needs, and cooking skill. Save 10+ hours weekly on meal planning, cut grocery bills by 30%, and cook with confidence every single day.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
-                className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-lg hover:from-cyan-600 hover:to-blue-600 transition shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 flex items-center justify-center gap-2 group text-lg"
+                className="px-10 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl hover:from-cyan-600 hover:to-blue-600 transition shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 flex items-center justify-center gap-2 group text-lg hover:scale-105"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Get Started Free
+                🚀 Start Creating Recipes Free
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
-                className="px-8 py-4 border-2 border-cyan-500/50 text-white font-semibold rounded-lg hover:bg-cyan-500/10 hover:border-cyan-400 transition flex items-center justify-center gap-2 text-lg"
+                className="px-8 py-4 border-2 border-cyan-500/50 text-white font-semibold rounded-xl hover:bg-cyan-500/10 hover:border-cyan-400 transition flex items-center justify-center gap-2 text-lg hover:scale-105"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Watch Demo
+                📺 See It In Action
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
