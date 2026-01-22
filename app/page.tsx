@@ -6,6 +6,7 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import Pricing from '@/components/Pricing'
 import ContactForm from '@/components/ContactForm'
+import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
@@ -73,29 +74,38 @@ export default function Home() {
               </Link>
             </div>
 
-            {/* Feature Highlights */}
-            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/15 to-blue-500/15 border border-cyan-500/40 hover:border-cyan-400/70 transition hover:shadow-lg hover:shadow-cyan-500/30 duration-300 hover:scale-105 cursor-pointer group">
-                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">⏱️</div>
-                <h3 className="text-white font-bold mb-3 text-lg">Instant Meal Ideas</h3>
-                <p className="text-slate-300 text-sm leading-relaxed"><span className="font-bold text-cyan-300">No more daily stress.</span> Get personalized dinner ideas in seconds based on your ingredients and preferences. Spend less time planning, more time enjoying meals with family.</p>
-              </div>
+            {/* Key Benefits Section - Enhanced */}
+            <div className="mt-16 mb-8">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">Why 100K+ Home Cooks Love Us</h2>
+              <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                <div className="p-8 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/50 hover:border-cyan-400/80 transition hover:shadow-2xl hover:shadow-cyan-500/40 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm">
+                  <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">⏱️</div>
+                  <h3 className="text-white font-bold mb-3 text-xl">Save 10+ Hours Weekly</h3>
+                  <p className="text-slate-200 text-sm leading-relaxed"><span className="font-bold text-cyan-300">No more daily stress.</span> Get personalized dinner ideas in seconds based on your ingredients and preferences. Spend less time planning, more time enjoying meals with family.</p>
+                  <div className="mt-4 pt-4 border-t border-cyan-400/30 text-cyan-300 text-xs font-semibold\">✓ Instant recipe generation</div>
+                </div>
 
-              <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/15 to-teal-500/15 border border-emerald-500/40 hover:border-emerald-400/70 transition hover:shadow-lg hover:shadow-emerald-500/30 duration-300 hover:scale-105 cursor-pointer group">
-                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">💰</div>
-                <h3 className="text-white font-bold mb-3 text-lg">Save on Groceries</h3>
-                <p className="text-slate-300 text-sm leading-relaxed"><span className="font-bold text-emerald-300">Save $1,200+ yearly.</span> Smart ingredient swaps and budget-friendly suggestions automatically reduce your grocery costs by 30% while maintaining quality and taste.</p>
-              </div>
+                <div className="p-8 rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/50 hover:border-emerald-400/80 transition hover:shadow-2xl hover:shadow-emerald-500/40 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm">
+                  <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">💰</div>
+                  <h3 className="text-white font-bold mb-3 text-xl">Cut Grocery Bills by 30%</h3>
+                  <p className="text-slate-200 text-sm leading-relaxed"><span className="font-bold text-emerald-300">Save $1,200+ yearly.</span> Smart ingredient swaps and budget-friendly suggestions automatically reduce your grocery costs while maintaining quality and taste.</p>
+                  <div className="mt-4 pt-4 border-t border-emerald-400/30 text-emerald-300 text-xs font-semibold\">✓ Smart budget optimization</div>
+                </div>
 
-              <div className="p-6 rounded-lg bg-gradient-to-br from-purple-500/15 to-pink-500/15 border border-purple-500/40 hover:border-purple-400/70 transition hover:shadow-lg hover:shadow-purple-500/30 duration-300 hover:scale-105 cursor-pointer group">
-                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🌱</div>
-                <h3 className="text-white font-bold mb-3 text-lg">Reduce Food Waste</h3>
-                <p className="text-slate-300 text-sm leading-relaxed"><span className="font-bold text-purple-300">Reduce waste by 40%.</span> AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook smarter while saving money and helping the environment.</p>
+                <div className="p-8 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/50 hover:border-purple-400/80 transition hover:shadow-2xl hover:shadow-purple-500/40 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm">
+                  <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">🌱</div>
+                  <h3 className="text-white font-bold mb-3 text-xl\">Eliminate Food Waste</h3>
+                  <p className="text-slate-200 text-sm leading-relaxed\"><span className=\"font-bold text-purple-300\">Reduce waste by 40%.</span> AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook smarter while saving money and helping the environment.</p>
+                  <div className=\"mt-4 pt-4 border-t border-purple-400/30 text-purple-300 text-xs font-semibold\">✓ Eco-friendly cooking</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* Customer Testimonials Section */}
+      <Testimonials />
 
       {/* Pricing Section */}
       <Pricing />
