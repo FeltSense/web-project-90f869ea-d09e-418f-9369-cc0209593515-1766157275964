@@ -57,15 +57,15 @@ export default function Home() {
 
             {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Stop Wasting Time on Dinner
+              Your Personal AI Chef Awaits
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Let AI Cook for You
+                Delicious Meals in Minutes
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Get personalized recipes in 10 seconds. Save 10+ hours weekly on meal planning. Cut grocery costs by 30%. Discover meals your family will actually love—all powered by AI that learns your taste.
+              Experience the future of cooking with AI-powered recipe generation. Get personalized meal suggestions in seconds, save 10+ hours weekly, and cut grocery costs by 30%—all while discovering dishes your family will love.
             </p>
 
             {/* Key Stats */}
@@ -84,7 +84,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter Today
+                  🍳 Get Your AI Chef Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -94,7 +94,7 @@ export default function Home() {
                 className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Try Free (No Card)
+                  ⭐ Explore Plans
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
