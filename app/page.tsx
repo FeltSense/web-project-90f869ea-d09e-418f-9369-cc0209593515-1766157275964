@@ -58,15 +58,15 @@ export default function Home() {
 
             {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Your Personal AI Chef
+              Your AI-Powered Kitchen Companion
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Cooking Made Effortless
+                Never Stress About Dinner Again
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Stop wasting time on meal planning. Get personalized recipe suggestions in 10 seconds based on what you have, what you love, and your dietary needs. Our AI learns your preferences, adapts to your lifestyle, and helps you cook restaurant-quality meals at home. Save 10+ hours weekly, cut grocery costs by 30%, and never stress about dinner again.
+              Transform your kitchen with AI-powered recipe suggestions tailored to your ingredients, dietary preferences, and cooking skill. Get personalized meal ideas in seconds, save 10+ hours weekly on meal planning, cut grocery costs by 30%, and cook restaurant-quality meals at home. Our AI learns your preferences and adapts to your lifestyle—making every meal effortless and delicious.
             </p>
 
             {/* Key Stats */}
@@ -85,7 +85,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter Today
+                  🚀 Get Started Free - No Credit Card
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -95,7 +95,7 @@ export default function Home() {
                 className="group relative px-8 py-5 border-2 border-cyan-400/60 text-white font-semibold rounded-xl hover:bg-cyan-500/20 hover:border-cyan-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore All Features
+                  ✨ See How It Works
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -106,19 +106,19 @@ export default function Home() {
               <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">⚡</div>
                 <h3 className="text-white font-semibold mb-2">10+ Hours Saved Weekly</h3>
-                <p className="text-slate-300 text-sm">Eliminate meal planning paralysis. Get dinner ideas instantly, not hours of scrolling</p>
+                <p className="text-slate-300 text-sm">Stop wasting hours on meal planning. Get personalized dinner ideas in seconds based on what you have and what you love</p>
               </div>
 
               <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">💰</div>
                 <h3 className="text-white font-semibold mb-2">$1,200+ Saved Yearly</h3>
-                <p className="text-slate-300 text-sm">Smart substitutions and budget optimization automatically cut grocery costs by 30%</p>
+                <p className="text-slate-300 text-sm">Intelligent ingredient swaps and budget-friendly meal suggestions save you $1,200+ yearly on groceries</p>
               </div>
 
               <div className="p-6 rounded-lg bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/30 hover:border-purple-400/50 transition hover:shadow-lg hover:shadow-purple-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">🎯</div>
                 <h3 className="text-white font-semibold mb-2">Personalized Just For You</h3>
-                <p className="text-slate-300 text-sm">AI learns your preferences, dietary needs, and cooking style to improve daily</p>
+                <p className="text-slate-300 text-sm">The more you use it, the smarter it gets. AI learns your taste, dietary needs, and cooking style for perfect recommendations</p>
               </div>
             </div>
           </div>
