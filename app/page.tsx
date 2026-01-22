@@ -58,15 +58,15 @@ export default function Home() {
 
             {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Stop Wasting Time on Meal Planning
+              Your AI Kitchen Assistant Awaits
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Get Personalized Recipes in 10 Seconds
+                Personalized Recipes in 10 Seconds
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Our AI chef analyzes your ingredients, dietary needs, and cooking skill to generate personalized recipes instantly. Save 10+ hours weekly on meal planning, cut grocery bills by 30%, and cook restaurant-quality meals at home—no experience needed.
+              Never wonder "what's for dinner?" again. Get AI-powered recipe suggestions tailored to your ingredients, dietary preferences, and cooking skill. Save 10+ hours weekly, cut grocery costs by 30%, and cook with confidence every single day.
             </p>
 
             {/* Key Stats */}
@@ -85,7 +85,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Free Now
+                  🎯 Start Creating Recipes Free
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -95,7 +95,7 @@ export default function Home() {
                 className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Discover All Features
+                  📺 See How It Works
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
