@@ -40,7 +40,7 @@ export default function Home() {
     <main className="overflow-hidden bg-gradient-to-b from-slate-950 via-blue-950 to-slate-950">
       <Navigation />
       {/* Hero Section - Main Call to Action */}
-      <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-indigo-950 via-slate-950 to-emerald-950 pt-20" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.03%22%3E%3Cpath d=%22M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'}}>
+      <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 pt-20" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.03%22%3E%3Cpath d=%22M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'}}>
 
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -52,21 +52,21 @@ export default function Home() {
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-400/60 mb-8 backdrop-blur-sm animate-pulse">
-              <span className="text-sm font-bold text-emerald-200">✨ TRUSTED BY 50K+ HOME COOKS • 4.9★ RATED</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/20 border border-cyan-400/60 mb-8 backdrop-blur-sm animate-pulse">
+              <span className="text-sm font-bold text-cyan-200">✨ TRUSTED BY 50K+ HOME COOKS • 4.9★ RATED</span>
             </div>
 
             {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Your Personal AI Chef That Knows
-              <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Exactly What You Want to Cook
+              Your AI-Powered Kitchen Assistant
+              <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-2">
+                That Transforms How You Cook
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Stop wasting time deciding what to cook. Get personalized recipe suggestions in 10 seconds based on your ingredients, dietary preferences, and cooking skill. Our AI learns your taste and gets smarter every day. Save 10+ hours weekly, cut grocery bills by 30%, and enjoy meals you'll actually love.
+              Experience the future of home cooking. Get personalized recipe suggestions in 10 seconds based on your ingredients, dietary preferences, and cooking skill level. Our intelligent AI learns your taste, adapts to your needs, and gets smarter every day. Save 10+ hours weekly on meal planning, cut grocery bills by 30%, and discover meals you'll absolutely love.
             </p>
 
             {/* Key Stats */}
@@ -82,7 +82,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <Link
                 href="/get-started"
-                className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
+                className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   🚀 Get Your First Recipe in 10 Seconds
@@ -92,7 +92,7 @@ export default function Home() {
 
               <Link
                 href="/features"
-                className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105"
+                className="group relative px-8 py-5 border-2 border-cyan-400/60 text-white font-semibold rounded-xl hover:bg-cyan-500/20 hover:border-cyan-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   ✨ See What's Possible
@@ -103,19 +103,19 @@ export default function Home() {
 
             {/* Feature Highlights - More Compelling */}
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/10 to-cyan-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300 hover:scale-105 cursor-pointer">
+              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">⚡</div>
                 <h3 className="text-white font-semibold mb-2">10+ Hours Saved Weekly</h3>
                 <p className="text-slate-300 text-sm">No more meal planning stress. Get dinner ideas in 10 seconds, not 2 hours</p>
               </div>
 
-              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105 cursor-pointer">
+              <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">💰</div>
                 <h3 className="text-white font-semibold mb-2">$1,200+ Saved Yearly</h3>
                 <p className="text-slate-300 text-sm">Smart ingredient swaps and budget optimization cut grocery costs by 30%</p>
               </div>
 
-              <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300 hover:scale-105 cursor-pointer">
+              <div className="p-6 rounded-lg bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/30 hover:border-purple-400/50 transition hover:shadow-lg hover:shadow-purple-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">🎯</div>
                 <h3 className="text-white font-semibold mb-2">Learns Your Taste</h3>
                 <p className="text-slate-300 text-sm">AI adapts to your preferences, allergies, and cooking skill level daily</p>
@@ -133,10 +133,10 @@ export default function Home() {
               <span className="text-sm font-bold text-cyan-200\">🎯 CORE FEATURES</span>
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-              Everything You Need to Master Your Kitchen
+              Powerful AI-Powered Tools for Modern Cooking
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              Our comprehensive suite of AI-powered tools handles every aspect of meal preparation—from recipe discovery to nutrition tracking to budget optimization.
+              Our comprehensive suite of intelligent features handles every aspect of meal preparation—from instant recipe discovery to smart meal planning to budget optimization and nutrition tracking.
             </p>
           </div>
 
@@ -243,6 +243,96 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Premium Features Showcase Section - NEW */}
+      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/20 border border-blue-400/60 mb-6 backdrop-blur-sm">
+              <span className="text-sm font-bold text-blue-200">⭐ PREMIUM FEATURES</span>
+            </div>
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
+              Advanced Capabilities That Set Us Apart
+            </h2>
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
+              Discover the advanced features that make our AI kitchen assistant the most powerful recipe and meal planning tool available today.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {/* Advanced Feature 1 */}
+            <div className="group p-8 rounded-xl bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105">
+              <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">🧠</div>
+              <h3 className="text-2xl font-bold text-white mb-3">Adaptive AI Learning</h3>
+              <p className="text-slate-300 mb-4">
+                Our AI learns from every interaction. The more you use it, the better it understands your preferences, dietary needs, and cooking style. Personalization that actually works.
+              </p>
+              <ul className="space-y-2 text-slate-300 text-sm">
+                <li className="flex items-center gap-2">✓ Learns your taste preferences</li>
+                <li className="flex items-center gap-2">✓ Remembers dietary restrictions</li>
+                <li className="flex items-center gap-2">✓ Adapts to skill level improvements</li>
+              </ul>
+            </div>
+
+            {/* Advanced Feature 2 */}
+            <div className="group p-8 rounded-xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300 hover:scale-105">
+              <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">🛒</div>
+              <h3 className="text-2xl font-bold text-white mb-3">Smart Shopping Integration</h3>
+              <p className="text-slate-300 mb-4">
+                Automatically organized shopping lists sorted by store layout. Get price comparisons, find deals, and discover budget-friendly alternatives for every ingredient.
+              </p>
+              <ul className="space-y-2 text-slate-300 text-sm">
+                <li className="flex items-center gap-2">✓ Store-layout organized lists</li>
+                <li className="flex items-center gap-2">✓ Real-time price comparisons</li>
+                <li className="flex items-center gap-2">✓ Budget-friendly alternatives</li>
+              </ul>
+            </div>
+
+            {/* Advanced Feature 3 */}
+            <div className="group p-8 rounded-xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/30 hover:border-purple-400/50 transition hover:shadow-lg hover:shadow-purple-500/20 duration-300 hover:scale-105">
+              <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">📱</div>
+              <h3 className="text-2xl font-bold text-white mb-3">Multi-Device Sync</h3>
+              <p className="text-slate-300 mb-4">
+                Access your recipes, meal plans, and shopping lists from any device. Start planning on your phone, continue on your tablet, and cook from your laptop—seamlessly synchronized.
+              </p>
+              <ul className="space-y-2 text-slate-300 text-sm">
+                <li className="flex items-center gap-2">✓ Sync across all devices</li>
+                <li className="flex items-center gap-2">✓ Offline access available</li>
+                <li className="flex items-center gap-2">✓ Real-time updates</li>
+              </ul>
+            </div>
+
+            {/* Advanced Feature 4 */}
+            <div className="group p-8 rounded-xl bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-500/30 hover:border-amber-400/50 transition hover:shadow-lg hover:shadow-amber-500/20 duration-300 hover:scale-105">
+              <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">👨‍👩‍👧‍👦</div>
+              <h3 className="text-2xl font-bold text-white mb-3">Family Meal Planning</h3>
+              <p className="text-slate-300 mb-4">
+                Plan meals that satisfy everyone's preferences. Handle multiple dietary needs, allergies, and taste preferences in one unified meal plan. No more cooking separate meals.
+              </p>
+              <ul className="space-y-2 text-slate-300 text-sm">
+                <li className="flex items-center gap-2">✓ Multiple dietary preferences</li>
+                <li className="flex items-center gap-2">✓ Allergy management</li>
+                <li className="flex items-center gap-2">✓ Family-friendly recipes</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Feature Summary CTA */}
+          <div className="mt-16 p-8 rounded-xl bg-gradient-to-r from-cyan-500/10 via-blue-500/10 to-purple-500/10 border border-cyan-500/30 text-center">
+            <h3 className="text-2xl font-bold text-white mb-4">Experience the Difference</h3>
+            <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
+              These advanced features work together to create the most intelligent, personalized cooking experience available. Start using them today—completely free.
+            </p>
+            <Link
+              href="/get-started"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
+            >
+              Explore All Features
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Key Features Section - Highlight Core Product Benefits */}
       <CompellingKeyFeaturesSection />
 
@@ -340,21 +430,21 @@ export default function Home() {
       </section>
 
       {/* AI Recipe Generator CTA Section - Premium Highlight */}
-      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-emerald-950 via-cyan-950 to-blue-950 border-y-2 border-emerald-400/50 relative overflow-hidden">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-cyan-950 via-blue-950 to-purple-950 border-y-2 border-cyan-400/50 relative overflow-hidden">
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-500/30 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan-500/30 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-          <div className="absolute top-1/2 right-0 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500/30 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/30 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute top-1/2 right-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
         </div>
         
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/30 border border-emerald-400/80 mb-8 backdrop-blur-sm">
-            <span className="text-sm font-bold text-emerald-200">✨ FEATURED FEATURE</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
+            <span className="text-sm font-bold text-cyan-200">✨ FEATURED FEATURE</span>
           </div>
           
           <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
-            Meet Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">AI Recipe Generator</span>
+            Meet Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">AI Recipe Generator</span>
           </h2>
           
           <p className="text-lg sm:text-xl text-slate-100 mb-6 max-w-3xl mx-auto leading-relaxed font-medium">
@@ -372,7 +462,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link
               href="/get-started"
-              className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
+              className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
             >
               <span className="relative z-10 flex items-center gap-2">
                 🚀 Try AI Recipe Generator Now
@@ -380,7 +470,7 @@ export default function Home() {
               <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
             </Link>
             
-            <button className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm">
+            <button className="group relative px-8 py-5 border-2 border-cyan-400/60 text-white font-semibold rounded-xl hover:bg-cyan-500/20 hover:border-cyan-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm">
               <span className="relative z-10 flex items-center gap-2">
                 📺 Watch Demo
               </span>
@@ -388,7 +478,7 @@ export default function Home() {
             </button>
           </div>
           
-          <div className="mt-12 pt-8 border-t border-emerald-500/30">
+          <div className="mt-12 pt-8 border-t border-cyan-500/30">
             <p className="text-sm text-slate-300 mb-6 font-semibold">Trusted by thousands of home cooks worldwide</p>
             <div className="flex justify-center items-center gap-8 flex-wrap">
               <div className="text-center">
