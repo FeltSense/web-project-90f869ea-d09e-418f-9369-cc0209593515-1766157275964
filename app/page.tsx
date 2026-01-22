@@ -60,13 +60,13 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Your AI-Powered Kitchen Companion
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Never Stress About Dinner Again
+                Transform Dinner from Stressful to Effortless
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Transform your kitchen with AI-powered recipe suggestions tailored to your ingredients, dietary preferences, and cooking skill. Get personalized meal ideas in seconds, save 10+ hours weekly on meal planning, cut grocery costs by 30%, and cook restaurant-quality meals at home. Our AI learns your preferences and adapts to your lifestyle—making every meal effortless and delicious.
+              Get personalized recipe suggestions in seconds based on what you have at home. Save 10+ hours weekly on meal planning, cut grocery costs by 30%, and cook restaurant-quality meals every night. Our AI learns your taste, dietary needs, and cooking style—making every meal delicious and effortless.
             </p>
 
             {/* Key Stats */}
@@ -85,7 +85,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Free - No Credit Card
+                  🚀 Start Creating Recipes Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -106,19 +106,19 @@ export default function Home() {
               <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">⚡</div>
                 <h3 className="text-white font-semibold mb-2">10+ Hours Saved Weekly</h3>
-                <p className="text-slate-300 text-sm">Stop wasting hours on meal planning. Get personalized dinner ideas in seconds based on what you have and what you love</p>
+                <p className="text-slate-300 text-sm">No more meal planning stress. Get personalized dinner ideas in seconds based on your ingredients and preferences</p>
               </div>
 
               <div className="p-6 rounded-lg bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/30 hover:border-blue-400/50 transition hover:shadow-lg hover:shadow-blue-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">💰</div>
                 <h3 className="text-white font-semibold mb-2">$1,200+ Saved Yearly</h3>
-                <p className="text-slate-300 text-sm">Intelligent ingredient swaps and budget-friendly meal suggestions save you $1,200+ yearly on groceries</p>
+                <p className="text-slate-300 text-sm">Smart ingredient swaps and budget-friendly suggestions cut your grocery bills by 30% automatically</p>
               </div>
 
               <div className="p-6 rounded-lg bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/30 hover:border-purple-400/50 transition hover:shadow-lg hover:shadow-purple-500/20 duration-300 hover:scale-105 cursor-pointer">
                 <div className="text-3xl mb-3">🎯</div>
                 <h3 className="text-white font-semibold mb-2">Personalized Just For You</h3>
-                <p className="text-slate-300 text-sm">The more you use it, the smarter it gets. AI learns your taste, dietary needs, and cooking style for perfect recommendations</p>
+                <p className="text-slate-300 text-sm">The more you use it, the smarter it gets. AI learns your preferences and adapts to your cooking style for perfect recommendations</p>
               </div>
             </div>
           </div>
