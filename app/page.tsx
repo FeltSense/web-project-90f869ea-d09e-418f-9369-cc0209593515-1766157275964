@@ -55,20 +55,20 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mb-20">
               <Link
                 href="/get-started"
-                className="group relative px-12 py-6 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-emerald-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-cyan-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Free Today
+                  ✨ Start Cooking Smarter Today
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
 
               <Link
                 href="/features"
-                className="group relative px-10 py-6 border-2 border-cyan-400/80 text-white font-semibold rounded-xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-cyan-500/10 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-10 py-6 border-2 border-emerald-400/80 text-white font-semibold rounded-xl hover:bg-emerald-500/30 hover:border-emerald-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-emerald-500/10 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore Features
+                  🎯 See How It Works
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -116,6 +116,55 @@ export default function Home() {
 
       {/* Customer Testimonials Section */}
       <Testimonials />
+
+      {/* About Section */}
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
+        {/* Background elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+              About <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">RecipeAI</span>
+            </h2>
+            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
+              We're revolutionizing home cooking with AI-powered meal planning that saves you time, money, and reduces food waste. Our mission is to make restaurant-quality cooking accessible to everyone.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/40 hover:border-emerald-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/30">
+              <div className="text-5xl mb-4">🤖</div>
+              <h3 className="text-2xl font-bold text-white mb-3">AI-Powered</h3>
+              <p className="text-slate-200">Advanced machine learning algorithms that understand your preferences and generate personalized recipes in seconds.</p>
+            </div>
+
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/40 hover:border-cyan-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/30">
+              <div className="text-5xl mb-4">⏱️</div>
+              <h3 className="text-2xl font-bold text-white mb-3">Time-Saving</h3>
+              <p className="text-slate-200">Spend less time planning meals and more time enjoying them. Get dinner ideas in seconds, not hours.</p>
+            </div>
+
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/40 hover:border-purple-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30">
+              <div className="text-5xl mb-4">🌱</div>
+              <h3 className="text-2xl font-bold text-white mb-3">Sustainable</h3>
+              <p className="text-slate-200">Reduce food waste by 40% with smart recipes that use ingredients you already have at home.</p>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 border border-slate-600/50 rounded-2xl p-8 sm:p-12 backdrop-blur-sm">
+            <p className="text-lg text-slate-100 leading-relaxed mb-6">
+              <span className="font-bold text-emerald-300">RecipeAI</span> combines cutting-edge artificial intelligence with culinary expertise to transform how you approach cooking. Whether you're a beginner looking for simple recipes or an experienced cook seeking inspiration, our platform adapts to your skill level and preferences.
+            </p>
+            <p className="text-lg text-slate-100 leading-relaxed">
+              Join over <span className="font-bold text-cyan-300">100,000+ home cooks</span> who are already saving time, cutting grocery costs, and discovering delicious meals every day. Start your culinary journey today—<span className="font-bold text-emerald-300">completely free, no credit card required.</span>
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Pricing Section */}
       <Pricing />
