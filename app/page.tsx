@@ -82,21 +82,21 @@ export default function Home() {
                   <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">⏱️</div>
                   <h3 className="text-white font-bold mb-3 text-xl">Save 10+ Hours Weekly</h3>
                   <p className="text-slate-200 text-sm leading-relaxed"><span className="font-bold text-cyan-300">No more daily stress.</span> Get personalized dinner ideas in seconds based on your ingredients and preferences. Spend less time planning, more time enjoying meals with family.</p>
-                  <div className="mt-4 pt-4 border-t border-cyan-400/30 text-cyan-300 text-xs font-semibold\">✓ Instant recipe generation</div>
+                  <div className="mt-4 pt-4 border-t border-cyan-400/30 text-cyan-300 text-xs font-semibold">✓ Instant recipe generation</div>
                 </div>
 
                 <div className="p-8 rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/50 hover:border-emerald-400/80 transition hover:shadow-2xl hover:shadow-emerald-500/40 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm">
                   <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">💰</div>
                   <h3 className="text-white font-bold mb-3 text-xl">Cut Grocery Bills by 30%</h3>
                   <p className="text-slate-200 text-sm leading-relaxed"><span className="font-bold text-emerald-300">Save $1,200+ yearly.</span> Smart ingredient swaps and budget-friendly suggestions automatically reduce your grocery costs while maintaining quality and taste.</p>
-                  <div className="mt-4 pt-4 border-t border-emerald-400/30 text-emerald-300 text-xs font-semibold\">✓ Smart budget optimization</div>
+                  <div className="mt-4 pt-4 border-t border-emerald-400/30 text-emerald-300 text-xs font-semibold">✓ Smart budget optimization</div>
                 </div>
 
                 <div className="p-8 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/50 hover:border-purple-400/80 transition hover:shadow-2xl hover:shadow-purple-500/40 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm">
-                  <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">🌱</div>
-                  <h3 className="text-white font-bold mb-3 text-xl\">Eliminate Food Waste</h3>
-                  <p className="text-slate-200 text-sm leading-relaxed\"><span className=\"font-bold text-purple-300\">Reduce waste by 40%.</span> AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook smarter while saving money and helping the environment.</p>
-                  <div className=\"mt-4 pt-4 border-t border-purple-400/30 text-purple-300 text-xs font-semibold\">✓ Eco-friendly cooking</div>
+                  <div className="text-5xl mb-4 group-hover:scale-125 transition-transform duration-300">🌱</div>
+                  <h3 className="text-white font-bold mb-3 text-xl">Eliminate Food Waste</h3>
+                  <p className="text-slate-200 text-sm leading-relaxed"><span className="font-bold text-purple-300">Reduce waste by 40%.</span> AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook smarter while saving money and helping the environment.</p>
+                  <div className="mt-4 pt-4 border-t border-purple-400/30 text-purple-300 text-xs font-semibold">✓ Eco-friendly cooking</div>
                 </div>
               </div>
             </div>
