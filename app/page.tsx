@@ -57,15 +57,15 @@ export default function Home() {
 
             {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Cook Like a Pro with
+              Your AI-Powered Kitchen Companion
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Your Personal AI Kitchen Assistant
+                Never Wonder What's for Dinner Again
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Transform your cooking with AI that understands your taste, respects your budget, and creates restaurant-quality meals from ingredients you already have. Say goodbye to meal planning stress and hello to delicious dinners every night.
+              Get personalized recipe suggestions in seconds, plan your entire week's meals in minutes, and save $1,200+ yearly on groceries. Our AI learns your taste, respects your budget, and transforms everyday ingredients into extraordinary meals.
             </p>
 
             {/* Key Stats */}
@@ -84,7 +84,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter Today
+                  ✨ Get Started Free Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -94,7 +94,7 @@ export default function Home() {
                 className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  📺 Watch Demo
+                  🎬 See It In Action
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
