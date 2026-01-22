@@ -58,24 +58,24 @@ export default function Home() {
 
             {/* Main Headline - More Compelling */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Your Personal AI Chef Awaits
+              Unlock Your Culinary Potential with AI
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Never Wonder What's for Dinner Again
+                Personalized Recipes, Smarter Cooking, Better Meals
               </span>
             </h1>
 
             {/* Subheading - Stronger Value Proposition */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Get personalized recipe suggestions in seconds. Our AI learns your taste, dietary needs, and available ingredients to create meals you'll love. Save time, money, and stress—all while eating better than ever before.
+              Transform your kitchen with AI-powered recipe generation that adapts to your ingredients, dietary preferences, and cooking skill. Get restaurant-quality meals at home in minutes—no experience needed. Join 50K+ home cooks who've already revolutionized their cooking.
             </p>
 
             {/* Key Stats */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 text-sm text-emerald-300 font-semibold">
-              <span className="flex items-center gap-2">✓ 2.5M+ recipes generated</span>
+              <span className="flex items-center gap-2">⚡ 2.5M+ recipes generated this month</span>
               <span className="hidden sm:inline text-slate-500">•</span>
-              <span className="flex items-center gap-2">✓ 4.9★ user rating</span>
+              <span className="flex items-center gap-2">⭐ 4.9★ from 10K+ users</span>
               <span className="hidden sm:inline text-slate-500">•</span>
-              <span className="flex items-center gap-2">✓ No credit card needed</span>
+              <span className="flex items-center gap-2">🎁 Forever free, no credit card</span>
             </div>
 
             {/* CTA Buttons - Enhanced with Better Visual Hierarchy */}
@@ -85,7 +85,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-emerald-500 to-cyan-400 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Get Started Free Now
+                  🚀 Start Cooking Smarter Today
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -95,7 +95,7 @@ export default function Home() {
                 className="group relative px-8 py-5 border-2 border-emerald-400/60 text-white font-semibold rounded-xl hover:bg-emerald-500/20 hover:border-emerald-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🎬 See It In Action
+                  ✨ Explore Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
