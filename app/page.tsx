@@ -31,9 +31,9 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Your Personal AI Chef
+              Transform Your Kitchen with AI
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Delicious Meals, Zero Stress, Every Night
+                Smarter Meals, Happier Families, Every Single Day
               </span>
             </h1>
 
@@ -58,7 +58,7 @@ export default function Home() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-emerald-500/80 active:scale-95"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Creating Recipes Free
+                  ✨ Get Started Free Today
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -68,7 +68,7 @@ export default function Home() {
                 className="group relative px-8 py-5 border-2 border-cyan-400/80 text-white font-semibold rounded-xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-cyan-500/10 active:scale-95"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ See How It Works
+                  🎯 Explore Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
