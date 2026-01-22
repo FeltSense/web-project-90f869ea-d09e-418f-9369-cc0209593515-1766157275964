@@ -31,15 +31,15 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Never Stress About Dinner Again
+              Your Personal AI Chef
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                AI Creates Perfect Meals in Seconds
+                Delicious Meals, Zero Stress, Every Night
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Tired of the daily "what's for dinner?" dilemma? Our AI instantly generates personalized recipes based on your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, <span className="font-bold text-blue-300">eliminate food waste</span>, and impress your family with restaurant-quality meals every night. <span className="font-bold text-purple-300">Start free—no credit card needed.</span>
+              Stop wasting time deciding what to cook. Our AI instantly generates personalized recipes tailored to your ingredients, dietary preferences, and cooking skill. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span>, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Cook restaurant-quality meals every night with confidence. <span className="font-bold text-purple-300">Start free—no credit card required.</span> ""
             </p>
 
             {/* Key Stats */}
@@ -55,7 +55,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <Link
                 href="/get-started"
-                className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-emerald-500/80"
+                className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-emerald-500/80 active:scale-95"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   🚀 Start Creating Recipes Free
@@ -65,7 +65,7 @@ export default function Home() {
 
               <Link
                 href="/features"
-                className="group relative px-8 py-5 border-2 border-cyan-400/80 text-white font-semibold rounded-xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-cyan-500/10"
+                className="group relative px-8 py-5 border-2 border-cyan-400/80 text-white font-semibold rounded-xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-cyan-500/10 active:scale-95"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   ✨ See How It Works
