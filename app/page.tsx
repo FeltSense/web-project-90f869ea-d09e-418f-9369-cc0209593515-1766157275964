@@ -31,15 +31,15 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your AI-Powered Kitchen Companion
-              <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3">
-                Never Wonder What's for Dinner Again
+              Transform Your Kitchen with AI
+              <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-3">
+                Delicious Meals, Zero Stress, Maximum Savings
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Discover personalized recipes in seconds based on your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span> with smart suggestions, and <span className="font-bold text-blue-300">reduce food waste by 40%</span> with intelligent recommendations. Cook restaurant-quality meals every night with complete confidence. <span className="font-bold text-purple-300">Start free—no credit card required.</span>
+              Get personalized recipes tailored to your ingredients and taste in seconds. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Cook like a pro every night with complete confidence. <span className="font-bold text-purple-300">Start free—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -58,7 +58,7 @@ export default function Home() {
                 className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-cyan-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Start Cooking Smarter Today
+                  🚀 Get Started Free Today
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -68,7 +68,7 @@ export default function Home() {
                 className="group relative px-10 py-6 border-2 border-emerald-400/80 text-white font-semibold rounded-xl hover:bg-emerald-500/30 hover:border-emerald-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-emerald-500/10 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🎯 See How It Works
+                  ✨ Explore Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
