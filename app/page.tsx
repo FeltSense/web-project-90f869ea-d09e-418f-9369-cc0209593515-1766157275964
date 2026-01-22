@@ -30,15 +30,15 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Transform Your Kitchen with
+              Never Stress About Dinner Again
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                AI-Powered Personalized Recipes
+                AI Creates Perfect Meals in Seconds
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Say goodbye to meal planning stress. Our AI-powered recipe generator creates personalized dishes in seconds based on your ingredients, dietary preferences, and cooking skill. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, <span className="font-bold text-blue-300">eliminate food waste</span>, and cook restaurant-quality meals every single night. Start free—no credit card required.
+              Tired of the daily "what's for dinner?" dilemma? Our AI instantly generates personalized recipes based on your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, <span className="font-bold text-blue-300">eliminate food waste</span>, and impress your family with restaurant-quality meals every night. <span className="font-bold text-purple-300">Start free—no credit card needed.</span>
             </p>
 
             {/* Key Stats */}
@@ -54,10 +54,10 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <Link
                 href="/get-started"
-                className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
+                className="group relative px-10 py-5 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Your First Recipe Free
+                  🚀 Generate Your First Recipe Free
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -67,7 +67,7 @@ export default function Home() {
                 className="group relative px-8 py-5 border-2 border-cyan-400/60 text-white font-semibold rounded-xl hover:bg-cyan-500/20 hover:border-cyan-300 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ See How It Works
+                  ✨ Watch Demo
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -75,22 +75,22 @@ export default function Home() {
 
             {/* Feature Highlights */}
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300 hover:scale-105 cursor-pointer">
-                <div className="text-3xl mb-3">⏱️</div>
-                <h3 className="text-white font-semibold mb-2">Solve the &quot;What&apos;s for Dinner?&quot; Problem</h3>
-                <p className="text-slate-300 text-sm"><span className="font-bold text-cyan-300">No more daily stress.</span> Get personalized dinner ideas in seconds based on your ingredients and preferences. Spend less time planning, more time enjoying meals with family.</p>
+              <div className="p-6 rounded-lg bg-gradient-to-br from-cyan-500/15 to-blue-500/15 border border-cyan-500/40 hover:border-cyan-400/70 transition hover:shadow-lg hover:shadow-cyan-500/30 duration-300 hover:scale-105 cursor-pointer group">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">⏱️</div>
+                <h3 className="text-white font-bold mb-3 text-lg">Instant Meal Ideas</h3>
+                <p className="text-slate-300 text-sm leading-relaxed"><span className="font-bold text-cyan-300">No more daily stress.</span> Get personalized dinner ideas in seconds based on your ingredients and preferences. Spend less time planning, more time enjoying meals with family.</p>
               </div>
 
-              <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300 hover:scale-105 cursor-pointer">
-                <div className="text-3xl mb-3">💰</div>
-                <h3 className="text-white font-semibold mb-2">Stop Wasting Money on Groceries</h3>
-                <p className="text-slate-300 text-sm"><span className="font-bold text-emerald-300">Save $1,200+ yearly.</span> Smart ingredient swaps and budget-friendly suggestions automatically reduce your grocery costs by 30% while maintaining quality and taste.</p>
+              <div className="p-6 rounded-lg bg-gradient-to-br from-emerald-500/15 to-teal-500/15 border border-emerald-500/40 hover:border-emerald-400/70 transition hover:shadow-lg hover:shadow-emerald-500/30 duration-300 hover:scale-105 cursor-pointer group">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">💰</div>
+                <h3 className="text-white font-bold mb-3 text-lg">Save on Groceries</h3>
+                <p className="text-slate-300 text-sm leading-relaxed"><span className="font-bold text-emerald-300">Save $1,200+ yearly.</span> Smart ingredient swaps and budget-friendly suggestions automatically reduce your grocery costs by 30% while maintaining quality and taste.</p>
               </div>
 
-              <div className="p-6 rounded-lg bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/30 hover:border-purple-400/50 transition hover:shadow-lg hover:shadow-purple-500/20 duration-300 hover:scale-105 cursor-pointer">
-                <div className="text-3xl mb-3">🗑️</div>
-                <h3 className="text-white font-semibold mb-2">Eliminate Food Waste</h3>
-                <p className="text-slate-300 text-sm"><span className="font-bold text-purple-300">Reduce waste by 40%.</span> AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook smarter while saving money and helping the environment.</p>
+              <div className="p-6 rounded-lg bg-gradient-to-br from-purple-500/15 to-pink-500/15 border border-purple-500/40 hover:border-purple-400/70 transition hover:shadow-lg hover:shadow-purple-500/30 duration-300 hover:scale-105 cursor-pointer group">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🌱</div>
+                <h3 className="text-white font-bold mb-3 text-lg">Reduce Food Waste</h3>
+                <p className="text-slate-300 text-sm leading-relaxed"><span className="font-bold text-purple-300">Reduce waste by 40%.</span> AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook smarter while saving money and helping the environment.</p>
               </div>
             </div>
           </div>
