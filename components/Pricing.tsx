@@ -10,16 +10,16 @@ const pricingPlans = [
     period: 'Forever',
     description: 'Perfect for exploring AI-powered cooking',
     features: [
-      { name: 'Up to 5 AI recipes/month', included: true },
+      { name: 'Up to 10 AI recipes/month', included: true },
       { name: 'Basic meal planning', included: true },
-      { name: 'Limited dietary preferences', included: true },
-      { name: 'Mobile app access', included: false },
-      { name: 'Nutrition tracking', included: false },
+      { name: 'Dietary preferences support', included: true },
+      { name: 'Mobile app access', included: true },
+      { name: 'Basic nutrition tracking', included: true },
       { name: 'Shopping lists', included: false },
       { name: 'Priority support', included: false },
       { name: 'Family meal planning', included: false },
     ],
-    cta: 'Get Started',
+    cta: 'Get Started Free',
     ctaLink: 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00',
     highlighted: false,
   },
@@ -27,36 +27,36 @@ const pricingPlans = [
     name: 'Pro',
     price: '$9.99',
     period: '/month',
-    description: 'Most popular - Everything you need',
+    description: 'Most popular - Everything you need to master meal planning',
     features: [
       { name: 'Unlimited AI recipes', included: true },
       { name: 'Smart weekly meal planning', included: true },
-      { name: '50+ dietary preferences', included: true },
+      { name: '100+ dietary preferences & allergies', included: true },
       { name: 'Mobile app with offline access', included: true },
-      { name: 'Complete nutrition tracking', included: true },
-      { name: 'Smart shopping lists', included: true },
-      { name: '24/7 customer support', included: true },
-      { name: 'Family meal planning (up to 6)', included: true },
+      { name: 'Complete nutrition tracking & macros', included: true },
+      { name: 'Smart shopping lists by store', included: true },
+      { name: '24/7 priority customer support', included: true },
+      { name: 'Family meal planning (up to 6 people)', included: true },
     ],
     cta: '🚀 Start 7-Day Free Trial',
     ctaLink: 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00',
     highlighted: true,
-    badge: '🔥 50% Off First Month',
+    badge: '🔥 Save $1,200+ Yearly',
   },
   {
     name: 'Premium',
     price: '$19.99',
     period: '/month',
-    description: 'For serious home chefs',
+    description: 'For serious home chefs who want personalized coaching',
     features: [
       { name: 'Everything in Pro', included: true },
-      { name: 'Advanced recipe customization', included: true },
+      { name: 'Advanced recipe customization & tweaks', included: true },
       { name: 'Personal nutrition coaching', included: true },
-      { name: 'Priority recipe generation', included: true },
-      { name: 'Exclusive recipe collections', included: true },
-      { name: 'Advanced analytics & insights', included: true },
-      { name: 'VIP community access', included: true },
-      { name: 'Quarterly meal plan reviews', included: true },
+      { name: 'Priority recipe generation (instant)', included: true },
+      { name: 'Exclusive chef-curated recipes', included: true },
+      { name: 'Advanced analytics & meal insights', included: true },
+      { name: 'VIP community & chef network', included: true },
+      { name: 'Monthly personalized meal reviews', included: true },
     ],
     cta: 'Start Premium Trial',
     ctaLink: 'https://buy.stripe.com/test_cNicN778gcvQ2NZ3gV6Ri00',
@@ -75,13 +75,13 @@ export default function Pricing() {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-300 mb-6">
-            <span className="text-sm font-semibold text-emerald-600">💰 Simple, Transparent Pricing</span>
+            <span className="text-sm font-semibold text-emerald-600">💰 Transparent Pricing • No Hidden Fees</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-slate-900 mb-4">
-            💳 Plans for Every Home Cook
+            Choose Your Perfect Plan
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Start free, upgrade anytime. No credit card required. Cancel anytime, no questions asked.
+            Start free forever or upgrade to unlock unlimited recipes, meal planning, and personalized coaching. Cancel anytime—no questions asked.
           </p>
         </motion.div>
 

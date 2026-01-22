@@ -58,10 +58,10 @@ export default function ContactForm() {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-500/30 mb-6">
-            <span className="text-sm font-semibold text-emerald-300">📧 Get In Touch</span>
+            <span className="text-sm font-semibold text-emerald-300">🚀 Join Thousands of Happy Cooks</span>
           </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-white mb-4">🍳 Ready to Cook Better?</h2>
-          <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">Join 100,000+ home cooks. Get personalized recipes, meal plans, and save 10+ hours weekly. Start your free trial today!</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.2] text-white mb-4">Ready to Transform Your Kitchen?</h2>
+          <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">Join 50,000+ home cooks who've already saved time, money, and stress. Get your personalized recipes and meal plans—completely free. No credit card required.</p>
         </motion.div>
 
         <motion.div
@@ -73,8 +73,9 @@ export default function ContactForm() {
           {status === 'success' ? (
             <div className="bg-gradient-to-br from-white to-emerald-50 rounded-2xl shadow-lg border border-emerald-200 p-8 text-center">
               <CheckCircle className="w-12 h-12 mx-auto mb-4 text-emerald-500 animate-bounce" />
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">🎉 Welcome Aboard!</h3>
-              <p className="text-slate-600">Check your email for your free trial link. Start generating personalized recipes in minutes!</p>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">🎉 Welcome to Your AI Kitchen!</h3>
+              <p className="text-slate-600 mb-4">Check your email for your free trial link and exclusive welcome bonus.</p>
+              <p className="text-sm text-slate-500">Start generating personalized recipes in minutes. Save 10+ hours weekly on meal planning!</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 space-y-6">

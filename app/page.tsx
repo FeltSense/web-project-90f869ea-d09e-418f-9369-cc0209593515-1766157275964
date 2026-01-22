@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import Pricing from '@/components/Pricing'
+import ContactForm from '@/components/ContactForm'
 
 export default function Home() {
   return (
@@ -28,15 +30,15 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Stop Stressing About What to Cook
+              Transform Your Kitchen with
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-2">
-                Your AI Kitchen Assistant Solves It in Seconds
+                AI-Powered Personalized Recipes
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-lg sm:text-xl text-slate-200 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
-              Tired of the daily &quot;what&apos;s for dinner?&quot; struggle? Overwhelmed by grocery shopping? Worried about wasting food? Our AI instantly generates personalized recipes based on what you have, your dietary needs, and your cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly on meal planning</span>, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and cook restaurant-quality meals every night—completely free, no credit card required.
+              Say goodbye to meal planning stress. Our AI-powered recipe generator creates personalized dishes in seconds based on your ingredients, dietary preferences, and cooking skill. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, <span className="font-bold text-blue-300">eliminate food waste</span>, and cook restaurant-quality meals every single night. Start free—no credit card required.
             </p>
 
             {/* Key Stats */}
@@ -94,6 +96,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Pricing Section */}
+      <Pricing />
+
+      {/* Contact Form Section */}
+      <ContactForm />
 
       {/* Footer */}
       <Footer />
