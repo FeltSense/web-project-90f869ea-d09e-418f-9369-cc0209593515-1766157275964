@@ -41,18 +41,23 @@ const features: Feature[] = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 overflow-hidden pt-24 pb-12">
+    <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden pt-24 pb-12">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
-          className="absolute top-20 -left-40 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl"
-          animate={{ y: [0, 30, 0], opacity: [0.3, 0.5, 0.3] }}
+          className="absolute top-20 -left-40 w-80 h-80 bg-cyan-500/25 rounded-full blur-3xl"
+          animate={{ y: [0, 30, 0], opacity: [0.3, 0.5, 0.3], x: [0, 20, 0] }}
           transition={{ duration: 8, repeat: Infinity }}
         />
         <motion.div
-          className="absolute -bottom-40 -right-40 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl"
-          animate={{ y: [0, -30, 0], opacity: [0.3, 0.5, 0.3] }}
+          className="absolute -bottom-40 -right-40 w-96 h-96 bg-emerald-500/25 rounded-full blur-3xl"
+          animate={{ y: [0, -30, 0], opacity: [0.3, 0.5, 0.3], x: [0, -20, 0] }}
           transition={{ duration: 10, repeat: Infinity, delay: 1 }}
+        />
+        <motion.div
+          className="absolute top-1/2 left-1/2 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl"
+          animate={{ y: [0, -20, 0], opacity: [0.2, 0.4, 0.2] }}
+          transition={{ duration: 12, repeat: Infinity, delay: 2 }}
         />
       </div>
 
@@ -85,7 +90,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
-                className="px-10 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-xl hover:from-cyan-600 hover:to-blue-600 transition shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 flex items-center justify-center gap-2 group text-lg hover:scale-105"
+                className="px-10 py-4 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-xl hover:from-cyan-600 hover:via-emerald-600 hover:to-blue-600 transition shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 flex items-center justify-center gap-2 group text-lg hover:scale-105"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -93,11 +98,11 @@ export default function Hero() {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
-                className="px-8 py-4 border-2 border-cyan-500/50 text-white font-semibold rounded-xl hover:bg-cyan-500/10 hover:border-cyan-400 transition flex items-center justify-center gap-2 text-lg hover:scale-105"
+                className="px-8 py-4 border-2 border-cyan-500/50 text-white font-semibold rounded-xl hover:bg-cyan-500/10 hover:border-cyan-400 transition flex items-center justify-center gap-2 text-lg hover:scale-105 backdrop-blur-sm"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                📺 See It In Action
+                ✨ See How It Works
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
@@ -114,7 +119,7 @@ export default function Hero() {
             {features.map((feature, index) => (
               <motion.div
                 key={index}
-                className="p-4 rounded-lg bg-slate-900/50 border border-slate-800 hover:border-cyan-500/50 transition group cursor-pointer"
+                className="p-4 rounded-lg bg-slate-900/50 border border-slate-800 hover:border-cyan-500/50 transition group cursor-pointer hover:bg-slate-900/80 hover:shadow-lg hover:shadow-cyan-500/20"
                 whileHover={{ y: -5 }}
               >
                 <div className="mb-3 text-cyan-400 group-hover:scale-110 transition">
