@@ -336,6 +336,122 @@ export default function Home() {
       {/* Key Features Section - Highlight Core Product Benefits */}
       <CompellingKeyFeaturesSection />
 
+
+      {/* Detailed Product Features Section - Deep Dive */}
+      <section className=\"py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950\">
+        <div className=\"max-w-6xl mx-auto\">
+          <div className=\"text-center mb-20\">
+            <div className=\"inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-500/20 border border-purple-400/60 mb-6 backdrop-blur-sm\">
+              <span className=\"text-sm font-bold text-purple-200\">🎯 DETAILED FEATURES</span>
+            </div>
+            <h2 className=\"text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight\">
+              Comprehensive Product Features Explained
+            </h2>
+            <p className=\"text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed\">
+              Explore the complete set of features that make our AI kitchen assistant the most powerful recipe and meal planning solution available. Each feature is designed to solve real cooking challenges.
+            </p>
+          </div>
+
+          <div className=\"grid md:grid-cols-2 gap-8 mb-12\">
+            {/* Feature Deep Dive 1 */}
+            <div className=\"group p-8 rounded-xl bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300\">
+              <div className=\"text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">🤖</div>
+              <h3 className=\"text-2xl font-bold text-white mb-3\">Advanced AI Recipe Generation</h3>
+              <p className=\"text-slate-300 mb-4\">
+                Our proprietary AI engine analyzes thousands of recipes and cooking patterns to generate personalized suggestions in real-time. It considers your ingredients, dietary restrictions, cooking skill level, available time, and even your past preferences.
+              </p>
+              <div className=\"space-y-3\">
+                <div className=\"p-3 rounded-lg bg-cyan-500/10 border border-cyan-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-cyan-300\">Smart Ingredient Matching:</span> Automatically identifies recipes that use ingredients you already have, minimizing waste and shopping needs.</p>
+                </div>
+                <div className=\"p-3 rounded-lg bg-cyan-500/10 border border-cyan-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-cyan-300\">Skill-Level Adaptation:</span> Recipes adjust complexity based on your cooking experience, from beginner-friendly to advanced techniques.</p>
+                </div>
+                <div className=\"p-3 rounded-lg bg-cyan-500/10 border border-cyan-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-cyan-300\">Time-Based Filtering:</span> Get recipes that fit your schedule, whether you have 15 minutes or 2 hours to cook.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature Deep Dive 2 */}
+            <div className=\"group p-8 rounded-xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300\">
+              <div className=\"text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">📋</div>
+              <h3 className=\"text-2xl font-bold text-white mb-3\">Intelligent Meal Planning System</h3>
+              <p className=\"text-slate-300 mb-4\">
+                Plan entire weeks of balanced, nutritious meals in minutes. Our system ensures variety, nutritional balance, and respects all dietary preferences while minimizing repetition and maximizing ingredient efficiency.
+              </p>
+              <div className=\"space-y-3\">
+                <div className=\"p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-emerald-300\">Nutritional Balance:</span> Every meal plan is automatically balanced for calories, macros, and micronutrients to support your health goals.</p>
+                </div>
+                <div className=\"p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-emerald-300\">Ingredient Efficiency:</span> Smart planning reuses ingredients across multiple meals to reduce shopping and waste.</p>
+                </div>
+                <div className=\"p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-emerald-300\">Family Preferences:</span> Handle multiple dietary needs and taste preferences in a single unified meal plan.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature Deep Dive 3 */}
+            <div className=\"group p-8 rounded-xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/30 hover:border-purple-400/50 transition hover:shadow-lg hover:shadow-purple-500/20 duration-300\">
+              <div className=\"text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">💰</div>
+              <h3 className=\"text-2xl font-bold text-white mb-3\">Smart Budget Optimization Engine</h3>
+              <p className=\"text-slate-300 mb-4\">
+                Save $1,200+ yearly with our intelligent budget optimization system. It analyzes prices, finds deals, suggests affordable alternatives, and ensures you get maximum nutrition for minimum cost.
+              </p>
+              <div className=\"space-y-3\">
+                <div className=\"p-3 rounded-lg bg-purple-500/10 border border-purple-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-purple-300\">Price Comparison:</span> Real-time price data across stores helps you find the best deals on every ingredient.</p>
+                </div>
+                <div className=\"p-3 rounded-lg bg-purple-500/10 border border-purple-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-purple-300\">Smart Substitutions:</span> AI suggests budget-friendly ingredient swaps that maintain taste and nutrition quality.</p>
+                </div>
+                <div className=\"p-3 rounded-lg bg-purple-500/10 border border-purple-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-purple-300\">Waste Reduction:</span> Recipes prioritize using ingredients you already have, preventing spoilage and unnecessary purchases.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature Deep Dive 4 */}
+            <div className=\"group p-8 rounded-xl bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-500/30 hover:border-amber-400/50 transition hover:shadow-lg hover:shadow-amber-500/20 duration-300\">
+              <div className=\"text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">📊</div>
+              <h3 className=\"text-2xl font-bold text-white mb-3\">Comprehensive Nutrition Tracking</h3>
+              <p className=\"text-slate-300 mb-4\">
+                Complete nutritional information for every recipe with detailed breakdowns. Track calories, macros, micronutrients, and align your meals with your specific health and fitness goals.
+              </p>
+              <div className=\"space-y-3\">
+                <div className=\"p-3 rounded-lg bg-amber-500/10 border border-amber-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-amber-300\">Detailed Breakdowns:</span> See complete nutritional information including vitamins, minerals, fiber, and allergen information.</p>
+                </div>
+                <div className=\"p-3 rounded-lg bg-amber-500/10 border border-amber-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-amber-300\">Goal Alignment:</span> Filter recipes by your specific health goals—weight loss, muscle gain, heart health, or general wellness.</p>
+                </div>
+                <div className=\"p-3 rounded-lg bg-amber-500/10 border border-amber-500/20\">
+                  <p className=\"text-sm text-slate-200\"><span className=\"font-semibold text-amber-300\">Macro Tracking:</span> Monitor protein, carbs, and fats to ensure your meals support your fitness objectives.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Why These Features Matter */}
+          <div className=\"mt-16 p-8 rounded-xl bg-gradient-to-r from-cyan-500/10 via-purple-500/10 to-emerald-500/10 border border-cyan-500/30\">
+            <h3 className=\"text-2xl font-bold text-white mb-4 text-center\">Why These Features Matter</h3>
+            <div className=\"grid md:grid-cols-3 gap-6\">
+              <div className=\"text-center\">
+                <p className=\"text-slate-300 leading-relaxed\"><span className=\"font-semibold text-cyan-300\">Save Time:</span> Stop spending hours planning meals and shopping. Our AI does the heavy lifting in seconds.</p>
+              </div>
+              <div className=\"text-center\">
+                <p className=\"text-slate-300 leading-relaxed\"><span className=\"font-semibold text-emerald-300\">Save Money:</span> Intelligent budget optimization and waste reduction cut your grocery bills significantly.</p>
+              </div>
+              <div className=\"text-center\">
+                <p className=\"text-slate-300 leading-relaxed\"><span className=\"font-semibold text-purple-300\">Eat Better:</span> Nutritionally balanced meals tailored to your health goals and dietary preferences.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Enhanced Features Section */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 to-slate-900/50">
         <div className="max-w-6xl mx-auto">
@@ -574,6 +690,84 @@ export default function Home() {
       
       {/* Services Section */}
       <Services />
+
+
+      {/* Real-World Benefits & Use Cases Section */}
+      <section className=\"py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950\">
+        <div className=\"max-w-6xl mx-auto\">
+          <div className=\"text-center mb-20\">
+            <div className=\"inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 border border-emerald-400/60 mb-6 backdrop-blur-sm\">
+              <span className=\"text-sm font-bold text-emerald-200\">💡 REAL-WORLD BENEFITS</span>
+            </div>
+            <h2 className=\"text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight\">
+              How Different Users Benefit
+            </h2>
+            <p className=\"text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed\">
+              Whether you're a busy parent, health-conscious professional, budget-conscious family, or cooking enthusiast, our AI kitchen assistant adapts to your unique needs and lifestyle.
+            </p>\n          </div>
+
+          <div className=\"grid md:grid-cols-2 gap-8 mb-12\">
+            {/* Use Case 1: Busy Parents */}
+            <div className=\"group p-8 rounded-xl bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 hover:border-cyan-400/50 transition hover:shadow-lg hover:shadow-cyan-500/20 duration-300\">
+              <div className=\"text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">👨‍👩‍👧‍👦</div>
+              <h3 className=\"text-2xl font-bold text-white mb-3\">Busy Parents</h3>
+              <p className=\"text-slate-300 mb-4\">
+                Juggling work, kids, and household responsibilities? Our AI saves you 10+ hours weekly on meal planning and grocery shopping, giving you more time with family.
+              </p>\n              <ul className=\"space-y-2 text-slate-300 text-sm\">
+                <li className=\"flex items-center gap-2\">✓ Quick meal decisions in seconds</li>
+                <li className=\"flex items-center gap-2\">✓ Family-friendly recipes everyone enjoys</li>
+                <li className=\"flex items-center gap-2\">✓ Handle multiple dietary preferences</li>
+                <li className=\"flex items-center gap-2\">✓ Organized shopping lists save trips</li>
+              </ul>
+            </div>
+
+            {/* Use Case 2: Health-Conscious Professionals */}
+            <div className=\"group p-8 rounded-xl bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 hover:border-emerald-400/50 transition hover:shadow-lg hover:shadow-emerald-500/20 duration-300\">
+              <div className=\"text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">💪</div>
+              <h3 className=\"text-2xl font-bold text-white mb-3\">Health-Conscious Professionals</h3>
+              <p className=\"text-slate-300 mb-4\">
+                Maintain your fitness goals without spending hours meal prepping. Get nutritionally optimized recipes with complete macro tracking aligned to your health objectives.
+              </p>\n              <ul className=\"space-y-2 text-slate-300 text-sm\">
+                <li className=\"flex items-center gap-2\">✓ Detailed nutrition information</li>
+                <li className=\"flex items-center gap-2\">✓ Macro tracking for fitness goals</li>
+                <li className=\"flex items-center gap-2\">✓ Quick, healthy meal options</li>
+                <li className=\"flex items-center gap-2\">✓ Supports all dietary preferences</li>
+              </ul>
+            </div>
+
+            {/* Use Case 3: Budget-Conscious Families */}
+            <div className=\"group p-8 rounded-xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/30 hover:border-purple-400/50 transition hover:shadow-lg hover:shadow-purple-500/20 duration-300\">
+              <div className=\"text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">💰</div>
+              <h3 className=\"text-2xl font-bold text-white mb-3\">Budget-Conscious Families</h3>
+              <p className=\"text-slate-300 mb-4\">
+                Stretch your grocery budget further without sacrificing quality or taste. Save $1,200+ yearly with smart substitutions and intelligent budget optimization.
+              </p>\n              <ul className=\"space-y-2 text-slate-300 text-sm\">
+                <li className=\"flex items-center gap-2\">✓ Smart budget-friendly suggestions</li>
+                <li className=\"flex items-center gap-2\">✓ Price comparison across stores</li>
+                <li className=\"flex items-center gap-2\">✓ Reduce food waste by 40%</li>
+                <li className=\"flex items-center gap-2\">✓ Affordable ingredient alternatives</li>
+              </ul>
+            </div>
+
+            {/* Use Case 4: Cooking Enthusiasts */}
+            <div className=\"group p-8 rounded-xl bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-500/30 hover:border-amber-400/50 transition hover:shadow-lg hover:shadow-amber-500/20 duration-300\">
+              <div className=\"text-5xl mb-4 group-hover:scale-125 transition-transform duration-300\">👨‍🍳</div>
+              <h3 className=\"text-2xl font-bold text-white mb-3\">Cooking Enthusiasts</h3>
+              <p className=\"text-slate-300 mb-4\">
+                Discover new recipes and cooking techniques. Get inspired with personalized suggestions that match your skill level and help you expand your culinary repertoire.
+              </p>\n              <ul className=\"space-y-2 text-slate-300 text-sm\">
+                <li className=\"flex items-center gap-2\">✓ Discover new recipes daily</li>
+                <li className=\"flex items-center gap-2\">✓ Pro cooking tips and techniques</li>
+                <li className=\"flex items-center gap-2\">✓ Ingredient substitution ideas</li>
+                <li className=\"flex items-center gap-2\">✓ Save and organize favorites</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Key Benefits Summary */}
+          <div className=\"mt-16 grid md:grid-cols-4 gap-6\">
+            <div className=\"p-6 rounded-lg bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 text-center hover:border-cyan-400/50 transition duration-300\">
+              <div className=\"text-4xl mb-3\">⏱️</div>\n              <h4 className=\"text-white font-semibold mb-2\">Save 10+ Hours</h4>\n              <p className=\"text-slate-300 text-sm\">Weekly on meal planning and shopping</p>\n            </div>\n\n            <div className=\"p-6 rounded-lg bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 text-center hover:border-emerald-400/50 transition duration-300\">\n              <div className=\"text-4xl mb-3\">💰</div>\n              <h4 className=\"text-white font-semibold mb-2\">Save $1,200+</h4>\n              <p className=\"text-slate-300 text-sm\">Yearly on grocery bills</p>\n            </div>\n\n            <div className=\"p-6 rounded-lg bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-500/30 text-center hover:border-purple-400/50 transition duration-300\">\n              <div className=\"text-4xl mb-3\">🗑️</div>\n              <h4 className=\"text-white font-semibold mb-2\">Reduce Waste</h4>\n              <p className=\"text-slate-300 text-sm\">By 40% with smart recipes</p>\n            </div>\n\n            <div className=\"p-6 rounded-lg bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-500/30 text-center hover:border-amber-400/50 transition duration-300\">\n              <div className=\"text-4xl mb-3\">🎯</div>\n              <h4 className=\"text-white font-semibold mb-2\">100% Free</h4>\n              <p className=\"text-slate-300 text-sm\">No credit card required</p>\n            </div>\n          </div>\n        </div>\n      </section>
       
       {/* Success Metrics Section */}
       <section className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-950 via-slate-950 to-blue-950">
