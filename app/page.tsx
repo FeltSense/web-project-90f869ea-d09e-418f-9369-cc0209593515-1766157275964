@@ -38,6 +38,11 @@ export default function Home() {
               </span>
             </h1>
 
+            {/* Mission Statement */}
+            <div className="mb-8 inline-block px-6 py-3 rounded-lg bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/50 backdrop-blur-sm">
+              <p className="text-lg font-semibold text-emerald-200">🎯 Our Mission: Transform Home Cooking with AI-Powered Intelligence</p>
+            </div>
+
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
               Stop wasting time on meal planning and money on groceries. Get personalized AI recipes in seconds, save 10+ hours weekly, and cut grocery bills by 30%. <span className="font-bold text-emerald-300">Join 100K+ home cooks</span> who are already <span className="font-bold text-cyan-300">saving 10+ hours weekly</span> and <span className="font-bold text-blue-300">cooking smarter meals</span>. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
@@ -125,6 +130,9 @@ export default function Home() {
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
+              <span className="text-sm font-bold text-cyan-100">🚀 CUTTING-EDGE AI TECHNOLOGY • TRUSTED BY 100K+ USERS</span>
+            </div>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
               Advanced AI Features Built for Your Kitchen
             </h2>
@@ -237,6 +245,9 @@ export default function Home() {
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/80 mb-8 backdrop-blur-sm">
+              <span className="text-sm font-bold text-emerald-100">💡 OUR VISION • TRANSFORMING HOME COOKING GLOBALLY</span>
+            </div>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
               About <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">RecipeAI</span>
             </h2>
@@ -269,9 +280,25 @@ export default function Home() {
             <p className="text-lg text-slate-100 leading-relaxed mb-6">
               <span className="font-bold text-emerald-300">RecipeAI</span> combines cutting-edge artificial intelligence with culinary expertise to transform how you approach cooking. Whether you&apos;re a beginner looking for simple recipes or an experienced cook seeking inspiration, our platform adapts to your skill level and preferences.
             </p>
-            <p className="text-lg text-slate-100 leading-relaxed">
+            <p className="text-lg text-slate-100 leading-relaxed mb-6">
               Join over <span className="font-bold text-cyan-300">100,000+ home cooks</span> who are already saving time, cutting grocery costs, and discovering delicious meals every day. Start your culinary journey today—<span className="font-bold text-emerald-300">completely free, no credit card required.</span>
             </p>
+            
+            {/* Key Value Propositions */}
+            <div className="mt-8 pt-8 border-t border-slate-600/50 grid md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <p className="text-3xl font-bold text-emerald-400 mb-2">10+ Hours</p>
+                <p className="text-slate-300 text-sm">Saved Weekly on Meal Planning</p>
+              </div>
+              <div className="text-center">
+                <p className="text-3xl font-bold text-cyan-400 mb-2">30% Less</p>
+                <p className="text-slate-300 text-sm">Spent on Groceries Annually</p>
+              </div>
+              <div className="text-center">
+                <p className="text-3xl font-bold text-purple-400 mb-2">40% Reduction</p>
+                <p className="text-slate-300 text-sm">in Food Waste</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

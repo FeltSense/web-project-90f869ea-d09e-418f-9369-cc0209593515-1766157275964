@@ -72,6 +72,11 @@ export default function Testimonials() {
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
             <strong>Real people, real transformations.</strong> Discover how our AI-powered recipe generator is transforming kitchens and changing lives. From busy parents saving 10+ hours weekly to fitness enthusiasts cutting $1,200+ off annual grocery bills, our users are experiencing remarkable transformations. See how home cooks just like you are discovering the joy and freedom of AI-assisted cooking.
           </p>
+          
+          {/* Value Proposition Highlights */}
+          <div className="mt-10 p-6 rounded-xl bg-gradient-to-r from-emerald-50 to-cyan-50 border border-emerald-200 shadow-md">
+            <p className="text-slate-700 font-semibold text-base">✨ <strong>Why Our Users Love RecipeAI:</strong> Personalized AI recipes in seconds • Save 10+ hours weekly • Cut grocery bills by 30% • Reduce food waste by 40% • Learn your taste preferences • Family-friendly meal planning</p>
+          </div>
           <div className="mt-8 grid grid-cols-3 gap-4 max-w-2xl mx-auto text-center">
             <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-200">
               <p className="text-2xl font-bold text-emerald-700">10+</p>
@@ -150,6 +155,7 @@ export default function Testimonials() {
           transition={{ delay: 0.3 }}
           className="mt-20 text-center"
         >
+          <div className="mb-12 h-1 bg-gradient-to-r from-transparent via-emerald-400 to-transparent rounded-full"></div>
           <p className="text-slate-600 font-medium mb-8 text-lg">🏆 Trusted by home cooks, busy professionals, and fitness enthusiasts worldwide • Join 100K+ users transforming their kitchens today</p>
           <div className="flex flex-wrap justify-center gap-4 mb-10">
             <div className="px-6 py-3 rounded-full bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 shadow-sm hover:shadow-md transition-shadow">
