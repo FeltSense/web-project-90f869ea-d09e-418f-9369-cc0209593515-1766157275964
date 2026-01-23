@@ -16,7 +16,7 @@ export default function Home() {
       <Navigation />
       
       {/* Hero Section - Main Call to Action */}
-      <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 pt-20" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.03%22%3E%3Cpath d=%22M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'}}>
+      <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-emerald-950 to-slate-950 pt-20" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.03%22%3E%3Cpath d=%22M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'}}>
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-1/4 w-96 h-96 bg-emerald-500/25 rounded-full blur-3xl animate-pulse"></div>
@@ -27,26 +27,26 @@ export default function Home() {
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-10 backdrop-blur-sm hover:border-cyan-300 transition-all duration-300 shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40">
-              <span className="text-sm font-bold text-cyan-100">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ RATED • 🚀 TRENDING NOW</span>
+            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-500/40 to-cyan-500/40 border border-emerald-400/80 mb-10 backdrop-blur-sm hover:border-emerald-300 transition-all duration-300 shadow-lg shadow-emerald-500/30 hover:shadow-emerald-500/50 hover:scale-105">
+              <span className="text-sm font-bold text-emerald-100">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ RATED • 🚀 TRENDING NOW</span>
             </div>
 
             {/* Main Headline */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
               Your Personal AI Chef
-              <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-3">
+              <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-3 animate-pulse">
                 Unlimited Recipes, Zero Stress, Maximum Savings
               </span>
             </h1>
 
             {/* Mission Statement */}
-            <div className="mb-8 inline-block px-6 py-3 rounded-lg bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border border-emerald-400/50 backdrop-blur-sm">
-              <p className="text-lg font-semibold text-emerald-200">🎯 Our Mission: Transform Home Cooking with AI-Powered Intelligence</p>
+            <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/70 backdrop-blur-sm shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all duration-300 hover:scale-105">
+              <p className="text-lg font-bold text-emerald-100">🎯 Transform Home Cooking with AI-Powered Intelligence</p>
             </div>
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Stop wasting time on meal planning and money on groceries. Get personalized AI recipes in seconds, save 10+ hours weekly, and cut grocery bills by 30%. <span className="font-bold text-emerald-300">Join 100K+ home cooks</span> who are already <span className="font-bold text-cyan-300">saving 10+ hours weekly</span> and <span className="font-bold text-blue-300">cooking smarter meals</span>. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
+              Transform your kitchen with AI-powered meal planning. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join <span className="font-bold text-purple-300">100K+ home cooks</span> already cooking smarter. <span className="font-bold text-emerald-400 text-lg">Start free today—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -58,8 +58,8 @@ export default function Home() {
               <span className="flex items-center gap-2">🗑️ Reduce food waste by 40%</span>
             </div>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mb-20">
+            {/* CTA Buttons - Enhanced */}
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-20">
               <button
                 onClick={() => {
                   const betaSection = document.getElementById('beta-signup-section');
@@ -67,20 +67,20 @@ export default function Home() {
                     betaSection.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="group relative px-14 py-7 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-purple-500/80 hover:shadow-purple-500/120 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-pink-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-16 py-8 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/80 hover:shadow-emerald-500/120 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🎯 Sign Up for Beta - Free Access
+                  🚀 Start Free Today - No Credit Card
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
 
               <Link
                 href="/features"
-                className="group relative px-10 py-6 border-2 border-cyan-400/80 text-white font-semibold rounded-xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-cyan-500/10 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-12 py-7 border-2 border-cyan-400/80 text-white font-semibold rounded-2xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-cyan-500/10 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ See What's Possible
+                  ✨ Explore Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
