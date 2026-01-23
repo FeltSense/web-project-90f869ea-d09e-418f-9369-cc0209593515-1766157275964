@@ -9,6 +9,7 @@ import ContactForm from '@/components/ContactForm'
 import Testimonials from '@/components/Testimonials'
 import SampleRecipes from '@/components/SampleRecipes'
 import BetaSignup from '@/components/BetaSignup'
+import KeyFeaturesShowcaseEnhanced from '@/components/KeyFeaturesShowcaseEnhanced'
 
 export default function Home() {
   return (
@@ -33,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Enhanced */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your Personal AI Chef
+              Transform Your Kitchen Into a Culinary Powerhouse
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
-                Endless Inspiration • Smarter Cooking • Maximum Flavor
+                AI-Powered Recipes • Smart Meal Planning • Restaurant-Quality Results
               </span>
             </h1>
 
@@ -86,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/120 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Free Today
+                  🚀 Unlock Your Culinary Potential Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -96,7 +97,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-emerald-400/80 text-white font-semibold rounded-2xl hover:bg-emerald-500/30 hover:border-emerald-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-emerald-500/10 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore All Features
+                  ⚡ See All Powerful Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -143,6 +144,11 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
+
+      {/* Key Features Showcase - New Enhanced Section */}
+      <KeyFeaturesShowcaseEnhanced />
+
+
       <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
         {/* Background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
