@@ -33,20 +33,20 @@ export default function Home() {
 
             {/* Main Headline - Enhanced */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Cook Like a Pro, Save Like a Master
+              Transform Your Kitchen with AI
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
-                AI-Powered Recipes • Personalized Meal Plans • 30% Grocery Savings
+                Smarter Recipes • Faster Planning • Maximum Savings
               </span>
             </h1>
 
             {/* Mission Statement - Enhanced */}
             <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/70 backdrop-blur-sm shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all duration-300 hover:scale-105 transition-transform duration-300">
-              <p className="text-lg font-bold text-emerald-100">🌟 Trusted by 100K+ Home Cooks • Transform Your Kitchen • No Credit Card Ever</p>
+              <p className="text-lg font-bold text-emerald-100">✨ Join 100K+ Home Cooks • Instant Personalization • Forever Free</p>
             </div>
 
             {/* Subheading - Optimized */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Transform your kitchen with AI that understands your taste, budget, and lifestyle. Get unlimited personalized recipes in seconds, plan entire weeks effortlessly, and watch your grocery bills shrink by 30%. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning stress, <span className="font-bold text-cyan-300">slash food waste by 40%</span>, and <span className="font-bold text-blue-300">cook restaurant-quality meals every night</span>. <span className="font-bold text-purple-300">100K+ home cooks</span> have already transformed their kitchens. <span className="font-bold text-emerald-400 text-lg">Join the revolution—completely free, forever.</span>
+              Experience the future of home cooking. Our AI-powered platform generates personalized recipes in seconds, plans your entire week automatically, and cuts your grocery bills by 30%. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">reduce food waste by 40%</span>, and <span className="font-bold text-blue-300">cook like a professional chef</span> every single night. <span className="font-bold text-emerald-400 text-lg">Start free today—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -155,19 +155,24 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
               <span className="text-sm font-bold text-cyan-100">⚡ POWERFUL FEATURES • DESIGNED FOR REAL KITCHENS</span>
             </div>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Everything You Need to Cook Smarter
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+              <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">Unlock Your Culinary Potential</span>
             </h2>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
-              Our AI-powered platform combines intelligent recipe generation, smart meal planning, budget optimization, and nutrition tracking. Every feature works together to save you time, cut your grocery bills, and eliminate food waste. Start cooking like a pro today.
+            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
+              Discover six powerful features designed to revolutionize your cooking experience. From AI-powered recipe generation to advanced nutrition tracking, every tool is crafted to save you time, money, and effort.
+            </p>
+            <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium">
+              <span className="text-emerald-300 font-bold">✨ Intelligent • Personalized • Efficient</span>
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/40 hover:border-cyan-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/40 group cursor-pointer hover:scale-105 transition-transform duration-300">
-              <div className="text-5xl mb-4 group-hover:scale-105 transition-transform duration-300">🤖</div>
-              <h3 className="text-xl font-bold text-white mb-3">AI-Powered Recipe Generation</h3>
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/40 hover:border-cyan-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/40 group cursor-pointer hover:scale-105 transition-transform duration-300 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-blue-400/0 group-hover:from-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300\"></div>
+              <div className="relative z-10">
+                <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300\">🤖</div>
+                <h3 className="text-2xl font-bold text-white mb-3">AI-Powered Recipe Generation</h3>
               <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-cyan-300">🎯 Transform your kitchen instantly.</span> Get unlimited personalized recipes in seconds based on your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste preferences and suggests delicious dishes you&apos;ll love. Say goodbye to boring meals and meal planning stress forever. Works with any ingredients you have on hand.</p>
               <div className="text-xs text-cyan-300 font-semibold">✓ Instant personalization • Taste learning • 10,000+ recipes • Works offline</div>
             </div>
