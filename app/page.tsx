@@ -32,15 +32,15 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Transform Your Kitchen with AI
+              Your Personal AI Chef
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-3">
-                Save Time, Money & Eliminate Food Waste
+                Unlimited Recipes, Zero Stress, Maximum Savings
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Get unlimited AI-powered recipes tailored to your taste, budget, and dietary needs. Plan your entire week in minutes, cut grocery bills by 30%, and reduce food waste by 40%. <span className="font-bold text-emerald-300">Join 100K+ home cooks</span> who are already <span className="font-bold text-cyan-300">saving 10+ hours weekly</span> and <span className="font-bold text-blue-300">cooking smarter meals</span>. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
+              Stop wasting time on meal planning and money on groceries. Get personalized AI recipes in seconds, save 10+ hours weekly, and cut grocery bills by 30%. <span className="font-bold text-emerald-300">Join 100K+ home cooks</span> who are already <span className="font-bold text-cyan-300">saving 10+ hours weekly</span> and <span className="font-bold text-blue-300">cooking smarter meals</span>. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -56,10 +56,10 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mb-20">
               <Link
                 href="/get-started"
-                className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-cyan-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-14 py-7 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/80 hover:shadow-emerald-500/120 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-cyan-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter - Free Forever
+                  🚀 Get Your AI Chef Now - Free Forever
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -69,7 +69,7 @@ export default function Home() {
                 className="group relative px-10 py-6 border-2 border-cyan-400/80 text-white font-semibold rounded-xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-cyan-500/10 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore All Features
+                  ✨ See What's Possible
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
