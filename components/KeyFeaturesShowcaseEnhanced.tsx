@@ -1,190 +1,206 @@
 'use client';
 
-import React from 'react';
-import { 
-  Zap, 
-  Shield, 
-  Gauge, 
-  Layers, 
-  Sparkles, 
-  Cpu 
+import React, { ReactNode } from 'react';
+import { motion } from 'framer-motion';
+import {
+  Zap,
+  Shield,
+  Smartphone,
+  TrendingUp,
+  Users,
+  Workflow,
 } from 'lucide-react';
 
 interface Feature {
   id: number;
-  icon: React.ComponentType<{ className: string }>;
+  icon: ReactNode;
   title: string;
   description: string;
   benefits: string[];
   gradient: string;
-  borderColor: string;
+  accentColor: string;
 }
 
-const features: Feature[] = [
-  {
-    id: 1,
-    icon: Zap,
-    title: 'Lightning Fast',
-    description: 'Experience blazing-fast performance with optimized algorithms and edge computing.',
-    benefits: ['99.9% uptime', 'Sub-100ms response', 'Global CDN'],
-    gradient: 'from-cyan-500 to-blue-500',
-    borderColor: 'border-cyan-400',
-  },
-  {
-    id: 2,
-    icon: Shield,
-    title: 'Enterprise Security',
-    description: 'Bank-grade security with end-to-end encryption and compliance certifications.',
-    benefits: ['ISO 27001 certified', 'AES-256 encryption', '24/7 monitoring'],
-    gradient: 'from-emerald-500 to-cyan-500',
-    borderColor: 'border-emerald-400',
-  },
-  {
-    id: 3,
-    icon: Gauge,
-    title: 'Smart Analytics',
-    description: 'Real-time insights with advanced metrics and predictive analytics dashboard.',
-    benefits: ['Real-time data', 'AI predictions', 'Custom reports'],
-    gradient: 'from-blue-500 to-cyan-500',
-    borderColor: 'border-blue-400',
-  },
-  {
-    id: 4,
-    icon: Layers,
-    title: 'Seamless Integration',
-    description: 'Connect with 500+ apps and services through our powerful API ecosystem.',
-    benefits: ['Pre-built connectors', 'REST & GraphQL', 'Webhook support'],
-    gradient: 'from-cyan-500 to-emerald-500',
-    borderColor: 'border-cyan-400',
-  },
-  {
-    id: 5,
-    icon: Sparkles,
-    title: 'AI-Powered Features',
-    description: 'Leverage machine learning for intelligent automation and smart recommendations.',
-    benefits: ['Auto-optimization', 'ML models', 'Pattern detection'],
-    gradient: 'from-emerald-500 to-blue-500',
-    borderColor: 'border-emerald-400',
-  },
-  {
-    id: 6,
-    icon: Cpu,
-    title: 'Infinite Scalability',
-    description: 'Auto-scaling infrastructure that grows with your business without limits.',
-    benefits: ['Auto-scaling', 'Load balancing', 'Zero downtime'],
-    gradient: 'from-blue-500 to-emerald-500',
-    borderColor: 'border-blue-400',
-  },
-];
-
 const KeyFeaturesShowcaseEnhanced: React.FC = () => {
+  const features: Feature[] = [
+    {
+      id: 1,
+      icon: <Zap className="w-8 h-8" />,
+      title: 'Lightning Fast',
+      description: 'Experience blazing-fast performance with optimized algorithms and edge computing.',
+      benefits: ['99.9% uptime', 'Sub-100ms response', 'Global CDN'],
+      gradient: 'from-yellow-500 to-orange-500',
+      accentColor: 'text-yellow-400',
+    },
+    {
+      id: 2,
+      icon: <Shield className="w-8 h-8" />,
+      title: 'Enterprise Security',
+      description: 'Bank-level encryption and security protocols keep your data safe and private.',
+      benefits: ['End-to-end encryption', 'ISO 27001 certified', 'GDPR compliant'],
+      gradient: 'from-blue-500 to-indigo-500',
+      accentColor: 'text-blue-400',
+    },
+    {
+      id: 3,
+      icon: <Smartphone className="w-8 h-8" />,
+      title: 'Mobile First',
+      description: 'Seamless experience across all devices with native mobile optimization.',
+      benefits: ['iOS & Android', 'Offline mode', 'Auto sync'],
+      gradient: 'from-green-500 to-teal-500',
+      accentColor: 'text-green-400',
+    },
+    {
+      id: 4,
+      icon: <TrendingUp className="w-8 h-8" />,
+      title: 'Analytics',
+      description: 'Real-time insights and comprehensive reporting to track your success.',
+      benefits: ['Real-time dashboards', 'Custom reports', 'Data export'],
+      gradient: 'from-purple-500 to-pink-500',
+      accentColor: 'text-purple-400',
+    },
+    {
+      id: 5,
+      icon: <Users className="w-8 h-8" />,
+      title: 'Collaboration',
+      description: 'Work together seamlessly with built-in collaboration and team management.',
+      benefits: ['Real-time updates', 'Team permissions', 'Comments & mentions'],
+      gradient: 'from-cyan-500 to-blue-500',
+      accentColor: 'text-cyan-400',
+    },
+    {
+      id: 6,
+      icon: <Workflow className="w-8 h-8" />,
+      title: 'Automation',
+      description: 'Automate repetitive tasks and streamline your workflow with smart rules.',
+      benefits: ['Smart rules', 'Webhooks', 'API access'],
+      gradient: 'from-red-500 to-orange-500',
+      accentColor: 'text-red-400',
+    },
+  ];
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease: 'easeOut',
+      },
+    },
+  };
+
   return (
-    <section className="relative w-full min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden py-20 px-4 sm:px-6 lg:px-8">
+    <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 overflow-hidden border-y border-slate-700/50">
+      {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto">
-        <div className="text-center mb-16 lg:mb-20">
-          <div className="inline-flex items-center justify-center mb-6">
-            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-cyan-500/20 to-emerald-500/20 border border-cyan-400/30">
-              <Sparkles className="w-4 h-4 text-cyan-400" />
-              <span className="text-sm font-semibold text-cyan-300">POWERFUL FEATURES</span>
-            </div>
+      <div className="relative z-10 max-w-7xl mx-auto">
+        {/* Header */}
+        <motion.div
+          className="text-center mb-20"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
+            <span className="text-sm font-bold text-cyan-100">✨ INTELLIGENT FEATURES • BUILT FOR EXCELLENCE</span>
           </div>
-          
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">
-            Everything You Need to Succeed
+          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+            <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">
+              Powerful Features Built for Success
+            </span>
           </h2>
-          
-          <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Discover our comprehensive suite of features designed to empower your business with cutting-edge technology and unmatched performance.
+          <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
+            Our comprehensive platform delivers the tools you need to succeed. From lightning-fast performance to enterprise security, every feature is designed with excellence in mind.
           </p>
-        </div>
+        </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {features.map((feature, index) => {
-            const IconComponent = feature.icon;
-            return (
-              <div
-                key={feature.id}
-                className="group relative h-full"
-                style={{
-                  animation: `slideInUp 0.6s ease-out ${index * 0.1}s both`,
-                }}
-              >
-                <div className="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl border border-slate-700/50 group-hover:border-slate-600/50 transition-all duration-300" />
-                
-                <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300 blur-xl`} />
+        {/* Features Grid */}
+        <motion.div
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          {features.map((feature) => (
+            <motion.div
+              key={feature.id}
+              variants={itemVariants}
+              className="group relative p-8 rounded-2xl bg-gradient-to-br from-slate-800/50 to-slate-700/30 border border-slate-600/50 hover:border-slate-500/80 transition-all duration-300 hover:shadow-2xl hover:shadow-slate-900/50 cursor-pointer overflow-hidden"
+              whileHover={{ scale: 1.05, y: -5 }}
+            >
+              {/* Gradient background effect */}
+              <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-10 transition-all duration-300`}></div>
 
-                <div className="relative p-8 h-full flex flex-col">
-                  <div className={`mb-6 inline-flex w-fit p-3 rounded-xl bg-gradient-to-br ${feature.gradient} shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-500/40 transition-all duration-300`}>
-                    <IconComponent className="w-6 h-6 text-white" />
-                  </div>
-
-                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r from-cyan-300 to-emerald-300 transition-all duration-300">
-                    {feature.title}
-                  </h3>
-
-                  <p className="text-slate-300 mb-6 flex-grow leading-relaxed">
-                    {feature.description}
-                  </p>
-
-                  <div className="space-y-2">
-                    <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
-                      Key Benefits
-                    </p>
-                    <ul className="space-y-2">
-                      {feature.benefits.map((benefit, benefitIndex) => (
-                        <li
-                          key={benefitIndex}
-                          className="flex items-center gap-3 text-sm text-slate-300 group-hover:text-slate-200 transition-colors duration-300"
-                        >
-                          <span className={`w-1.5 h-1.5 rounded-full bg-gradient-to-r ${feature.gradient}`} />
-                          {benefit}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="mt-6 pt-6 border-t border-slate-700/50 group-hover:border-slate-600/50 transition-colors duration-300">
-                    <button className={`w-full py-2 px-4 rounded-lg bg-gradient-to-r ${feature.gradient} text-white text-sm font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 hover:shadow-lg`}>
-                      Learn More
-                    </button>
-                  </div>
+              {/* Content */}
+              <div className="relative z-10">
+                {/* Icon */}
+                <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${feature.gradient} p-3 mb-6 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center text-white`}>
+                  {feature.icon}
                 </div>
 
-                <div className={`absolute inset-0 rounded-2xl border border-transparent bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-20 pointer-events-none transition-opacity duration-300`} />
+                {/* Title */}
+                <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-slate-50 transition-colors">
+                  {feature.title}
+                </h3>
+
+                {/* Description */}
+                <p className="text-slate-300 text-sm leading-relaxed mb-6 font-medium">
+                  {feature.description}
+                </p>
+
+                {/* Benefits */}
+                <div className="space-y-2">
+                  {feature.benefits.map((benefit, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <span className={`text-lg ${feature.accentColor} flex-shrink-0 mt-1`}>✓</span>
+                      <span className="text-sm text-slate-200">{benefit}</span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Bottom accent line */}
+                <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${feature.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left`}></div>
               </div>
-            );
-          })}
-        </div>
+            </motion.div>
+          ))}
+        </motion.div>
 
-        <div className="mt-16 lg:mt-20 text-center">
-          <p className="text-slate-400 mb-6">
-            Ready to experience the power of our platform?
+        {/* CTA Section */}
+        <motion.div
+          className="text-center mt-20"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <p className="text-lg text-slate-300 mb-8">
+            Ready to transform your experience with cutting-edge features?
           </p>
-          <button className="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-white font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105">
-            Get Started Now
-            <Zap className="w-4 h-4" />
+          <button className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-xl hover:shadow-2xl hover:shadow-cyan-500/40 transition-all duration-300 hover:scale-105 active:scale-95">
+            Get Started Free
+            <span className="text-xl">→</span>
           </button>
-        </div>
+        </motion.div>
       </div>
-
-      <style jsx>{`
-        @keyframes slideInUp {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      `}</style>
     </section>
   );
 };
