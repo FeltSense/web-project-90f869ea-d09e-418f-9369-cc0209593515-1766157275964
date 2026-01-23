@@ -32,11 +32,11 @@ export default function Home() {
               <span className="text-sm font-bold text-emerald-100">🏆 #1 AI RECIPE GENERATOR • 4.9★ RATING • 100K+ ACTIVE USERS</span>
             </div>
 
-            {/* Main Headline - Enhanced */}
+            {/* Main Headline - Enhanced with More Compelling Value Proposition */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your AI-Powered Personal Chef That Saves You 10+ Hours Weekly
+              Transform Your Kitchen Into a Restaurant-Quality Culinary Experience
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
-                Unlimited Recipes • Smart Meal Plans • Save $1,200+ Annually
+                AI-Powered Recipes • Personalized Meal Plans • Save 10+ Hours & $1,200+ Yearly
               </span>
             </h1>
 
@@ -45,9 +45,9 @@ export default function Home() {
               <p className="text-lg font-bold text-emerald-50">🎯 Trusted by 100K+ Home Cooks • Save 10+ Hours Weekly • Cut Costs by 30%</p>
             </div>
 
-            {/* Subheading - Optimized */}
+            {/* Subheading - Optimized with Stronger Value Proposition */}
             <p className="text-xl sm:text-2xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Stop wasting time on meal planning and grocery shopping. Our AI-powered platform generates unlimited personalized recipes in seconds, tailored to your taste, budget, and dietary needs. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">save $1,200+ annually</span> on groceries, and <span className="font-bold text-blue-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks transforming their kitchens—start free today, no credit card needed.</span>
+              Imagine never stressing about "What's for dinner?" again. Our AI-powered platform generates unlimited personalized recipes in seconds, tailored to your taste, budget, and dietary needs. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">save $1,200+ annually</span> on groceries, <span className="font-bold text-blue-300">eliminate 40% of food waste</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks transforming their kitchens—start free today, no credit card needed.</span>
             </p>
 
             {/* Key Stats */}
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Free (No Credit Card)
+                  🚀 Start Your Culinary Revolution Free
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
