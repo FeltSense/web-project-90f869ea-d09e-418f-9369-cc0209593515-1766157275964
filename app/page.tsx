@@ -27,7 +27,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-10 backdrop-blur-sm hover:border-cyan-300 transition-all duration-300 shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40">
-              <span className="text-sm font-bold text-cyan-100">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ RATED • JOIN TODAY</span>
+              <span className="text-sm font-bold text-cyan-100">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ RATED • 🚀 TRENDING NOW</span>
             </div>
 
             {/* Main Headline */}
@@ -40,7 +40,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Transform your kitchen with AI that understands your taste, budget, and lifestyle. Get unlimited personalized recipes in seconds, plan meals for the entire week, and watch your grocery bills shrink by 30%. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join 100K+ home cooks already cooking smarter. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
+              Stop wasting time on meal planning and money on groceries. Get unlimited personalized recipes in seconds, plan meals for the entire week, and watch your grocery bills shrink by 30%. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join 100K+ home cooks already cooking smarter. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -59,7 +59,7 @@ export default function Home() {
                 className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-cyan-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter - Free
+                  🚀 Get Started Free - No Credit Card
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -187,8 +187,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Sample Recipes Section */}
-      <SampleRecipes />
+      {/* Trust & Credibility Section */}
+      <section className=\"relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-800 via-slate-900 to-slate-800 overflow-hidden border-t border-slate-700/50\">
+        <div className=\"relative z-10 max-w-6xl mx-auto\">
+          <div className=\"text-center mb-16\">
+            <h2 className=\"text-4xl sm:text-5xl font-bold text-white mb-6\">Trusted by Home Cooks Worldwide</h2>
+            <p className=\"text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed\">Join thousands of families who are already cooking smarter, saving money, and reducing food waste with RecipeAI.</p>\n          </div>\n\n          <div className=\"grid md:grid-cols-4 gap-8 mb-12\">\n            <div className=\"text-center p-8 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/40 hover:border-emerald-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/30\">\n              <div className=\"text-5xl font-bold text-emerald-400 mb-3\">100K+</div>\n              <p className=\"text-slate-200 font-semibold\">Active Home Cooks</p>\n              <p className=\"text-sm text-slate-300 mt-2\">Using RecipeAI daily</p>\n            </div>\n\n            <div className=\"text-center p-8 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/40 hover:border-cyan-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/30\">\n              <div className=\"text-5xl font-bold text-cyan-400 mb-3\">4.9★</div>\n              <p className=\"text-slate-200 font-semibold\">Average Rating</p>\n              <p className=\"text-sm text-slate-300 mt-2\">From 50K+ reviews</p>\n            </div>\n\n            <div className=\"text-center p-8 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/40 hover:border-purple-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30\">\n              <div className=\"text-5xl font-bold text-purple-400 mb-3\">10+</div>\n              <p className=\"text-slate-200 font-semibold\">Hours Saved Weekly</p>\n              <p className=\"text-sm text-slate-300 mt-2\">On average per user</p>\n            </div>\n\n            <div className=\"text-center p-8 rounded-2xl bg-gradient-to-br from-orange-500/20 to-red-500/20 border border-orange-500/40 hover:border-orange-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/30\">\n              <div className=\"text-5xl font-bold text-orange-400 mb-3\">30%</div>\n              <p className=\"text-slate-200 font-semibold\">Grocery Savings</p>\n              <p className=\"text-sm text-slate-300 mt-2\">Average reduction</p>\n            </div>\n          </div>\n        </div>\n      </section>\n\n      {/* Sample Recipes Section */}\n      <SampleRecipes />
 
       {/* Customer Testimonials Section */}
       <Testimonials />

@@ -107,11 +107,11 @@ export default function SampleRecipes(): React.ReactElement {
           <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6">
             Unlimited Recipes<br />
             <span className="bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">
-              Generated Just for You
+              Personalized to Your Taste & Budget
             </span>
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto font-semibold leading-relaxed">
-            Our advanced AI generates unlimited personalized recipes based on your taste preferences, dietary restrictions, and available ingredients. Each recipe includes detailed cooking times, difficulty levels, complete nutrition information, and step-by-step instructions to ensure perfect results every time. From quick weeknight dinners to impressive weekend meals, we've got you covered.
+            Our advanced AI generates unlimited personalized recipes based on your taste preferences, dietary restrictions, and available ingredients. Each recipe includes detailed cooking times, difficulty levels, complete nutrition information, and step-by-step instructions to ensure perfect results every time. From quick weeknight dinners to impressive weekend meals, discover recipes you'll actually want to cook—and your family will love.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <div className="flex items-center gap-2 px-4 py-2 bg-blue-50 rounded-lg border border-blue-200">
@@ -202,14 +202,14 @@ export default function SampleRecipes(): React.ReactElement {
         {/* CTA Section - Try the AI Recipe Generator */}
         <div className="mt-16 mb-20 p-8 md:p-12 rounded-3xl bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white text-center shadow-2xl">
           <h3 className="text-3xl md:text-4xl font-black mb-4">
-            Ready to Transform Your Cooking?
+            Ready to Cook Smarter & Save Money?
           </h3>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-95 font-semibold">
-            Start using our AI recipe generator today and discover unlimited personalized recipes tailored to your taste, dietary needs, and available ingredients. Join 100K+ home cooks already saving time and money.
+            Start using our AI recipe generator today and discover unlimited personalized recipes tailored to your taste, dietary needs, and available ingredients. Join 100K+ home cooks already saving 10+ hours weekly and cutting grocery bills by 30%.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 sm:px-12 py-4 sm:py-5 bg-white text-emerald-600 font-black text-base sm:text-lg rounded-xl hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
-              🤖 Try AI Recipe Generator Now
+              🤖 Try AI Recipe Generator - Free
             </button>
             <button className="px-8 sm:px-12 py-4 sm:py-5 bg-white/20 border-2 border-white text-white font-bold text-base sm:text-lg rounded-xl hover:bg-white/30 transition-all transform hover:scale-105 backdrop-blur-sm">
               Learn More
