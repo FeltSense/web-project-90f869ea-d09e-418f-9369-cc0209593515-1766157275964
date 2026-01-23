@@ -41,22 +41,22 @@ const features: Feature[] = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden pt-24 pb-12">
+    <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden pt-24 pb-12 border-b border-cyan-500/20">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
-          className="absolute top-20 -left-40 w-80 h-80 bg-cyan-500/25 rounded-full blur-3xl"
-          animate={{ y: [0, 30, 0], opacity: [0.3, 0.5, 0.3], x: [0, 20, 0] }}
+          className="absolute top-20 -left-40 w-80 h-80 bg-cyan-400/35 rounded-full blur-3xl"
+          animate={{ y: [0, 30, 0], opacity: [0.4, 0.6, 0.4], x: [0, 20, 0] }}
           transition={{ duration: 8, repeat: Infinity }}
         />
         <motion.div
-          className="absolute -bottom-40 -right-40 w-96 h-96 bg-emerald-500/25 rounded-full blur-3xl"
-          animate={{ y: [0, -30, 0], opacity: [0.3, 0.5, 0.3], x: [0, -20, 0] }}
+          className="absolute -bottom-40 -right-40 w-96 h-96 bg-emerald-400/35 rounded-full blur-3xl"
+          animate={{ y: [0, -30, 0], opacity: [0.4, 0.6, 0.4], x: [0, -20, 0] }}
           transition={{ duration: 10, repeat: Infinity, delay: 1 }}
         />
         <motion.div
-          className="absolute top-1/2 left-1/2 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl"
-          animate={{ y: [0, -20, 0], opacity: [0.2, 0.4, 0.2] }}
+          className="absolute top-1/2 left-1/2 w-72 h-72 bg-blue-400/30 rounded-full blur-3xl"
+          animate={{ y: [0, -20, 0], opacity: [0.3, 0.5, 0.3] }}
           transition={{ duration: 12, repeat: Infinity, delay: 2 }}
         />
       </div>
@@ -72,37 +72,37 @@ export default function Hero() {
           >
             {/* Badge */}
             <motion.div
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 mb-6"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-400/20 border border-cyan-400/60 mb-6 shadow-lg shadow-cyan-400/30"
               initial={{ opacity: 0, y: -10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <Sparkles className="w-4 h-4 text-cyan-400" />
-              <span className="text-sm font-semibold text-cyan-300">AI-Powered Culinary Intelligence</span>
+              <Sparkles className="w-4 h-4 text-cyan-300" />
+              <span className="text-sm font-semibold text-cyan-200">✨ AI-Powered Culinary Intelligence</span>
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Master the Art of Cooking with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">AI-Powered Intelligence</span>
+              Cook Smarter, Eat Better with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">AI Magic</span>
             </h1>
-            <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              Unlock personalized recipes tailored to your ingredients, dietary preferences, and skill level. Save 10+ hours weekly, reduce grocery costs by 30%, and cook restaurant-quality meals with complete confidence every single night.
+            <p className="text-xl text-slate-200 mb-8 leading-relaxed font-medium">
+              Get personalized recipes in seconds, plan your entire week automatically, and cut grocery bills by 30%. Join 100K+ home cooks saving 10+ hours weekly while cooking restaurant-quality meals with confidence. <span className="font-bold text-emerald-300">Start free today—no credit card needed.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
-                className="px-10 py-4 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-xl hover:from-cyan-600 hover:via-emerald-600 hover:to-blue-600 transition shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/75 flex items-center justify-center gap-2 group text-lg hover:scale-105"
+                className="px-10 py-4 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-950 font-bold rounded-xl hover:from-cyan-300 hover:via-emerald-300 hover:to-blue-300 transition shadow-lg shadow-cyan-400/60 hover:shadow-cyan-400/90 flex items-center justify-center gap-2 group text-lg hover:scale-105"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                ✨ Start Your Culinary Journey
+                🚀 Get Started Free Now
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
-                className="px-8 py-4 border-2 border-cyan-500/50 text-white font-semibold rounded-xl hover:bg-cyan-500/10 hover:border-cyan-400 transition flex items-center justify-center gap-2 text-lg hover:scale-105 backdrop-blur-sm"
+                className="px-8 py-4 border-2 border-emerald-400/80 text-white font-semibold rounded-xl hover:bg-emerald-500/30 hover:border-emerald-300 transition flex items-center justify-center gap-2 text-lg hover:scale-105 backdrop-blur-sm bg-emerald-500/10"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                🎯 Discover the Magic
+                ✨ See All Features
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
@@ -119,7 +119,7 @@ export default function Hero() {
             {features.map((feature, index) => (
               <motion.div
                 key={index}
-                className="p-4 rounded-lg bg-slate-900/50 border border-slate-800 hover:border-cyan-500/50 transition group cursor-pointer hover:bg-slate-900/80 hover:shadow-lg hover:shadow-cyan-500/20"
+                className="p-4 rounded-lg bg-slate-900/60 border border-slate-700 hover:border-cyan-400/80 transition group cursor-pointer hover:bg-slate-900/90 hover:shadow-lg hover:shadow-cyan-400/40"
                 whileHover={{ y: -5 }}
               >
                 <div className="mb-3 text-cyan-400 group-hover:scale-110 transition">
