@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Enhanced with More Compelling Value Proposition */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your AI Chef Awaits: Never Stress About Dinner Again
+              Transform Your Kitchen Into a 5-Star Restaurant
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
-                Unlimited Recipes • Smart Meal Plans • Save 10+ Hours Weekly & $1,200+ Yearly
+                AI-Powered Recipes • Personalized Meal Plans • Save Time, Money & Reduce Waste
               </span>
             </h1>
 
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Free (No Credit Card)
+                  🚀 Start Your Culinary Journey Free
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -97,7 +97,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/40 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 bg-emerald-500/20 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ See What's Possible
+                  ✨ Discover All Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -135,6 +135,55 @@ export default function Home() {
                     <h3 className="text-white font-bold mb-4 text-2xl">Reduce Food Waste by 40%</h3>
                     <p className="text-slate-100 text-base leading-relaxed mb-6 font-medium"><span className="font-bold text-purple-300">Cook sustainably.</span> AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook smarter while saving money and protecting the environment.</p>
                     <div className="pt-6 border-t border-purple-400/40 text-purple-300 text-sm font-semibold">✓ Eco-friendly cooking</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Additional Product Features Details */}
+            <div className="mt-20 p-8 rounded-2xl bg-gradient-to-r from-slate-800/50 to-slate-700/50 border border-slate-600/50 backdrop-blur-sm\">
+              <h3 className="text-2xl font-bold text-white mb-6 text-center\">Why 100K+ Home Cooks Trust RecipeAI</h3>
+              <div className="grid md:grid-cols-2 gap-6\">
+                <div className="flex gap-4\">
+                  <div className="text-3xl flex-shrink-0\">🎯</div>
+                  <div>
+                    <h4 className="font-bold text-white mb-2\">Personalized to Your Taste</h4>
+                    <p className="text-slate-200 text-sm\">Our AI learns your flavor preferences, dietary restrictions, and cooking skill level to suggest recipes you'll actually love cooking.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4\">
+                  <div className="text-3xl flex-shrink-0\">⚡</div>
+                  <div>
+                    <h4 className="font-bold text-white mb-2\">Lightning-Fast Generation</h4>
+                    <p className="text-slate-200 text-sm\">Get unlimited recipe ideas in seconds, not hours. Perfect for last-minute meal planning or when inspiration strikes.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4\">
+                  <div className="text-3xl flex-shrink-0\">🛒</div>
+                  <div>
+                    <h4 className="font-bold text-white mb-2\">Smart Shopping Integration</h4>
+                    <p className="text-slate-200 text-sm\">Auto-generated shopping lists with budget-friendly alternatives, organized by store section for faster checkout.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4\">
+                  <div className="text-3xl flex-shrink-0\">📊</div>
+                  <div>
+                    <h4 className="font-bold text-white mb-2\">Nutrition Insights</h4>
+                    <p className="text-slate-200 text-sm\">Automatic macro tracking and nutritional analysis for every recipe to help you hit your health goals.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4\">
+                  <div className="text-3xl flex-shrink-0\">👨‍👩‍👧‍👦</div>
+                  <div>
+                    <h4 className="font-bold text-white mb-2\">Family-Friendly Meals</h4>
+                    <p className="text-slate-200 text-sm\">Plan meals for the whole family with personalized preferences for each member, accommodating all dietary needs.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4\">
+                  <div className="text-3xl flex-shrink-0\">🌱</div>
+                  <div>
+                    <h4 className="font-bold text-white mb-2\">Eco-Conscious Cooking</h4>
+                    <p className="text-slate-200 text-sm\">Reduce food waste by 40% with recipes that use ingredients you already have, protecting the environment and your wallet.</p>
                   </div>
                 </div>
               </div>
