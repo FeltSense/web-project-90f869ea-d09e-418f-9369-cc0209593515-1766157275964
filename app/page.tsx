@@ -33,20 +33,20 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your AI-Powered Kitchen Companion
+              Cook Smarter, Eat Better, Save More
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
-                Personalized Recipes • Smart Meal Plans • Maximum Savings
+                AI-Powered Recipes • Personalized Meal Plans • 30% Grocery Savings
               </span>
             </h1>
 
             {/* Mission Statement */}
             <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/70 backdrop-blur-sm shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all duration-300 hover:scale-105 transition-transform duration-300">
-              <p className="text-lg font-bold text-emerald-100">🎯 AI-Powered Cooking Made Simple, Delicious & Affordable</p>
+              <p className="text-lg font-bold text-emerald-100">🎯 Transform Your Kitchen with AI Intelligence • Join 100K+ Happy Cooks</p>
             </div>
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Tired of meal planning stress? Get personalized recipes in seconds based on your ingredients, dietary needs, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join <span className="font-bold text-purple-300">100K+ home cooks</span> who are already cooking smarter and eating better. <span className="font-bold text-emerald-400 text-lg">Start free today—no credit card required.</span>
+              Stop wasting time on meal planning and money on groceries. Our AI instantly generates personalized recipes based on what you have, your dietary preferences, and your cooking skill. <span className="font-bold text-emerald-300">Save 10+ hours every week</span>, <span className="font-bold text-cyan-300">cut your grocery bills by 30%</span>, and <span className="font-bold text-blue-300">eliminate 40% of food waste</span>. <span className="font-bold text-purple-300">100K+ home cooks</span> are already cooking restaurant-quality meals at home. <span className="font-bold text-emerald-400 text-lg">Join them free today—no credit card needed.</span>
             </p>
 
             {/* Key Stats */}
@@ -74,7 +74,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* CTA Buttons - Enhanced */}
+            {/* CTA Buttons - Enhanced with More Compelling Copy */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-20">
               <button
                 onClick={() => {
@@ -86,7 +86,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/120 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter - Free Forever
+                  🚀 Get Started Free - No Credit Card
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -96,7 +96,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-emerald-400/80 text-white font-semibold rounded-2xl hover:bg-emerald-500/30 hover:border-emerald-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-emerald-500/10 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore Features
+                  ✨ See All Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
