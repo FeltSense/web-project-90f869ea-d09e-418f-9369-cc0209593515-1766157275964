@@ -46,7 +46,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Transform your kitchen with AI-powered meal planning. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join <span className="font-bold text-purple-300">100K+ home cooks</span> already cooking smarter. <span className="font-bold text-emerald-400 text-lg">Start free today—no credit card required.</span>
+              Stop struggling with meal planning. Our AI chef generates personalized recipes in seconds, tailored to your ingredients, dietary preferences, and cooking skill. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join <span className="font-bold text-purple-300">100K+ home cooks</span> already cooking smarter. <span className="font-bold text-emerald-400 text-lg">Start free today—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -70,7 +70,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/80 hover:shadow-emerald-500/120 transition-all duration-300 transform hover:scale-110 transition-transform duration-300 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Free Today - No Credit Card
+                  🚀 Transform Your Kitchen Today - Completely Free
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -80,7 +80,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-cyan-400/80 text-white font-semibold rounded-2xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 transition-transform duration-300 bg-cyan-500/10 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore Features
+                  ✨ See How It Works
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>

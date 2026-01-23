@@ -69,7 +69,7 @@ const AboutPage = () => {
             <motion.div variants={itemVariants} className="text-center">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Our Mission</h2>
               <p className="text-xl text-gray-700 leading-relaxed">
-                We believe cooking should be effortless, joyful, and accessible to everyone. Our mission is to eliminate the daily struggle of meal planning by using AI to generate personalized recipes, meal plans, and shopping lists tailored to your unique tastes, dietary needs, and lifestyle. We're transforming cooking from a stressful chore into an exciting, creative experience—saving you time, reducing food waste, and inspiring confidence in the kitchen.
+                We believe cooking should be effortless, joyful, and accessible to everyone. Our mission is to eliminate the daily struggle of meal planning by using advanced AI to generate personalized recipes, meal plans, and shopping lists tailored to your unique tastes, dietary needs, and lifestyle. We're transforming cooking from a stressful chore into an exciting, creative experience—saving you time, reducing food waste, and inspiring confidence in the kitchen. Every feature we build is designed with one goal in mind: to make home cooking smarter, easier, and more enjoyable for families everywhere.
               </p>
             </motion.div>
           </motion.div>
@@ -156,21 +156,21 @@ const AboutPage = () => {
             <motion.div variants={itemVariants} className="bg-gradient-to-r from-emerald-50 to-cyan-50 rounded-2xl p-8 border-l-4 border-emerald-500">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">The Vision</h3>
               <p className="text-gray-700 leading-relaxed">
-                Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible and enjoyable for everyone. We saw an opportunity to use AI to solve a universal problem—the daily question of &quot;What&apos;s for dinner?&quot;
+                Our journey began with a simple frustration: finding recipes that match your dietary preferences, available ingredients, and time constraints is incredibly difficult. After months of research and testing with home cooks, we realized the potential was even bigger: we could help families save time, reduce food waste, cut grocery costs, and rediscover the joy of cooking together. We envisioned an intelligent system that could generate personalized recipes instantly, making cooking accessible and enjoyable for everyone. We saw an opportunity to use AI to solve a universal problem—the daily question of &quot;What&apos;s for dinner?&quot;
               </p>
             </motion.div>
 
             <motion.div variants={itemVariants} className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl p-8 border-l-4 border-cyan-500">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Building the Platform</h3>
               <p className="text-gray-700 leading-relaxed">
-                We assembled a world-class team combining machine learning expertise, culinary mastery, and design innovation. Together, we developed proprietary AI models trained on thousands of recipes and refined through feedback from users around the world.
+                We assembled a world-class team combining machine learning expertise, culinary mastery, and design innovation. Our engineers developed proprietary AI models trained on thousands of recipes, dietary preferences, and cooking techniques. We partnered with professional chefs to ensure every recipe is delicious, nutritionally balanced, and tested for quality. Our designers created an intuitive interface that makes AI-powered cooking feel natural and delightful. Our engineers developed proprietary AI models trained on thousands of recipes, dietary preferences, and cooking techniques. We partnered with professional chefs to ensure every recipe is delicious, nutritionally balanced, and tested for quality. Our designers created an intuitive interface that makes AI-powered cooking feel natural and delightful. Together, we built a platform refined through continuous feedback from users around the world, ensuring RecipeAI evolves to meet the real needs of home cooks.
               </p>
             </motion.div>
 
             <motion.div variants={itemVariants} className="bg-gradient-to-r from-rose-50 to-amber-50 rounded-2xl p-8 border-l-4 border-blue-500">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Growing Impact</h3>
               <p className="text-gray-700 leading-relaxed">
-                What started as a small project has grown into a global platform used by millions. We have expanded our AI capabilities, added support for diverse dietary needs, and built a thriving community of food enthusiasts who use our platform every day to discover, create, and share meals.
+                What started as a small project has grown into a global platform trusted by over 100,000 home cooks worldwide. We've expanded our AI capabilities to support 50+ dietary preferences and restrictions, added advanced nutrition tracking, and built a thriving community of food enthusiasts who use our platform every day to discover, create, and share meals. Our users have generated over 500,000 personalized recipes and saved millions of hours on meal planning. We're just getting started—our vision is to become the world's most trusted AI-powered cooking companion for families everywhere.
               </p>
             </motion.div>
           </motion.div>
@@ -192,7 +192,7 @@ const AboutPage = () => {
             </motion.h2>
 
             <p className="text-center text-xl text-gray-700 max-w-3xl mx-auto mb-12">
-              Our diverse team brings together expertise in artificial intelligence, culinary arts, product design, and user experience. We&apos;re passionate about making cooking accessible, enjoyable, and personalized for everyone.
+              Our diverse team brings together world-class expertise in artificial intelligence, culinary arts, product design, and user experience. From machine learning engineers who build our intelligent algorithms to professional chefs who curate our recipe database, every team member is dedicated to revolutionizing how people cook at home. We&apos;re passionate about making cooking accessible, enjoyable, and personalized for everyone.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
