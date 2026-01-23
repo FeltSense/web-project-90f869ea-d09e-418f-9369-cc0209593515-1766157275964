@@ -33,29 +33,45 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your Personal AI Chef
+              Your AI-Powered Kitchen Companion
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-3 animate-pulse">
-                Unlimited Recipes, Zero Stress, Maximum Savings
+                Personalized Recipes • Smart Meal Plans • Maximum Savings
               </span>
             </h1>
 
             {/* Mission Statement */}
             <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/70 backdrop-blur-sm shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all duration-300 hover:scale-110 transition-transform duration-300">
-              <p className="text-lg font-bold text-emerald-100">🎯 Transform Home Cooking with AI-Powered Intelligence</p>
+              <p className="text-lg font-bold text-emerald-100">🎯 AI-Powered Cooking Made Simple, Delicious & Affordable</p>
             </div>
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Stop struggling with meal planning. Our AI chef generates personalized recipes in seconds, tailored to your ingredients, dietary preferences, and cooking skill. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join <span className="font-bold text-purple-300">100K+ home cooks</span> already cooking smarter. <span className="font-bold text-emerald-400 text-lg">Start free today—no credit card required.</span>
+              Tired of meal planning stress? Get personalized recipes in seconds based on your ingredients, dietary needs, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join <span className="font-bold text-purple-300">100K+ home cooks</span> who are already cooking smarter and eating better. <span className="font-bold text-emerald-400 text-lg">Start free today—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 text-sm text-emerald-300 font-semibold">
-              <span className="flex items-center gap-2">⏱️ Save 10+ hours weekly on meal planning</span>
+              <span className="flex items-center gap-2">⏱️ Save 10+ hours weekly</span>
               <span className="hidden sm:inline text-slate-500">•</span>
               <span className="flex items-center gap-2">💰 Cut grocery bills by 30%</span>
               <span className="hidden sm:inline text-slate-500">•</span>
               <span className="flex items-center gap-2">🗑️ Reduce food waste by 40%</span>
+            </div>
+
+            {/* Trust Indicators */}
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8 text-sm">
+              <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-400/50">
+                <span className="text-lg">⭐</span>
+                <span className="text-emerald-100 font-semibold">4.9★ Rating (50K+ reviews)</span>
+              </div>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-cyan-500/20 border border-cyan-400/50">
+                <span className="text-lg">👥</span>
+                <span className="text-cyan-100 font-semibold">100K+ Active Users</span>
+              </div>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-purple-500/20 border border-purple-400/50">
+                <span className="text-lg">✅</span>
+                <span className="text-purple-100 font-semibold">No Credit Card Required</span>
+              </div>
             </div>
 
             {/* CTA Buttons - Enhanced */}
@@ -70,7 +86,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/80 hover:shadow-emerald-500/120 transition-all duration-300 transform hover:scale-110 transition-transform duration-300 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Transform Your Kitchen Today - Completely Free
+                  🚀 Start Cooking Smarter - Free Forever
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -80,7 +96,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-cyan-400/80 text-white font-semibold rounded-2xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 transition-transform duration-300 bg-cyan-500/10 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ See How It Works
+                  ✨ Explore Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
