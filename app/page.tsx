@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Enhanced with More Compelling Value Proposition */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Transform Your Kitchen Into a Restaurant-Quality Culinary Experience
+              Your AI Chef Awaits: Never Stress About Dinner Again
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
-                AI-Powered Recipes • Personalized Meal Plans • Save 10+ Hours & $1,200+ Yearly
+                Unlimited Recipes • Smart Meal Plans • Save 10+ Hours Weekly & $1,200+ Yearly
               </span>
             </h1>
 
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Your Culinary Revolution Free
+                  🚀 Get Started Free (No Credit Card)
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -97,7 +97,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/40 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 bg-emerald-500/20 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore All Features
+                  ✨ See What's Possible
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -179,7 +179,7 @@ export default function Home() {
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🤖</div>
                 <h3 className="text-2xl font-bold text-white mb-3">AI-Powered Recipe Generation</h3>
-                <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-cyan-300">🎯 Transform your kitchen instantly.</span> Get unlimited personalized recipes in seconds based on your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste preferences and suggests delicious dishes you&apos;ll love. Say goodbye to boring meals and meal planning stress forever. Works with any ingredients you have on hand.</p>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-cyan-300">🎯 Never ask "what's for dinner?" again.</span> Get unlimited personalized recipes in seconds based on your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste preferences and suggests delicious dishes you&apos;ll love. Works with any ingredients you have on hand—from pantry staples to fresh produce.</p>
                 <div className="text-xs text-cyan-300 font-semibold">✓ Instant personalization • Taste learning • 10,000+ recipes • Works offline</div>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function Home() {
             <div className="p-8 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/40 hover:border-emerald-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/70 group cursor-pointer hover:scale-105 transition-transform duration-300">
               <div className="text-5xl mb-4 group-hover:scale-105 transition-transform duration-300">📅</div>
               <h3 className="text-xl font-bold text-white mb-3">Intelligent Meal Planning</h3>
-              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-emerald-300">📅 Plan smarter, eat better.</span> Plan your entire week in minutes with AI-generated meal plans that balance nutrition, taste, and variety. Get perfectly balanced meals tailored to your family&apos;s preferences and dietary needs. Our AI considers allergies, restrictions, and budget constraints automatically. Never stress about &quot;What&apos;s for dinner?&quot; again.</p>
+              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-emerald-300">📅 Plan entire weeks in minutes.</span> Get AI-generated meal plans that balance nutrition, taste, and variety perfectly. Our AI considers allergies, dietary restrictions, and budget constraints automatically. Perfectly balanced meals tailored to your family&apos;s preferences—no more guessing or stress.</p>
               <div className="text-xs text-emerald-300 font-semibold">✓ Weekly planning • Balanced nutrition • Allergy-aware • Budget-conscious</div>
             </div>
 
@@ -196,7 +196,7 @@ export default function Home() {
             <div className="p-8 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/40 hover:border-purple-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30 group cursor-pointer hover:scale-105 transition-transform duration-300">
               <div className="text-5xl mb-4 group-hover:scale-105 transition-transform duration-300">🛒</div>
               <h3 className="text-xl font-bold text-white mb-3">Smart Shopping Lists</h3>
-              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-purple-300">💳 Shop smarter, save more.</span> Get organized shopping lists with budget-friendly alternatives and intelligent substitutions. Shop efficiently, stay within budget, and save up to 30% on groceries. Our AI finds the best deals, suggests smart ingredient swaps, and organizes items by store section for faster checkout.</p>
+              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-purple-300">💳 Save 30% on groceries automatically.</span> Get organized shopping lists with budget-friendly alternatives and intelligent substitutions. Our AI finds the best deals, suggests smart ingredient swaps, and organizes items by store section for faster checkout. Shop efficiently and stay within budget every time.</p>
               <div className="text-xs text-purple-300 font-semibold">✓ Budget optimization • Smart swaps • Save 30% • Store-organized</div>
             </div>
 
@@ -204,7 +204,7 @@ export default function Home() {
             <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-500/20 to-red-500/20 border border-orange-500/40 hover:border-orange-300 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/70 group cursor-pointer hover:scale-105 transition-transform duration-300">
               <div className="text-5xl mb-4 group-hover:scale-105 transition-transform duration-300">📊</div>
               <h3 className="text-xl font-bold text-white mb-3">Advanced Nutrition Tracking</h3>
-              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-orange-300">💪 Eat healthy, stay on track.</span> Track macros and hit your health goals with automatic nutrition analysis for every recipe. Stay healthy and achieve your fitness goals without sacrificing taste. Get detailed breakdowns of calories, protein, carbs, fats, and micronutrients for every meal. Sync with fitness apps seamlessly.</p>
+              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-orange-300">💪 Hit your health goals without sacrifice.</span> Automatic nutrition analysis for every recipe with detailed breakdowns of calories, protein, carbs, fats, and micronutrients. Track macros effortlessly and achieve your fitness goals while enjoying delicious meals. Sync with your favorite fitness apps seamlessly.</p>
               <div className="text-xs text-orange-300 font-semibold">✓ Macro tracking • Health goals • Fitness sync • Instant analysis</div>
             </div>
 
@@ -212,7 +212,7 @@ export default function Home() {
             <div className="p-8 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 border border-indigo-500/40 hover:border-indigo-300 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/70 group cursor-pointer hover:scale-105 transition-transform duration-300">
               <div className="text-5xl mb-4 group-hover:scale-105 transition-transform duration-300">👨‍👩‍👧‍👦</div>
               <h3 className="text-xl font-bold text-white mb-3">Family-Friendly Planning</h3>
-              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-indigo-300">❤️ Everyone eats happy.</span> Plan meals for your entire family with personalized preferences for each member. Create meals everyone loves while accommodating different dietary needs and restrictions. Keep picky eaters happy and everyone satisfied with customized meal options.</p>
+              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-indigo-300">❤️ Keep everyone happy at the table.</span> Plan meals for your entire family with personalized preferences for each member. Accommodate different dietary needs, allergies, and restrictions while keeping picky eaters satisfied. Create meals everyone loves without cooking multiple dinners.</p>
               <div className="text-xs text-indigo-300 font-semibold">✓ Multi-profile • Dietary preferences • Allergy-safe • Picky-eater friendly</div>
             </div>
 
@@ -220,7 +220,7 @@ export default function Home() {
             <div className="p-8 rounded-2xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border border-blue-500/40 hover:border-blue-300 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/70 group cursor-pointer hover:scale-105 transition-transform duration-300">
               <div className="text-5xl mb-4 group-hover:scale-105 transition-transform duration-300">⭐</div>
               <h3 className="text-xl font-bold text-white mb-3">Chef-Curated Recipes</h3>
-              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-blue-300">👨‍🍳 Cook like a pro.</span> Access exclusive recipes from professional chefs and culinary experts. Learn cooking techniques from the best in the industry with 10,000+ recipes. Elevate your cooking skills with expert tips and restaurant-quality meals at home. Video tutorials included.</p>
+              <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-blue-300">👨‍🍳 Cook restaurant-quality meals at home.</span> Access exclusive recipes from professional chefs and culinary experts. Learn cooking techniques from the best in the industry with 10,000+ recipes and video tutorials. Elevate your cooking skills and impress your family every night.</p>
               <div className="text-xs text-blue-300 font-semibold">✓ 10,000+ recipes • Expert tips • Pro techniques • Video tutorials</div>
             </div>
           </div>
