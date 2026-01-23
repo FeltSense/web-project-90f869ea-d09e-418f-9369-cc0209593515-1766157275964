@@ -32,15 +32,15 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your AI-Powered Kitchen Companion
+              Transform Your Kitchen with AI
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-3">
-                Never Waste Time, Money, or Food Again
+                Save Time, Money & Eliminate Food Waste
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Stop wasting time on meal planning and money on groceries. Get unlimited personalized recipes in seconds, plan meals for the entire week, and watch your grocery bills shrink by 30%. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join 100K+ home cooks already cooking smarter. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
+              Get unlimited AI-powered recipes tailored to your taste, budget, and dietary needs. Plan your entire week in minutes, cut grocery bills by 30%, and reduce food waste by 40%. <span className="font-bold text-emerald-300">Join 100K+ home cooks</span> who are already <span className="font-bold text-cyan-300">saving 10+ hours weekly</span> and <span className="font-bold text-blue-300">cooking smarter meals</span>. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -59,7 +59,7 @@ export default function Home() {
                 className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-cyan-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Free - No Credit Card
+                  🚀 Start Cooking Smarter - Free Forever
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -69,7 +69,7 @@ export default function Home() {
                 className="group relative px-10 py-6 border-2 border-cyan-400/80 text-white font-semibold rounded-xl hover:bg-cyan-500/30 hover:border-cyan-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-cyan-500/10 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ See All Features
+                  ✨ Explore All Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -77,8 +77,8 @@ export default function Home() {
 
             {/* Key Benefits Section - Enhanced */}
             <div className="mt-32 mb-12">
-              <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 text-center">Why 100K+ Home Cooks Love RecipeAI</h2>
-              <p className="text-center text-slate-200 mb-16 max-w-3xl mx-auto text-lg">Experience the power of AI-driven meal planning that transforms your kitchen, saves you time and money, and eliminates food waste. Our advanced AI learns your preferences and generates unlimited personalized recipes tailored just for you. Join thousands of families already cooking smarter, eating better, and saving money every single day. See the real impact on your life—time saved, money saved, and delicious meals every night.</p>
+              <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 text-center">Why 100K+ Home Cooks Choose RecipeAI</h2>
+              <p className="text-center text-slate-200 mb-16 max-w-3xl mx-auto text-lg">Discover the three core benefits that make RecipeAI the #1 AI recipe generator. Save 10+ hours every week on meal planning, cut your grocery bills by 30%, and reduce food waste by 40%. Our advanced AI learns your taste preferences and generates unlimited personalized recipes in seconds. Join thousands of families already cooking smarter, eating better, and saving money every single day.</p>
               <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/25 to-blue-500/25 border border-cyan-500/60 hover:border-cyan-300/80 transition hover:shadow-2xl hover:shadow-cyan-500/50 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/35 hover:to-blue-500/35 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-blue-400/0 group-hover:from-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300"></div>
@@ -126,10 +126,10 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-20">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Powerful Features That Transform Your Kitchen
+              Advanced AI Features Built for Your Kitchen
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
-              Discover the advanced AI capabilities that make RecipeAI the #1 choice for home cooks worldwide. From intelligent recipe generation to smart meal planning and budget optimization, we&apos;ve got everything you need to cook smarter, save time, and eliminate food waste. Each feature is designed to make your life easier and your meals more delicious.
+              Unlock the power of AI-driven cooking with our comprehensive suite of features. From intelligent recipe generation and smart meal planning to budget optimization and nutrition tracking, every feature is designed to save you time, money, and reduce food waste. Experience the future of home cooking today.
             </p>
           </div>
 
@@ -138,48 +138,48 @@ export default function Home() {
             <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/40 hover:border-cyan-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/30 group cursor-pointer hover:scale-105">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🤖</div>
               <h3 className="text-xl font-bold text-white mb-3">AI-Powered Recipe Generation</h3>
-              <p className="text-slate-200 text-sm leading-relaxed mb-4">Get unlimited personalized recipes in seconds based on your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste preferences and suggests delicious dishes you&apos;ll love to cook. Never run out of meal ideas again.</p>
-              <div className="text-xs text-cyan-300 font-semibold">✓ Instant personalization • Taste learning</div>
+              <p className="text-slate-200 text-sm leading-relaxed mb-4">Get unlimited personalized recipes in seconds based on your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste preferences and suggests delicious dishes you&apos;ll love. Say goodbye to boring meals and meal planning stress forever.</p>
+              <div className="text-xs text-cyan-300 font-semibold">✓ Instant personalization • Taste learning • 10,000+ recipes</div>
             </div>
 
             {/* Feature 2 */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/40 hover:border-emerald-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/30 group cursor-pointer hover:scale-105">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">📅</div>
               <h3 className="text-xl font-bold text-white mb-3">Intelligent Meal Planning</h3>
-              <p className="text-slate-200 text-sm leading-relaxed mb-4">Plan your entire week in minutes with AI-generated meal plans that balance nutrition, taste, and variety. Get perfectly balanced meals tailored to your family&apos;s preferences. Say goodbye to &quot;What&apos;s for dinner?&quot; stress forever.</p>
-              <div className="text-xs text-emerald-300 font-semibold">✓ Weekly planning • Balanced nutrition</div>
+              <p className="text-slate-200 text-sm leading-relaxed mb-4">Plan your entire week in minutes with AI-generated meal plans that balance nutrition, taste, and variety. Get perfectly balanced meals tailored to your family&apos;s preferences and dietary needs. Never stress about &quot;What&apos;s for dinner?&quot; again.</p>
+              <div className="text-xs text-emerald-300 font-semibold">✓ Weekly planning • Balanced nutrition • Family-friendly</div>
             </div>
 
             {/* Feature 3 */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/40 hover:border-purple-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30 group cursor-pointer hover:scale-105">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🛒</div>
               <h3 className="text-xl font-bold text-white mb-3">Smart Shopping Lists</h3>
-              <p className="text-slate-200 text-sm leading-relaxed mb-4">Get organized shopping lists with budget-friendly alternatives and intelligent substitutions. Shop efficiently, stay within budget, and save up to 30% on groceries. Our AI finds the best deals and suggests smart ingredient swaps.</p>
-              <div className="text-xs text-purple-300 font-semibold">✓ Budget optimization • Smart substitutions</div>
+              <p className="text-slate-200 text-sm leading-relaxed mb-4">Get organized shopping lists with budget-friendly alternatives and intelligent substitutions. Shop efficiently, stay within budget, and save up to 30% on groceries. Our AI finds the best deals and suggests smart ingredient swaps automatically.</p>
+              <div className="text-xs text-purple-300 font-semibold">✓ Budget optimization • Smart swaps • Save 30%</div>
             </div>
 
             {/* Feature 4 */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-500/20 to-red-500/20 border border-orange-500/40 hover:border-orange-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/30 group cursor-pointer hover:scale-105">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">📊</div>
               <h3 className="text-xl font-bold text-white mb-3">Advanced Nutrition Tracking</h3>
-              <p className="text-slate-200 text-sm leading-relaxed mb-4">Track macros and hit your health goals with automatic nutrition analysis for every recipe. Stay healthy and achieve your fitness goals without sacrificing taste. Get detailed breakdowns of calories, protein, carbs, and fats instantly.</p>
-              <div className="text-xs text-orange-300 font-semibold">✓ Macro tracking • Health goals</div>
+              <p className="text-slate-200 text-sm leading-relaxed mb-4">Track macros and hit your health goals with automatic nutrition analysis for every recipe. Stay healthy and achieve your fitness goals without sacrificing taste. Get detailed breakdowns of calories, protein, carbs, and fats for every meal.</p>
+              <div className="text-xs text-orange-300 font-semibold">✓ Macro tracking • Health goals • Instant analysis</div>
             </div>
 
             {/* Feature 5 */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 border border-indigo-500/40 hover:border-indigo-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/30 group cursor-pointer hover:scale-105">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">👨‍👩‍👧‍👦</div>
               <h3 className="text-xl font-bold text-white mb-3">Family-Friendly Planning</h3>
-              <p className="text-slate-200 text-sm leading-relaxed mb-4">Plan meals for your entire family with personalized preferences for each member. Create meals everyone loves while accommodating different dietary needs. Keep picky eaters happy and dietary restrictions satisfied.</p>
-              <div className="text-xs text-indigo-300 font-semibold">✓ Multi-profile • Dietary preferences</div>
+              <p className="text-slate-200 text-sm leading-relaxed mb-4">Plan meals for your entire family with personalized preferences for each member. Create meals everyone loves while accommodating different dietary needs and restrictions. Keep picky eaters happy and everyone satisfied.</p>
+              <div className="text-xs text-indigo-300 font-semibold">✓ Multi-profile • Dietary preferences • Allergy-safe</div>
             </div>
 
             {/* Feature 6 */}
             <div className="p-8 rounded-2xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border border-blue-500/40 hover:border-blue-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/30 group cursor-pointer hover:scale-105">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">⭐</div>
               <h3 className="text-xl font-bold text-white mb-3">Chef-Curated Recipes</h3>
-              <p className="text-slate-200 text-sm leading-relaxed mb-4">Access exclusive recipes from professional chefs and culinary experts. Learn cooking techniques from the best in the industry with 10,000+ recipes. Elevate your cooking skills with expert tips and restaurant-quality techniques.</p>
-              <div className="text-xs text-blue-300 font-semibold">✓ 10,000+ recipes • Expert tips</div>
+              <p className="text-slate-200 text-sm leading-relaxed mb-4">Access exclusive recipes from professional chefs and culinary experts. Learn cooking techniques from the best in the industry with 10,000+ recipes. Elevate your cooking skills with expert tips and restaurant-quality meals at home.</p>
+              <div className="text-xs text-blue-300 font-semibold">✓ 10,000+ recipes • Expert tips • Pro techniques</div>
             </div>
           </div>
         </div>
@@ -189,8 +189,8 @@ export default function Home() {
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-800 via-slate-900 to-slate-800 overflow-hidden border-t border-slate-700/50">
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">Trusted by Home Cooks Worldwide</h2>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">Join thousands of families who are already cooking smarter, saving money, and reducing food waste with RecipeAI.</p>
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">Trusted by 100K+ Home Cooks Worldwide</h2>
+            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">Join thousands of families who are already cooking smarter, saving money, and reducing food waste. See the real impact RecipeAI has made on their lives.</p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-8 mb-12">
