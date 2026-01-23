@@ -32,15 +32,15 @@ export default function Home() {
 
             {/* Main Headline */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your Personal AI Chef
+              Your AI-Powered Kitchen Companion
               <span className="block bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mt-3">
-                Personalized Recipes, Smarter Meals, Zero Waste
+                Never Waste Time, Money, or Food Again
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Stop wasting time on meal planning and money on groceries. Our AI-powered recipe generator creates unlimited personalized recipes based on your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join 100K+ home cooks who've already transformed their kitchens. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
+              Transform your kitchen with AI that understands your taste, budget, and lifestyle. Get unlimited personalized recipes in seconds, plan meals for the entire week, and watch your grocery bills shrink by 30%. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. Join 100K+ home cooks already cooking smarter. <span className="font-bold text-purple-300">Start free today—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -59,7 +59,7 @@ export default function Home() {
                 className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 text-white font-bold rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/100 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap hover:shadow-2xl hover:shadow-cyan-500/80 active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🤖 Generate Your First Recipe - Free
+                  🚀 Start Cooking Smarter - Free
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
@@ -77,7 +77,7 @@ export default function Home() {
 
             {/* Key Benefits Section - Enhanced */}
             <div className="mt-32 mb-12">
-              <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 text-center">Why 100K+ Home Cooks Trust RecipeAI</h2>
+              <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 text-center">Why 100K+ Home Cooks Love RecipeAI</h2>
               <p className="text-center text-slate-200 mb-16 max-w-3xl mx-auto text-lg">Experience the power of AI-driven meal planning that transforms your kitchen, saves you time and money, and eliminates food waste. Our advanced AI learns your preferences and generates unlimited personalized recipes tailored just for you. Join thousands of families already cooking smarter, eating better, and saving money every single day. See the real impact on your life—time saved, money saved, and delicious meals every night.</p>
               <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/25 to-blue-500/25 border border-cyan-500/60 hover:border-cyan-300/80 transition hover:shadow-2xl hover:shadow-cyan-500/50 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/35 hover:to-blue-500/35 relative overflow-hidden">
@@ -126,10 +126,10 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-20">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Powerful AI Features Built for Your Success
+              Powerful Features That Transform Your Kitchen
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
-              Discover the advanced AI capabilities that make RecipeAI the #1 choice for home cooks worldwide. From intelligent recipe generation to smart meal planning and budget optimization, we've got everything you need to cook smarter, save time, and eliminate food waste. Each feature is designed to make your life easier and your meals more delicious. Experience the future of home cooking today.
+              Discover the advanced AI capabilities that make RecipeAI the #1 choice for home cooks worldwide. From intelligent recipe generation to smart meal planning and budget optimization, we've got everything you need to cook smarter, save time, and eliminate food waste. Each feature is designed to make your life easier and your meals more delicious.
             </p>
           </div>
 
