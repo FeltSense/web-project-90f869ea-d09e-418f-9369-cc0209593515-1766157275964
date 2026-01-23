@@ -83,10 +83,10 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Your Personal AI Chef, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Always Ready to Inspire</span>
+              Cook Smarter, Eat Better, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Save More Every Day</span>
             </h1>
             <p className="text-xl text-slate-200 mb-8 leading-relaxed font-medium">
-              Discover endless meal possibilities tailored to your taste and budget. Get personalized recipes in seconds, plan your entire week automatically, and cut grocery bills by 30%. Join 100K+ home cooks saving 10+ hours weekly while cooking restaurant-quality meals with confidence. <span className="font-bold text-emerald-300">Start free today—no credit card needed.</span>
+              Transform your kitchen with AI-powered recipes tailored to your taste, budget, and available ingredients. Get personalized dinner ideas in seconds, plan your entire week automatically, and cut grocery bills by 30%. Join 100K+ home cooks who are saving 10+ hours weekly, reducing food waste by 40%, and cooking restaurant-quality meals with confidence. <span className="font-bold text-emerald-300">Start free today—no credit card needed.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
@@ -94,7 +94,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                ✨ Start Cooking Smarter Today
+                🚀 Get Started Free Now
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
@@ -102,7 +102,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                🎯 Explore Features
+                ✨ See All Features
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
