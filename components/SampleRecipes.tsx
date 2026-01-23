@@ -105,13 +105,13 @@ export default function SampleRecipes(): React.ReactElement {
             <p className="text-sm font-bold text-emerald-700">✨ AI-POWERED RECIPE GENERATION</p>
           </div>
           <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6">
-            Discover Delicious Recipes<br />
+            Unlimited Recipes<br />
             <span className="bg-gradient-to-r from-emerald-600 to-cyan-600 bg-clip-text text-transparent">
               Generated Just for You
             </span>
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto font-semibold leading-relaxed">
-            Our advanced AI generates unlimited personalized recipes based on your taste preferences, dietary restrictions, and available ingredients. Each recipe includes detailed cooking times, difficulty levels, complete nutrition information, and step-by-step instructions to ensure perfect results every time.
+            Our advanced AI generates unlimited personalized recipes based on your taste preferences, dietary restrictions, and available ingredients. Each recipe includes detailed cooking times, difficulty levels, complete nutrition information, and step-by-step instructions to ensure perfect results every time. From quick weeknight dinners to impressive weekend meals, we've got you covered.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <div className="flex items-center gap-2 px-4 py-2 bg-blue-50 rounded-lg border border-blue-200">
@@ -205,7 +205,7 @@ export default function SampleRecipes(): React.ReactElement {
             Ready to Transform Your Cooking?
           </h3>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-95 font-semibold">
-            Start using our AI recipe generator today and discover unlimited personalized recipes tailored to your taste, dietary needs, and available ingredients.
+            Start using our AI recipe generator today and discover unlimited personalized recipes tailored to your taste, dietary needs, and available ingredients. Join 100K+ home cooks already saving time and money.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 sm:px-12 py-4 sm:py-5 bg-white text-emerald-600 font-black text-base sm:text-lg rounded-xl hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
@@ -224,7 +224,7 @@ export default function SampleRecipes(): React.ReactElement {
               Why Our AI Recipe Generator Stands Out
             </h3>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Powered by advanced machine learning to deliver the perfect recipe every time
+              Powered by advanced machine learning to deliver the perfect recipe every time. Experience the difference that intelligent AI makes in your kitchen.
             </p>
           </div>
 
