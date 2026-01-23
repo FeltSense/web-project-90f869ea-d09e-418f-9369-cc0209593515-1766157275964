@@ -41,7 +41,7 @@ const features: Feature[] = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden pt-24 pb-12 border-b border-cyan-500/20">
+    <section className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden pt-24 pb-12 border-b border-cyan-500/30">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
@@ -83,10 +83,10 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Cook Like a Pro Every Night with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">AI-Powered Culinary Genius</span>
+              Your Personal AI Chef, Ready to Transform Every Meal <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Into a Culinary Masterpiece</span>
             </h1>
             <p className="text-xl text-slate-200 mb-8 leading-relaxed font-medium">
-              Transform your kitchen into a culinary powerhouse with AI that learns your taste, respects your budget, and adapts to your lifestyle. Get unlimited personalized recipes in seconds, plan perfectly balanced meals for the entire week, and save $1,200+ annually on groceries. Join 100K+ home cooks who are reclaiming 10+ hours weekly, eliminating 40% of food waste, and cooking restaurant-quality meals every single night. <span className="font-bold text-emerald-300">Unlock your culinary potential free today—no credit card required.</span>
+              Stop wasting time on meal planning and grocery shopping. Our AI-powered platform generates unlimited personalized recipes tailored to your taste, budget, and lifestyle—instantly. Plan entire weeks of perfectly balanced meals, slash your grocery bills by 30%, and eliminate 40% of food waste. Join 100K+ home cooks saving 10+ hours weekly while cooking restaurant-quality meals every night. <span className="font-bold text-emerald-300">Start your culinary revolution today—completely free, no credit card needed.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
@@ -95,7 +95,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Unlock Your Culinary Potential Now
+                  🚀 Start Cooking Smarter Today
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
@@ -105,7 +105,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ⚡ See All Powerful Features
+                  ✨ Explore All Features
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>

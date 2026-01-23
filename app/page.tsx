@@ -34,20 +34,20 @@ export default function Home() {
 
             {/* Main Headline - Enhanced */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Transform Your Kitchen Into a Culinary Powerhouse
+              Your Personal AI Chef Is Ready to Revolutionize Your Kitchen
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
-                AI-Powered Recipes • Smart Meal Planning • Restaurant-Quality Results
+                Unlimited Recipes • Perfect Meal Plans • Save 30% on Groceries
               </span>
             </h1>
 
             {/* Mission Statement - Enhanced */}
-            <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/70 backdrop-blur-sm shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 transition-all duration-300 hover:scale-105 transition-transform duration-300">
-              <p className="text-lg font-bold text-emerald-100">✨ Join 100K+ Home Cooks • Instant Personalization • Forever Free</p>
+            <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/40 to-cyan-500/40 border border-emerald-300/80 backdrop-blur-sm shadow-lg shadow-emerald-500/30 hover:shadow-emerald-500/50 transition-all duration-300 hover:scale-105 transition-transform duration-300">
+              <p className="text-lg font-bold text-emerald-50">🎯 100K+ Users • 10+ Hours Saved Weekly • 30% Less Spending</p>
             </div>
 
             {/* Subheading - Optimized */}
-            <p className="text-xl sm:text-2xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Discover endless culinary possibilities with AI that understands your taste, budget, and lifestyle. Get personalized recipe suggestions in seconds, plan nutritious meals for the entire week, and slash your grocery bills by 30%. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">reduce food waste by 40%</span>, and <span className="font-bold text-blue-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-400 text-lg">Start your culinary journey free today—no credit card required.</span>
+            <p className="text-xl sm:text-2xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
+              Stop wasting time and money on meal planning. Our AI instantly generates unlimited personalized recipes, plans perfectly balanced meals, and cuts your grocery bills by 30%. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span>, <span className="font-bold text-cyan-300">eliminate 40% of food waste</span>, and <span className="font-bold text-blue-300">cook like a professional chef</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join thousands of home cooks—start free today, no credit card needed.</span>
             </p>
 
             {/* Key Stats */}
@@ -84,20 +84,20 @@ export default function Home() {
                     betaSection.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/120 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Unlock Your Culinary Potential Now
+                  🚀 Start Cooking Smarter Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
 
               <Link
                 href="/features"
-                className="group relative px-12 py-7 border-2 border-emerald-400/80 text-white font-semibold rounded-2xl hover:bg-emerald-500/30 hover:border-emerald-200 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-emerald-500/10 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/40 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 bg-emerald-500/20 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ⚡ See All Powerful Features
+                  ✨ Explore All Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
