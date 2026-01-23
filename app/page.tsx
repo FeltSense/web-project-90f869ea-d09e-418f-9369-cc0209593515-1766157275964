@@ -34,7 +34,7 @@ export default function Home() {
 
             {/* Main Headline - Enhanced */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your Personal AI Chef Is Ready to Revolutionize Your Kitchen
+              Transform Your Kitchen Into a Restaurant With AI-Powered Meal Mastery
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
                 Unlimited Recipes • Perfect Meal Plans • Save 30% on Groceries
               </span>
@@ -42,12 +42,12 @@ export default function Home() {
 
             {/* Mission Statement - Enhanced */}
             <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/40 to-cyan-500/40 border border-emerald-300/80 backdrop-blur-sm shadow-lg shadow-emerald-500/30 hover:shadow-emerald-500/50 transition-all duration-300 hover:scale-105 transition-transform duration-300">
-              <p className="text-lg font-bold text-emerald-50">🎯 100K+ Users • 10+ Hours Saved Weekly • 30% Less Spending</p>
+              <p className="text-lg font-bold text-emerald-50">🎯 Trusted by 100K+ Home Cooks • Save 10+ Hours Weekly • Cut Costs by 30%</p>
             </div>
 
             {/* Subheading - Optimized */}
             <p className="text-xl sm:text-2xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Stop wasting time and money on meal planning. Our AI instantly generates unlimited personalized recipes, plans perfectly balanced meals, and cuts your grocery bills by 30%. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span>, <span className="font-bold text-cyan-300">eliminate 40% of food waste</span>, and <span className="font-bold text-blue-300">cook like a professional chef</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join thousands of home cooks—start free today, no credit card needed.</span>
+              Tired of the same boring meals? Overwhelmed by grocery shopping? Our AI-powered platform instantly generates unlimited personalized recipes tailored to your taste, budget, and lifestyle. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">save $1,200+ annually</span> on groceries, and <span className="font-bold text-blue-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks transforming their kitchens—start free today, no credit card needed.</span>
             </p>
 
             {/* Key Stats */}
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter Now
+                  🚀 Start Your Culinary Revolution
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -106,7 +106,7 @@ export default function Home() {
             {/* Key Benefits Section - Enhanced */}
             <div className="mt-32 mb-16">
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-center">The Three Pillars of Smarter Cooking</h2>
-              <p className="text-center text-slate-200 mb-16 max-w-3xl mx-auto text-lg leading-relaxed">RecipeAI revolutionizes home cooking by combining intelligent recipe generation, smart meal planning, and budget optimization. Save 10+ hours weekly, cut grocery costs by 30%, and eliminate 40% of food waste. Our AI learns your preferences and generates unlimited personalized recipes tailored to your taste, dietary needs, and available ingredients. Join 100K+ families who are already cooking restaurant-quality meals, saving money, and reducing waste every single day.</p>
+              <p className="text-center text-slate-200 mb-16 max-w-3xl mx-auto text-lg leading-relaxed">RecipeAI revolutionizes home cooking by combining intelligent recipe generation, smart meal planning, and budget optimization. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span>, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">eliminate 40% of food waste</span>. Our AI learns your preferences and generates unlimited personalized recipes tailored to your taste, dietary needs, and available ingredients. Join 100K+ families who are already cooking restaurant-quality meals, saving money, and reducing waste every single day.</p>
               <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/25 to-blue-500/25 border border-cyan-500/60 hover:border-cyan-200 transition hover:shadow-2xl hover:shadow-cyan-500/70 duration-300 hover:scale-105 transition-transform duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/35 hover:to-blue-500/35 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-blue-400/0 group-hover:from-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300"></div>
