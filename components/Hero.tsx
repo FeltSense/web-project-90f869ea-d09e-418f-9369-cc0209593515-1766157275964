@@ -83,27 +83,31 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Cook Smarter, Eat Better, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Save More Every Day</span>
+              Your Personal AI Chef, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Always Ready to Inspire</span>
             </h1>
             <p className="text-xl text-slate-200 mb-8 leading-relaxed font-medium">
-              Transform your kitchen with AI-powered recipes tailored to your taste, budget, and available ingredients. Get personalized dinner ideas in seconds, plan your entire week automatically, and cut grocery bills by 30%. Join 100K+ home cooks who are saving 10+ hours weekly, reducing food waste by 40%, and cooking restaurant-quality meals with confidence. <span className="font-bold text-emerald-300">Start free today—no credit card needed.</span>
+              Discover endless culinary possibilities with AI that understands your taste, budget, and lifestyle. Get personalized recipe suggestions in seconds, plan nutritious meals for the entire week, and slash your grocery bills by 30%. Join 100K+ home cooks saving 10+ hours weekly while reducing food waste by 40% and cooking like a professional chef every night. <span className="font-bold text-emerald-300">Start your culinary journey free today—no credit card required.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
-                className="px-10 py-4 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-950 font-bold rounded-xl hover:from-cyan-300 hover:via-emerald-300 hover:to-blue-300 transition shadow-lg shadow-cyan-400/60 hover:shadow-cyan-400/90 flex items-center justify-center gap-2 group text-lg hover:scale-105 active:scale-95"
+                className="px-12 py-5 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-950 font-bold rounded-xl hover:from-cyan-300 hover:via-emerald-300 hover:to-blue-300 transition shadow-lg shadow-cyan-400/60 hover:shadow-cyan-400/90 flex items-center justify-center gap-2 group text-lg hover:scale-105 active:scale-95 relative overflow-hidden before:absolute before:inset-0 before:bg-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                🚀 Get Started Free Now
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
+                <span className="relative z-10 flex items-center gap-2">
+                  🚀 Start Cooking Free Today
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
+                </span>
               </motion.button>
               <motion.button
-                className="px-8 py-4 border-2 border-emerald-400/80 text-white font-semibold rounded-xl hover:bg-emerald-500/30 hover:border-emerald-300 transition flex items-center justify-center gap-2 text-lg hover:scale-105 backdrop-blur-sm bg-emerald-500/10 active:scale-95"
+                className="px-10 py-5 border-2 border-emerald-400/80 text-white font-semibold rounded-xl hover:bg-emerald-500/30 hover:border-emerald-300 transition flex items-center justify-center gap-2 text-lg hover:scale-105 backdrop-blur-sm bg-emerald-500/10 active:scale-95 relative overflow-hidden before:absolute before:inset-0 before:bg-emerald-400/10 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                ✨ See All Features
-                <ArrowRight className="w-5 h-5" />
+                <span className="relative z-10 flex items-center gap-2">
+                  ✨ Explore Features
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
+                </span>
               </motion.button>
             </div>
           </motion.div>
