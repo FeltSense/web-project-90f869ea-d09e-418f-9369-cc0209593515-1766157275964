@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Enhanced */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Transform Your Kitchen Into a Restaurant With AI-Powered Meal Mastery
+              Your AI-Powered Personal Chef That Saves You 10+ Hours Weekly
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
-                Unlimited Recipes • Perfect Meal Plans • Save 30% on Groceries
+                Unlimited Recipes • Smart Meal Plans • Save $1,200+ Annually
               </span>
             </h1>
 
@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* Subheading - Optimized */}
             <p className="text-xl sm:text-2xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Tired of the same boring meals? Overwhelmed by grocery shopping? Our AI-powered platform instantly generates unlimited personalized recipes tailored to your taste, budget, and lifestyle. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">save $1,200+ annually</span> on groceries, and <span className="font-bold text-blue-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks transforming their kitchens—start free today, no credit card needed.</span>
+              Stop wasting time on meal planning and grocery shopping. Our AI-powered platform generates unlimited personalized recipes in seconds, tailored to your taste, budget, and dietary needs. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">save $1,200+ annually</span> on groceries, and <span className="font-bold text-blue-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks transforming their kitchens—start free today, no credit card needed.</span>
             </p>
 
             {/* Key Stats */}
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Your Culinary Revolution
+                  🚀 Get Started Free (No Credit Card)
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
