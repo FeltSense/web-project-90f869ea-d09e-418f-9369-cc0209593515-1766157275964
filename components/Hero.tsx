@@ -83,26 +83,26 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6 leading-tight">
-              Cook Smarter, Eat Better with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">AI Magic</span>
+              Your Personal AI Chef, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Always Ready to Inspire</span>
             </h1>
             <p className="text-xl text-slate-200 mb-8 leading-relaxed font-medium">
-              Get personalized recipes in seconds, plan your entire week automatically, and cut grocery bills by 30%. Join 100K+ home cooks saving 10+ hours weekly while cooking restaurant-quality meals with confidence. <span className="font-bold text-emerald-300">Start free today—no credit card needed.</span>
+              Discover endless meal possibilities tailored to your taste and budget. Get personalized recipes in seconds, plan your entire week automatically, and cut grocery bills by 30%. Join 100K+ home cooks saving 10+ hours weekly while cooking restaurant-quality meals with confidence. <span className="font-bold text-emerald-300">Start free today—no credit card needed.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
-                className="px-10 py-4 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-950 font-bold rounded-xl hover:from-cyan-300 hover:via-emerald-300 hover:to-blue-300 transition shadow-lg shadow-cyan-400/60 hover:shadow-cyan-400/90 flex items-center justify-center gap-2 group text-lg hover:scale-105"
+                className="px-10 py-4 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-950 font-bold rounded-xl hover:from-cyan-300 hover:via-emerald-300 hover:to-blue-300 transition shadow-lg shadow-cyan-400/60 hover:shadow-cyan-400/90 flex items-center justify-center gap-2 group text-lg hover:scale-105 active:scale-95"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                🚀 Get Started Free Now
+                ✨ Start Cooking Smarter Today
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
               </motion.button>
               <motion.button
-                className="px-8 py-4 border-2 border-emerald-400/80 text-white font-semibold rounded-xl hover:bg-emerald-500/30 hover:border-emerald-300 transition flex items-center justify-center gap-2 text-lg hover:scale-105 backdrop-blur-sm bg-emerald-500/10"
+                className="px-8 py-4 border-2 border-emerald-400/80 text-white font-semibold rounded-xl hover:bg-emerald-500/30 hover:border-emerald-300 transition flex items-center justify-center gap-2 text-lg hover:scale-105 backdrop-blur-sm bg-emerald-500/10 active:scale-95"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                ✨ See All Features
+                🎯 Explore Features
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
             </div>
