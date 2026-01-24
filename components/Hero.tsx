@@ -83,10 +83,10 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Transform Your Kitchen <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">with AI-Powered Recipes</span>
+              Your AI Chef Awaits <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Unlimited Recipes at Your Fingertips</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-200 mb-8 leading-relaxed font-medium">
-              Never wonder "what's for dinner?" again. Get unlimited personalized recipes in seconds, save 30% on groceries, and reduce food waste by 40%. Join 100K+ home cooks who've reclaimed 10+ hours weekly. <span className="font-bold text-emerald-300">Start free today—no credit card required.</span>
+              Discover personalized recipes tailored to your taste, budget, and dietary needs. Save 10+ hours weekly on meal planning, cut grocery costs by 30%, and eliminate food waste. <span className="font-bold text-emerald-300">Join 100K+ home cooks transforming their kitchens—start free today, no credit card needed.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
               <motion.button
@@ -95,7 +95,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Free
+                  🍳 Start Cooking Free
                   <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
@@ -105,7 +105,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Learn More
+                  📖 Explore Features
                   <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
