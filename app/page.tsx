@@ -32,10 +32,10 @@ export default function Home() {
               <span className="text-sm font-bold text-emerald-100">🏆 #1 AI RECIPE GENERATOR • 4.9★ RATING • 100K+ ACTIVE USERS</span>
             </div>
 
-            {/* Main Headline - Enhanced with More Compelling Value Proposition */}
-            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
+            {/* Main Headline - Enhanced with More Compelling Value Proposition & Mobile Optimization */}
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
               Never Wonder "What's for Dinner?" Again
-              <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold">
+              <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                 AI-Powered Recipes • Smart Meal Planning • Save 10+ Hours Weekly
               </span>
             </h1>
@@ -45,8 +45,8 @@ export default function Home() {
               <p className="text-lg font-bold text-emerald-50">🎯 Trusted by 100K+ Home Cooks • Save 10+ Hours Weekly • Cut Costs by 30%</p>
             </div>
 
-            {/* Subheading - Optimized with Stronger Value Proposition */}
-            <p className="text-xl sm:text-2xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
+            {/* Subheading - Optimized with Stronger Value Proposition & Mobile Responsive */}
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
               Imagine never stressing about "What's for dinner?" again. Our AI-powered platform generates unlimited personalized recipes in seconds, tailored to your taste, budget, and dietary needs. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">save $1,200+ annually</span> on groceries, <span className="font-bold text-blue-300">eliminate 40% of food waste</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks transforming their kitchens—start free today, no credit card needed.</span>
             </p>
 
@@ -75,7 +75,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* CTA Buttons - Enhanced with More Compelling Copy */}
+            {/* CTA Buttons - Enhanced with More Compelling Copy & Optimized Design */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-20">
               <button
                 onClick={() => {
@@ -84,7 +84,7 @@ export default function Home() {
                     betaSection.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-pulse hover:animate-none"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   🎯 Get Started Free - No Credit Card
@@ -94,7 +94,7 @@ export default function Home() {
 
               <Link
                 href="/features"
-                className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/40 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 bg-emerald-500/20 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60"
+                className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/40 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 bg-emerald-500/20 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60 md:text-base sm:px-10 sm:py-6"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   ✨ Explore Features & Pricing
