@@ -9,11 +9,12 @@
   --font-heading: 'Plus Jakarta Sans', system-ui, sans-serif;
   
   /* Brand Colors - USE THESE! */
-  --brand-primary: theme('colors.indigo.600');
-  --brand-primary-hover: theme('colors.indigo.700');
+  --brand-primary: theme('colors.emerald.500');
+  --brand-primary-hover: theme('colors.emerald.400');
   --brand-secondary: theme('colors.slate.900');
-  --brand-accent: theme('colors.emerald.500');
-  --brand-primary-light: theme('colors.indigo.50');
+  --brand-accent: theme('colors.cyan.500');
+  --brand-primary-light: theme('colors.emerald.50');
+  --brand-gradient: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
 }
 
 html { 
@@ -44,4 +45,27 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-brand-primary { 
   border-color: var(--brand-primary); 
+}
+
+/* 🎨 ENHANCED BRANDING STYLES */
+.gradient-brand {
+  background: var(--brand-gradient);
+}
+
+.text-gradient-brand {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth transitions for all interactive elements */
+button, a {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Enhanced focus states for accessibility */
+button:focus-visible, a:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
 }

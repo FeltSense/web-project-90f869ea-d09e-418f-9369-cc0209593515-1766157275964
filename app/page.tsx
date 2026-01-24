@@ -34,7 +34,7 @@ export default function Home() {
 
             {/* Main Headline - Enhanced with More Compelling Value Proposition & Mobile Optimization */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your Personal AI Chef is Ready
+              Transform Your Kitchen with AI
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                 Unlimited Recipes • Smarter Meal Planning • 10+ Hours Saved Weekly
               </span>

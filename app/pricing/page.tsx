@@ -312,7 +312,7 @@ export default function PricingPage(): JSX.Element {
               </span>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-              Transparent Pricing for{' '}
+              Simple, Transparent Pricing for{' '}
               <span className="bg-gradient-to-r from-emerald-300 via-teal-400 to-cyan-500 bg-clip-text text-transparent">
                 Every Kitchen
               </span>
