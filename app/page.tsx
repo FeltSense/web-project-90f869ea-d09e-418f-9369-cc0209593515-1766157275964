@@ -221,44 +221,44 @@ export default function Home() {
       {/* Features Section */}
 
       {/* Quick Wins Section - Highlight Key Product Benefits */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-900 overflow-hidden border-t border-slate-700/50\">
-        <div className="relative z-10 max-w-6xl mx-auto\">
-          <div className=\"text-center mb-16\">
-            <h2 className=\"text-4xl sm:text-5xl font-bold text-white mb-6\">Why RecipeAI is Different</h2>
-            <p className=\"text-lg text-slate-200 max-w-2xl mx-auto\">Experience the power of AI-driven cooking that adapts to your lifestyle</p>
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-900 overflow-hidden border-t border-slate-700/50">
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">Why RecipeAI is Different</h2>
+            <p className="text-lg text-slate-200 max-w-2xl mx-auto">Experience the power of AI-driven cooking that adapts to your lifestyle</p>
           </div>
 
-          <div className=\"grid md:grid-cols-3 gap-8\">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className=\"relative p-8 rounded-2xl bg-gradient-to-br from-cyan-600/20 to-blue-600/20 border border-cyan-500/40 hover:border-cyan-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/40 group cursor-pointer hover:scale-105\">
-              <div className=\"absolute top-0 right-0 w-24 h-24 bg-cyan-400/20 rounded-full blur-2xl group-hover:bg-cyan-400/40 transition-all duration-300\"></div>
-              <div className=\"relative z-10\">
-                <div className=\"text-5xl mb-4 group-hover:scale-110 transition-transform duration-300\">⚡</div>
-                <h3 className=\"text-2xl font-bold text-white mb-3\">Instant Recipe Ideas</h3>
-                <p className=\"text-slate-100 text-sm leading-relaxed\">Get personalized recipe suggestions in seconds, not hours. Our AI learns your taste and generates dishes you'll love cooking.</p>
-                <div className=\"mt-4 text-xs text-cyan-300 font-semibold\">✓ 10,000+ recipes • Instant personalization</div>
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-cyan-600/20 to-blue-600/20 border border-cyan-500/40 hover:border-cyan-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/40 group cursor-pointer hover:scale-105">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-cyan-400/20 rounded-full blur-2xl group-hover:bg-cyan-400/40 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">⚡</div>
+                <h3 className="text-2xl font-bold text-white mb-3">Instant Recipe Ideas</h3>
+                <p className="text-slate-100 text-sm leading-relaxed">Get personalized recipe suggestions in seconds, not hours. Our AI learns your taste and generates dishes you'll love cooking.</p>
+                <div className="mt-4 text-xs text-cyan-300 font-semibold">✓ 10,000+ recipes • Instant personalization</div>
               </div>
             </div>
 
             {/* Feature 2 */}
-            <div className=\"relative p-8 rounded-2xl bg-gradient-to-br from-emerald-600/20 to-teal-600/20 border border-emerald-500/40 hover:border-emerald-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/40 group cursor-pointer hover:scale-105\">
-              <div className=\"absolute top-0 right-0 w-24 h-24 bg-emerald-400/20 rounded-full blur-2xl group-hover:bg-emerald-400/40 transition-all duration-300\"></div>
-              <div className=\"relative z-10\">
-                <div className=\"text-5xl mb-4 group-hover:scale-110 transition-transform duration-300\">💰</div>
-                <h3 className=\"text-2xl font-bold text-white mb-3\">Save 30% on Groceries</h3>
-                <p className=\"text-slate-100 text-sm leading-relaxed\">Smart budget optimization finds the best deals and suggests ingredient swaps automatically. Save $1,200+ yearly.</p>
-                <div className=\"mt-4 text-xs text-emerald-300 font-semibold\">✓ Budget-friendly • Smart swaps</div>
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-emerald-600/20 to-teal-600/20 border border-emerald-500/40 hover:border-emerald-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/40 group cursor-pointer hover:scale-105">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-400/20 rounded-full blur-2xl group-hover:bg-emerald-400/40 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">💰</div>
+                <h3 className="text-2xl font-bold text-white mb-3">Save 30% on Groceries</h3>
+                <p className="text-slate-100 text-sm leading-relaxed">Smart budget optimization finds the best deals and suggests ingredient swaps automatically. Save $1,200+ yearly.</p>
+                <div className="mt-4 text-xs text-emerald-300 font-semibold">✓ Budget-friendly • Smart swaps</div>
               </div>
             </div>
 
             {/* Feature 3 */}
-            <div className=\"relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/20 to-pink-600/20 border border-purple-500/40 hover:border-purple-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/40 group cursor-pointer hover:scale-105\">
-              <div className=\"absolute top-0 right-0 w-24 h-24 bg-purple-400/20 rounded-full blur-2xl group-hover:bg-purple-400/40 transition-all duration-300\"></div>
-              <div className=\"relative z-10\">
-                <div className=\"text-5xl mb-4 group-hover:scale-110 transition-transform duration-300\">🌱</div>
-                <h3 className=\"text-2xl font-bold text-white mb-3\">Reduce Food Waste by 40%</h3>
-                <p className=\"text-slate-100 text-sm leading-relaxed\">AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook sustainably.</p>
-                <div className=\"mt-4 text-xs text-purple-300 font-semibold\">✓ Eco-friendly • Zero waste</div>
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/20 to-pink-600/20 border border-purple-500/40 hover:border-purple-400/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/40 group cursor-pointer hover:scale-105">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-purple-400/20 rounded-full blur-2xl group-hover:bg-purple-400/40 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">🌱</div>
+                <h3 className="text-2xl font-bold text-white mb-3">Reduce Food Waste by 40%</h3>
+                <p className="text-slate-100 text-sm leading-relaxed">AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook sustainably.</p>
+                <div className="mt-4 text-xs text-purple-300 font-semibold">✓ Eco-friendly • Zero waste</div>
               </div>
             </div>
           </div>
@@ -338,7 +338,7 @@ export default function Home() {
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🤖</div>
                 <h3 className="text-2xl font-bold text-white mb-3">AI-Powered Recipe Generation</h3>
-                <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-cyan-300">🎯 Never ask &quot;what&apos;s for dinner?&quot; again.</span> Get unlimited personalized recipes in seconds based on your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste preferences and suggests delicious dishes you&apos;ll love. Works with any ingredients you have on hand—from pantry staples to fresh produce.</p>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4 font-medium"><span className="font-semibold text-cyan-300">🎯 Never ask what&apos;s for dinner again.</span> Get unlimited personalized recipes in seconds based on your ingredients, dietary preferences, and cooking skill level. Our advanced AI learns your taste preferences and suggests delicious dishes you&apos;ll love. Works with any ingredients you have on hand—from pantry staples to fresh produce.</p>
                 <div className="text-xs text-cyan-300 font-semibold">✓ Instant personalization • Taste learning • 10,000+ recipes • Works offline</div>
               </div>
             </div>
