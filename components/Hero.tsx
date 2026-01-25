@@ -83,10 +83,10 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Cook Smarter, <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Live Better with AI</span>
+              Your AI Kitchen <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Companion Awaits</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-200 mb-8 leading-relaxed font-medium">
-              Experience the future of home cooking with AI-powered recipes tailored to your taste, budget, and dietary needs. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">eliminate food waste</span>. <span className="font-bold text-emerald-300">Join 100K+ home cooks—start free today, no credit card needed.</span>
+              Transform your kitchen with AI-powered recipes that adapt to your taste, budget, and lifestyle. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">slash grocery bills by 30%</span>, and <span className="font-bold text-blue-300">eliminate food waste forever</span>. <span className="font-bold text-emerald-300">Join 100K+ home cooks revolutionizing their kitchens—start free today, no credit card required.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
               <motion.button
@@ -95,7 +95,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🍳 Get Your First Recipe Free
+                  🚀 Start Cooking Smarter Now
                   <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
@@ -105,7 +105,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  📖 Explore Features
+                  ✨ See What's Possible
                   <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
