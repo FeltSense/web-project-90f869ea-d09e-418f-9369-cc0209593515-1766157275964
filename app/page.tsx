@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-pulse hover:animate-none"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter Now
+                  🚀 Get Started Free - No Credit Card
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -137,6 +137,32 @@ export default function Home() {
                     <div className="pt-6 border-t border-purple-400/40 text-purple-300 text-sm font-semibold">✓ Eco-friendly cooking</div>
                   </div>
                 </div>
+              </div>
+            </div>
+
+            {/* Premium CTA Section - Limited Time Offer */}
+            <div className=\"mt-20 p-12 rounded-3xl bg-gradient-to-r from-emerald-600/40 via-cyan-600/40 to-blue-600/40 border-2 border-emerald-400/80 backdrop-blur-sm shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all duration-300 relative overflow-hidden group\">
+              <div className=\"absolute inset-0 bg-gradient-to-r from-emerald-400/0 via-cyan-400/0 to-blue-400/0 group-hover:from-emerald-400/10 group-hover:via-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300\"></div>
+              <div className=\"relative z-10 text-center\">
+                <div className=\"inline-block px-6 py-2 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-slate-900 font-bold text-sm mb-6 animate-pulse\">
+                  ⚡ EXCLUSIVE OFFER - LIMITED TIME
+                </div>
+                <h3 className=\"text-4xl sm:text-5xl font-bold text-white mb-4\">Ready to Transform Your Kitchen?</h3>
+                <p className=\"text-xl text-slate-100 max-w-2xl mx-auto mb-8 leading-relaxed\">
+                  Join 100K+ home cooks saving 10+ hours weekly and cutting grocery bills by 30%. Start your free trial today—no credit card, no commitment, cancel anytime.
+                </p>
+                <button
+                  onClick={() => {
+                    const betaSection = document.getElementById('beta-signup-section');
+                    if (betaSection) {
+                      betaSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                  className=\"inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/50 transition-all duration-300 hover:scale-110 active:scale-95 text-lg\"
+                >
+                  🎯 Claim Your Free Access Now
+                  <ArrowRight className=\"w-6 h-6\" />
+                </button>
               </div>
             </div>
 
@@ -217,7 +243,46 @@ export default function Home() {
               Six powerful features designed to transform your kitchen. From AI-powered recipe generation to smart shopping lists, every tool is built to save you time, cut costs, and reduce food waste. Discover how RecipeAI makes cooking easier, faster, and more enjoyable than ever before.
             </p>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium">
-              <span className="text-emerald-300 font-bold">🎯 AI-Powered • Personalized • Effortless</span>
+              <span className="text-emerald-300 font-bold">🎯 AI-Powered • Personalized • Effortless
+
+          {/* Top 3 Featured Highlights */}
+          <div className=\"mb-16 grid md:grid-cols-3 gap-6 max-w-5xl mx-auto\">
+            <div className=\"relative p-8 rounded-2xl bg-gradient-to-br from-cyan-600/30 to-blue-600/30 border-2 border-cyan-400/80 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transition-all duration-300 hover:scale-105 group overflow-hidden\">
+              <div className=\"absolute top-0 right-0 w-32 h-32 bg-cyan-400/20 rounded-full blur-2xl group-hover:bg-cyan-400/40 transition-all duration-300\"></div>
+              <div className=\"relative z-10\">
+                <div className=\"inline-block px-4 py-2 rounded-lg bg-cyan-500/40 border border-cyan-300/80 mb-4\">
+                  <span className=\"text-xs font-bold text-cyan-100\">⭐ TOP FEATURE</span>
+                </div>
+                <h4 className=\"text-2xl font-bold text-white mb-3\">🤖 AI Recipe Magic</h4>
+                <p className=\"text-slate-100 text-sm leading-relaxed mb-4\">Get unlimited personalized recipes in seconds. Our AI learns your taste and generates dishes you'll love.</p>
+                <div className=\"text-xs text-cyan-300 font-semibold\">✓ 10,000+ recipes • Instant personalization • Taste learning</div>
+              </div>
+            </div>
+
+            <div className=\"relative p-8 rounded-2xl bg-gradient-to-br from-emerald-600/30 to-teal-600/30 border-2 border-emerald-400/80 shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all duration-300 hover:scale-105 group overflow-hidden\">
+              <div className=\"absolute top-0 right-0 w-32 h-32 bg-emerald-400/20 rounded-full blur-2xl group-hover:bg-emerald-400/40 transition-all duration-300\"></div>
+              <div className=\"relative z-10\">
+                <div className=\"inline-block px-4 py-2 rounded-lg bg-emerald-500/40 border border-emerald-300/80 mb-4\">
+                  <span className=\"text-xs font-bold text-emerald-100\">⭐ TOP FEATURE</span>
+                </div>
+                <h4 className=\"text-2xl font-bold text-white mb-3\">💰 Save 30% on Groceries</h4>
+                <p className=\"text-slate-100 text-sm leading-relaxed mb-4\">Smart budget optimization finds the best deals and suggests ingredient swaps automatically.</p>
+                <div className=\"text-xs text-emerald-300 font-semibold\">✓ Budget-friendly • Smart swaps • Save $1,200+ yearly</div>
+              </div>
+            </div>
+
+            <div className=\"relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/30 to-pink-600/30 border-2 border-purple-400/80 shadow-2xl shadow-purple-500/50 hover:shadow-purple-500/70 transition-all duration-300 hover:scale-105 group overflow-hidden\">
+              <div className=\"absolute top-0 right-0 w-32 h-32 bg-purple-400/20 rounded-full blur-2xl group-hover:bg-purple-400/40 transition-all duration-300\"></div>
+              <div className=\"relative z-10\">
+                <div className=\"inline-block px-4 py-2 rounded-lg bg-purple-500/40 border border-purple-300/80 mb-4\">
+                  <span className=\"text-xs font-bold text-purple-100\">⭐ TOP FEATURE</span>
+                </div>
+                <h4 className=\"text-2xl font-bold text-white mb-3\">🌱 Reduce Waste by 40%</h4>
+                <p className=\"text-slate-100 text-sm leading-relaxed mb-4\">AI-powered recipes use ingredients you already have, preventing spoilage and saving money.</p>
+                <div className=\"text-xs text-purple-300 font-semibold\">✓ Eco-friendly • Sustainable • Zero waste</div>
+              </div>
+            </div>
+          </div></span>
             </p>
           </div>
 
