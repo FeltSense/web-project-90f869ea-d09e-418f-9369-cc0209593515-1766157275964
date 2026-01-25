@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Premium Value Proposition with Strong Visual Hierarchy */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Cook Smarter, Live Better
+              Transform Your Kitchen with AI-Powered Cooking
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                AI-Powered Recipes • Save Time & Money • Reduce Waste
+                Unlimited Recipes • Smart Meal Plans • Budget Optimization
               </span>
             </h1>
 
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-pulse hover:animate-none"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🍳 Get Your First Recipe Free
+                  🚀 Start Cooking Smarter Today
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -97,7 +97,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/40 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 bg-emerald-500/20 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60 md:text-base sm:px-10 sm:py-6"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore All Features
+                  ⭐ See What's Possible
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -208,16 +208,16 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-20">
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
-              <span className="text-sm font-bold text-cyan-100">⚡ POWERFUL FEATURES • BUILT FOR YOUR KITCHEN</span>
+              <span className="text-sm font-bold text-cyan-100">⚡ KEY PRODUCT FEATURES • TRANSFORM YOUR COOKING</span>
             </div>
             <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
-              <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">Everything You Need to Cook Smarter</span>
+              <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">Powerful Features Built for Modern Home Cooks</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
-              Discover six powerful features designed to revolutionize your cooking experience. From AI-powered recipe generation to advanced nutrition tracking, every tool is crafted to save you time, money, and effort while making cooking more enjoyable.
+              Discover the complete toolkit that makes RecipeAI the #1 choice for home cooks worldwide. From intelligent recipe generation to advanced meal planning, every feature is designed to save you time, cut costs, and reduce food waste—while making cooking more enjoyable than ever.
             </p>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium">
-              <span className="text-emerald-300 font-bold">✨ Smart • Personalized • Effortless</span>
+              <span className="text-emerald-300 font-bold">🎯 AI-Powered • Personalized • Effortless</span>
             </p>
           </div>
 
