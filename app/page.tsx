@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Premium Value Proposition with Strong Visual Hierarchy */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your Personal AI Chef, Always Ready to Inspire
+              Cook Smarter, Save More, Waste Less
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Endless Recipes • Smarter Meals • Maximum Savings
+                Your AI-Powered Kitchen Companion
               </span>
             </h1>
 
@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* Subheading - Optimized with Stronger Value Proposition & Mobile Responsive */}
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Experience the future of home cooking. Our AI-powered platform generates unlimited personalized recipes tailored to your taste, budget, and dietary needs. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">save $1,200+ annually</span> on groceries, <span className="font-bold text-blue-300">eliminate 40% of food waste</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks transforming their kitchens—start free today, no credit card required.</span>
+              Stop wasting time on meal planning and money on groceries. RecipeAI generates unlimited personalized recipes in seconds, tailored to your ingredients, budget, and dietary needs. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal prep, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks—start free today, no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-pulse hover:animate-none"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Unlock Your AI Chef Now
+                  🚀 Start Cooking Smarter Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -105,8 +105,8 @@ export default function Home() {
 
             {/* Key Benefits Section - Enhanced */}
             <div className="mt-32 mb-16">
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-center">Transform Your Kitchen with AI</h2>
-              <p className="text-center text-slate-200 mb-16 max-w-3xl mx-auto text-lg leading-relaxed">RecipeAI revolutionizes home cooking by combining intelligent recipe generation, smart meal planning, and budget optimization. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span>, <span className="font-bold text-cyan-300">cut grocery costs by 30%</span>, and <span className="font-bold text-blue-300">eliminate 40% of food waste</span>. Our advanced AI learns your preferences and generates unlimited personalized recipes tailored to your taste, dietary needs, and available ingredients. Join 100K+ families who are already cooking restaurant-quality meals, saving money, and reducing waste every single day.</p>
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-center">Why Home Cooks Love RecipeAI</h2>
+              <p className="text-center text-slate-200 mb-16 max-w-3xl mx-auto text-lg leading-relaxed">Discover the three core benefits that make RecipeAI the #1 choice for busy home cooks. Each feature is designed to save you time, cut costs, and reduce waste while making cooking more enjoyable. From instant recipe generation to smart budget optimization, RecipeAI handles the hard work so you can focus on what matters—delicious meals and quality time with family.</p>
               <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/25 to-blue-500/25 border border-cyan-500/60 hover:border-cyan-200 transition hover:shadow-2xl hover:shadow-cyan-500/70 duration-300 hover:scale-105 transition-transform duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/35 hover:to-blue-500/35 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-blue-400/0 group-hover:from-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300"></div>
@@ -211,10 +211,10 @@ export default function Home() {
               <span className="text-sm font-bold text-cyan-100">⚡ KEY PRODUCT FEATURES • TRANSFORM YOUR COOKING</span>
             </div>
             <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
-              <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">Powerful Features Built for Modern Home Cooks</span>
+              <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">Everything You Need to Cook Smarter</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
-              Discover the complete toolkit that makes RecipeAI the #1 choice for home cooks worldwide. From intelligent recipe generation to advanced meal planning, every feature is designed to save you time, cut costs, and reduce food waste—while making cooking more enjoyable than ever.
+              Six powerful features designed to transform your kitchen. From AI-powered recipe generation to smart shopping lists, every tool is built to save you time, cut costs, and reduce food waste. Discover how RecipeAI makes cooking easier, faster, and more enjoyable than ever before.
             </p>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium">
               <span className="text-emerald-300 font-bold">🎯 AI-Powered • Personalized • Effortless</span>
