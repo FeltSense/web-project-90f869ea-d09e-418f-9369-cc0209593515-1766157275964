@@ -83,7 +83,7 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Transform Your Kitchen with <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">AI-Powered Culinary Magic</span>
+              Your Personal AI Chef, Always Ready to Inspire <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-300">Unlimited Recipes, Zero Stress, Maximum Flavor</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-200 mb-8 leading-relaxed font-medium">
               Imagine having a personal chef who knows exactly what you love, what's in your pantry, and your budget. RecipeAI does exactly that—generating unlimited personalized recipes in seconds. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every single night. <span className="font-bold text-emerald-300">Join 100K+ home cooks transforming their kitchens—start completely free today, no credit card required.</span>
@@ -95,7 +95,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Your Free Trial Now
+                  ✨ Get Started Free Today
                   <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-2 transition" />
                 </span>
               </motion.button>
@@ -105,7 +105,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Discover What's Possible
+                  🎯 See What's Possible
                   <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-2 transition" />
                 </span>
               </motion.button>
