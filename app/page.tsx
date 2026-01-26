@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Premium Value Proposition with Strong Visual Hierarchy */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your Personal AI Chef
+              Transform Your Kitchen with AI
               <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Always Ready to Inspire Your Kitchen
+                Delicious Meals, Less Time, More Savings
               </span>
             </h1>
 
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-500 via-emerald-500 to-blue-500 text-white font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-pulse hover:animate-none"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Begin Your Culinary Adventure Now
+                  🚀 Get Started Free - No Credit Card Required
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -97,7 +97,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/40 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 bg-emerald-500/20 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60 md:text-base sm:px-10 sm:py-6"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🎯 Explore All Features
+                  ✨ See How It Works
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -145,11 +145,11 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/0 via-cyan-400/0 to-blue-400/0 group-hover:from-emerald-400/10 group-hover:via-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300"></div>
               <div className="relative z-10 text-center">
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-slate-900 font-bold text-sm mb-6 animate-pulse">
-                  ⚡ EXCLUSIVE OFFER - LIMITED TIME
+                  ⚡ SPECIAL OFFER - START FREE TODAY
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">Ready to Transform Your Kitchen?</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">Join 100K+ Home Cooks Saving Time & Money</h3>
                 <p className="text-xl text-slate-100 max-w-2xl mx-auto mb-8 leading-relaxed">
-                  Join 100K+ home cooks saving 10+ hours weekly and cutting grocery bills by 30%. Start your free trial today—no credit card, no commitment, cancel anytime.
+                  Reclaim 10+ hours weekly, cut grocery bills by 30%, and reduce food waste by 40%. All completely free—no credit card, no commitment, cancel anytime.
                 </p>
                 <button
                   onClick={() => {
@@ -160,7 +160,7 @@ export default function Home() {
                   }}
                   className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/50 transition-all duration-300 hover:scale-110 active:scale-95 text-lg"
                 >
-                  🎯 Claim Your Free Access Now
+                  🚀 Unlock Your Free Account Now
                   <ArrowRight className="w-6 h-6" />
                 </button>
               </div>
