@@ -80,14 +80,25 @@ const pricingTiers: PricingTier[] = [
 
 const comparisonFeatures: ComparisonFeature[] = [
   { name: 'AI Recipe Generation', starter: true, pro: true, premium: true },
+  { name: 'Unlimited Recipes', starter: true, pro: true, premium: true },
   { name: 'Meal Planning', starter: true, pro: true, premium: true },
+  { name: 'Dietary Preferences', starter: true, pro: true, premium: true },
+  { name: 'Shopping Lists', starter: true, pro: true, premium: true },
+  { name: 'Mobile App Access', starter: true, pro: true, premium: true },
+  { name: 'Community Recipes', starter: true, pro: true, premium: true },
   { name: 'Nutrition Tracking', starter: false, pro: true, premium: true },
-  { name: 'Smart Shopping Lists', starter: false, pro: true, premium: true },
+  { name: 'Smart Substitutions', starter: false, pro: true, premium: true },
   { name: 'Recipe Customization', starter: false, pro: true, premium: true },
+  { name: 'Ad-Free Experience', starter: false, pro: true, premium: true },
+  { name: 'Offline Access', starter: false, pro: true, premium: true },
   { name: 'Priority Support', starter: false, pro: true, premium: true },
   { name: 'Personal Nutrition Coach', starter: false, pro: false, premium: true },
   { name: 'Meal Prep Guides', starter: false, pro: false, premium: true },
-  { name: 'Exclusive Chef Recipes', starter: false, pro: false, premium: true }
+  { name: 'Family Meal Planning', starter: false, pro: false, premium: true },
+  { name: 'Restaurant Recommendations', starter: false, pro: false, premium: true },
+  { name: 'Exclusive Chef Recipes', starter: false, pro: false, premium: true },
+  { name: '24/7 Priority Support', starter: false, pro: false, premium: true },
+  { name: 'Custom Recipe Creation', starter: false, pro: false, premium: true }
 ];
 
 const faqItems: FAQItem[] = [
@@ -360,6 +371,21 @@ export default function PricingPage(): JSX.Element {
             </motion.div>
           </div>
         </section>
+
+        {/* Value Proposition Section */}
+        <section className="px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-b from-slate-900/50 to-slate-950/50 border-y border-white/10">
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="text-center mb-12"
+            >
+              <h2 className="text-4xl font-bold text-white mb-4">Why Choose RecipeAI?</h2>
+              <p className="text-gray-400">See the real value you'll get from each plan</p>
+            </motion.div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8\">\n              <motion.div\n                initial={{ opacity: 0, y: 20 }}\n                whileInView={{ opacity: 1, y: 0 }}\n                transition={{ duration: 0.5, delay: 0 }}\n                viewport={{ once: true }}\n                className=\"bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors\"\n              >\n                <div className=\"text-4xl mb-4\">⏱️</div>\n                <h3 className=\"text-xl font-bold text-white mb-3\">Save 10+ Hours Weekly</h3>\n                <p className=\"text-gray-300 mb-4\">Stop spending hours deciding what to cook. Get personalized recipes in seconds.</p>\n                <ul className=\"space-y-2 text-sm text-gray-400\">\n                  <li>✓ Instant recipe generation</li>\n                  <li>✓ Automated meal planning</li>\n                  <li>✓ Smart shopping lists</li>\n                </ul>\n              </motion.div>\n              <motion.div\n                initial={{ opacity: 0, y: 20 }}\n                whileInView={{ opacity: 1, y: 0 }}\n                transition={{ duration: 0.5, delay: 0.1 }}\n                viewport={{ once: true }}\n                className=\"bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors\"\n              >\n                <div className=\"text-4xl mb-4\">💰</div>\n                <h3 className=\"text-xl font-bold text-white mb-3\">Save $1,200+ Annually</h3>\n                <p className=\"text-gray-300 mb-4\">Cut your grocery bills by 30% with smart budget optimization and ingredient swaps.</p>\n                <ul className=\"space-y-2 text-sm text-gray-400\">\n                  <li>✓ Price optimization</li>\n                  <li>✓ Smart substitutions</li>\n                  <li>✓ Budget-friendly recipes</li>\n                </ul>\n              </motion.div>\n              <motion.div\n                initial={{ opacity: 0, y: 20 }}\n                whileInView={{ opacity: 1, y: 0 }}\n                transition={{ duration: 0.5, delay: 0.2 }}\n                viewport={{ once: true }}\n                className=\"bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors\"\n              >\n                <div className=\"text-4xl mb-4\">🌱</div>\n                <h3 className=\"text-xl font-bold text-white mb-3\">Reduce Waste by 40%</h3>\n                <p className=\"text-gray-300 mb-4\">Use ingredients you already have with AI-powered recipes that prevent food spoilage.</p>\n                <ul className=\"space-y-2 text-sm text-gray-400\">\n                  <li>✓ Eco-friendly cooking</li>\n                  <li>✓ Pantry-based recipes</li>\n                  <li>✓ Sustainable meals</li>\n                </ul>\n              </motion.div>\n            </div>\n          </div>\n        </section>
 
         {/* Comparison Table */}
         <section className="px-4 sm:px-6 lg:px-8 py-16">

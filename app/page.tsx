@@ -622,6 +622,137 @@ export default function Home() {
       {/* Sample Recipes Section */}
       <SampleRecipes />
 
+      {/* Success Stories Section - New */}
+      <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
+        {/* Background elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/80 mb-8 backdrop-blur-sm">
+              <span className="text-sm font-bold text-emerald-100">⭐ REAL RESULTS • REAL PEOPLE • REAL IMPACT</span>
+            </div>
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+              <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">Success Stories from Our Community</span>
+            </h2>
+            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
+              See how 100K+ home cooks are transforming their kitchens and lives with RecipeAI. Real results from real people.
+            </p>
+          </div>
+
+          {/* Success stories grid */}
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            {/* Story 1 */}
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-600/20 to-blue-600/20 border-2 border-cyan-400/60 hover:border-cyan-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50 group cursor-pointer hover:scale-105">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-400 to-blue-400 flex items-center justify-center text-2xl">👩‍🍳</div>
+                <div>
+                  <h4 className="font-bold text-white text-lg">Sarah M.</h4>
+                  <p className="text-sm text-slate-300">Busy Mom of 3</p>
+                </div>
+              </div>
+              <p className="text-slate-100 mb-6 leading-relaxed">"RecipeAI saved me 15 hours a week! No more stressing about what to cook. My kids actually eat the meals now because they're personalized to their tastes."</p>
+              <div className="space-y-3 border-t border-cyan-400/30 pt-6">
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">⏱️</span>
+                  <span className="text-slate-200"><span className="font-bold text-cyan-300">15 hours</span> saved weekly</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">💰</span>
+                  <span className="text-slate-200"><span className="font-bold text-cyan-300">$200/month</span> saved on groceries</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">😊</span>
+                  <span className="text-slate-200">Family meals <span className="font-bold text-cyan-300">5x per week</span></span>
+                </div>
+              </div>
+            </div>
+
+            {/* Story 2 */}
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-emerald-600/20 to-teal-600/20 border-2 border-emerald-400/60 hover:border-emerald-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/50 group cursor-pointer hover:scale-105">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-400 to-teal-400 flex items-center justify-center text-2xl">🏃‍♂️</div>
+                <div>
+                  <h4 className="font-bold text-white text-lg">James T.</h4>
+                  <p className="text-sm text-slate-300">Fitness Enthusiast</p>
+                </div>
+              </div>
+              <p className="text-slate-100 mb-6 leading-relaxed">"As someone tracking macros, RecipeAI is a game-changer. I get recipes that fit my fitness goals perfectly. Hit my targets every single day now."</p>
+              <div className="space-y-3 border-t border-emerald-400/30 pt-6">
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">💪</span>
+                  <span className="text-slate-200">Macro goals <span className="font-bold text-emerald-300">100% achieved</span></span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">🍽️</span>
+                  <span className="text-slate-200"><span className="font-bold text-emerald-300">30+ recipes</span> per month</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">⭐</span>
+                  <span className="text-slate-200">Meal prep <span className="font-bold text-emerald-300">stress-free</span></span>
+                </div>
+              </div>
+            </div>
+
+            {/* Story 3 */}
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-purple-600/20 to-pink-600/20 border-2 border-purple-400/60 hover:border-purple-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group cursor-pointer hover:scale-105">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-400 to-pink-400 flex items-center justify-center text-2xl">🌱</div>
+                <div>
+                  <h4 className="font-bold text-white text-lg">Emma L.</h4>
+                  <p className="text-sm text-slate-300">Sustainability Advocate</p>
+                </div>
+              </div>
+              <p className="text-slate-100 mb-6 leading-relaxed">"I've reduced my food waste by 45% and my carbon footprint significantly. RecipeAI helps me cook sustainably without sacrificing taste or variety."</p>
+              <div className="space-y-3 border-t border-purple-400/30 pt-6">
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">🌍</span>
+                  <span className="text-slate-200">Food waste <span className="font-bold text-purple-300">45% reduced</span></span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">🥬</span>
+                  <span className="text-slate-200">Seasonal recipes <span className="font-bold text-purple-300">prioritized</span></span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">💚</span>
+                  <span className="text-slate-200">Eco-friendly <span className="font-bold text-purple-300">every meal</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Impact metrics */}
+          <div className="bg-gradient-to-r from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-8 sm:p-12 backdrop-blur-sm shadow-2xl shadow-slate-900/50">
+            <h3 className="text-2xl font-bold text-white mb-8 text-center">Community Impact</h3>
+            <div className="grid md:grid-cols-4 gap-8">
+              <div className="text-center">
+                <p className="text-5xl font-bold text-emerald-400 mb-2">100K+</p>
+                <p className="text-slate-200 font-semibold">Active Users</p>
+                <p className="text-sm text-slate-300 mt-2">Growing daily</p>
+              </div>
+              <div className="text-center">
+                <p className="text-5xl font-bold text-cyan-400 mb-2">50M+</p>
+                <p className="text-slate-200 font-semibold">Recipes Generated</p>
+                <p className="text-sm text-slate-300 mt-2">This month alone</p>
+              </div>
+              <div className="text-center">
+                <p className="text-5xl font-bold text-purple-400 mb-2">1.2M</p>
+                <p className="text-slate-200 font-semibold">Hours Saved</p>
+                <p className="text-sm text-slate-300 mt-2">Weekly by our users</p>
+              </div>
+              <div className="text-center">
+                <p className="text-5xl font-bold text-orange-400 mb-2">$30M+</p>
+                <p className="text-slate-200 font-semibold">Saved on Groceries</p>
+                <p className="text-sm text-slate-300 mt-2">Collectively by users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Customer Testimonials Section */}
       <Testimonials />
 
@@ -705,6 +836,114 @@ export default function Home() {
                   <p className="text-4xl font-bold text-purple-400 mb-2">40% Reduction</p>
                   <p className="text-slate-200 font-semibold">in Food Waste</p>
                   <p className="text-sm text-slate-300 mt-2">Eco-friendly cooking solutions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works Section - New */}
+      <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
+        {/* Background elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
+              <span className="text-sm font-bold text-cyan-100">🚀 SIMPLE PROCESS • GET STARTED IN MINUTES</span>
+            </div>
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+              <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">How RecipeAI Works</span>
+            </h2>
+            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
+              Getting started is simple. In just 4 easy steps, you'll be generating personalized recipes and saving hours on meal planning.
+            </p>
+          </div>
+
+          {/* Step-by-step process */}
+          <div className="grid md:grid-cols-4 gap-6 mb-16">
+            {/* Step 1 */}
+            <div className="relative">
+              <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-600/25 to-blue-600/25 border-2 border-cyan-400/60 hover:border-cyan-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50 group cursor-pointer hover:scale-105 h-full">
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-r from-cyan-400 to-blue-400 flex items-center justify-center text-white font-bold text-lg shadow-lg">
+                  1
+                </div>
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300 mt-4">📝</div>
+                <h3 className="text-xl font-bold text-white mb-3">Sign Up Free</h3>
+                <p className="text-slate-100 text-sm leading-relaxed">Create your account in seconds. No credit card required. Start exploring immediately.</p>
+              </div>
+              {/* Connector line */}
+              <div className="hidden md:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-cyan-400 to-transparent"></div>
+            </div>
+
+            {/* Step 2 */}
+            <div className="relative">
+              <div className="p-8 rounded-2xl bg-gradient-to-br from-emerald-600/25 to-teal-600/25 border-2 border-emerald-400/60 hover:border-emerald-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/50 group cursor-pointer hover:scale-105 h-full">
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-r from-emerald-400 to-teal-400 flex items-center justify-center text-white font-bold text-lg shadow-lg">
+                  2
+                </div>
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300 mt-4">🎯</div>
+                <h3 className="text-xl font-bold text-white mb-3">Set Your Preferences</h3>
+                <p className="text-slate-100 text-sm leading-relaxed">Tell us your dietary preferences, allergies, and cooking skill level. Personalize your experience.</p>
+              </div>
+              {/* Connector line */}
+              <div className="hidden md:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-emerald-400 to-transparent"></div>
+            </div>
+
+            {/* Step 3 */}
+            <div className="relative">
+              <div className="p-8 rounded-2xl bg-gradient-to-br from-purple-600/25 to-pink-600/25 border-2 border-purple-400/60 hover:border-purple-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group cursor-pointer hover:scale-105 h-full">
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 flex items-center justify-center text-white font-bold text-lg shadow-lg">
+                  3
+                </div>
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300 mt-4">🤖</div>
+                <h3 className="text-xl font-bold text-white mb-3">Get AI Recipes</h3>
+                <p className="text-slate-100 text-sm leading-relaxed">Instantly generate personalized recipes based on your ingredients and preferences. Unlimited ideas.</p>
+              </div>
+              {/* Connector line */}
+              <div className="hidden md:block absolute top-1/2 -right-3 w-6 h-0.5 bg-gradient-to-r from-purple-400 to-transparent"></div>
+            </div>
+
+            {/* Step 4 */}
+            <div className="relative">
+              <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-600/25 to-red-600/25 border-2 border-orange-400/60 hover:border-orange-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/50 group cursor-pointer hover:scale-105 h-full">
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-r from-orange-400 to-red-400 flex items-center justify-center text-white font-bold text-lg shadow-lg">
+                  4
+                </div>
+                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300 mt-4">🍽️</div>
+                <h3 className="text-xl font-bold text-white mb-3">Cook & Enjoy</h3>
+                <p className="text-slate-100 text-sm leading-relaxed">Follow step-by-step instructions and enjoy restaurant-quality meals at home. Save time and money.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional benefits of the process */}
+          <div className="bg-gradient-to-r from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-8 sm:p-12 backdrop-blur-sm shadow-2xl shadow-slate-900/50">
+            <h3 className="text-2xl font-bold text-white mb-8 text-center">What Happens Next?</h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="flex gap-4">
+                <div className="text-4xl flex-shrink-0">📱</div>
+                <div>
+                  <h4 className="font-bold text-white mb-2 text-lg">Access Anywhere</h4>
+                  <p className="text-slate-200">Use RecipeAI on your phone, tablet, or computer. Sync seamlessly across all devices.</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <div className="text-4xl flex-shrink-0">🧠</div>
+                <div>
+                  <h4 className="font-bold text-white mb-2 text-lg">AI Learns Your Taste</h4>
+                  <p className="text-slate-200">The more you use it, the smarter it gets. Personalized recommendations improve over time.</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <div className="text-4xl flex-shrink-0">💬</div>
+                <div>
+                  <h4 className="font-bold text-white mb-2 text-lg">24/7 Support</h4>
+                  <p className="text-slate-200">Get help anytime. Our support team is always ready to assist you.</p>
                 </div>
               </div>
             </div>
