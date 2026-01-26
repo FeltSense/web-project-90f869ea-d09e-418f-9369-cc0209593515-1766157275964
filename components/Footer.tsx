@@ -23,7 +23,7 @@ export default function Footer() {
                 <span className="text-xl font-bold text-white">RecipeAI</span>
               </div>
               <p className="text-slate-400 text-sm mb-6 leading-relaxed">
-                Transform your kitchen with AI-powered personalized recipes and meal planning.
+                Empower your kitchen with AI-powered personalized recipes, smart meal planning, and sustainable cooking. Join 100K+ home cooks saving time, money, and reducing food waste.
               </p>
             </div>
 
