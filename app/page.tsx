@@ -36,7 +36,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
               Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-400 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-gradient">
-                Personalized Recipes • Intelligent Meal Planning • Budget Optimization
+                Unlimited Recipes • Smart Meal Plans • Save 30% on Groceries
               </span>
             </h1>
 
@@ -47,16 +47,16 @@ export default function Home() {
 
             {/* Subheading - Optimized with Stronger Value Proposition & Mobile Responsive */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              <span className="font-bold text-emerald-300">Experience the future of home cooking.</span> RecipeAI combines advanced artificial intelligence with culinary expertise to deliver <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Reclaim 10+ hours weekly</span> from meal planning, <span className="font-bold text-cyan-300">save $1,200+ annually</span> on groceries, <span className="font-bold text-blue-300">eliminate 40% of food waste</span>, and <span className="font-bold text-emerald-300">master restaurant-quality cooking</span> every single night. Our intelligent AI learns your flavor preferences, suggests recipes based on what you already have, and generates smart shopping lists optimized for maximum savings. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks—start free today, no credit card needed.</span>
+              <span className="font-bold text-emerald-300">Transform your kitchen with AI-powered cooking.</span> RecipeAI delivers <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. Our intelligent AI learns your flavor preferences, suggests recipes based on what you have, and generates smart shopping lists optimized for maximum savings. <span className="font-bold text-emerald-300 text-lg">Join 100K+ home cooks—start free today, no credit card needed.</span>
             </p>
 
             {/* Key Stats */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 text-sm text-emerald-300 font-semibold">
-              <span className="flex items-center gap-2">⏱️ Reclaim 10+ hours weekly</span>
+              <span className="flex items-center gap-2">⏱️ Save 10+ hours weekly</span>
               <span className="hidden sm:inline text-slate-500">•</span>
-              <span className="flex items-center gap-2">💰 Save $1,200+ annually</span>
+              <span className="flex items-center gap-2">💰 Cut grocery bills by 30%</span>
               <span className="hidden sm:inline text-slate-500">•</span>
-              <span className="flex items-center gap-2">🌱 Eliminate 40% food waste</span>
+              <span className="flex items-center gap-2">🌱 Reduce food waste by 40%</span>
             </div>
 
             {/* Trust Indicators */}
@@ -84,7 +84,7 @@ export default function Home() {
                     betaSection.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="group relative px-16 py-8 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-pulse hover:animate-none"
+                className="group relative px-16 py-8 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   ✨ Start Free Trial
