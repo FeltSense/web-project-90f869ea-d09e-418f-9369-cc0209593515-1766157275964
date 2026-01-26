@@ -177,6 +177,63 @@ const AboutPage = () => {
         </div>
       </section>
 
+      {/* Company Overview Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="space-y-12"
+          >
+            <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
+              About RecipeAI
+            </motion.h2>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <motion.div variants={itemVariants} className="space-y-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Who We Are</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    RecipeAI is a technology company dedicated to revolutionizing home cooking through artificial intelligence. Founded in 2023, we've grown from a small startup to a trusted platform serving over 100,000 home cooks worldwide. Our team combines expertise in machine learning, culinary arts, and product design to create innovative solutions that make cooking smarter, easier, and more enjoyable.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Our Commitment</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    We're committed to continuous innovation, user-centric design, and sustainable practices. Every feature we build is tested with real home cooks to ensure it solves genuine problems and delivers real value. We believe technology should empower people, not complicate their lives.
+                  </p>
+                </div>
+              </motion.div>
+
+              <motion.div variants={itemVariants} className="grid grid-cols-2 gap-6">
+                <div className="bg-gradient-to-br from-emerald-50 to-cyan-50 rounded-xl p-6 border border-emerald-200">
+                  <p className="text-4xl font-bold text-emerald-600 mb-2">100K+</p>
+                  <p className="text-gray-700 font-semibold">Active Users</p>
+                  <p className="text-sm text-gray-600 mt-2">Worldwide</p>
+                </div>
+                <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-6 border border-cyan-200">
+                  <p className="text-4xl font-bold text-cyan-600 mb-2">500K+</p>
+                  <p className="text-gray-700 font-semibold">Recipes Generated</p>
+                  <p className="text-sm text-gray-600 mt-2">Monthly</p>
+                </div>
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200">
+                  <p className="text-4xl font-bold text-blue-600 mb-2">50+</p>
+                  <p className="text-gray-700 font-semibold">Dietary Preferences</p>
+                  <p className="text-sm text-gray-600 mt-2">Supported</p>
+                </div>
+                <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-6 border border-indigo-200">
+                  <p className="text-4xl font-bold text-indigo-600 mb-2">4.9★</p>
+                  <p className="text-gray-700 font-semibold">Average Rating</p>
+                  <p className="text-sm text-gray-600 mt-2">50K+ reviews</p>
+                </div>
+              </motion.div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Team Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
@@ -202,9 +259,13 @@ const AboutPage = () => {
               >
                 <div className="w-24 h-24 bg-gradient-to-br from-emerald-400 to-cyan-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👨‍💼</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">AI &amp; Engineering</h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-4">
                   Our machine learning engineers build the intelligent algorithms that power personalized recipe generation and continuous learning from user preferences.
                 </p>
+                <div className="text-sm text-gray-600 space-y-2 text-left">
+                  <p><strong>Expertise:</strong> Machine Learning, NLP, Data Science</p>
+                  <p><strong>Focus:</strong> Recipe personalization, taste learning, optimization</p>
+                </div>
               </motion.div>
 
               <motion.div
@@ -213,9 +274,13 @@ const AboutPage = () => {
               >
                 <div className="w-24 h-24 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👨‍🍳</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Culinary Experts</h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-4">
                   Professional chefs and nutritionists ensure every recipe is delicious, nutritionally balanced, and tested for quality and accuracy.
                 </p>
+                <div className="text-sm text-gray-600 space-y-2 text-left">
+                  <p><strong>Expertise:</strong> Culinary Arts, Nutrition, Food Science</p>
+                  <p><strong>Focus:</strong> Recipe curation, quality assurance, dietary guidance</p>
+                </div>
               </motion.div>
 
               <motion.div
@@ -224,11 +289,34 @@ const AboutPage = () => {
               >
                 <div className="w-24 h-24 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👩‍🎨</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Design &amp; Product</h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-4">
                   Our designers and product managers create intuitive, beautiful experiences that make cooking with AI feel natural and delightful.
                 </p>
+                <div className="text-sm text-gray-600 space-y-2 text-left">
+                  <p><strong>Expertise:</strong> UX/UI Design, Product Strategy, User Research</p>
+                  <p><strong>Focus:</strong> User experience, interface design, feature development</p>
+                </div>
               </motion.div>
             </div>
+
+            {/* Additional Team Info */}
+            <motion.div variants={itemVariants} className="mt-12 p-8 bg-gradient-to-r from-slate-50 to-slate-100 rounded-2xl border border-slate-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Our Team Culture</h3>
+              <div className="grid md:grid-cols-3 gap-8">
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2">🎯 Mission-Driven</h4>
+                  <p className="text-gray-700 text-sm">Every team member is passionate about revolutionizing home cooking and empowering families worldwide.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2">🤝 Collaborative</h4>
+                  <p className="text-gray-700 text-sm">We work cross-functionally, combining diverse expertise to solve complex problems and innovate continuously.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-2">🌍 Inclusive</h4>
+                  <p className="text-gray-700 text-sm">We celebrate diversity and believe different perspectives lead to better products and solutions for our global community.</p>
+                </div>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </section>

@@ -107,6 +107,27 @@ export default function Home() {
             <div className="mt-32 mb-16">
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-center">Why Home Cooks Love RecipeAI</h2>
               <p className="text-center text-slate-200 mb-16 max-w-3xl mx-auto text-lg leading-relaxed">Discover the three core benefits that make RecipeAI the #1 choice for busy home cooks. Each feature is designed to save you time, cut costs, and reduce waste while making cooking more enjoyable. From instant recipe generation to smart budget optimization, RecipeAI handles the hard work so you can focus on what matters—delicious meals and quality time with family.</p>
+              
+              {/* Key Benefits Highlight */}
+              <div className="mb-12 p-8 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-400/80 backdrop-blur-sm shadow-2xl shadow-emerald-500/40">
+                <div className="grid md:grid-cols-3 gap-6 text-center">
+                  <div>
+                    <p className="text-5xl font-bold text-emerald-300 mb-2">10+ Hours</p>
+                    <p className="text-white font-semibold text-lg">Saved Weekly</p>
+                    <p className="text-slate-200 text-sm mt-2">Automate meal planning and reclaim your time</p>
+                  </div>
+                  <div>
+                    <p className="text-5xl font-bold text-cyan-300 mb-2">30% Less</p>
+                    <p className="text-white font-semibold text-lg">Spent on Groceries</p>
+                    <p className="text-slate-200 text-sm mt-2">Smart budget optimization saves $1,200+ yearly</p>
+                  </div>
+                  <div>
+                    <p className="text-5xl font-bold text-blue-300 mb-2">40% Reduction</p>
+                    <p className="text-white font-semibold text-lg">in Food Waste</p>
+                    <p className="text-slate-200 text-sm mt-2">Eco-friendly recipes use what you already have</p>
+                  </div>
+                </div>
+              </div>
               <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/25 to-blue-500/25 border border-cyan-500/60 hover:border-cyan-200 transition hover:shadow-2xl hover:shadow-cyan-500/70 duration-300 hover:scale-105 transition-transform duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/35 hover:to-blue-500/35 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-blue-400/0 group-hover:from-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300"></div>
