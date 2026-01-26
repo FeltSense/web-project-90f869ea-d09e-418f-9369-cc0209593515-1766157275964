@@ -29,25 +29,25 @@ export default function Home() {
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge - Premium Trust Indicator */}
             <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-500/60 to-cyan-500/60 border border-emerald-300/95 mb-10 backdrop-blur-lg hover:border-emerald-200 transition-all duration-300 shadow-lg shadow-emerald-500/50 hover:shadow-emerald-500/70 hover:scale-105 transition-all duration-300 ">
-              <span className="text-sm font-bold text-white">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ RATING • COMPLETELY FREE</span>
+              <span className="text-sm font-bold text-white">⭐ TRUSTED BY 100K+ COOKS • 4.9★ RATING • 100% FREE</span>
             </div>
 
             {/* Main Headline - Premium Value Proposition with Strong Visual Hierarchy */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Transform Your Kitchen with AI
+              Your AI-Powered Kitchen Assistant
               <span className="block bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-400 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-gradient">
-                Delicious Meals, Zero Stress, Maximum Savings
+                Personalized Recipes, Smart Meal Plans, Maximum Savings
               </span>
             </h1>
 
             {/* Mission Statement - Premium Trust Indicators */}
             <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/60 to-cyan-500/60 border border-emerald-200/95 backdrop-blur-lg shadow-lg shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all duration-300 hover:scale-105 transition-all duration-300">
-              <p className="text-lg font-bold text-white">🌟 Trusted by 100K+ Home Cooks • 4.9★ Rating • Join the Revolution</p>
+              <p className="text-lg font-bold text-white">🌟 Join 100K+ Home Cooks • 4.9★ Rating • Transform Your Kitchen Today</p>
             </div>
 
             {/* Subheading - Optimized with Stronger Value Proposition & Mobile Responsive */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Meet your new kitchen assistant. <span className="font-bold text-emerald-300">RecipeAI generates unlimited personalized recipes in seconds</span> based on your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. Our advanced AI learns your taste, suggests recipes based on what you have, and creates smart shopping lists optimized for your budget. <span className="font-bold text-emerald-300 text-lg">Start completely free—no credit card required.</span>
+              Stop stressing about what's for dinner. <span className="font-bold text-emerald-300">RecipeAI generates unlimited personalized recipes in seconds</span> based on your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. Our advanced AI learns your taste, suggests recipes based on what you have, and creates smart shopping lists optimized for your budget. <span className="font-bold text-emerald-300 text-lg">Start completely free—no credit card required.</span>
             </p>
 
             {/* Key Stats */}
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Now
+                  ✨ Start Free Trial
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -97,7 +97,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-emerald-300/95 text-white font-semibold rounded-2xl hover:bg-emerald-500/60 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-emerald-500/40 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/60 hover:shadow-emerald-500/80 md:text-base sm:px-10 sm:py-6"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ See How It Works
+                  📚 Explore Features
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -169,11 +169,11 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/15 via-cyan-400/15 to-blue-400/15 group-hover:from-emerald-400/25 group-hover:via-cyan-400/25 group-hover:to-blue-400/25 transition-all duration-300"></div>
               <div className="relative z-10 text-center">
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-emerald-300 to-cyan-300 text-slate-900 font-bold text-sm mb-6">
-                  🎉 COMPLETELY FREE - NO CREDIT CARD NEEDED - CANCEL ANYTIME
+                  ✨ 100% FREE • NO CREDIT CARD • CANCEL ANYTIME
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">Ready to Transform Your Kitchen?</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">Start Your Culinary Journey Today</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed">
-                  Join 100K+ home cooks who are saving 10+ hours weekly, cutting grocery bills by 30%, and reducing food waste by 40%. Get unlimited personalized recipes powered by advanced AI. Start completely free—no credit card required, cancel anytime.
+                  Join 100K+ home cooks saving 10+ hours weekly, cutting grocery bills by 30%, and reducing food waste by 40%. Get unlimited personalized recipes powered by advanced AI. Start completely free—no credit card required.
                 </p>
                 <button
                   onClick={() => {
