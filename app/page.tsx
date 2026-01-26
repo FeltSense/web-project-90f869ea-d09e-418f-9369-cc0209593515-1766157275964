@@ -28,21 +28,21 @@ export default function Home() {
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge - Premium Trust Indicator */}
-            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-500/50 to-cyan-500/50 border border-emerald-300/90 mb-10 backdrop-blur-md hover:border-emerald-200 transition-all duration-300 shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60 hover:scale-102 transition-all duration-300 ">
-              <span className="text-sm font-bold text-emerald-50">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ RATING • COMPLETELY FREE</span>
+            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-500/60 to-cyan-500/60 border border-emerald-300/95 mb-10 backdrop-blur-lg hover:border-emerald-200 transition-all duration-300 shadow-lg shadow-emerald-500/50 hover:shadow-emerald-500/70 hover:scale-105 transition-all duration-300 ">
+              <span className="text-sm font-bold text-white">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ RATING • COMPLETELY FREE</span>
             </div>
 
             {/* Main Headline - Premium Value Proposition with Strong Visual Hierarchy */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
               Transform Your Kitchen with AI
-              <span className="block bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-400 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl ">
+              <span className="block bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-400 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-gradient">
                 Delicious Meals, Zero Stress, Maximum Savings
               </span>
             </h1>
 
             {/* Mission Statement - Premium Trust Indicators */}
-            <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/50 to-cyan-500/50 border border-emerald-200/90 backdrop-blur-md shadow-lg shadow-emerald-500/40 hover:shadow-emerald-500/60 transition-all duration-300 hover:scale-102 transition-all duration-300">
-              <p className="text-lg font-bold text-emerald-50">🌟 Trusted by 100K+ Home Cooks • 4.9★ Rating • Join the Revolution</p>
+            <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-emerald-500/60 to-cyan-500/60 border border-emerald-200/95 backdrop-blur-lg shadow-lg shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all duration-300 hover:scale-105 transition-all duration-300">
+              <p className="text-lg font-bold text-white">🌟 Trusted by 100K+ Home Cooks • 4.9★ Rating • Join the Revolution</p>
             </div>
 
             {/* Subheading - Optimized with Stronger Value Proposition & Mobile Responsive */}
@@ -84,7 +84,7 @@ export default function Home() {
                     betaSection.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="group relative px-16 py-8 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/120 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity hover:shadow-2xl"
+                className="group relative px-16 py-8 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/90 hover:shadow-cyan-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   🚀 Get Started Now
@@ -94,7 +94,7 @@ export default function Home() {
 
               <Link
                 href="/features"
-                className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/50 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-105 bg-emerald-500/30 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/50 hover:shadow-emerald-500/70 md:text-base sm:px-10 sm:py-6"
+                className="group relative px-12 py-7 border-2 border-emerald-300/95 text-white font-semibold rounded-2xl hover:bg-emerald-500/60 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-emerald-500/40 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/60 hover:shadow-emerald-500/80 md:text-base sm:px-10 sm:py-6"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   ✨ See How It Works
@@ -112,7 +112,7 @@ export default function Home() {
               <p className="text-center text-slate-100 mb-16 max-w-3xl mx-auto text-lg leading-relaxed">Discover why 100K+ home cooks trust RecipeAI. Each feature is engineered to save you time, cut costs, and reduce waste while making cooking more enjoyable. From instant recipe generation to smart budget optimization, RecipeAI handles the complexity so you can focus on what matters—delicious meals and quality time with family.</p>
               
               {/* Key Benefits Highlight */}
-              <div className="mb-12 p-8 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-400/80 backdrop-blur-sm shadow-2xl shadow-emerald-500/40">
+              <div className="mb-12 p-8 rounded-2xl bg-gradient-to-r from-emerald-500/40 via-cyan-500/40 to-blue-500/40 border-2 border-emerald-400/90 backdrop-blur-lg shadow-2xl shadow-emerald-500/50">
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                   <div>
                     <p className="text-5xl font-bold text-emerald-300 mb-2">10+ Hours</p>
@@ -165,8 +165,8 @@ export default function Home() {
             </div>
 
             {/* Premium CTA Section - Limited Time Offer */}
-            <div className="mt-20 p-12 rounded-3xl bg-gradient-to-r from-emerald-600/50 via-cyan-600/50 to-blue-600/50 border-2 border-emerald-300/90 backdrop-blur-md shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/80 transition-all duration-300 relative overflow-hidden group">
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/10 via-cyan-400/10 to-blue-400/10 group-hover:from-emerald-400/20 group-hover:via-cyan-400/20 group-hover:to-blue-400/20 transition-all duration-300"></div>
+            <div className="mt-20 p-12 rounded-3xl bg-gradient-to-r from-emerald-600/60 via-cyan-600/60 to-blue-600/60 border-2 border-emerald-300/95 backdrop-blur-lg shadow-2xl shadow-emerald-500/70 hover:shadow-emerald-500/90 transition-all duration-300 relative overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/15 via-cyan-400/15 to-blue-400/15 group-hover:from-emerald-400/25 group-hover:via-cyan-400/25 group-hover:to-blue-400/25 transition-all duration-300"></div>
               <div className="relative z-10 text-center">
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-emerald-300 to-cyan-300 text-slate-900 font-bold text-sm mb-6">
                   🎉 COMPLETELY FREE - NO CREDIT CARD NEEDED - CANCEL ANYTIME
@@ -182,7 +182,7 @@ export default function Home() {
                       betaSection.scrollIntoView({ behavior: 'smooth' });
                     }
                   }}
-                  className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/60 transition-all duration-300 hover:scale-105 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
+                  className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                 >
                   ✨ Start Your Free Trial
                   <ArrowRight className="w-6 h-6" />
