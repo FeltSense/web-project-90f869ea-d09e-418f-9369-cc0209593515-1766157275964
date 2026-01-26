@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Premium Value Proposition with Strong Visual Hierarchy */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Your AI-Powered Kitchen Companion
+              Transform Your Kitchen with AI
               <span className="block bg-gradient-to-r from-cyan-300 via-emerald-300 to-blue-400 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-pulse">
-                Cook Smarter, Save More, Waste Less
+                Delicious Meals, Zero Stress, Maximum Savings
               </span>
             </h1>
 
@@ -87,7 +87,7 @@ export default function Home() {
                 className="group relative px-16 py-8 bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/100 hover:shadow-cyan-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity hover:shadow-2xl"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Start Free Today
+                  🚀 Get Started Now
                 </span>
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </button>
@@ -97,7 +97,7 @@ export default function Home() {
                 className="group relative px-12 py-7 border-2 border-emerald-300/90 text-white font-semibold rounded-2xl hover:bg-emerald-500/50 hover:border-emerald-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-sm hover:scale-110 bg-emerald-500/30 active:scale-95 before:absolute before:inset-0 before:bg-emerald-400/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-emerald-500/50 hover:shadow-emerald-500/70 md:text-base sm:px-10 sm:py-6"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🎯 Explore Features
+                  ✨ See How It Works
                 </span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
