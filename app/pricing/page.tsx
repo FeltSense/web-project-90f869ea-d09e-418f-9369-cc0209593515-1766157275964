@@ -158,7 +158,7 @@ function PricingCard({ tier, index }: { tier: PricingTier; index: number }): JSX
         </p>
         <div className="flex items-baseline gap-1">
           <span className={`text-5xl font-bold ${tier.highlighted ? 'text-white' : 'text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-rose-300'}`}>
-            {tier.price === 0 ? 'Free' : `${tier.price}`}
+            {tier.price === 0 ? 'Free' : `$${tier.price}`}
           </span>
           <span className={`${tier.highlighted ? 'text-white/80' : 'text-gray-400'}`}>{tier.price > 0 ? '/month' : ''}</span>
         </div>
@@ -302,14 +302,12 @@ function FAQAccordion(): JSX.Element {
 export default function PricingPage(): JSX.Element {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-slate-900 to-gray-950 overflow-hidden">
-      {/* Animated background elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-full blur-3xl animate-pulse" />
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-amber-500/20 to-orange-500/20 rounded-full blur-3xl animate-pulse delay-1000" />
       </div>
 
       <div className="relative z-10">
-        {/* Hero Section */}
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -335,7 +333,6 @@ export default function PricingPage(): JSX.Element {
               🎁 7-Day Free Trial • 💰 Save 20% with Annual Billing • 🔄 Cancel Anytime • ✅ No Credit Card Required
             </p>
 
-            {/* Toggle for billing period */}
             <div className="flex items-center justify-center gap-4 mb-12">
               <span className="text-gray-400">Monthly</span>
               <div className="bg-white/10 border border-white/20 rounded-full p-1 flex">
@@ -351,7 +348,6 @@ export default function PricingPage(): JSX.Element {
           </motion.div>
         </section>
 
-        {/* Pricing Cards */}
         <section className="px-4 sm:px-6 lg:px-8 py-20">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-6">
@@ -372,7 +368,6 @@ export default function PricingPage(): JSX.Element {
           </div>
         </section>
 
-        {/* Value Proposition Section */}
         <section className="px-4 sm:px-6 lg:px-8 py-16 bg-gradient-to-b from-slate-900/50 to-slate-950/50 border-y border-white/10">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -383,11 +378,61 @@ export default function PricingPage(): JSX.Element {
               className="text-center mb-12"
             >
               <h2 className="text-4xl font-bold text-white mb-4">Why Choose RecipeAI?</h2>
-              <p className="text-gray-400">See the real value you'll get from each plan</p>
+              <p className="text-gray-400">See the real value you&apos;ll get from each plan</p>
             </motion.div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8\">\n              <motion.div\n                initial={{ opacity: 0, y: 20 }}\n                whileInView={{ opacity: 1, y: 0 }}\n                transition={{ duration: 0.5, delay: 0 }}\n                viewport={{ once: true }}\n                className=\"bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors\"\n              >\n                <div className=\"text-4xl mb-4\">⏱️</div>\n                <h3 className=\"text-xl font-bold text-white mb-3\">Save 10+ Hours Weekly</h3>\n                <p className=\"text-gray-300 mb-4\">Stop spending hours deciding what to cook. Get personalized recipes in seconds.</p>\n                <ul className=\"space-y-2 text-sm text-gray-400\">\n                  <li>✓ Instant recipe generation</li>\n                  <li>✓ Automated meal planning</li>\n                  <li>✓ Smart shopping lists</li>\n                </ul>\n              </motion.div>\n              <motion.div\n                initial={{ opacity: 0, y: 20 }}\n                whileInView={{ opacity: 1, y: 0 }}\n                transition={{ duration: 0.5, delay: 0.1 }}\n                viewport={{ once: true }}\n                className=\"bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors\"\n              >\n                <div className=\"text-4xl mb-4\">💰</div>\n                <h3 className=\"text-xl font-bold text-white mb-3\">Save $1,200+ Annually</h3>\n                <p className=\"text-gray-300 mb-4\">Cut your grocery bills by 30% with smart budget optimization and ingredient swaps.</p>\n                <ul className=\"space-y-2 text-sm text-gray-400\">\n                  <li>✓ Price optimization</li>\n                  <li>✓ Smart substitutions</li>\n                  <li>✓ Budget-friendly recipes</li>\n                </ul>\n              </motion.div>\n              <motion.div\n                initial={{ opacity: 0, y: 20 }}\n                whileInView={{ opacity: 1, y: 0 }}\n                transition={{ duration: 0.5, delay: 0.2 }}\n                viewport={{ once: true }}\n                className=\"bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors\"\n              >\n                <div className=\"text-4xl mb-4\">🌱</div>\n                <h3 className=\"text-xl font-bold text-white mb-3\">Reduce Waste by 40%</h3>\n                <p className=\"text-gray-300 mb-4\">Use ingredients you already have with AI-powered recipes that prevent food spoilage.</p>\n                <ul className=\"space-y-2 text-sm text-gray-400\">\n                  <li>✓ Eco-friendly cooking</li>\n                  <li>✓ Pantry-based recipes</li>\n                  <li>✓ Sustainable meals</li>\n                </ul>\n              </motion.div>\n            </div>\n          </div>\n        </section>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0 }}
+                viewport={{ once: true }}
+                className="bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors"
+              >
+                <div className="text-4xl mb-4">⏱️</div>
+                <h3 className="text-xl font-bold text-white mb-3">Save 10+ Hours Weekly</h3>
+                <p className="text-gray-300 mb-4">Stop spending hours deciding what to cook. Get personalized recipes in seconds.</p>
+                <ul className="space-y-2 text-sm text-gray-400">
+                  <li>✓ Instant recipe generation</li>
+                  <li>✓ Automated meal planning</li>
+                  <li>✓ Smart shopping lists</li>
+                </ul>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors"
+              >
+                <div className="text-4xl mb-4">💰</div>
+                <h3 className="text-xl font-bold text-white mb-3">Save $1,200+ Annually</h3>
+                <p className="text-gray-300 mb-4">Cut your grocery bills by 30% with smart budget optimization and ingredient swaps.</p>
+                <ul className="space-y-2 text-sm text-gray-400">
+                  <li>✓ Price optimization</li>
+                  <li>✓ Smart substitutions</li>
+                  <li>✓ Budget-friendly recipes</li>
+                </ul>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-colors"
+              >
+                <div className="text-4xl mb-4">🌱</div>
+                <h3 className="text-xl font-bold text-white mb-3">Reduce Waste by 40%</h3>
+                <p className="text-gray-300 mb-4">Use ingredients you already have with AI-powered recipes that prevent food spoilage.</p>
+                <ul className="space-y-2 text-sm text-gray-400">
+                  <li>✓ Eco-friendly cooking</li>
+                  <li>✓ Pantry-based recipes</li>
+                  <li>✓ Sustainable meals</li>
+                </ul>
+              </motion.div>
+            </div>
+          </div>
+        </section>
 
-        {/* Comparison Table */}
         <section className="px-4 sm:px-6 lg:px-8 py-16">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -404,7 +449,6 @@ export default function PricingPage(): JSX.Element {
           </div>
         </section>
 
-        {/* FAQ Section */}
         <section className="px-4 sm:px-6 lg:px-8 py-16">
           <div className="max-w-3xl mx-auto">
             <motion.div
@@ -421,7 +465,6 @@ export default function PricingPage(): JSX.Element {
           </div>
         </section>
 
-        {/* CTA Section */}
         <section className="px-4 sm:px-6 lg:px-8 py-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -454,7 +497,6 @@ export default function PricingPage(): JSX.Element {
           </motion.div>
         </section>
 
-        {/* Footer CTA */}
         <section className="px-4 sm:px-6 lg:px-8 py-16 text-center">
           <motion.div
             initial={{ opacity: 0 }}
@@ -462,7 +504,7 @@ export default function PricingPage(): JSX.Element {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <p className="text-gray-400 mb-4">Have questions? We're here to help.</p>
+            <p className="text-gray-400 mb-4">Have questions? We&apos;re here to help.</p>
             <Link
               href="/contact"
               className="inline-block text-amber-400 hover:text-emerald-300 font-semibold transition-colors"
