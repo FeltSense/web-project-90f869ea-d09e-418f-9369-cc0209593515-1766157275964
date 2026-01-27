@@ -39,10 +39,15 @@ export default function Home() {
                 Unlimited Recipes • Smart Meal Plans • Save 30% on Groceries
               </span>
             </h1>
+            
+            {/* New Subheading - Enhanced Value Proposition */}
+            <div className="mt-6 inline-block px-6 py-3 rounded-full bg-gradient-to-r from-emerald-500/40 to-cyan-500/40 border border-emerald-300/80 backdrop-blur-lg">
+              <p className="text-sm font-bold text-emerald-100">✨ NEW: Advanced AI Recipe Generation • Real-Time Meal Planning • Budget Optimization</p>
+            </div>
 
             {/* Subheading */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              <span className="font-bold text-emerald-300">Transform your kitchen with AI-powered cooking.</span> RecipeAI delivers <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night.
+              <span className="font-bold text-emerald-300">Transform your kitchen with AI-powered cooking.</span> RecipeAI delivers <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. Now with <span className="font-bold text-purple-300">real-time meal planning, AI cooking assistant, and community recipe sharing</span>.
             </p>
 
             {/* Key Stats */}
@@ -465,6 +470,128 @@ export default function Home() {
                 <div className="mt-4 text-xs text-purple-300 font-semibold">✓ Eco-friendly • Zero waste</div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* NEW FEATURES SECTION - Latest Additions */}
+      <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
+        {/* Background elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 right-1/3 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-1/3 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-purple-500/30 to-pink-500/30 border border-purple-400/80 mb-8 backdrop-blur-sm">
+              <span className="text-sm font-bold text-purple-100">🎉 BRAND NEW • JUST RELEASED • GAME-CHANGING FEATURES</span>
+            </div>
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent">🚀 Latest Features - Now Available</span>
+            </h2>
+            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
+              We&apos;ve just launched powerful new features to make your cooking experience even better. Discover what&apos;s new and how it can transform your kitchen.
+            </p>
+          </div>
+
+          {/* New Features Grid - 3 Latest Features */}
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            {/* Feature 1: Real-Time Meal Planning */}
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/25 to-pink-600/25 border-2 border-purple-400/60 hover:border-purple-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-400/20 rounded-full blur-2xl group-hover:bg-purple-400/40 transition-all duration-300"></div>
+              <div className="absolute -top-2 -right-2 px-4 py-1 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs font-bold">NEW</div>
+              <div className="relative z-10">
+                <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">⚡</div>
+                <h3 className="text-2xl font-bold text-white mb-3">Real-Time Meal Planning</h3>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4">Plan your entire week in real-time with our new interactive meal planner. Drag-and-drop recipes, swap meals instantly, and get automatic shopping lists updated on the fly.</p>
+                <div className="space-y-2 text-xs text-purple-300 font-semibold">
+                  <div>✓ Drag-and-drop interface</div>
+                  <div>✓ Instant meal swaps</div>
+                  <div>✓ Live shopping list updates</div>
+                  <div>✓ Collaborative planning</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature 2: AI Cooking Assistant */}
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-pink-600/25 to-red-600/25 border-2 border-pink-400/60 hover:border-pink-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-pink-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-pink-400/20 rounded-full blur-2xl group-hover:bg-pink-400/40 transition-all duration-300"></div>
+              <div className="absolute -top-2 -right-2 px-4 py-1 rounded-full bg-gradient-to-r from-pink-500 to-red-500 text-white text-xs font-bold">NEW</div>
+              <div className="relative z-10">
+                <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">🤖</div>
+                <h3 className="text-2xl font-bold text-white mb-3">AI Cooking Assistant</h3>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4">Get real-time cooking guidance with our new AI assistant. Ask questions while cooking, get step-by-step help, and receive pro tips from professional chefs instantly.</p>
+                <div className="space-y-2 text-xs text-pink-300 font-semibold">
+                  <div>✓ Real-time chat support</div>
+                  <div>✓ Step-by-step guidance</div>
+                  <div>✓ Chef pro tips</div>
+                  <div>✓ Ingredient substitutions</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature 3: Social Recipe Sharing */}
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-red-600/25 to-orange-600/25 border-2 border-red-400/60 hover:border-red-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-red-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-red-400/20 rounded-full blur-2xl group-hover:bg-red-400/40 transition-all duration-300"></div>
+              <div className="absolute -top-2 -right-2 px-4 py-1 rounded-full bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold">NEW</div>
+              <div className="relative z-10">
+                <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">👥</div>
+                <h3 className="text-2xl font-bold text-white mb-3">Social Recipe Sharing</h3>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4">Share your favorite recipes with friends and family. Build your personal recipe collection, rate recipes, and discover trending dishes from the RecipeAI community.</p>
+                <div className="space-y-2 text-xs text-red-300 font-semibold">
+                  <div>✓ Share with friends</div>
+                  <div>✓ Community recipes</div>
+                  <div>✓ Recipe ratings</div>
+                  <div>✓ Trending dishes</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Feature Benefits Summary */}
+          <div className="bg-gradient-to-r from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-8 sm:p-12 backdrop-blur-sm shadow-2xl shadow-slate-900/50">
+            <h3 className="text-3xl font-bold text-white mb-8 text-center">Why These New Features Matter</h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="flex gap-4">
+                <div className="text-4xl flex-shrink-0">⏱️</div>
+                <div>
+                  <h4 className="font-bold text-white mb-2 text-lg">Save Even More Time</h4>
+                  <p className="text-slate-200">Real-time planning and AI assistance eliminate the guesswork. Cook with confidence and speed.</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <div className="text-4xl flex-shrink-0">🎯</div>
+                <div>
+                  <h4 className="font-bold text-white mb-2 text-lg">Better Cooking Experience</h4>
+                  <p className="text-slate-200">Get expert guidance while cooking. Learn from professionals and improve your skills instantly.</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <div className="text-4xl flex-shrink-0">👥</div>
+                <div>
+                  <h4 className="font-bold text-white mb-2 text-lg">Connect with Community</h4>
+                  <p className="text-slate-200">Share discoveries, learn from others, and be part of a thriving community of home cooks.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA for New Features */}
+          <div className="mt-16 text-center">
+            <button
+              onClick={() => {
+                const betaSection = document.getElementById('beta-signup-section');
+                if (betaSection) {
+                  betaSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+              className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-bold rounded-2xl hover:shadow-2xl hover:shadow-purple-500/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg"
+            >
+              🎉 Try New Features Free
+              <ArrowRight className="w-6 h-6" />
+            </button>
+            <p className="text-slate-300 mt-4 text-sm">All new features included in your free trial</p>
           </div>
         </div>
       </section>
