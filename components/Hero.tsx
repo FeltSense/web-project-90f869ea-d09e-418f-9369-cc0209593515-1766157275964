@@ -81,9 +81,9 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Cook Smarter, Save More, Waste Less
+              Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                AI-Powered Recipes • Meal Plans • 30% Grocery Savings
+                Unlimited Recipes • Smart Meal Plans • Save 30% on Groceries
               </span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-100 mb-8 leading-relaxed font-medium">
@@ -91,12 +91,12 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-6 sm:gap-4 w-full sm:w-auto">
               <motion.button
-                className="group relative px-16 py-8 sm:py-5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl sm:rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg sm:text-base whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                className="group relative px-16 py-8 sm:py-5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl sm:rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg sm:text-base whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Started Free Today
+                  🎉 Get Your Free AI Chef Now
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-2 transition" />
                 </span>
               </motion.button>
@@ -106,7 +106,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ See How It Works
+                  🎯 Explore All Features
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
