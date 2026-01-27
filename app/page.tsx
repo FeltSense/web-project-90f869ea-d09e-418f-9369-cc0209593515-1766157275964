@@ -36,7 +36,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
               🤖 Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-pulse">
-                Cook Smarter • Save 30% • Waste Less
+                Cook Smarter • Save 30% • Waste Less • Eat Better
               </span>
             </h1>
             
@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              <span className="font-bold text-emerald-300">🚀 Transform your kitchen with advanced AI-powered cooking.</span> RecipeAI's intelligent recipe generator delivers <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. Now with <span className="font-bold text-purple-300">real-time meal planning, AI cooking assistant, and community recipe sharing</span>.
+              <span className="font-bold text-emerald-300">🚀 Transform your kitchen with advanced AI-powered cooking.</span> RecipeAI's intelligent recipe generator delivers <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. Now with <span className="font-bold text-purple-300">real-time meal planning, AI cooking assistant, community recipe sharing, and personalized nutrition tracking</span>.
             </p>
 
             {/* Key Stats */}
@@ -1125,6 +1125,172 @@ export default function Home() {
                 <p className="text-sm text-slate-300 mt-2">Collectively by users</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Community Highlights Section - NEW */}
+      <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
+        {/* Background elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 left-1/3 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-1/3 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-purple-500/30 to-pink-500/30 border border-purple-400/80 mb-8 backdrop-blur-sm">
+              <span className="text-sm font-bold text-purple-100">🌟 COMMUNITY HIGHLIGHTS • USER ACHIEVEMENTS • REAL IMPACT</span>
+            </div>
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-lg">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent">🎉 What Our Community Is Achieving</span>
+            </h2>
+            <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
+              Discover the incredible transformations happening in kitchens around the world. From busy parents to fitness enthusiasts, see how RecipeAI is changing lives one meal at a time.
+            </p>
+          </div>
+
+          {/* Achievement Cards Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            {/* Achievement 1 */}
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/25 to-pink-600/25 border-2 border-purple-400/60 hover:border-purple-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-400/20 rounded-full blur-2xl group-hover:bg-purple-400/40 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="inline-block px-4 py-2 rounded-lg bg-purple-500/40 border border-purple-300/80 mb-4">
+                  <span className="text-xs font-bold text-purple-100">⏱️ TIME SAVED</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3">15 Hours Saved Weekly</h3>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4">Busy parents are reclaiming their evenings. No more stress about meal planning—just delicious dinners ready in minutes.</p>
+                <div className="space-y-2 text-xs text-purple-300 font-semibold">
+                  <div>✓ Meal planning automated</div>
+                  <div>✓ More family time</div>
+                  <div>✓ Less kitchen stress</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Achievement 2 */}
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-pink-600/25 to-red-600/25 border-2 border-pink-400/60 hover:border-pink-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-pink-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-pink-400/20 rounded-full blur-2xl group-hover:bg-pink-400/40 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="inline-block px-4 py-2 rounded-lg bg-pink-500/40 border border-pink-300/80 mb-4">
+                  <span className="text-xs font-bold text-pink-100">💰 MONEY SAVED</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3">$1,200+ Saved Annually</h3>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4">Smart budget optimization is cutting grocery bills dramatically. Families are eating better while spending less than ever before.</p>
+                <div className="space-y-2 text-xs text-pink-300 font-semibold">
+                  <div>✓ 30% grocery savings</div>
+                  <div>✓ Smart ingredient swaps</div>
+                  <div>✓ Budget-friendly meals</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Achievement 3 */}
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-red-600/25 to-orange-600/25 border-2 border-red-400/60 hover:border-red-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-red-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-red-400/20 rounded-full blur-2xl group-hover:bg-red-400/40 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="inline-block px-4 py-2 rounded-lg bg-red-500/40 border border-red-300/80 mb-4">
+                  <span className="text-xs font-bold text-red-100">🌱 WASTE REDUCED</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3">40% Less Food Waste</h3>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4">Eco-conscious cooks are making a real environmental impact. Smart recipes use what you have, eliminating spoilage and guilt.</p>
+                <div className="space-y-2 text-xs text-red-300 font-semibold">
+                  <div>✓ Sustainable cooking</div>
+                  <div>✓ Zero waste meals</div>
+                  <div>✓ Environmental impact</div>
+                </div>\n              </div>
+            </div>
+
+            {/* Achievement 4 */}
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-orange-600/25 to-yellow-600/25 border-2 border-orange-400/60 hover:border-orange-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-orange-400/20 rounded-full blur-2xl group-hover:bg-orange-400/40 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="inline-block px-4 py-2 rounded-lg bg-orange-500/40 border border-orange-300/80 mb-4">
+                  <span className="text-xs font-bold text-orange-100">💪 FITNESS GOALS</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3">100% Macro Goals Hit</h3>
+                <p className="text-slate-100 text-sm leading-relaxed mb-4">Fitness enthusiasts are crushing their nutrition targets. Personalized recipes that fit your macros make healthy eating effortless.</p>
+                <div className="space-y-2 text-xs text-orange-300 font-semibold">
+                  <div>✓ Macro tracking</div>
+                  <div>✓ Fitness app sync</div>
+                  <div>✓ Health goals achieved</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Achievement 5 */}
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-yellow-600/25 to-lime-600/25 border-2 border-yellow-400/60 hover:border-yellow-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-yellow-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-400/20 rounded-full blur-2xl group-hover:bg-yellow-400/40 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="inline-block px-4 py-2 rounded-lg bg-yellow-500/40 border border-yellow-300/80 mb-4">
+                  <span className="text-xs font-bold text-yellow-100\">🍽️ COOKING SKILLS</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3\">Restaurant-Quality Meals</h3>
+                <p className=\"text-slate-100 text-sm leading-relaxed mb-4\">Home cooks are impressing their families with professional-level dishes. Chef-curated recipes and pro tips make anyone a better cook.</p>
+                <div className=\"space-y-2 text-xs text-yellow-300 font-semibold\">
+                  <div>✓ Chef-curated recipes</div>
+                  <div>✓ Pro techniques</div>
+                  <div>✓ Video tutorials</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Achievement 6 */}
+            <div className=\"relative p-8 rounded-2xl bg-gradient-to-br from-lime-600/25 to-green-600/25 border-2 border-lime-400/60 hover:border-lime-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-lime-500/50 group cursor-pointer hover:scale-105 overflow-hidden\">
+              <div className=\"absolute top-0 right-0 w-32 h-32 bg-lime-400/20 rounded-full blur-2xl group-hover:bg-lime-400/40 transition-all duration-300\"></div>
+              <div className=\"relative z-10\">
+                <div className=\"inline-block px-4 py-2 rounded-lg bg-lime-500/40 border border-lime-300/80 mb-4\">
+                  <span className=\"text-xs font-bold text-lime-100\">👨‍👩‍👧‍👦 FAMILY MEALS</span>
+                </div>
+                <h3 className=\"text-2xl font-bold text-white mb-3\">5+ Family Dinners Weekly</h3>
+                <p className=\"text-slate-100 text-sm leading-relaxed mb-4\">Families are eating together more often. Personalized recipes keep everyone happy—from picky eaters to adventurous foodies.</p>
+                <div className=\"space-y-2 text-xs text-lime-300 font-semibold\">
+                  <div>✓ Family-friendly meals</div>
+                  <div>✓ Everyone satisfied</div>
+                  <div>✓ Quality time together</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Community Stats */}
+          <div className=\"bg-gradient-to-r from-slate-800/60 to-slate-700/60 border border-slate-600/50 rounded-2xl p-8 sm:p-12 backdrop-blur-sm shadow-2xl shadow-slate-900/50\">
+            <h3 className=\"text-2xl font-bold text-white mb-8 text-center\">Join Our Growing Community</h3>
+            <div className=\"grid md:grid-cols-3 gap-8\">
+              <div className=\"text-center\">
+                <p className=\"text-5xl font-bold text-purple-400 mb-2\">100K+</p>
+                <p className=\"text-slate-200 font-semibold\">Active Members</p>
+                <p className=\"text-sm text-slate-300 mt-2\">Growing every day</p>
+              </div>
+              <div className=\"text-center\">
+                <p className=\"text-5xl font-bold text-pink-400 mb-2\">50M+</p>
+                <p className=\"text-slate-200 font-semibold\">Recipes Generated</p>
+                <p className=\"text-sm text-slate-300 mt-2\">This month alone</p>
+              </div>
+              <div className=\"text-center\">
+                <p className=\"text-5xl font-bold text-red-400 mb-2\">4.9★</p>
+                <p className=\"text-slate-200 font-semibold\">Average Rating</p>
+                <p className=\"text-sm text-slate-300 mt-2\">From 50K+ reviews</p>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA */}
+          <div className=\"mt-16 text-center\">
+            <button
+              onClick={() => {
+                const betaSection = document.getElementById('beta-signup-section');
+                if (betaSection) {
+                  betaSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+              className=\"inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-bold rounded-2xl hover:shadow-2xl hover:shadow-purple-500/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg\"
+            >
+              🎉 Join the Community Free
+              <ArrowRight className=\"w-6 h-6\" />
+            </button>
+            <p className=\"text-slate-300 mt-4 text-sm\">Be part of 100K+ home cooks transforming their kitchens</p>
           </div>
         </div>
       </section>
