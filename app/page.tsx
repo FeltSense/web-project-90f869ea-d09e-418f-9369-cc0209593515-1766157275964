@@ -16,38 +16,33 @@ export default function Home() {
     <>
       <Navigation />
       
-      {/* Hero Section - Enhanced with Modern Design */}
+      {/* NEW HERO SECTION - Modern & Compelling */}
       <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 pt-20" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.02%22%3E%3Cpath d=%22M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'}}>
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-20 left-1/4 w-96 h-96 bg-emerald-500/35 rounded-full blur-3xl "></div>
-          <div className="absolute top-40 right-1/3 w-96 h-96 bg-cyan-500/30 rounded-full blur-3xl " style={{ animationDelay: '1s' }}></div>
-          <div className="absolute bottom-20 left-1/2 w-96 h-96 bg-blue-500/25 rounded-full blur-3xl " style={{ animationDelay: '2s' }}></div>
+          <div className="absolute top-20 left-1/4 w-96 h-96 bg-emerald-500/35 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute top-40 right-1/3 w-96 h-96 bg-cyan-500/30 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute bottom-20 left-1/2 w-96 h-96 bg-blue-500/25 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
         </div>
 
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-6xl mx-auto text-center">
-            {/* Badge - Premium Trust Indicator */}
-            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500/60 to-emerald-500/60 border border-cyan-300/95 mb-10 backdrop-blur-lg hover:border-cyan-200 transition-all duration-300 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/70 hover:scale-105 transition-all duration-300 ">
+            {/* Premium Badge */}
+            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500/60 to-emerald-500/60 border border-cyan-300/95 mb-10 backdrop-blur-lg hover:border-cyan-200 transition-all duration-300 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/70 hover:scale-105">
               <span className="text-sm font-bold text-white">⭐ TRUSTED BY 100K+ COOKS • 4.9★ RATING • 100% FREE • NO CREDIT CARD</span>
             </div>
 
-            {/* Main Headline - Premium Value Proposition with Strong Visual Hierarchy */}
+            {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
               Your AI-Powered Personal Chef
-              <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-gradient">
+              <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                 Unlimited Recipes • Smart Meal Plans • Save 30% on Groceries
               </span>
             </h1>
 
-            {/* Mission Statement - Premium Trust Indicators */}
-            <div className="mb-8 inline-block px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-500/60 to-emerald-500/60 border border-cyan-200/95 backdrop-blur-lg shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/70 transition-all duration-300 hover:scale-105 transition-all duration-300">
-              <p className="text-lg font-bold text-white">🌟 Join 100K+ Home Cooks • 4.9★ Rating • Transform Your Kitchen Today • Start Free</p>
-            </div>
-
-            {/* Subheading - Optimized with Stronger Value Proposition & Mobile Responsive */}
+            {/* Subheading */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              <span className="font-bold text-emerald-300">Transform your kitchen with AI-powered cooking.</span> RecipeAI delivers <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. Our intelligent AI learns your flavor preferences, suggests recipes based on what you have, and generates smart shopping lists optimized for maximum savings. <span className="font-bold text-cyan-300 text-lg">Join 100K+ home cooks—start free today, no credit card needed.</span>
+              <span className="font-bold text-emerald-300">Transform your kitchen with AI-powered cooking.</span> RecipeAI delivers <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night.
             </p>
 
             {/* Key Stats */}
@@ -60,10 +55,10 @@ export default function Home() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8 text-sm">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12 text-sm">
               <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-400/50">
                 <span className="text-lg">⭐</span>
-                <span className="text-emerald-100 font-semibold">4.9★ Rating (50K+ reviews) - Highest Rated</span>
+                <span className="text-emerald-100 font-semibold">4.9★ Rating (50K+ reviews)</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-cyan-500/20 border border-cyan-400/50">
                 <span className="text-lg">👥</span>
@@ -75,35 +70,46 @@ export default function Home() {
               </div>
             </div>
 
-            {/* CTA Buttons - Premium Design with Enhanced Engagement */}
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-20">
-              <button
-                onClick={() => {
-                  const betaSection = document.getElementById('beta-signup-section');
-                  if (betaSection) {
-                    betaSection.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}
-                className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
-              >
-                <span className="relative z-10 flex items-center gap-2">
-                  ✨ Start Free Trial
-                </span>
-                <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
-              </button>
+            {/* ENHANCED CTA SECTION - Primary Call-to-Action */}
+            <div className="mb-20">
+              <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
+                {/* Primary CTA Button */}
+                <button
+                  onClick={() => {
+                    const betaSection = document.getElementById('beta-signup-section');
+                    if (betaSection) {
+                      betaSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                >
+                  <span className="relative z-10 flex items-center gap-2">
+                    ✨ Start Free Trial
+                  </span>
+                  <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
+                </button>
 
-              <Link
-                href="/features"
-                className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
-              >
-                <span className="relative z-10 flex items-center gap-2">
-                  🎯 Explore All Features
-                </span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
+                {/* Secondary CTA Button */}
+                <Link
+                  href="/features"
+                  className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
+                >
+                  <span className="relative z-10 flex items-center gap-2">
+                    🎯 Explore All Features
+                  </span>
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+
+              {/* CTA Supporting Text */}
+              <p className="text-sm text-slate-300 font-medium">
+                🎉 <span className="text-emerald-300 font-bold">100% Free</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">Cancel Anytime</span> • <span className="text-purple-300 font-bold">Instant Access</span>
+              </p>
             </div>
+      
 
-            {/* New Enhanced Features Highlight Section */}
+
+            {/* Enhanced Features Highlight Section */}
             <div className="mt-32 mb-16 p-12 rounded-3xl bg-gradient-to-r from-cyan-600/30 via-emerald-600/30 to-blue-600/30 border-2 border-cyan-400/80 backdrop-blur-md shadow-2xl shadow-cyan-500/60 relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/10 via-emerald-400/10 to-blue-400/10 group-hover:from-cyan-400/20 group-hover:via-emerald-400/20 group-hover:to-blue-400/20 transition-all duration-300\"></div>
               <div className=\"relative z-10 text-center mb-12\">\n                <h2 className=\"text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6\">Why 100K+ Home Cooks Choose RecipeAI - The #1 AI Cooking Assistant</h2>\n                <p className=\"text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed\">Experience the complete AI-powered cooking solution that combines intelligent recipe generation, smart meal planning, and budget optimization—all in one platform.</p>\n              </div>\n              <div className=\"grid md:grid-cols-3 gap-6 relative z-10\">\n                <div className=\"p-6 rounded-xl bg-slate-900/60 border border-cyan-400/50 hover:border-cyan-300 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/40\">\n                  <div className=\"text-5xl mb-4\">⚡</div>\n                  <h3 className=\"text-xl font-bold text-white mb-2\">⚡ Instant Recipe Ideas</h3>\n                  <p className=\"text-slate-200 text-sm\">Get personalized recipes in seconds, not hours. Our AI learns your taste and generates dishes you'll love cooking.</p>\n                </div>\n                <div className=\"p-6 rounded-xl bg-slate-900/60 border border-emerald-400/50 hover:border-emerald-300 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/40\">\n                  <div className=\"text-5xl mb-4\">💰</div>\n                  <h3 className=\"text-xl font-bold text-white mb-2\">💰 Save 30% on Groceries</h3>\n                  <p className=\"text-slate-200 text-sm\">Smart budget optimization finds the best deals and suggests ingredient swaps automatically. Save $1,200+ yearly.</p>\n                </div>\n                <div className=\"p-6 rounded-xl bg-slate-900/60 border border-blue-400/50 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/40\">\n                  <div className=\"text-5xl mb-4\">🌱</div>\n                  <h3 className=\"text-xl font-bold text-white mb-2\">🌱 Reduce Food Waste by 40%</h3>\n                  <p className=\"text-slate-200 text-sm\">AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook sustainably.</p>\n                </div>\n              </div>\n            </div>\n\n            {/* Key Benefits Section - Enhanced */}
