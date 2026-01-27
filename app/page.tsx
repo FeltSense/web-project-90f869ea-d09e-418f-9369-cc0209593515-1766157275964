@@ -89,7 +89,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🎉 Get Unlimited Recipes Free
+                    🚀 Start Generating Recipes Now
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -100,7 +100,7 @@ export default function Home() {
                   className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Explore All Features
+                    ✨ See All Features
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -108,7 +108,7 @@ export default function Home() {
 
               {/* CTA Supporting Text */}
               <p className="text-sm text-slate-300 font-medium">
-                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card Required</span> • <span className="text-blue-300 font-bold">Start in 30 Seconds</span> • <span className="text-purple-300 font-bold">Join 100K+ Cooks</span>
+                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">30 Second Setup</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rating</span>
               </p>
             </div>
       
@@ -180,11 +180,11 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/15 via-emerald-400/15 to-blue-400/15 group-hover:from-cyan-400/25 group-hover:via-emerald-400/25 group-hover:to-blue-400/25 transition-all duration-300"></div>
               <div className="relative z-10 text-center">
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
-                  ✨ 100% FREE • NO CREDIT CARD • CANCEL ANYTIME
+                  ⚡ LIMITED TIME • 100% FREE • NO CREDIT CARD REQUIRED
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Transform Your Kitchen Today</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Start Your AI Cooking Journey Today</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed">
-                  Join 100K+ home cooks saving 10+ hours weekly, cutting grocery bills by 30%, and reducing food waste by 40%. Get unlimited personalized recipes powered by advanced AI. Start completely free—no credit card required.
+                  Join 100K+ home cooks who are already saving 10+ hours weekly, cutting grocery bills by 30%, and reducing food waste by 40%. Get unlimited AI-powered recipes personalized to your taste. Completely free—no credit card, no commitment.
                 </p>
                 <button
                   onClick={() => {
@@ -193,9 +193,9 @@ export default function Home() {
                       betaSection.scrollIntoView({ behavior: 'smooth' });
                     }
                   }}
-                  className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
+                  className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white animate-pulse"
                 >
-                  🚀 Get Started Free Now
+                  🎉 Claim Your Free Account Now
                   <ArrowRight className="w-6 h-6" />
                 </button>
               </div>
