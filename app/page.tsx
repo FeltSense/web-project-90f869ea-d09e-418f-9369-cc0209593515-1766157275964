@@ -36,7 +36,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
               🤖 Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Transform Your Kitchen • Save Time & Money • Cook Smarter Every Day
+                Smarter Cooking • Healthier Eating • Sustainable Living
               </span>
             </h1>
             
@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              <span className="font-bold text-emerald-300">🚀 Experience the future of home cooking.</span> RecipeAI combines advanced AI with culinary expertise to deliver <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. Featuring <span className="font-bold text-purple-300">intelligent meal planning, smart shopping lists, nutrition tracking, family-friendly options, and chef-curated recipes</span>.
+              <span className="font-bold text-emerald-300">🚀 Our Mission:</span> Empower every home cook to create delicious, nutritious meals while saving time, money, and reducing environmental impact. RecipeAI combines <span className="font-bold text-cyan-300">advanced AI with culinary expertise</span> to deliver <span className="font-bold text-emerald-300">unlimited personalized recipes in seconds</span>. Whether you're a busy parent, fitness enthusiast, or sustainability advocate, RecipeAI adapts to your lifestyle. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-purple-300">cook restaurant-quality meals</span> every night.
             </p>
 
             {/* Key Stats - Enhanced */}
