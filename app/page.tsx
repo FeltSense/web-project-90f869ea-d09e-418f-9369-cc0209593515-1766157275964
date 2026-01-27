@@ -27,15 +27,15 @@ export default function Home() {
 
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-6xl mx-auto text-center">
-            {/* Premium Badge */}
-            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500/60 to-emerald-500/60 border border-cyan-300/95 mb-10 backdrop-blur-lg hover:border-cyan-200 transition-all duration-300 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/70 hover:scale-105">
-              <span className="text-sm font-bold text-white">⭐ TRUSTED BY 100K+ COOKS • 4.9★ RATING • 100% FREE • NO CREDIT CARD</span>
+            {/* Premium Badge - Enhanced */}
+            <div className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500/70 to-emerald-500/70 border-2 border-cyan-200/95 mb-10 backdrop-blur-xl hover:border-cyan-100 transition-all duration-300 shadow-2xl shadow-cyan-500/60 hover:shadow-cyan-500/80 hover:scale-110 animate-pulse">
+              <span className="text-sm font-bold text-white tracking-wide">⭐ TRUSTED BY 100K+ COOKS • 4.9★ RATING • 100% FREE • NO CREDIT CARD</span>
             </div>
 
             {/* Main Headline - Powerful & Benefit-Driven */}
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
               Your AI-Powered Personal Chef
-              <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+              <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-pulse">
                 Unlimited Recipes • Smart Meal Plans • Save 30% on Groceries
               </span>
             </h1>
@@ -86,7 +86,7 @@ export default function Home() {
                       betaSection.scrollIntoView({ behavior: 'smooth' });
                     }
                   }}
-                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 >
                   <span className="relative z-10 flex items-center gap-2">
                     🚀 Start Your Free Trial Now
@@ -115,11 +115,11 @@ export default function Home() {
 
 
             {/* Enhanced Features Highlight Section */}
-            <div className="mt-32 mb-16 p-12 rounded-3xl bg-gradient-to-r from-cyan-600/30 via-emerald-600/30 to-blue-600/30 border-2 border-cyan-400/80 backdrop-blur-md shadow-2xl shadow-cyan-500/60 relative overflow-hidden group">
+            <div className="mt-32 mb-16 p-12 rounded-3xl bg-gradient-to-r from-cyan-600/40 via-emerald-600/40 to-blue-600/40 border-2 border-cyan-300/90 backdrop-blur-xl shadow-2xl shadow-cyan-500/80 relative overflow-hidden group hover:shadow-cyan-500/100 transition-all duration-300">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/10 via-emerald-400/10 to-blue-400/10 group-hover:from-cyan-400/20 group-hover:via-emerald-400/20 group-hover:to-blue-400/20 transition-all duration-300\"></div>
               <div className=\"relative z-10 text-center mb-12\">\n                <h2 className=\"text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6\">Why 100K+ Home Cooks Choose RecipeAI - The #1 AI Cooking Assistant</h2>\n                <p className=\"text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed\">Experience the complete AI-powered cooking solution that combines intelligent recipe generation, smart meal planning, and budget optimization—all in one platform.</p>\n              </div>\n              <div className=\"grid md:grid-cols-3 gap-6 relative z-10\">\n                <div className=\"p-6 rounded-xl bg-slate-900/60 border border-cyan-400/50 hover:border-cyan-300 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/40\">\n                  <div className=\"text-5xl mb-4\">⚡</div>\n                  <h3 className=\"text-xl font-bold text-white mb-2\">⚡ Instant Recipe Ideas</h3>\n                  <p className=\"text-slate-200 text-sm\">Get personalized recipes in seconds, not hours. Our AI learns your taste and generates dishes you'll love cooking.</p>\n                </div>\n                <div className=\"p-6 rounded-xl bg-slate-900/60 border border-emerald-400/50 hover:border-emerald-300 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/40\">\n                  <div className=\"text-5xl mb-4\">💰</div>\n                  <h3 className=\"text-xl font-bold text-white mb-2\">💰 Save 30% on Groceries</h3>\n                  <p className=\"text-slate-200 text-sm\">Smart budget optimization finds the best deals and suggests ingredient swaps automatically. Save $1,200+ yearly.</p>\n                </div>\n                <div className=\"p-6 rounded-xl bg-slate-900/60 border border-blue-400/50 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/40\">\n                  <div className=\"text-5xl mb-4\">🌱</div>\n                  <h3 className=\"text-xl font-bold text-white mb-2\">🌱 Reduce Food Waste by 40%</h3>\n                  <p className=\"text-slate-200 text-sm\">AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook sustainably.</p>\n                </div>\n              </div>\n            </div>\n\n            {/* Key Benefits Section - Enhanced */}
             <div className="mt-32 mb-16">
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-center">Transform Your Kitchen with Three Game-Changing Benefits</h2>
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-center drop-shadow-lg animate-pulse">✨ Transform Your Kitchen with Three Game-Changing Benefits</h2>
               <p className="text-center text-slate-100 mb-16 max-w-3xl mx-auto text-lg leading-relaxed">Discover why 100K+ home cooks trust RecipeAI. Each feature is engineered to save you time, cut costs, and reduce waste while making cooking more enjoyable. From instant recipe generation to smart budget optimization, RecipeAI handles the complexity so you can focus on what matters—delicious meals and quality time with family.</p>
               
               {/* Key Benefits Highlight */}
@@ -143,7 +143,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/25 to-blue-500/25 border border-cyan-500/60 hover:border-cyan-200 transition hover:shadow-2xl hover:shadow-cyan-500/70 duration-300 hover:scale-102 transition-all duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/35 hover:to-blue-500/35 relative overflow-hidden">
+                <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/35 to-blue-500/35 border-2 border-cyan-400/80 hover:border-cyan-200 transition hover:shadow-2xl hover:shadow-cyan-500/80 duration-300 hover:scale-105 transition-all duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/45 hover:to-blue-500/45 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-blue-400/0 group-hover:from-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300"></div>
                   <div className="relative z-10">
                     <div className="text-6xl mb-6 group-hover:scale-125 transition-transform duration-300">⏱️</div>
@@ -153,7 +153,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="p-10 rounded-2xl bg-gradient-to-br from-emerald-500/25 to-teal-500/25 border border-emerald-500/60 hover:border-emerald-200 transition hover:shadow-2xl hover:shadow-emerald-500/70 duration-300 hover:scale-102 transition-all duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-emerald-500/35 hover:to-teal-500/35 relative overflow-hidden">
+                <div className="p-10 rounded-2xl bg-gradient-to-br from-emerald-500/35 to-teal-500/35 border-2 border-emerald-400/80 hover:border-emerald-200 transition hover:shadow-2xl hover:shadow-emerald-500/80 duration-300 hover:scale-105 transition-all duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-emerald-500/45 hover:to-teal-500/45 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/0 to-teal-400/0 group-hover:from-emerald-400/10 group-hover:to-teal-400/10 transition-all duration-300"></div>
                   <div className="relative z-10">
                     <div className="text-6xl mb-6 group-hover:scale-125 transition-transform duration-300">💰</div>
@@ -163,7 +163,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="p-10 rounded-2xl bg-gradient-to-br from-purple-500/25 to-pink-500/25 border border-purple-500/60 hover:border-purple-200 transition hover:shadow-2xl hover:shadow-purple-500/70 duration-300 hover:scale-102 transition-all duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-purple-500/35 hover:to-pink-500/35 relative overflow-hidden">
+                <div className="p-10 rounded-2xl bg-gradient-to-br from-purple-500/35 to-pink-500/35 border-2 border-purple-400/80 hover:border-purple-200 transition hover:shadow-2xl hover:shadow-purple-500/80 duration-300 hover:scale-105 transition-all duration-300 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-purple-500/45 hover:to-pink-500/45 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-400/0 to-pink-400/0 group-hover:from-purple-400/10 group-hover:to-pink-400/10 transition-all duration-300"></div>
                   <div className="relative z-10">
                     <div className="text-6xl mb-6 group-hover:scale-125 transition-transform duration-300">🌱</div>
@@ -176,7 +176,7 @@ export default function Home() {
             </div>
 
             {/* Premium CTA Section - High-Converting Offer */}
-            <div className="mt-20 p-12 rounded-3xl bg-gradient-to-r from-cyan-600/60 via-emerald-600/60 to-blue-600/60 border-2 border-cyan-300/95 backdrop-blur-lg shadow-2xl shadow-cyan-500/70 hover:shadow-cyan-500/90 transition-all duration-300 relative overflow-hidden group">
+            <div className="mt-20 p-12 rounded-3xl bg-gradient-to-r from-cyan-600/70 via-emerald-600/70 to-blue-600/70 border-2 border-cyan-200/95 backdrop-blur-xl shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/100 transition-all duration-300 relative overflow-hidden group hover:scale-102">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/15 via-emerald-400/15 to-blue-400/15 group-hover:from-cyan-400/25 group-hover:via-emerald-400/25 group-hover:to-blue-400/25 transition-all duration-300"></div>
               <div className="relative z-10 text-center">
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
@@ -255,6 +255,72 @@ export default function Home() {
 
       {/* Features Section */}
 
+      {/* Visual Comparison Section - Why RecipeAI Stands Out */}
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Why 100K+ Home Cooks Choose RecipeAI</h2>
+            <p className="text-lg text-slate-200 max-w-2xl mx-auto">See how RecipeAI compares to traditional meal planning</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Traditional Way */}
+            <div className="p-8 rounded-2xl bg-gradient-to-br from-slate-700/40 to-slate-600/40 border border-slate-500/50">
+              <h3 className="text-2xl font-bold text-slate-300 mb-6">❌ Traditional Meal Planning</h3>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <span className="text-red-400 text-xl flex-shrink-0">✗</span>
+                  <span className="text-slate-200">Hours spent planning meals</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-red-400 text-xl flex-shrink-0">✗</span>
+                  <span className="text-slate-200\">Wasted ingredients & food spoilage</span>
+                </li>
+                <li className=\"flex items-start gap-3\">
+                  <span className=\"text-red-400 text-xl flex-shrink-0\">✗</span>
+                  <span className=\"text-slate-200\">High grocery bills</span>
+                </li>
+                <li className=\"flex items-start gap-3\">
+                  <span className=\"text-red-400 text-xl flex-shrink-0\">✗</span>
+                  <span className=\"text-slate-200\">Repetitive meals & boredom</span>
+                </li>
+                <li className=\"flex items-start gap-3\">
+                  <span className=\"text-red-400 text-xl flex-shrink-0\">✗</span>
+                  <span className=\"text-slate-200\">No nutrition tracking</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* RecipeAI Way */}
+            <div className=\"p-8 rounded-2xl bg-gradient-to-br from-emerald-600/30 to-cyan-600/30 border-2 border-emerald-400/80 shadow-2xl shadow-emerald-500/50\">
+              <h3 className=\"text-2xl font-bold text-white mb-6\">✅ RecipeAI Way</h3>
+              <ul className=\"space-y-4\">
+                <li className=\"flex items-start gap-3\">
+                  <span className=\"text-emerald-400 text-xl flex-shrink-0\">✓</span>
+                  <span className=\"text-slate-100\"><span className=\"font-bold text-emerald-300\">Instant recipes</span> in seconds</span>
+                </li>
+                <li className=\"flex items-start gap-3\">
+                  <span className=\"text-emerald-400 text-xl flex-shrink-0\">✓</span>
+                  <span className=\"text-slate-100\"><span className=\"font-bold text-emerald-300\">40% less waste</span> with smart recipes</span>
+                </li>
+                <li className=\"flex items-start gap-3\">
+                  <span className=\"text-emerald-400 text-xl flex-shrink-0\">✓</span>
+                  <span className=\"text-slate-100\"><span className=\"font-bold text-emerald-300\">Save 30%</span> on groceries</span>
+                </li>
+                <li className=\"flex items-start gap-3\">
+                  <span className=\"text-emerald-400 text-xl flex-shrink-0\">✓</span>
+                  <span className=\"text-slate-100\"><span className=\"font-bold text-emerald-300\">Unlimited variety</span> every day</span>
+                </li>
+                <li className=\"flex items-start gap-3\">
+                  <span className=\"text-emerald-400 text-xl flex-shrink-0\">✓</span>
+                  <span className=\"text-slate-100\"><span className=\"font-bold text-emerald-300\">Auto nutrition tracking</span> included</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Product Features Overview Section - NEW COMPREHENSIVE SECTION */}
       <section className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
         {/* Background elements */}
@@ -268,7 +334,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
               <span className="text-sm font-bold text-cyan-100">✨ CORE FEATURES • EVERYTHING YOU NEED</span>
             </div>
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-lg">
               <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">🚀 Powerful Features Built for Every Home Cook</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
@@ -279,7 +345,7 @@ export default function Home() {
           {/* Main Features Grid - 6 Core Features */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {/* Feature 1: AI Recipe Generation */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-cyan-600/25 to-blue-600/25 border-2 border-cyan-400/60 hover:border-cyan-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-cyan-600/35 to-blue-600/35 border-2 border-cyan-400/80 hover:border-cyan-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-400/20 rounded-full blur-2xl group-hover:bg-cyan-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">🤖</div>
@@ -295,7 +361,7 @@ export default function Home() {
             </div>
 
             {/* Feature 2: Smart Meal Planning */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-emerald-600/25 to-teal-600/25 border-2 border-emerald-400/60 hover:border-emerald-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-emerald-600/35 to-teal-600/35 border-2 border-emerald-400/80 hover:border-emerald-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-400/20 rounded-full blur-2xl group-hover:bg-emerald-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">📅</div>
@@ -311,7 +377,7 @@ export default function Home() {
             </div>
 
             {/* Feature 3: Smart Shopping Lists */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/25 to-pink-600/25 border-2 border-purple-400/60 hover:border-purple-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/35 to-pink-600/35 border-2 border-purple-400/80 hover:border-purple-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-purple-400/20 rounded-full blur-2xl group-hover:bg-purple-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">🛒</div>
@@ -327,7 +393,7 @@ export default function Home() {
             </div>
 
             {/* Feature 4: Nutrition Tracking */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-orange-600/25 to-red-600/25 border-2 border-orange-400/60 hover:border-orange-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-orange-600/35 to-red-600/35 border-2 border-orange-400/80 hover:border-orange-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-orange-400/20 rounded-full blur-2xl group-hover:bg-orange-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">📊</div>
@@ -343,7 +409,7 @@ export default function Home() {
             </div>
 
             {/* Feature 5: Family-Friendly Planning */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-indigo-600/25 to-purple-600/25 border-2 border-indigo-400/60 hover:border-indigo-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-indigo-600/35 to-purple-600/35 border-2 border-indigo-400/80 hover:border-indigo-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-400/20 rounded-full blur-2xl group-hover:bg-indigo-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">👨‍👩‍👧‍👦</div>
@@ -359,7 +425,7 @@ export default function Home() {
             </div>
 
             {/* Feature 6: Chef-Curated Recipes */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-blue-600/25 to-cyan-600/25 border-2 border-blue-400/60 hover:border-blue-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-blue-600/35 to-cyan-600/35 border-2 border-blue-400/80 hover:border-blue-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-400/20 rounded-full blur-2xl group-hover:bg-blue-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-all duration-300">👨‍🍳</div>
@@ -487,7 +553,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-purple-500/30 to-pink-500/30 border border-purple-400/80 mb-8 backdrop-blur-sm">
               <span className="text-sm font-bold text-purple-100">🎉 BRAND NEW • JUST RELEASED • GAME-CHANGING FEATURES</span>
             </div>
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-lg">
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent">🚀 Latest Features - Now Available</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
@@ -498,7 +564,7 @@ export default function Home() {
           {/* New Features Grid - 3 Latest Features */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {/* Feature 1: Real-Time Meal Planning */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/25 to-pink-600/25 border-2 border-purple-400/60 hover:border-purple-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group cursor-pointer hover:scale-105 overflow-hidden">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/35 to-pink-600/35 border-2 border-purple-400/80 hover:border-purple-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/70 group cursor-pointer hover:scale-105 overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-purple-400/20 rounded-full blur-2xl group-hover:bg-purple-400/40 transition-all duration-300"></div>
               <div className="absolute -top-2 -right-2 px-4 py-1 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs font-bold">NEW</div>
               <div className="relative z-10">
@@ -612,7 +678,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
               <span className="text-sm font-bold text-cyan-100">🎯 COMPLETE FEATURE SET • EVERYTHING YOU NEED</span>
             </div>
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-lg">
               <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">Complete AI-Powered Cooking Solution</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
@@ -623,7 +689,7 @@ export default function Home() {
           {/* Feature Grid - 6 Core Features */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {/* Feature 1: AI Recipe Generation */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-cyan-600/25 to-blue-600/25 border-2 border-cyan-400/60 hover:border-cyan-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-cyan-600/35 to-blue-600/35 border-2 border-cyan-400/80 hover:border-cyan-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-400/20 rounded-full blur-2xl group-hover:bg-cyan-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-102 transition-all duration-300">🤖</div>
@@ -639,7 +705,7 @@ export default function Home() {
             </div>
 
             {/* Feature 2: Smart Meal Planning */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-emerald-600/25 to-teal-600/25 border-2 border-emerald-400/60 hover:border-emerald-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-emerald-600/35 to-teal-600/35 border-2 border-emerald-400/80 hover:border-emerald-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-400/20 rounded-full blur-2xl group-hover:bg-emerald-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-102 transition-all duration-300">📅</div>
@@ -655,7 +721,7 @@ export default function Home() {
             </div>
 
             {/* Feature 3: Smart Shopping Lists */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/25 to-pink-600/25 border-2 border-purple-400/60 hover:border-purple-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-purple-600/35 to-pink-600/35 border-2 border-purple-400/80 hover:border-purple-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-purple-400/20 rounded-full blur-2xl group-hover:bg-purple-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-102 transition-all duration-300">🛒</div>
@@ -671,7 +737,7 @@ export default function Home() {
             </div>
 
             {/* Feature 4: Nutrition Tracking */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-orange-600/25 to-red-600/25 border-2 border-orange-400/60 hover:border-orange-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-orange-600/35 to-red-600/35 border-2 border-orange-400/80 hover:border-orange-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-orange-400/20 rounded-full blur-2xl group-hover:bg-orange-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-102 transition-all duration-300">📊</div>
@@ -687,7 +753,7 @@ export default function Home() {
             </div>
 
             {/* Feature 5: Family-Friendly Planning */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-indigo-600/25 to-purple-600/25 border-2 border-indigo-400/60 hover:border-indigo-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-indigo-600/35 to-purple-600/35 border-2 border-indigo-400/80 hover:border-indigo-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-400/20 rounded-full blur-2xl group-hover:bg-indigo-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-102 transition-all duration-300">👨‍👩‍👧‍👦</div>
@@ -703,7 +769,7 @@ export default function Home() {
             </div>
 
             {/* Feature 6: Chef-Curated Recipes */}
-            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-blue-600/25 to-cyan-600/25 border-2 border-blue-400/60 hover:border-blue-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/50 group cursor-pointer hover:scale-105">
+            <div className="relative p-8 rounded-2xl bg-gradient-to-br from-blue-600/35 to-cyan-600/35 border-2 border-blue-400/80 hover:border-blue-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/70 group cursor-pointer hover:scale-105">
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-400/20 rounded-full blur-2xl group-hover:bg-blue-400/40 transition-all duration-300"></div>
               <div className="relative z-10">
                 <div className="text-6xl mb-4 group-hover:scale-102 transition-all duration-300">👨‍🍳</div>
@@ -783,7 +849,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
               <span className="text-sm font-bold text-cyan-100">⚡ POWERFUL FEATURES • UNLOCK YOUR CULINARY POTENTIAL</span>
             </div>
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-lg">
               <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">Six Powerful Features That Make Cooking Effortless</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
@@ -945,7 +1011,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-emerald-500/30 to-cyan-500/30 border border-emerald-400/80 mb-8 backdrop-blur-sm">
               <span className="text-sm font-bold text-emerald-100">⭐ REAL RESULTS • REAL PEOPLE • REAL IMPACT</span>
             </div>
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-lg">
               <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">⭐ Success Stories from Our Community</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
@@ -1166,7 +1232,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500/30 to-emerald-500/30 border border-cyan-400/80 mb-8 backdrop-blur-sm">
               <span className="text-sm font-bold text-cyan-100">🚀 SIMPLE PROCESS • GET STARTED IN MINUTES</span>
             </div>
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-lg">
               <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">🎯 How RecipeAI Works - 4 Simple Steps</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
@@ -1178,7 +1244,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-6 mb-16">
             {/* Step 1 */}
             <div className="relative">
-              <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-600/25 to-blue-600/25 border-2 border-cyan-400/60 hover:border-cyan-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/50 group cursor-pointer hover:scale-105 h-full">
+              <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-600/35 to-blue-600/35 border-2 border-cyan-400/80 hover:border-cyan-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/70 group cursor-pointer hover:scale-105 h-full">
                 <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-r from-cyan-400 to-blue-400 flex items-center justify-center text-white font-bold text-lg shadow-lg">
                   1
                 </div>
@@ -1192,7 +1258,7 @@ export default function Home() {
 
             {/* Step 2 */}
             <div className="relative">
-              <div className="p-8 rounded-2xl bg-gradient-to-br from-emerald-600/25 to-teal-600/25 border-2 border-emerald-400/60 hover:border-emerald-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/50 group cursor-pointer hover:scale-105 h-full">
+              <div className="p-8 rounded-2xl bg-gradient-to-br from-emerald-600/35 to-teal-600/35 border-2 border-emerald-400/80 hover:border-emerald-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/70 group cursor-pointer hover:scale-105 h-full">
                 <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-r from-emerald-400 to-teal-400 flex items-center justify-center text-white font-bold text-lg shadow-lg">
                   2
                 </div>
@@ -1206,7 +1272,7 @@ export default function Home() {
 
             {/* Step 3 */}
             <div className="relative">
-              <div className="p-8 rounded-2xl bg-gradient-to-br from-purple-600/25 to-pink-600/25 border-2 border-purple-400/60 hover:border-purple-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 group cursor-pointer hover:scale-105 h-full">
+              <div className="p-8 rounded-2xl bg-gradient-to-br from-purple-600/35 to-pink-600/35 border-2 border-purple-400/80 hover:border-purple-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/70 group cursor-pointer hover:scale-105 h-full">
                 <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 flex items-center justify-center text-white font-bold text-lg shadow-lg">
                   3
                 </div>
@@ -1220,7 +1286,7 @@ export default function Home() {
 
             {/* Step 4 */}
             <div className="relative">
-              <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-600/25 to-red-600/25 border-2 border-orange-400/60 hover:border-orange-300/80 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/50 group cursor-pointer hover:scale-105 h-full">
+              <div className="p-8 rounded-2xl bg-gradient-to-br from-orange-600/35 to-red-600/35 border-2 border-orange-400/80 hover:border-orange-300/90 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/70 group cursor-pointer hover:scale-105 h-full">
                 <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-r from-orange-400 to-red-400 flex items-center justify-center text-white font-bold text-lg shadow-lg">
                   4
                 </div>
