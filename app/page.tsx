@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Powerful & Benefit-Driven */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
-              🍽️ Transform Your Kitchen with AI-Powered Cooking
+              🤖 Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Save 10+ Hours Weekly • Cut Grocery Bills by 30% • Reduce Food Waste by 40%
+                Smarter Cooking • Healthier Eating • Sustainable Living
               </span>
             </h1>
             
@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              <span className="font-bold text-emerald-300">🎯 The Problem:</span> Meal planning takes hours, grocery bills are out of control, and food waste is destroying your budget and the environment. <span className="font-bold text-cyan-300">RecipeAI solves all of this.</span> Our AI-powered platform combines <span className="font-bold text-cyan-300">advanced machine learning with culinary expertise</span> to deliver <span className="font-bold text-emerald-300">unlimited personalized recipes in seconds</span>. Whether you're a busy parent juggling work and family, a fitness enthusiast tracking macros, or a sustainability advocate, RecipeAI adapts perfectly to your lifestyle. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-purple-300">cook restaurant-quality meals</span> every single night.
+              <span className="font-bold text-emerald-300">🚀 Our Mission:</span> Empower every home cook to create delicious, nutritious meals while saving time, money, and reducing environmental impact. RecipeAI combines <span className="font-bold text-cyan-300">advanced AI with culinary expertise</span> to deliver <span className="font-bold text-emerald-300">unlimited personalized recipes in seconds</span>. Whether you're a busy parent, fitness enthusiast, or sustainability advocate, RecipeAI adapts to your lifestyle. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-purple-300">cook restaurant-quality meals</span> every night.
             </p>
 
             {/* Key Stats - Enhanced */}
@@ -89,7 +89,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    ✨ Start Your Free AI Cooking Journey Now
+                    🎉 Get Your Free AI Chef Now
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -100,7 +100,7 @@ export default function Home() {
                   className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 See How It Works
+                    🎯 Explore All Features
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -108,7 +108,7 @@ export default function Home() {
 
               {/* CTA Supporting Text - Enhanced */}
               <p className="text-sm text-slate-300 font-medium">
-                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card Required</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Active Users</span> • <span className="text-orange-300 font-bold">4.9★ Rating</span> • <span className="text-pink-300 font-bold">Start in 30 Seconds</span>
+                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span>
               </p>
             </div>
       
