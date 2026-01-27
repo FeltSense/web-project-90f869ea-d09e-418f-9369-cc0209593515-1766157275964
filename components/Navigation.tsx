@@ -24,6 +24,9 @@ export default function Navigation() {
             <Link href="/features" className="text-slate-300 hover:text-emerald-300 transition duration-300 font-medium">
               Features
             </Link>
+            <Link href="/about" className="text-slate-300 hover:text-emerald-300 transition duration-300 font-medium">
+              About
+            </Link>
             <Link href="/pricing" className="text-slate-300 hover:text-emerald-300 transition duration-300 font-medium">
               Pricing
             </Link>
@@ -55,6 +58,9 @@ export default function Navigation() {
               </Link>
               <Link href="/features" className="text-slate-300 hover:text-emerald-400 px-4 py-2 rounded-lg hover:bg-emerald-500/10 transition font-medium">
                 Features
+              </Link>
+              <Link href="/about" className="text-slate-300 hover:text-emerald-400 px-4 py-2 rounded-lg hover:bg-emerald-500/10 transition font-medium">
+                About
               </Link>
               <Link href="/pricing" className="text-slate-300 hover:text-emerald-400 px-4 py-2 rounded-lg hover:bg-emerald-500/10 transition font-medium">
                 Pricing
