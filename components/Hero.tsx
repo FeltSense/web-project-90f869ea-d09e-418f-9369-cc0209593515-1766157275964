@@ -81,9 +81,9 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-              Your AI-Powered Personal Chef
+              Cook Smarter, Save More, Waste Less
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Unlimited Recipes • Smart Meal Plans • Save 30% on Groceries
+                AI-Powered Recipes • Meal Plans • 30% Grocery Savings
               </span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-100 mb-8 leading-relaxed font-medium">
@@ -96,7 +96,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Start Free Trial
+                  🚀 Get Started Free Today
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-2 transition" />
                 </span>
               </motion.button>
@@ -106,7 +106,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🎯 Explore All Features
+                  ✨ See How It Works
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
