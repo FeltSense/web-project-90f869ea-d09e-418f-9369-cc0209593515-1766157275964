@@ -36,7 +36,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
               🤖 Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-pulse">
-                Never Ask "What's for Dinner?" Again
+                Cook Smarter • Save 30% • Waste Less
               </span>
             </h1>
             
@@ -89,7 +89,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Start Generating Recipes Now
+                    🎉 Get Your Free AI Chef Now
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -100,7 +100,7 @@ export default function Home() {
                   className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    ✨ See All Features
+                    🎯 Explore All Features
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -108,7 +108,7 @@ export default function Home() {
 
               {/* CTA Supporting Text */}
               <p className="text-sm text-slate-300 font-medium">
-                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">30 Second Setup</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rating</span>
+                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card Required</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Happy Cooks</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span>
               </p>
             </div>
       
@@ -195,7 +195,7 @@ export default function Home() {
                   }}
                   className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white animate-pulse"
                 >
-                  🎉 Claim Your Free Account Now
+                  🚀 Start Cooking Smarter Today
                   <ArrowRight className="w-6 h-6" />
                 </button>
               </div>
