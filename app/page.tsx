@@ -93,7 +93,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce hover:animate-none hover:shadow-2xl"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Start Cooking Smarter Today - Free Forever
+                    🚀 Unlock Unlimited Recipes Now - 100% Free, No Credit Card
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -104,7 +104,7 @@ export default function Home() {
                   className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/100 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    ✨ Discover Your Perfect Recipes
+                    ✨ Explore 10,000+ Recipes - Find Your Favorites
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -144,7 +144,7 @@ export default function Home() {
             <div className="mt-32 mb-16 p-12 rounded-3xl bg-gradient-to-r from-cyan-600/50 via-emerald-600/50 to-blue-600/50 border-2 border-cyan-300/95 backdrop-blur-xl shadow-2xl shadow-cyan-500/90 relative overflow-hidden group hover:shadow-cyan-500/110 transition-all duration-300 hover:scale-102">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/10 via-emerald-400/10 to-blue-400/10 group-hover:from-cyan-400/20 group-hover:via-emerald-400/20 group-hover:to-blue-400/20 transition-all duration-300"></div>
               <div className="relative z-10 text-center mb-12">
-                <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Why 100K+ Home Cooks Love RecipeAI - The Complete Cooking Solution</h2>
+                <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">🎯 Why 100K+ Home Cooks Love RecipeAI - The Complete AI-Powered Cooking Solution</h2>
                 <p className="text-xl text-slate-50 max-w-3xl mx-auto leading-relaxed">The complete AI-powered cooking solution that saves time, cuts costs, and reduces waste. Intelligent recipe generation, smart meal planning, budget optimization, and professional cooking techniques—all in one powerful platform designed for modern home cooks.</p>
               </div>
               <div className="grid md:grid-cols-3 gap-6 relative z-10">
@@ -168,7 +168,7 @@ export default function Home() {
 
             {/* Key Benefits Section - Enhanced */}
             <div className="mt-32 mb-16">
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-center drop-shadow-lg">✨ Three Game-Changing Benefits That Transform Your Kitchen & Your Life</h2>
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-center drop-shadow-lg">💎 Three Game-Changing Benefits That Transform Your Kitchen, Your Budget & Your Life</h2>
               <p className="text-center text-slate-50 mb-16 max-w-3xl mx-auto text-lg leading-relaxed">RecipeAI is engineered to save you time, cut costs, and reduce waste while making cooking more enjoyable and sustainable. From instant recipe generation to smart budget optimization and eco-friendly meal planning, RecipeAI handles the complexity so you can focus on what matters—delicious meals, quality time with family, and a healthier planet.</p>
               
               {/* Key Benefits Highlight */}
@@ -231,7 +231,7 @@ export default function Home() {
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
                   ⚡ 100% FREE • NO CREDIT CARD • INSTANT ACCESS • UNLIMITED RECIPES
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🚀 Transform Your Kitchen Today - Join 100K+ Home Cooks</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🚀 Transform Your Kitchen Today - Join 100K+ Home Cooks Cooking Smarter, Saving More</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed font-medium">
                   Get unlimited AI-powered recipes personalized to your taste and skill level. <span className="font-bold text-emerald-200">Discover new cuisines</span> from around the world, <span className="font-bold text-cyan-200">learn professional cooking techniques</span>, and <span className="font-bold text-blue-200">create restaurant-quality meals</span> at home. <span className="font-bold text-yellow-200">100% free forever—no credit card required, no commitment, instant access, completely risk-free.</span>
                 </p>
@@ -245,7 +245,7 @@ export default function Home() {
                     }}
                     className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                   >
-                    🚀 Get Unlimited Recipes Now - No Credit Card Required
+                    🚀 Start Your Free Cooking Revolution - Instant Access to 10,000+ Recipes
                     <ArrowRight className="w-6 h-6" />
                   </button>
                   <Link
@@ -331,7 +331,7 @@ export default function Home() {
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">✨ What You Get Instantly - Start Cooking Smarter Today</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">⚡ What You Get Instantly - Start Cooking Smarter Today (No Waiting, No Setup)</h2>
             <p className="text-lg text-slate-200 max-w-2xl mx-auto">Start using RecipeAI today and experience these benefits immediately</p>
           </div>
 
@@ -371,7 +371,7 @@ export default function Home() {
               <span className="text-sm font-bold text-cyan-100">✨ CORE FEATURES • EVERYTHING YOU NEED TO COOK SMARTER</span>
             </div>
             <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 drop-shadow-lg">
-              <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">🎯 Six Powerful Features Built for Home Cooks</span>
+              <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-500 bg-clip-text text-transparent">🎯 Six Powerful Features Built for Modern Home Cooks - Everything You Need to Cook Smarter</span>
             </h2>
             <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed mb-4">
               Six essential features working seamlessly together. From AI-powered recipe generation to intelligent meal planning, every feature is designed to save you time, money, and stress while making cooking more enjoyable, sustainable, and rewarding. Experience the future of home cooking today.
