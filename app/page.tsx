@@ -34,9 +34,9 @@ export default function Home() {
 
             {/* Main Headline - Powerful & Benefit-Driven */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
-              🍽️ Your AI-Powered Kitchen Companion
+              🍽️ Never Stress About Dinner Again
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Unlimited Personalized Recipes • Master Global Cuisines • Cook Restaurant-Quality Meals • Save 10+ Hours Weekly
+                AI-Powered Recipes • Instant Meal Plans • Save 10+ Hours Weekly • Cut Grocery Bills 30%
               </span>
             </h1>
 
@@ -93,10 +93,10 @@ export default function Home() {
                       betaSection.scrollIntoView({ behavior: 'smooth' });
                     }
                   }}
-                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/140 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
+                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/140 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce hover:animate-none"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Get Unlimited Recipes - 100% Free Forever
+                    🚀 Start Cooking Smarter - 100% Free Forever
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -104,10 +104,10 @@ export default function Home() {
                 {/* Secondary CTA Button - Feature Discovery */}
                 <Link
                   href="/features"
-                  className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-105 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
+                  className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    ✨ Explore Features
+                    ✨ See All Features
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -228,7 +228,7 @@ export default function Home() {
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
                   ⚡ 100% FREE • NO CREDIT CARD • INSTANT ACCESS • UNLIMITED RECIPES
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Master Any Cuisine - Start Your Culinary Journey Today</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🚀 Transform Your Kitchen Today - Join 100K+ Home Cooks</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed font-medium">
                   Get unlimited AI-powered recipes personalized to your taste and skill level. <span className="font-bold text-emerald-200">Discover new cuisines</span> from around the world, <span className="font-bold text-cyan-200">learn professional cooking techniques</span>, and <span className="font-bold text-blue-200">create restaurant-quality meals</span> at home. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access, zero risk.</span>
                 </p>
@@ -240,9 +240,9 @@ export default function Home() {
                         betaSection.scrollIntoView({ behavior: 'smooth' });
                       }
                     }}
-                    className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-105 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
+                    className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                   >
-                    🚀 Get Unlimited Recipes - 100% Free
+                    🚀 Start Cooking Smarter - 100% Free Forever
                     <ArrowRight className="w-6 h-6" />
                   </button>
                   <Link
