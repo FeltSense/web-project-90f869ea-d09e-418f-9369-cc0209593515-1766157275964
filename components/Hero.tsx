@@ -71,7 +71,7 @@ export default function Hero() {
           >
             {/* Badge */}
             <motion.div
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500/60 to-emerald-500/60 border border-cyan-300/95 mb-10 backdrop-blur-lg hover:border-cyan-200 transition-all duration-300 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500/70 hover:scale-105"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500/80 to-emerald-500/80 border border-cyan-300/95 mb-10 backdrop-blur-lg hover:border-cyan-200 transition-all duration-300 shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 hover:scale-105"
               initial={{ opacity: 0, y: -10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
@@ -91,7 +91,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-6 sm:gap-4 w-full sm:w-auto">
               <motion.button
-                className="group relative px-16 py-8 sm:py-5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl sm:rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg sm:text-base whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
+                className="group relative px-16 py-8 sm:py-5 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl sm:rounded-xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg sm:text-base whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -101,7 +101,7 @@ export default function Hero() {
                 </span>
               </motion.button>
               <motion.button
-                className="group relative px-12 py-7 sm:py-5 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl sm:rounded-xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg sm:text-base backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80"
+                className="group relative px-12 py-7 sm:py-5 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl sm:rounded-xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg sm:text-base backdrop-blur-lg hover:scale-105 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -127,7 +127,7 @@ export default function Hero() {
                 className="p-3 sm:p-4 rounded-lg bg-slate-900/60 border border-slate-700 hover:border-cyan-400/80 transition group cursor-pointer hover:bg-slate-900/90 hover:shadow-lg hover:shadow-cyan-400/40"
                 whileHover={{ y: -5 }}
               >
-                <div className="mb-2 sm:mb-3 text-cyan-400 group-hover:scale-110 transition">
+                <div className="mb-2 sm:mb-3 text-cyan-400 group-hover:scale-105 transition">
                   {feature.icon}
                 </div>
                 <h3 className="text-xs sm:text-sm font-semibold text-white mb-1 sm:mb-2">{feature.title}</h3>
