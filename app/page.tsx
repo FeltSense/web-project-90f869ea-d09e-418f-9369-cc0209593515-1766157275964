@@ -34,16 +34,16 @@ export default function Home() {
 
             {/* Main Headline - Powerful & Benefit-Driven */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
-              🤖 Your AI-Powered Personal Chef
+              🍽️ Your AI-Powered Kitchen Companion
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Dinner Solved in Seconds • Save 10+ Hours Weekly • Cut Grocery Bills 30%
+                Personalized Recipes in Seconds • Master Any Cuisine • Cook Like a Pro
               </span>
             </h1>
 
             {/* New: Hero Subheading with Strong Value Proposition */}
             <div className="mt-8 inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-300/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/40 hover:shadow-emerald-500/60 transition-all duration-300 hover:scale-105">
               <p className="text-lg sm:text-xl font-bold text-white leading-relaxed">
-                <span className="text-emerald-200">✨ AI-powered recipes in seconds</span> tailored to your taste and budget. <span className="text-cyan-200">Join 100K+ home cooks</span> saving 10+ hours weekly, cutting grocery bills 30%, and reducing food waste 40%. <span className="text-blue-200">100% free forever—no credit card, no commitment.</span>
+                <span className="text-emerald-200">✨ Personalized recipes tailored to you</span> in just seconds. <span className="text-cyan-200">Join 100K+ home cooks</span> discovering new cuisines, mastering cooking techniques, and creating restaurant-quality meals at home. <span className="text-blue-200">100% free forever—no credit card, no commitment.</span>
               </p>
             </div>
             
@@ -96,7 +96,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/140 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Get Your AI Chef Now - 100% Free Forever
+                    🚀 Start Cooking Smarter - 100% Free Forever
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -146,19 +146,19 @@ export default function Home() {
               </div>
               <div className="grid md:grid-cols-3 gap-6 relative z-10">
                 <div className="p-6 rounded-xl bg-slate-900/60 border border-cyan-400/50 hover:border-cyan-300 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/40">
-                  <div className="text-5xl mb-4">⚡</div>
-                  <h3 className="text-xl font-bold text-white mb-2">⚡ Instant Recipe Ideas</h3>
-                  <p className="text-slate-200 text-sm">Get personalized recipes in seconds, not hours. Our AI learns your taste and generates dishes you&apos;ll love cooking.</p>
+                  <div className="text-5xl mb-4">🎯</div>
+                  <h3 className="text-xl font-bold text-white mb-2">🎯 Personalized to Your Taste</h3>
+                  <p className="text-slate-200 text-sm">Our AI learns your flavor preferences and cooking style to suggest recipes you&apos;ll genuinely love. The more you cook, the smarter it gets.</p>
                 </div>
                 <div className="p-6 rounded-xl bg-slate-900/60 border border-emerald-400/50 hover:border-emerald-300 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/40">
-                  <div className="text-5xl mb-4">💰</div>
-                  <h3 className="text-xl font-bold text-white mb-2">💰 Save 30% on Groceries</h3>
-                  <p className="text-slate-200 text-sm">Smart budget optimization finds the best deals and suggests ingredient swaps automatically. Save $1,200+ yearly.</p>
+                  <div className="text-5xl mb-4">🌍</div>
+                  <h3 className="text-xl font-bold text-white mb-2">🌍 Explore Global Cuisines</h3>
+                  <p className="text-slate-200 text-sm">Discover recipes from around the world. Master Italian, Thai, Mexican, Indian, and more cuisines with step-by-step guidance.</p>
                 </div>
                 <div className="p-6 rounded-xl bg-slate-900/60 border border-blue-400/50 hover:border-blue-300 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/40">
-                  <div className="text-5xl mb-4">🌱</div>
-                  <h3 className="text-xl font-bold text-white mb-2">🌱 Reduce Food Waste by 40%</h3>
-                  <p className="text-slate-200 text-sm">AI-powered recipes use ingredients you already have, preventing spoilage and helping you cook sustainably.</p>
+                  <div className="text-5xl mb-4">👨‍🍳</div>
+                  <h3 className="text-xl font-bold text-white mb-2">👨‍🍳 Cook Like a Professional</h3>
+                  <p className="text-slate-200 text-sm">Learn professional cooking techniques, plating tips, and chef secrets. Create restaurant-quality meals in your own kitchen.</p>
                 </div>
               </div>
             </div>
@@ -228,9 +228,9 @@ export default function Home() {
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
                   ⚡ 100% FREE • NO CREDIT CARD • INSTANT ACCESS • UNLIMITED RECIPES
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Dinner Solved in Seconds - Join 100K+ Smart Home Cooks</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Master Any Cuisine - Join 100K+ Home Cooks</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed font-medium">
-                  Get unlimited AI-powered recipes personalized to your taste, budget, and dietary needs. <span className="font-bold text-emerald-200">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-200">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-200">reduce food waste by 40%</span>. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access.</span>
+                  Get unlimited AI-powered recipes personalized to your taste and skill level. <span className="font-bold text-emerald-200">Discover new cuisines</span> from around the world, <span className="font-bold text-cyan-200">learn professional cooking techniques</span>, and <span className="font-bold text-blue-200">create restaurant-quality meals</span> at home. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access.</span>
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                   <button
@@ -242,7 +242,7 @@ export default function Home() {
                     }}
                     className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-105 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                   >
-                    🚀 Get Your AI Chef Now - 100% Free
+                    🚀 Start Cooking Smarter - 100% Free
                     <ArrowRight className="w-6 h-6" />
                   </button>
                   <Link
