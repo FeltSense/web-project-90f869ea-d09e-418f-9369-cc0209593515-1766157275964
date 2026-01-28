@@ -39,6 +39,13 @@ export default function Home() {
                 Save 10+ Hours Weekly • Cut Grocery Bills 30% • Reduce Waste 40%
               </span>
             </h1>
+
+            {/* New: Hero Subheading with Strong Value Proposition */}
+            <div className="mt-8 inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-300/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/40 hover:shadow-emerald-500/60 transition-all duration-300 hover:scale-105">
+              <p className="text-lg sm:text-xl font-bold text-white leading-relaxed\">
+                <span className=\"text-emerald-200\">✨ Get unlimited AI-powered recipes</span> personalized to your taste in seconds. <span className=\"text-cyan-200\">Join 100K+ home cooks</span> saving time, money, and reducing food waste. <span className=\"text-blue-200\">100% free—no credit card needed.</span>
+              </p>
+            </div>
             
             {/* New Subheading - Enhanced Value Proposition */}
             <div className="mt-6 inline-block px-6 py-3 rounded-full bg-gradient-to-r from-emerald-500/40 to-cyan-500/40 border border-emerald-300/80 backdrop-blur-lg hover:border-emerald-200 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/30">
@@ -110,6 +117,22 @@ export default function Home() {
               <p className="text-sm text-slate-300 font-medium">
                 ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span>
               </p>
+
+              {/* New: Trust Badges Section */}
+              <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
+                <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-emerald-500/20 border border-emerald-400/60 backdrop-blur-sm">
+                  <span className="text-lg">✅</span>
+                  <span className="text-sm font-semibold text-emerald-200\">No Credit Card Required</span>
+                </div>
+                <div className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-cyan-500/20 border border-cyan-400/60 backdrop-blur-sm">
+                  <span className="text-lg\">⚡</span>
+                  <span className=\"text-sm font-semibold text-cyan-200\">Instant Access</span>
+                </div>
+                <div className=\"inline-flex items-center gap-2 px-5 py-3 rounded-full bg-blue-500/20 border border-blue-400/60 backdrop-blur-sm\">
+                  <span className=\"text-lg\">🔒</span>
+                  <span className=\"text-sm font-semibold text-blue-200\">100% Secure & Private</span>
+                </div>
+              </div>
             </div>
       
 
@@ -186,18 +209,43 @@ export default function Home() {
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed font-medium">
                   Join <span className="font-bold text-emerald-200">100K+ home cooks</span> who are already <span className="font-bold text-cyan-200">saving 10+ hours weekly</span>, <span className="font-bold text-blue-200">cutting grocery bills by 30%</span>, and <span className="font-bold text-emerald-200">reducing food waste by 40%</span>. Get unlimited AI-powered recipes personalized to your taste. <span className="font-bold text-yellow-200">Completely free—no credit card, no commitment.</span>
                 </p>
-                <button
-                  onClick={() => {
-                    const betaSection = document.getElementById('beta-signup-section');
-                    if (betaSection) {
-                      betaSection.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}
-                  className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
-                >
-                  🚀 Start Cooking Smarter Today
-                  <ArrowRight className="w-6 h-6" />
-                </button>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                  <button
+                    onClick={() => {
+                      const betaSection = document.getElementById('beta-signup-section');
+                      if (betaSection) {
+                        betaSection.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }}
+                    className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
+                  >
+                    🚀 Start Cooking Smarter Today
+                    <ArrowRight className="w-6 h-6" />
+                  </button>
+                  <Link
+                    href="/features"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-white/20 text-white font-bold rounded-2xl hover:bg-white/30 transition-all duration-300 hover:scale-105 active:scale-95 border border-white/40 hover:border-white/60"
+                  >
+                    Learn More
+                    <ArrowRight className="w-5 h-5" />
+                  </Link>
+                </div>
+
+                {/* New: Quick Stats Row */}
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm font-semibold text-white">
+                  <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 border border-white/20">
+                    <span>⭐</span>
+                    <span>4.9★ Rating (50K+ reviews)</span>
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 border border-white/20">
+                    <span>👥</span>
+                    <span>100K+ Active Users</span>
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 border border-white/20">
+                    <span>✅</span>
+                    <span>No Credit Card</span>
+                  </div>
+                </div>
               </div>
             </div>
 
