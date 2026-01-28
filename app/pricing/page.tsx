@@ -137,8 +137,8 @@ function PricingCard({ tier, index }: { tier: PricingTier; index: number }): JSX
       viewport={{ once: true }}
       className={`relative rounded-2xl backdrop-blur-sm transition-all duration-300 ${
         tier.highlighted
-          ? 'bg-gradient-to-br from-emerald-500 via-teal-500 to-emerald-500 p-8 ring-2 ring-emerald-400 shadow-2xl scale-105 lg:scale-110'
-          : 'bg-white/10 border border-white/20 p-8 hover:border-white/40'
+          ? 'bg-gradient-to-br from-emerald-500 via-teal-500 to-emerald-500 p-8 ring-2 ring-emerald-400 shadow-2xl shadow-emerald-500/80 scale-105 lg:scale-110 hover:scale-110 hover:shadow-emerald-500/100'
+          : 'bg-white/10 border border-white/20 p-8 hover:border-white/40 hover:bg-white/15 hover:shadow-lg hover:shadow-white/20'
       }`}
     >
       {tier.highlighted && (
@@ -320,14 +320,14 @@ export default function PricingPage(): JSX.Element {
                 ✨ Simple, Transparent Pricing
               </span>
             </div>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-              Simple, Transparent Pricing for{' '}
-              <span className="bg-gradient-to-r from-emerald-300 via-teal-400 to-cyan-500 bg-clip-text text-transparent">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight animate-fade-in">
+              🎯 Simple, Transparent Pricing for{' '}
+              <span className="bg-gradient-to-r from-emerald-300 via-teal-400 to-cyan-500 bg-clip-text text-transparent animate-pulse">
                 Every Kitchen
               </span>
             </h1>
-            <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
-              Choose the perfect plan for your cooking journey. Start free with full access to core features, upgrade anytime. All plans include a 7-day free trial with premium features included.
+            <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto leading-relaxed">
+              Choose the perfect plan for your cooking journey. <span className="font-bold text-emerald-300">Start free with full access to core features</span>, upgrade anytime. <span className="font-bold text-cyan-300">All plans include a 7-day free trial with premium features included</span>. No credit card required, cancel anytime.
             </p>
             <p className="text-lg text-emerald-300 font-semibold">
               🎁 7-Day Free Trial • 💰 Save 20% with Annual Billing • 🔄 Cancel Anytime • ✅ No Credit Card Required
@@ -473,9 +473,9 @@ export default function PricingPage(): JSX.Element {
             viewport={{ once: true }}
             className="max-w-3xl mx-auto text-center bg-gradient-to-br from-emerald-500/20 via-teal-500/15 to-cyan-500/20 border border-emerald-400/50 rounded-3xl p-12 sm:p-16 backdrop-blur-sm shadow-2xl shadow-emerald-500/20"
           >
-            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">Ready to Transform Your Kitchen?</h2>
-            <p className="text-lg text-gray-200 mb-10">
-              Start your free trial today. No credit card required. Get instant access to all features and start creating personalized meals in minutes.
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 animate-fade-in">🚀 Ready to Transform Your Kitchen?</h2>
+            <p className="text-lg text-gray-200 mb-10 leading-relaxed">
+              <span className="font-bold text-emerald-300">Start your free trial today</span>. <span className="font-bold text-cyan-300">No credit card required</span>. Get instant access to all features and start creating personalized meals in minutes. <span className="font-bold text-blue-300">Join 100K+ home cooks</span> already saving time, money, and reducing food waste.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <motion.button

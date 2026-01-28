@@ -28,14 +28,14 @@ export default function Home() {
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-6xl mx-auto text-center">
             {/* Premium Badge - Enhanced */}
-            <div className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500/90 to-emerald-500/90 border-2 border-cyan-100/95 mb-10 backdrop-blur-xl hover:border-white transition-all duration-300 shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/100 hover:scale-105">
+            <div className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500/90 to-emerald-500/90 border-2 border-cyan-100/95 mb-10 backdrop-blur-xl hover:border-white transition-all duration-300 shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/100 hover:scale-105 animate-pulse">
               <span className="text-sm font-bold text-white tracking-widest">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ HIGHEST RATED • 100% FREE FOREVER • INSTANT ACCESS</span>
             </div>
 
             {/* Main Headline - Powerful & Benefit-Driven */}
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl animate-fade-in">
               🤖 Your AI-Powered Personal Chef
-              <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+              <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-pulse">
                 Transform Your Kitchen in Seconds
               </span>
             </h1>
@@ -90,7 +90,7 @@ export default function Home() {
                       betaSection.scrollIntoView({ behavior: 'smooth' });
                     }
                   }}
-                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce hover:animate-none"
+                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce hover:animate-none hover:shadow-2xl"
                 >
                   <span className="relative z-10 flex items-center gap-2">
                     🚀 Start Cooking Smarter Today - 100% Free
