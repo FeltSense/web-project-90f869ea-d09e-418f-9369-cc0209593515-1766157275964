@@ -10,6 +10,7 @@ import Testimonials from '@/components/Testimonials'
 import SampleRecipes from '@/components/SampleRecipes'
 import BetaSignup from '@/components/BetaSignup'
 import KeyFeaturesShowcaseEnhanced from '@/components/KeyFeaturesShowcaseEnhanced'
+import MissionAndValues from '@/components/MissionAndValues'
 
 export default function Home() {
   return (
@@ -326,6 +327,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* MISSION AND VALUES SECTION */}
+      <MissionAndValues />
 
       {/* IMMEDIATE BENEFITS SECTION - What You Get Right Now */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden border-t border-slate-700/50">
