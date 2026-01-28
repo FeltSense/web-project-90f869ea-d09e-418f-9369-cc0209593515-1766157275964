@@ -28,56 +28,30 @@ export default function Home() {
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="max-w-6xl mx-auto text-center">
             {/* Premium Badge - Enhanced */}
-            <div className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500/90 to-emerald-500/90 border-2 border-cyan-100/95 mb-10 backdrop-blur-xl hover:border-white transition-all duration-300 shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/100 hover:scale-105 animate-pulse">
-              <span className="text-sm font-bold text-white tracking-widest">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ HIGHEST RATED • 100% FREE FOREVER • INSTANT ACCESS • AI-POWERED • ZERO COMMITMENT</span>
+            <div className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500/90 to-emerald-500/90 border-2 border-cyan-100/95 mb-10 backdrop-blur-xl hover:border-white transition-all duration-300 shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/100 hover:scale-105">
+              <span className="text-sm font-bold text-white tracking-widest">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ HIGHEST RATED • 100% FREE FOREVER • INSTANT ACCESS</span>
             </div>
 
             {/* Main Headline - Powerful & Benefit-Driven */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
-              🍽️ AI-Powered Recipes That Transform Your Kitchen
+              🤖 Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Get Unlimited Personalized Recipes in Seconds • Save 10+ Hours Weekly • Cut Grocery Bills 30% • Cook Restaurant-Quality Meals
+                Never Stress About Dinner Again
               </span>
             </h1>
 
-            {/* New: Hero Subheading with Strong Value Proposition */}
+            {/* Hero Subheading with Strong Value Proposition */}
             <div className="mt-8 inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-300/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/40 hover:shadow-emerald-500/60 transition-all duration-300 hover:scale-105">
               <p className="text-lg sm:text-xl font-bold text-white leading-relaxed">
-                <span className="text-emerald-200">✨ Unlimited AI-powered recipes</span> personalized to your taste in seconds. <span className="text-cyan-200">Join 100K+ home cooks</span> discovering new cuisines, mastering professional techniques, reducing food waste by 40%, and creating restaurant-quality meals every night. <span className="text-blue-200">100% free forever—no credit card, no commitment, instant access, zero risk.</span>
+                <span className="text-emerald-200">✨ Unlimited AI-powered recipes</span> personalized to your taste in seconds. <span className="text-cyan-200">Join 100K+ home cooks</span> discovering new cuisines, mastering professional techniques, and creating restaurant-quality meals every night. <span className="text-blue-200">100% free forever—no credit card, no commitment, instant access.</span>
               </p>
             </div>
-            
-            {/* New Subheading - Enhanced Value Proposition */}
-            <div className="mt-6 inline-block px-6 py-3 rounded-full bg-gradient-to-r from-emerald-500/40 to-cyan-500/40 border border-emerald-300/80 backdrop-blur-lg hover:border-emerald-200 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/30">
-              <p className="text-sm font-bold text-emerald-100">✨ 🤖 Advanced AI Recipe Generation • Real-Time Meal Planning • Smart Budget Optimization</p>
-            </div>
 
-            {/* NEW: Prominent Hero CTA Section */}
-            <div className="mt-12 p-8 rounded-2xl bg-gradient-to-r from-emerald-500/40 via-cyan-500/40 to-blue-500/40 border-2 border-emerald-300/90 backdrop-blur-lg shadow-2xl shadow-emerald-500/60 hover:shadow-emerald-500/80 transition-all duration-300 hover:scale-105">
-              <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
-                <div className="text-center sm:text-left flex-1">
-                  <p className="text-sm font-bold text-emerald-200 mb-2">⚡ START YOUR COOKING TRANSFORMATION TODAY</p>
-                  <p className="text-2xl sm:text-3xl font-bold text-white mb-2">Get Unlimited AI Recipes - 100% Free Forever</p>
-                  <p className="text-base text-slate-100">No credit card required. Instant access. Join 100K+ home cooks.</p>
-                </div>
-                <button
-                  onClick={() => {
-                    const betaSection = document.getElementById('beta-signup-section');
-                    if (betaSection) {
-                      betaSection.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}
-                  className="group relative px-10 py-4 bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold rounded-xl overflow-hidden shadow-lg shadow-white/50 hover:shadow-white/80 transition-all duration-300 hover:scale-110 active:scale-95 whitespace-nowrap before:absolute before:inset-0 before:bg-white/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity flex items-center gap-2"
-                >
-                  <span className="relative z-10">Start Free Now</span>
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
-              </div>
-            </div>
+
 
             {/* Subheading */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              <span className="font-bold text-emerald-300">✨ The Complete AI Cooking Solution:</span> Get unlimited personalized recipes in seconds. Our advanced AI learns your taste preferences and generates delicious meals that fit your budget, dietary needs, and cooking skill level. Whether you&apos;re a busy parent, fitness enthusiast, or sustainability advocate, RecipeAI adapts to your lifestyle. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-purple-300">cook restaurant-quality meals</span> every night. <span className="font-bold text-yellow-300">100% free forever—no credit card, no commitment, instant access.</span>
+              Get unlimited personalized recipes in seconds. Our advanced AI learns your taste preferences and generates delicious meals that fit your budget, dietary needs, and cooking skill level. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. <span className="font-bold text-yellow-300">100% free forever.</span>
             </p>
 
             {/* Key Stats - Enhanced */}
@@ -141,29 +115,7 @@ export default function Home() {
                 ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span>
               </p>
 
-              {/* New: Premium CTA Highlight */}
-              <div className="mt-8 p-6 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-400/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all duration-300 hover:scale-105">
-                <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-                  <div className="text-center sm:text-left">
-                    <p className="text-sm font-bold text-emerald-200 mb-1">⚡ LIMITED TIME OFFER</p>
-                    <p className="text-lg font-bold text-white">Join 100K+ Home Cooks & Transform Your Kitchen Today</p>
-                  </div>
-                  <button
-                    onClick={() => {
-                      const betaSection = document.getElementById('beta-signup-section');
-                      if (betaSection) {
-                        betaSection.scrollIntoView({ behavior: 'smooth' });
-                      }
-                    }}
-                    className="group relative px-8 py-3 bg-gradient-to-r from-emerald-400 to-cyan-400 text-slate-900 font-bold rounded-xl overflow-hidden shadow-lg shadow-emerald-500/80 hover:shadow-emerald-500/120 transition-all duration-300 hover:scale-105 active:scale-95 whitespace-nowrap before:absolute before:inset-0 before:bg-white/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity"
-                  >
-                    <span className="relative z-10 flex items-center gap-2">
-                      Get Started Free
-                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    </span>
-                  </button>
-                </div>
-              </div>
+
 
               {/* New: Trust Badges Section */}
               <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
@@ -181,40 +133,9 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* New: Quick Value Proposition Section */}
-              <div className=\"mt-16 p-8 rounded-2xl bg-gradient-to-r from-slate-800/40 to-slate-700/40 border border-slate-600/50 backdrop-blur-sm\">
-                <h3 className=\"text-2xl font-bold text-white mb-6 text-center\">🎯 Why RecipeAI is Different - Your Complete Cooking Solution</h3>
-                <div className=\"grid md:grid-cols-2 gap-6\">
-                  <div className=\"flex gap-3 items-start\">
-                    <span className=\"text-2xl flex-shrink-0\">🤖</span>
-                    <div>
-                      <p className=\"font-bold text-white mb-1\">AI-Powered Personalization</p>
-                      <p className=\"text-slate-200 text-sm\">Our advanced AI learns your taste preferences and generates recipes specifically for you—not generic suggestions.</p>
-                    </div>
-                  </div>
-                  <div className=\"flex gap-3 items-start\">
-                    <span className=\"text-2xl flex-shrink-0\">⏱️</span>
-                    <div>
-                      <p className=\"font-bold text-white mb-1\">Save 10+ Hours Weekly</p>
-                      <p className=\"text-slate-200 text-sm\">Get dinner ideas in seconds instead of spending hours planning. More time with family, less time in the kitchen.</p>
-                    </div>
-                  </div>
-                  <div className=\"flex gap-3 items-start\">
-                    <span className=\"text-2xl flex-shrink-0\">💰</span>
-                    <div>
-                      <p className=\"font-bold text-white mb-1\">Cut Grocery Bills by 30%</p>
-                      <p className=\"text-slate-200 text-sm\">Smart budget optimization and ingredient swaps save you $1,200+ yearly while maintaining quality and taste.</p>
-                    </div>
-                  </div>
-                  <div className=\"flex gap-3 items-start\">
-                    <span className=\"text-2xl flex-shrink-0\">🌱</span>
-                    <div>
-                      <p className=\"font-bold text-white mb-1\">Reduce Food Waste by 40%</p>
-                      <p className=\"text-slate-200 text-sm\">Recipes use ingredients you already have, preventing spoilage and helping you cook sustainably.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+
+
             </div>
       
 
