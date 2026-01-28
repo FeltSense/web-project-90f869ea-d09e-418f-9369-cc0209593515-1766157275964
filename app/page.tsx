@@ -36,17 +36,14 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
               🤖 Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Never Stress About Dinner Again
+                Save 10+ Hours Weekly • Cut Grocery Bills 30% • Reduce Waste 40%
               </span>
             </h1>
-            <p className="text-2xl sm:text-3xl font-bold text-emerald-200 mb-6 leading-relaxed">
-              Save 10+ Hours Weekly • Cut Grocery Bills 30% • Reduce Waste 40%
-            </p>
 
             {/* New: Hero Subheading with Strong Value Proposition */}
             <div className="mt-8 inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-300/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/40 hover:shadow-emerald-500/60 transition-all duration-300 hover:scale-105">
-              <p className="text-lg sm:text-xl font-bold text-white leading-relaxed">
-                <span className="text-emerald-200">✨ Get unlimited AI-powered recipes</span> personalized to your taste in seconds. <span className="text-cyan-200">Join 100K+ home cooks</span> saving time, money, and reducing food waste. <span className="text-blue-200">100% free—no credit card needed.</span>
+              <p className="text-lg sm:text-xl font-bold text-white leading-relaxed\">
+                <span className=\"text-emerald-200\">✨ Get unlimited AI-powered recipes</span> personalized to your taste in seconds. <span className=\"text-cyan-200\">Join 100K+ home cooks</span> saving time, money, and reducing food waste. <span className=\"text-blue-200\">100% free—no credit card needed.</span>
               </p>
             </div>
             
@@ -57,7 +54,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-100 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              <span className="font-bold text-emerald-300">✨ Stop Stressing About Dinner:</span> RecipeAI is your personal AI chef that generates unlimited personalized recipes in seconds. Whether you're a busy parent juggling schedules, a fitness enthusiast tracking macros, or someone passionate about reducing food waste, our AI adapts to your lifestyle perfectly. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-purple-300">cook restaurant-quality meals</span> every night. Join 100K+ home cooks who've already transformed their kitchens.
+              <span className="font-bold text-emerald-300">✨ Transform Your Kitchen:</span> Get unlimited AI-powered recipes personalized to your taste in seconds. Our advanced AI learns your preferences and generates delicious meals that fit your budget, dietary needs, and cooking skill level. RecipeAI combines <span className="font-bold text-cyan-300">advanced AI with culinary expertise</span> to deliver <span className="font-bold text-emerald-300">unlimited personalized recipes in seconds</span>. Whether you're a busy parent, fitness enthusiast, or sustainability advocate, RecipeAI adapts to your lifestyle. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-purple-300">cook restaurant-quality meals</span> every night.
             </p>
 
             {/* Key Stats - Enhanced */}
@@ -99,7 +96,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Get Your Free AI Chef Now
+                    🚀 Start Cooking Smarter Free
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -110,7 +107,7 @@ export default function Home() {
                   className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    ✨ See How It Works
+                    🎯 Explore All Features
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -118,7 +115,7 @@ export default function Home() {
 
               {/* CTA Supporting Text - Enhanced */}
               <p className="text-sm text-slate-300 font-medium">
-                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card Required</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span>
+                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span>
               </p>
 
               {/* New: Trust Badges Section */}
@@ -208,9 +205,9 @@ export default function Home() {
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
                   ⚡ LIMITED TIME • 100% FREE • NO CREDIT CARD REQUIRED
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Transform Your Kitchen Today</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Start Your AI Cooking Journey Today</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed font-medium">
-                  Join <span className="font-bold text-emerald-200">100K+ home cooks</span> who are already <span className="font-bold text-cyan-200">saving 10+ hours weekly</span>, <span className="font-bold text-blue-200">cutting grocery bills by 30%</span>, and <span className="font-bold text-emerald-200">reducing food waste by 40%</span>. Get unlimited AI-powered recipes personalized to your taste. <span className="font-bold text-yellow-200">Completely free—no credit card, no commitment, no risk.</span>
+                  Join <span className="font-bold text-emerald-200">100K+ home cooks</span> who are already <span className="font-bold text-cyan-200">saving 10+ hours weekly</span>, <span className="font-bold text-blue-200">cutting grocery bills by 30%</span>, and <span className="font-bold text-emerald-200">reducing food waste by 40%</span>. Get unlimited AI-powered recipes personalized to your taste. <span className="font-bold text-yellow-200">Completely free—no credit card, no commitment.</span>
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                   <button
@@ -222,7 +219,7 @@ export default function Home() {
                     }}
                     className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                   >
-                    🚀 Get Your Free AI Chef Now
+                    🚀 Start Cooking Smarter Today
                     <ArrowRight className="w-6 h-6" />
                   </button>
                   <Link
