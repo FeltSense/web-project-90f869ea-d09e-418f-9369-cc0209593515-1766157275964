@@ -29,14 +29,14 @@ export default function Home() {
           <div className="max-w-6xl mx-auto text-center">
             {/* Premium Badge - Enhanced */}
             <div className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500/80 to-emerald-500/80 border-2 border-cyan-100/95 mb-10 backdrop-blur-xl hover:border-white transition-all duration-300 shadow-2xl shadow-cyan-500/70 hover:shadow-cyan-500/90 hover:scale-110 animate-pulse">
-              <span className="text-sm font-bold text-white tracking-widest">⭐ 100K+ USERS • 4.9★ RATING • 100% FREE • NO CREDIT CARD • AI-POWERED</span>
+              <span className="text-sm font-bold text-white tracking-widest">⭐ TRUSTED BY 100K+ HOME COOKS • 4.9★ HIGHEST RATED • 100% FREE • NO CREDIT CARD • AI-POWERED</span>
             </div>
 
             {/* Main Headline - Powerful & Benefit-Driven */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
               🤖 Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Save 10+ Hours Weekly • Cut Grocery Bills 30% • Reduce Waste 40%
+                Save 10+ Hours Weekly • Cut Grocery Bills 30% • Reduce Waste 40% • Cook Like a Pro
               </span>
             </h1>
 
@@ -96,7 +96,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/90 hover:shadow-emerald-500/130 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Start Cooking Smarter Free
+                    🚀 Get Unlimited AI Recipes Free
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -107,7 +107,7 @@ export default function Home() {
                   className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🎯 Explore All Features
+                    ✨ See All Features
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -203,9 +203,9 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/15 via-emerald-400/15 to-blue-400/15 group-hover:from-cyan-400/25 group-hover:via-emerald-400/25 group-hover:to-blue-400/25 transition-all duration-300"></div>
               <div className="relative z-10 text-center">
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
-                  ⚡ LIMITED TIME • 100% FREE • NO CREDIT CARD REQUIRED
+                  ⚡ 100% FREE • NO CREDIT CARD • INSTANT ACCESS • UNLIMITED RECIPES
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Start Your AI Cooking Journey Today</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Transform Your Kitchen Today - Join 100K+ Home Cooks</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed font-medium">
                   Join <span className="font-bold text-emerald-200">100K+ home cooks</span> who are already <span className="font-bold text-cyan-200">saving 10+ hours weekly</span>, <span className="font-bold text-blue-200">cutting grocery bills by 30%</span>, and <span className="font-bold text-emerald-200">reducing food waste by 40%</span>. Get unlimited AI-powered recipes personalized to your taste. <span className="font-bold text-yellow-200">Completely free—no credit card, no commitment.</span>
                 </p>
@@ -219,7 +219,7 @@ export default function Home() {
                     }}
                     className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                   >
-                    🚀 Start Cooking Smarter Today
+                    🚀 Get Started Free Now
                     <ArrowRight className="w-6 h-6" />
                   </button>
                   <Link
