@@ -36,14 +36,14 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
               🍽️ Your AI-Powered Kitchen Companion
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Personalized Recipes in Seconds • Master Any Cuisine • Cook Like a Pro • Save 10+ Hours Weekly
+                Unlimited Personalized Recipes • Master Global Cuisines • Cook Restaurant-Quality Meals • Save 10+ Hours Weekly
               </span>
             </h1>
 
             {/* New: Hero Subheading with Strong Value Proposition */}
             <div className="mt-8 inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-300/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/40 hover:shadow-emerald-500/60 transition-all duration-300 hover:scale-105">
               <p className="text-lg sm:text-xl font-bold text-white leading-relaxed">
-                <span className="text-emerald-200">✨ Personalized recipes tailored to you</span> in just seconds. <span className="text-cyan-200">Join 100K+ home cooks</span> discovering new cuisines, mastering cooking techniques, and creating restaurant-quality meals at home. <span className="text-blue-200">100% free forever—no credit card, no commitment, instant access, zero risk.</span>
+                <span className="text-emerald-200">✨ Get unlimited AI-powered recipes</span> in just seconds. <span className="text-cyan-200">Join 100K+ home cooks</span> mastering global cuisines, learning professional techniques, and creating restaurant-quality meals every night. <span className="text-blue-200">100% free forever—no credit card, no commitment, instant access, zero risk.</span>
               </p>
             </div>
             
@@ -96,7 +96,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/140 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Start Cooking Smarter - 100% Free Forever
+                    🚀 Get Unlimited Recipes - 100% Free Forever
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -107,7 +107,7 @@ export default function Home() {
                   className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-105 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    ✨ See How It Works
+                    ✨ Explore Features
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -228,7 +228,7 @@ export default function Home() {
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
                   ⚡ 100% FREE • NO CREDIT CARD • INSTANT ACCESS • UNLIMITED RECIPES
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Master Any Cuisine - Join 100K+ Home Cooks Today</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🍽️ Master Any Cuisine - Start Your Culinary Journey Today</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed font-medium">
                   Get unlimited AI-powered recipes personalized to your taste and skill level. <span className="font-bold text-emerald-200">Discover new cuisines</span> from around the world, <span className="font-bold text-cyan-200">learn professional cooking techniques</span>, and <span className="font-bold text-blue-200">create restaurant-quality meals</span> at home. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access, zero risk.</span>
                 </p>
@@ -242,7 +242,7 @@ export default function Home() {
                     }}
                     className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-105 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                   >
-                    🚀 Start Cooking Smarter - 100% Free
+                    🚀 Get Unlimited Recipes - 100% Free
                     <ArrowRight className="w-6 h-6" />
                   </button>
                   <Link
