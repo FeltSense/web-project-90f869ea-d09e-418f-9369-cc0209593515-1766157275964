@@ -93,7 +93,7 @@ export default function Home() {
                       betaSection.scrollIntoView({ behavior: 'smooth' });
                     }
                   }}
-                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/140 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce hover:animate-none"
+                  className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce hover:animate-none"
                 >
                   <span className="relative z-10 flex items-center gap-2">
                     🚀 Start Cooking Smarter - 100% Free Forever
@@ -104,7 +104,7 @@ export default function Home() {
                 {/* Secondary CTA Button - Feature Discovery */}
                 <Link
                   href="/features"
-                  className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/80 md:text-base sm:px-10 sm:py-6"
+                  className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/100 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
                     ✨ See All Features
@@ -117,6 +117,30 @@ export default function Home() {
               <p className="text-sm text-slate-300 font-medium">
                 ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span>
               </p>
+
+              {/* New: Premium CTA Highlight */}
+              <div className=\"mt-8 p-6 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-400/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-500/70 transition-all duration-300 hover:scale-105\">
+                <div className=\"flex flex-col sm:flex-row items-center justify-between gap-4\">
+                  <div className=\"text-center sm:text-left\">
+                    <p className=\"text-sm font-bold text-emerald-200 mb-1\">⚡ LIMITED TIME OFFER</p>
+                    <p className=\"text-lg font-bold text-white\">Join 100K+ Home Cooks & Transform Your Kitchen Today</p>
+                  </div>
+                  <button
+                    onClick={() => {
+                      const betaSection = document.getElementById('beta-signup-section');
+                      if (betaSection) {
+                        betaSection.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }}
+                    className=\"group relative px-8 py-3 bg-gradient-to-r from-emerald-400 to-cyan-400 text-slate-900 font-bold rounded-xl overflow-hidden shadow-lg shadow-emerald-500/80 hover:shadow-emerald-500/120 transition-all duration-300 hover:scale-105 active:scale-95 whitespace-nowrap before:absolute before:inset-0 before:bg-white/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity\"
+                  >
+                    <span className=\"relative z-10 flex items-center gap-2\">
+                      Get Started Free
+                      <ArrowRight className=\"w-4 h-4 group-hover:translate-x-1 transition-transform\" />
+                    </span>
+                  </button>
+                </div>
+              </div>
 
               {/* New: Trust Badges Section */}
               <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
@@ -189,7 +213,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/35 to-blue-500/35 border-2 border-cyan-400/80 hover:border-cyan-200 transition hover:shadow-2xl hover:shadow-cyan-500/80 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/45 hover:to-blue-500/45 relative overflow-hidden">
+                <div className="p-10 rounded-2xl bg-gradient-to-br from-cyan-500/35 to-blue-500/35 border-2 border-cyan-400/80 hover:border-cyan-200 transition hover:shadow-2xl hover:shadow-cyan-500/100 duration-300 hover:scale-105 cursor-pointer group backdrop-blur-sm hover:bg-gradient-to-br hover:from-cyan-500/45 hover:to-blue-500/45 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-blue-400/0 group-hover:from-cyan-400/10 group-hover:to-blue-400/10 transition-all duration-300"></div>
                   <div className="relative z-10">
                     <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">⏱️</div>
