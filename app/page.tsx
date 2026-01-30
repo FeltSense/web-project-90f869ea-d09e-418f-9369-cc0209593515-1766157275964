@@ -30,21 +30,21 @@ export default function Home() {
           <div className="max-w-6xl mx-auto text-center">
             {/* Premium Badge - Enhanced */}
             <div className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500/90 to-emerald-500/90 border-2 border-cyan-100/95 mb-10 backdrop-blur-xl hover:border-white transition-all duration-300 shadow-2xl shadow-cyan-500/80 hover:shadow-cyan-500/100 hover:scale-105 animate-pulse">
-              <span className="text-sm font-bold text-white tracking-widest">✨ AI-POWERED COOKING • PERSONALIZED RECIPES • SAVE TIME & MONEY • 100K+ HAPPY COOKS</span>
+              <span className="text-sm font-bold text-white tracking-widest">✨ TRUSTED BY 100K+ COOKS • 4.9★ RATING • 100% FREE FOREVER • NO CREDIT CARD</span>
             </div>
 
             {/* Main Headline - Powerful & Benefit-Driven */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl animate-fade-in">
-              Your AI-Powered Kitchen Companion
+              🤖 Your AI-Powered Personal Chef
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-pulse">
-                Gourmet Meals in Minutes, Not Hours
+                Personalized Recipes in Seconds • Save 10+ Hours Weekly
               </span>
             </h1>
 
             {/* Hero Subheading with Strong Value Proposition */}
             <div className="mt-8 inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-300/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/40 hover:shadow-emerald-500/60 transition-all duration-300 hover:scale-105">
               <p className="text-lg sm:text-xl font-bold text-white leading-relaxed">
-                <span className="text-emerald-200">✨ Smart AI learns your taste</span> and suggests recipes you'll love. <span className="text-cyan-200">Explore 100+ global cuisines</span> with professional guidance. <span className="text-blue-200">Save 10+ hours weekly, cut grocery costs by 30%, reduce food waste by 40%—100% free forever.</span>
+                <span className="text-emerald-200">🎯 Transform your kitchen</span> with AI that learns your taste. <span className="text-cyan-200">Get unlimited personalized recipes</span> in seconds. <span className="text-blue-200">Save 10+ hours weekly, cut grocery bills by 30%, reduce food waste by 40%—100% free forever, no credit card required.</span>
               </p>
             </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p className="text-base sm:text-lg md:text-xl lg:text-xl text-slate-50 max-w-4xl mx-auto mb-10 leading-relaxed font-medium">
-              Get unlimited personalized recipes tailored to your taste, budget, and dietary needs. Our advanced AI learns what you love and generates delicious meal ideas in seconds. <span className="font-bold text-cyan-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-emerald-300">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-300">reduce food waste by 40%</span>. <span className="font-bold text-yellow-300">100% free forever—no credit card required.</span>
+              <span className="font-bold text-emerald-300">Transform your kitchen with AI-powered cooking.</span> RecipeAI delivers <span className="font-bold text-cyan-300">unlimited personalized recipes in seconds</span> tailored to your ingredients, dietary preferences, and cooking skill level. <span className="font-bold text-emerald-300">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-300">cut grocery bills by 30%</span>, <span className="font-bold text-blue-300">reduce food waste by 40%</span>, and <span className="font-bold text-emerald-300">cook restaurant-quality meals</span> every night. <span className="font-bold text-yellow-300">100% free forever—no credit card required.</span>
             </p>
 
             {/* Key Stats - Enhanced */}
@@ -94,7 +94,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce hover:animate-none hover:shadow-2xl"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Start Cooking Smarter Today - Free Forever
+                    🚀 Get Unlimited Recipes Free - No Credit Card Required
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -105,7 +105,7 @@ export default function Home() {
                   className="group relative px-12 py-7 border-2 border-cyan-300/95 text-white font-semibold rounded-2xl hover:bg-cyan-500/60 hover:border-cyan-100 transition-all duration-300 flex items-center justify-center gap-2 text-lg backdrop-blur-lg hover:scale-110 bg-cyan-500/40 active:scale-95 before:absolute before:inset-0 before:bg-cyan-400/40 before:opacity-0 hover:before:opacity-100 before:transition-opacity shadow-lg shadow-cyan-500/60 hover:shadow-cyan-500/100 md:text-base sm:px-10 sm:py-6"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    ✨ Discover Your Perfect Recipes
+                    ✨ Explore 10,000+ Recipes
                   </span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -230,11 +230,11 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/15 via-emerald-400/15 to-blue-400/15 group-hover:from-cyan-400/25 group-hover:via-emerald-400/25 group-hover:to-blue-400/25 transition-all duration-300"></div>
               <div className="relative z-10 text-center">
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-6">
-                  ⚡ 100% FREE • NO CREDIT CARD • INSTANT ACCESS • UNLIMITED RECIPES
+                  ⚡ 100% FREE FOREVER • NO CREDIT CARD • INSTANT ACCESS • UNLIMITED RECIPES
                 </div>
-                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🚀 Join 100K+ Smart Cooks - Start Your Free Trial Today</h3>
+                <h3 className="text-4xl sm:text-5xl font-bold text-white mb-4">🚀 Join 100K+ Smart Cooks - Start Cooking Smarter Today</h3>
                 <p className="text-xl text-slate-50 max-w-2xl mx-auto mb-8 leading-relaxed font-medium">
-                  Get unlimited personalized recipes in seconds. <span className="font-bold text-emerald-200">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-200">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-200">reduce food waste by 40%</span>. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access.</span>
+                  <span className="font-bold text-emerald-200">Transform your kitchen</span> with AI-powered personalized recipes. <span className="font-bold text-emerald-200">Save 10+ hours weekly</span> on meal planning, <span className="font-bold text-cyan-200">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-200">reduce food waste by 40%</span>. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access.</span>
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                   <button
