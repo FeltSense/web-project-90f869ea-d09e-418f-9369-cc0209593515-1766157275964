@@ -688,6 +688,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* BETA SIGNUP SECTION - High-Converting Call-to-Action */}
+      <div id=\"beta-signup-section\">
+        <BetaSignup />
+      </div>
+
       <Pricing />
       <Testimonials />
       <ContactForm />
