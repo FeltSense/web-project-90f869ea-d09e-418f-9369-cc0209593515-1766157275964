@@ -94,7 +94,7 @@ export default function Home() {
                   className="group relative px-16 py-8 bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-400 text-slate-900 font-bold rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/100 hover:shadow-emerald-500/150 transition-all duration-300 transform hover:scale-110 flex items-center justify-center gap-3 text-lg whitespace-nowrap active:scale-95 before:absolute before:inset-0 before:bg-white/50 before:opacity-0 hover:before:opacity-100 before:transition-opacity animate-bounce hover:animate-none hover:shadow-2xl"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    🚀 Get Unlimited Recipes Free - No Credit Card Required
+                    🚀 Start Cooking Smarter Today - 100% Free Forever
                   </span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </button>
@@ -113,7 +113,7 @@ export default function Home() {
 
               {/* CTA Supporting Text - Enhanced */}
               <p className="text-sm text-slate-300 font-medium">
-                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span>
+                ✨ <span className="text-emerald-300 font-bold">100% Free Forever</span> • <span className="text-cyan-300 font-bold">No Credit Card</span> • <span className="text-blue-300 font-bold">Instant Access</span> • <span className="text-purple-300 font-bold">100K+ Users</span> • <span className="text-orange-300 font-bold">4.9★ Rated</span> • <span className="text-pink-300 font-bold">Join Today</span>
               </p>
 
 
@@ -246,7 +246,7 @@ export default function Home() {
                     }}
                     className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                   >
-                    🚀 Get Started Free - No Credit Card Required
+                    🚀 Unlock Your Free AI Chef Now - Join 100K+ Smart Cooks
                     <ArrowRight className="w-6 h-6" />
                   </button>
                   <Link

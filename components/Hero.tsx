@@ -96,7 +96,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Get Unlimited Recipes Free - No Credit Card
+                  🚀 Start Cooking Smarter Today - 100% Free Forever
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-2 transition" />
                 </span>
               </motion.button>
@@ -106,7 +106,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore 10,000+ Recipes
+                  ✨ Join 100K+ Smart Cooks - Explore 10,000+ Recipes
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
