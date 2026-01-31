@@ -81,9 +81,9 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-              🍽️ Your Personal AI Chef, Always Ready
+              🍽️ Your AI-Powered Cooking Companion
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Personalized Recipes in Seconds • Save 10+ Hours Weekly • Cut Grocery Bills by 30%
+                Unlimited Recipes • Save 10+ Hours Weekly • Cut Grocery Bills by 30%
               </span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-100 mb-8 leading-relaxed font-medium">
@@ -96,7 +96,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🚀 Start Cooking Smarter Today - It's 100% Free
+                  🚀 Get Your AI Chef Now - 100% Free Forever
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-2 transition" />
                 </span>
               </motion.button>
@@ -106,7 +106,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  ✨ Explore Features & See How It Works
+                  ✨ Explore Features & Learn More
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
@@ -119,7 +119,7 @@ export default function Hero() {
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-4">
                   ⚡ 100% FREE FOREVER • NO CREDIT CARD • INSTANT ACCESS
                 </div>
-                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">🌟 Your AI Chef Awaits - Start Your Free Trial</h3>
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">🌟 Ready to Transform Your Kitchen? Start Free Today</h3>
                 <p className="text-base sm:text-lg text-slate-50 mb-6 leading-relaxed font-medium">
                   <span className="font-bold text-emerald-200">Stop wasting time on meal planning.</span> Get <span className="font-bold text-cyan-200">unlimited personalized recipes in seconds</span> with AI that learns your taste. <span className="font-bold text-emerald-200">Save 10+ hours weekly</span>, <span className="font-bold text-cyan-200">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-200">reduce food waste by 40%</span>. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access.</span>
                 </p>
@@ -128,7 +128,7 @@ export default function Hero() {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  🎯 Get Started - No Credit Card Needed
+                  🎯 Start Cooking Free - No Credit Card
                   <ArrowRight className="w-6 h-6" />
                 </motion.button>
               </div>
