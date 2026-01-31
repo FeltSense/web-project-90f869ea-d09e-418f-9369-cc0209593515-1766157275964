@@ -81,9 +81,9 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-              🍽️ Cook Smarter, Eat Better, Live Sustainably
+              🚀 Your Personal AI Chef, Always Ready to Inspire
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                AI-Powered Recipes • Personalized Meal Plans • 40% Less Food Waste
+                Endless Recipe Ideas • Personalized to Your Taste • Cook Like a Pro
               </span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-100 mb-8 leading-relaxed font-medium">
@@ -143,16 +143,63 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            {/* Hero Image Container */}
+            {/* Hero Image Container - Premium Visual */}
             <div className="relative w-full h-96 sm:h-[500px] mb-8 rounded-3xl overflow-hidden border-2 border-cyan-400/60 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transition-all duration-300 group">
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-600/40 via-emerald-600/40 to-blue-600/40 backdrop-blur-sm"></div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-8xl sm:text-9xl mb-4 animate-bounce">🍳</div>
-                  <p className="text-2xl sm:text-3xl font-bold text-white mb-2">AI-Powered Cooking</p>
-                  <p className="text-lg sm:text-xl text-cyan-200">Transform Your Kitchen Today</p>
-                </div>
+              {/* Gradient background with premium feel */}
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-cyan-900/40 to-emerald-900/40 backdrop-blur-sm"></div>
+              
+              {/* Premium content showcase */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center p-8">
+                <motion.div
+                  className="text-center"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true }}
+                >
+                  {/* Main visual element */}
+                  <div className="mb-6 relative">
+                    <motion.div
+                      className="text-7xl sm:text-8xl"
+                      animate={{ scale: [1, 1.1, 1], rotate: [0, 5, -5, 0] }}
+                      transition={{ duration: 4, repeat: Infinity }}
+                    >
+                      👨‍🍳
+                    </motion.div>
+                    <motion.div
+                      className="absolute -top-4 -right-4 text-5xl"
+                      animate={{ rotate: 360 }}
+                      transition={{ duration: 8, repeat: Infinity, linear: true }}
+                    >
+                      ✨
+                    </motion.div>
+                  </div>
+                  
+                  {/* Headline */}
+                  <p className="text-2xl sm:text-3xl font-bold text-white mb-3">
+                    Meet Your AI Chef
+                  </p>
+                  
+                  {/* Subheading */}
+                  <p className="text-base sm:text-lg text-cyan-200 mb-6 max-w-xs">
+                    Unlimited recipes, personalized just for you
+                  </p>
+                  
+                  {/* Quick stats */}
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center text-sm font-semibold">
+                    <div className="px-4 py-2 rounded-lg bg-emerald-500/30 border border-emerald-400/60 text-emerald-200">
+                      ⚡ Instant Recipes
+                    </div>
+                    <div className="px-4 py-2 rounded-lg bg-cyan-500/30 border border-cyan-400/60 text-cyan-200">
+                      🎯 Personalized
+                    </div>
+                    <div className="px-4 py-2 rounded-lg bg-blue-500/30 border border-blue-400/60 text-blue-200">
+                      👨‍🍳 Pro Techniques
+                    </div>
+                  </div>
+                </motion.div>
               </div>
+              
               {/* Animated background elements */}
               <motion.div
                 className="absolute top-10 right-10 w-32 h-32 bg-emerald-400/30 rounded-full blur-2xl"
