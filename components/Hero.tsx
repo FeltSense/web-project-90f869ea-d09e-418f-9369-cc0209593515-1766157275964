@@ -81,9 +81,9 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-              🍽️ Your AI-Powered Cooking Companion
+              🍽️ Cook Smarter, Eat Better, Live Sustainably
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Unlimited Recipes • Save 10+ Hours Weekly • Cut Grocery Bills by 30%
+                AI-Powered Recipes • Personalized Meal Plans • 40% Less Food Waste
               </span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-100 mb-8 leading-relaxed font-medium">
@@ -135,27 +135,53 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Right features grid */}
+          {/* Right hero image and features */}
           <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4"
+            className="relative flex flex-col items-center justify-center"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            {features.map((feature, index) => (
-              <motion.div
-                key={index}
-                className="p-3 sm:p-4 rounded-lg bg-slate-900/60 border border-slate-700 hover:border-cyan-400/80 transition group cursor-pointer hover:bg-slate-900/90 hover:shadow-lg hover:shadow-cyan-400/40"
-                whileHover={{ y: -5 }}
-              >
-                <div className="mb-2 sm:mb-3 text-cyan-400 group-hover:scale-105 transition">
-                  {feature.icon}
+            {/* Hero Image Container */}
+            <div className="relative w-full h-96 sm:h-[500px] mb-8 rounded-3xl overflow-hidden border-2 border-cyan-400/60 shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/70 transition-all duration-300 group">
+              <div className="absolute inset-0 bg-gradient-to-br from-cyan-600/40 via-emerald-600/40 to-blue-600/40 backdrop-blur-sm"></div>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="text-8xl sm:text-9xl mb-4 animate-bounce">🍳</div>
+                  <p className="text-2xl sm:text-3xl font-bold text-white mb-2">AI-Powered Cooking</p>
+                  <p className="text-lg sm:text-xl text-cyan-200">Transform Your Kitchen Today</p>
                 </div>
-                <h3 className="text-xs sm:text-sm font-semibold text-white mb-1 sm:mb-2">{feature.title}</h3>
-                <p className="text-xs text-slate-400 line-clamp-3">{feature.description}</p>
-              </motion.div>
-            ))}
+              </div>
+              {/* Animated background elements */}
+              <motion.div
+                className="absolute top-10 right-10 w-32 h-32 bg-emerald-400/30 rounded-full blur-2xl"
+                animate={{ y: [0, 20, 0], x: [0, 10, 0] }}
+                transition={{ duration: 4, repeat: Infinity }}
+              />
+              <motion.div
+                className="absolute bottom-10 left-10 w-40 h-40 bg-cyan-400/20 rounded-full blur-3xl"
+                animate={{ y: [0, -20, 0], x: [0, -10, 0] }}
+                transition={{ duration: 5, repeat: Infinity, delay: 1 }}
+              />
+            </div>
+
+            {/* Features grid below image */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 w-full">
+              {features.map((feature, index) => (
+                <motion.div
+                  key={index}
+                  className="p-3 sm:p-4 rounded-lg bg-slate-900/60 border border-slate-700 hover:border-cyan-400/80 transition group cursor-pointer hover:bg-slate-900/90 hover:shadow-lg hover:shadow-cyan-400/40"
+                  whileHover={{ y: -5 }}
+                >
+                  <div className="mb-2 sm:mb-3 text-cyan-400 group-hover:scale-105 transition">
+                    {feature.icon}
+                  </div>
+                  <h3 className="text-xs sm:text-sm font-semibold text-white mb-1 sm:mb-2">{feature.title}</h3>
+                  <p className="text-xs text-slate-400 line-clamp-3">{feature.description}</p>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </div>
