@@ -81,9 +81,9 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight tracking-tight">
-              🍽️ Cook Like a Pro, Every Single Night
+              🍽️ Your Personal AI Chef, Ready to Cook
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                AI-Powered Recipes • Personalized Just For You • 100% Free Forever
+                Unlimited Recipes • Personalized to Your Taste • 100% Free Forever
               </span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-100 mb-8 leading-relaxed font-medium">
@@ -96,7 +96,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  🎯 Get Your First Recipe - Completely Free
+                  🚀 Start Cooking Now - 100% Free
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-2 transition" />
                 </span>
               </motion.button>
@@ -106,7 +106,7 @@ export default function Hero() {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  📚 See How It Works
+                  ✨ Explore Features
                   <ArrowRight className="w-5 sm:w-4 h-5 sm:h-4 group-hover:translate-x-1 transition" />
                 </span>
               </motion.button>
@@ -119,16 +119,16 @@ export default function Hero() {
                 <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 text-slate-900 font-bold text-sm mb-4">
                   ⚡ 100% FREE FOREVER • NO CREDIT CARD • INSTANT ACCESS
                 </div>
-                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">✨ Start Cooking Smarter Today</h3>
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">🌟 Transform Your Kitchen Today</h3>
                 <p className="text-base sm:text-lg text-slate-50 mb-6 leading-relaxed font-medium">
-                  <span className="font-bold text-emerald-200">Join thousands of home cooks</span> who've transformed their kitchens with AI. Get <span className="font-bold text-cyan-200">unlimited personalized recipes in seconds</span> with AI that learns your taste. <span className="font-bold text-emerald-200">Save 10+ hours weekly</span>, <span className="font-bold text-cyan-200">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-200">reduce food waste by 40%</span>. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access.</span>
+                  <span className="font-bold text-emerald-200">Join 100K+ smart cooks</span> who've revolutionized their kitchens with AI. Get <span className="font-bold text-cyan-200">unlimited personalized recipes in seconds</span> tailored to your taste and ingredients. <span className="font-bold text-emerald-200">Save 10+ hours weekly</span>, <span className="font-bold text-cyan-200">cut grocery bills by 30%</span>, and <span className="font-bold text-blue-200">reduce food waste by 40%</span>. <span className="font-bold text-yellow-200">100% free forever—no credit card, no commitment, instant access.</span>
                 </p>
                 <motion.button
-                  className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-cyan-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
+                  className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/70 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  🚀 Start Cooking Now - Free Forever
+                  🎯 Get Started Now - Completely Free
                   <ArrowRight className="w-6 h-6" />
                 </motion.button>
               </div>
