@@ -35,16 +35,16 @@ export default function Home() {
 
             {/* Main Headline - Powerful & Benefit-Driven */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl animate-fade-in">
-              🍽️ Transform Your Kitchen with AI-Powered Cooking
+              🍽️ Your AI Chef Awaits
               <span className="block bg-gradient-to-r from-emerald-300 via-cyan-300 to-blue-300 bg-clip-text text-transparent mt-3 font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-pulse">
-                Unlimited Personalized Recipes • Save 10+ Hours Weekly • Cut Grocery Bills by 30% • Reduce Food Waste by 40%
+                Never Stress About Dinner Again
               </span>
             </h1>
 
             {/* Hero Subheading with Strong Value Proposition */}
             <div className="mt-8 inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500/30 via-cyan-500/30 to-blue-500/30 border-2 border-emerald-300/80 backdrop-blur-lg shadow-2xl shadow-emerald-500/40 hover:shadow-emerald-500/60 transition-all duration-300 hover:scale-105">
               <p className="text-lg sm:text-xl font-bold text-white leading-relaxed">
-                <span className="text-emerald-200">🎯 Stop wasting time on meal planning.</span> <span className="text-cyan-200">Get unlimited personalized recipes in seconds</span> that match your taste, ingredients, and dietary needs. <span className="text-blue-200">Save 10+ hours weekly, cut grocery bills by 30%, reduce food waste by 40%—100% free forever, no credit card required.</span>
+                <span className="text-emerald-200">✨ Personalized recipes in seconds.</span> <span className="text-cyan-200">Save 10+ hours weekly on meal planning</span> and <span className="text-blue-200">cut grocery bills by 30%</span>. Our AI learns your taste and suggests dishes you'll love. <span className="text-yellow-200">100% free forever—no credit card, no commitment.</span>
               </p>
             </div>
 
@@ -86,9 +86,9 @@ export default function Home() {
               <div className="mb-12 p-8 sm:p-12 rounded-3xl bg-gradient-to-r from-emerald-600/60 via-cyan-600/60 to-blue-600/60 border-3 border-white/40 backdrop-blur-xl shadow-2xl shadow-emerald-500/80 hover:shadow-emerald-500/100 transition-all duration-300 relative overflow-hidden group hover:scale-102">
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/10 via-cyan-400/10 to-blue-400/10 group-hover:from-emerald-400/20 group-hover:via-cyan-400/20 group-hover:to-blue-400/20 transition-all duration-300"></div>
                 <div className="relative z-10 text-center">
-                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">🌟 Transform Your Kitchen Today</h2>
+                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">🌟 Join 100K+ Smart Cooks Today</h2>
                   <p className="text-lg sm:text-xl text-slate-50 mb-8 max-w-2xl mx-auto leading-relaxed">
-                    <span className="font-bold text-emerald-200">Join 100K+ smart cooks</span> who are saving time, money, and stress with AI-powered meal planning. <span className="font-bold text-cyan-200\">Start free today—no credit card, no commitment.</span>
+                    <span className="font-bold text-emerald-200">Get unlimited personalized recipes in seconds</span> and <span className="font-bold text-cyan-200">save 10+ hours weekly on meal planning. <span className="font-bold text-cyan-200\">100% free forever—no credit card, no commitment, instant access.</span>
                   </p>
                   <button
                     onClick={() => {
@@ -97,9 +97,9 @@ export default function Home() {
                         betaSection.scrollIntoView({ behavior: 'smooth' });
                       }
                     }}
-                    className="inline-flex items-center gap-3 px-14 py-6 bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/80 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white border-2 border-white/60 hover:border-white"
+                    className="inline-flex items-center gap-3 px-14 py-6 bg-gradient-to-r from-white to-slate-100 text-emerald-600 font-bold rounded-2xl hover:shadow-2xl hover:shadow-white/80 transition-all duration-300 hover:scale-110 active:scale-95 text-lg hover:from-slate-50 hover:to-white border-2 border-white/60 hover:border-white animate-pulse hover:animate-none"
                   >
-                    🚀 Get Your AI Chef Now - 100% Free
+                    🚀 Start Cooking Free Today
                     <ArrowRight className="w-6 h-6" />
                   </button>
                 </div>
